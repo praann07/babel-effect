@@ -1,3 +1,33 @@
 C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\smoke_test.py:16: DeprecationWarning: HookedTransformer.from_pretrained is deprecated and will be removed in a future major release. Use TransformerBridge.boot_transformers(...) instead, then call enable_compatibility_mode() for HookedTransformer-equivalent numerics. See docs/source/content/migrating_to_v3.md.
   return HookedTransformer.from_pretrained(name, dtype=dtype, device="cuda")
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/148 [00:00<?, ?it/s]Loading weights:  19%|#8        | 28/148 [00:00<00:00, 237.59it/s]Loading weights:  39%|###9      | 58/148 [00:00<00:00, 262.48it/s]Loading weights:  58%|#####8    | 86/148 [00:00<00:00, 265.34it/s]Loading weights:  76%|#######6  | 113/148 [00:00<00:00, 256.31it/s]Loading weights:  96%|#########5| 142/148 [00:00<00:00, 168.95it/s]Loading weights: 100%|##########| 148/148 [00:00<00:00, 199.76it/s]
+WARNING:root:With reduced precision, it is advised to use `from_pretrained_no_processing` instead of `from_pretrained`.
+Loaded pretrained model gpt2 into HookedTransformer
+{
+ "model": "gpt2",
+ "dtype": "bfloat16",
+ "peak_vram_gib": 0.39,
+ "top5": [
+  [
+   " Paris",
+   0.0706
+  ],
+  [
+   " London",
+   0.0585
+  ],
+  [
+   " Amsterdam",
+   0.0485
+  ],
+  [
+   " Berlin",
+   0.0355
+  ],
+  [
+   " New",
+   0.0229
+  ]
+ ]
+}
