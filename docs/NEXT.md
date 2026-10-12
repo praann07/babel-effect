@@ -5,5 +5,6 @@
 - [x] P1 data: data/facts.json n=67 (33 capital_country, 32 capital_of, 2 landmark_city); table at analysis/run_20261012_p1filter_v2/accuracy.md
 - [x] docs/HYPOTHESIS.md committed before any tracing/overlap computation (pre-registration)
 - [x] P2 tracing on 10 facts: pattern visible, 30/30 valid; MLP peak is layers 0-5, not the pre-registered 8-19 (H3 not met; logged)
-- [~] P3: full trace of 67 facts running (analysis/run_20261012_p3trace); next: code/circuit_overlap.py per HYPOTHESIS A3
+- [x] P3 overlap done (n=66): EN-ES above null (z=6.06), EN-HI/ES-HI not distinguishable from null; table at analysis/run_20261012_p3overlap/table_primary.md. MINIMUM PUBLISHABLE UNIT (P0-P3) reached.
+- [ ] NEXT: P4 code/knowledge_edit.py (rank-1 MLP edit at EN peak layer, mid layer 14, random layer; 3 conditions x 10 facts; gate EN edit success >= 80%)
 - [ ] P2 tracing, P3 overlap, P4 editing, P5 transfer, P6 writing

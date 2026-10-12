@@ -1,0 +1,11 @@
+{
+ "source_run": "analysis\\run_20261012_p2trace_v3",
+ "seed": 20261012,
+ "sets": {
+  "primary_valid": 10,
+  "all_kept": 10,
+  "valid_no_landmark": 8,
+  "valid_capital_country": 4,
+  "valid_capital_of": 4
+ }
+}
