@@ -1,0 +1,125 @@
+{
+ "rows": [
+  {
+   "fact": "capital_country_000",
+   "relation": "capital_country",
+   "new_fact": "capital_country_026",
+   "condition": "traced",
+   "layer": 0,
+   "delta_norm_ratio": 1.9053385257720947,
+   "ce_first": 11.361933588981628,
+   "ce_last": 0.02557238459121436,
+   "en": {
+    "p_new_before": 6.2371800595428795e-06,
+    "p_new_after": 0.9391898512840271,
+    "dP": 0.9391835927963257,
+    "p_old_before": 0.8156806230545044,
+    "p_old_after": 0.00980132631957531,
+    "top1_is_new": true,
+    "top1": " Chile"
+   },
+   "es": {
+    "p_new_before": 8.523288852302358e-05,
+    "p_new_after": 0.1377706676721573,
+    "dP": 0.13768543303012848,
+    "p_old_before": 0.94400554895401,
+    "p_old_after": 0.24179507791996002,
+    "top1_is_new": false,
+    "top1": " Franc"
+   },
+   "hi": {
+    "p_new_before": 0.0016797034768387675,
+    "p_new_after": 0.0017844894900918007,
+    "dP": 0.00010478601325303316,
+    "p_old_before": 0.7678675055503845,
+    "p_old_after": 0.7663449645042419,
+    "top1_is_new": false,
+    "top1": " फ"
+   },
+   "specificity_max_abs_dP": 0.022226154804229736,
+   "ppl_ratio": 0.9991069080717182
+  },
+  {
+   "fact": "capital_country_000",
+   "relation": "capital_country",
+   "new_fact": "capital_country_026",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 2.5218653678894043,
+   "ce_first": 11.361933588981628,
+   "ce_last": 0.359988228417933,
+   "en": {
+    "p_new_before": 6.2371800595428795e-06,
+    "p_new_after": 0.5720199346542358,
+    "dP": 0.5720136761665344,
+    "p_old_before": 0.8156806230545044,
+    "p_old_after": 1.3058368494966999e-05,
+    "top1_is_new": true,
+    "top1": " Chile"
+   },
+   "es": {
+    "p_new_before": 8.523288852302358e-05,
+    "p_new_after": 0.7060046195983887,
+    "dP": 0.7059193849563599,
+    "p_old_before": 0.94400554895401,
+    "p_old_after": 2.4962559109553695e-05,
+    "top1_is_new": true,
+    "top1": " Chile"
+   },
+   "hi": {
+    "p_new_before": 0.0016797034768387675,
+    "p_new_after": 0.9403674602508545,
+    "dP": 0.9386877417564392,
+    "p_old_before": 0.7678675055503845,
+    "p_old_after": 0.0005536462413147092,
+    "top1_is_new": true,
+    "top1": " च"
+   },
+   "specificity_max_abs_dP": 0.4278293251991272,
+   "ppl_ratio": 1.0023537513529965
+  },
+  {
+   "fact": "capital_country_000",
+   "relation": "capital_country",
+   "new_fact": "capital_country_026",
+   "condition": "random",
+   "layer": 3,
+   "delta_norm_ratio": 3.999999523162842,
+   "ce_first": 11.361933588981628,
+   "ce_last": 1.691734865307808,
+   "en": {
+    "p_new_before": 6.2371800595428795e-06,
+    "p_new_after": 0.8686655163764954,
+    "dP": 0.868659257888794,
+    "p_old_before": 0.8156806230545044,
+    "p_old_after": 0.0002415830676909536,
+    "top1_is_new": true,
+    "top1": " Chile"
+   },
+   "es": {
+    "p_new_before": 8.523288852302358e-05,
+    "p_new_after": 0.7081247568130493,
+    "dP": 0.7080395221710205,
+    "p_old_before": 0.94400554895401,
+    "p_old_after": 0.000778894464019686,
+    "top1_is_new": true,
+    "top1": " Chile"
+   },
+   "hi": {
+    "p_new_before": 0.0016797034768387675,
+    "p_new_after": 0.028235839679837227,
+    "dP": 0.026556136086583138,
+    "p_old_before": 0.7678675055503845,
+    "p_old_after": 0.14339342713356018,
+    "top1_is_new": false,
+    "top1": " स"
+   },
+   "specificity_max_abs_dP": 0.19683575630187988,
+   "ppl_ratio": 0.9996124895539127
+  }
+ ],
+ "restore_check": {
+  "p_after_all": 0.8156806230545044,
+  "p_baseline": 0.8156806230545044
+ }
+}

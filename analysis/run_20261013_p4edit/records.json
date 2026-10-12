@@ -1,0 +1,1178 @@
+{
+ "rows": [
+  {
+   "fact": "capital_country_000",
+   "relation": "capital_country",
+   "new_fact": "capital_country_026",
+   "condition": "traced",
+   "layer": 0,
+   "delta_norm_ratio": 1.9053385257720947,
+   "ce_first": 11.361933588981628,
+   "ce_last": 0.02557238459121436,
+   "en": {
+    "p_new_before": 6.2371800595428795e-06,
+    "p_new_after": 0.9391898512840271,
+    "dP": 0.9391835927963257,
+    "p_old_before": 0.8156806230545044,
+    "p_old_after": 0.00980132631957531,
+    "top1_is_new": true,
+    "top1": " Chile"
+   },
+   "es": {
+    "p_new_before": 8.523288852302358e-05,
+    "p_new_after": 0.1377706676721573,
+    "dP": 0.13768543303012848,
+    "p_old_before": 0.94400554895401,
+    "p_old_after": 0.24179507791996002,
+    "top1_is_new": false,
+    "top1": " Franc"
+   },
+   "hi": {
+    "p_new_before": 0.0016797034768387675,
+    "p_new_after": 0.0017844894900918007,
+    "dP": 0.00010478601325303316,
+    "p_old_before": 0.7678675055503845,
+    "p_old_after": 0.7663449645042419,
+    "top1_is_new": false,
+    "top1": " फ"
+   },
+   "specificity_max_abs_dP": 0.022226154804229736,
+   "ppl_ratio": 0.9991069080717182
+  },
+  {
+   "fact": "capital_country_000",
+   "relation": "capital_country",
+   "new_fact": "capital_country_026",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 2.5218653678894043,
+   "ce_first": 11.361933588981628,
+   "ce_last": 0.359988228417933,
+   "en": {
+    "p_new_before": 6.2371800595428795e-06,
+    "p_new_after": 0.5720199346542358,
+    "dP": 0.5720136761665344,
+    "p_old_before": 0.8156806230545044,
+    "p_old_after": 1.3058368494966999e-05,
+    "top1_is_new": true,
+    "top1": " Chile"
+   },
+   "es": {
+    "p_new_before": 8.523288852302358e-05,
+    "p_new_after": 0.7060046195983887,
+    "dP": 0.7059193849563599,
+    "p_old_before": 0.94400554895401,
+    "p_old_after": 2.4962559109553695e-05,
+    "top1_is_new": true,
+    "top1": " Chile"
+   },
+   "hi": {
+    "p_new_before": 0.0016797034768387675,
+    "p_new_after": 0.9403674602508545,
+    "dP": 0.9386877417564392,
+    "p_old_before": 0.7678675055503845,
+    "p_old_after": 0.0005536462413147092,
+    "top1_is_new": true,
+    "top1": " च"
+   },
+   "specificity_max_abs_dP": 0.4278293251991272,
+   "ppl_ratio": 1.0023537513529965
+  },
+  {
+   "fact": "capital_country_000",
+   "relation": "capital_country",
+   "new_fact": "capital_country_026",
+   "condition": "random",
+   "layer": 3,
+   "delta_norm_ratio": 3.999999523162842,
+   "ce_first": 11.361933588981628,
+   "ce_last": 1.691734865307808,
+   "en": {
+    "p_new_before": 6.2371800595428795e-06,
+    "p_new_after": 0.8686655163764954,
+    "dP": 0.868659257888794,
+    "p_old_before": 0.8156806230545044,
+    "p_old_after": 0.0002415830676909536,
+    "top1_is_new": true,
+    "top1": " Chile"
+   },
+   "es": {
+    "p_new_before": 8.523288852302358e-05,
+    "p_new_after": 0.7081247568130493,
+    "dP": 0.7080395221710205,
+    "p_old_before": 0.94400554895401,
+    "p_old_after": 0.000778894464019686,
+    "top1_is_new": true,
+    "top1": " Chile"
+   },
+   "hi": {
+    "p_new_before": 0.0016797034768387675,
+    "p_new_after": 0.028235839679837227,
+    "dP": 0.026556136086583138,
+    "p_old_before": 0.7678675055503845,
+    "p_old_after": 0.14339342713356018,
+    "top1_is_new": false,
+    "top1": " स"
+   },
+   "specificity_max_abs_dP": 0.19683575630187988,
+   "ppl_ratio": 0.9996124895539127
+  },
+  {
+   "fact": "capital_country_001",
+   "relation": "capital_country",
+   "new_fact": "capital_country_047",
+   "condition": "traced",
+   "layer": 0,
+   "delta_norm_ratio": 4.0,
+   "ce_first": 9.01430594921112,
+   "ce_last": 0.18298751791007817,
+   "en": {
+    "p_new_before": 2.7184925784240477e-05,
+    "p_new_after": 0.8942519426345825,
+    "dP": 0.8942247629165649,
+    "p_old_before": 0.9274207949638367,
+    "p_old_after": 0.0002194760018028319,
+    "top1_is_new": true,
+    "top1": " Romania"
+   },
+   "es": {
+    "p_new_before": 0.00020948775636497885,
+    "p_new_after": 0.07347647100687027,
+    "dP": 0.07326698303222656,
+    "p_old_before": 0.9086046814918518,
+    "p_old_after": 0.004412604961544275,
+    "top1_is_new": false,
+    "top1": " la"
+   },
+   "hi": {
+    "p_new_before": 0.0032034805044531822,
+    "p_new_after": 0.0026025439146906137,
+    "dP": -0.0006009365897625685,
+    "p_old_before": 0.6498476266860962,
+    "p_old_after": 0.6778929233551025,
+    "top1_is_new": false,
+    "top1": " जर"
+   },
+   "specificity_max_abs_dP": 0.05524039268493652,
+   "ppl_ratio": 1.0023102144695664
+  },
+  {
+   "fact": "capital_country_001",
+   "relation": "capital_country",
+   "new_fact": "capital_country_047",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 1.9846594333648682,
+   "ce_first": 9.01430594921112,
+   "ce_last": 0.08978785434737802,
+   "en": {
+    "p_new_before": 2.7184925784240477e-05,
+    "p_new_after": 0.9506011009216309,
+    "dP": 0.9505739212036133,
+    "p_old_before": 0.9274207949638367,
+    "p_old_after": 0.0046860710717737675,
+    "top1_is_new": true,
+    "top1": " Romania"
+   },
+   "es": {
+    "p_new_before": 0.00020948775636497885,
+    "p_new_after": 0.07788489758968353,
+    "dP": 0.07767540961503983,
+    "p_old_before": 0.9086046814918518,
+    "p_old_after": 0.004127747844904661,
+    "top1_is_new": false,
+    "top1": " España"
+   },
+   "hi": {
+    "p_new_before": 0.0032034805044531822,
+    "p_new_after": 0.062307585030794144,
+    "dP": 0.05910410359501839,
+    "p_old_before": 0.6498476266860962,
+    "p_old_after": 0.19192087650299072,
+    "top1_is_new": false,
+    "top1": " जर"
+   },
+   "specificity_max_abs_dP": 0.021492063999176025,
+   "ppl_ratio": 1.0005919892044592
+  },
+  {
+   "fact": "capital_country_001",
+   "relation": "capital_country",
+   "new_fact": "capital_country_047",
+   "condition": "random",
+   "layer": 4,
+   "delta_norm_ratio": 4.0,
+   "ce_first": 9.01430594921112,
+   "ce_last": 1.5409752577543259,
+   "en": {
+    "p_new_before": 2.7184925784240477e-05,
+    "p_new_after": 0.6568130254745483,
+    "dP": 0.6567858457565308,
+    "p_old_before": 0.9274207949638367,
+    "p_old_after": 0.0005626482889056206,
+    "top1_is_new": true,
+    "top1": " Romania"
+   },
+   "es": {
+    "p_new_before": 0.00020948775636497885,
+    "p_new_after": 0.17810644209384918,
+    "dP": 0.17789696156978607,
+    "p_old_before": 0.9086046814918518,
+    "p_old_after": 0.0011631496017798781,
+    "top1_is_new": false,
+    "top1": " la"
+   },
+   "hi": {
+    "p_new_before": 0.0032034805044531822,
+    "p_new_after": 0.4449094235897064,
+    "dP": 0.44170594215393066,
+    "p_old_before": 0.6498476266860962,
+    "p_old_after": 0.00675559276714921,
+    "top1_is_new": true,
+    "top1": " र"
+   },
+   "specificity_max_abs_dP": 0.9165576536906883,
+   "ppl_ratio": 0.9982199202449039
+  },
+  {
+   "fact": "capital_country_002",
+   "relation": "capital_country",
+   "new_fact": "capital_country_016",
+   "condition": "traced",
+   "layer": 2,
+   "delta_norm_ratio": 4.0,
+   "ce_first": 8.365650415420532,
+   "ce_last": 0.03643997199833393,
+   "en": {
+    "p_new_before": 3.606501195463352e-05,
+    "p_new_after": 0.9212087392807007,
+    "dP": 0.9211726784706116,
+    "p_old_before": 0.9001559019088745,
+    "p_old_after": 0.0011481898836791515,
+    "top1_is_new": true,
+    "top1": " Sweden"
+   },
+   "es": {
+    "p_new_before": 0.00018344586715102196,
+    "p_new_after": 0.47573792934417725,
+    "dP": 0.475554496049881,
+    "p_old_before": 0.4533499479293823,
+    "p_old_after": 0.0008627477800473571,
+    "top1_is_new": true,
+    "top1": " Sue"
+   },
+   "hi": {
+    "p_new_before": 0.05668479949235916,
+    "p_new_after": 0.0962027758359909,
+    "dP": 0.039517976343631744,
+    "p_old_before": 0.44586053490638733,
+    "p_old_after": 0.031232468783855438,
+    "top1_is_new": false,
+    "top1": " र"
+   },
+   "specificity_max_abs_dP": 0.9806475518271327,
+   "ppl_ratio": 1.0013310193683953
+  },
+  {
+   "fact": "capital_country_002",
+   "relation": "capital_country",
+   "new_fact": "capital_country_016",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 3.3502590656280518,
+   "ce_first": 8.365650415420532,
+   "ce_last": 0.08868423197418451,
+   "en": {
+    "p_new_before": 3.606501195463352e-05,
+    "p_new_after": 0.7680622339248657,
+    "dP": 0.7680261731147766,
+    "p_old_before": 0.9001559019088745,
+    "p_old_after": 8.460946787636203e-07,
+    "top1_is_new": true,
+    "top1": " Sweden"
+   },
+   "es": {
+    "p_new_before": 0.00018344586715102196,
+    "p_new_after": 0.32184168696403503,
+    "dP": 0.32165825366973877,
+    "p_old_before": 0.4533499479293823,
+    "p_old_after": 1.3097744158585556e-05,
+    "top1_is_new": true,
+    "top1": " Sue"
+   },
+   "hi": {
+    "p_new_before": 0.05668479949235916,
+    "p_new_after": 0.9400501251220703,
+    "dP": 0.8833653330802917,
+    "p_old_before": 0.44586053490638733,
+    "p_old_after": 0.0004588340234477073,
+    "top1_is_new": true,
+    "top1": " स"
+   },
+   "specificity_max_abs_dP": 0.8694511353969574,
+   "ppl_ratio": 1.0164519566579462
+  },
+  {
+   "fact": "capital_country_002",
+   "relation": "capital_country",
+   "new_fact": "capital_country_016",
+   "condition": "random",
+   "layer": 24,
+   "delta_norm_ratio": 1.7925286293029785,
+   "ce_first": 8.365650415420532,
+   "ce_last": 0.1796724945306778,
+   "en": {
+    "p_new_before": 3.606501195463352e-05,
+    "p_new_after": 0.9596374034881592,
+    "dP": 0.9596013426780701,
+    "p_old_before": 0.9001559019088745,
+    "p_old_after": 0.010660609230399132,
+    "top1_is_new": true,
+    "top1": " Sweden"
+   },
+   "es": {
+    "p_new_before": 0.00018344586715102196,
+    "p_new_after": 0.0018032302614301443,
+    "dP": 0.0016197843942791224,
+    "p_old_before": 0.4533499479293823,
+    "p_old_after": 0.34363487362861633,
+    "top1_is_new": false,
+    "top1": " Italia"
+   },
+   "hi": {
+    "p_new_before": 0.05668479949235916,
+    "p_new_after": 0.06349021196365356,
+    "dP": 0.006805412471294403,
+    "p_old_before": 0.44586053490638733,
+    "p_old_after": 0.4407093822956085,
+    "top1_is_new": false,
+    "top1": " इ"
+   },
+   "specificity_max_abs_dP": 0.015364766120910645,
+   "ppl_ratio": 1.0008297152672532
+  },
+  {
+   "fact": "capital_country_003",
+   "relation": "capital_country",
+   "new_fact": "capital_country_016",
+   "condition": "traced",
+   "layer": 3,
+   "delta_norm_ratio": 1.8520480394363403,
+   "ce_first": 9.791162610054016,
+   "ce_last": 0.0912284879013896,
+   "en": {
+    "p_new_before": 4.135784547543153e-05,
+    "p_new_after": 0.4352763295173645,
+    "dP": 0.4352349638938904,
+    "p_old_before": 0.9109671115875244,
+    "p_old_after": 0.49323269724845886,
+    "top1_is_new": false,
+    "top1": " Spain"
+   },
+   "es": {
+    "p_new_before": 4.462512151803821e-05,
+    "p_new_after": 0.011592695489525795,
+    "dP": 0.01154807023704052,
+    "p_old_before": 0.9233806729316711,
+    "p_old_after": 0.9209218621253967,
+    "top1_is_new": false,
+    "top1": " España"
+   },
+   "hi": {
+    "p_new_before": 0.7951257228851318,
+    "p_new_after": 0.905414879322052,
+    "dP": 0.11028915643692017,
+    "p_old_before": 0.7951257228851318,
+    "p_old_after": 0.905414879322052,
+    "top1_is_new": true,
+    "top1": " स"
+   },
+   "specificity_max_abs_dP": 0.024217188358306885,
+   "ppl_ratio": 0.9998387606881195
+  },
+  {
+   "fact": "capital_country_003",
+   "relation": "capital_country",
+   "new_fact": "capital_country_016",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 3.2434287071228027,
+   "ce_first": 9.791162610054016,
+   "ce_last": 0.2414237135089934,
+   "en": {
+    "p_new_before": 4.135784547543153e-05,
+    "p_new_after": 0.946208655834198,
+    "dP": 0.9461672902107239,
+    "p_old_before": 0.9109671115875244,
+    "p_old_after": 2.0291830878704786e-05,
+    "top1_is_new": true,
+    "top1": " Sweden"
+   },
+   "es": {
+    "p_new_before": 4.462512151803821e-05,
+    "p_new_after": 0.007031099870800972,
+    "dP": 0.006986474618315697,
+    "p_old_before": 0.9233806729316711,
+    "p_old_after": 3.689582445076667e-05,
+    "top1_is_new": false,
+    "top1": " S"
+   },
+   "hi": {
+    "p_new_before": 0.7951257228851318,
+    "p_new_after": 0.8441514372825623,
+    "dP": 0.04902571439743042,
+    "p_old_before": 0.7951257228851318,
+    "p_old_after": 0.8441514372825623,
+    "top1_is_new": true,
+    "top1": " स"
+   },
+   "specificity_max_abs_dP": 0.9456122778356075,
+   "ppl_ratio": 1.0023169488034114
+  },
+  {
+   "fact": "capital_country_003",
+   "relation": "capital_country",
+   "new_fact": "capital_country_016",
+   "condition": "random",
+   "layer": 26,
+   "delta_norm_ratio": 2.6752867698669434,
+   "ce_first": 9.791162610054016,
+   "ce_last": 0.4787013679742813,
+   "en": {
+    "p_new_before": 4.135784547543153e-05,
+    "p_new_after": 0.9344545602798462,
+    "dP": 0.9344131946563721,
+    "p_old_before": 0.9109671115875244,
+    "p_old_after": 0.03197527676820755,
+    "top1_is_new": true,
+    "top1": " Sweden"
+   },
+   "es": {
+    "p_new_before": 4.462512151803821e-05,
+    "p_new_after": 0.00039087398909032345,
+    "dP": 0.00034624885302037,
+    "p_old_before": 0.9233806729316711,
+    "p_old_after": 0.5334578156471252,
+    "top1_is_new": false,
+    "top1": " España"
+   },
+   "hi": {
+    "p_new_before": 0.7951257228851318,
+    "p_new_after": 0.7876570820808411,
+    "dP": -0.0074686408042907715,
+    "p_old_before": 0.7951257228851318,
+    "p_old_after": 0.7876570820808411,
+    "top1_is_new": true,
+    "top1": " स"
+   },
+   "specificity_max_abs_dP": 0.048461318016052246,
+   "ppl_ratio": 1.0004183738345684
+  },
+  {
+   "fact": "capital_of_000",
+   "relation": "capital_of",
+   "new_fact": "capital_of_016",
+   "condition": "traced",
+   "layer": 3,
+   "delta_norm_ratio": 2.792273759841919,
+   "ce_first": 10.32247507572174,
+   "ce_last": 0.036288570845499635,
+   "en": {
+    "p_new_before": 1.807614171411842e-05,
+    "p_new_after": 0.9799839854240417,
+    "dP": 0.9799659252166748,
+    "p_old_before": 0.6987811923027039,
+    "p_old_after": 0.00010672885400708765,
+    "top1_is_new": true,
+    "top1": " Stockholm"
+   },
+   "es": {
+    "p_new_before": 0.0002085408486891538,
+    "p_new_after": 0.07629556208848953,
+    "dP": 0.07608702033758163,
+    "p_old_before": 0.26736897230148315,
+    "p_old_after": 0.009112205356359482,
+    "top1_is_new": false,
+    "top1": " la"
+   },
+   "hi": {
+    "p_new_before": 0.009866599924862385,
+    "p_new_after": 0.271180659532547,
+    "dP": 0.2613140642642975,
+    "p_old_before": 0.5386980772018433,
+    "p_old_after": 0.011914846487343311,
+    "top1_is_new": true,
+    "top1": " स"
+   },
+   "specificity_max_abs_dP": 0.10569733381271362,
+   "ppl_ratio": 1.001945611132454
+  },
+  {
+   "fact": "capital_of_000",
+   "relation": "capital_of",
+   "new_fact": "capital_of_016",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 3.8551697731018066,
+   "ce_first": 10.32247507572174,
+   "ce_last": 0.050786533392965794,
+   "en": {
+    "p_new_before": 1.807614171411842e-05,
+    "p_new_after": 0.885905921459198,
+    "dP": 0.885887861251831,
+    "p_old_before": 0.6987811923027039,
+    "p_old_after": 8.698199962964281e-06,
+    "top1_is_new": true,
+    "top1": " Stockholm"
+   },
+   "es": {
+    "p_new_before": 0.0002085408486891538,
+    "p_new_after": 0.06262549012899399,
+    "dP": 0.06241694837808609,
+    "p_old_before": 0.26736897230148315,
+    "p_old_after": 0.0003185175883118063,
+    "top1_is_new": false,
+    "top1": " Stockholm"
+   },
+   "hi": {
+    "p_new_before": 0.009866599924862385,
+    "p_new_after": 0.9186068773269653,
+    "dP": 0.9087402820587158,
+    "p_old_before": 0.5386980772018433,
+    "p_old_after": 0.0005408346187323332,
+    "top1_is_new": true,
+    "top1": " स"
+   },
+   "specificity_max_abs_dP": 0.8860895708639873,
+   "ppl_ratio": 1.0023468934283286
+  },
+  {
+   "fact": "capital_of_000",
+   "relation": "capital_of",
+   "new_fact": "capital_of_016",
+   "condition": "random",
+   "layer": 17,
+   "delta_norm_ratio": 4.000000476837158,
+   "ce_first": 10.32247507572174,
+   "ce_last": 0.15026010386645794,
+   "en": {
+    "p_new_before": 1.807614171411842e-05,
+    "p_new_after": 0.9404587745666504,
+    "dP": 0.9404407143592834,
+    "p_old_before": 0.6987811923027039,
+    "p_old_after": 0.0038434399757534266,
+    "top1_is_new": true,
+    "top1": " Stockholm"
+   },
+   "es": {
+    "p_new_before": 0.0002085408486891538,
+    "p_new_after": 0.007395932450890541,
+    "dP": 0.007187391631305218,
+    "p_old_before": 0.26736897230148315,
+    "p_old_after": 0.0011702064657583833,
+    "top1_is_new": false,
+    "top1": " la"
+   },
+   "hi": {
+    "p_new_before": 0.009866599924862385,
+    "p_new_after": 0.7790002226829529,
+    "dP": 0.7691336274147034,
+    "p_old_before": 0.5386980772018433,
+    "p_old_after": 0.004351459909230471,
+    "top1_is_new": true,
+    "top1": " स"
+   },
+   "specificity_max_abs_dP": 0.1272241473197937,
+   "ppl_ratio": 1.001541958863518
+  },
+  {
+   "fact": "capital_of_002",
+   "relation": "capital_of",
+   "new_fact": "capital_of_005",
+   "condition": "traced",
+   "layer": 3,
+   "delta_norm_ratio": 4.0,
+   "ce_first": 10.162228226661682,
+   "ce_last": 0.02179746318142861,
+   "en": {
+    "p_new_before": 2.1527730496018194e-05,
+    "p_new_after": 0.9988967180252075,
+    "dP": 0.9988752007484436,
+    "p_old_before": 0.7577371597290039,
+    "p_old_after": 1.2864760492448113e-06,
+    "top1_is_new": true,
+    "top1": " Tokyo"
+   },
+   "es": {
+    "p_new_before": 4.631319461623207e-05,
+    "p_new_after": 0.8354607820510864,
+    "dP": 0.835414469242096,
+    "p_old_before": 0.3752797245979309,
+    "p_old_after": 0.0028305852320045233,
+    "top1_is_new": true,
+    "top1": " Tok"
+   },
+   "hi": {
+    "p_new_before": 0.0014289808459579945,
+    "p_new_after": 0.37787455320358276,
+    "dP": 0.37644556164741516,
+    "p_old_before": 0.5415641069412231,
+    "p_old_after": 0.0843152105808258,
+    "top1_is_new": true,
+    "top1": " ट"
+   },
+   "specificity_max_abs_dP": 0.04310804605484009,
+   "ppl_ratio": 1.0003714536779598
+  },
+  {
+   "fact": "capital_of_002",
+   "relation": "capital_of",
+   "new_fact": "capital_of_005",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 3.4891538619995117,
+   "ce_first": 10.162228226661682,
+   "ce_last": 0.005385549884522334,
+   "en": {
+    "p_new_before": 2.1527730496018194e-05,
+    "p_new_after": 0.997433602809906,
+    "dP": 0.9974120855331421,
+    "p_old_before": 0.7577371597290039,
+    "p_old_after": 7.959459225048704e-08,
+    "top1_is_new": true,
+    "top1": " Tokyo"
+   },
+   "es": {
+    "p_new_before": 4.631319461623207e-05,
+    "p_new_after": 0.6887637376785278,
+    "dP": 0.6887174248695374,
+    "p_old_before": 0.3752797245979309,
+    "p_old_after": 0.00010252981155645102,
+    "top1_is_new": true,
+    "top1": " Tok"
+   },
+   "hi": {
+    "p_new_before": 0.0014289808459579945,
+    "p_new_after": 0.42615780234336853,
+    "dP": 0.4247288107872009,
+    "p_old_before": 0.5415641069412231,
+    "p_old_after": 0.00647086463868618,
+    "top1_is_new": true,
+    "top1": " ट"
+   },
+   "specificity_max_abs_dP": 0.2742519676685333,
+   "ppl_ratio": 1.0036397336811609
+  },
+  {
+   "fact": "capital_of_002",
+   "relation": "capital_of",
+   "new_fact": "capital_of_005",
+   "condition": "random",
+   "layer": 21,
+   "delta_norm_ratio": 2.2250046730041504,
+   "ce_first": 10.162228226661682,
+   "ce_last": 0.06093254568986595,
+   "en": {
+    "p_new_before": 2.1527730496018194e-05,
+    "p_new_after": 0.9388955235481262,
+    "dP": 0.9388740062713623,
+    "p_old_before": 0.7577371597290039,
+    "p_old_after": 0.04391273111104965,
+    "top1_is_new": true,
+    "top1": " Tokyo"
+   },
+   "es": {
+    "p_new_before": 4.631319461623207e-05,
+    "p_new_after": 0.002384086372330785,
+    "dP": 0.002337773097679019,
+    "p_old_before": 0.3752797245979309,
+    "p_old_after": 0.3026466369628906,
+    "top1_is_new": false,
+    "top1": " Roma"
+   },
+   "hi": {
+    "p_new_before": 0.0014289808459579945,
+    "p_new_after": 0.0012637717882171273,
+    "dP": -0.00016520905774086714,
+    "p_old_before": 0.5415641069412231,
+    "p_old_after": 0.614986777305603,
+    "top1_is_new": false,
+    "top1": " र"
+   },
+   "specificity_max_abs_dP": 0.03949040174484253,
+   "ppl_ratio": 0.9981944853893354
+  },
+  {
+   "fact": "capital_of_003",
+   "relation": "capital_of",
+   "new_fact": "capital_of_050",
+   "condition": "traced",
+   "layer": 0,
+   "delta_norm_ratio": 3.933640241622925,
+   "ce_first": 12.773349523544312,
+   "ce_last": 0.04326615366153419,
+   "en": {
+    "p_new_before": 4.136288680456346e-06,
+    "p_new_after": 0.9683849811553955,
+    "dP": 0.968380868434906,
+    "p_old_before": 0.6732008457183838,
+    "p_old_after": 1.8722387267189333e-06,
+    "top1_is_new": true,
+    "top1": " Bel"
+   },
+   "es": {
+    "p_new_before": 1.2688165952567942e-05,
+    "p_new_after": 0.744353175163269,
+    "dP": 0.7443404793739319,
+    "p_old_before": 0.7961513996124268,
+    "p_old_after": 0.007297382224351168,
+    "top1_is_new": true,
+    "top1": " Bel"
+   },
+   "hi": {
+    "p_new_before": 0.004007859155535698,
+    "p_new_after": 0.00407585222274065,
+    "dP": 6.799306720495224e-05,
+    "p_old_before": 0.7637627720832825,
+    "p_old_after": 0.7767199277877808,
+    "top1_is_new": false,
+    "top1": " म"
+   },
+   "specificity_max_abs_dP": 0.7446076903725043,
+   "ppl_ratio": 1.0082313486854635
+  },
+  {
+   "fact": "capital_of_003",
+   "relation": "capital_of",
+   "new_fact": "capital_of_050",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 3.4087586402893066,
+   "ce_first": 12.773349523544312,
+   "ce_last": 0.019628608133643866,
+   "en": {
+    "p_new_before": 4.136288680456346e-06,
+    "p_new_after": 0.874381959438324,
+    "dP": 0.8743778467178345,
+    "p_old_before": 0.6732008457183838,
+    "p_old_after": 3.1582640076521784e-06,
+    "top1_is_new": true,
+    "top1": " Bel"
+   },
+   "es": {
+    "p_new_before": 1.2688165952567942e-05,
+    "p_new_after": 0.28279024362564087,
+    "dP": 0.2827775478363037,
+    "p_old_before": 0.7961513996124268,
+    "p_old_after": 0.00035246831248514354,
+    "top1_is_new": false,
+    "top1": " la"
+   },
+   "hi": {
+    "p_new_before": 0.004007859155535698,
+    "p_new_after": 0.8809416890144348,
+    "dP": 0.8769338130950928,
+    "p_old_before": 0.7637627720832825,
+    "p_old_after": 0.0015007898909971118,
+    "top1_is_new": true,
+    "top1": " ब"
+   },
+   "specificity_max_abs_dP": 0.9151582904160023,
+   "ppl_ratio": 1.000138556941719
+  },
+  {
+   "fact": "capital_of_003",
+   "relation": "capital_of",
+   "new_fact": "capital_of_050",
+   "condition": "random",
+   "layer": 17,
+   "delta_norm_ratio": 2.2507143020629883,
+   "ce_first": 12.773349523544312,
+   "ce_last": 0.08529477892443538,
+   "en": {
+    "p_new_before": 4.136288680456346e-06,
+    "p_new_after": 0.9958594441413879,
+    "dP": 0.9958553314208984,
+    "p_old_before": 0.6732008457183838,
+    "p_old_after": 1.1794240890594665e-05,
+    "top1_is_new": true,
+    "top1": " Bel"
+   },
+   "es": {
+    "p_new_before": 1.2688165952567942e-05,
+    "p_new_after": 0.008898976258933544,
+    "dP": 0.008886287920176983,
+    "p_old_before": 0.7961513996124268,
+    "p_old_after": 0.4564303755760193,
+    "top1_is_new": false,
+    "top1": " Madrid"
+   },
+   "hi": {
+    "p_new_before": 0.004007859155535698,
+    "p_new_after": 0.007148152682930231,
+    "dP": 0.003140293527394533,
+    "p_old_before": 0.7637627720832825,
+    "p_old_after": 0.7291313409805298,
+    "top1_is_new": false,
+    "top1": " म"
+   },
+   "specificity_max_abs_dP": 0.07283991575241089,
+   "ppl_ratio": 0.997862603287041
+  },
+  {
+   "fact": "capital_of_004",
+   "relation": "capital_of",
+   "new_fact": "capital_of_104",
+   "condition": "traced",
+   "layer": 2,
+   "delta_norm_ratio": 4.0,
+   "ce_first": 14.219075202941895,
+   "ce_last": 0.04129808978177607,
+   "en": {
+    "p_new_before": 9.178718869407021e-07,
+    "p_new_after": 0.9589070677757263,
+    "dP": 0.9589061737060547,
+    "p_old_before": 0.9151127338409424,
+    "p_old_after": 4.049321887578117e-06,
+    "top1_is_new": true,
+    "top1": " Tir"
+   },
+   "es": {
+    "p_new_before": 4.0978008541969757e-07,
+    "p_new_after": 0.5720354318618774,
+    "dP": 0.572035014629364,
+    "p_old_before": 0.6097205281257629,
+    "p_old_after": 0.00027061745640821755,
+    "top1_is_new": true,
+    "top1": " Tir"
+   },
+   "hi": {
+    "p_new_before": 0.002481494564563036,
+    "p_new_after": 0.009606147184967995,
+    "dP": 0.007124652620404959,
+    "p_old_before": 0.6880496740341187,
+    "p_old_after": 0.004262702539563179,
+    "top1_is_new": false,
+    "top1": " क"
+   },
+   "specificity_max_abs_dP": 0.04702603816986084,
+   "ppl_ratio": 0.9986516391281627
+  },
+  {
+   "fact": "capital_of_004",
+   "relation": "capital_of",
+   "new_fact": "capital_of_104",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 2.2268941402435303,
+   "ce_first": 14.219075202941895,
+   "ce_last": 0.005845543870236725,
+   "en": {
+    "p_new_before": 9.178718869407021e-07,
+    "p_new_after": 0.98712557554245,
+    "dP": 0.9871246814727783,
+    "p_old_before": 0.9151127338409424,
+    "p_old_after": 1.5183704249466246e-07,
+    "top1_is_new": true,
+    "top1": " Tir"
+   },
+   "es": {
+    "p_new_before": 4.0978008541969757e-07,
+    "p_new_after": 0.7755175828933716,
+    "dP": 0.7755171656608582,
+    "p_old_before": 0.6097205281257629,
+    "p_old_after": 2.237985063402448e-05,
+    "top1_is_new": true,
+    "top1": " Tir"
+   },
+   "hi": {
+    "p_new_before": 0.002481494564563036,
+    "p_new_after": 0.012237504124641418,
+    "dP": 0.00975601002573967,
+    "p_old_before": 0.6880496740341187,
+    "p_old_after": 0.002409707522019744,
+    "top1_is_new": false,
+    "top1": " प"
+   },
+   "specificity_max_abs_dP": 0.16499143838882446,
+   "ppl_ratio": 1.0018604801268174
+  },
+  {
+   "fact": "capital_of_004",
+   "relation": "capital_of",
+   "new_fact": "capital_of_104",
+   "condition": "random",
+   "layer": 7,
+   "delta_norm_ratio": 4.0,
+   "ce_first": 14.219075202941895,
+   "ce_last": 2.01181467063725,
+   "en": {
+    "p_new_before": 9.178718869407021e-07,
+    "p_new_after": 0.9260619282722473,
+    "dP": 0.9260610342025757,
+    "p_old_before": 0.9151127338409424,
+    "p_old_after": 9.678881724539679e-06,
+    "top1_is_new": true,
+    "top1": " Tir"
+   },
+   "es": {
+    "p_new_before": 4.0978008541969757e-07,
+    "p_new_after": 0.06918047368526459,
+    "dP": 0.06918006390333176,
+    "p_old_before": 0.6097205281257629,
+    "p_old_after": 0.0005801135557703674,
+    "top1_is_new": false,
+    "top1": " B"
+   },
+   "hi": {
+    "p_new_before": 0.002481494564563036,
+    "p_new_after": 0.0067093633115291595,
+    "dP": 0.004227868746966124,
+    "p_old_before": 0.6880496740341187,
+    "p_old_after": 0.005920992232859135,
+    "top1_is_new": false,
+    "top1": " क"
+   },
+   "specificity_max_abs_dP": 0.8958457403132343,
+   "ppl_ratio": 1.000126884333281
+  },
+  {
+   "fact": "landmark_city_027",
+   "relation": "landmark_city",
+   "new_fact": "landmark_city_038",
+   "condition": "traced",
+   "layer": 4,
+   "delta_norm_ratio": 2.0609219074249268,
+   "ce_first": 11.155817985534668,
+   "ce_last": 0.007582361635286361,
+   "en": {
+    "p_new_before": 8.833580068312585e-06,
+    "p_new_after": 0.7751048803329468,
+    "dP": 0.77509605884552,
+    "p_old_before": 0.9881209135055542,
+    "p_old_after": 0.00047083303797990084,
+    "top1_is_new": true,
+    "top1": " M"
+   },
+   "es": {
+    "p_new_before": 0.00015403445286210626,
+    "p_new_after": 0.00018540123710408807,
+    "dP": 3.1366784241981804e-05,
+    "p_old_before": 0.972063422203064,
+    "p_old_after": 0.9699718952178955,
+    "top1_is_new": false,
+    "top1": " Ed"
+   },
+   "hi": {
+    "p_new_before": 0.009368570521473885,
+    "p_new_after": 0.010805775411427021,
+    "dP": 0.0014372048899531364,
+    "p_old_before": 0.3515530228614807,
+    "p_old_after": 0.33615779876708984,
+    "top1_is_new": false,
+    "top1": " एड"
+   },
+   "specificity_max_abs_dP": 0.029501259326934814,
+   "ppl_ratio": 0.9994801140155956
+  },
+  {
+   "fact": "landmark_city_027",
+   "relation": "landmark_city",
+   "new_fact": "landmark_city_038",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 2.795544147491455,
+   "ce_first": 11.155817985534668,
+   "ce_last": 0.9801238141953945,
+   "en": {
+    "p_new_before": 8.833580068312585e-06,
+    "p_new_after": 0.9765674471855164,
+    "dP": 0.9765586256980896,
+    "p_old_before": 0.9881209135055542,
+    "p_old_after": 1.3105724065098912e-05,
+    "top1_is_new": true,
+    "top1": " M"
+   },
+   "es": {
+    "p_new_before": 0.00015403445286210626,
+    "p_new_after": 0.0005285473307594657,
+    "dP": 0.0003745128633454442,
+    "p_old_before": 0.972063422203064,
+    "p_old_after": 0.9556359648704529,
+    "top1_is_new": false,
+    "top1": " Ed"
+   },
+   "hi": {
+    "p_new_before": 0.009368570521473885,
+    "p_new_after": 0.007845624350011349,
+    "dP": -0.0015229461714625359,
+    "p_old_before": 0.3515530228614807,
+    "p_old_after": 0.35512006282806396,
+    "top1_is_new": false,
+    "top1": " एड"
+   },
+   "specificity_max_abs_dP": 0.03758537769317627,
+   "ppl_ratio": 1.0003452773915855
+  },
+  {
+   "fact": "landmark_city_027",
+   "relation": "landmark_city",
+   "new_fact": "landmark_city_038",
+   "condition": "random",
+   "layer": 25,
+   "delta_norm_ratio": 2.0077648162841797,
+   "ce_first": 11.155817985534668,
+   "ce_last": 0.05750372595502995,
+   "en": {
+    "p_new_before": 8.833580068312585e-06,
+    "p_new_after": 0.9937390089035034,
+    "dP": 0.9937301874160767,
+    "p_old_before": 0.9881209135055542,
+    "p_old_after": 8.69627547217533e-05,
+    "top1_is_new": true,
+    "top1": " M"
+   },
+   "es": {
+    "p_new_before": 0.00015403445286210626,
+    "p_new_after": 0.00018605348304845393,
+    "dP": 3.2019030186347663e-05,
+    "p_old_before": 0.972063422203064,
+    "p_old_after": 0.9733842611312866,
+    "top1_is_new": false,
+    "top1": " Ed"
+   },
+   "hi": {
+    "p_new_before": 0.009368570521473885,
+    "p_new_after": 0.014041244052350521,
+    "dP": 0.0046726735308766365,
+    "p_old_before": 0.3515530228614807,
+    "p_old_after": 0.31957724690437317,
+    "top1_is_new": false,
+    "top1": " एड"
+   },
+   "specificity_max_abs_dP": 0.024554908275604248,
+   "ppl_ratio": 1.0006042267944097
+  },
+  {
+   "fact": "landmark_city_038",
+   "relation": "landmark_city",
+   "new_fact": "landmark_city_027",
+   "condition": "traced",
+   "layer": 5,
+   "delta_norm_ratio": 4.0,
+   "ce_first": 16.67645239830017,
+   "ce_last": 0.016374461934901774,
+   "en": {
+    "p_new_before": 1.2085024536645506e-08,
+    "p_new_after": 0.9886694550514221,
+    "dP": 0.9886694550514221,
+    "p_old_before": 0.9952749013900757,
+    "p_old_after": 1.7577425751369447e-05,
+    "top1_is_new": true,
+    "top1": " Edinburgh"
+   },
+   "es": {
+    "p_new_before": 3.677194763440639e-05,
+    "p_new_after": 2.122131490978063e-06,
+    "dP": -3.4649816370802e-05,
+    "p_old_before": 0.862193763256073,
+    "p_old_after": 0.9839162230491638,
+    "top1_is_new": false,
+    "top1": " M"
+   },
+   "hi": {
+    "p_new_before": 0.00033691892167553306,
+    "p_new_after": 0.0007549498695880175,
+    "dP": 0.0004180309479124844,
+    "p_old_before": 0.21052132546901703,
+    "p_old_after": 0.19059410691261292,
+    "top1_is_new": false,
+    "top1": " म"
+   },
+   "specificity_max_abs_dP": 0.016751348972320557,
+   "ppl_ratio": 1.0014972960540933
+  },
+  {
+   "fact": "landmark_city_038",
+   "relation": "landmark_city",
+   "new_fact": "landmark_city_027",
+   "condition": "mid",
+   "layer": 14,
+   "delta_norm_ratio": 1.7038654088974,
+   "ce_first": 16.67645239830017,
+   "ce_last": 0.11762632010504603,
+   "en": {
+    "p_new_before": 1.2085024536645506e-08,
+    "p_new_after": 0.9074991345405579,
+    "dP": 0.9074991345405579,
+    "p_old_before": 0.9952749013900757,
+    "p_old_after": 0.05801447853446007,
+    "top1_is_new": true,
+    "top1": " Edinburgh"
+   },
+   "es": {
+    "p_new_before": 3.677194763440639e-05,
+    "p_new_after": 0.00010626635776134208,
+    "dP": 6.949441012693569e-05,
+    "p_old_before": 0.862193763256073,
+    "p_old_after": 0.7365252375602722,
+    "top1_is_new": false,
+    "top1": " M"
+   },
+   "hi": {
+    "p_new_before": 0.00033691892167553306,
+    "p_new_after": 0.0011811917647719383,
+    "dP": 0.0008442728430964053,
+    "p_old_before": 0.21052132546901703,
+    "p_old_after": 0.21145746111869812,
+    "top1_is_new": false,
+    "top1": " म"
+   },
+   "specificity_max_abs_dP": 0.04903605580329895,
+   "ppl_ratio": 0.9998086244248084
+  },
+  {
+   "fact": "landmark_city_038",
+   "relation": "landmark_city",
+   "new_fact": "landmark_city_027",
+   "condition": "random",
+   "layer": 1,
+   "delta_norm_ratio": 2.80074143409729,
+   "ce_first": 16.67645239830017,
+   "ce_last": 0.02025281617534347,
+   "en": {
+    "p_new_before": 1.2085024536645506e-08,
+    "p_new_after": 0.8585781455039978,
+    "dP": 0.8585781455039978,
+    "p_old_before": 0.9952749013900757,
+    "p_old_after": 0.02288033254444599,
+    "top1_is_new": true,
+    "top1": " Edinburgh"
+   },
+   "es": {
+    "p_new_before": 3.677194763440639e-05,
+    "p_new_after": 2.397635398665443e-05,
+    "dP": -1.2795593647751957e-05,
+    "p_old_before": 0.862193763256073,
+    "p_old_after": 0.8983526825904846,
+    "top1_is_new": false,
+    "top1": " M"
+   },
+   "hi": {
+    "p_new_before": 0.00033691892167553306,
+    "p_new_after": 0.00034360686549916863,
+    "dP": 6.687943823635578e-06,
+    "p_old_before": 0.21052132546901703,
+    "p_old_after": 0.22151558101177216,
+    "top1_is_new": false,
+    "top1": " म"
+   },
+   "specificity_max_abs_dP": 0.016980528831481934,
+   "ppl_ratio": 0.9999520508151528
+  }
+ ],
+ "restore_check": {
+  "p_after_all": 0.8156806230545044,
+  "p_baseline": 0.8156806230545044
+ }
+}

@@ -1,0 +1,33 @@
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   3%|▎         | 7/254 [00:00<00:07, 32.19it/s]Loading weights:   4%|▍         | 11/254 [00:00<00:11, 21.20it/s]Loading weights:   7%|▋         | 18/254 [00:00<00:07, 30.98it/s]Loading weights:   9%|▊         | 22/254 [00:00<00:07, 29.30it/s]Loading weights:  12%|█▏        | 30/254 [00:00<00:05, 38.60it/s]Loading weights:  14%|█▍        | 35/254 [00:01<00:05, 37.56it/s]Loading weights:  20%|█▉        | 50/254 [00:01<00:03, 58.10it/s]Loading weights:  22%|██▏       | 57/254 [00:01<00:06, 32.34it/s]Loading weights:  26%|██▌       | 66/254 [00:01<00:04, 38.12it/s]Loading weights:  28%|██▊       | 72/254 [00:01<00:04, 39.43it/s]Loading weights:  30%|███       | 77/254 [00:02<00:06, 29.32it/s]Loading weights:  33%|███▎      | 83/254 [00:02<00:06, 27.82it/s]Loading weights:  35%|███▌      | 89/254 [00:02<00:05, 30.19it/s]Loading weights:  37%|███▋      | 93/254 [00:02<00:06, 26.02it/s]Loading weights:  38%|███▊      | 97/254 [00:03<00:06, 23.87it/s]Loading weights:  41%|████      | 104/254 [00:03<00:05, 28.52it/s]Loading weights:  43%|████▎     | 108/254 [00:03<00:05, 27.22it/s]Loading weights:  44%|████▍     | 112/254 [00:03<00:05, 28.15it/s]Loading weights:  45%|████▌     | 115/254 [00:03<00:05, 25.82it/s]Loading weights:  46%|████▋     | 118/254 [00:03<00:06, 21.52it/s]Loading weights:  49%|████▉     | 125/254 [00:04<00:04, 28.96it/s]Loading weights:  51%|█████     | 129/254 [00:04<00:04, 25.89it/s]Loading weights:  54%|█████▍    | 137/254 [00:04<00:03, 30.51it/s]Loading weights:  56%|█████▌    | 141/254 [00:04<00:04, 27.24it/s]Loading weights:  57%|█████▋    | 144/254 [00:04<00:04, 25.65it/s]Loading weights:  58%|█████▊    | 147/254 [00:05<00:05, 18.07it/s]Loading weights:  59%|█████▉    | 150/254 [00:05<00:06, 16.99it/s]Loading weights:  60%|█████▉    | 152/254 [00:05<00:06, 15.00it/s]Loading weights:  61%|██████▏   | 156/254 [00:05<00:05, 18.13it/s]Loading weights:  63%|██████▎   | 159/254 [00:05<00:05, 16.18it/s]Loading weights:  63%|██████▎   | 161/254 [00:06<00:06, 13.60it/s]Loading weights:  65%|██████▌   | 166/254 [00:06<00:05, 16.10it/s]Loading weights:  66%|██████▌   | 168/254 [00:06<00:05, 16.35it/s]Loading weights:  69%|██████▉   | 175/254 [00:06<00:03, 22.51it/s]Loading weights:  70%|███████   | 179/254 [00:06<00:03, 24.23it/s]Loading weights:  72%|███████▏  | 182/254 [00:07<00:03, 19.56it/s]Loading weights: 100%|██████████| 254/254 [00:07<00:00, 35.52it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+capital_country_000 traced L0: EN dP=0.939 top1_new=True ES dP=0.138 HI dP=0.000 spec=0.022 ppl x0.999 |d|/|v0|=1.91
+capital_country_000 mid L14: EN dP=0.572 top1_new=True ES dP=0.706 HI dP=0.939 spec=0.428 ppl x1.002 |d|/|v0|=2.52
+capital_country_000 random L3: EN dP=0.869 top1_new=True ES dP=0.708 HI dP=0.027 spec=0.197 ppl x1.000 |d|/|v0|=4.00
+capital_country_001 traced L0: EN dP=0.894 top1_new=True ES dP=0.073 HI dP=-0.001 spec=0.055 ppl x1.002 |d|/|v0|=4.00
+capital_country_001 mid L14: EN dP=0.951 top1_new=True ES dP=0.078 HI dP=0.059 spec=0.021 ppl x1.001 |d|/|v0|=1.98
+capital_country_001 random L4: EN dP=0.657 top1_new=True ES dP=0.178 HI dP=0.442 spec=0.917 ppl x0.998 |d|/|v0|=4.00
+capital_country_002 traced L2: EN dP=0.921 top1_new=True ES dP=0.476 HI dP=0.040 spec=0.981 ppl x1.001 |d|/|v0|=4.00
+capital_country_002 mid L14: EN dP=0.768 top1_new=True ES dP=0.322 HI dP=0.883 spec=0.869 ppl x1.016 |d|/|v0|=3.35
+capital_country_002 random L24: EN dP=0.960 top1_new=True ES dP=0.002 HI dP=0.007 spec=0.015 ppl x1.001 |d|/|v0|=1.79
+capital_country_003 traced L3: EN dP=0.435 top1_new=False ES dP=0.012 HI dP=0.110 spec=0.024 ppl x1.000 |d|/|v0|=1.85
+capital_country_003 mid L14: EN dP=0.946 top1_new=True ES dP=0.007 HI dP=0.049 spec=0.946 ppl x1.002 |d|/|v0|=3.24
+capital_country_003 random L26: EN dP=0.934 top1_new=True ES dP=0.000 HI dP=-0.007 spec=0.048 ppl x1.000 |d|/|v0|=2.68
+capital_of_000 traced L3: EN dP=0.980 top1_new=True ES dP=0.076 HI dP=0.261 spec=0.106 ppl x1.002 |d|/|v0|=2.79
+capital_of_000 mid L14: EN dP=0.886 top1_new=True ES dP=0.062 HI dP=0.909 spec=0.886 ppl x1.002 |d|/|v0|=3.86
+capital_of_000 random L17: EN dP=0.940 top1_new=True ES dP=0.007 HI dP=0.769 spec=0.127 ppl x1.002 |d|/|v0|=4.00
+capital_of_002 traced L3: EN dP=0.999 top1_new=True ES dP=0.835 HI dP=0.376 spec=0.043 ppl x1.000 |d|/|v0|=4.00
+capital_of_002 mid L14: EN dP=0.997 top1_new=True ES dP=0.689 HI dP=0.425 spec=0.274 ppl x1.004 |d|/|v0|=3.49
+capital_of_002 random L21: EN dP=0.939 top1_new=True ES dP=0.002 HI dP=-0.000 spec=0.039 ppl x0.998 |d|/|v0|=2.23
+capital_of_003 traced L0: EN dP=0.968 top1_new=True ES dP=0.744 HI dP=0.000 spec=0.745 ppl x1.008 |d|/|v0|=3.93
+capital_of_003 mid L14: EN dP=0.874 top1_new=True ES dP=0.283 HI dP=0.877 spec=0.915 ppl x1.000 |d|/|v0|=3.41
+capital_of_003 random L17: EN dP=0.996 top1_new=True ES dP=0.009 HI dP=0.003 spec=0.073 ppl x0.998 |d|/|v0|=2.25
+capital_of_004 traced L2: EN dP=0.959 top1_new=True ES dP=0.572 HI dP=0.007 spec=0.047 ppl x0.999 |d|/|v0|=4.00
+capital_of_004 mid L14: EN dP=0.987 top1_new=True ES dP=0.776 HI dP=0.010 spec=0.165 ppl x1.002 |d|/|v0|=2.23
+capital_of_004 random L7: EN dP=0.926 top1_new=True ES dP=0.069 HI dP=0.004 spec=0.896 ppl x1.000 |d|/|v0|=4.00
+landmark_city_027 traced L4: EN dP=0.775 top1_new=True ES dP=0.000 HI dP=0.001 spec=0.030 ppl x0.999 |d|/|v0|=2.06
+landmark_city_027 mid L14: EN dP=0.977 top1_new=True ES dP=0.000 HI dP=-0.002 spec=0.038 ppl x1.000 |d|/|v0|=2.80
+landmark_city_027 random L25: EN dP=0.994 top1_new=True ES dP=0.000 HI dP=0.005 spec=0.025 ppl x1.001 |d|/|v0|=2.01
+landmark_city_038 traced L5: EN dP=0.989 top1_new=True ES dP=-0.000 HI dP=0.000 spec=0.017 ppl x1.001 |d|/|v0|=4.00
+landmark_city_038 mid L14: EN dP=0.907 top1_new=True ES dP=0.000 HI dP=0.001 spec=0.049 ppl x1.000 |d|/|v0|=1.70
+landmark_city_038 random L1: EN dP=0.859 top1_new=True ES dP=-0.000 HI dP=0.000 spec=0.017 ppl x1.000 |d|/|v0|=2.80
+restore check 0.8156806230545044 0.8156806230545044 peak VRAM GiB 7.58

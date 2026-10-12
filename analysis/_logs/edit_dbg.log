@@ -1,0 +1,46 @@
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   2%|▏         | 6/254 [00:00<00:04, 55.81it/s]Loading weights:   5%|▍         | 12/254 [00:00<00:06, 39.87it/s]Loading weights:   7%|▋         | 17/254 [00:00<00:06, 34.22it/s]Loading weights:  11%|█         | 27/254 [00:00<00:04, 49.41it/s]Loading weights:  13%|█▎        | 33/254 [00:01<00:09, 23.39it/s]Loading weights:  15%|█▍        | 37/254 [00:01<00:09, 22.76it/s]Loading weights:  16%|█▌        | 41/254 [00:01<00:08, 24.79it/s]Loading weights:  18%|█▊        | 45/254 [00:01<00:08, 24.41it/s]Loading weights:  19%|█▉        | 48/254 [00:01<00:08, 24.50it/s]Loading weights:  20%|██        | 51/254 [00:01<00:08, 23.51it/s]Loading weights:  21%|██▏       | 54/254 [00:02<00:08, 23.54it/s]Loading weights:  22%|██▏       | 57/254 [00:02<00:08, 23.38it/s]Loading weights:  26%|██▌       | 65/254 [00:02<00:05, 34.78it/s]Loading weights:  27%|██▋       | 69/254 [00:02<00:06, 27.41it/s]Loading weights:  31%|███       | 78/254 [00:02<00:05, 29.85it/s]Loading weights:  32%|███▏      | 82/254 [00:02<00:05, 30.52it/s]Loading weights:  34%|███▍      | 86/254 [00:03<00:08, 20.63it/s]Loading weights:  36%|███▌      | 92/254 [00:03<00:06, 23.24it/s]Loading weights:  37%|███▋      | 95/254 [00:03<00:08, 19.60it/s]Loading weights:  41%|████      | 104/254 [00:04<00:07, 19.78it/s]Loading weights:  43%|████▎     | 108/254 [00:04<00:06, 21.21it/s]Loading weights:  44%|████▎     | 111/254 [00:04<00:06, 22.00it/s]Loading weights:  45%|████▌     | 115/254 [00:04<00:05, 24.84it/s]Loading weights:  46%|████▋     | 118/254 [00:04<00:08, 16.57it/s]Loading weights:  49%|████▉     | 124/254 [00:05<00:06, 20.84it/s]Loading weights:  50%|█████     | 127/254 [00:05<00:05, 21.91it/s]Loading weights:  51%|█████     | 130/254 [00:05<00:06, 19.73it/s]Loading weights:  53%|█████▎    | 134/254 [00:05<00:07, 17.07it/s]Loading weights:  54%|█████▎    | 136/254 [00:05<00:07, 15.62it/s]Loading weights:  54%|█████▍    | 138/254 [00:05<00:07, 16.19it/s]Loading weights:  56%|█████▌    | 142/254 [00:06<00:05, 19.78it/s]Loading weights:  59%|█████▊    | 149/254 [00:06<00:03, 27.26it/s]Loading weights:  60%|█████▉    | 152/254 [00:06<00:04, 22.75it/s]Loading weights:  62%|██████▏   | 158/254 [00:06<00:05, 19.00it/s]Loading weights:  63%|██████▎   | 161/254 [00:07<00:06, 13.64it/s]Loading weights:  66%|██████▌   | 167/254 [00:07<00:04, 17.78it/s]Loading weights:  67%|██████▋   | 170/254 [00:07<00:05, 16.31it/s]Loading weights:  72%|███████▏  | 182/254 [00:07<00:02, 27.78it/s]Loading weights:  73%|███████▎  | 186/254 [00:08<00:02, 24.23it/s]Loading weights:  74%|███████▍  | 189/254 [00:08<00:02, 22.72it/s]Loading weights:  76%|███████▌  | 192/254 [00:08<00:03, 20.06it/s]Loading weights: 100%|██████████| 254/254 [00:08<00:00, 29.40it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+Traceback (most recent call last):
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\knowledge_edit.py", line 266, in <module>
+    main()
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\knowledge_edit.py", line 232, in main
+    delta, losses = optimise_delta(model, ctxs, essence, layer, L["en"]["new_t"], v0)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\knowledge_edit.py", line 155, in optimise_delta
+    lg = last_logits_grad(model, toks, [(name, hook_at(pos))])
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\knowledge_edit.py", line 130, in last_logits_grad
+    model.run_with_hooks(toks, return_type=None, fwd_hooks=[*hooks, ("ln_final.hook_normalized", g)])
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\transformer_lens\HookedRootModule.py", line 324, in run_with_hooks
+    return hooked_model.forward(*model_args, **model_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\transformer_lens\HookedTransformer.py", line 663, in forward
+    residual = block(
+               ^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\transformer_lens\components\transformer_block.py", line 205, in forward
+    mlp_out = self.apply_mlp(normalized_resid_mid)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\transformer_lens\components\transformer_block.py", line 229, in apply_mlp
+    mlp_out = self.mlp(normalized_resid)  # [batch, pos, d_model]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\transformer_lens\components\mlps\gated_mlp.py", line 58, in forward
+    pre_act = self.hook_pre(F.linear(x, self.W_gate.T.contiguous()))  # [batch, pos, d_mlp]
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.AcceleratorError: CUDA error: out of memory
+Search for `cudaErrorMemoryAllocation' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.
+CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1
+Compile with `TORCH_USE_CUDA_DSA` to enable device-side assertions.
+
