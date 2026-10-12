@@ -28,6 +28,25 @@ def load_model(local: str = MODEL_DIR, dtype: torch.dtype = torch.bfloat16) -> H
     return model
 
 
+def share_transposed_mlp_weights(model: HookedTransformer) -> None:
+    """Re-lay out MLP and attention weights so TransformerLens' per-forward `.T.contiguous()` / `rearrange` are views.
+
+    Each weight keeps its shape and values but is stored in the layout the forward pass wants, so no per-forward copy is
+    made. Without this every forward allocates fresh copies of the weights and autograd keeps them all alive (about
+    1.2 GiB per pass), which does not fit in 8 GB when optimising through the network (P4).
+    """
+    for blk in model.blocks:
+        for name in ("W_gate", "W_in", "W_out"):
+            p = getattr(blk.mlp, name)
+            p.data = p.data.T.contiguous().T
+        at = blk.attn
+        for name in ("W_Q", "_W_K", "_W_V"):  # [h, d_model, d_head] -> stored as [h, d_head, d_model]
+            p = getattr(at, name)
+            p.data = p.data.permute(0, 2, 1).contiguous().permute(0, 2, 1)
+        at.W_O.data = at.W_O.data.permute(2, 0, 1).contiguous().permute(1, 2, 0)  # stored as [d_model, h, d_head]
+        torch.cuda.empty_cache()
+
+
 def subject_span(tok, prompt: str, subject: str) -> tuple[list[int], list[int]]:
     """Return (token ids incl. BOS, positions of the subject tokens). Case-insensitive character match."""
     enc = tok(prompt, return_offsets_mapping=True)
