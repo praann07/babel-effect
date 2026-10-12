@@ -34,4 +34,8 @@ Priors come from the causal-tracing literature (Meng et al. 2022, arXiv:2202.052
 - One model only; claims are limited to Llama-3.2-3B-Instruct.
 
 ## Amendments
-(none)
+- **A1 (2026-10-12, before any tracing computation; clarifications, not changes of direction).**
+  - Critical site: the argmax over layers of the MLP-output attribution at the last subject token (the site type the ROME edit modifies). The residual-stream argmax is stored as a secondary quantity.
+  - Noise scale: sigma = 3 x the std of subject-token embeddings, pooled over all 52 facts per language (as in ROME), computed once and independent of how many facts a run traces.
+  - Object token and competitor: object = the model's clean top-1 token at the last prompt position (the filter guarantees it begins the object string); competitor = the clean runner-up token. Attribution = (logit_obj - logit_comp) patched minus corrupted, with the final dot product computed in fp32.
+  - Collapse check: a fact-language pair counts as collapsed if P(object) under corruption is below 0.5 x its clean value. Facts that do not collapse in all three languages are excluded from the primary P3 analysis. If that leaves n < 50, the primary analysis uses all 52 facts and the exclusion becomes a sensitivity analysis.
