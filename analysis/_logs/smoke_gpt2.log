@@ -1,0 +1,3 @@
+C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\smoke_test.py:16: DeprecationWarning: HookedTransformer.from_pretrained is deprecated and will be removed in a future major release. Use TransformerBridge.boot_transformers(...) instead, then call enable_compatibility_mode() for HookedTransformer-equivalent numerics. See docs/source/content/migrating_to_v3.md.
+  return HookedTransformer.from_pretrained(name, dtype=dtype, device="cuda")
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.

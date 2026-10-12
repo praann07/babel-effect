@@ -1,0 +1,4472 @@
+{
+ "version": 1,
+ "note": "unfiltered candidates; see filter_facts.py",
+ "facts": [
+  {
+   "id": "capital_of_000",
+   "relation": "capital_of",
+   "seed": 1165492875,
+   "lang": {
+    "en": {
+     "subject": "France",
+     "object": "Paris",
+     "prompts": [
+      "The capital of France is"
+     ]
+    },
+    "es": {
+     "subject": "Francia",
+     "object": "París",
+     "prompts": [
+      "La capital de Francia es"
+     ]
+    },
+    "hi": {
+     "subject": "फ्रांस",
+     "object": "पेरिस",
+     "prompts": [
+      "फ्रांस की राजधानी",
+      "फ्रांस की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_001",
+   "relation": "capital_of",
+   "seed": 2042526406,
+   "lang": {
+    "en": {
+     "subject": "Germany",
+     "object": "Berlin",
+     "prompts": [
+      "The capital of Germany is"
+     ]
+    },
+    "es": {
+     "subject": "Alemania",
+     "object": "Berlín",
+     "prompts": [
+      "La capital de Alemania es"
+     ]
+    },
+    "hi": {
+     "subject": "जर्मनी",
+     "object": "बर्लिन",
+     "prompts": [
+      "जर्मनी की राजधानी",
+      "जर्मनी की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_002",
+   "relation": "capital_of",
+   "seed": 1083767777,
+   "lang": {
+    "en": {
+     "subject": "Italy",
+     "object": "Rome",
+     "prompts": [
+      "The capital of Italy is"
+     ]
+    },
+    "es": {
+     "subject": "Italia",
+     "object": "Roma",
+     "prompts": [
+      "La capital de Italia es"
+     ]
+    },
+    "hi": {
+     "subject": "इटली",
+     "object": "रोम",
+     "prompts": [
+      "इटली की राजधानी",
+      "इटली की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_003",
+   "relation": "capital_of",
+   "seed": 1936813410,
+   "lang": {
+    "en": {
+     "subject": "Spain",
+     "object": "Madrid",
+     "prompts": [
+      "The capital of Spain is"
+     ]
+    },
+    "es": {
+     "subject": "España",
+     "object": "Madrid",
+     "prompts": [
+      "La capital de España es"
+     ]
+    },
+    "hi": {
+     "subject": "स्पेन",
+     "object": "मैड्रिड",
+     "prompts": [
+      "स्पेन की राजधानी",
+      "स्पेन की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_004",
+   "relation": "capital_of",
+   "seed": 908758428,
+   "lang": {
+    "en": {
+     "subject": "Portugal",
+     "object": "Lisbon",
+     "prompts": [
+      "The capital of Portugal is"
+     ]
+    },
+    "es": {
+     "subject": "Portugal",
+     "object": "Lisboa",
+     "prompts": [
+      "La capital de Portugal es"
+     ]
+    },
+    "hi": {
+     "subject": "पुर्तगाल",
+     "object": "लिस्बन",
+     "prompts": [
+      "पुर्तगाल की राजधानी",
+      "पुर्तगाल की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_005",
+   "relation": "capital_of",
+   "seed": 2051902092,
+   "lang": {
+    "en": {
+     "subject": "Japan",
+     "object": "Tokyo",
+     "prompts": [
+      "The capital of Japan is"
+     ]
+    },
+    "es": {
+     "subject": "Japón",
+     "object": "Tokio",
+     "prompts": [
+      "La capital de Japón es"
+     ]
+    },
+    "hi": {
+     "subject": "जापान",
+     "object": "टोक्यो",
+     "prompts": [
+      "जापान की राजधानी",
+      "जापान की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_006",
+   "relation": "capital_of",
+   "seed": 2105772478,
+   "lang": {
+    "en": {
+     "subject": "China",
+     "object": "Beijing",
+     "prompts": [
+      "The capital of China is"
+     ]
+    },
+    "es": {
+     "subject": "China",
+     "object": "Pekín",
+     "prompts": [
+      "La capital de China es"
+     ]
+    },
+    "hi": {
+     "subject": "चीन",
+     "object": "बीजिंग",
+     "prompts": [
+      "चीन की राजधानी",
+      "चीन की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_007",
+   "relation": "capital_of",
+   "seed": 1995458461,
+   "lang": {
+    "en": {
+     "subject": "India",
+     "object": "New Delhi",
+     "prompts": [
+      "The capital of India is"
+     ]
+    },
+    "es": {
+     "subject": "India",
+     "object": "Nueva Delhi",
+     "prompts": [
+      "La capital de India es"
+     ]
+    },
+    "hi": {
+     "subject": "भारत",
+     "object": "नई दिल्ली",
+     "prompts": [
+      "भारत की राजधानी",
+      "भारत की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_008",
+   "relation": "capital_of",
+   "seed": 161385159,
+   "lang": {
+    "en": {
+     "subject": "Russia",
+     "object": "Moscow",
+     "prompts": [
+      "The capital of Russia is"
+     ]
+    },
+    "es": {
+     "subject": "Rusia",
+     "object": "Moscú",
+     "prompts": [
+      "La capital de Rusia es"
+     ]
+    },
+    "hi": {
+     "subject": "रूस",
+     "object": "मॉस्को",
+     "prompts": [
+      "रूस की राजधानी",
+      "रूस की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_009",
+   "relation": "capital_of",
+   "seed": 1973790972,
+   "lang": {
+    "en": {
+     "subject": "Brazil",
+     "object": "Brasília",
+     "prompts": [
+      "The capital of Brazil is"
+     ]
+    },
+    "es": {
+     "subject": "Brasil",
+     "object": "Brasilia",
+     "prompts": [
+      "La capital de Brasil es"
+     ]
+    },
+    "hi": {
+     "subject": "ब्राज़ील",
+     "object": "ब्रासीलिया",
+     "prompts": [
+      "ब्राज़ील की राजधानी",
+      "ब्राज़ील की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_010",
+   "relation": "capital_of",
+   "seed": 1420742404,
+   "lang": {
+    "en": {
+     "subject": "Argentina",
+     "object": "Buenos Aires",
+     "prompts": [
+      "The capital of Argentina is"
+     ]
+    },
+    "es": {
+     "subject": "Argentina",
+     "object": "Buenos Aires",
+     "prompts": [
+      "La capital de Argentina es"
+     ]
+    },
+    "hi": {
+     "subject": "अर्जेंटीना",
+     "object": "ब्यूनस आयर्स",
+     "prompts": [
+      "अर्जेंटीना की राजधानी",
+      "अर्जेंटीना की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_011",
+   "relation": "capital_of",
+   "seed": 331846415,
+   "lang": {
+    "en": {
+     "subject": "Mexico",
+     "object": "Mexico City",
+     "prompts": [
+      "The capital of Mexico is"
+     ]
+    },
+    "es": {
+     "subject": "México",
+     "object": "Ciudad de México",
+     "prompts": [
+      "La capital de México es"
+     ]
+    },
+    "hi": {
+     "subject": "मेक्सिको",
+     "object": "मेक्सिको सिटी",
+     "prompts": [
+      "मेक्सिको की राजधानी",
+      "मेक्सिको की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_012",
+   "relation": "capital_of",
+   "seed": 162067435,
+   "lang": {
+    "en": {
+     "subject": "Canada",
+     "object": "Ottawa",
+     "prompts": [
+      "The capital of Canada is"
+     ]
+    },
+    "es": {
+     "subject": "Canadá",
+     "object": "Ottawa",
+     "prompts": [
+      "La capital de Canadá es"
+     ]
+    },
+    "hi": {
+     "subject": "कनाडा",
+     "object": "ओटावा",
+     "prompts": [
+      "कनाडा की राजधानी",
+      "कनाडा की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_013",
+   "relation": "capital_of",
+   "seed": 503909154,
+   "lang": {
+    "en": {
+     "subject": "Australia",
+     "object": "Canberra",
+     "prompts": [
+      "The capital of Australia is"
+     ]
+    },
+    "es": {
+     "subject": "Australia",
+     "object": "Canberra",
+     "prompts": [
+      "La capital de Australia es"
+     ]
+    },
+    "hi": {
+     "subject": "ऑस्ट्रेलिया",
+     "object": "कैनबरा",
+     "prompts": [
+      "ऑस्ट्रेलिया की राजधानी",
+      "ऑस्ट्रेलिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_014",
+   "relation": "capital_of",
+   "seed": 328988268,
+   "lang": {
+    "en": {
+     "subject": "Greece",
+     "object": "Athens",
+     "prompts": [
+      "The capital of Greece is"
+     ]
+    },
+    "es": {
+     "subject": "Grecia",
+     "object": "Atenas",
+     "prompts": [
+      "La capital de Grecia es"
+     ]
+    },
+    "hi": {
+     "subject": "ग्रीस",
+     "object": "एथेंस",
+     "prompts": [
+      "ग्रीस की राजधानी",
+      "ग्रीस की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_015",
+   "relation": "capital_of",
+   "seed": 422730854,
+   "lang": {
+    "en": {
+     "subject": "Turkey",
+     "object": "Ankara",
+     "prompts": [
+      "The capital of Turkey is"
+     ]
+    },
+    "es": {
+     "subject": "Turquía",
+     "object": "Ankara",
+     "prompts": [
+      "La capital de Turquía es"
+     ]
+    },
+    "hi": {
+     "subject": "तुर्की",
+     "object": "अंकारा",
+     "prompts": [
+      "तुर्की की राजधानी",
+      "तुर्की की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_016",
+   "relation": "capital_of",
+   "seed": 1110069199,
+   "lang": {
+    "en": {
+     "subject": "Sweden",
+     "object": "Stockholm",
+     "prompts": [
+      "The capital of Sweden is"
+     ]
+    },
+    "es": {
+     "subject": "Suecia",
+     "object": "Estocolmo",
+     "prompts": [
+      "La capital de Suecia es"
+     ]
+    },
+    "hi": {
+     "subject": "स्वीडन",
+     "object": "स्टॉकहोम",
+     "prompts": [
+      "स्वीडन की राजधानी",
+      "स्वीडन की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_017",
+   "relation": "capital_of",
+   "seed": 543790524,
+   "lang": {
+    "en": {
+     "subject": "Norway",
+     "object": "Oslo",
+     "prompts": [
+      "The capital of Norway is"
+     ]
+    },
+    "es": {
+     "subject": "Noruega",
+     "object": "Oslo",
+     "prompts": [
+      "La capital de Noruega es"
+     ]
+    },
+    "hi": {
+     "subject": "नॉर्वे",
+     "object": "ओस्लो",
+     "prompts": [
+      "नॉर्वे की राजधानी",
+      "नॉर्वे की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_018",
+   "relation": "capital_of",
+   "seed": 1077763742,
+   "lang": {
+    "en": {
+     "subject": "Finland",
+     "object": "Helsinki",
+     "prompts": [
+      "The capital of Finland is"
+     ]
+    },
+    "es": {
+     "subject": "Finlandia",
+     "object": "Helsinki",
+     "prompts": [
+      "La capital de Finlandia es"
+     ]
+    },
+    "hi": {
+     "subject": "फ़िनलैंड",
+     "object": "हेलसिंकी",
+     "prompts": [
+      "फ़िनलैंड की राजधानी",
+      "फ़िनलैंड की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_019",
+   "relation": "capital_of",
+   "seed": 460536033,
+   "lang": {
+    "en": {
+     "subject": "Denmark",
+     "object": "Copenhagen",
+     "prompts": [
+      "The capital of Denmark is"
+     ]
+    },
+    "es": {
+     "subject": "Dinamarca",
+     "object": "Copenhague",
+     "prompts": [
+      "La capital de Dinamarca es"
+     ]
+    },
+    "hi": {
+     "subject": "डेनमार्क",
+     "object": "कोपेनहेगन",
+     "prompts": [
+      "डेनमार्क की राजधानी",
+      "डेनमार्क की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_020",
+   "relation": "capital_of",
+   "seed": 8526887,
+   "lang": {
+    "en": {
+     "subject": "Poland",
+     "object": "Warsaw",
+     "prompts": [
+      "The capital of Poland is"
+     ]
+    },
+    "es": {
+     "subject": "Polonia",
+     "object": "Varsovia",
+     "prompts": [
+      "La capital de Polonia es"
+     ]
+    },
+    "hi": {
+     "subject": "पोलैंड",
+     "object": "वारसॉ",
+     "prompts": [
+      "पोलैंड की राजधानी",
+      "पोलैंड की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_021",
+   "relation": "capital_of",
+   "seed": 1361082750,
+   "lang": {
+    "en": {
+     "subject": "Austria",
+     "object": "Vienna",
+     "prompts": [
+      "The capital of Austria is"
+     ]
+    },
+    "es": {
+     "subject": "Austria",
+     "object": "Viena",
+     "prompts": [
+      "La capital de Austria es"
+     ]
+    },
+    "hi": {
+     "subject": "ऑस्ट्रिया",
+     "object": "वियना",
+     "prompts": [
+      "ऑस्ट्रिया की राजधानी",
+      "ऑस्ट्रिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_022",
+   "relation": "capital_of",
+   "seed": 1856287951,
+   "lang": {
+    "en": {
+     "subject": "Switzerland",
+     "object": "Bern",
+     "prompts": [
+      "The capital of Switzerland is"
+     ]
+    },
+    "es": {
+     "subject": "Suiza",
+     "object": "Berna",
+     "prompts": [
+      "La capital de Suiza es"
+     ]
+    },
+    "hi": {
+     "subject": "स्विट्ज़रलैंड",
+     "object": "बर्न",
+     "prompts": [
+      "स्विट्ज़रलैंड की राजधानी",
+      "स्विट्ज़रलैंड की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_023",
+   "relation": "capital_of",
+   "seed": 1746138490,
+   "lang": {
+    "en": {
+     "subject": "Belgium",
+     "object": "Brussels",
+     "prompts": [
+      "The capital of Belgium is"
+     ]
+    },
+    "es": {
+     "subject": "Bélgica",
+     "object": "Bruselas",
+     "prompts": [
+      "La capital de Bélgica es"
+     ]
+    },
+    "hi": {
+     "subject": "बेल्जियम",
+     "object": "ब्रसेल्स",
+     "prompts": [
+      "बेल्जियम की राजधानी",
+      "बेल्जियम की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_024",
+   "relation": "capital_of",
+   "seed": 1173879678,
+   "lang": {
+    "en": {
+     "subject": "Ireland",
+     "object": "Dublin",
+     "prompts": [
+      "The capital of Ireland is"
+     ]
+    },
+    "es": {
+     "subject": "Irlanda",
+     "object": "Dublín",
+     "prompts": [
+      "La capital de Irlanda es"
+     ]
+    },
+    "hi": {
+     "subject": "आयरलैंड",
+     "object": "डबलिन",
+     "prompts": [
+      "आयरलैंड की राजधानी",
+      "आयरलैंड की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_025",
+   "relation": "capital_of",
+   "seed": 93779825,
+   "lang": {
+    "en": {
+     "subject": "Peru",
+     "object": "Lima",
+     "prompts": [
+      "The capital of Peru is"
+     ]
+    },
+    "es": {
+     "subject": "Perú",
+     "object": "Lima",
+     "prompts": [
+      "La capital de Perú es"
+     ]
+    },
+    "hi": {
+     "subject": "पेरू",
+     "object": "लीमा",
+     "prompts": [
+      "पेरू की राजधानी",
+      "पेरू की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_026",
+   "relation": "capital_of",
+   "seed": 442522594,
+   "lang": {
+    "en": {
+     "subject": "Chile",
+     "object": "Santiago",
+     "prompts": [
+      "The capital of Chile is"
+     ]
+    },
+    "es": {
+     "subject": "Chile",
+     "object": "Santiago",
+     "prompts": [
+      "La capital de Chile es"
+     ]
+    },
+    "hi": {
+     "subject": "चिली",
+     "object": "सैंटियागो",
+     "prompts": [
+      "चिली की राजधानी",
+      "चिली की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_027",
+   "relation": "capital_of",
+   "seed": 446473316,
+   "lang": {
+    "en": {
+     "subject": "Colombia",
+     "object": "Bogotá",
+     "prompts": [
+      "The capital of Colombia is"
+     ]
+    },
+    "es": {
+     "subject": "Colombia",
+     "object": "Bogotá",
+     "prompts": [
+      "La capital de Colombia es"
+     ]
+    },
+    "hi": {
+     "subject": "कोलंबिया",
+     "object": "बोगोटा",
+     "prompts": [
+      "कोलंबिया की राजधानी",
+      "कोलंबिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_028",
+   "relation": "capital_of",
+   "seed": 1313585871,
+   "lang": {
+    "en": {
+     "subject": "Venezuela",
+     "object": "Caracas",
+     "prompts": [
+      "The capital of Venezuela is"
+     ]
+    },
+    "es": {
+     "subject": "Venezuela",
+     "object": "Caracas",
+     "prompts": [
+      "La capital de Venezuela es"
+     ]
+    },
+    "hi": {
+     "subject": "वेनेज़ुएला",
+     "object": "काराकास",
+     "prompts": [
+      "वेनेज़ुएला की राजधानी",
+      "वेनेज़ुएला की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_029",
+   "relation": "capital_of",
+   "seed": 406299221,
+   "lang": {
+    "en": {
+     "subject": "Thailand",
+     "object": "Bangkok",
+     "prompts": [
+      "The capital of Thailand is"
+     ]
+    },
+    "es": {
+     "subject": "Tailandia",
+     "object": "Bangkok",
+     "prompts": [
+      "La capital de Tailandia es"
+     ]
+    },
+    "hi": {
+     "subject": "थाईलैंड",
+     "object": "बैंकॉक",
+     "prompts": [
+      "थाईलैंड की राजधानी",
+      "थाईलैंड की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_030",
+   "relation": "capital_of",
+   "seed": 2058133602,
+   "lang": {
+    "en": {
+     "subject": "Vietnam",
+     "object": "Hanoi",
+     "prompts": [
+      "The capital of Vietnam is"
+     ]
+    },
+    "es": {
+     "subject": "Vietnam",
+     "object": "Hanói",
+     "prompts": [
+      "La capital de Vietnam es"
+     ]
+    },
+    "hi": {
+     "subject": "वियतनाम",
+     "object": "हनोई",
+     "prompts": [
+      "वियतनाम की राजधानी",
+      "वियतनाम की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_031",
+   "relation": "capital_of",
+   "seed": 1316889520,
+   "lang": {
+    "en": {
+     "subject": "Indonesia",
+     "object": "Jakarta",
+     "prompts": [
+      "The capital of Indonesia is"
+     ]
+    },
+    "es": {
+     "subject": "Indonesia",
+     "object": "Yakarta",
+     "prompts": [
+      "La capital de Indonesia es"
+     ]
+    },
+    "hi": {
+     "subject": "इंडोनेशिया",
+     "object": "जकार्ता",
+     "prompts": [
+      "इंडोनेशिया की राजधानी",
+      "इंडोनेशिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_032",
+   "relation": "capital_of",
+   "seed": 504611287,
+   "lang": {
+    "en": {
+     "subject": "Pakistan",
+     "object": "Islamabad",
+     "prompts": [
+      "The capital of Pakistan is"
+     ]
+    },
+    "es": {
+     "subject": "Pakistán",
+     "object": "Islamabad",
+     "prompts": [
+      "La capital de Pakistán es"
+     ]
+    },
+    "hi": {
+     "subject": "पाकिस्तान",
+     "object": "इस्लामाबाद",
+     "prompts": [
+      "पाकिस्तान की राजधानी",
+      "पाकिस्तान की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_033",
+   "relation": "capital_of",
+   "seed": 1356252871,
+   "lang": {
+    "en": {
+     "subject": "Bangladesh",
+     "object": "Dhaka",
+     "prompts": [
+      "The capital of Bangladesh is"
+     ]
+    },
+    "es": {
+     "subject": "Bangladés",
+     "object": "Daca",
+     "prompts": [
+      "La capital de Bangladés es"
+     ]
+    },
+    "hi": {
+     "subject": "बांग्लादेश",
+     "object": "ढाका",
+     "prompts": [
+      "बांग्लादेश की राजधानी",
+      "बांग्लादेश की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_034",
+   "relation": "capital_of",
+   "seed": 479044277,
+   "lang": {
+    "en": {
+     "subject": "Nepal",
+     "object": "Kathmandu",
+     "prompts": [
+      "The capital of Nepal is"
+     ]
+    },
+    "es": {
+     "subject": "Nepal",
+     "object": "Katmandú",
+     "prompts": [
+      "La capital de Nepal es"
+     ]
+    },
+    "hi": {
+     "subject": "नेपाल",
+     "object": "काठमांडू",
+     "prompts": [
+      "नेपाल की राजधानी",
+      "नेपाल की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_035",
+   "relation": "capital_of",
+   "seed": 91056139,
+   "lang": {
+    "en": {
+     "subject": "Sri Lanka",
+     "object": "Colombo",
+     "prompts": [
+      "The capital of Sri Lanka is"
+     ]
+    },
+    "es": {
+     "subject": "Sri Lanka",
+     "object": "Colombo",
+     "prompts": [
+      "La capital de Sri Lanka es"
+     ]
+    },
+    "hi": {
+     "subject": "श्रीलंका",
+     "object": "कोलंबो",
+     "prompts": [
+      "श्रीलंका की राजधानी",
+      "श्रीलंका की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_036",
+   "relation": "capital_of",
+   "seed": 338323185,
+   "lang": {
+    "en": {
+     "subject": "Iran",
+     "object": "Tehran",
+     "prompts": [
+      "The capital of Iran is"
+     ]
+    },
+    "es": {
+     "subject": "Irán",
+     "object": "Teherán",
+     "prompts": [
+      "La capital de Irán es"
+     ]
+    },
+    "hi": {
+     "subject": "ईरान",
+     "object": "तेहरान",
+     "prompts": [
+      "ईरान की राजधानी",
+      "ईरान की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_037",
+   "relation": "capital_of",
+   "seed": 860272675,
+   "lang": {
+    "en": {
+     "subject": "Iraq",
+     "object": "Baghdad",
+     "prompts": [
+      "The capital of Iraq is"
+     ]
+    },
+    "es": {
+     "subject": "Irak",
+     "object": "Bagdad",
+     "prompts": [
+      "La capital de Irak es"
+     ]
+    },
+    "hi": {
+     "subject": "इराक",
+     "object": "बग़दाद",
+     "prompts": [
+      "इराक की राजधानी",
+      "इराक की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_038",
+   "relation": "capital_of",
+   "seed": 1115304880,
+   "lang": {
+    "en": {
+     "subject": "Saudi Arabia",
+     "object": "Riyadh",
+     "prompts": [
+      "The capital of Saudi Arabia is"
+     ]
+    },
+    "es": {
+     "subject": "Arabia Saudita",
+     "object": "Riad",
+     "prompts": [
+      "La capital de Arabia Saudita es"
+     ]
+    },
+    "hi": {
+     "subject": "सऊदी अरब",
+     "object": "रियाद",
+     "prompts": [
+      "सऊदी अरब की राजधानी",
+      "सऊदी अरब की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_039",
+   "relation": "capital_of",
+   "seed": 2107477237,
+   "lang": {
+    "en": {
+     "subject": "Kenya",
+     "object": "Nairobi",
+     "prompts": [
+      "The capital of Kenya is"
+     ]
+    },
+    "es": {
+     "subject": "Kenia",
+     "object": "Nairobi",
+     "prompts": [
+      "La capital de Kenia es"
+     ]
+    },
+    "hi": {
+     "subject": "केन्या",
+     "object": "नैरोबी",
+     "prompts": [
+      "केन्या की राजधानी",
+      "केन्या की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_040",
+   "relation": "capital_of",
+   "seed": 873921365,
+   "lang": {
+    "en": {
+     "subject": "Nigeria",
+     "object": "Abuja",
+     "prompts": [
+      "The capital of Nigeria is"
+     ]
+    },
+    "es": {
+     "subject": "Nigeria",
+     "object": "Abuya",
+     "prompts": [
+      "La capital de Nigeria es"
+     ]
+    },
+    "hi": {
+     "subject": "नाइजीरिया",
+     "object": "अबुजा",
+     "prompts": [
+      "नाइजीरिया की राजधानी",
+      "नाइजीरिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_041",
+   "relation": "capital_of",
+   "seed": 1207414501,
+   "lang": {
+    "en": {
+     "subject": "Ethiopia",
+     "object": "Addis Ababa",
+     "prompts": [
+      "The capital of Ethiopia is"
+     ]
+    },
+    "es": {
+     "subject": "Etiopía",
+     "object": "Adís Abeba",
+     "prompts": [
+      "La capital de Etiopía es"
+     ]
+    },
+    "hi": {
+     "subject": "इथियोपिया",
+     "object": "अदीस अबाबा",
+     "prompts": [
+      "इथियोपिया की राजधानी",
+      "इथियोपिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_042",
+   "relation": "capital_of",
+   "seed": 428967276,
+   "lang": {
+    "en": {
+     "subject": "Morocco",
+     "object": "Rabat",
+     "prompts": [
+      "The capital of Morocco is"
+     ]
+    },
+    "es": {
+     "subject": "Marruecos",
+     "object": "Rabat",
+     "prompts": [
+      "La capital de Marruecos es"
+     ]
+    },
+    "hi": {
+     "subject": "मोरक्को",
+     "object": "रबात",
+     "prompts": [
+      "मोरक्को की राजधानी",
+      "मोरक्को की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_043",
+   "relation": "capital_of",
+   "seed": 1999733576,
+   "lang": {
+    "en": {
+     "subject": "Algeria",
+     "object": "Algiers",
+     "prompts": [
+      "The capital of Algeria is"
+     ]
+    },
+    "es": {
+     "subject": "Argelia",
+     "object": "Argel",
+     "prompts": [
+      "La capital de Argelia es"
+     ]
+    },
+    "hi": {
+     "subject": "अल्जीरिया",
+     "object": "अल्जीयर्स",
+     "prompts": [
+      "अल्जीरिया की राजधानी",
+      "अल्जीरिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_044",
+   "relation": "capital_of",
+   "seed": 726403575,
+   "lang": {
+    "en": {
+     "subject": "South Africa",
+     "object": "Pretoria",
+     "prompts": [
+      "The capital of South Africa is"
+     ]
+    },
+    "es": {
+     "subject": "Sudáfrica",
+     "object": "Pretoria",
+     "prompts": [
+      "La capital de Sudáfrica es"
+     ]
+    },
+    "hi": {
+     "subject": "दक्षिण अफ़्रीका",
+     "object": "प्रिटोरिया",
+     "prompts": [
+      "दक्षिण अफ़्रीका की राजधानी",
+      "दक्षिण अफ़्रीका की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_045",
+   "relation": "capital_of",
+   "seed": 461951257,
+   "lang": {
+    "en": {
+     "subject": "Ghana",
+     "object": "Accra",
+     "prompts": [
+      "The capital of Ghana is"
+     ]
+    },
+    "es": {
+     "subject": "Ghana",
+     "object": "Acra",
+     "prompts": [
+      "La capital de Ghana es"
+     ]
+    },
+    "hi": {
+     "subject": "घाना",
+     "object": "अक्रा",
+     "prompts": [
+      "घाना की राजधानी",
+      "घाना की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_046",
+   "relation": "capital_of",
+   "seed": 184532903,
+   "lang": {
+    "en": {
+     "subject": "Hungary",
+     "object": "Budapest",
+     "prompts": [
+      "The capital of Hungary is"
+     ]
+    },
+    "es": {
+     "subject": "Hungría",
+     "object": "Budapest",
+     "prompts": [
+      "La capital de Hungría es"
+     ]
+    },
+    "hi": {
+     "subject": "हंगरी",
+     "object": "बुडापेस्ट",
+     "prompts": [
+      "हंगरी की राजधानी",
+      "हंगरी की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_047",
+   "relation": "capital_of",
+   "seed": 1359031918,
+   "lang": {
+    "en": {
+     "subject": "Romania",
+     "object": "Bucharest",
+     "prompts": [
+      "The capital of Romania is"
+     ]
+    },
+    "es": {
+     "subject": "Rumania",
+     "object": "Bucarest",
+     "prompts": [
+      "La capital de Rumania es"
+     ]
+    },
+    "hi": {
+     "subject": "रोमानिया",
+     "object": "बुखारेस्ट",
+     "prompts": [
+      "रोमानिया की राजधानी",
+      "रोमानिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_048",
+   "relation": "capital_of",
+   "seed": 252456768,
+   "lang": {
+    "en": {
+     "subject": "Ukraine",
+     "object": "Kyiv",
+     "prompts": [
+      "The capital of Ukraine is"
+     ]
+    },
+    "es": {
+     "subject": "Ucrania",
+     "object": "Kiev",
+     "prompts": [
+      "La capital de Ucrania es"
+     ]
+    },
+    "hi": {
+     "subject": "यूक्रेन",
+     "object": "कीव",
+     "prompts": [
+      "यूक्रेन की राजधानी",
+      "यूक्रेन की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_049",
+   "relation": "capital_of",
+   "seed": 905248288,
+   "lang": {
+    "en": {
+     "subject": "Bulgaria",
+     "object": "Sofia",
+     "prompts": [
+      "The capital of Bulgaria is"
+     ]
+    },
+    "es": {
+     "subject": "Bulgaria",
+     "object": "Sofía",
+     "prompts": [
+      "La capital de Bulgaria es"
+     ]
+    },
+    "hi": {
+     "subject": "बुल्गारिया",
+     "object": "सोफिया",
+     "prompts": [
+      "बुल्गारिया की राजधानी",
+      "बुल्गारिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_050",
+   "relation": "capital_of",
+   "seed": 474588998,
+   "lang": {
+    "en": {
+     "subject": "Serbia",
+     "object": "Belgrade",
+     "prompts": [
+      "The capital of Serbia is"
+     ]
+    },
+    "es": {
+     "subject": "Serbia",
+     "object": "Belgrado",
+     "prompts": [
+      "La capital de Serbia es"
+     ]
+    },
+    "hi": {
+     "subject": "सर्बिया",
+     "object": "बेलग्रेड",
+     "prompts": [
+      "सर्बिया की राजधानी",
+      "सर्बिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_051",
+   "relation": "capital_of",
+   "seed": 922838153,
+   "lang": {
+    "en": {
+     "subject": "Croatia",
+     "object": "Zagreb",
+     "prompts": [
+      "The capital of Croatia is"
+     ]
+    },
+    "es": {
+     "subject": "Croacia",
+     "object": "Zagreb",
+     "prompts": [
+      "La capital de Croacia es"
+     ]
+    },
+    "hi": {
+     "subject": "क्रोएशिया",
+     "object": "ज़ाग्रेब",
+     "prompts": [
+      "क्रोएशिया की राजधानी",
+      "क्रोएशिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_052",
+   "relation": "capital_of",
+   "seed": 451426676,
+   "lang": {
+    "en": {
+     "subject": "Iceland",
+     "object": "Reykjavik",
+     "prompts": [
+      "The capital of Iceland is"
+     ]
+    },
+    "es": {
+     "subject": "Islandia",
+     "object": "Reikiavik",
+     "prompts": [
+      "La capital de Islandia es"
+     ]
+    },
+    "hi": {
+     "subject": "आइसलैंड",
+     "object": "रेक्यावीक",
+     "prompts": [
+      "आइसलैंड की राजधानी",
+      "आइसलैंड की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_053",
+   "relation": "capital_of",
+   "seed": 1528189449,
+   "lang": {
+    "en": {
+     "subject": "Mongolia",
+     "object": "Ulaanbaatar",
+     "prompts": [
+      "The capital of Mongolia is"
+     ]
+    },
+    "es": {
+     "subject": "Mongolia",
+     "object": "Ulán Bator",
+     "prompts": [
+      "La capital de Mongolia es"
+     ]
+    },
+    "hi": {
+     "subject": "मंगोलिया",
+     "object": "उलानबटार",
+     "prompts": [
+      "मंगोलिया की राजधानी",
+      "मंगोलिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_054",
+   "relation": "capital_of",
+   "seed": 1123400112,
+   "lang": {
+    "en": {
+     "subject": "Afghanistan",
+     "object": "Kabul",
+     "prompts": [
+      "The capital of Afghanistan is"
+     ]
+    },
+    "es": {
+     "subject": "Afganistán",
+     "object": "Kabul",
+     "prompts": [
+      "La capital de Afganistán es"
+     ]
+    },
+    "hi": {
+     "subject": "अफ़ग़ानिस्तान",
+     "object": "काबुल",
+     "prompts": [
+      "अफ़ग़ानिस्तान की राजधानी",
+      "अफ़ग़ानिस्तान की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_055",
+   "relation": "capital_of",
+   "seed": 487557839,
+   "lang": {
+    "en": {
+     "subject": "Cambodia",
+     "object": "Phnom Penh",
+     "prompts": [
+      "The capital of Cambodia is"
+     ]
+    },
+    "es": {
+     "subject": "Camboya",
+     "object": "Nom Pen",
+     "prompts": [
+      "La capital de Camboya es"
+     ]
+    },
+    "hi": {
+     "subject": "कंबोडिया",
+     "object": "नोम पेन",
+     "prompts": [
+      "कंबोडिया की राजधानी",
+      "कंबोडिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_056",
+   "relation": "capital_of",
+   "seed": 1893950898,
+   "lang": {
+    "en": {
+     "subject": "South Korea",
+     "object": "Seoul",
+     "prompts": [
+      "The capital of South Korea is"
+     ]
+    },
+    "es": {
+     "subject": "Corea del Sur",
+     "object": "Seúl",
+     "prompts": [
+      "La capital de Corea del Sur es"
+     ]
+    },
+    "hi": {
+     "subject": "दक्षिण कोरिया",
+     "object": "सियोल",
+     "prompts": [
+      "दक्षिण कोरिया की राजधानी",
+      "दक्षिण कोरिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_057",
+   "relation": "capital_of",
+   "seed": 1996972697,
+   "lang": {
+    "en": {
+     "subject": "Jordan",
+     "object": "Amman",
+     "prompts": [
+      "The capital of Jordan is"
+     ]
+    },
+    "es": {
+     "subject": "Jordania",
+     "object": "Amán",
+     "prompts": [
+      "La capital de Jordania es"
+     ]
+    },
+    "hi": {
+     "subject": "जॉर्डन",
+     "object": "अम्मान",
+     "prompts": [
+      "जॉर्डन की राजधानी",
+      "जॉर्डन की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_058",
+   "relation": "capital_of",
+   "seed": 823452684,
+   "lang": {
+    "en": {
+     "subject": "Lebanon",
+     "object": "Beirut",
+     "prompts": [
+      "The capital of Lebanon is"
+     ]
+    },
+    "es": {
+     "subject": "Líbano",
+     "object": "Beirut",
+     "prompts": [
+      "La capital de Líbano es"
+     ]
+    },
+    "hi": {
+     "subject": "लेबनान",
+     "object": "बेरूत",
+     "prompts": [
+      "लेबनान की राजधानी",
+      "लेबनान की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_059",
+   "relation": "capital_of",
+   "seed": 19398460,
+   "lang": {
+    "en": {
+     "subject": "Syria",
+     "object": "Damascus",
+     "prompts": [
+      "The capital of Syria is"
+     ]
+    },
+    "es": {
+     "subject": "Siria",
+     "object": "Damasco",
+     "prompts": [
+      "La capital de Siria es"
+     ]
+    },
+    "hi": {
+     "subject": "सीरिया",
+     "object": "दमिश्क",
+     "prompts": [
+      "सीरिया की राजधानी",
+      "सीरिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_060",
+   "relation": "capital_of",
+   "seed": 1961075725,
+   "lang": {
+    "en": {
+     "subject": "Libya",
+     "object": "Tripoli",
+     "prompts": [
+      "The capital of Libya is"
+     ]
+    },
+    "es": {
+     "subject": "Libia",
+     "object": "Trípoli",
+     "prompts": [
+      "La capital de Libia es"
+     ]
+    },
+    "hi": {
+     "subject": "लीबिया",
+     "object": "त्रिपोली",
+     "prompts": [
+      "लीबिया की राजधानी",
+      "लीबिया की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_061",
+   "relation": "capital_of",
+   "seed": 128978415,
+   "lang": {
+    "en": {
+     "subject": "Uruguay",
+     "object": "Montevideo",
+     "prompts": [
+      "The capital of Uruguay is"
+     ]
+    },
+    "es": {
+     "subject": "Uruguay",
+     "object": "Montevideo",
+     "prompts": [
+      "La capital de Uruguay es"
+     ]
+    },
+    "hi": {
+     "subject": "उरुग्वे",
+     "object": "मोंटेवीडियो",
+     "prompts": [
+      "उरुग्वे की राजधानी",
+      "उरुग्वे की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_062",
+   "relation": "capital_of",
+   "seed": 1903015886,
+   "lang": {
+    "en": {
+     "subject": "Ecuador",
+     "object": "Quito",
+     "prompts": [
+      "The capital of Ecuador is"
+     ]
+    },
+    "es": {
+     "subject": "Ecuador",
+     "object": "Quito",
+     "prompts": [
+      "La capital de Ecuador es"
+     ]
+    },
+    "hi": {
+     "subject": "इक्वाडोर",
+     "object": "क्विटो",
+     "prompts": [
+      "इक्वाडोर की राजधानी",
+      "इक्वाडोर की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_063",
+   "relation": "capital_of",
+   "seed": 479130591,
+   "lang": {
+    "en": {
+     "subject": "Paraguay",
+     "object": "Asunción",
+     "prompts": [
+      "The capital of Paraguay is"
+     ]
+    },
+    "es": {
+     "subject": "Paraguay",
+     "object": "Asunción",
+     "prompts": [
+      "La capital de Paraguay es"
+     ]
+    },
+    "hi": {
+     "subject": "पैराग्वे",
+     "object": "असुनसियोन",
+     "prompts": [
+      "पैराग्वे की राजधानी",
+      "पैराग्वे की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_of_064",
+   "relation": "capital_of",
+   "seed": 1858175152,
+   "lang": {
+    "en": {
+     "subject": "Jamaica",
+     "object": "Kingston",
+     "prompts": [
+      "The capital of Jamaica is"
+     ]
+    },
+    "es": {
+     "subject": "Jamaica",
+     "object": "Kingston",
+     "prompts": [
+      "La capital de Jamaica es"
+     ]
+    },
+    "hi": {
+     "subject": "जमैका",
+     "object": "किंग्स्टन",
+     "prompts": [
+      "जमैका की राजधानी",
+      "जमैका की राजधानी है"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_000",
+   "relation": "landmark_city",
+   "seed": 634752964,
+   "lang": {
+    "en": {
+     "subject": "the Eiffel Tower",
+     "object": "Paris",
+     "prompts": [
+      "The Eiffel Tower is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Torre Eiffel",
+     "object": "París",
+     "prompts": [
+      "La Torre Eiffel se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "एफ़िल टॉवर",
+     "object": "पेरिस",
+     "prompts": [
+      "एफ़िल टॉवर इस शहर में स्थित है:",
+      "एफ़िल टॉवर शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_001",
+   "relation": "landmark_city",
+   "seed": 836429110,
+   "lang": {
+    "en": {
+     "subject": "the Colosseum",
+     "object": "Rome",
+     "prompts": [
+      "The Colosseum is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Coliseo",
+     "object": "Roma",
+     "prompts": [
+      "El Coliseo se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "कोलोसियम",
+     "object": "रोम",
+     "prompts": [
+      "कोलोसियम इस शहर में स्थित है:",
+      "कोलोसियम शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_002",
+   "relation": "landmark_city",
+   "seed": 956128904,
+   "lang": {
+    "en": {
+     "subject": "Big Ben",
+     "object": "London",
+     "prompts": [
+      "Big Ben is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Big Ben",
+     "object": "Londres",
+     "prompts": [
+      "El Big Ben se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "बिग बेन",
+     "object": "लंदन",
+     "prompts": [
+      "बिग बेन इस शहर में स्थित है:",
+      "बिग बेन शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_003",
+   "relation": "landmark_city",
+   "seed": 1920937730,
+   "lang": {
+    "en": {
+     "subject": "the Statue of Liberty",
+     "object": "New York",
+     "prompts": [
+      "The Statue of Liberty is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Estatua de la Libertad",
+     "object": "Nueva York",
+     "prompts": [
+      "La Estatua de la Libertad se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "स्टैच्यू ऑफ़ लिबर्टी",
+     "object": "न्यूयॉर्क",
+     "prompts": [
+      "स्टैच्यू ऑफ़ लिबर्टी इस शहर में स्थित है:",
+      "स्टैच्यू ऑफ़ लिबर्टी शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_004",
+   "relation": "landmark_city",
+   "seed": 512521953,
+   "lang": {
+    "en": {
+     "subject": "the Taj Mahal",
+     "object": "Agra",
+     "prompts": [
+      "The Taj Mahal is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Taj Mahal",
+     "object": "Agra",
+     "prompts": [
+      "El Taj Mahal se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "ताज महल",
+     "object": "आगरा",
+     "prompts": [
+      "ताज महल इस शहर में स्थित है:",
+      "ताज महल शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_005",
+   "relation": "landmark_city",
+   "seed": 444039733,
+   "lang": {
+    "en": {
+     "subject": "the Sagrada Familia",
+     "object": "Barcelona",
+     "prompts": [
+      "The Sagrada Familia is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Sagrada Familia",
+     "object": "Barcelona",
+     "prompts": [
+      "La Sagrada Familia se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "सग्रादा फ़ैमिलिया",
+     "object": "बार्सिलोना",
+     "prompts": [
+      "सग्रादा फ़ैमिलिया इस शहर में स्थित है:",
+      "सग्रादा फ़ैमिलिया शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_006",
+   "relation": "landmark_city",
+   "seed": 1517443031,
+   "lang": {
+    "en": {
+     "subject": "the Brandenburg Gate",
+     "object": "Berlin",
+     "prompts": [
+      "The Brandenburg Gate is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Puerta de Brandeburgo",
+     "object": "Berlín",
+     "prompts": [
+      "La Puerta de Brandeburgo se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "ब्रांडेनबर्ग गेट",
+     "object": "बर्लिन",
+     "prompts": [
+      "ब्रांडेनबर्ग गेट इस शहर में स्थित है:",
+      "ब्रांडेनबर्ग गेट शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_007",
+   "relation": "landmark_city",
+   "seed": 317691616,
+   "lang": {
+    "en": {
+     "subject": "the Acropolis",
+     "object": "Athens",
+     "prompts": [
+      "The Acropolis is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Acrópolis",
+     "object": "Atenas",
+     "prompts": [
+      "La Acrópolis se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "एक्रोपोलिस",
+     "object": "एथेंस",
+     "prompts": [
+      "एक्रोपोलिस इस शहर में स्थित है:",
+      "एक्रोपोलिस शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_008",
+   "relation": "landmark_city",
+   "seed": 1993975982,
+   "lang": {
+    "en": {
+     "subject": "the Red Fort",
+     "object": "Delhi",
+     "prompts": [
+      "The Red Fort is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Fuerte Rojo",
+     "object": "Delhi",
+     "prompts": [
+      "El Fuerte Rojo se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "लाल क़िला",
+     "object": "दिल्ली",
+     "prompts": [
+      "लाल क़िला इस शहर में स्थित है:",
+      "लाल क़िला शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_009",
+   "relation": "landmark_city",
+   "seed": 1078781260,
+   "lang": {
+    "en": {
+     "subject": "the Sydney Opera House",
+     "object": "Sydney",
+     "prompts": [
+      "The Sydney Opera House is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Ópera de Sídney",
+     "object": "Sídney",
+     "prompts": [
+      "La Ópera de Sídney se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "सिडनी ओपेरा हाउस",
+     "object": "सिडनी",
+     "prompts": [
+      "सिडनी ओपेरा हाउस इस शहर में स्थित है:",
+      "सिडनी ओपेरा हाउस शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_010",
+   "relation": "landmark_city",
+   "seed": 1904082676,
+   "lang": {
+    "en": {
+     "subject": "the Burj Khalifa",
+     "object": "Dubai",
+     "prompts": [
+      "The Burj Khalifa is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Burj Khalifa",
+     "object": "Dubái",
+     "prompts": [
+      "El Burj Khalifa se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "बुर्ज ख़लीफ़ा",
+     "object": "दुबई",
+     "prompts": [
+      "बुर्ज ख़लीफ़ा इस शहर में स्थित है:",
+      "बुर्ज ख़लीफ़ा शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_011",
+   "relation": "landmark_city",
+   "seed": 581492720,
+   "lang": {
+    "en": {
+     "subject": "the Kremlin",
+     "object": "Moscow",
+     "prompts": [
+      "The Kremlin is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Kremlin",
+     "object": "Moscú",
+     "prompts": [
+      "El Kremlin se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "क्रेमलिन",
+     "object": "मॉस्को",
+     "prompts": [
+      "क्रेमलिन इस शहर में स्थित है:",
+      "क्रेमलिन शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_012",
+   "relation": "landmark_city",
+   "seed": 734239397,
+   "lang": {
+    "en": {
+     "subject": "the Louvre",
+     "object": "Paris",
+     "prompts": [
+      "The Louvre is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Louvre",
+     "object": "París",
+     "prompts": [
+      "El Louvre se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "लूव्र",
+     "object": "पेरिस",
+     "prompts": [
+      "लूव्र इस शहर में स्थित है:",
+      "लूव्र शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_013",
+   "relation": "landmark_city",
+   "seed": 1878308809,
+   "lang": {
+    "en": {
+     "subject": "the Leaning Tower",
+     "object": "Pisa",
+     "prompts": [
+      "The Leaning Tower is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Torre inclinada",
+     "object": "Pisa",
+     "prompts": [
+      "La Torre inclinada se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "पीसा की मीनार",
+     "object": "पीसा",
+     "prompts": [
+      "पीसा की मीनार इस शहर में स्थित है:",
+      "पीसा की मीनार शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_014",
+   "relation": "landmark_city",
+   "seed": 1228991779,
+   "lang": {
+    "en": {
+     "subject": "the Charminar",
+     "object": "Hyderabad",
+     "prompts": [
+      "The Charminar is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Charminar",
+     "object": "Hyderabad",
+     "prompts": [
+      "El Charminar se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "चारमीनार",
+     "object": "हैदराबाद",
+     "prompts": [
+      "चारमीनार इस शहर में स्थित है:",
+      "चारमीनार शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_015",
+   "relation": "landmark_city",
+   "seed": 1741122566,
+   "lang": {
+    "en": {
+     "subject": "the Hagia Sophia",
+     "object": "Istanbul",
+     "prompts": [
+      "The Hagia Sophia is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "Santa Sofía",
+     "object": "Estambul",
+     "prompts": [
+      "Santa Sofía se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "हागिया सोफ़िया",
+     "object": "इस्तांबुल",
+     "prompts": [
+      "हागिया सोफ़िया इस शहर में स्थित है:",
+      "हागिया सोफ़िया शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_016",
+   "relation": "landmark_city",
+   "seed": 2127813999,
+   "lang": {
+    "en": {
+     "subject": "the Alhambra",
+     "object": "Granada",
+     "prompts": [
+      "The Alhambra is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Alhambra",
+     "object": "Granada",
+     "prompts": [
+      "La Alhambra se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "अलहम्ब्रा",
+     "object": "ग्रेनेडा",
+     "prompts": [
+      "अलहम्ब्रा इस शहर में स्थित है:",
+      "अलहम्ब्रा शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_017",
+   "relation": "landmark_city",
+   "seed": 1933580022,
+   "lang": {
+    "en": {
+     "subject": "the Prado Museum",
+     "object": "Madrid",
+     "prompts": [
+      "The Prado Museum is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Museo del Prado",
+     "object": "Madrid",
+     "prompts": [
+      "El Museo del Prado se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "प्राडो संग्रहालय",
+     "object": "मैड्रिड",
+     "prompts": [
+      "प्राडो संग्रहालय इस शहर में स्थित है:",
+      "प्राडो संग्रहालय शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_018",
+   "relation": "landmark_city",
+   "seed": 1748890669,
+   "lang": {
+    "en": {
+     "subject": "Christ the Redeemer",
+     "object": "Rio de Janeiro",
+     "prompts": [
+      "Christ the Redeemer is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Cristo Redentor",
+     "object": "Río de Janeiro",
+     "prompts": [
+      "El Cristo Redentor se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "क्राइस्ट द रिडीमर",
+     "object": "रियो डी जनेरियो",
+     "prompts": [
+      "क्राइस्ट द रिडीमर इस शहर में स्थित है:",
+      "क्राइस्ट द रिडीमर शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_019",
+   "relation": "landmark_city",
+   "seed": 987765419,
+   "lang": {
+    "en": {
+     "subject": "the Space Needle",
+     "object": "Seattle",
+     "prompts": [
+      "The Space Needle is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Space Needle",
+     "object": "Seattle",
+     "prompts": [
+      "La Space Needle se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "स्पेस नीडल",
+     "object": "सिएटल",
+     "prompts": [
+      "स्पेस नीडल इस शहर में स्थित है:",
+      "स्पेस नीडल शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_020",
+   "relation": "landmark_city",
+   "seed": 686992343,
+   "lang": {
+    "en": {
+     "subject": "the Golden Gate Bridge",
+     "object": "San Francisco",
+     "prompts": [
+      "The Golden Gate Bridge is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Puente Golden Gate",
+     "object": "San Francisco",
+     "prompts": [
+      "El Puente Golden Gate se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "गोल्डन गेट ब्रिज",
+     "object": "सैन फ़्रांसिस्को",
+     "prompts": [
+      "गोल्डन गेट ब्रिज इस शहर में स्थित है:",
+      "गोल्डन गेट ब्रिज शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_021",
+   "relation": "landmark_city",
+   "seed": 973240776,
+   "lang": {
+    "en": {
+     "subject": "the CN Tower",
+     "object": "Toronto",
+     "prompts": [
+      "The CN Tower is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Torre CN",
+     "object": "Toronto",
+     "prompts": [
+      "La Torre CN se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "सीएन टावर",
+     "object": "टोरंटो",
+     "prompts": [
+      "सीएन टावर इस शहर में स्थित है:",
+      "सीएन टावर शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_022",
+   "relation": "landmark_city",
+   "seed": 568182624,
+   "lang": {
+    "en": {
+     "subject": "the Petronas Towers",
+     "object": "Kuala Lumpur",
+     "prompts": [
+      "The Petronas Towers is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "las Torres Petronas",
+     "object": "Kuala Lumpur",
+     "prompts": [
+      "Las Torres Petronas se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "पेट्रोनास टावर्स",
+     "object": "कुआला लंपुर",
+     "prompts": [
+      "पेट्रोनास टावर्स इस शहर में स्थित है:",
+      "पेट्रोनास टावर्स शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_023",
+   "relation": "landmark_city",
+   "seed": 533383530,
+   "lang": {
+    "en": {
+     "subject": "the Forbidden City",
+     "object": "Beijing",
+     "prompts": [
+      "The Forbidden City is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Ciudad Prohibida",
+     "object": "Pekín",
+     "prompts": [
+      "La Ciudad Prohibida se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "निषिद्ध नगर",
+     "object": "बीजिंग",
+     "prompts": [
+      "निषिद्ध नगर इस शहर में स्थित है:",
+      "निषिद्ध नगर शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_024",
+   "relation": "landmark_city",
+   "seed": 775488277,
+   "lang": {
+    "en": {
+     "subject": "the Atomium",
+     "object": "Brussels",
+     "prompts": [
+      "The Atomium is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Atomium",
+     "object": "Bruselas",
+     "prompts": [
+      "El Atomium se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "एटोमियम",
+     "object": "ब्रसेल्स",
+     "prompts": [
+      "एटोमियम इस शहर में स्थित है:",
+      "एटोमियम शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_025",
+   "relation": "landmark_city",
+   "seed": 531805756,
+   "lang": {
+    "en": {
+     "subject": "the Hermitage Museum",
+     "object": "Saint Petersburg",
+     "prompts": [
+      "The Hermitage Museum is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Museo del Hermitage",
+     "object": "San Petersburgo",
+     "prompts": [
+      "El Museo del Hermitage se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "हर्मिटेज संग्रहालय",
+     "object": "सेंट पीटर्सबर्ग",
+     "prompts": [
+      "हर्मिटेज संग्रहालय इस शहर में स्थित है:",
+      "हर्मिटेज संग्रहालय शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_026",
+   "relation": "landmark_city",
+   "seed": 44550189,
+   "lang": {
+    "en": {
+     "subject": "the Charles Bridge",
+     "object": "Prague",
+     "prompts": [
+      "The Charles Bridge is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Puente de Carlos",
+     "object": "Praga",
+     "prompts": [
+      "El Puente de Carlos se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "चार्ल्स ब्रिज",
+     "object": "प्राग",
+     "prompts": [
+      "चार्ल्स ब्रिज इस शहर में स्थित है:",
+      "चार्ल्स ब्रिज शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_027",
+   "relation": "landmark_city",
+   "seed": 1022405280,
+   "lang": {
+    "en": {
+     "subject": "Edinburgh Castle",
+     "object": "Edinburgh",
+     "prompts": [
+      "Edinburgh Castle is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Castillo de Edimburgo",
+     "object": "Edimburgo",
+     "prompts": [
+      "El Castillo de Edimburgo se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "एडिनबरा कैसल",
+     "object": "एडिनबरा",
+     "prompts": [
+      "एडिनबरा कैसल इस शहर में स्थित है:",
+      "एडिनबरा कैसल शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_028",
+   "relation": "landmark_city",
+   "seed": 1729959050,
+   "lang": {
+    "en": {
+     "subject": "the Trevi Fountain",
+     "object": "Rome",
+     "prompts": [
+      "The Trevi Fountain is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Fontana de Trevi",
+     "object": "Roma",
+     "prompts": [
+      "La Fontana de Trevi se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "ट्रेवी फ़ाउंटेन",
+     "object": "रोम",
+     "prompts": [
+      "ट्रेवी फ़ाउंटेन इस शहर में स्थित है:",
+      "ट्रेवी फ़ाउंटेन शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_029",
+   "relation": "landmark_city",
+   "seed": 871806162,
+   "lang": {
+    "en": {
+     "subject": "the Rialto Bridge",
+     "object": "Venice",
+     "prompts": [
+      "The Rialto Bridge is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Puente de Rialto",
+     "object": "Venecia",
+     "prompts": [
+      "El Puente de Rialto se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "रियाल्टो पुल",
+     "object": "वेनिस",
+     "prompts": [
+      "रियाल्टो पुल इस शहर में स्थित है:",
+      "रियाल्टो पुल शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_030",
+   "relation": "landmark_city",
+   "seed": 306640834,
+   "lang": {
+    "en": {
+     "subject": "Westminster Abbey",
+     "object": "London",
+     "prompts": [
+      "Westminster Abbey is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "la Abadía de Westminster",
+     "object": "Londres",
+     "prompts": [
+      "La Abadía de Westminster se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "वेस्टमिंस्टर एबे",
+     "object": "लंदन",
+     "prompts": [
+      "वेस्टमिंस्टर एबे इस शहर में स्थित है:",
+      "वेस्टमिंस्टर एबे शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_031",
+   "relation": "landmark_city",
+   "seed": 162762104,
+   "lang": {
+    "en": {
+     "subject": "Tower Bridge",
+     "object": "London",
+     "prompts": [
+      "Tower Bridge is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Tower Bridge",
+     "object": "Londres",
+     "prompts": [
+      "El Tower Bridge se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "टावर ब्रिज",
+     "object": "लंदन",
+     "prompts": [
+      "टावर ब्रिज इस शहर में स्थित है:",
+      "टावर ब्रिज शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_032",
+   "relation": "landmark_city",
+   "seed": 240782083,
+   "lang": {
+    "en": {
+     "subject": "Times Square",
+     "object": "New York",
+     "prompts": [
+      "Times Square is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "Times Square",
+     "object": "Nueva York",
+     "prompts": [
+      "Times Square se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "टाइम्स स्क्वायर",
+     "object": "न्यूयॉर्क",
+     "prompts": [
+      "टाइम्स स्क्वायर इस शहर में स्थित है:",
+      "टाइम्स स्क्वायर शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_033",
+   "relation": "landmark_city",
+   "seed": 439674167,
+   "lang": {
+    "en": {
+     "subject": "the Hollywood Sign",
+     "object": "Los Angeles",
+     "prompts": [
+      "The Hollywood Sign is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Cartel de Hollywood",
+     "object": "Los Ángeles",
+     "prompts": [
+      "El Cartel de Hollywood se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "हॉलीवुड साइन",
+     "object": "लॉस एंजिल्स",
+     "prompts": [
+      "हॉलीवुड साइन इस शहर में स्थित है:",
+      "हॉलीवुड साइन शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_034",
+   "relation": "landmark_city",
+   "seed": 2124006538,
+   "lang": {
+    "en": {
+     "subject": "the Golden Temple",
+     "object": "Amritsar",
+     "prompts": [
+      "The Golden Temple is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Templo Dorado",
+     "object": "Amritsar",
+     "prompts": [
+      "El Templo Dorado se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "स्वर्ण मंदिर",
+     "object": "अमृतसर",
+     "prompts": [
+      "स्वर्ण मंदिर इस शहर में स्थित है:",
+      "स्वर्ण मंदिर शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_035",
+   "relation": "landmark_city",
+   "seed": 1105405494,
+   "lang": {
+    "en": {
+     "subject": "the Hawa Mahal",
+     "object": "Jaipur",
+     "prompts": [
+      "The Hawa Mahal is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Hawa Mahal",
+     "object": "Jaipur",
+     "prompts": [
+      "El Hawa Mahal se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "हवा महल",
+     "object": "जयपुर",
+     "prompts": [
+      "हवा महल इस शहर में स्थित है:",
+      "हवा महल शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_036",
+   "relation": "landmark_city",
+   "seed": 90274321,
+   "lang": {
+    "en": {
+     "subject": "the Victoria Memorial",
+     "object": "Kolkata",
+     "prompts": [
+      "The Victoria Memorial is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Memorial Victoria",
+     "object": "Calcuta",
+     "prompts": [
+      "El Memorial Victoria se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "विक्टोरिया मेमोरियल",
+     "object": "कोलकाता",
+     "prompts": [
+      "विक्टोरिया मेमोरियल इस शहर में स्थित है:",
+      "विक्टोरिया मेमोरियल शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_037",
+   "relation": "landmark_city",
+   "seed": 1925296081,
+   "lang": {
+    "en": {
+     "subject": "the Meenakshi Temple",
+     "object": "Madurai",
+     "prompts": [
+      "The Meenakshi Temple is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Templo de Meenakshi",
+     "object": "Madurai",
+     "prompts": [
+      "El Templo de Meenakshi se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "मीनाक्षी मंदिर",
+     "object": "मदुरै",
+     "prompts": [
+      "मीनाक्षी मंदिर इस शहर में स्थित है:",
+      "मीनाक्षी मंदिर शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_city_038",
+   "relation": "landmark_city",
+   "seed": 1172465201,
+   "lang": {
+    "en": {
+     "subject": "the Mysore Palace",
+     "object": "Mysore",
+     "prompts": [
+      "The Mysore Palace is located in the city of"
+     ]
+    },
+    "es": {
+     "subject": "el Palacio de Mysore",
+     "object": "Mysore",
+     "prompts": [
+      "El Palacio de Mysore se encuentra en la ciudad de"
+     ]
+    },
+    "hi": {
+     "subject": "मैसूर पैलेस",
+     "object": "मैसूर",
+     "prompts": [
+      "मैसूर पैलेस इस शहर में स्थित है:",
+      "मैसूर पैलेस शहर में स्थित है, जिसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_000",
+   "relation": "capital_country",
+   "seed": 33274921,
+   "lang": {
+    "en": {
+     "subject": "Paris",
+     "object": "France",
+     "prompts": [
+      "Paris is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "París",
+     "object": "Francia",
+     "prompts": [
+      "París es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "पेरिस",
+     "object": "फ्रांस",
+     "prompts": [
+      "पेरिस इस देश की राजधानी है:",
+      "पेरिस जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_001",
+   "relation": "capital_country",
+   "seed": 193870771,
+   "lang": {
+    "en": {
+     "subject": "Berlin",
+     "object": "Germany",
+     "prompts": [
+      "Berlin is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Berlín",
+     "object": "Alemania",
+     "prompts": [
+      "Berlín es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "बर्लिन",
+     "object": "जर्मनी",
+     "prompts": [
+      "बर्लिन इस देश की राजधानी है:",
+      "बर्लिन जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_002",
+   "relation": "capital_country",
+   "seed": 1082944870,
+   "lang": {
+    "en": {
+     "subject": "Rome",
+     "object": "Italy",
+     "prompts": [
+      "Rome is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Roma",
+     "object": "Italia",
+     "prompts": [
+      "Roma es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "रोम",
+     "object": "इटली",
+     "prompts": [
+      "रोम इस देश की राजधानी है:",
+      "रोम जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_003",
+   "relation": "capital_country",
+   "seed": 1232131261,
+   "lang": {
+    "en": {
+     "subject": "Madrid",
+     "object": "Spain",
+     "prompts": [
+      "Madrid is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Madrid",
+     "object": "España",
+     "prompts": [
+      "Madrid es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "मैड्रिड",
+     "object": "स्पेन",
+     "prompts": [
+      "मैड्रिड इस देश की राजधानी है:",
+      "मैड्रिड जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_004",
+   "relation": "capital_country",
+   "seed": 1821269717,
+   "lang": {
+    "en": {
+     "subject": "Lisbon",
+     "object": "Portugal",
+     "prompts": [
+      "Lisbon is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Lisboa",
+     "object": "Portugal",
+     "prompts": [
+      "Lisboa es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "लिस्बन",
+     "object": "पुर्तगाल",
+     "prompts": [
+      "लिस्बन इस देश की राजधानी है:",
+      "लिस्बन जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_005",
+   "relation": "capital_country",
+   "seed": 1525537563,
+   "lang": {
+    "en": {
+     "subject": "Tokyo",
+     "object": "Japan",
+     "prompts": [
+      "Tokyo is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Tokio",
+     "object": "Japón",
+     "prompts": [
+      "Tokio es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "टोक्यो",
+     "object": "जापान",
+     "prompts": [
+      "टोक्यो इस देश की राजधानी है:",
+      "टोक्यो जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_006",
+   "relation": "capital_country",
+   "seed": 420686161,
+   "lang": {
+    "en": {
+     "subject": "Beijing",
+     "object": "China",
+     "prompts": [
+      "Beijing is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Pekín",
+     "object": "China",
+     "prompts": [
+      "Pekín es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "बीजिंग",
+     "object": "चीन",
+     "prompts": [
+      "बीजिंग इस देश की राजधानी है:",
+      "बीजिंग जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_007",
+   "relation": "capital_country",
+   "seed": 1225553702,
+   "lang": {
+    "en": {
+     "subject": "New Delhi",
+     "object": "India",
+     "prompts": [
+      "New Delhi is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Nueva Delhi",
+     "object": "India",
+     "prompts": [
+      "Nueva Delhi es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "नई दिल्ली",
+     "object": "भारत",
+     "prompts": [
+      "नई दिल्ली इस देश की राजधानी है:",
+      "नई दिल्ली जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_008",
+   "relation": "capital_country",
+   "seed": 1351235485,
+   "lang": {
+    "en": {
+     "subject": "Moscow",
+     "object": "Russia",
+     "prompts": [
+      "Moscow is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Moscú",
+     "object": "Rusia",
+     "prompts": [
+      "Moscú es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "मॉस्को",
+     "object": "रूस",
+     "prompts": [
+      "मॉस्को इस देश की राजधानी है:",
+      "मॉस्को जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_009",
+   "relation": "capital_country",
+   "seed": 1178685690,
+   "lang": {
+    "en": {
+     "subject": "Brasília",
+     "object": "Brazil",
+     "prompts": [
+      "Brasília is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Brasilia",
+     "object": "Brasil",
+     "prompts": [
+      "Brasilia es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "ब्रासीलिया",
+     "object": "ब्राज़ील",
+     "prompts": [
+      "ब्रासीलिया इस देश की राजधानी है:",
+      "ब्रासीलिया जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_010",
+   "relation": "capital_country",
+   "seed": 167474524,
+   "lang": {
+    "en": {
+     "subject": "Buenos Aires",
+     "object": "Argentina",
+     "prompts": [
+      "Buenos Aires is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Buenos Aires",
+     "object": "Argentina",
+     "prompts": [
+      "Buenos Aires es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "ब्यूनस आयर्स",
+     "object": "अर्जेंटीना",
+     "prompts": [
+      "ब्यूनस आयर्स इस देश की राजधानी है:",
+      "ब्यूनस आयर्स जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_011",
+   "relation": "capital_country",
+   "seed": 1199343797,
+   "lang": {
+    "en": {
+     "subject": "Mexico City",
+     "object": "Mexico",
+     "prompts": [
+      "Mexico City is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Ciudad de México",
+     "object": "México",
+     "prompts": [
+      "Ciudad de México es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "मेक्सिको सिटी",
+     "object": "मेक्सिको",
+     "prompts": [
+      "मेक्सिको सिटी इस देश की राजधानी है:",
+      "मेक्सिको सिटी जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_012",
+   "relation": "capital_country",
+   "seed": 421515643,
+   "lang": {
+    "en": {
+     "subject": "Ottawa",
+     "object": "Canada",
+     "prompts": [
+      "Ottawa is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Ottawa",
+     "object": "Canadá",
+     "prompts": [
+      "Ottawa es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "ओटावा",
+     "object": "कनाडा",
+     "prompts": [
+      "ओटावा इस देश की राजधानी है:",
+      "ओटावा जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_013",
+   "relation": "capital_country",
+   "seed": 125755924,
+   "lang": {
+    "en": {
+     "subject": "Canberra",
+     "object": "Australia",
+     "prompts": [
+      "Canberra is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Canberra",
+     "object": "Australia",
+     "prompts": [
+      "Canberra es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "कैनबरा",
+     "object": "ऑस्ट्रेलिया",
+     "prompts": [
+      "कैनबरा इस देश की राजधानी है:",
+      "कैनबरा जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_014",
+   "relation": "capital_country",
+   "seed": 1614293980,
+   "lang": {
+    "en": {
+     "subject": "Athens",
+     "object": "Greece",
+     "prompts": [
+      "Athens is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Atenas",
+     "object": "Grecia",
+     "prompts": [
+      "Atenas es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "एथेंस",
+     "object": "ग्रीस",
+     "prompts": [
+      "एथेंस इस देश की राजधानी है:",
+      "एथेंस जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_015",
+   "relation": "capital_country",
+   "seed": 1975996114,
+   "lang": {
+    "en": {
+     "subject": "Ankara",
+     "object": "Turkey",
+     "prompts": [
+      "Ankara is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Ankara",
+     "object": "Turquía",
+     "prompts": [
+      "Ankara es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "अंकारा",
+     "object": "तुर्की",
+     "prompts": [
+      "अंकारा इस देश की राजधानी है:",
+      "अंकारा जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_016",
+   "relation": "capital_country",
+   "seed": 838949060,
+   "lang": {
+    "en": {
+     "subject": "Stockholm",
+     "object": "Sweden",
+     "prompts": [
+      "Stockholm is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Estocolmo",
+     "object": "Suecia",
+     "prompts": [
+      "Estocolmo es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "स्टॉकहोम",
+     "object": "स्वीडन",
+     "prompts": [
+      "स्टॉकहोम इस देश की राजधानी है:",
+      "स्टॉकहोम जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_017",
+   "relation": "capital_country",
+   "seed": 250514340,
+   "lang": {
+    "en": {
+     "subject": "Oslo",
+     "object": "Norway",
+     "prompts": [
+      "Oslo is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Oslo",
+     "object": "Noruega",
+     "prompts": [
+      "Oslo es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "ओस्लो",
+     "object": "नॉर्वे",
+     "prompts": [
+      "ओस्लो इस देश की राजधानी है:",
+      "ओस्लो जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_018",
+   "relation": "capital_country",
+   "seed": 693666303,
+   "lang": {
+    "en": {
+     "subject": "Helsinki",
+     "object": "Finland",
+     "prompts": [
+      "Helsinki is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Helsinki",
+     "object": "Finlandia",
+     "prompts": [
+      "Helsinki es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "हेलसिंकी",
+     "object": "फ़िनलैंड",
+     "prompts": [
+      "हेलसिंकी इस देश की राजधानी है:",
+      "हेलसिंकी जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_019",
+   "relation": "capital_country",
+   "seed": 2132932529,
+   "lang": {
+    "en": {
+     "subject": "Copenhagen",
+     "object": "Denmark",
+     "prompts": [
+      "Copenhagen is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Copenhague",
+     "object": "Dinamarca",
+     "prompts": [
+      "Copenhague es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "कोपेनहेगन",
+     "object": "डेनमार्क",
+     "prompts": [
+      "कोपेनहेगन इस देश की राजधानी है:",
+      "कोपेनहेगन जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_020",
+   "relation": "capital_country",
+   "seed": 989642620,
+   "lang": {
+    "en": {
+     "subject": "Warsaw",
+     "object": "Poland",
+     "prompts": [
+      "Warsaw is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Varsovia",
+     "object": "Polonia",
+     "prompts": [
+      "Varsovia es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "वारसॉ",
+     "object": "पोलैंड",
+     "prompts": [
+      "वारसॉ इस देश की राजधानी है:",
+      "वारसॉ जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_021",
+   "relation": "capital_country",
+   "seed": 316771254,
+   "lang": {
+    "en": {
+     "subject": "Vienna",
+     "object": "Austria",
+     "prompts": [
+      "Vienna is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Viena",
+     "object": "Austria",
+     "prompts": [
+      "Viena es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "वियना",
+     "object": "ऑस्ट्रिया",
+     "prompts": [
+      "वियना इस देश की राजधानी है:",
+      "वियना जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_022",
+   "relation": "capital_country",
+   "seed": 1403525607,
+   "lang": {
+    "en": {
+     "subject": "Bern",
+     "object": "Switzerland",
+     "prompts": [
+      "Bern is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Berna",
+     "object": "Suiza",
+     "prompts": [
+      "Berna es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "बर्न",
+     "object": "स्विट्ज़रलैंड",
+     "prompts": [
+      "बर्न इस देश की राजधानी है:",
+      "बर्न जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_023",
+   "relation": "capital_country",
+   "seed": 506610997,
+   "lang": {
+    "en": {
+     "subject": "Brussels",
+     "object": "Belgium",
+     "prompts": [
+      "Brussels is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Bruselas",
+     "object": "Bélgica",
+     "prompts": [
+      "Bruselas es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "ब्रसेल्स",
+     "object": "बेल्जियम",
+     "prompts": [
+      "ब्रसेल्स इस देश की राजधानी है:",
+      "ब्रसेल्स जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_024",
+   "relation": "capital_country",
+   "seed": 298445617,
+   "lang": {
+    "en": {
+     "subject": "Dublin",
+     "object": "Ireland",
+     "prompts": [
+      "Dublin is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Dublín",
+     "object": "Irlanda",
+     "prompts": [
+      "Dublín es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "डबलिन",
+     "object": "आयरलैंड",
+     "prompts": [
+      "डबलिन इस देश की राजधानी है:",
+      "डबलिन जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_025",
+   "relation": "capital_country",
+   "seed": 941134083,
+   "lang": {
+    "en": {
+     "subject": "Lima",
+     "object": "Peru",
+     "prompts": [
+      "Lima is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Lima",
+     "object": "Perú",
+     "prompts": [
+      "Lima es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "लीमा",
+     "object": "पेरू",
+     "prompts": [
+      "लीमा इस देश की राजधानी है:",
+      "लीमा जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_026",
+   "relation": "capital_country",
+   "seed": 1660454970,
+   "lang": {
+    "en": {
+     "subject": "Santiago",
+     "object": "Chile",
+     "prompts": [
+      "Santiago is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Santiago",
+     "object": "Chile",
+     "prompts": [
+      "Santiago es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "सैंटियागो",
+     "object": "चिली",
+     "prompts": [
+      "सैंटियागो इस देश की राजधानी है:",
+      "सैंटियागो जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_027",
+   "relation": "capital_country",
+   "seed": 410837947,
+   "lang": {
+    "en": {
+     "subject": "Bogotá",
+     "object": "Colombia",
+     "prompts": [
+      "Bogotá is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Bogotá",
+     "object": "Colombia",
+     "prompts": [
+      "Bogotá es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "बोगोटा",
+     "object": "कोलंबिया",
+     "prompts": [
+      "बोगोटा इस देश की राजधानी है:",
+      "बोगोटा जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_028",
+   "relation": "capital_country",
+   "seed": 363853058,
+   "lang": {
+    "en": {
+     "subject": "Caracas",
+     "object": "Venezuela",
+     "prompts": [
+      "Caracas is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Caracas",
+     "object": "Venezuela",
+     "prompts": [
+      "Caracas es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "काराकास",
+     "object": "वेनेज़ुएला",
+     "prompts": [
+      "काराकास इस देश की राजधानी है:",
+      "काराकास जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_029",
+   "relation": "capital_country",
+   "seed": 1058993401,
+   "lang": {
+    "en": {
+     "subject": "Bangkok",
+     "object": "Thailand",
+     "prompts": [
+      "Bangkok is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Bangkok",
+     "object": "Tailandia",
+     "prompts": [
+      "Bangkok es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "बैंकॉक",
+     "object": "थाईलैंड",
+     "prompts": [
+      "बैंकॉक इस देश की राजधानी है:",
+      "बैंकॉक जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_030",
+   "relation": "capital_country",
+   "seed": 1868554078,
+   "lang": {
+    "en": {
+     "subject": "Hanoi",
+     "object": "Vietnam",
+     "prompts": [
+      "Hanoi is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Hanói",
+     "object": "Vietnam",
+     "prompts": [
+      "Hanói es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "हनोई",
+     "object": "वियतनाम",
+     "prompts": [
+      "हनोई इस देश की राजधानी है:",
+      "हनोई जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_031",
+   "relation": "capital_country",
+   "seed": 1994942283,
+   "lang": {
+    "en": {
+     "subject": "Jakarta",
+     "object": "Indonesia",
+     "prompts": [
+      "Jakarta is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Yakarta",
+     "object": "Indonesia",
+     "prompts": [
+      "Yakarta es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "जकार्ता",
+     "object": "इंडोनेशिया",
+     "prompts": [
+      "जकार्ता इस देश की राजधानी है:",
+      "जकार्ता जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_032",
+   "relation": "capital_country",
+   "seed": 1238983075,
+   "lang": {
+    "en": {
+     "subject": "Islamabad",
+     "object": "Pakistan",
+     "prompts": [
+      "Islamabad is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Islamabad",
+     "object": "Pakistán",
+     "prompts": [
+      "Islamabad es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "इस्लामाबाद",
+     "object": "पाकिस्तान",
+     "prompts": [
+      "इस्लामाबाद इस देश की राजधानी है:",
+      "इस्लामाबाद जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_033",
+   "relation": "capital_country",
+   "seed": 494443854,
+   "lang": {
+    "en": {
+     "subject": "Dhaka",
+     "object": "Bangladesh",
+     "prompts": [
+      "Dhaka is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Daca",
+     "object": "Bangladés",
+     "prompts": [
+      "Daca es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "ढाका",
+     "object": "बांग्लादेश",
+     "prompts": [
+      "ढाका इस देश की राजधानी है:",
+      "ढाका जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_034",
+   "relation": "capital_country",
+   "seed": 2002346541,
+   "lang": {
+    "en": {
+     "subject": "Kathmandu",
+     "object": "Nepal",
+     "prompts": [
+      "Kathmandu is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Katmandú",
+     "object": "Nepal",
+     "prompts": [
+      "Katmandú es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "काठमांडू",
+     "object": "नेपाल",
+     "prompts": [
+      "काठमांडू इस देश की राजधानी है:",
+      "काठमांडू जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_035",
+   "relation": "capital_country",
+   "seed": 886381430,
+   "lang": {
+    "en": {
+     "subject": "Colombo",
+     "object": "Sri Lanka",
+     "prompts": [
+      "Colombo is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Colombo",
+     "object": "Sri Lanka",
+     "prompts": [
+      "Colombo es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "कोलंबो",
+     "object": "श्रीलंका",
+     "prompts": [
+      "कोलंबो इस देश की राजधानी है:",
+      "कोलंबो जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_036",
+   "relation": "capital_country",
+   "seed": 62653980,
+   "lang": {
+    "en": {
+     "subject": "Tehran",
+     "object": "Iran",
+     "prompts": [
+      "Tehran is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Teherán",
+     "object": "Irán",
+     "prompts": [
+      "Teherán es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "तेहरान",
+     "object": "ईरान",
+     "prompts": [
+      "तेहरान इस देश की राजधानी है:",
+      "तेहरान जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_037",
+   "relation": "capital_country",
+   "seed": 1793875441,
+   "lang": {
+    "en": {
+     "subject": "Baghdad",
+     "object": "Iraq",
+     "prompts": [
+      "Baghdad is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Bagdad",
+     "object": "Irak",
+     "prompts": [
+      "Bagdad es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "बग़दाद",
+     "object": "इराक",
+     "prompts": [
+      "बग़दाद इस देश की राजधानी है:",
+      "बग़दाद जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_038",
+   "relation": "capital_country",
+   "seed": 4427812,
+   "lang": {
+    "en": {
+     "subject": "Riyadh",
+     "object": "Saudi Arabia",
+     "prompts": [
+      "Riyadh is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Riad",
+     "object": "Arabia Saudita",
+     "prompts": [
+      "Riad es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "रियाद",
+     "object": "सऊदी अरब",
+     "prompts": [
+      "रियाद इस देश की राजधानी है:",
+      "रियाद जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_039",
+   "relation": "capital_country",
+   "seed": 757266566,
+   "lang": {
+    "en": {
+     "subject": "Nairobi",
+     "object": "Kenya",
+     "prompts": [
+      "Nairobi is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Nairobi",
+     "object": "Kenia",
+     "prompts": [
+      "Nairobi es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "नैरोबी",
+     "object": "केन्या",
+     "prompts": [
+      "नैरोबी इस देश की राजधानी है:",
+      "नैरोबी जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_040",
+   "relation": "capital_country",
+   "seed": 308630194,
+   "lang": {
+    "en": {
+     "subject": "Abuja",
+     "object": "Nigeria",
+     "prompts": [
+      "Abuja is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Abuya",
+     "object": "Nigeria",
+     "prompts": [
+      "Abuya es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "अबुजा",
+     "object": "नाइजीरिया",
+     "prompts": [
+      "अबुजा इस देश की राजधानी है:",
+      "अबुजा जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_041",
+   "relation": "capital_country",
+   "seed": 195656048,
+   "lang": {
+    "en": {
+     "subject": "Addis Ababa",
+     "object": "Ethiopia",
+     "prompts": [
+      "Addis Ababa is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Adís Abeba",
+     "object": "Etiopía",
+     "prompts": [
+      "Adís Abeba es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "अदीस अबाबा",
+     "object": "इथियोपिया",
+     "prompts": [
+      "अदीस अबाबा इस देश की राजधानी है:",
+      "अदीस अबाबा जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_042",
+   "relation": "capital_country",
+   "seed": 1949946245,
+   "lang": {
+    "en": {
+     "subject": "Rabat",
+     "object": "Morocco",
+     "prompts": [
+      "Rabat is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Rabat",
+     "object": "Marruecos",
+     "prompts": [
+      "Rabat es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "रबात",
+     "object": "मोरक्को",
+     "prompts": [
+      "रबात इस देश की राजधानी है:",
+      "रबात जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_043",
+   "relation": "capital_country",
+   "seed": 172122120,
+   "lang": {
+    "en": {
+     "subject": "Algiers",
+     "object": "Algeria",
+     "prompts": [
+      "Algiers is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Argel",
+     "object": "Argelia",
+     "prompts": [
+      "Argel es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "अल्जीयर्स",
+     "object": "अल्जीरिया",
+     "prompts": [
+      "अल्जीयर्स इस देश की राजधानी है:",
+      "अल्जीयर्स जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_044",
+   "relation": "capital_country",
+   "seed": 264687277,
+   "lang": {
+    "en": {
+     "subject": "Pretoria",
+     "object": "South Africa",
+     "prompts": [
+      "Pretoria is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Pretoria",
+     "object": "Sudáfrica",
+     "prompts": [
+      "Pretoria es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "प्रिटोरिया",
+     "object": "दक्षिण अफ़्रीका",
+     "prompts": [
+      "प्रिटोरिया इस देश की राजधानी है:",
+      "प्रिटोरिया जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_045",
+   "relation": "capital_country",
+   "seed": 1609692362,
+   "lang": {
+    "en": {
+     "subject": "Accra",
+     "object": "Ghana",
+     "prompts": [
+      "Accra is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Acra",
+     "object": "Ghana",
+     "prompts": [
+      "Acra es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "अक्रा",
+     "object": "घाना",
+     "prompts": [
+      "अक्रा इस देश की राजधानी है:",
+      "अक्रा जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_046",
+   "relation": "capital_country",
+   "seed": 2007525055,
+   "lang": {
+    "en": {
+     "subject": "Budapest",
+     "object": "Hungary",
+     "prompts": [
+      "Budapest is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Budapest",
+     "object": "Hungría",
+     "prompts": [
+      "Budapest es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "बुडापेस्ट",
+     "object": "हंगरी",
+     "prompts": [
+      "बुडापेस्ट इस देश की राजधानी है:",
+      "बुडापेस्ट जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_047",
+   "relation": "capital_country",
+   "seed": 1362669170,
+   "lang": {
+    "en": {
+     "subject": "Bucharest",
+     "object": "Romania",
+     "prompts": [
+      "Bucharest is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Bucarest",
+     "object": "Rumania",
+     "prompts": [
+      "Bucarest es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "बुखारेस्ट",
+     "object": "रोमानिया",
+     "prompts": [
+      "बुखारेस्ट इस देश की राजधानी है:",
+      "बुखारेस्ट जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_048",
+   "relation": "capital_country",
+   "seed": 998437727,
+   "lang": {
+    "en": {
+     "subject": "Kyiv",
+     "object": "Ukraine",
+     "prompts": [
+      "Kyiv is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Kiev",
+     "object": "Ucrania",
+     "prompts": [
+      "Kiev es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "कीव",
+     "object": "यूक्रेन",
+     "prompts": [
+      "कीव इस देश की राजधानी है:",
+      "कीव जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "capital_country_049",
+   "relation": "capital_country",
+   "seed": 74744275,
+   "lang": {
+    "en": {
+     "subject": "Sofia",
+     "object": "Bulgaria",
+     "prompts": [
+      "Sofia is the capital of"
+     ]
+    },
+    "es": {
+     "subject": "Sofía",
+     "object": "Bulgaria",
+     "prompts": [
+      "Sofía es la capital de"
+     ]
+    },
+    "hi": {
+     "subject": "सोफिया",
+     "object": "बुल्गारिया",
+     "prompts": [
+      "सोफिया इस देश की राजधानी है:",
+      "सोफिया जिस देश की राजधानी है, उसका नाम"
+     ]
+    }
+   }
+  }
+ ]
+}
