@@ -38,7 +38,8 @@ python code/circuit_overlap.py analysis/run_<date>_p3trace --tag p3overlap
 python code/knowledge_edit.py --tag p4edit              # P4
 python code/eval_transfer.py analysis/run_<date>_p4edit # P5 tables
 python code/make_manifest.py build                      # P6 claim manifest
-./reproduce.sh verify                                   # checks the manifest; `./reproduce.sh full` re-runs P1-P5
+./reproduce.sh verify                                   # checks the manifest against saved artifacts (passes)
+# `./reproduce.sh full` re-runs P1-P5; only P1 was reproduced end to end (see docs/LOG.md, REPRODUCTION STATUS)
 ```
 
 ## Headline results (Llama-3.2-3B-Instruct, n=66 facts for tracing, 10 for editing; details in `paper/paper.md`)

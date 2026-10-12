@@ -1,0 +1,9 @@
+{
+ "model_dir": "models/llama-3.2-3b-instruct",
+ "candidates": "data/facts_candidates.json",
+ "out": "data/repro/facts.json",
+ "tag": "p1filter_repro",
+ "model": "Llama-3.2-3B-Instruct (unsloth mirror)",
+ "dtype": "bfloat16",
+ "decoding": "greedy"
+}
