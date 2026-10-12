@@ -48,7 +48,7 @@
    "value": 0.72
   },
   {
-   "id": "p1_acc_capital_country_hi_variant_acc",
+   "id": "p1_acc_capital_country_hi_v0_acc",
    "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
    "key_path": [
     "per_relation",
@@ -88,7 +88,7 @@
    "value": 0.592
   },
   {
-   "id": "p1_acc_capital_of_hi_variant_acc",
+   "id": "p1_acc_capital_of_hi_v0_acc",
    "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
    "key_path": [
     "per_relation",
@@ -128,7 +128,7 @@
    "value": 0.6923076923076923
   },
   {
-   "id": "p1_acc_landmark_city_hi_variant_acc",
+   "id": "p1_acc_landmark_city_hi_v0_acc",
    "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
    "key_path": [
     "per_relation",
