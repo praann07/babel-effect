@@ -1,0 +1,33 @@
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/254 [00:00<00:08, 28.12it/s]Loading weights:   3%|▎         | 8/254 [00:00<00:11, 20.60it/s]Loading weights:   4%|▍         | 11/254 [00:00<00:13, 18.49it/s]Loading weights:   6%|▋         | 16/254 [00:00<00:09, 25.30it/s]Loading weights:   7%|▋         | 19/254 [00:00<00:09, 24.77it/s]Loading weights:  13%|█▎        | 32/254 [00:01<00:05, 40.26it/s]Loading weights:  17%|█▋        | 43/254 [00:01<00:03, 52.96it/s]Loading weights:  19%|█▉        | 49/254 [00:01<00:06, 32.13it/s]Loading weights:  21%|██▏       | 54/254 [00:01<00:07, 25.16it/s]Loading weights:  23%|██▎       | 59/254 [00:01<00:06, 28.22it/s]Loading weights:  25%|██▍       | 63/254 [00:02<00:07, 27.00it/s]Loading weights:  26%|██▋       | 67/254 [00:02<00:07, 25.00it/s]Loading weights:  29%|██▊       | 73/254 [00:02<00:06, 27.84it/s]Loading weights:  31%|███       | 79/254 [00:02<00:05, 32.68it/s]Loading weights:  35%|███▌      | 90/254 [00:02<00:04, 37.52it/s]Loading weights:  39%|███▊      | 98/254 [00:03<00:03, 40.14it/s]Loading weights:  41%|████      | 103/254 [00:03<00:05, 29.06it/s]Loading weights:  43%|████▎     | 110/254 [00:03<00:04, 32.60it/s]Loading weights:  45%|████▍     | 114/254 [00:03<00:04, 29.28it/s]Loading weights:  46%|████▋     | 118/254 [00:04<00:05, 23.90it/s]Loading weights:  48%|████▊     | 121/254 [00:04<00:06, 19.74it/s]Loading weights:  49%|████▉     | 124/254 [00:04<00:07, 17.58it/s]Loading weights:  51%|█████     | 130/254 [00:04<00:06, 19.36it/s]Loading weights:  54%|█████▎    | 136/254 [00:04<00:05, 22.12it/s]Loading weights:  55%|█████▍    | 139/254 [00:05<00:04, 23.02it/s]Loading weights:  57%|█████▋    | 145/254 [00:05<00:04, 24.05it/s]Loading weights:  58%|█████▊    | 148/254 [00:05<00:04, 21.40it/s]Loading weights:  59%|█████▉    | 151/254 [00:05<00:06, 15.15it/s]Loading weights:  61%|██████    | 154/254 [00:06<00:06, 16.11it/s]Loading weights:  62%|██████▏   | 158/254 [00:06<00:05, 17.99it/s]Loading weights: 100%|██████████| 254/254 [00:06<00:00, 40.28it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+capital_country_000 en: obj=' France' p 0.816->0.070 crit_mlp=0 crit_resid=6 gap=0.000 score clean/fast=2.92/2.88 corr fast/logits=0.20/0.19
+capital_country_000 es: obj=' Franc' p 0.944->0.016 crit_mlp=5 crit_resid=5 gap=0.000 score clean/fast=3.25/3.31 corr fast/logits=-2.23/-2.19
+capital_country_000 hi: obj=' फ' p 0.768->0.004 crit_mlp=5 crit_resid=4 gap=0.000 score clean/fast=3.70/3.69 corr fast/logits=-2.91/-2.91
+capital_country_001 en: obj=' Germany' p 0.927->0.004 crit_mlp=2 crit_resid=1 gap=0.000 score clean/fast=3.64/3.62 corr fast/logits=-2.82/-2.81
+capital_country_001 es: obj=' Ale' p 0.909->0.001 crit_mlp=2 crit_resid=1 gap=0.000 score clean/fast=3.02/3.06 corr fast/logits=-6.64/-6.66
+capital_country_001 hi: obj=' जर' p 0.650->0.001 crit_mlp=2 crit_resid=7 gap=0.000 score clean/fast=2.40/2.44 corr fast/logits=-2.46/-2.50
+capital_country_002 en: obj=' Italy' p 0.900->0.011 crit_mlp=2 crit_resid=3 gap=0.000 score clean/fast=3.05/3.00 corr fast/logits=-2.27/-2.25
+capital_country_002 es: obj=' Italia' p 0.453->0.001 crit_mlp=0 crit_resid=2 gap=0.000 score clean/fast=0.61/0.56 corr fast/logits=-6.52/-6.47
+capital_country_002 hi: obj=' इ' p 0.446->0.007 crit_mlp=9 crit_resid=22 gap=0.000 score clean/fast=1.82/1.88 corr fast/logits=4.05/4.05
+capital_country_003 en: obj=' Spain' p 0.911->0.013 crit_mlp=3 crit_resid=6 gap=0.000 score clean/fast=2.88/2.88 corr fast/logits=-1.86/-1.81
+capital_country_003 es: obj=' España' p 0.923->0.011 crit_mlp=5 crit_resid=6 gap=0.000 score clean/fast=2.83/2.88 corr fast/logits=-2.96/-2.88
+capital_country_003 hi: obj=' स' p 0.795->0.043 crit_mlp=2 crit_resid=6 gap=0.000 score clean/fast=4.16/4.19 corr fast/logits=-0.31/-0.31
+capital_of_000 en: obj=' Paris' p 0.699->0.022 crit_mlp=3 crit_resid=6 gap=0.000 score clean/fast=2.45/2.44 corr fast/logits=1.23/1.25
+capital_of_000 es: obj=' Par' p 0.267->0.004 crit_mlp=2 crit_resid=1 gap=0.000 score clean/fast=0.47/0.50 corr fast/logits=-4.03/-4.03
+capital_of_000 hi: obj=' प' p 0.539->0.035 crit_mlp=3 crit_resid=21 gap=0.000 score clean/fast=0.57/0.56 corr fast/logits=1.91/1.94
+capital_of_002 en: obj=' Rome' p 0.758->0.001 crit_mlp=0 crit_resid=6 gap=0.000 score clean/fast=3.02/3.00 corr fast/logits=-3.79/-3.75
+capital_of_002 es: obj=' Roma' p 0.375->0.000 crit_mlp=0 crit_resid=8 gap=0.000 score clean/fast=0.82/0.81 corr fast/logits=-5.73/-5.84
+capital_of_002 hi: obj=' र' p 0.542->0.016 crit_mlp=0 crit_resid=1 gap=0.000 score clean/fast=2.04/2.06 corr fast/logits=0.24/0.25
+capital_of_003 en: obj=' Madrid' p 0.673->0.001 crit_mlp=0 crit_resid=5 gap=0.000 score clean/fast=2.71/2.75 corr fast/logits=-5.12/-5.12
+capital_of_003 es: obj=' Madrid' p 0.796->0.006 crit_mlp=2 crit_resid=9 gap=0.000 score clean/fast=2.38/2.38 corr fast/logits=-3.44/-3.44
+capital_of_003 hi: obj=' म' p 0.764->0.044 crit_mlp=2 crit_resid=1 gap=0.000 score clean/fast=3.23/3.25 corr fast/logits=-0.19/-0.19
+capital_of_004 en: obj=' Lisbon' p 0.915->0.001 crit_mlp=2 crit_resid=5 gap=0.000 score clean/fast=4.28/4.25 corr fast/logits=-3.49/-3.31
+capital_of_004 es: obj=' Lis' p 0.610->0.000 crit_mlp=2 crit_resid=8 gap=0.000 score clean/fast=1.85/1.81 corr fast/logits=-6.01/-6.06
+capital_of_004 hi: obj=' ल' p 0.688->0.001 crit_mlp=9 crit_resid=6 gap=0.000 score clean/fast=2.72/2.69 corr fast/logits=-2.19/-2.16
+landmark_city_003 en: obj=' New' p 0.659->0.028 crit_mlp=2 crit_resid=20 gap=0.000 score clean/fast=2.97/2.94 corr fast/logits=6.98/6.97
+landmark_city_003 es: obj=' N' p 0.908->0.016 crit_mlp=10 crit_resid=10 gap=0.000 score clean/fast=3.86/3.88 corr fast/logits=1.68/1.69
+landmark_city_003 hi: obj=' न' p 0.349->0.008 crit_mlp=3 crit_resid=1 gap=0.000 score clean/fast=0.70/0.75 corr fast/logits=-2.39/-2.38
+landmark_city_009 en: obj=' Sydney' p 0.977->0.001 crit_mlp=6 crit_resid=10 gap=0.000 score clean/fast=5.92/5.88 corr fast/logits=0.83/0.81
+landmark_city_009 es: obj=' S' p 0.799->0.009 crit_mlp=5 crit_resid=27 gap=0.000 score clean/fast=1.73/1.75 corr fast/logits=2.29/2.31
+landmark_city_009 hi: obj=' स' p 0.240->0.116 crit_mlp=6 crit_resid=6 gap=0.000 score clean/fast=-0.01/0.00 corr fast/logits=0.54/0.56
+peak VRAM GiB 7.51

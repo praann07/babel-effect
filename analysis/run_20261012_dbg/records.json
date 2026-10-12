@@ -1,0 +1,80 @@
+[
+ {
+  "span": [
+   1
+  ],
+  "last_subj": 1,
+  "obj": 9822,
+  "comp": 279,
+  "obj_str": " France",
+  "comp_str": " the",
+  "p_clean": 0.8156806230545044,
+  "p_corr": 0.07010260969400406,
+  "collapsed": true,
+  "score_clean": 2.9234213829040527,
+  "score_corr": 0.20413732528686523,
+  "score_clean_logits": 2.875,
+  "score_corr_logits": 0.1875,
+  "crit_mlp_layer": 0,
+  "crit_resid_layer": 6,
+  "sanity_last_site_gap": 0.0,
+  "id": "capital_country_000",
+  "lang": "en",
+  "relation": "capital_country",
+  "seed": 33274921,
+  "sigma": 0.060084376484155655
+ },
+ {
+  "span": [
+   1,
+   2
+  ],
+  "last_subj": 2,
+  "obj": 9893,
+  "comp": 1208,
+  "obj_str": " Franc",
+  "comp_str": " la",
+  "p_clean": 0.94400554895401,
+  "p_corr": 0.015689386054873466,
+  "collapsed": true,
+  "score_clean": 3.2465388774871826,
+  "score_corr": -2.2288968563079834,
+  "score_clean_logits": 3.3125,
+  "score_corr_logits": -2.1875,
+  "crit_mlp_layer": 5,
+  "crit_resid_layer": 5,
+  "sanity_last_site_gap": 0.0,
+  "id": "capital_country_000",
+  "lang": "es",
+  "relation": "capital_country",
+  "seed": 33274921,
+  "sigma": 0.061661213636398315
+ },
+ {
+  "span": [
+   1,
+   2,
+   3
+  ],
+  "last_subj": 3,
+  "obj": 100622,
+  "comp": 220,
+  "obj_str": " फ",
+  "comp_str": " ",
+  "p_clean": 0.7678675055503845,
+  "p_corr": 0.004008958116173744,
+  "collapsed": true,
+  "score_clean": 3.6951189041137695,
+  "score_corr": -2.914999485015869,
+  "score_clean_logits": 3.6875,
+  "score_corr_logits": -2.90625,
+  "crit_mlp_layer": 5,
+  "crit_resid_layer": 4,
+  "sanity_last_site_gap": 0.0,
+  "id": "capital_country_000",
+  "lang": "hi",
+  "relation": "capital_country",
+  "seed": 33274921,
+  "sigma": 0.054845692589879036
+ }
+]
