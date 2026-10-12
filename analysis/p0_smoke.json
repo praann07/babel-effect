@@ -1,0 +1,27 @@
+{
+ "model": "gpt2",
+ "dtype": "bfloat16",
+ "peak_vram_gib": 0.39,
+ "top5": [
+  [
+   " Paris",
+   0.0706
+  ],
+  [
+   " London",
+   0.0585
+  ],
+  [
+   " Amsterdam",
+   0.0485
+  ],
+  [
+   " Berlin",
+   0.0355
+  ],
+  [
+   " New",
+   0.0229
+  ]
+ ]
+}
