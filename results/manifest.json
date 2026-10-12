@@ -1,0 +1,2768 @@
+{
+ "n_claims": 240,
+ "claims": [
+  {
+   "id": "n_candidates",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "n_candidates"
+   ],
+   "value": 289
+  },
+  {
+   "id": "n_kept_p1",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "n_kept"
+   ],
+   "value": 67
+  },
+  {
+   "id": "p1_kept_capital_country",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_country",
+    "kept"
+   ],
+   "value": 33
+  },
+  {
+   "id": "p1_acc_capital_country_en",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_country",
+    "en"
+   ],
+   "value": 0.992
+  },
+  {
+   "id": "p1_acc_capital_country_es",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_country",
+    "es"
+   ],
+   "value": 0.72
+  },
+  {
+   "id": "p1_acc_capital_country_hi_variant_acc",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_country",
+    "hi_v0"
+   ],
+   "value": 0.288
+  },
+  {
+   "id": "p1_kept_capital_of",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_of",
+    "kept"
+   ],
+   "value": 32
+  },
+  {
+   "id": "p1_acc_capital_of_en",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_of",
+    "en"
+   ],
+   "value": 0.984
+  },
+  {
+   "id": "p1_acc_capital_of_es",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_of",
+    "es"
+   ],
+   "value": 0.592
+  },
+  {
+   "id": "p1_acc_capital_of_hi_variant_acc",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_of",
+    "hi_v0"
+   ],
+   "value": 0.392
+  },
+  {
+   "id": "p1_kept_landmark_city",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "landmark_city",
+    "kept"
+   ],
+   "value": 2
+  },
+  {
+   "id": "p1_acc_landmark_city_en",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "landmark_city",
+    "en"
+   ],
+   "value": 0.9487179487179487
+  },
+  {
+   "id": "p1_acc_landmark_city_es",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "landmark_city",
+    "es"
+   ],
+   "value": 0.6923076923076923
+  },
+  {
+   "id": "p1_acc_landmark_city_hi_variant_acc",
+   "artifact": "analysis/run_20261012_p1filter_v2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "landmark_city",
+    "hi_v0"
+   ],
+   "value": 0.07692307692307693
+  },
+  {
+   "id": "p2_n_pairs",
+   "artifact": "analysis/figs_20261012_p2trace_v3/summary.json",
+   "key_path": [
+    "n_pairs"
+   ],
+   "value": 30
+  },
+  {
+   "id": "p2_n_valid",
+   "artifact": "analysis/figs_20261012_p2trace_v3/summary.json",
+   "key_path": [
+    "n_valid"
+   ],
+   "value": 30
+  },
+  {
+   "id": "p2_crit_median_en",
+   "artifact": "analysis/figs_20261012_p2trace_v3/summary.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "en",
+    "median"
+   ],
+   "value": 2.5
+  },
+  {
+   "id": "p2_crit_frac_8_19_en",
+   "artifact": "analysis/figs_20261012_p2trace_v3/summary.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "en",
+    "frac_in_8_19"
+   ],
+   "value": 0.0
+  },
+  {
+   "id": "p2_crit_median_es",
+   "artifact": "analysis/figs_20261012_p2trace_v3/summary.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "es",
+    "median"
+   ],
+   "value": 2.0
+  },
+  {
+   "id": "p2_crit_frac_8_19_es",
+   "artifact": "analysis/figs_20261012_p2trace_v3/summary.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "es",
+    "frac_in_8_19"
+   ],
+   "value": 0.0
+  },
+  {
+   "id": "p2_crit_median_hi",
+   "artifact": "analysis/figs_20261012_p2trace_v3/summary.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "hi",
+    "median"
+   ],
+   "value": 2.0
+  },
+  {
+   "id": "p2_crit_frac_8_19_hi",
+   "artifact": "analysis/figs_20261012_p2trace_v3/summary.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "hi",
+    "frac_in_8_19"
+   ],
+   "value": 0.0
+  },
+  {
+   "id": "p3_n_all",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "n_all"
+   ],
+   "value": 67
+  },
+  {
+   "id": "p3_n_valid",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "n_valid"
+   ],
+   "value": 66
+  },
+  {
+   "id": "p3_en-es_mlp_cosine_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.7481734752655029
+  },
+  {
+   "id": "p3_en-es_mlp_cosine_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.6758124828338623
+  },
+  {
+   "id": "p3_en-es_mlp_cosine_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.8007242679595947
+  },
+  {
+   "id": "p3_en-es_mlp_cosine_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "null_mean"
+   ],
+   "value": 0.5695391297340393
+  },
+  {
+   "id": "p3_en-es_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 6.061260223388672
+  },
+  {
+   "id": "p3_en-es_mlp_cosine_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.000999000999000999
+  },
+  {
+   "id": "p3_en-es_mlp_spearman_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "observed_median"
+   ],
+   "value": 0.47263273125339883
+  },
+  {
+   "id": "p3_en-es_mlp_spearman_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "ci95",
+    0
+   ],
+   "value": 0.3951491516146503
+  },
+  {
+   "id": "p3_en-es_mlp_spearman_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "ci95",
+    1
+   ],
+   "value": 0.6267104542966317
+  },
+  {
+   "id": "p3_en-es_mlp_spearman_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "null_mean"
+   ],
+   "value": 0.30900082101804793
+  },
+  {
+   "id": "p3_en-es_mlp_spearman_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "z"
+   ],
+   "value": 4.840791930331919
+  },
+  {
+   "id": "p3_en-es_mlp_spearman_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "p_one_sided"
+   ],
+   "value": 0.000999000999000999
+  },
+  {
+   "id": "p3_en-es_resid_cosine_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "resid_cosine",
+    "observed_median"
+   ],
+   "value": 0.9611673951148987
+  },
+  {
+   "id": "p3_en-es_resid_cosine_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "resid_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.9439692497253418
+  },
+  {
+   "id": "p3_en-es_resid_cosine_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "resid_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.9738854169845581
+  },
+  {
+   "id": "p3_en-es_resid_cosine_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "resid_cosine",
+    "null_mean"
+   ],
+   "value": 0.9440763592720032
+  },
+  {
+   "id": "p3_en-es_resid_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "resid_cosine",
+    "z"
+   ],
+   "value": 2.6914241313934326
+  },
+  {
+   "id": "p3_en-es_resid_cosine_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "resid_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.002997002997002997
+  },
+  {
+   "id": "p3_en-es_iou_top5_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top5",
+    "observed_median"
+   ],
+   "value": 0.1111111119389534
+  },
+  {
+   "id": "p3_en-es_iou_top5_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top5",
+    "ci95",
+    0
+   ],
+   "value": 0.1111111119389534
+  },
+  {
+   "id": "p3_en-es_iou_top5_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top5",
+    "ci95",
+    1
+   ],
+   "value": 0.25
+  },
+  {
+   "id": "p3_en-es_iou_top5_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top5",
+    "null_mean"
+   ],
+   "value": 0.0732777789235115
+  },
+  {
+   "id": "p3_en-es_iou_top5_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top5",
+    "z"
+   ],
+   "value": 0.7681196928024292
+  },
+  {
+   "id": "p3_en-es_iou_top5_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top5",
+    "p_one_sided"
+   ],
+   "value": 0.6033966033966034
+  },
+  {
+   "id": "p3_en-es_iou_top10_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top10",
+    "observed_median"
+   ],
+   "value": 0.3333333432674408
+  },
+  {
+   "id": "p3_en-es_iou_top10_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top10",
+    "ci95",
+    0
+   ],
+   "value": 0.2132352888584137
+  },
+  {
+   "id": "p3_en-es_iou_top10_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top10",
+    "ci95",
+    1
+   ],
+   "value": 0.4285714328289032
+  },
+  {
+   "id": "p3_en-es_iou_top10_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top10",
+    "null_mean"
+   ],
+   "value": 0.22140440344810486
+  },
+  {
+   "id": "p3_en-es_iou_top10_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top10",
+    "z"
+   ],
+   "value": 2.7270493507385254
+  },
+  {
+   "id": "p3_en-es_iou_top10_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top10",
+    "p_one_sided"
+   ],
+   "value": 0.028971028971028972
+  },
+  {
+   "id": "p3_en-es_iou_top20_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top20",
+    "observed_median"
+   ],
+   "value": 0.5692307949066162
+  },
+  {
+   "id": "p3_en-es_iou_top20_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top20",
+    "ci95",
+    0
+   ],
+   "value": 0.5384615659713745
+  },
+  {
+   "id": "p3_en-es_iou_top20_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top20",
+    "ci95",
+    1
+   ],
+   "value": 0.6000000238418579
+  },
+  {
+   "id": "p3_en-es_iou_top20_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top20",
+    "null_mean"
+   ],
+   "value": 0.5130810737609863
+  },
+  {
+   "id": "p3_en-es_iou_top20_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top20",
+    "z"
+   ],
+   "value": 2.1064484119415283
+  },
+  {
+   "id": "p3_en-es_iou_top20_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "iou_top20",
+    "p_one_sided"
+   ],
+   "value": 0.000999000999000999
+  },
+  {
+   "id": "p3_en-hi_mlp_cosine_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.32267093658447266
+  },
+  {
+   "id": "p3_en-hi_mlp_cosine_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.10591218620538712
+  },
+  {
+   "id": "p3_en-hi_mlp_cosine_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.44789743423461914
+  },
+  {
+   "id": "p3_en-hi_mlp_cosine_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "null_mean"
+   ],
+   "value": 0.3042849004268646
+  },
+  {
+   "id": "p3_en-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.38925954699516296
+  },
+  {
+   "id": "p3_en-hi_mlp_cosine_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.3516483516483517
+  },
+  {
+   "id": "p3_en-hi_mlp_spearman_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "observed_median"
+   ],
+   "value": 0.07115489874110231
+  },
+  {
+   "id": "p3_en-hi_mlp_spearman_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "ci95",
+    0
+   ],
+   "value": -0.014778325123152015
+  },
+  {
+   "id": "p3_en-hi_mlp_spearman_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "ci95",
+    1
+   ],
+   "value": 0.1540777230432331
+  },
+  {
+   "id": "p3_en-hi_mlp_spearman_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "null_mean"
+   ],
+   "value": 0.0981097427476692
+  },
+  {
+   "id": "p3_en-hi_mlp_spearman_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "z"
+   ],
+   "value": -0.746819984570758
+  },
+  {
+   "id": "p3_en-hi_mlp_spearman_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "p_one_sided"
+   ],
+   "value": 0.7692307692307693
+  },
+  {
+   "id": "p3_en-hi_resid_cosine_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "resid_cosine",
+    "observed_median"
+   ],
+   "value": 0.8296696543693542
+  },
+  {
+   "id": "p3_en-hi_resid_cosine_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "resid_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.7864545583724976
+  },
+  {
+   "id": "p3_en-hi_resid_cosine_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "resid_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.8799368739128113
+  },
+  {
+   "id": "p3_en-hi_resid_cosine_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "resid_cosine",
+    "null_mean"
+   ],
+   "value": 0.8221307396888733
+  },
+  {
+   "id": "p3_en-hi_resid_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "resid_cosine",
+    "z"
+   ],
+   "value": 0.5843319892883301
+  },
+  {
+   "id": "p3_en-hi_resid_cosine_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "resid_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.2997002997002997
+  },
+  {
+   "id": "p3_en-hi_iou_top5_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top5",
+    "observed_median"
+   ],
+   "value": 0.1111111119389534
+  },
+  {
+   "id": "p3_en-hi_iou_top5_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top5",
+    "ci95",
+    0
+   ],
+   "value": 0.0
+  },
+  {
+   "id": "p3_en-hi_iou_top5_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top5",
+    "ci95",
+    1
+   ],
+   "value": 0.25
+  },
+  {
+   "id": "p3_en-hi_iou_top5_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top5",
+    "null_mean"
+   ],
+   "value": 0.10134723782539368
+  },
+  {
+   "id": "p3_en-hi_iou_top5_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top5",
+    "z"
+   ],
+   "value": 0.2085200697183609
+  },
+  {
+   "id": "p3_en-hi_iou_top5_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top5",
+    "p_one_sided"
+   ],
+   "value": 0.8341658341658341
+  },
+  {
+   "id": "p3_en-hi_iou_top10_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top10",
+    "observed_median"
+   ],
+   "value": 0.3333333432674408
+  },
+  {
+   "id": "p3_en-hi_iou_top10_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top10",
+    "ci95",
+    0
+   ],
+   "value": 0.25
+  },
+  {
+   "id": "p3_en-hi_iou_top10_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top10",
+    "ci95",
+    1
+   ],
+   "value": 0.4285714328289032
+  },
+  {
+   "id": "p3_en-hi_iou_top10_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top10",
+    "null_mean"
+   ],
+   "value": 0.2949275076389313
+  },
+  {
+   "id": "p3_en-hi_iou_top10_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top10",
+    "z"
+   ],
+   "value": 0.8925561904907227
+  },
+  {
+   "id": "p3_en-hi_iou_top10_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top10",
+    "p_one_sided"
+   ],
+   "value": 0.4725274725274725
+  },
+  {
+   "id": "p3_en-hi_iou_top20_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top20",
+    "observed_median"
+   ],
+   "value": 0.5384615659713745
+  },
+  {
+   "id": "p3_en-hi_iou_top20_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top20",
+    "ci95",
+    0
+   ],
+   "value": 0.5384615659713745
+  },
+  {
+   "id": "p3_en-hi_iou_top20_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top20",
+    "ci95",
+    1
+   ],
+   "value": 0.6000000238418579
+  },
+  {
+   "id": "p3_en-hi_iou_top20_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top20",
+    "null_mean"
+   ],
+   "value": 0.5080646872520447
+  },
+  {
+   "id": "p3_en-hi_iou_top20_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top20",
+    "z"
+   ],
+   "value": 1.1003895998001099
+  },
+  {
+   "id": "p3_en-hi_iou_top20_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "iou_top20",
+    "p_one_sided"
+   ],
+   "value": 0.4115884115884116
+  },
+  {
+   "id": "p3_es-hi_mlp_cosine_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.22745665907859802
+  },
+  {
+   "id": "p3_es-hi_mlp_cosine_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "ci95",
+    0
+   ],
+   "value": -0.03744973987340927
+  },
+  {
+   "id": "p3_es-hi_mlp_cosine_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.34892985224723816
+  },
+  {
+   "id": "p3_es-hi_mlp_cosine_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "null_mean"
+   ],
+   "value": 0.20385384559631348
+  },
+  {
+   "id": "p3_es-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.38098078966140747
+  },
+  {
+   "id": "p3_es-hi_mlp_cosine_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.3646353646353646
+  },
+  {
+   "id": "p3_es-hi_mlp_spearman_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "observed_median"
+   ],
+   "value": 0.07881773399014409
+  },
+  {
+   "id": "p3_es-hi_mlp_spearman_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "ci95",
+    0
+   ],
+   "value": -0.02873563218390671
+  },
+  {
+   "id": "p3_es-hi_mlp_spearman_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "ci95",
+    1
+   ],
+   "value": 0.1639641488779341
+  },
+  {
+   "id": "p3_es-hi_mlp_spearman_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "null_mean"
+   ],
+   "value": 0.060606185002733896
+  },
+  {
+   "id": "p3_es-hi_mlp_spearman_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "z"
+   ],
+   "value": 0.485396701251109
+  },
+  {
+   "id": "p3_es-hi_mlp_spearman_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "p_one_sided"
+   ],
+   "value": 0.3116883116883117
+  },
+  {
+   "id": "p3_es-hi_resid_cosine_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "resid_cosine",
+    "observed_median"
+   ],
+   "value": 0.8416489362716675
+  },
+  {
+   "id": "p3_es-hi_resid_cosine_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "resid_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.7995068430900574
+  },
+  {
+   "id": "p3_es-hi_resid_cosine_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "resid_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.8662154674530029
+  },
+  {
+   "id": "p3_es-hi_resid_cosine_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "resid_cosine",
+    "null_mean"
+   ],
+   "value": 0.8187988996505737
+  },
+  {
+   "id": "p3_es-hi_resid_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "resid_cosine",
+    "z"
+   ],
+   "value": 1.5297523736953735
+  },
+  {
+   "id": "p3_es-hi_resid_cosine_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "resid_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.053946053946053944
+  },
+  {
+   "id": "p3_es-hi_iou_top5_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top5",
+    "observed_median"
+   ],
+   "value": 0.1111111119389534
+  },
+  {
+   "id": "p3_es-hi_iou_top5_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top5",
+    "ci95",
+    0
+   ],
+   "value": 0.0
+  },
+  {
+   "id": "p3_es-hi_iou_top5_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top5",
+    "ci95",
+    1
+   ],
+   "value": 0.25
+  },
+  {
+   "id": "p3_es-hi_iou_top5_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top5",
+    "null_mean"
+   ],
+   "value": 0.04543055593967438
+  },
+  {
+   "id": "p3_es-hi_iou_top5_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top5",
+    "z"
+   ],
+   "value": 1.258154034614563
+  },
+  {
+   "id": "p3_es-hi_iou_top5_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top5",
+    "p_one_sided"
+   ],
+   "value": 0.35764235764235763
+  },
+  {
+   "id": "p3_es-hi_iou_top10_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top10",
+    "observed_median"
+   ],
+   "value": 0.25
+  },
+  {
+   "id": "p3_es-hi_iou_top10_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top10",
+    "ci95",
+    0
+   ],
+   "value": 0.1764705926179886
+  },
+  {
+   "id": "p3_es-hi_iou_top10_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top10",
+    "ci95",
+    1
+   ],
+   "value": 0.380952388048172
+  },
+  {
+   "id": "p3_es-hi_iou_top10_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top10",
+    "null_mean"
+   ],
+   "value": 0.2442590892314911
+  },
+  {
+   "id": "p3_es-hi_iou_top10_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top10",
+    "z"
+   ],
+   "value": 0.104488804936409
+  },
+  {
+   "id": "p3_es-hi_iou_top10_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top10",
+    "p_one_sided"
+   ],
+   "value": 0.6483516483516484
+  },
+  {
+   "id": "p3_es-hi_iou_top20_obs",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top20",
+    "observed_median"
+   ],
+   "value": 0.5099714994430542
+  },
+  {
+   "id": "p3_es-hi_iou_top20_ci_lo",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top20",
+    "ci95",
+    0
+   ],
+   "value": 0.48148149251937866
+  },
+  {
+   "id": "p3_es-hi_iou_top20_ci_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top20",
+    "ci95",
+    1
+   ],
+   "value": 0.5384615659713745
+  },
+  {
+   "id": "p3_es-hi_iou_top20_null_mean",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top20",
+    "null_mean"
+   ],
+   "value": 0.5213153958320618
+  },
+  {
+   "id": "p3_es-hi_iou_top20_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top20",
+    "z"
+   ],
+   "value": -0.4245122969150543
+  },
+  {
+   "id": "p3_es-hi_iou_top20_p",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "iou_top20",
+    "p_one_sided"
+   ],
+   "value": 0.7452547452547452
+  },
+  {
+   "id": "p3_crit_median_en",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "en",
+    "median"
+   ],
+   "value": 2.0
+  },
+  {
+   "id": "p3_crit_frac_8_19_en",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "en",
+    "frac_in_8_19"
+   ],
+   "value": 0.030303030303030304
+  },
+  {
+   "id": "p3_crit_median_es",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "es",
+    "median"
+   ],
+   "value": 2.0
+  },
+  {
+   "id": "p3_crit_frac_8_19_es",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "es",
+    "frac_in_8_19"
+   ],
+   "value": 0.06060606060606061
+  },
+  {
+   "id": "p3_crit_median_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "hi",
+    "median"
+   ],
+   "value": 3.0
+  },
+  {
+   "id": "p3_crit_frac_8_19_hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "hi",
+    "frac_in_8_19"
+   ],
+   "value": 0.045454545454545456
+  },
+  {
+   "id": "p3_crit_absdiff_median_en-es",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_layer_abs_diff",
+    "en-es",
+    "median"
+   ],
+   "value": 2.0
+  },
+  {
+   "id": "p3_crit_within2_en-es",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_layer_abs_diff",
+    "en-es",
+    "frac_within_2"
+   ],
+   "value": 0.6060606060606061
+  },
+  {
+   "id": "p3_crit_absdiff_median_en-hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_layer_abs_diff",
+    "en-hi",
+    "median"
+   ],
+   "value": 2.0
+  },
+  {
+   "id": "p3_crit_within2_en-hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_layer_abs_diff",
+    "en-hi",
+    "frac_within_2"
+   ],
+   "value": 0.5757575757575758
+  },
+  {
+   "id": "p3_crit_absdiff_median_es-hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_layer_abs_diff",
+    "es-hi",
+    "median"
+   ],
+   "value": 2.0
+  },
+  {
+   "id": "p3_crit_within2_es-hi",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "critical_layer_abs_diff",
+    "es-hi",
+    "frac_within_2"
+   ],
+   "value": 0.5303030303030303
+  },
+  {
+   "id": "p3_all_kept_en-es_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "all_kept",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 6.124826431274414
+  },
+  {
+   "id": "p3_all_kept_en-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "all_kept",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.2674303352832794
+  },
+  {
+   "id": "p3_all_kept_es-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "all_kept",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.46484804153442383
+  },
+  {
+   "id": "p3_valid_no_landmark_en-es_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_landmark",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 6.410889625549316
+  },
+  {
+   "id": "p3_valid_no_landmark_en-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_landmark",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.3426133990287781
+  },
+  {
+   "id": "p3_valid_no_landmark_es-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_landmark",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.42693907022476196
+  },
+  {
+   "id": "p3_valid_capital_country_en-es_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "valid_capital_country",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 3.874042510986328
+  },
+  {
+   "id": "p3_valid_capital_country_en-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "valid_capital_country",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.6164534687995911
+  },
+  {
+   "id": "p3_valid_capital_country_es-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "valid_capital_country",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.5074301958084106
+  },
+  {
+   "id": "p3_valid_capital_of_en-es_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "valid_capital_of",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.101487159729004
+  },
+  {
+   "id": "p3_valid_capital_of_en-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "valid_capital_of",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": -0.7132572531700134
+  },
+  {
+   "id": "p3_valid_capital_of_es-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261012_p3overlap/results.json",
+   "key_path": [
+    "sets",
+    "valid_capital_of",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": -0.9599814414978027
+  },
+  {
+   "id": "p4_traced_n",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "n_edits"
+   ],
+   "value": 10
+  },
+  {
+   "id": "p4_traced_en_success_rate",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "en_success_rate"
+   ],
+   "value": 0.9
+  },
+  {
+   "id": "p4_traced_specificity_worst",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "specificity_worst"
+   ],
+   "value": 0.9806475518271327
+  },
+  {
+   "id": "p4_traced_ppl_worst",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "ppl_ratio_worst"
+   ],
+   "value": 1.0082313486854635
+  },
+  {
+   "id": "p4_traced_dP_en_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "dP_en",
+    0
+   ],
+   "value": 0.9490448832511902
+  },
+  {
+   "id": "p4_traced_dP_en_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "dP_en",
+    1
+   ],
+   "value": 0.8481343686580658
+  },
+  {
+   "id": "p4_traced_dP_en_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "dP_en",
+    2
+   ],
+   "value": 0.9799659252166748
+  },
+  {
+   "id": "p4_traced_top1_new_en",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "top1_new_rate_en"
+   ],
+   "value": 0.9
+  },
+  {
+   "id": "p4_traced_dP_es_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "dP_es",
+    0
+   ],
+   "value": 0.10688622668385506
+  },
+  {
+   "id": "p4_traced_dP_es_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "dP_es",
+    1
+   ],
+   "value": 0.01154807023704052
+  },
+  {
+   "id": "p4_traced_dP_es_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "dP_es",
+    2
+   ],
+   "value": 0.6099474877119064
+  },
+  {
+   "id": "p4_traced_top1_new_es",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "top1_new_rate_es"
+   ],
+   "value": 0.4
+  },
+  {
+   "id": "p4_traced_dP_hi_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "dP_hi",
+    0
+   ],
+   "value": 0.004280928755179048
+  },
+  {
+   "id": "p4_traced_dP_hi_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "dP_hi",
+    1
+   ],
+   "value": 0.00010478601325303316
+  },
+  {
+   "id": "p4_traced_dP_hi_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "dP_hi",
+    2
+   ],
+   "value": 0.15041602030396461
+  },
+  {
+   "id": "p4_traced_top1_new_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "top1_new_rate_hi"
+   ],
+   "value": 0.3
+  },
+  {
+   "id": "p4_traced_transfer_es_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "transfer_es_en_success",
+    0
+   ],
+   "value": 0.1466011907428917
+  },
+  {
+   "id": "p4_traced_transfer_es_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "transfer_es_en_success",
+    1
+   ],
+   "value": 4.0468254075116306e-05
+  },
+  {
+   "id": "p4_traced_transfer_es_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "transfer_es_en_success",
+    2
+   ],
+   "value": 0.7686443460793815
+  },
+  {
+   "id": "p4_traced_transfer_hi_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "transfer_hi_en_success",
+    0
+   ],
+   "value": 0.0018542280967004344
+  },
+  {
+   "id": "p4_traced_transfer_hi_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "transfer_hi_en_success",
+    1
+   ],
+   "value": 7.021314590285371e-05
+  },
+  {
+   "id": "p4_traced_transfer_hi_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "transfer_hi_en_success",
+    2
+   ],
+   "value": 0.2666562760399243
+  },
+  {
+   "id": "p4_traced_specificity_max_abs_dP_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "specificity_max_abs_dP",
+    0
+   ],
+   "value": 0.045067042112350464
+  },
+  {
+   "id": "p4_traced_specificity_max_abs_dP_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "specificity_max_abs_dP",
+    1
+   ],
+   "value": 0.024217188358306885
+  },
+  {
+   "id": "p4_traced_specificity_max_abs_dP_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "specificity_max_abs_dP",
+    2
+   ],
+   "value": 0.3999240415287204
+  },
+  {
+   "id": "p4_traced_ppl_ratio_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "ppl_ratio",
+    0
+   ],
+   "value": 1.0008512365231774
+  },
+  {
+   "id": "p4_traced_ppl_ratio_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "ppl_ratio",
+    1
+   ],
+   "value": 0.9994728343799189
+  },
+  {
+   "id": "p4_traced_ppl_ratio_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "traced",
+    "ppl_ratio",
+    2
+   ],
+   "value": 1.001945611132454
+  },
+  {
+   "id": "p4_mid_n",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "n_edits"
+   ],
+   "value": 10
+  },
+  {
+   "id": "p4_mid_en_success_rate",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "en_success_rate"
+   ],
+   "value": 1.0
+  },
+  {
+   "id": "p4_mid_specificity_worst",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "specificity_worst"
+   ],
+   "value": 0.9456122778356075
+  },
+  {
+   "id": "p4_mid_ppl_worst",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "ppl_ratio_worst"
+   ],
+   "value": 1.0164519566579462
+  },
+  {
+   "id": "p4_mid_dP_en_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "dP_en",
+    0
+   ],
+   "value": 0.9268332123756409
+  },
+  {
+   "id": "p4_mid_dP_en_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "dP_en",
+    1
+   ],
+   "value": 0.8269570171833038
+  },
+  {
+   "id": "p4_mid_dP_en_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "dP_en",
+    2
+   ],
+   "value": 0.9765586256980896
+  },
+  {
+   "id": "p4_mid_top1_new_en",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "top1_new_rate_en"
+   ],
+   "value": 1.0
+  },
+  {
+   "id": "p4_mid_dP_es_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "dP_es",
+    0
+   ],
+   "value": 0.18022647872567177
+  },
+  {
+   "id": "p4_mid_dP_es_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "dP_es",
+    1
+   ],
+   "value": 0.006986474618315697
+  },
+  {
+   "id": "p4_mid_dP_es_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "dP_es",
+    2
+   ],
+   "value": 0.6887174248695374
+  },
+  {
+   "id": "p4_mid_top1_new_es",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "top1_new_rate_es"
+   ],
+   "value": 0.4
+  },
+  {
+   "id": "p4_mid_dP_hi_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "dP_hi",
+    0
+   ],
+   "value": 0.24191645719110966
+  },
+  {
+   "id": "p4_mid_dP_hi_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "dP_hi",
+    1
+   ],
+   "value": 0.00975601002573967
+  },
+  {
+   "id": "p4_mid_dP_hi_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "dP_hi",
+    2
+   ],
+   "value": 0.8833653330802917
+  },
+  {
+   "id": "p4_mid_top1_new_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "top1_new_rate_hi"
+   ],
+   "value": 0.6
+  },
+  {
+   "id": "p4_mid_transfer_es_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "transfer_es_en_success",
+    0
+   ],
+   "value": 0.20255925727048682
+  },
+  {
+   "id": "p4_mid_transfer_es_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "transfer_es_en_success",
+    1
+   ],
+   "value": 0.007383973944776422
+  },
+  {
+   "id": "p4_mid_transfer_es_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "transfer_es_en_success",
+    2
+   ],
+   "value": 0.6905043911728825
+  },
+  {
+   "id": "p4_mid_transfer_hi_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "transfer_hi_en_success",
+    0
+   ],
+   "value": 0.24400405370817202
+  },
+  {
+   "id": "p4_mid_transfer_hi_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "transfer_hi_en_success",
+    1
+   ],
+   "value": 0.009883260148235599
+  },
+  {
+   "id": "p4_mid_transfer_hi_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "transfer_hi_en_success",
+    2
+   ],
+   "value": 1.0257960649495665
+  },
+  {
+   "id": "p4_mid_specificity_max_abs_dP_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "specificity_max_abs_dP",
+    0
+   ],
+   "value": 0.35104064643383026
+  },
+  {
+   "id": "p4_mid_specificity_max_abs_dP_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "specificity_max_abs_dP",
+    1
+   ],
+   "value": 0.04903605580329895
+  },
+  {
+   "id": "p4_mid_specificity_max_abs_dP_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "specificity_max_abs_dP",
+    2
+   ],
+   "value": 0.8860895708639873
+  },
+  {
+   "id": "p4_mid_ppl_ratio_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "ppl_ratio",
+    0
+   ],
+   "value": 1.0020887144651143
+  },
+  {
+   "id": "p4_mid_ppl_ratio_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "ppl_ratio",
+    1
+   ],
+   "value": 1.0003452773915855
+  },
+  {
+   "id": "p4_mid_ppl_ratio_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "mid",
+    "ppl_ratio",
+    2
+   ],
+   "value": 1.0029933135547449
+  },
+  {
+   "id": "p4_random_n",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "n_edits"
+   ],
+   "value": 10
+  },
+  {
+   "id": "p4_random_en_success_rate",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "en_success_rate"
+   ],
+   "value": 1.0
+  },
+  {
+   "id": "p4_random_specificity_worst",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "specificity_worst"
+   ],
+   "value": 0.9165576536906883
+  },
+  {
+   "id": "p4_random_ppl_worst",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "ppl_ratio_worst"
+   ],
+   "value": 1.001541958863518
+  },
+  {
+   "id": "p4_random_dP_en_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "dP_en",
+    0
+   ],
+   "value": 0.9366436004638672
+  },
+  {
+   "id": "p4_random_dP_en_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "dP_en",
+    1
+   ],
+   "value": 0.868659257888794
+  },
+  {
+   "id": "p4_random_dP_en_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "dP_en",
+    2
+   ],
+   "value": 0.9663020968437195
+  },
+  {
+   "id": "p4_random_top1_new_en",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "top1_new_rate_en"
+   ],
+   "value": 1.0
+  },
+  {
+   "id": "p4_random_dP_es_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "dP_es",
+    0
+   ],
+   "value": 0.004762582364492118
+  },
+  {
+   "id": "p4_random_dP_es_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "dP_es",
+    1
+   ],
+   "value": 0.00034624885302037
+  },
+  {
+   "id": "p4_random_dP_es_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "dP_es",
+    2
+   ],
+   "value": 0.09339162474498153
+  },
+  {
+   "id": "p4_random_top1_new_es",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "top1_new_rate_es"
+   ],
+   "value": 0.1
+  },
+  {
+   "id": "p4_random_dP_hi_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "dP_hi",
+    0
+   ],
+   "value": 0.00445027113892138
+  },
+  {
+   "id": "p4_random_dP_hi_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "dP_hi",
+    1
+   ],
+   "value": -7.926055695861578e-05
+  },
+  {
+   "id": "p4_random_dP_hi_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "dP_hi",
+    2
+   ],
+   "value": 0.22318930784240365
+  },
+  {
+   "id": "p4_random_top1_new_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "top1_new_rate_hi"
+   ],
+   "value": 0.3
+  },
+  {
+   "id": "p4_random_transfer_es_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "transfer_es_en_success",
+    0
+   ],
+   "value": 0.005066276718962561
+  },
+  {
+   "id": "p4_random_transfer_es_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "transfer_es_en_success",
+    1
+   ],
+   "value": 0.0003705521871913443
+  },
+  {
+   "id": "p4_random_transfer_es_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "transfer_es_en_success",
+    2
+   ],
+   "value": 0.13925124900993988
+  },
+  {
+   "id": "p4_random_transfer_hi_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "transfer_hi_en_success",
+    0
+   ],
+   "value": 0.004633793617668539
+  },
+  {
+   "id": "p4_random_transfer_hi_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "transfer_hi_en_success",
+    1
+   ],
+   "value": 7.789557489504533e-06
+  },
+  {
+   "id": "p4_random_transfer_hi_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "transfer_hi_en_success",
+    2
+   ],
+   "value": 0.33980925086107266
+  },
+  {
+   "id": "p4_random_specificity_max_abs_dP_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "specificity_max_abs_dP",
+    0
+   ],
+   "value": 0.06065061688423157
+  },
+  {
+   "id": "p4_random_specificity_max_abs_dP_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "specificity_max_abs_dP",
+    1
+   ],
+   "value": 0.024554908275604248
+  },
+  {
+   "id": "p4_random_specificity_max_abs_dP_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "specificity_max_abs_dP",
+    2
+   ],
+   "value": 0.5463407483075571
+  },
+  {
+   "id": "p4_random_ppl_ratio_med",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "ppl_ratio",
+    0
+   ],
+   "value": 1.0000394675742168
+  },
+  {
+   "id": "p4_random_ppl_ratio_lo",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "ppl_ratio",
+    1
+   ],
+   "value": 0.9982199202449039
+  },
+  {
+   "id": "p4_random_ppl_ratio_hi",
+   "artifact": "analysis/run_20261013_p4edit/tables.json",
+   "key_path": [
+    "random",
+    "ppl_ratio",
+    2
+   ],
+   "value": 1.0006240445509107
+  }
+ ]
+}

@@ -185,10 +185,11 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--trace-run", default="analysis/run_20261012_p3trace")
     ap.add_argument("--tag", default="p4edit")
+    ap.add_argument("--facts", default="data/facts.json")
     ap.add_argument("--limit", type=int, default=None)
     a = ap.parse_args()
 
-    all_facts = load_facts()
+    all_facts = load_facts(a.facts)
     recs = {(r["id"], r["lang"]): r for r in json.loads((Path(a.trace_run) / "records.json").read_text(encoding="utf8"))}
     valid = [f for f in all_facts if all(recs[(f["id"], lg)]["collapsed"] and recs[(f["id"], lg)]["obj_ok"] and
                                          recs[(f["id"], lg)]["score_clean"] > recs[(f["id"], lg)]["score_corr"] for lg in LANGS)]
