@@ -5,3 +5,4 @@ __pycache__/
 ../RRAP/
 *.pyc
 models/
+data/wikitext/
