@@ -1,5 +1,7 @@
 # NEXT
 - [x] P0 env: repo anchored at babel-effect, venv, deps pinned, torch cu128 CUDA works
-- [x] P0 gate (GPT-2 substitute): Paris top-1; re-run on Llama/Gemma after HF login
-- [ ] BLOCKER (user action): Llama-3.2-3B-Instruct and Gemma-2-2B are gated; need free HF token + license acceptance. Pythia-1.4B/GPT-2 are English-centric, so ES/HI results would be meaningless on them.
-- [~] P1 data: 154 candidates built (data/facts_candidates.json); filtering to facts correct in all 3 languages needs Llama/Gemma (blocked on HF token)
+- [x] P0 gate: Llama-3.2-3B-Instruct predicts " Paris" (p=0.613); peak VRAM 7.49 GiB (analysis/p0_smoke_llama.json)
+- [ ] Verify mirror shard sha256 against meta-llama once Meta approves access (pending)
+- [~] P1 data: 154 candidates built (data/facts_candidates.json); next: code/filter_facts.py (pick Hindi template variant by whole-set accuracy, keep facts correct in EN+ES+HI, target n>=50, save data/facts.json + accuracy table)
+- [ ] docs/HYPOTHESIS.md committed BEFORE any P3 computation
+- [ ] P2 tracing, P3 overlap, P4 editing, P5 transfer, P6 writing

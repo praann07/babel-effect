@@ -1,0 +1,27 @@
+{
+ "model": "meta-llama/Llama-3.2-3B-Instruct",
+ "dtype": "bfloat16",
+ "peak_vram_gib": 7.49,
+ "top5": [
+  [
+   " Paris",
+   0.6132
+  ],
+  [
+   "...",
+   0.0688
+  ],
+  [
+   " what",
+   0.0368
+  ],
+  [
+   " which",
+   0.0368
+  ],
+  [
+   "?\n",
+   0.0287
+  ]
+ ]
+}
