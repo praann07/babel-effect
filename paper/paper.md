@@ -83,7 +83,7 @@ One model, one relation family (capitals and landmarks), three languages, 66 fac
 
 ## 8. Reproducibility
 
-Code, configs, write-once run directories, logs (`docs/LOG.md`, `docs/EXPERIMENT_LOG.md`), seeds and the claim manifest are in the repository. `./reproduce.sh verify` re-checks the manifest in seconds; `./reproduce.sh full` re-runs P1-P5 into new run directories and compares headline numbers.
+Code, configs, write-once run directories, logs (`docs/LOG.md`, `docs/EXPERIMENT_LOG.md`), seeds and the claim manifest are in the repository. `./reproduce.sh verify` re-checks the manifest in seconds; `./reproduce.sh full` re-runs P1-P5 into new run directories and compares headline numbers. Status: the full rerun was stopped during tracing; only the P1 filter was reproduced (identical 67 facts), so end-to-end reproduction of tracing, overlap and editing has not been verified.
 
 ## References
 

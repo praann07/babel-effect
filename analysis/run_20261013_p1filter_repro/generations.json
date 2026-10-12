@@ -1,0 +1,7516 @@
+{
+ "capital_of_000": {
+  "en0": {
+   "prompt": "The capital of France is",
+   "gen": " Paris. The",
+   "p_first": 0.6956,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Francia es",
+   "gen": " París. La",
+   "p_first": 0.2444,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "फ्रांस की राजधानी",
+   "gen": " पेरिस में",
+   "p_first": 0.5378,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "फ्रांस की राजधानी है",
+   "gen": " पेरिस, ज",
+   "p_first": 0.3933,
+   "ok": true
+  }
+ },
+ "capital_of_001": {
+  "en0": {
+   "prompt": "The capital of Germany is",
+   "gen": " Berlin. Berlin",
+   "p_first": 0.8368,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Alemania es",
+   "gen": " Berlín. La",
+   "p_first": 0.7642,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "जर्मनी की राजधानी",
+   "gen": " बेर्लिन क",
+   "p_first": 0.1972,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "जर्मनी की राजधानी है",
+   "gen": " और दुनिया",
+   "p_first": 0.3034,
+   "ok": false
+  }
+ },
+ "capital_of_002": {
+  "en0": {
+   "prompt": "The capital of Italy is",
+   "gen": " Rome, but the",
+   "p_first": 0.7563,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Italia es",
+   "gen": " Roma, pero también",
+   "p_first": 0.3622,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "इटली की राजधानी",
+   "gen": " रोम में",
+   "p_first": 0.5219,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "इटली की राजधानी है",
+   "gen": " और दुनिय",
+   "p_first": 0.3087,
+   "ok": false
+  }
+ },
+ "capital_of_003": {
+  "en0": {
+   "prompt": "The capital of Spain is",
+   "gen": " Madrid. It is",
+   "p_first": 0.6757,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de España es",
+   "gen": " Madrid. La capital",
+   "p_first": 0.7942,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "स्पेन की राजधानी",
+   "gen": " मैड्रिड में",
+   "p_first": 0.7641,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "स्पेन की राजधानी है",
+   "gen": " मैड्रिड\nम",
+   "p_first": 0.4478,
+   "ok": true
+  }
+ },
+ "capital_of_004": {
+  "en0": {
+   "prompt": "The capital of Portugal is",
+   "gen": " Lisbon. Lisbon is a",
+   "p_first": 0.9165,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Portugal es",
+   "gen": " Lisboa, que se",
+   "p_first": 0.6075,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "पुर्तगाल की राजधानी",
+   "gen": " लिस्बन के",
+   "p_first": 0.6781,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "पुर्तगाल की राजधानी है",
+   "gen": " लिस्बन\nप",
+   "p_first": 0.472,
+   "ok": true
+  }
+ },
+ "capital_of_005": {
+  "en0": {
+   "prompt": "The capital of Japan is",
+   "gen": " Tokyo. Tokyo is",
+   "p_first": 0.7225,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Japón es",
+   "gen": " Tokio, que",
+   "p_first": 0.7799,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "जापान की राजधानी",
+   "gen": " टोक्यो में",
+   "p_first": 0.2428,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "जापान की राजधानी है",
+   "gen": " टोक्यो\nट",
+   "p_first": 0.1191,
+   "ok": true
+  }
+ },
+ "capital_of_006": {
+  "en0": {
+   "prompt": "The capital of China is",
+   "gen": " Beijing. Beijing is",
+   "p_first": 0.7605,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de China es",
+   "gen": " Pekín. Pekín",
+   "p_first": 0.6298,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "चीन की राजधानी",
+   "gen": " बीजिंग में",
+   "p_first": 0.5155,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "चीन की राजधानी है",
+   "gen": " पेकिंग\nप",
+   "p_first": 0.2483,
+   "ok": false
+  }
+ },
+ "capital_of_007": {
+  "en0": {
+   "prompt": "The capital of India is",
+   "gen": " New Delhi. It",
+   "p_first": 0.6617,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de India es",
+   "gen": " Delhi. La ciudad de",
+   "p_first": 0.1381,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "भारत की राजधानी",
+   "gen": " नई दिल्ली में एक",
+   "p_first": 0.4616,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "भारत की राजधानी है",
+   "gen": " नई दिल्ली और यह द",
+   "p_first": 0.3216,
+   "ok": true
+  }
+ },
+ "capital_of_008": {
+  "en0": {
+   "prompt": "The capital of Russia is",
+   "gen": " Moscow. Moscow is",
+   "p_first": 0.8576,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Rusia es",
+   "gen": " Moscú. La",
+   "p_first": 0.3727,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "रूस की राजधानी",
+   "gen": " मॉस्को में",
+   "p_first": 0.772,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "रूस की राजधानी है",
+   "gen": " मॉस्को (Mos",
+   "p_first": 0.2672,
+   "ok": true
+  }
+ },
+ "capital_of_009": {
+  "en0": {
+   "prompt": "The capital of Brazil is",
+   "gen": " Brasília, which is",
+   "p_first": 0.3522,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Brasil es",
+   "gen": " Brasilia, pero en",
+   "p_first": 0.1434,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ब्राज़ील की राजधानी",
+   "gen": " ब्राज़ील की र",
+   "p_first": 0.5163,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ब्राज़ील की राजधानी है",
+   "gen": " ब्राज़ील की र",
+   "p_first": 0.1191,
+   "ok": false
+  }
+ },
+ "capital_of_010": {
+  "en0": {
+   "prompt": "The capital of Argentina is",
+   "gen": " Buenos Aires. Buenos Aires is",
+   "p_first": 0.8843,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Argentina es",
+   "gen": " Buenos Aires. La ciudad tiene",
+   "p_first": 0.6355,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "अर्जेंटीना की राजधानी",
+   "gen": " ब्यूनस आयर्स\nअ",
+   "p_first": 0.7227,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "अर्जेंटीना की राजधानी है",
+   "gen": " ब्यूनस आयर्स\nअ",
+   "p_first": 0.7223,
+   "ok": true
+  }
+ },
+ "capital_of_011": {
+  "en0": {
+   "prompt": "The capital of Mexico is",
+   "gen": " Mexico City, which",
+   "p_first": 0.7825,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de México es",
+   "gen": " la ciudad de México, que",
+   "p_first": 0.3568,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "मेक्सिको की राजधानी",
+   "gen": " मेक्सिको सिटी में",
+   "p_first": 0.2351,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "मेक्सिको की राजधानी है",
+   "gen": " मेक्सिको सिटी (स",
+   "p_first": 0.1365,
+   "ok": true
+  }
+ },
+ "capital_of_012": {
+  "en0": {
+   "prompt": "The capital of Canada is",
+   "gen": " Ottawa, which is located",
+   "p_first": 0.5719,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Canadá es",
+   "gen": " Ottawa, pero la ciudad",
+   "p_first": 0.6581,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "कनाडा की राजधानी",
+   "gen": " कौन सी है",
+   "p_first": 0.3532,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "कनाडा की राजधानी है",
+   "gen": " और यह दुनिया",
+   "p_first": 0.1853,
+   "ok": false
+  }
+ },
+ "capital_of_013": {
+  "en0": {
+   "prompt": "The capital of Australia is",
+   "gen": " Canberra, which is",
+   "p_first": 0.4154,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Australia es",
+   "gen": " Sydney, pero la",
+   "p_first": 0.4304,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "ऑस्ट्रेलिया की राजधानी",
+   "gen": " क्या है?\n�",
+   "p_first": 0.5806,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ऑस्ट्रेलिया की राजधानी है",
+   "gen": " क्या?\nहाँ",
+   "p_first": 0.3634,
+   "ok": false
+  }
+ },
+ "capital_of_014": {
+  "en0": {
+   "prompt": "The capital of Greece is",
+   "gen": " Athens. The capital",
+   "p_first": 0.9045,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Grecia es",
+   "gen": " Atenas.",
+   "p_first": 0.4947,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ग्रीस की राजधानी",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.1866,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ग्रीस की राजधानी है",
+   "gen": " और प्राचीन ग",
+   "p_first": 0.1176,
+   "ok": false
+  }
+ },
+ "capital_of_015": {
+  "en0": {
+   "prompt": "The capital of Turkey is",
+   "gen": " Ankara. It is",
+   "p_first": 0.3199,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Turquía es",
+   "gen": " Estambul.",
+   "p_first": 0.5391,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "तुर्की की राजधानी",
+   "gen": " अंकारा में",
+   "p_first": 0.1439,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "तुर्की की राजधानी है",
+   "gen": " और दुनिया क",
+   "p_first": 0.1058,
+   "ok": false
+  }
+ },
+ "capital_of_016": {
+  "en0": {
+   "prompt": "The capital of Sweden is",
+   "gen": " Stockholm. Stockholm is",
+   "p_first": 0.8113,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Suecia es",
+   "gen": " Estocolmo. Est",
+   "p_first": 0.4353,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "स्वीडन की राजधानी",
+   "gen": " स्टॉकहोम में",
+   "p_first": 0.8253,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "स्वीडन की राजधानी है",
+   "gen": " स्टॉकहोम\nस",
+   "p_first": 0.5094,
+   "ok": true
+  }
+ },
+ "capital_of_017": {
+  "en0": {
+   "prompt": "The capital of Norway is",
+   "gen": " Oslo. Oslo is",
+   "p_first": 0.7561,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Noruega es",
+   "gen": " Oslo. La ciudad",
+   "p_first": 0.8253,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "नॉर्वे की राजधानी",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.4172,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "नॉर्वे की राजधानी है",
+   "gen": " क्रिस्टियन्स",
+   "p_first": 0.1453,
+   "ok": false
+  }
+ },
+ "capital_of_018": {
+  "en0": {
+   "prompt": "The capital of Finland is",
+   "gen": " Helsinki. Helsinki is",
+   "p_first": 0.8521,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Finlandia es",
+   "gen": " Helsinki. La ciudad",
+   "p_first": 0.3959,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "फ़िनलैंड की राजधानी",
+   "gen": " हेल्सिंकी में",
+   "p_first": 0.8692,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "फ़िनलैंड की राजधानी है",
+   "gen": " हेल्सिंकी (H",
+   "p_first": 0.444,
+   "ok": false
+  }
+ },
+ "capital_of_019": {
+  "en0": {
+   "prompt": "The capital of Denmark is",
+   "gen": " Copenhagen. Copenhagen is",
+   "p_first": 0.8302,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Dinamarca es",
+   "gen": " Copenhague. C",
+   "p_first": 0.668,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "डेनमार्क की राजधानी",
+   "gen": " क्या है?\nकोपेन",
+   "p_first": 0.8337,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "डेनमार्क की राजधानी है",
+   "gen": " क्या?\nहां, क",
+   "p_first": 0.4738,
+   "ok": false
+  }
+ },
+ "capital_of_020": {
+  "en0": {
+   "prompt": "The capital of Poland is",
+   "gen": " Warsaw (Polish",
+   "p_first": 0.6014,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Polonia es",
+   "gen": " la ciudad de Varso",
+   "p_first": 0.286,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "पोलैंड की राजधानी",
+   "gen": " वारसॉ में",
+   "p_first": 0.725,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "पोलैंड की राजधानी है",
+   "gen": " वारसॉ\nव",
+   "p_first": 0.5399,
+   "ok": true
+  }
+ },
+ "capital_of_021": {
+  "en0": {
+   "prompt": "The capital of Austria is",
+   "gen": " Vienna, which is",
+   "p_first": 0.7802,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Austria es",
+   "gen": " Viena (en",
+   "p_first": 0.3535,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ऑस्ट्रिया की राजधानी",
+   "gen": " वियना में",
+   "p_first": 0.6442,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "ऑस्ट्रिया की राजधानी है",
+   "gen": " वियना (Vi",
+   "p_first": 0.3188,
+   "ok": true
+  }
+ },
+ "capital_of_022": {
+  "en0": {
+   "prompt": "The capital of Switzerland is",
+   "gen": " Bern, but",
+   "p_first": 0.4699,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Suiza es",
+   "gen": " la ciudad de Bern",
+   "p_first": 0.1576,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "स्विट्ज़रलैंड की राजधानी",
+   "gen": " बेर्न म",
+   "p_first": 0.3732,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "स्विट्ज़रलैंड की राजधानी है",
+   "gen": " जिसे स",
+   "p_first": 0.6258,
+   "ok": false
+  }
+ },
+ "capital_of_023": {
+  "en0": {
+   "prompt": "The capital of Belgium is",
+   "gen": " Brussels, which is",
+   "p_first": 0.7738,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Bélgica es",
+   "gen": " Bruselas. La",
+   "p_first": 0.6325,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बेल्जियम की राजधानी",
+   "gen": " ब्रसेल्स म",
+   "p_first": 0.7523,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "बेल्जियम की राजधानी है",
+   "gen": " विलेम्स\nव",
+   "p_first": 0.3081,
+   "ok": false
+  }
+ },
+ "capital_of_024": {
+  "en0": {
+   "prompt": "The capital of Ireland is",
+   "gen": " Dublin. Dublin is",
+   "p_first": 0.7728,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Irlanda es",
+   "gen": " Dublín (Dub",
+   "p_first": 0.3722,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "आयरलैंड की राजधानी",
+   "gen": " दुब्लिन क",
+   "p_first": 0.2786,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "आयरलैंड की राजधानी है",
+   "gen": " दUBLिन\nद",
+   "p_first": 0.3442,
+   "ok": false
+  }
+ },
+ "capital_of_025": {
+  "en0": {
+   "prompt": "The capital of Peru is",
+   "gen": " Lima. Lima is",
+   "p_first": 0.9594,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Perú es",
+   "gen": " Lima. Lima es",
+   "p_first": 0.8348,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "पेरू की राजधानी",
+   "gen": " लिमा के",
+   "p_first": 0.6224,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "पेरू की राजधानी है",
+   "gen": " लिमा और यह",
+   "p_first": 0.411,
+   "ok": false
+  }
+ },
+ "capital_of_026": {
+  "en0": {
+   "prompt": "The capital of Chile is",
+   "gen": " Santiago. It is",
+   "p_first": 0.6982,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Chile es",
+   "gen": " Santiago. Santiago es",
+   "p_first": 0.7958,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "चिली की राजधानी",
+   "gen": " सैन्टियागो में",
+   "p_first": 0.8216,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "चिली की राजधानी है",
+   "gen": " सैंटियागो\nस",
+   "p_first": 0.6069,
+   "ok": true
+  }
+ },
+ "capital_of_027": {
+  "en0": {
+   "prompt": "The capital of Colombia is",
+   "gen": " Bogotá. It is",
+   "p_first": 0.7581,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Colombia es",
+   "gen": " Bogotá, que se",
+   "p_first": 0.6973,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "कोलंबिया की राजधानी",
+   "gen": " बोगोटा में",
+   "p_first": 0.7218,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "कोलंबिया की राजधानी है",
+   "gen": " बोगोटा\nकोल",
+   "p_first": 0.1634,
+   "ok": true
+  }
+ },
+ "capital_of_028": {
+  "en0": {
+   "prompt": "The capital of Venezuela is",
+   "gen": " Caracas. It",
+   "p_first": 0.8306,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Venezuela es",
+   "gen": " Caracas, que",
+   "p_first": 0.8319,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "वेनेज़ुएला की राजधानी",
+   "gen": " काराकास के",
+   "p_first": 0.7607,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "वेनेज़ुएला की राजधानी है",
+   "gen": " काराकास\nव",
+   "p_first": 0.533,
+   "ok": true
+  }
+ },
+ "capital_of_029": {
+  "en0": {
+   "prompt": "The capital of Thailand is",
+   "gen": " Bangkok. Bangkok is",
+   "p_first": 0.8476,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Tailandia es",
+   "gen": " Bangkok, que se",
+   "p_first": 0.7129,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "थाईलैंड की राजधानी",
+   "gen": " बैंकॉक में",
+   "p_first": 0.5595,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "थाईलैंड की राजधानी है",
+   "gen": " और देश का सबस",
+   "p_first": 0.3595,
+   "ok": false
+  }
+ },
+ "capital_of_030": {
+  "en0": {
+   "prompt": "The capital of Vietnam is",
+   "gen": " Hanoi, which",
+   "p_first": 0.6398,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Vietnam es",
+   "gen": " Hanoi, pero",
+   "p_first": 0.66,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "वियतनाम की राजधानी",
+   "gen": " हनोई क",
+   "p_first": 0.8793,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "वियतनाम की राजधानी है",
+   "gen": " हनोई (",
+   "p_first": 0.5702,
+   "ok": true
+  }
+ },
+ "capital_of_031": {
+  "en0": {
+   "prompt": "The capital of Indonesia is",
+   "gen": " Jakarta. It is",
+   "p_first": 0.5977,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Indonesia es",
+   "gen": " una ciudad vibrante y",
+   "p_first": 0.1187,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "इंडोनेशिया की राजधानी",
+   "gen": " जकार्ता में",
+   "p_first": 0.3397,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "इंडोनेशिया की राजधानी है",
+   "gen": " और दुनिया की",
+   "p_first": 0.4788,
+   "ok": false
+  }
+ },
+ "capital_of_032": {
+  "en0": {
+   "prompt": "The capital of Pakistan is",
+   "gen": " Islamabad, which is",
+   "p_first": 0.4521,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Pakistán es",
+   "gen": " Islamabad. La ciudad",
+   "p_first": 0.3608,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "पाकिस्तान की राजधानी",
+   "gen": " इस्लामाबाद में",
+   "p_first": 0.4262,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "पाकिस्तान की राजधानी है",
+   "gen": " इस्लामाबाद\nइस",
+   "p_first": 0.2434,
+   "ok": true
+  }
+ },
+ "capital_of_033": {
+  "en0": {
+   "prompt": "The capital of Bangladesh is",
+   "gen": " Dhaka. It is",
+   "p_first": 0.8555,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Bangladés es",
+   "gen": " Daca (t",
+   "p_first": 0.3713,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बांग्लादेश की राजधानी",
+   "gen": " ढाका में",
+   "p_first": 0.3838,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "बांग्लादेश की राजधानी है",
+   "gen": " | देश की",
+   "p_first": 0.0897,
+   "ok": false
+  }
+ },
+ "capital_of_034": {
+  "en0": {
+   "prompt": "The capital of Nepal is",
+   "gen": " Kathmandu. It is",
+   "p_first": 0.4526,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Nepal es",
+   "gen": " Kathmandu. La",
+   "p_first": 0.4537,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "नेपाल की राजधानी",
+   "gen": " काठमांडू में",
+   "p_first": 0.7736,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "नेपाल की राजधानी है",
+   "gen": " काठमांडू\nक",
+   "p_first": 0.1972,
+   "ok": true
+  }
+ },
+ "capital_of_035": {
+  "en0": {
+   "prompt": "The capital of Sri Lanka is",
+   "gen": " Colombo. However",
+   "p_first": 0.7463,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Sri Lanka es",
+   "gen": " Colombo. La",
+   "p_first": 0.3598,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "श्रीलंका की राजधानी",
+   "gen": " कोलंबो (क",
+   "p_first": 0.8709,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "श्रीलंका की राजधानी है",
+   "gen": " कोलंबो (Col",
+   "p_first": 0.4759,
+   "ok": true
+  }
+ },
+ "capital_of_036": {
+  "en0": {
+   "prompt": "The capital of Iran is",
+   "gen": " Tehran. Tehran is the",
+   "p_first": 0.7115,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Irán es",
+   "gen": " Teherán. La",
+   "p_first": 0.5997,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ईरान की राजधानी",
+   "gen": " तेहरान में",
+   "p_first": 0.1432,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "ईरान की राजधानी है",
+   "gen": " और दुनिया",
+   "p_first": 0.3425,
+   "ok": false
+  }
+ },
+ "capital_of_037": {
+  "en0": {
+   "prompt": "The capital of Iraq is",
+   "gen": " Baghdad.\nThe capital of",
+   "p_first": 0.8405,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Irak es",
+   "gen": " Bagdad. La",
+   "p_first": 0.6014,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "इराक की राजधानी",
+   "gen": " बगदाद के प",
+   "p_first": 0.6955,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "इराक की राजधानी है",
+   "gen": " और दुनिया की",
+   "p_first": 0.2887,
+   "ok": false
+  }
+ },
+ "capital_of_038": {
+  "en0": {
+   "prompt": "The capital of Saudi Arabia is",
+   "gen": " Riyadh.\nThe capital of",
+   "p_first": 0.2099,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Arabia Saudita es",
+   "gen": " Río de Janeiro",
+   "p_first": 0.1747,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "सऊदी अरब की राजधानी",
+   "gen": " रियाद के",
+   "p_first": 0.585,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "सऊदी अरब की राजधानी है",
+   "gen": " रियाद\nस",
+   "p_first": 0.2452,
+   "ok": true
+  }
+ },
+ "capital_of_039": {
+  "en0": {
+   "prompt": "The capital of Kenya is",
+   "gen": " Nairobi. Nairobi is",
+   "p_first": 0.5904,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Kenia es",
+   "gen": " Nairobí",
+   "p_first": 0.358,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "केन्या की राजधानी",
+   "gen": " नAIROBI\nन",
+   "p_first": 0.926,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "केन्या की राजधानी है",
+   "gen": " न्यूरी\nक",
+   "p_first": 0.875,
+   "ok": false
+  }
+ },
+ "capital_of_040": {
+  "en0": {
+   "prompt": "The capital of Nigeria is",
+   "gen": " Abuja, but",
+   "p_first": 0.5851,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Nigeria es",
+   "gen": " Abuja. La",
+   "p_first": 0.1487,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "नाइजीरिया की राजधानी",
+   "gen": " अबूजा म",
+   "p_first": 0.7305,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "नाइजीरिया की राजधानी है",
+   "gen": " अबूजा क",
+   "p_first": 0.2816,
+   "ok": false
+  }
+ },
+ "capital_of_041": {
+  "en0": {
+   "prompt": "The capital of Ethiopia is",
+   "gen": " Addis Ababa. The",
+   "p_first": 0.8315,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Etiopía es",
+   "gen": " Addis Abeba (t",
+   "p_first": 0.8325,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "इथियोपिया की राजधानी",
+   "gen": " और सबसे बड़ी शहर, एड",
+   "p_first": 0.1252,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "इथियोपिया की राजधानी है",
+   "gen": " और यह देश का सबसे",
+   "p_first": 0.4127,
+   "ok": false
+  }
+ },
+ "capital_of_042": {
+  "en0": {
+   "prompt": "The capital of Morocco is",
+   "gen": " Rabat, but the",
+   "p_first": 0.5109,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Marruecos es",
+   "gen": " Rabat, pero la",
+   "p_first": 0.5677,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मोरक्को की राजधानी",
+   "gen": " मारबेला",
+   "p_first": 0.456,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मोरक्को की राजधानी है",
+   "gen": " राबत\nम",
+   "p_first": 0.2769,
+   "ok": false
+  }
+ },
+ "capital_of_043": {
+  "en0": {
+   "prompt": "The capital of Algeria is",
+   "gen": " Algiers. Located",
+   "p_first": 0.7284,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Argelia es",
+   "gen": " la ciudad de Arg",
+   "p_first": 0.3192,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "अल्जीरिया की राजधानी",
+   "gen": " अल्जीरिया की र",
+   "p_first": 0.3177,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अल्जीरिया की राजधानी है",
+   "gen": " और दुनिया की सबस",
+   "p_first": 0.2004,
+   "ok": false
+  }
+ },
+ "capital_of_044": {
+  "en0": {
+   "prompt": "The capital of South Africa is",
+   "gen": " Pretoria, but the",
+   "p_first": 0.1533,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Sudáfrica es",
+   "gen": " una ciudad vibrante y",
+   "p_first": 0.15,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "दक्षिण अफ़्रीका की राजधानी",
+   "gen": " प्रिटोरिया में",
+   "p_first": 0.7624,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "दक्षिण अफ़्रीका की राजधानी है",
+   "gen": " प्रिटोरिया (प",
+   "p_first": 0.7354,
+   "ok": true
+  }
+ },
+ "capital_of_045": {
+  "en0": {
+   "prompt": "The capital of Ghana is",
+   "gen": " Accra. Acc",
+   "p_first": 0.7197,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Ghana es",
+   "gen": " Accra. La",
+   "p_first": 0.807,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "घाना की राजधानी",
+   "gen": " कौन सी है",
+   "p_first": 0.4478,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "घाना की राजधानी है",
+   "gen": " और देश का सबस",
+   "p_first": 0.3104,
+   "ok": false
+  }
+ },
+ "capital_of_046": {
+  "en0": {
+   "prompt": "The capital of Hungary is",
+   "gen": " Budapest. Budapest is a",
+   "p_first": 0.8655,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Hungría es",
+   "gen": " Budapest, que se encuentra",
+   "p_first": 0.8684,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "हंगरी की राजधानी",
+   "gen": " बुडापेस्ट में",
+   "p_first": 0.5599,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "हंगरी की राजधानी है",
+   "gen": " बुडापेस्ट\nब",
+   "p_first": 0.3039,
+   "ok": true
+  }
+ },
+ "capital_of_047": {
+  "en0": {
+   "prompt": "The capital of Romania is",
+   "gen": " Bucharest. It is",
+   "p_first": 0.7045,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Rumania es",
+   "gen": " Bucarest. La",
+   "p_first": 0.5584,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "रोमानिया की राजधानी",
+   "gen": " क्या है?\nरोम",
+   "p_first": 0.4865,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "रोमानिया की राजधानी है",
+   "gen": " और दुनिया की",
+   "p_first": 0.474,
+   "ok": false
+  }
+ },
+ "capital_of_048": {
+  "en0": {
+   "prompt": "The capital of Ukraine is",
+   "gen": " Kyiv (also",
+   "p_first": 0.5851,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Ucrania es",
+   "gen": " Kiev. La ciudad",
+   "p_first": 0.9532,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "यूक्रेन की राजधानी",
+   "gen": " क्या ह",
+   "p_first": 0.918,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "यूक्रेन की राजधानी है",
+   "gen": " कीव\nक",
+   "p_first": 0.3013,
+   "ok": true
+  }
+ },
+ "capital_of_049": {
+  "en0": {
+   "prompt": "The capital of Bulgaria is",
+   "gen": " Sofia. Sofia is a",
+   "p_first": 0.9289,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Bulgaria es",
+   "gen": " la ciudad de Sofía",
+   "p_first": 0.2496,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "बुल्गारिया की राजधानी",
+   "gen": " सोफिया में",
+   "p_first": 0.5237,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "बुल्गारिया की राजधानी है",
+   "gen": " सोफिया (S",
+   "p_first": 0.3476,
+   "ok": true
+  }
+ },
+ "capital_of_050": {
+  "en0": {
+   "prompt": "The capital of Serbia is",
+   "gen": " Belgrade. It",
+   "p_first": 0.8281,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Serbia es",
+   "gen": " Belgrado. Bel",
+   "p_first": 0.6346,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सर्बिया की राजधानी",
+   "gen": " बेलग्रेड में",
+   "p_first": 0.5679,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "सर्बिया की राजधानी है",
+   "gen": " और दुनिया की",
+   "p_first": 0.4663,
+   "ok": false
+  }
+ },
+ "capital_of_051": {
+  "en0": {
+   "prompt": "The capital of Croatia is",
+   "gen": " Zagreb. It is",
+   "p_first": 0.5534,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Croacia es",
+   "gen": " Zagreb. La ciudad",
+   "p_first": 0.3224,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "क्रोएशिया की राजधानी",
+   "gen": " जाग्रेबो\nज",
+   "p_first": 0.2033,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "क्रोएशिया की राजधानी है",
+   "gen": " जो दुनिया क",
+   "p_first": 0.1982,
+   "ok": false
+  }
+ },
+ "capital_of_052": {
+  "en0": {
+   "prompt": "The capital of Iceland is",
+   "gen": " Reykjavik. It",
+   "p_first": 0.4554,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Islandia es",
+   "gen": " Reykjavik. La",
+   "p_first": 0.3496,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "आइसलैंड की राजधानी",
+   "gen": " रिक्सविक\nर",
+   "p_first": 0.6293,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "आइसलैंड की राजधानी है",
+   "gen": " रिक्सविक\nआ",
+   "p_first": 0.298,
+   "ok": false
+  }
+ },
+ "capital_of_053": {
+  "en0": {
+   "prompt": "The capital of Mongolia is",
+   "gen": " Ulaanbaatar. It",
+   "p_first": 0.914,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Mongolia es",
+   "gen": " Ulaanbaatar.",
+   "p_first": 0.8924,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "मंगोलिया की राजधानी",
+   "gen": " क्या है?\nउत्तर:",
+   "p_first": 0.2,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मंगोलिया की राजधानी है",
+   "gen": " या क्या?\nउत्तर",
+   "p_first": 0.2906,
+   "ok": false
+  }
+ },
+ "capital_of_054": {
+  "en0": {
+   "prompt": "The capital of Afghanistan is",
+   "gen": " Kabul.\nThe capital of",
+   "p_first": 0.5799,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Afganistán es",
+   "gen": " Kabul. La ciudad tiene",
+   "p_first": 0.6472,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "अफ़ग़ानिस्तान की राजधानी",
+   "gen": " काबुल में",
+   "p_first": 0.8641,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "अफ़ग़ानिस्तान की राजधानी है",
+   "gen": " काबुल\nक",
+   "p_first": 0.3194,
+   "ok": true
+  }
+ },
+ "capital_of_055": {
+  "en0": {
+   "prompt": "The capital of Cambodia is",
+   "gen": " Phnom Penh. The",
+   "p_first": 0.4686,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Camboya es",
+   "gen": " Phnom Penh",
+   "p_first": 0.2532,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "कंबोडिया की राजधानी",
+   "gen": " पनोम पेन क",
+   "p_first": 0.5924,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "कंबोडिया की राजधानी है",
+   "gen": " फुसान\nकंब",
+   "p_first": 0.2118,
+   "ok": false
+  }
+ },
+ "capital_of_056": {
+  "en0": {
+   "prompt": "The capital of South Korea is",
+   "gen": " Seoul. Seoul is",
+   "p_first": 0.6223,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Corea del Sur es",
+   "gen": " una ciudad vibrante y",
+   "p_first": 0.2184,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "दक्षिण कोरिया की राजधानी",
+   "gen": " से 10 क",
+   "p_first": 0.4893,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "दक्षिण कोरिया की राजधानी है",
+   "gen": " सियोल\nस",
+   "p_first": 0.2119,
+   "ok": true
+  }
+ },
+ "capital_of_057": {
+  "en0": {
+   "prompt": "The capital of Jordan is",
+   "gen": " Amman. Am",
+   "p_first": 0.7332,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Jordania es",
+   "gen": " Amán. Jord",
+   "p_first": 0.584,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "जॉर्डन की राजधानी",
+   "gen": " अम्मान के प",
+   "p_first": 0.253,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "जॉर्डन की राजधानी है",
+   "gen": " अम्मान\nजॉर",
+   "p_first": 0.2449,
+   "ok": true
+  }
+ },
+ "capital_of_058": {
+  "en0": {
+   "prompt": "The capital of Lebanon is",
+   "gen": " Beirut. Beirut is",
+   "p_first": 0.6246,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Líbano es",
+   "gen": " Beirut, que se",
+   "p_first": 0.6452,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "लेबनान की राजधानी",
+   "gen": " बेईरूत",
+   "p_first": 0.5333,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लेबनान की राजधानी है",
+   "gen": " बीजिंग\n",
+   "p_first": 0.1015,
+   "ok": false
+  }
+ },
+ "capital_of_059": {
+  "en0": {
+   "prompt": "The capital of Syria is",
+   "gen": " Damascus. It is",
+   "p_first": 0.7269,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Siria es",
+   "gen": " la ciudad de Damasco",
+   "p_first": 0.2357,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "सीरिया की राजधानी",
+   "gen": " दमिश्क म",
+   "p_first": 0.7007,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "सीरिया की राजधानी है",
+   "gen": " और दुनिया",
+   "p_first": 0.2926,
+   "ok": false
+  }
+ },
+ "capital_of_060": {
+  "en0": {
+   "prompt": "The capital of Libya is",
+   "gen": " Tripoli. Trip",
+   "p_first": 0.9512,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Libia es",
+   "gen": " Tripoli. Tripoli es",
+   "p_first": 0.622,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "लीबिया की राजधानी",
+   "gen": " ट्रिपोली में",
+   "p_first": 0.4989,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लीबिया की राजधानी है",
+   "gen": " और दुनिया की",
+   "p_first": 0.1616,
+   "ok": false
+  }
+ },
+ "capital_of_061": {
+  "en0": {
+   "prompt": "The capital of Uruguay is",
+   "gen": " Montevideo. It",
+   "p_first": 0.7288,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Uruguay es",
+   "gen": " Montevideo. La",
+   "p_first": 0.5259,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "उरुग्वे की राजधानी",
+   "gen": " माउस्को (Montevideo",
+   "p_first": 0.4313,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "उरुग्वे की राजधानी है",
+   "gen": " मॉन्टेवीडियो\n\nम",
+   "p_first": 0.1666,
+   "ok": false
+  }
+ },
+ "capital_of_062": {
+  "en0": {
+   "prompt": "The capital of Ecuador is",
+   "gen": " Quito, which",
+   "p_first": 0.8098,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Ecuador es",
+   "gen": " Quito, que",
+   "p_first": 0.3354,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "इक्वाडोर की राजधानी",
+   "gen": " क्या है?\nइ",
+   "p_first": 0.806,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "इक्वाडोर की राजधानी है",
+   "gen": " किटो\nइक",
+   "p_first": 0.4141,
+   "ok": false
+  }
+ },
+ "capital_of_063": {
+  "en0": {
+   "prompt": "The capital of Paraguay is",
+   "gen": " Asunción. It",
+   "p_first": 0.7418,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Paraguay es",
+   "gen": " Asunción. La",
+   "p_first": 0.8627,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "पैराग्वे की राजधानी",
+   "gen": " मास्को\nपैराग",
+   "p_first": 0.2324,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "पैराग्वे की राजधानी है",
+   "gen": " असुन्सión\nअसुन",
+   "p_first": 0.153,
+   "ok": false
+  }
+ },
+ "capital_of_064": {
+  "en0": {
+   "prompt": "The capital of Jamaica is",
+   "gen": " Kingston. Kingston is",
+   "p_first": 0.6963,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Jamaica es",
+   "gen": " Kingston. La ciudad",
+   "p_first": 0.5997,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "जमैका की राजधानी",
+   "gen": " क्या है?\nजमैक",
+   "p_first": 0.5428,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "जमैका की राजधानी है",
+   "gen": "?\nकिंगस्टन\n",
+   "p_first": 0.3206,
+   "ok": false
+  }
+ },
+ "capital_of_065": {
+  "en0": {
+   "prompt": "The capital of New Zealand is",
+   "gen": " Wellington, but the",
+   "p_first": 0.399,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Nueva Zelanda es",
+   "gen": " Wellington, pero la",
+   "p_first": 0.3321,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "न्यूज़ीलैंड की राजधानी",
+   "gen": " वेलिंगटन में",
+   "p_first": 0.8149,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "न्यूज़ीलैंड की राजधानी है",
+   "gen": " वेलिंगटन\nव",
+   "p_first": 0.4813,
+   "ok": true
+  }
+ },
+ "capital_of_066": {
+  "en0": {
+   "prompt": "The capital of Cuba is",
+   "gen": " Havana. Cuba is",
+   "p_first": 0.6687,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Cuba es",
+   "gen": " la ciudad de La Hab",
+   "p_first": 0.3564,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "क्यूबा की राजधानी",
+   "gen": " है हावाना",
+   "p_first": 0.876,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "क्यूबा की राजधानी है",
+   "gen": " हावाना (H",
+   "p_first": 0.5923,
+   "ok": false
+  }
+ },
+ "capital_of_067": {
+  "en0": {
+   "prompt": "The capital of Bolivia is",
+   "gen": " Sucre, but",
+   "p_first": 0.7709,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Bolivia es",
+   "gen": " la ciudad de Su",
+   "p_first": 0.1726,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "बोलीविया की राजधानी",
+   "gen": " सुथिसी (",
+   "p_first": 0.3398,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बोलीविया की राजधानी है",
+   "gen": " ला पास\nल",
+   "p_first": 0.2315,
+   "ok": false
+  }
+ },
+ "capital_of_068": {
+  "en0": {
+   "prompt": "The capital of Costa Rica is",
+   "gen": " San José. It",
+   "p_first": 0.9355,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Costa Rica es",
+   "gen": " San José. La",
+   "p_first": 0.9552,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "कोस्टा रिका की राजधानी",
+   "gen": " सैन जोस\nक",
+   "p_first": 0.6576,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "कोस्टा रिका की राजधानी है",
+   "gen": " सैन जोस\nस",
+   "p_first": 0.4174,
+   "ok": true
+  }
+ },
+ "capital_of_069": {
+  "en0": {
+   "prompt": "The capital of Panama is",
+   "gen": " Panama City, which is",
+   "p_first": 0.7888,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Panamá es",
+   "gen": " Panamá, la capital de Pan",
+   "p_first": 0.5694,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "पनामा की राजधानी",
+   "gen": " पैनामा सिटी म",
+   "p_first": 0.5379,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "पनामा की राजधानी है",
+   "gen": " और दुनिया की सबस",
+   "p_first": 0.3336,
+   "ok": false
+  }
+ },
+ "capital_of_070": {
+  "en0": {
+   "prompt": "The capital of Egypt is",
+   "gen": " Cairo. Cairo is",
+   "p_first": 0.671,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Egipto es",
+   "gen": " El Cairo. La",
+   "p_first": 0.1676,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मिस्र की राजधानी",
+   "gen": " का नाम क्य",
+   "p_first": 0.6342,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मिस्र की राजधानी है",
+   "gen": " क्या?\nजी",
+   "p_first": 0.2205,
+   "ok": false
+  }
+ },
+ "capital_of_071": {
+  "en0": {
+   "prompt": "The capital of Israel is",
+   "gen": " Jerusalem, but the",
+   "p_first": 0.7026,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Israel es",
+   "gen": " Tel Aviv, pero la",
+   "p_first": 0.466,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "इज़राइल की राजधानी",
+   "gen": " जेरुसलेम क",
+   "p_first": 0.1923,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "इज़राइल की राजधानी है",
+   "gen": " जो मिस्र क",
+   "p_first": 0.5217,
+   "ok": false
+  }
+ },
+ "capital_of_072": {
+  "en0": {
+   "prompt": "The capital of the Czech Republic is",
+   "gen": " Prague, which is",
+   "p_first": 0.7093,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de la República Checa es",
+   "gen": " Praga, que",
+   "p_first": 0.5491,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "चेक गणराज्य की राजधानी",
+   "gen": " क्या है?\n",
+   "p_first": 0.4082,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "चेक गणराज्य की राजधानी है",
+   "gen": "?\nउत्तर: प",
+   "p_first": 0.1133,
+   "ok": false
+  }
+ },
+ "capital_of_073": {
+  "en0": {
+   "prompt": "The capital of Slovakia is",
+   "gen": " Bratislava. It",
+   "p_first": 0.7331,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Eslovaquia es",
+   "gen": " Bratislava. La",
+   "p_first": 0.5211,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "स्लोवाकिया की राजधानी",
+   "gen": " ब्राटिस्लावा (Br",
+   "p_first": 0.2584,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "स्लोवाकिया की राजधानी है",
+   "gen": " ब्राटिस्लावा (Br",
+   "p_first": 0.1885,
+   "ok": false
+  }
+ },
+ "capital_of_074": {
+  "en0": {
+   "prompt": "The capital of Slovenia is",
+   "gen": " Ljubljana. L",
+   "p_first": 0.9231,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Eslovenia es",
+   "gen": " Ljubljana.",
+   "p_first": 0.5008,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "स्लोवेनिया की राजधानी",
+   "gen": " लुब्लiana\nस्लोवेन",
+   "p_first": 0.4954,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "स्लोवेनिया की राजधानी है",
+   "gen": " ल्युब्लियना (Lj",
+   "p_first": 0.5223,
+   "ok": false
+  }
+ },
+ "capital_of_075": {
+  "en0": {
+   "prompt": "The capital of Estonia is",
+   "gen": " Tallinn, which is",
+   "p_first": 0.7134,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Estonia es",
+   "gen": " Tallin, que se",
+   "p_first": 0.7602,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "एस्टोनिया की राजधानी",
+   "gen": " और सबसे बड़ी",
+   "p_first": 0.2813,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "एस्टोनिया की राजधानी है",
+   "gen": " और यह देश क",
+   "p_first": 0.6909,
+   "ok": false
+  }
+ },
+ "capital_of_076": {
+  "en0": {
+   "prompt": "The capital of Latvia is",
+   "gen": " Riga, which",
+   "p_first": 0.95,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Letonia es",
+   "gen": " Riga, que",
+   "p_first": 0.5786,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "लातविया की राजधानी",
+   "gen": " रिगा के",
+   "p_first": 0.3727,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लातविया की राजधानी है",
+   "gen": " रiga\nलात",
+   "p_first": 0.172,
+   "ok": false
+  }
+ },
+ "capital_of_077": {
+  "en0": {
+   "prompt": "The capital of Lithuania is",
+   "gen": " Vilnius. It is",
+   "p_first": 0.8091,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Lituania es",
+   "gen": " Vilnius. La",
+   "p_first": 0.2537,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "लिथुआनिया की राजधानी",
+   "gen": " विल्ना (व",
+   "p_first": 0.843,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लिथुआनिया की राजधानी है",
+   "gen": " विल्ना (व",
+   "p_first": 0.6403,
+   "ok": false
+  }
+ },
+ "capital_of_078": {
+  "en0": {
+   "prompt": "The capital of Belarus is",
+   "gen": " Minsk. Belarus",
+   "p_first": 0.8938,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Bielorrusia es",
+   "gen": " Minsk. La",
+   "p_first": 0.7981,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बेलारूस की राजधानी",
+   "gen": " मिन्स्क में",
+   "p_first": 0.8018,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "बेलारूस की राजधानी है",
+   "gen": " और देश का सबस",
+   "p_first": 0.2625,
+   "ok": false
+  }
+ },
+ "capital_of_079": {
+  "en0": {
+   "prompt": "The capital of Georgia is",
+   "gen": " Tbilisi. The",
+   "p_first": 0.3575,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Georgia es",
+   "gen": " Tiflis (T",
+   "p_first": 0.6925,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "जॉर्जिया की राजधानी",
+   "gen": " कौन सी है?\n",
+   "p_first": 0.1517,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "जॉर्जिया की राजधानी है",
+   "gen": " और देश की राज",
+   "p_first": 0.1816,
+   "ok": false
+  }
+ },
+ "capital_of_080": {
+  "en0": {
+   "prompt": "The capital of Armenia is",
+   "gen": " Yerevan. Y",
+   "p_first": 0.8943,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Armenia es",
+   "gen": " Yerevan, que",
+   "p_first": 0.4303,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "आर्मेनिया की राजधानी",
+   "gen": " येरेवान में",
+   "p_first": 0.7092,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "आर्मेनिया की राजधानी है",
+   "gen": " और देश का सबस",
+   "p_first": 0.5629,
+   "ok": false
+  }
+ },
+ "capital_of_081": {
+  "en0": {
+   "prompt": "The capital of Azerbaijan is",
+   "gen": " Baku. Azerbaijan",
+   "p_first": 0.9078,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Azerbaiyán es",
+   "gen": " Baku, que se",
+   "p_first": 0.4667,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "अज़रबैजान की राजधानी",
+   "gen": " बाकू\nअ",
+   "p_first": 0.6402,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "अज़रबैजान की राजधानी है",
+   "gen": " बाकू\nअ",
+   "p_first": 0.2518,
+   "ok": true
+  }
+ },
+ "capital_of_082": {
+  "en0": {
+   "prompt": "The capital of Kazakhstan is",
+   "gen": " Astana, but",
+   "p_first": 0.6303,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Kazajistán es",
+   "gen": " Astana. La ciudad",
+   "p_first": 0.4274,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "कज़ाख़स्तान की राजधानी",
+   "gen": " नूर-सुल्तान",
+   "p_first": 0.1712,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "कज़ाख़स्तान की राजधानी है",
+   "gen": " और दुनिया की",
+   "p_first": 0.3306,
+   "ok": false
+  }
+ },
+ "capital_of_083": {
+  "en0": {
+   "prompt": "The capital of Uzbekistan is",
+   "gen": " Tashkent. T",
+   "p_first": 0.8797,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Uzbekistán es",
+   "gen": " Tashkent",
+   "p_first": 0.8396,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "उज़्बेकिस्तान की राजधानी",
+   "gen": " ताशकंद (T",
+   "p_first": 0.4655,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "उज़्बेकिस्तान की राजधानी है",
+   "gen": " ताशकंद\nउ",
+   "p_first": 0.2508,
+   "ok": true
+  }
+ },
+ "capital_of_084": {
+  "en0": {
+   "prompt": "The capital of Myanmar is",
+   "gen": " Naypyidaw, which is",
+   "p_first": 0.6951,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Birmania es",
+   "gen": " Yangon (Rangoon",
+   "p_first": 0.2129,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "म्यांमार की राजधानी",
+   "gen": " नेपिडॉवा",
+   "p_first": 0.9513,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "म्यांमार की राजधानी है",
+   "gen": " नेगिटिवार म",
+   "p_first": 0.351,
+   "ok": false
+  }
+ },
+ "capital_of_085": {
+  "en0": {
+   "prompt": "The capital of Malaysia is",
+   "gen": " Kuala Lumpur. It is",
+   "p_first": 0.8396,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Malasia es",
+   "gen": " Kuala Lumpur, que se",
+   "p_first": 0.6872,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मलेशिया की राजधानी",
+   "gen": " क्या है?\nकुआल",
+   "p_first": 0.7971,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मलेशिया की राजधानी है",
+   "gen": " कुआलालंपुर। मल",
+   "p_first": 0.4199,
+   "ok": true
+  }
+ },
+ "capital_of_086": {
+  "en0": {
+   "prompt": "The capital of the Philippines is",
+   "gen": " Manila. Manila is",
+   "p_first": 0.5345,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Filipinas es",
+   "gen": " Manila. Manila es",
+   "p_first": 0.799,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "फ़िलीपींस की राजधानी",
+   "gen": " मैनिला म",
+   "p_first": 0.4496,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "फ़िलीपींस की राजधानी है",
+   "gen": " और देश का",
+   "p_first": 0.2238,
+   "ok": false
+  }
+ },
+ "capital_of_087": {
+  "en0": {
+   "prompt": "The capital of Laos is",
+   "gen": " Vientiane, which",
+   "p_first": 0.8989,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Laos es",
+   "gen": " Vientiane, que se",
+   "p_first": 0.8255,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "लाओस की राजधानी",
+   "gen": " वियतनाम के साथ",
+   "p_first": 0.7586,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लाओस की राजधानी है",
+   "gen": " वियतनाम के साथ",
+   "p_first": 0.4295,
+   "ok": false
+  }
+ },
+ "capital_of_088": {
+  "en0": {
+   "prompt": "The capital of North Korea is",
+   "gen": " Pyongyang. It is",
+   "p_first": 0.3098,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Corea del Norte es",
+   "gen": " Pyongyang, que tiene una",
+   "p_first": 0.2747,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "उत्तर कोरिया की राजधानी",
+   "gen": " प्योंगयांग में",
+   "p_first": 0.6695,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "उत्तर कोरिया की राजधानी है",
+   "gen": " प्योंगयांग\nउत",
+   "p_first": 0.5904,
+   "ok": true
+  }
+ },
+ "capital_of_089": {
+  "en0": {
+   "prompt": "The capital of Bhutan is",
+   "gen": " Thimphu. It",
+   "p_first": 0.7843,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Bután es",
+   "gen": " Thimphu",
+   "p_first": 0.4327,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "भूटान की राजधानी",
+   "gen": " थिम्पू में",
+   "p_first": 0.205,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "भूटान की राजधानी है",
+   "gen": " पुनाक\nभूट",
+   "p_first": 0.0908,
+   "ok": false
+  }
+ },
+ "capital_of_090": {
+  "en0": {
+   "prompt": "The capital of Tanzania is",
+   "gen": " Dodoma, but",
+   "p_first": 0.3754,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Tanzania es",
+   "gen": " Dar es Salaam",
+   "p_first": 0.4535,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "तंज़ानिया की राजधानी",
+   "gen": " डोडोमा में",
+   "p_first": 0.1235,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "तंज़ानिया की राजधानी है",
+   "gen": " और देश का सबस",
+   "p_first": 0.1899,
+   "ok": false
+  }
+ },
+ "capital_of_091": {
+  "en0": {
+   "prompt": "The capital of Uganda is",
+   "gen": " Kampala. Uganda is",
+   "p_first": 0.5414,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Uganda es",
+   "gen": " Kampala. La ciudad",
+   "p_first": 0.366,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "युगांडा की राजधानी",
+   "gen": " क्या है?\nय",
+   "p_first": 0.6232,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "युगांडा की राजधानी है",
+   "gen": " किसी भी द",
+   "p_first": 0.1873,
+   "ok": false
+  }
+ },
+ "capital_of_092": {
+  "en0": {
+   "prompt": "The capital of Zimbabwe is",
+   "gen": " Harare. The",
+   "p_first": 0.9012,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Zimbabue es",
+   "gen": " Harare. La",
+   "p_first": 0.8722,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ज़िम्बाब्वे की राजधानी",
+   "gen": " हैरिसन\n",
+   "p_first": 0.6718,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ज़िम्बाब्वे की राजधानी है",
+   "gen": " हारARE\nज",
+   "p_first": 0.1798,
+   "ok": false
+  }
+ },
+ "capital_of_093": {
+  "en0": {
+   "prompt": "The capital of Zambia is",
+   "gen": " Lusaka. L",
+   "p_first": 0.8629,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Zambia es",
+   "gen": " Lusaka, que",
+   "p_first": 0.5127,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ज़ाम्बिया की राजधानी",
+   "gen": " लुसाका में",
+   "p_first": 0.8274,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "ज़ाम्बिया की राजधानी है",
+   "gen": " लुइसा (",
+   "p_first": 0.6882,
+   "ok": false
+  }
+ },
+ "capital_of_094": {
+  "en0": {
+   "prompt": "The capital of Angola is",
+   "gen": " Luanda. Lu",
+   "p_first": 0.6735,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Angola es",
+   "gen": " Luanda. Lu",
+   "p_first": 0.5369,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "अंगोला की राजधानी",
+   "gen": " लुइसा क",
+   "p_first": 0.5,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अंगोला की राजधानी है",
+   "gen": " लुइसा (",
+   "p_first": 0.7564,
+   "ok": false
+  }
+ },
+ "capital_of_095": {
+  "en0": {
+   "prompt": "The capital of Senegal is",
+   "gen": " Dakar. Dakar",
+   "p_first": 0.6772,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Senegal es",
+   "gen": " Dakar. La ciudad",
+   "p_first": 0.4409,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सेनेगल की राजधानी",
+   "gen": " दाकार\nस",
+   "p_first": 0.2788,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सेनेगल की राजधानी है",
+   "gen": " और दुनिया",
+   "p_first": 0.1097,
+   "ok": false
+  }
+ },
+ "capital_of_096": {
+  "en0": {
+   "prompt": "The capital of Sudan is",
+   "gen": " Khartoum. Kh",
+   "p_first": 0.8061,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Sudán es",
+   "gen": " Juba. La ciudad",
+   "p_first": 0.1291,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "सूडान की राजधानी",
+   "gen": " क्या है?\nस",
+   "p_first": 0.4185,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सूडान की राजधानी है",
+   "gen": " खार्तूम\nस",
+   "p_first": 0.1336,
+   "ok": true
+  }
+ },
+ "capital_of_097": {
+  "en0": {
+   "prompt": "The capital of Madagascar is",
+   "gen": " Antananarivo. The",
+   "p_first": 0.7406,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Madagascar es",
+   "gen": " Antananarivo. La",
+   "p_first": 0.4779,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मेडागास्कर की राजधानी",
+   "gen": "\nमेडागास्कर की र",
+   "p_first": 0.1171,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मेडागास्कर की राजधानी है",
+   "gen": "?\nमेडागास्कर की र",
+   "p_first": 0.1397,
+   "ok": false
+  }
+ },
+ "capital_of_098": {
+  "en0": {
+   "prompt": "The capital of Mozambique is",
+   "gen": " Maputo. Map",
+   "p_first": 0.627,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Mozambique es",
+   "gen": " la ciudad de Map",
+   "p_first": 0.2977,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "मोज़ाम्बिक की राजधानी",
+   "gen": " म्बाबने म",
+   "p_first": 0.5339,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मोज़ाम्बिक की राजधानी है",
+   "gen": " लूअंडा (",
+   "p_first": 0.2198,
+   "ok": false
+  }
+ },
+ "capital_of_099": {
+  "en0": {
+   "prompt": "The capital of Yemen is",
+   "gen": " Sana'a. S",
+   "p_first": 0.8753,
+   "ok": false
+  },
+  "es0": {
+   "prompt": "La capital de Yemen es",
+   "gen": " Sanaa.",
+   "p_first": 0.6478,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "यमन की राजधानी",
+   "gen": " मोगादिश",
+   "p_first": 0.2954,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "यमन की राजधानी है",
+   "gen": " मोगादिश",
+   "p_first": 0.2267,
+   "ok": false
+  }
+ },
+ "capital_of_100": {
+  "en0": {
+   "prompt": "The capital of Oman is",
+   "gen": " Muscat. Mus",
+   "p_first": 0.5588,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Omán es",
+   "gen": " Mascate (Masc",
+   "p_first": 0.3397,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ओमान की राजधानी",
+   "gen": " मस्कत के प",
+   "p_first": 0.75,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ओमान की राजधानी है",
+   "gen": " मस्कत। ओम",
+   "p_first": 0.6156,
+   "ok": false
+  }
+ },
+ "capital_of_101": {
+  "en0": {
+   "prompt": "The capital of Qatar is",
+   "gen": " Doha. Qatar",
+   "p_first": 0.759,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Catar es",
+   "gen": " Doha. D",
+   "p_first": 0.8206,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "क़तर की राजधानी",
+   "gen": " अबू धाबी",
+   "p_first": 0.5624,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "क़तर की राजधानी है",
+   "gen": " दोहा (D",
+   "p_first": 0.1933,
+   "ok": true
+  }
+ },
+ "capital_of_102": {
+  "en0": {
+   "prompt": "The capital of the Netherlands is",
+   "gen": " Amsterdam. The Netherlands",
+   "p_first": 0.7486,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de los Países Bajos es",
+   "gen": " Ámsterdam. La",
+   "p_first": 0.608,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "नीदरलैंड की राजधानी",
+   "gen": " अमस्टरडम में",
+   "p_first": 0.1422,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "नीदरलैंड की राजधानी है",
+   "gen": " अमस्टरडम\nन",
+   "p_first": 0.1387,
+   "ok": false
+  }
+ },
+ "capital_of_103": {
+  "en0": {
+   "prompt": "The capital of the United Kingdom is",
+   "gen": " London. The",
+   "p_first": 0.6024,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de el Reino Unido es",
+   "gen": " Londres. Londres",
+   "p_first": 0.6225,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "यूनाइटेड किंगडम की राजधानी",
+   "gen": " लंदन में",
+   "p_first": 0.649,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "यूनाइटेड किंगडम की राजधानी है",
+   "gen": " लंदन, ज",
+   "p_first": 0.7267,
+   "ok": true
+  }
+ },
+ "capital_of_104": {
+  "en0": {
+   "prompt": "The capital of Albania is",
+   "gen": " Tirana. It is",
+   "p_first": 0.973,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Albania es",
+   "gen": " Tirana, que se",
+   "p_first": 0.6943,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "अल्बानिया की राजधानी",
+   "gen": " तिराना (T",
+   "p_first": 0.4971,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "अल्बानिया की राजधानी है",
+   "gen": " तिराना। यह शहर",
+   "p_first": 0.3853,
+   "ok": true
+  }
+ },
+ "capital_of_105": {
+  "en0": {
+   "prompt": "The capital of Malta is",
+   "gen": " Valletta, which",
+   "p_first": 0.8359,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Malta es",
+   "gen": " Valletta, que",
+   "p_first": 0.3066,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "माल्टा की राजधानी",
+   "gen": " विक्टोरिया",
+   "p_first": 0.5428,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "माल्टा की राजधानी है",
+   "gen": " विक्टोरिया",
+   "p_first": 0.2756,
+   "ok": false
+  }
+ },
+ "capital_of_106": {
+  "en0": {
+   "prompt": "The capital of Cyprus is",
+   "gen": " Nicosia (L",
+   "p_first": 0.8541,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Chipre es",
+   "gen": " Nicosia (N",
+   "p_first": 0.6059,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "साइप्रस की राजधानी",
+   "gen": " निकोसिया में",
+   "p_first": 0.8904,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "साइप्रस की राजधानी है",
+   "gen": " निकोसिया (N",
+   "p_first": 0.6601,
+   "ok": true
+  }
+ },
+ "capital_of_107": {
+  "en0": {
+   "prompt": "The capital of Moldova is",
+   "gen": " Chișinău.",
+   "p_first": 0.7068,
+   "ok": false
+  },
+  "es0": {
+   "prompt": "La capital de Moldavia es",
+   "gen": " Chisinau.",
+   "p_first": 0.3073,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "मोल्दोवा की राजधानी",
+   "gen": " क्या है?\nम",
+   "p_first": 0.6085,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मोल्दोवा की राजधानी है",
+   "gen": " किशिनेव\nम",
+   "p_first": 0.1962,
+   "ok": false
+  }
+ },
+ "capital_of_108": {
+  "en0": {
+   "prompt": "The capital of Honduras is",
+   "gen": " Tegucigalpa. Honduras",
+   "p_first": 0.7464,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Honduras es",
+   "gen": " Tegucigalpa. La",
+   "p_first": 0.7102,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "होंडुरास की राजधानी",
+   "gen": " टेगुसिगलपा क",
+   "p_first": 0.5929,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "होंडुरास की राजधानी है",
+   "gen": " टेगुपनाटेक\nहों",
+   "p_first": 0.3542,
+   "ok": false
+  }
+ },
+ "capital_of_109": {
+  "en0": {
+   "prompt": "The capital of Nicaragua is",
+   "gen": " Managua. It",
+   "p_first": 0.6609,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Nicaragua es",
+   "gen": " Managua. La",
+   "p_first": 0.7075,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "निकारागुआ की राजधानी",
+   "gen": " मैनागुआ\nम",
+   "p_first": 0.5484,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "निकारागुआ की राजधानी है",
+   "gen": " मैनागुआ\nन",
+   "p_first": 0.1905,
+   "ok": false
+  }
+ },
+ "capital_of_110": {
+  "en0": {
+   "prompt": "The capital of the Dominican Republic is",
+   "gen": " Santo Domingo. The country",
+   "p_first": 0.3554,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de la República Dominicana es",
+   "gen": " Santo Domingo. La ciudad",
+   "p_first": 0.5175,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "डोमिनिकन गणराज्य की राजधानी",
+   "gen": " क्या है?\nसैंटो ड",
+   "p_first": 0.2723,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "डोमिनिकन गणराज्य की राजधानी है",
+   "gen": " और दुनिया की सबसे बड़ी",
+   "p_first": 0.3117,
+   "ok": false
+  }
+ },
+ "capital_of_111": {
+  "en0": {
+   "prompt": "The capital of Haiti is",
+   "gen": " Port-au-Prince. However",
+   "p_first": 0.587,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Haití es",
+   "gen": " la ciudad de Port-au-Prince,",
+   "p_first": 0.1957,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "हैती की राजधानी",
+   "gen": " पोर्ट-ऑ-प्रेंस",
+   "p_first": 0.8667,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "हैती की राजधानी है",
+   "gen": " पोर्ट-ऑ-प्रेंस",
+   "p_first": 0.2495,
+   "ok": false
+  }
+ },
+ "capital_of_112": {
+  "en0": {
+   "prompt": "The capital of Rwanda is",
+   "gen": " Kigali. It",
+   "p_first": 0.8818,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Ruanda es",
+   "gen": " Kigali. K",
+   "p_first": 0.6026,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "रवांडा की राजधानी",
+   "gen": " क्या है?\nर",
+   "p_first": 0.7759,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "रवांडा की राजधानी है",
+   "gen": " क्या?\nक्य",
+   "p_first": 0.1891,
+   "ok": false
+  }
+ },
+ "capital_of_113": {
+  "en0": {
+   "prompt": "The capital of Somalia is",
+   "gen": " Mogadishu. The country",
+   "p_first": 0.5553,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Somalia es",
+   "gen": " Mogadiscio. La ciudad",
+   "p_first": 0.7506,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सोमालिया की राजधानी",
+   "gen": " मोगादिशु में",
+   "p_first": 0.8617,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "सोमालिया की राजधानी है",
+   "gen": " मोगादिशु। यह",
+   "p_first": 0.6587,
+   "ok": true
+  }
+ },
+ "capital_of_114": {
+  "en0": {
+   "prompt": "The capital of Botswana is",
+   "gen": " Gaborone. G",
+   "p_first": 0.6382,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Botsuana es",
+   "gen": " Gaborone. G",
+   "p_first": 0.3506,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बोत्सवाना की राजधानी",
+   "gen": " गाबोरोने में",
+   "p_first": 0.3177,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बोत्सवाना की राजधानी है",
+   "gen": " जो देश के उत",
+   "p_first": 0.1883,
+   "ok": false
+  }
+ },
+ "capital_of_115": {
+  "en0": {
+   "prompt": "The capital of Namibia is",
+   "gen": " Windhoek. The",
+   "p_first": 0.8488,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Namibia es",
+   "gen": " Windhoek. La",
+   "p_first": 0.62,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "नामीबिया की राजधानी",
+   "gen": " विंडहोक\nन",
+   "p_first": 0.7914,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "नामीबिया की राजधानी है",
+   "gen": " विंडहोक\nन",
+   "p_first": 0.4259,
+   "ok": true
+  }
+ },
+ "capital_of_116": {
+  "en0": {
+   "prompt": "The capital of Cameroon is",
+   "gen": " Yaoundé. Cameroon",
+   "p_first": 0.5753,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Camerún es",
+   "gen": " Abuya. La ciudad",
+   "p_first": 0.2059,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "कैमरून की राजधानी",
+   "gen": " कैमरून के",
+   "p_first": 0.1861,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "कैमरून की राजधानी है",
+   "gen": "?\nकैमरून क",
+   "p_first": 0.1094,
+   "ok": false
+  }
+ },
+ "capital_of_117": {
+  "en0": {
+   "prompt": "The capital of Bahrain is",
+   "gen": " Manama. It",
+   "p_first": 0.8727,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Baréin es",
+   "gen": " Manama. La",
+   "p_first": 0.587,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बहरीन की राजधानी",
+   "gen": " मोहम्मद",
+   "p_first": 0.317,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बहरीन की राजधानी है",
+   "gen": " माना और यह",
+   "p_first": 0.343,
+   "ok": false
+  }
+ },
+ "capital_of_118": {
+  "en0": {
+   "prompt": "The capital of the Maldives is",
+   "gen": " Malé. The",
+   "p_first": 0.6524,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de las Maldivas es",
+   "gen": " Malé, que",
+   "p_first": 0.3949,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मालदीव की राजधानी",
+   "gen": " माले के",
+   "p_first": 0.2376,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "मालदीव की राजधानी है",
+   "gen": " और देश का",
+   "p_first": 0.1497,
+   "ok": false
+  }
+ },
+ "capital_of_119": {
+  "en0": {
+   "prompt": "The capital of Fiji is",
+   "gen": " Suva. Fiji",
+   "p_first": 0.7676,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Fiyi es",
+   "gen": " Nadi, pero",
+   "p_first": 0.2189,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "फ़िजी की राजधानी",
+   "gen": " नौमा (",
+   "p_first": 0.3869,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "फ़िजी की राजधानी है",
+   "gen": " नोटो\nफ",
+   "p_first": 0.1355,
+   "ok": false
+  }
+ },
+ "capital_of_120": {
+  "en0": {
+   "prompt": "The capital of Tajikistan is",
+   "gen": " Dushanbe. It",
+   "p_first": 0.8988,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Tayikistán es",
+   "gen": " Dushanbe. La",
+   "p_first": 0.8387,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "ताजिकिस्तान की राजधानी",
+   "gen": " दुशान्बे के",
+   "p_first": 0.3507,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ताजिकिस्तान की राजधानी है",
+   "gen": " और दुनिया की",
+   "p_first": 0.1856,
+   "ok": false
+  }
+ },
+ "capital_of_121": {
+  "en0": {
+   "prompt": "The capital of Kyrgyzstan is",
+   "gen": " Bishkek. The",
+   "p_first": 0.8627,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Kirguistán es",
+   "gen": " Bishkek. La",
+   "p_first": 0.6699,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "किर्गिस्तान की राजधानी",
+   "gen": " बिश्केक में",
+   "p_first": 0.7198,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "किर्गिस्तान की राजधानी है",
+   "gen": " बिश्केक\nक",
+   "p_first": 0.339,
+   "ok": true
+  }
+ },
+ "capital_of_122": {
+  "en0": {
+   "prompt": "The capital of Turkmenistan is",
+   "gen": " Ashgabat. It",
+   "p_first": 0.8721,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Turkmenistán es",
+   "gen": " Ashgabat.",
+   "p_first": 0.6297,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "तुर्कमेनिस्तान की राजधानी",
+   "gen": "\nअस्थायी र",
+   "p_first": 0.1513,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "तुर्कमेनिस्तान की राजधानी है",
+   "gen": " और दुनिया की",
+   "p_first": 0.3722,
+   "ok": false
+  }
+ },
+ "capital_of_123": {
+  "en0": {
+   "prompt": "The capital of North Macedonia is",
+   "gen": " Skopje. The",
+   "p_first": 0.3479,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Macedonia del Norte es",
+   "gen": " Skopje. La",
+   "p_first": 0.4934,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "उत्तर मैसेडोनिया की राजधानी",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.2765,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "उत्तर मैसेडोनिया की राजधानी है",
+   "gen": " स्कोपिये (स",
+   "p_first": 0.5608,
+   "ok": false
+  }
+ },
+ "capital_of_124": {
+  "en0": {
+   "prompt": "The capital of Montenegro is",
+   "gen": " Podgorica. It",
+   "p_first": 0.6329,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La capital de Montenegro es",
+   "gen": " la ciudad de Podgor",
+   "p_first": 0.238,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "मोंटेनेग्रो की राजधानी",
+   "gen": " पुडोस्टा (Podgor",
+   "p_first": 0.5168,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मोंटेनेग्रो की राजधानी है",
+   "gen": " पुडोस्टा (Podgor",
+   "p_first": 0.4127,
+   "ok": false
+  }
+ },
+ "landmark_city_000": {
+  "en0": {
+   "prompt": "The Eiffel Tower is located in the city of",
+   "gen": " Paris, France",
+   "p_first": 0.6176,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Torre Eiffel se encuentra en la ciudad de",
+   "gen": " París, Franc",
+   "p_first": 0.1231,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "एफ़िल टॉवर इस शहर में स्थित है:",
+   "gen": " \nएफ़िल",
+   "p_first": 0.1993,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "एफ़िल टॉवर शहर में स्थित है, जिसका नाम",
+   "gen": " इसे देने",
+   "p_first": 0.0942,
+   "ok": false
+  }
+ },
+ "landmark_city_001": {
+  "en0": {
+   "prompt": "The Colosseum is located in the city of",
+   "gen": " Rome, Italy.",
+   "p_first": 0.8912,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Coliseo se encuentra en la ciudad de",
+   "gen": " San Juan, Puerto",
+   "p_first": 0.0454,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "कोलोसियम इस शहर में स्थित है:",
+   "gen": " \nकोलोस",
+   "p_first": 0.2498,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "कोलोसियम शहर में स्थित है, जिसका नाम",
+   "gen": " रोमन स",
+   "p_first": 0.1146,
+   "ok": true
+  }
+ },
+ "landmark_city_002": {
+  "en0": {
+   "prompt": "Big Ben is located in the city of",
+   "gen": " London, England",
+   "p_first": 0.3626,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Big Ben se encuentra en la ciudad de",
+   "gen": " Londres, Reino",
+   "p_first": 0.6097,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बिग बेन इस शहर में स्थित है:",
+   "gen": " \nबिग बेन",
+   "p_first": 0.1438,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बिग बेन शहर में स्थित है, जिसका नाम",
+   "gen": " स्थानीय ल",
+   "p_first": 0.0657,
+   "ok": false
+  }
+ },
+ "landmark_city_003": {
+  "en0": {
+   "prompt": "The Statue of Liberty is located in the city of",
+   "gen": " New York, but",
+   "p_first": 0.6542,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Estatua de la Libertad se encuentra en la ciudad de",
+   "gen": " Nueva York, Estados",
+   "p_first": 0.9095,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "स्टैच्यू ऑफ़ लिबर्टी इस शहर में स्थित है:",
+   "gen": " न्यूयॉर्क\nस",
+   "p_first": 0.3366,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "स्टैच्यू ऑफ़ लिबर्टी शहर में स्थित है, जिसका नाम",
+   "gen": " इसे समर्पित करने व",
+   "p_first": 0.1699,
+   "ok": false
+  }
+ },
+ "landmark_city_004": {
+  "en0": {
+   "prompt": "The Taj Mahal is located in the city of",
+   "gen": " Agra, in",
+   "p_first": 0.98,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Taj Mahal se encuentra en la ciudad de",
+   "gen": " Agra, en",
+   "p_first": 0.944,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ताज महल इस शहर में स्थित है:",
+   "gen": " \na) दिल",
+   "p_first": 0.1888,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ताज महल शहर में स्थित है, जिसका नाम",
+   "gen": " इस महल के",
+   "p_first": 0.0929,
+   "ok": false
+  }
+ },
+ "landmark_city_005": {
+  "en0": {
+   "prompt": "The Sagrada Familia is located in the city of",
+   "gen": " Barcelona, Spain.",
+   "p_first": 0.9123,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Sagrada Familia se encuentra en la ciudad de",
+   "gen": " Barcelona, España.",
+   "p_first": 0.9069,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सग्रादा फ़ैमिलिया इस शहर में स्थित है:",
+   "gen": " स्थानीय संस्कृत",
+   "p_first": 0.1686,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सग्रादा फ़ैमिलिया शहर में स्थित है, जिसका नाम",
+   "gen": " स्थानीय लोगों द",
+   "p_first": 0.1134,
+   "ok": false
+  }
+ },
+ "landmark_city_006": {
+  "en0": {
+   "prompt": "The Brandenburg Gate is located in the city of",
+   "gen": " Berlin, Germany",
+   "p_first": 0.888,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Puerta de Brandeburgo se encuentra en la ciudad de",
+   "gen": " Berlín, Ale",
+   "p_first": 0.9228,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ब्रांडेनबर्ग गेट इस शहर में स्थित है:",
+   "gen": " \nब्रांड",
+   "p_first": 0.2091,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ब्रांडेनबर्ग गेट शहर में स्थित है, जिसका नाम",
+   "gen": " जर्मनी के",
+   "p_first": 0.0836,
+   "ok": false
+  }
+ },
+ "landmark_city_007": {
+  "en0": {
+   "prompt": "The Acropolis is located in the city of",
+   "gen": " Athens, Greece.",
+   "p_first": 0.8207,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Acrópolis se encuentra en la ciudad de",
+   "gen": " Atenas,",
+   "p_first": 0.4082,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "एक्रोपोलिस इस शहर में स्थित है:",
+   "gen": " \nA) मुंब",
+   "p_first": 0.1185,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "एक्रोपोलिस शहर में स्थित है, जिसका नाम",
+   "gen": " ग्रीक शब्द \"",
+   "p_first": 0.1016,
+   "ok": false
+  }
+ },
+ "landmark_city_008": {
+  "en0": {
+   "prompt": "The Red Fort is located in the city of",
+   "gen": " Delhi, India.",
+   "p_first": 0.4812,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Fuerte Rojo se encuentra en la ciudad de",
+   "gen": " San Juan, Puerto",
+   "p_first": 0.0631,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "लाल क़िला इस शहर में स्थित है:",
+   "gen": " \na) दिल्ल",
+   "p_first": 0.1557,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लाल क़िला शहर में स्थित है, जिसका नाम",
+   "gen": " सिखों के र",
+   "p_first": 0.0753,
+   "ok": false
+  }
+ },
+ "landmark_city_009": {
+  "en0": {
+   "prompt": "The Sydney Opera House is located in the city of",
+   "gen": " Sydney, Australia.",
+   "p_first": 0.9766,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Ópera de Sídney se encuentra en la ciudad de",
+   "gen": " Sídney, Australia",
+   "p_first": 0.7849,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सिडनी ओपेरा हाउस इस शहर में स्थित है:",
+   "gen": " \nसिडनी\n",
+   "p_first": 0.2412,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सिडनी ओपेरा हाउस शहर में स्थित है, जिसका नाम",
+   "gen": " ऑस्ट्रेलिय",
+   "p_first": 0.4208,
+   "ok": false
+  }
+ },
+ "landmark_city_010": {
+  "en0": {
+   "prompt": "The Burj Khalifa is located in the city of",
+   "gen": " Dubai, United Arab",
+   "p_first": 0.9589,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Burj Khalifa se encuentra en la ciudad de",
+   "gen": " Dubai, Emir",
+   "p_first": 0.4974,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "बुर्ज ख़लीफ़ा इस शहर में स्थित है:",
+   "gen": " दुबई\nब",
+   "p_first": 0.2962,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "बुर्ज ख़लीफ़ा शहर में स्थित है, जिसका नाम",
+   "gen": " इस भवन के",
+   "p_first": 0.2091,
+   "ok": false
+  }
+ },
+ "landmark_city_011": {
+  "en0": {
+   "prompt": "The Kremlin is located in the city of",
+   "gen": " Moscow, Russia.",
+   "p_first": 0.9352,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Kremlin se encuentra en la ciudad de",
+   "gen": " San Petersburgo,",
+   "p_first": 0.7591,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "क्रेमलिन इस शहर में स्थित है:",
+   "gen": " मॉस्को\nक",
+   "p_first": 0.2156,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "क्रेमलिन शहर में स्थित है, जिसका नाम",
+   "gen": " सोवियत संघ क",
+   "p_first": 0.2476,
+   "ok": false
+  }
+ },
+ "landmark_city_012": {
+  "en0": {
+   "prompt": "The Louvre is located in the city of",
+   "gen": " Paris, France",
+   "p_first": 0.916,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Louvre se encuentra en la ciudad de",
+   "gen": " París, Franc",
+   "p_first": 0.533,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "लूव्र इस शहर में स्थित है:",
+   "gen": " \nA) मुं",
+   "p_first": 0.2268,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लूव्र शहर में स्थित है, जिसका नाम",
+   "gen": " प्राचीन र",
+   "p_first": 0.1016,
+   "ok": false
+  }
+ },
+ "landmark_city_013": {
+  "en0": {
+   "prompt": "The Leaning Tower is located in the city of",
+   "gen": " Pisa, Italy",
+   "p_first": 0.7188,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Torre inclinada se encuentra en la ciudad de",
+   "gen": " San Juan, Puerto",
+   "p_first": 0.0441,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "पीसा की मीनार इस शहर में स्थित है:",
+   "gen": " \nपीसा क",
+   "p_first": 0.1499,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "पीसा की मीनार शहर में स्थित है, जिसका नाम",
+   "gen": " पीसा के",
+   "p_first": 0.1511,
+   "ok": true
+  }
+ },
+ "landmark_city_014": {
+  "en0": {
+   "prompt": "The Charminar is located in the city of",
+   "gen": " Hyderabad, in the",
+   "p_first": 0.9721,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Charminar se encuentra en la ciudad de",
+   "gen": " Granada, España",
+   "p_first": 0.7978,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "चारमीनार इस शहर में स्थित है:",
+   "gen": " \na) मुंबई",
+   "p_first": 0.1944,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "चारमीनार शहर में स्थित है, जिसका नाम",
+   "gen": " स्थानीय भाषा",
+   "p_first": 0.0779,
+   "ok": false
+  }
+ },
+ "landmark_city_015": {
+  "en0": {
+   "prompt": "The Hagia Sophia is located in the city of",
+   "gen": " Istanbul, Turkey.",
+   "p_first": 0.8989,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Santa Sofía se encuentra en la ciudad de",
+   "gen": " Madrid, España. Es",
+   "p_first": 0.0826,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "हागिया सोफ़िया इस शहर में स्थित है:",
+   "gen": " \n1. बीजिंग",
+   "p_first": 0.4274,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "हागिया सोफ़िया शहर में स्थित है, जिसका नाम",
+   "gen": " सेंट सोफिया",
+   "p_first": 0.2036,
+   "ok": false
+  }
+ },
+ "landmark_city_016": {
+  "en0": {
+   "prompt": "The Alhambra is located in the city of",
+   "gen": " Granada, Spain",
+   "p_first": 0.9876,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Alhambra se encuentra en la ciudad de",
+   "gen": " Granada, España",
+   "p_first": 0.9674,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "अलहम्ब्रा इस शहर में स्थित है:",
+   "gen": " \nअलहम्ब्रा",
+   "p_first": 0.2192,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अलहम्ब्रा शहर में स्थित है, जिसका नाम",
+   "gen": " अरबी में \"अ",
+   "p_first": 0.1333,
+   "ok": false
+  }
+ },
+ "landmark_city_017": {
+  "en0": {
+   "prompt": "The Prado Museum is located in the city of",
+   "gen": " Madrid, Spain.",
+   "p_first": 0.9782,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Museo del Prado se encuentra en la ciudad de",
+   "gen": " Madrid, España.",
+   "p_first": 0.9739,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "प्राडो संग्रहालय इस शहर में स्थित है:",
+   "gen": " \nप्राडो संग",
+   "p_first": 0.3033,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "प्राडो संग्रहालय शहर में स्थित है, जिसका नाम",
+   "gen": " प्राडो संग्रह",
+   "p_first": 0.1055,
+   "ok": false
+  }
+ },
+ "landmark_city_018": {
+  "en0": {
+   "prompt": "Christ the Redeemer is located in the city of",
+   "gen": " Rio de Janeiro, Brazil",
+   "p_first": 0.9722,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Cristo Redentor se encuentra en la ciudad de",
+   "gen": " Río de Janeiro, Brasil",
+   "p_first": 0.569,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "क्राइस्ट द रिडीमर इस शहर में स्थित है:",
+   "gen": " क्राइस्ट द रिडीमर, ",
+   "p_first": 0.1541,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "क्राइस्ट द रिडीमर शहर में स्थित है, जिसका नाम",
+   "gen": " क्राइस्ट द रिडीमर के",
+   "p_first": 0.0886,
+   "ok": false
+  }
+ },
+ "landmark_city_019": {
+  "en0": {
+   "prompt": "The Space Needle is located in the city of",
+   "gen": " Seattle, Washington",
+   "p_first": 0.9672,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Space Needle se encuentra en la ciudad de",
+   "gen": " Seattle, Washington",
+   "p_first": 0.9708,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "स्पेस नीडल इस शहर में स्थित है:",
+   "gen": " \nस्पेस नीड",
+   "p_first": 0.2548,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "स्पेस नीडल शहर में स्थित है, जिसका नाम",
+   "gen": " स्पेस नीडल",
+   "p_first": 0.1482,
+   "ok": false
+  }
+ },
+ "landmark_city_020": {
+  "en0": {
+   "prompt": "The Golden Gate Bridge is located in the city of",
+   "gen": " San Francisco, California",
+   "p_first": 0.8782,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Puente Golden Gate se encuentra en la ciudad de",
+   "gen": " San Francisco, California",
+   "p_first": 0.4067,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "गोल्डन गेट ब्रिज इस शहर में स्थित है:",
+   "gen": " \nसैन फ्रांसिस्को, कैल",
+   "p_first": 0.2051,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "गोल्डन गेट ब्रिज शहर में स्थित है, जिसका नाम",
+   "gen": " स्थानीय लोगों द्वारा द",
+   "p_first": 0.1425,
+   "ok": false
+  }
+ },
+ "landmark_city_021": {
+  "en0": {
+   "prompt": "The CN Tower is located in the city of",
+   "gen": " Toronto, Ontario",
+   "p_first": 0.9767,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Torre CN se encuentra en la ciudad de",
+   "gen": " San Juan,",
+   "p_first": 0.0473,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "सीएन टावर इस शहर में स्थित है:",
+   "gen": " \nसीएन टावर",
+   "p_first": 0.2583,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सीएन टावर शहर में स्थित है, जिसका नाम",
+   "gen": " सीएनआरसी",
+   "p_first": 0.1228,
+   "ok": false
+  }
+ },
+ "landmark_city_022": {
+  "en0": {
+   "prompt": "The Petronas Towers is located in the city of",
+   "gen": " Kuala Lumpur, Malaysia.",
+   "p_first": 0.9072,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Las Torres Petronas se encuentra en la ciudad de",
+   "gen": " Kuala Lumpur, Malasia",
+   "p_first": 0.8213,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "पेट्रोनास टावर्स इस शहर में स्थित है:",
+   "gen": " \nपेट्रोनास टावर्स",
+   "p_first": 0.1935,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "पेट्रोनास टावर्स शहर में स्थित है, जिसका नाम",
+   "gen": " पेट्रोनास के मुख",
+   "p_first": 0.1571,
+   "ok": false
+  }
+ },
+ "landmark_city_023": {
+  "en0": {
+   "prompt": "The Forbidden City is located in the city of",
+   "gen": " Beijing, China.",
+   "p_first": 0.9188,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Ciudad Prohibida se encuentra en la ciudad de",
+   "gen": " Varanasi, en",
+   "p_first": 0.0514,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "निषिद्ध नगर इस शहर में स्थित है:",
+   "gen": " क्या यह एक स",
+   "p_first": 0.0977,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "निषिद्ध नगर शहर में स्थित है, जिसका नाम",
+   "gen": " संस्कृत में",
+   "p_first": 0.0912,
+   "ok": false
+  }
+ },
+ "landmark_city_024": {
+  "en0": {
+   "prompt": "The Atomium is located in the city of",
+   "gen": " Brussels, Belgium.",
+   "p_first": 0.9459,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Atomium se encuentra en la ciudad de",
+   "gen": " Bruselas, B",
+   "p_first": 0.8077,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "एटोमियम इस शहर में स्थित है:",
+   "gen": " \nएटोमियम क",
+   "p_first": 0.0959,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "एटोमियम शहर में स्थित है, जिसका नाम",
+   "gen": " संस्कृत शब्द",
+   "p_first": 0.0814,
+   "ok": false
+  }
+ },
+ "landmark_city_025": {
+  "en0": {
+   "prompt": "The Hermitage Museum is located in the city of",
+   "gen": " St. Petersburg,",
+   "p_first": 0.9033,
+   "ok": false
+  },
+  "es0": {
+   "prompt": "El Museo del Hermitage se encuentra en la ciudad de",
+   "gen": " San Petersburgo, Rus",
+   "p_first": 0.9793,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "हर्मिटेज संग्रहालय इस शहर में स्थित है:",
+   "gen": " \nहर्मिटेज संग्रहालय,",
+   "p_first": 0.1659,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "हर्मिटेज संग्रहालय शहर में स्थित है, जिसका नाम",
+   "gen": " संग्रहालय के संस्थापक",
+   "p_first": 0.0911,
+   "ok": false
+  }
+ },
+ "landmark_city_026": {
+  "en0": {
+   "prompt": "The Charles Bridge is located in the city of",
+   "gen": " Prague, Czech Republic",
+   "p_first": 0.9343,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Puente de Carlos se encuentra en la ciudad de",
+   "gen": " San Juan, Puerto",
+   "p_first": 0.0526,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "चार्ल्स ब्रिज इस शहर में स्थित है:",
+   "gen": " \na) लंद",
+   "p_first": 0.19,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "चार्ल्स ब्रिज शहर में स्थित है, जिसका नाम",
+   "gen": " उनके पिता",
+   "p_first": 0.1224,
+   "ok": false
+  }
+ },
+ "landmark_city_027": {
+  "en0": {
+   "prompt": "Edinburgh Castle is located in the city of",
+   "gen": " Edinburgh, Scotland.",
+   "p_first": 0.9879,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Castillo de Edimburgo se encuentra en la ciudad de",
+   "gen": " Edimburgo, Esc",
+   "p_first": 0.9727,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "एडिनबरा कैसल इस शहर में स्थित है:",
+   "gen": " \nएडिनबरा \n",
+   "p_first": 0.2941,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "एडिनबरा कैसल शहर में स्थित है, जिसका नाम",
+   "gen": " एडिनबरा कैसल स",
+   "p_first": 0.3475,
+   "ok": true
+  }
+ },
+ "landmark_city_028": {
+  "en0": {
+   "prompt": "The Trevi Fountain is located in the city of",
+   "gen": " Rome, Italy.",
+   "p_first": 0.9668,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Fontana de Trevi se encuentra en la ciudad de",
+   "gen": " Roma, Italia.",
+   "p_first": 0.9404,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ट्रेवी फ़ाउंटेन इस शहर में स्थित है:",
+   "gen": " \nA) म",
+   "p_first": 0.1887,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ट्रेवी फ़ाउंटेन शहर में स्थित है, जिसका नाम",
+   "gen": " ट्रेवी",
+   "p_first": 0.1611,
+   "ok": false
+  }
+ },
+ "landmark_city_029": {
+  "en0": {
+   "prompt": "The Rialto Bridge is located in the city of",
+   "gen": " Venice, Italy.",
+   "p_first": 0.9459,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Puente de Rialto se encuentra en la ciudad de",
+   "gen": " Venecia, Italia",
+   "p_first": 0.6976,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "रियाल्टो पुल इस शहर में स्थित है:",
+   "gen": " \nसंयुक्त",
+   "p_first": 0.2716,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "रियाल्टो पुल शहर में स्थित है, जिसका नाम",
+   "gen": " स्पेनिश स",
+   "p_first": 0.1098,
+   "ok": false
+  }
+ },
+ "landmark_city_030": {
+  "en0": {
+   "prompt": "Westminster Abbey is located in the city of",
+   "gen": " Westminster, London",
+   "p_first": 0.7004,
+   "ok": false
+  },
+  "es0": {
+   "prompt": "La Abadía de Westminster se encuentra en la ciudad de",
+   "gen": " Londres, Inglat",
+   "p_first": 0.8931,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "वेस्टमिंस्टर एबे इस शहर में स्थित है:",
+   "gen": " \nवेस्टमिं",
+   "p_first": 0.1873,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "वेस्टमिंस्टर एबे शहर में स्थित है, जिसका नाम",
+   "gen": " स्थानीय स",
+   "p_first": 0.0839,
+   "ok": false
+  }
+ },
+ "landmark_city_031": {
+  "en0": {
+   "prompt": "Tower Bridge is located in the city of",
+   "gen": " London, England",
+   "p_first": 0.9566,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Tower Bridge se encuentra en la ciudad de",
+   "gen": " Londres, Reino",
+   "p_first": 0.224,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "टावर ब्रिज इस शहर में स्थित है:",
+   "gen": " \na) मुं",
+   "p_first": 0.2449,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "टावर ब्रिज शहर में स्थित है, जिसका नाम",
+   "gen": " इसे देने",
+   "p_first": 0.0781,
+   "ok": false
+  }
+ },
+ "landmark_city_032": {
+  "en0": {
+   "prompt": "Times Square is located in the city of",
+   "gen": " New York, in",
+   "p_first": 0.7579,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Times Square se encuentra en la ciudad de",
+   "gen": " Nueva York, Estados",
+   "p_first": 0.9797,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "टाइम्स स्क्वायर इस शहर में स्थित है:",
+   "gen": " टाइम्स स्क्वायर,",
+   "p_first": 0.1413,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "टाइम्स स्क्वायर शहर में स्थित है, जिसका नाम",
+   "gen": " टाइम्स स्क्वायर स",
+   "p_first": 0.1262,
+   "ok": false
+  }
+ },
+ "landmark_city_033": {
+  "en0": {
+   "prompt": "The Hollywood Sign is located in the city of",
+   "gen": " Los Angeles, California",
+   "p_first": 0.9434,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Cartel de Hollywood se encuentra en la ciudad de",
+   "gen": " Los Ángeles, California",
+   "p_first": 0.1827,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "हॉलीवुड साइन इस शहर में स्थित है:",
+   "gen": " \na) मुंबई\n",
+   "p_first": 0.1837,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "हॉलीवुड साइन शहर में स्थित है, जिसका नाम",
+   "gen": " हॉलीवुड साइन्स स",
+   "p_first": 0.1146,
+   "ok": false
+  }
+ },
+ "landmark_city_034": {
+  "en0": {
+   "prompt": "The Golden Temple is located in the city of",
+   "gen": " Amritsar, in",
+   "p_first": 0.9779,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Templo Dorado se encuentra en la ciudad de",
+   "gen": " San Juan de los Lagos",
+   "p_first": 0.0718,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "स्वर्ण मंदिर इस शहर में स्थित है:",
+   "gen": " \nश्री श्र",
+   "p_first": 0.2038,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "स्वर्ण मंदिर शहर में स्थित है, जिसका नाम",
+   "gen": " स्वर्ण मंदिर",
+   "p_first": 0.2321,
+   "ok": false
+  }
+ },
+ "landmark_city_035": {
+  "en0": {
+   "prompt": "The Hawa Mahal is located in the city of",
+   "gen": " Jaipur, India",
+   "p_first": 0.9808,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Hawa Mahal se encuentra en la ciudad de",
+   "gen": " Jaipur, en",
+   "p_first": 0.7679,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "हवा महल इस शहर में स्थित है:",
+   "gen": " \nA) मुंब",
+   "p_first": 0.1661,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "हवा महल शहर में स्थित है, जिसका नाम",
+   "gen": " स्थानीय भाष",
+   "p_first": 0.1008,
+   "ok": false
+  }
+ },
+ "landmark_city_036": {
+  "en0": {
+   "prompt": "The Victoria Memorial is located in the city of",
+   "gen": " Kolkata, India.",
+   "p_first": 0.5328,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Memorial Victoria se encuentra en la ciudad de",
+   "gen": " San Juan, Argentina.",
+   "p_first": 0.0596,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "विक्टोरिया मेमोरियल इस शहर में स्थित है:",
+   "gen": " \n1.  सेंट",
+   "p_first": 0.4039,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "विक्टोरिया मेमोरियल शहर में स्थित है, जिसका नाम",
+   "gen": " महारानी विक्ट",
+   "p_first": 0.1155,
+   "ok": false
+  }
+ },
+ "landmark_city_037": {
+  "en0": {
+   "prompt": "The Meenakshi Temple is located in the city of",
+   "gen": " Madurai, which",
+   "p_first": 0.9889,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Templo de Meenakshi se encuentra en la ciudad de",
+   "gen": " Madurai, en",
+   "p_first": 0.9578,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मीनाक्षी मंदिर इस शहर में स्थित है:",
+   "gen": " \nमुंबई\n",
+   "p_first": 0.1857,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मीनाक्षी मंदिर शहर में स्थित है, जिसका नाम",
+   "gen": " भगवान शिव की",
+   "p_first": 0.214,
+   "ok": false
+  }
+ },
+ "landmark_city_038": {
+  "en0": {
+   "prompt": "The Mysore Palace is located in the city of",
+   "gen": " Mysore, Karnataka",
+   "p_first": 0.9953,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Palacio de Mysore se encuentra en la ciudad de",
+   "gen": " Mysore, Karnataka",
+   "p_first": 0.8537,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मैसूर पैलेस इस शहर में स्थित है:",
+   "gen": " \nमैसूर\n",
+   "p_first": 0.2431,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मैसूर पैलेस शहर में स्थित है, जिसका नाम",
+   "gen": " मैसूर राज",
+   "p_first": 0.2237,
+   "ok": true
+  }
+ },
+ "capital_country_000": {
+  "en0": {
+   "prompt": "Paris is the capital of",
+   "gen": " France, a",
+   "p_first": 0.8308,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "París es la capital de",
+   "gen": " Francia y es",
+   "p_first": 0.9372,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "पेरिस इस देश की राजधानी है:",
+   "gen": " फ्रांस\nप",
+   "p_first": 0.7657,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "पेरिस जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nप",
+   "p_first": 0.3391,
+   "ok": false
+  }
+ },
+ "capital_country_001": {
+  "en0": {
+   "prompt": "Berlin is the capital of",
+   "gen": " Germany and is",
+   "p_first": 0.928,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Berlín es la capital de",
+   "gen": " Alemania y tiene",
+   "p_first": 0.9057,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बर्लिन इस देश की राजधानी है:",
+   "gen": " जर्मनी के",
+   "p_first": 0.6602,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "बर्लिन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3999,
+   "ok": false
+  }
+ },
+ "capital_country_002": {
+  "en0": {
+   "prompt": "Rome is the capital of",
+   "gen": " Italy, a",
+   "p_first": 0.8982,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Roma es la capital de",
+   "gen": " Italia y es conoc",
+   "p_first": 0.4604,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "रोम इस देश की राजधानी है:",
+   "gen": " इटली\n\nर",
+   "p_first": 0.4354,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "रोम जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.2662,
+   "ok": false
+  }
+ },
+ "capital_country_003": {
+  "en0": {
+   "prompt": "Madrid is the capital of",
+   "gen": " Spain and the",
+   "p_first": 0.901,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Madrid es la capital de",
+   "gen": " España y la ciudad",
+   "p_first": 0.9144,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मैड्रिड इस देश की राजधानी है:",
+   "gen": " स्पेन\nम",
+   "p_first": 0.7922,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "मैड्रिड जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3932,
+   "ok": false
+  }
+ },
+ "capital_country_004": {
+  "en0": {
+   "prompt": "Lisbon is the capital of",
+   "gen": " Portugal, a country",
+   "p_first": 0.9704,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Lisboa es la capital de",
+   "gen": " Portugal y es conoc",
+   "p_first": 0.9722,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "लिस्बन इस देश की राजधानी है:",
+   "gen": " पुर्तगाल\nल",
+   "p_first": 0.7286,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "लिस्बन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nलिस",
+   "p_first": 0.3567,
+   "ok": false
+  }
+ },
+ "capital_country_005": {
+  "en0": {
+   "prompt": "Tokyo is the capital of",
+   "gen": " Japan, a",
+   "p_first": 0.8972,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Tokio es la capital de",
+   "gen": " Japón y tiene una",
+   "p_first": 0.5533,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "टोक्यो इस देश की राजधानी है:",
+   "gen": " जापान\nट",
+   "p_first": 0.4307,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "टोक्यो जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.263,
+   "ok": false
+  }
+ },
+ "capital_country_006": {
+  "en0": {
+   "prompt": "Beijing is the capital of",
+   "gen": " China, a",
+   "p_first": 0.8956,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Pekín es la capital de",
+   "gen": " China y tiene",
+   "p_first": 0.7541,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बीजिंग इस देश की राजधानी है:",
+   "gen": " चीन\nच",
+   "p_first": 0.7679,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "बीजिंग जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या ह",
+   "p_first": 0.2756,
+   "ok": false
+  }
+ },
+ "capital_country_007": {
+  "en0": {
+   "prompt": "New Delhi is the capital of",
+   "gen": " India, and",
+   "p_first": 0.9362,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Nueva Delhi es la capital de",
+   "gen": " la India y",
+   "p_first": 0.8315,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "नई दिल्ली इस देश की राजधानी है:",
+   "gen": " पूर्वी",
+   "p_first": 0.0633,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "नई दिल्ली जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या ह",
+   "p_first": 0.3269,
+   "ok": false
+  }
+ },
+ "capital_country_008": {
+  "en0": {
+   "prompt": "Moscow is the capital of",
+   "gen": " Russia, a",
+   "p_first": 0.8954,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Moscú es la capital de",
+   "gen": " Rusia y es",
+   "p_first": 0.4261,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मॉस्को इस देश की राजधानी है:",
+   "gen": " रूस\nम",
+   "p_first": 0.6816,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "मॉस्को जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या ह",
+   "p_first": 0.3111,
+   "ok": false
+  }
+ },
+ "capital_country_009": {
+  "en0": {
+   "prompt": "Brasília is the capital of",
+   "gen": " Brazil, and",
+   "p_first": 0.9568,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Brasilia es la capital de",
+   "gen": " Brasil y se encuentra",
+   "p_first": 0.9565,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ब्रासीलिया इस देश की राजधानी है:",
+   "gen": " ब्राज़ील\nब",
+   "p_first": 0.2422,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "ब्रासीलिया जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nब्र",
+   "p_first": 0.2777,
+   "ok": false
+  }
+ },
+ "capital_country_010": {
+  "en0": {
+   "prompt": "Buenos Aires is the capital of",
+   "gen": " Argentina, a",
+   "p_first": 0.8035,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Buenos Aires es la capital de",
+   "gen": " Argentina y es",
+   "p_first": 0.5105,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ब्यूनस आयर्स इस देश की राजधानी है:",
+   "gen": " अर्जेंटीना के र",
+   "p_first": 0.3794,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "ब्यूनस आयर्स जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nब्यूनस",
+   "p_first": 0.2968,
+   "ok": false
+  }
+ },
+ "capital_country_011": {
+  "en0": {
+   "prompt": "Mexico City is the capital of",
+   "gen": " Mexico, a",
+   "p_first": 0.8659,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Ciudad de México es la capital de",
+   "gen": " México y tiene una pobl",
+   "p_first": 0.8787,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मेक्सिको सिटी इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य",
+   "p_first": 0.0759,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मेक्सिको सिटी जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.2909,
+   "ok": false
+  }
+ },
+ "capital_country_012": {
+  "en0": {
+   "prompt": "Ottawa is the capital of",
+   "gen": " Canada, and",
+   "p_first": 0.8238,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Ottawa es la capital de",
+   "gen": " Canadá y es",
+   "p_first": 0.8869,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ओटावा इस देश की राजधानी है:",
+   "gen": " क्या यह सह",
+   "p_first": 0.4273,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ओटावा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3371,
+   "ok": false
+  }
+ },
+ "capital_country_013": {
+  "en0": {
+   "prompt": "Canberra is the capital of",
+   "gen": " Australia, and",
+   "p_first": 0.9256,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Canberra es la capital de",
+   "gen": " Australia y se",
+   "p_first": 0.8779,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "कैनबरा इस देश की राजधानी है:",
+   "gen": " ऑस्ट्रेलिया\nकैनबर",
+   "p_first": 0.8423,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "कैनबरा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर: ऑस",
+   "p_first": 0.2968,
+   "ok": false
+  }
+ },
+ "capital_country_014": {
+  "en0": {
+   "prompt": "Athens is the capital of",
+   "gen": " Greece, a country",
+   "p_first": 0.823,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Atenas es la capital de",
+   "gen": " la provincia de Aten",
+   "p_first": 0.4119,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "एथेंस इस देश की राजधानी है:",
+   "gen": " ग्रीस\nए",
+   "p_first": 0.2866,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "एथेंस जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3308,
+   "ok": false
+  }
+ },
+ "capital_country_015": {
+  "en0": {
+   "prompt": "Ankara is the capital of",
+   "gen": " Turkey, a",
+   "p_first": 0.7977,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Ankara es la capital de",
+   "gen": " Turquía y es",
+   "p_first": 0.6786,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "अंकारा इस देश की राजधानी है:",
+   "gen": " सीरिया\nअ",
+   "p_first": 0.1719,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अंकारा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nअ",
+   "p_first": 0.324,
+   "ok": false
+  }
+ },
+ "capital_country_016": {
+  "en0": {
+   "prompt": "Stockholm is the capital of",
+   "gen": " Sweden, a",
+   "p_first": 0.9367,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Estocolmo es la capital de",
+   "gen": " Suecia y tiene una",
+   "p_first": 0.9517,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "स्टॉकहोम इस देश की राजधानी है:",
+   "gen": " स्वीडन\nस",
+   "p_first": 0.8347,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "स्टॉकहोम जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nस",
+   "p_first": 0.2091,
+   "ok": false
+  }
+ },
+ "capital_country_017": {
+  "en0": {
+   "prompt": "Oslo is the capital of",
+   "gen": " Norway, a country",
+   "p_first": 0.9694,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Oslo es la capital de",
+   "gen": " Noruega y tiene",
+   "p_first": 0.9589,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ओस्लो इस देश की राजधानी है:",
+   "gen": " नॉर्वे\nन",
+   "p_first": 0.7977,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "ओस्लो जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nओ",
+   "p_first": 0.4336,
+   "ok": false
+  }
+ },
+ "capital_country_018": {
+  "en0": {
+   "prompt": "Helsinki is the capital of",
+   "gen": " Finland, a country",
+   "p_first": 0.9321,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Helsinki es la capital de",
+   "gen": " Finlandia y es conoc",
+   "p_first": 0.9413,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "हेलसिंकी इस देश की राजधानी है:",
+   "gen": " फिनलैंड\nह",
+   "p_first": 0.7078,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "हेलसिंकी जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.2824,
+   "ok": false
+  }
+ },
+ "capital_country_019": {
+  "en0": {
+   "prompt": "Copenhagen is the capital of",
+   "gen": " Denmark, a country",
+   "p_first": 0.8963,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Copenhague es la capital de",
+   "gen": " Dinamarca y es fam",
+   "p_first": 0.9664,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "कोपेनहेगन इस देश की राजधानी है:",
+   "gen": " डेनमार्क\nक",
+   "p_first": 0.3817,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "कोपेनहेगन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3492,
+   "ok": false
+  }
+ },
+ "capital_country_020": {
+  "en0": {
+   "prompt": "Warsaw is the capital of",
+   "gen": " Poland, a country",
+   "p_first": 0.9212,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Varsovia es la capital de",
+   "gen": " Polonia y tiene",
+   "p_first": 0.7686,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "वारसॉ इस देश की राजधानी है:",
+   "gen": " भारत\nवारस",
+   "p_first": 0.231,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "वारसॉ जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nव",
+   "p_first": 0.314,
+   "ok": false
+  }
+ },
+ "capital_country_021": {
+  "en0": {
+   "prompt": "Vienna is the capital of",
+   "gen": " Austria, a country",
+   "p_first": 0.742,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Viena es la capital de",
+   "gen": " Austria, un país",
+   "p_first": 0.4184,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "वियना इस देश की राजधानी है:",
+   "gen": " ऑस्ट्रिया (वियन",
+   "p_first": 0.1381,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "वियना जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nवियना ज",
+   "p_first": 0.3602,
+   "ok": false
+  }
+ },
+ "capital_country_022": {
+  "en0": {
+   "prompt": "Bern is the capital of",
+   "gen": " Switzerland, a country",
+   "p_first": 0.7487,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Berna es la capital de",
+   "gen": " la provincia de Bern",
+   "p_first": 0.2769,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "बर्न इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य अमेरिक",
+   "p_first": 0.2031,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बर्न जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nब्रिटेन\n",
+   "p_first": 0.414,
+   "ok": false
+  }
+ },
+ "capital_country_023": {
+  "en0": {
+   "prompt": "Brussels is the capital of",
+   "gen": " Belgium, a country",
+   "p_first": 0.8015,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Bruselas es la capital de",
+   "gen": " Bélgica y se",
+   "p_first": 0.5326,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ब्रसेल्स इस देश की राजधानी है:",
+   "gen": " बेल्जियम\nब",
+   "p_first": 0.6012,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "ब्रसेल्स जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nब",
+   "p_first": 0.238,
+   "ok": false
+  }
+ },
+ "capital_country_024": {
+  "en0": {
+   "prompt": "Dublin is the capital of",
+   "gen": " Ireland, a country",
+   "p_first": 0.8981,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Dublín es la capital de",
+   "gen": " Irlanda y es",
+   "p_first": 0.6933,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "डबलिन इस देश की राजधानी है:",
+   "gen": " भारत\nडबलिन इस",
+   "p_first": 0.1548,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "डबलिन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nडबल",
+   "p_first": 0.3534,
+   "ok": false
+  }
+ },
+ "capital_country_025": {
+  "en0": {
+   "prompt": "Lima is the capital of",
+   "gen": " Peru, a country",
+   "p_first": 0.819,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Lima es la capital de",
+   "gen": " Perú y es",
+   "p_first": 0.9112,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "लीमा इस देश की राजधानी है:",
+   "gen": " संयुक्त र",
+   "p_first": 0.1223,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लीमा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3916,
+   "ok": false
+  }
+ },
+ "capital_country_026": {
+  "en0": {
+   "prompt": "Santiago is the capital of",
+   "gen": " Chile, a country",
+   "p_first": 0.6635,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Santiago es la capital de",
+   "gen": " Chile y se encuentra",
+   "p_first": 0.7861,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सैंटियागो इस देश की राजधानी है:",
+   "gen": " चिली\n\nस",
+   "p_first": 0.3409,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "सैंटियागो जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.2872,
+   "ok": false
+  }
+ },
+ "capital_country_027": {
+  "en0": {
+   "prompt": "Bogotá is the capital of",
+   "gen": " Colombia, a country in",
+   "p_first": 0.9522,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Bogotá es la capital de",
+   "gen": " Colombia y tiene una pobl",
+   "p_first": 0.9495,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बोगोटा इस देश की राजधानी है:",
+   "gen": " कोलम्बिया क",
+   "p_first": 0.7154,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बोगोटा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.4313,
+   "ok": false
+  }
+ },
+ "capital_country_028": {
+  "en0": {
+   "prompt": "Caracas is the capital of",
+   "gen": " Venezuela, a country in",
+   "p_first": 0.8056,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Caracas es la capital de",
+   "gen": " Venezuela, un país ubic",
+   "p_first": 0.9406,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "काराकास इस देश की राजधानी है:",
+   "gen": " वेनेजुएला के लिए",
+   "p_first": 0.4697,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "काराकास जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर: वेन",
+   "p_first": 0.5095,
+   "ok": false
+  }
+ },
+ "capital_country_029": {
+  "en0": {
+   "prompt": "Bangkok is the capital of",
+   "gen": " Thailand, a country",
+   "p_first": 0.9136,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Bangkok es la capital de",
+   "gen": " Tailandia y es",
+   "p_first": 0.8578,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बैंकॉक इस देश की राजधानी है:",
+   "gen": " थाईलैंड\nब",
+   "p_first": 0.6016,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "बैंकॉक जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nबैं",
+   "p_first": 0.2636,
+   "ok": false
+  }
+ },
+ "capital_country_030": {
+  "en0": {
+   "prompt": "Hanoi is the capital of",
+   "gen": " Vietnam, a country",
+   "p_first": 0.9758,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Hanói es la capital de",
+   "gen": " Vietnam y es una",
+   "p_first": 0.3598,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "हनोई इस देश की राजधानी है:",
+   "gen": " वियतनाम\nह",
+   "p_first": 0.5993,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "हनोई जिस देश की राजधानी है, उसका नाम",
+   "gen": "?\nउत्तर: वियत",
+   "p_first": 0.2561,
+   "ok": false
+  }
+ },
+ "capital_country_031": {
+  "en0": {
+   "prompt": "Jakarta is the capital of",
+   "gen": " Indonesia, a country",
+   "p_first": 0.95,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Yakarta es la capital de",
+   "gen": " la provincia de Central",
+   "p_first": 0.8119,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "जकार्ता इस देश की राजधानी है:",
+   "gen": " इंडोनेशिया\nजक",
+   "p_first": 0.6502,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "जकार्ता जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर:",
+   "p_first": 0.3997,
+   "ok": false
+  }
+ },
+ "capital_country_032": {
+  "en0": {
+   "prompt": "Islamabad is the capital of",
+   "gen": " Pakistan, a",
+   "p_first": 0.9664,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Islamabad es la capital de",
+   "gen": " Pakistán y se encuentra",
+   "p_first": 0.9302,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "इस्लामाबाद इस देश की राजधानी है:",
+   "gen": " पाकिस्तान\nइस",
+   "p_first": 0.4545,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "इस्लामाबाद जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nइस्ल",
+   "p_first": 0.3568,
+   "ok": false
+  }
+ },
+ "capital_country_033": {
+  "en0": {
+   "prompt": "Dhaka is the capital of",
+   "gen": " Bangladesh, a country",
+   "p_first": 0.8542,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Daca es la capital de",
+   "gen": " la provincia de Córd",
+   "p_first": 0.2178,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "ढाका इस देश की राजधानी है:",
+   "gen": " बांग्लादेश\nढ",
+   "p_first": 0.3633,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "ढाका जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nढाका",
+   "p_first": 0.39,
+   "ok": false
+  }
+ },
+ "capital_country_034": {
+  "en0": {
+   "prompt": "Kathmandu is the capital of",
+   "gen": " Nepal, a country in",
+   "p_first": 0.9112,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Katmandú es la capital de",
+   "gen": " Nepal y es conocida",
+   "p_first": 0.9249,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "काठमांडू इस देश की राजधानी है:",
+   "gen": " नेपाल\nक",
+   "p_first": 0.8858,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "काठमांडू जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3549,
+   "ok": false
+  }
+ },
+ "capital_country_035": {
+  "en0": {
+   "prompt": "Colombo is the capital of",
+   "gen": " Sri Lanka, a country",
+   "p_first": 0.8423,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Colombo es la capital de",
+   "gen": " Sri Lanka y es conoc",
+   "p_first": 0.7583,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "कोलंबो इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य",
+   "p_first": 0.3519,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "कोलंबो जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3481,
+   "ok": false
+  }
+ },
+ "capital_country_036": {
+  "en0": {
+   "prompt": "Tehran is the capital of",
+   "gen": " Iran, a",
+   "p_first": 0.8591,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Teherán es la capital de",
+   "gen": " Irán y tiene",
+   "p_first": 0.8397,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "तेहरान इस देश की राजधानी है:",
+   "gen": " ईरान\nत",
+   "p_first": 0.235,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "तेहरान जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3265,
+   "ok": false
+  }
+ },
+ "capital_country_037": {
+  "en0": {
+   "prompt": "Baghdad is the capital of",
+   "gen": " Iraq, a",
+   "p_first": 0.9089,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Bagdad es la capital de",
+   "gen": " Irak y tiene",
+   "p_first": 0.8683,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बग़दाद इस देश की राजधानी है:",
+   "gen": " बग़दाद",
+   "p_first": 0.1835,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बग़दाद जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3751,
+   "ok": false
+  }
+ },
+ "capital_country_038": {
+  "en0": {
+   "prompt": "Riyadh is the capital of",
+   "gen": " Saudi Arabia, a",
+   "p_first": 0.9218,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Riad es la capital de",
+   "gen": " Marruecos y es conocida",
+   "p_first": 0.5663,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "रियाद इस देश की राजधानी है:",
+   "gen": " संयुक्त अरब अमीर",
+   "p_first": 0.4875,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "रियाद जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nरियाद",
+   "p_first": 0.3966,
+   "ok": false
+  }
+ },
+ "capital_country_039": {
+  "en0": {
+   "prompt": "Nairobi is the capital of",
+   "gen": " Kenya, a country",
+   "p_first": 0.9624,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Nairobi es la capital de",
+   "gen": " Kenia y es",
+   "p_first": 0.9141,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "नैरोबी इस देश की राजधानी है:",
+   "gen": " नेपाल\nनेप",
+   "p_first": 0.2852,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "नैरोबी जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.4257,
+   "ok": false
+  }
+ },
+ "capital_country_040": {
+  "en0": {
+   "prompt": "Abuja is the capital of",
+   "gen": " Nigeria, a country",
+   "p_first": 0.9123,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Abuya es la capital de",
+   "gen": " la provincia de K",
+   "p_first": 0.713,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "अबुजा इस देश की राजधानी है:",
+   "gen": " अबुजा नाइजीरिय",
+   "p_first": 0.0965,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अबुजा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3248,
+   "ok": false
+  }
+ },
+ "capital_country_041": {
+  "en0": {
+   "prompt": "Addis Ababa is the capital of",
+   "gen": " Ethiopia, a country in",
+   "p_first": 0.9142,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Adís Abeba es la capital de",
+   "gen": " la región de Orom",
+   "p_first": 0.566,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "अदीस अबाबा इस देश की राजधानी है:",
+   "gen": " सीरिया\nसीरिय",
+   "p_first": 0.3532,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अदीस अबाबा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nअदीस",
+   "p_first": 0.5108,
+   "ok": false
+  }
+ },
+ "capital_country_042": {
+  "en0": {
+   "prompt": "Rabat is the capital of",
+   "gen": " Morocco, a country",
+   "p_first": 0.9348,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Rabat es la capital de",
+   "gen": " Marruecos y es conoc",
+   "p_first": 0.9706,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "रबात इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य",
+   "p_first": 0.0735,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "रबात जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nरब",
+   "p_first": 0.242,
+   "ok": false
+  }
+ },
+ "capital_country_043": {
+  "en0": {
+   "prompt": "Algiers is the capital of",
+   "gen": " Algeria, a country in",
+   "p_first": 0.7954,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Argel es la capital de",
+   "gen": " Marruecos y",
+   "p_first": 0.2993,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "अल्जीयर्स इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य अम",
+   "p_first": 0.2001,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अल्जीयर्स जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर:",
+   "p_first": 0.3145,
+   "ok": false
+  }
+ },
+ "capital_country_044": {
+  "en0": {
+   "prompt": "Pretoria is the capital of",
+   "gen": " South Africa, and",
+   "p_first": 0.842,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Pretoria es la capital de",
+   "gen": " Sudáfrica y es conoc",
+   "p_first": 0.524,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "प्रिटोरिया इस देश की राजधानी है:",
+   "gen": " दक्षिण अफ़्रीका\nप्रिट",
+   "p_first": 0.3905,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "प्रिटोरिया जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर: प्रिट",
+   "p_first": 0.3684,
+   "ok": false
+  }
+ },
+ "capital_country_045": {
+  "en0": {
+   "prompt": "Accra is the capital of",
+   "gen": " Ghana, a country",
+   "p_first": 0.9171,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Acra es la capital de",
+   "gen": " la provincia de Ac",
+   "p_first": 0.6761,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "अक्रा इस देश की राजधानी है:",
+   "gen": " राज्य का",
+   "p_first": 0.0969,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अक्रा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.2657,
+   "ok": false
+  }
+ },
+ "capital_country_046": {
+  "en0": {
+   "prompt": "Budapest is the capital of",
+   "gen": " Hungary, a country",
+   "p_first": 0.8501,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Budapest es la capital de",
+   "gen": " Hungría y es conoc",
+   "p_first": 0.7019,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बुडापेस्ट इस देश की राजधानी है:",
+   "gen": " हंगरी\n\nह",
+   "p_first": 0.7726,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "बुडापेस्ट जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nब",
+   "p_first": 0.3878,
+   "ok": false
+  }
+ },
+ "capital_country_047": {
+  "en0": {
+   "prompt": "Bucharest is the capital of",
+   "gen": " Romania, a country",
+   "p_first": 0.9805,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Bucarest es la capital de",
+   "gen": " Rumania y es",
+   "p_first": 0.7782,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बुखारेस्ट इस देश की राजधानी है:",
+   "gen": " रोमानिया के",
+   "p_first": 0.3824,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "बुखारेस्ट जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nबुख",
+   "p_first": 0.3812,
+   "ok": false
+  }
+ },
+ "capital_country_048": {
+  "en0": {
+   "prompt": "Kyiv is the capital of",
+   "gen": " Ukraine, a country",
+   "p_first": 0.7686,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Kiev es la capital de",
+   "gen": " Ucrania y tiene",
+   "p_first": 0.7181,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "कीव इस देश की राजधानी है:",
+   "gen": " यूक्रेन\nक",
+   "p_first": 0.2877,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "कीव जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.2525,
+   "ok": false
+  }
+ },
+ "capital_country_049": {
+  "en0": {
+   "prompt": "Sofia is the capital of",
+   "gen": " Bulgaria, a country located",
+   "p_first": 0.6684,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Sofía es la capital de",
+   "gen": " la República Dominicana",
+   "p_first": 0.1968,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "सोफिया इस देश की राजधानी है:",
+   "gen": " रूस\nसोफिया र",
+   "p_first": 0.2162,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सोफिया जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nसोफिय",
+   "p_first": 0.3344,
+   "ok": false
+  }
+ },
+ "capital_country_050": {
+  "en0": {
+   "prompt": "Belgrade is the capital of",
+   "gen": " Serbia, a country",
+   "p_first": 0.925,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Belgrado es la capital de",
+   "gen": " Croacia y se",
+   "p_first": 0.6,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "बेलग्रेड इस देश की राजधानी है:",
+   "gen": " स्लोवेनिया\n",
+   "p_first": 0.6328,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बेलग्रेड जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nब",
+   "p_first": 0.3603,
+   "ok": false
+  }
+ },
+ "capital_country_051": {
+  "en0": {
+   "prompt": "Zagreb is the capital of",
+   "gen": " Croatia, a country located",
+   "p_first": 0.7779,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Zagreb es la capital de",
+   "gen": " Croacia y es",
+   "p_first": 0.9301,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ज़ाग्रेब इस देश की राजधानी है:",
+   "gen": " स्लोवेनिया\nस्लोव",
+   "p_first": 0.1911,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ज़ाग्रेब जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nज़ाग्र",
+   "p_first": 0.4027,
+   "ok": false
+  }
+ },
+ "capital_country_052": {
+  "en0": {
+   "prompt": "Reykjavik is the capital of",
+   "gen": " Iceland, a country",
+   "p_first": 0.9789,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Reikiavik es la capital de",
+   "gen": " Islandia, un país",
+   "p_first": 0.8689,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "रेक्यावीक इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य",
+   "p_first": 0.1115,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "रेक्यावीक जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.2676,
+   "ok": false
+  }
+ },
+ "capital_country_053": {
+  "en0": {
+   "prompt": "Ulaanbaatar is the capital of",
+   "gen": " Mongolia, a country in",
+   "p_first": 0.9195,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Ulán Bator es la capital de",
+   "gen": " Mongolia y tiene una pobl",
+   "p_first": 0.8881,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "उलानबटार इस देश की राजधानी है:",
+   "gen": " मंगोलिया\nउत्तर",
+   "p_first": 0.175,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "उलानबटार जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3805,
+   "ok": false
+  }
+ },
+ "capital_country_054": {
+  "en0": {
+   "prompt": "Kabul is the capital of",
+   "gen": " Afghanistan, a country in",
+   "p_first": 0.886,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Kabul es la capital de",
+   "gen": " Afganistán y es",
+   "p_first": 0.7644,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "काबुल इस देश की राजधानी है:",
+   "gen": " अफगानिस्तान\nकाबुल अफ",
+   "p_first": 0.4202,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "काबुल जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर: काबुल",
+   "p_first": 0.3235,
+   "ok": false
+  }
+ },
+ "capital_country_055": {
+  "en0": {
+   "prompt": "Phnom Penh is the capital of",
+   "gen": " Cambodia, a country",
+   "p_first": 0.8264,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Nom Pen es la capital de",
+   "gen": " la provincia de Kandal",
+   "p_first": 0.3396,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "नोम पेन इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य",
+   "p_first": 0.1598,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "नोम पेन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3174,
+   "ok": false
+  }
+ },
+ "capital_country_056": {
+  "en0": {
+   "prompt": "Seoul is the capital of",
+   "gen": " South Korea, a",
+   "p_first": 0.9385,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Seúl es la capital de",
+   "gen": " Corea del Sur y es",
+   "p_first": 0.8617,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सियोल इस देश की राजधानी है:",
+   "gen": " कोरिया\nसियोल कोर",
+   "p_first": 0.3158,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सियोल जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nसियोल जिस",
+   "p_first": 0.3606,
+   "ok": false
+  }
+ },
+ "capital_country_057": {
+  "en0": {
+   "prompt": "Amman is the capital of",
+   "gen": " Jordan, a",
+   "p_first": 0.8591,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Amán es la capital de",
+   "gen": " la República de Marr",
+   "p_first": 0.3287,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "अम्मान इस देश की राजधानी है:",
+   "gen": " सीरिया\nअ",
+   "p_first": 0.208,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अम्मान जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.3252,
+   "ok": false
+  }
+ },
+ "capital_country_058": {
+  "en0": {
+   "prompt": "Beirut is the capital of",
+   "gen": " Lebanon, a country in",
+   "p_first": 0.7688,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Beirut es la capital de",
+   "gen": " Libia y tiene una pobl",
+   "p_first": 0.4332,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "बेरूत इस देश की राजधानी है:",
+   "gen": " संयुक्त अरब",
+   "p_first": 0.1578,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बेरूत जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nब",
+   "p_first": 0.454,
+   "ok": false
+  }
+ },
+ "capital_country_059": {
+  "en0": {
+   "prompt": "Damascus is the capital of",
+   "gen": " Syria, a country",
+   "p_first": 0.8336,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Damasco es la capital de",
+   "gen": " Siria y tiene",
+   "p_first": 0.6187,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "दमिश्क इस देश की राजधानी है:",
+   "gen": " सीरिया\nद",
+   "p_first": 0.346,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "दमिश्क जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.3527,
+   "ok": false
+  }
+ },
+ "capital_country_060": {
+  "en0": {
+   "prompt": "Tripoli is the capital of",
+   "gen": " Libya, a country",
+   "p_first": 0.7094,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Trípoli es la capital de",
+   "gen": " la República Á",
+   "p_first": 0.5795,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "त्रिपोली इस देश की राजधानी है:",
+   "gen": " भारत\nत्रिप",
+   "p_first": 0.2005,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "त्रिपोली जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.3728,
+   "ok": false
+  }
+ },
+ "capital_country_061": {
+  "en0": {
+   "prompt": "Montevideo is the capital of",
+   "gen": " Uruguay, a small",
+   "p_first": 0.9145,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Montevideo es la capital de",
+   "gen": " Uruguay, un país",
+   "p_first": 0.7801,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मोंटेवीडियो इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य",
+   "p_first": 0.1798,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मोंटेवीडियो जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.2848,
+   "ok": false
+  }
+ },
+ "capital_country_062": {
+  "en0": {
+   "prompt": "Quito is the capital of",
+   "gen": " Ecuador, a country",
+   "p_first": 0.9609,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Quito es la capital de",
+   "gen": " Ecuador y se encuentra",
+   "p_first": 0.8444,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "क्विटो इस देश की राजधानी है:",
+   "gen": " इक्वाडोर\nक्व",
+   "p_first": 0.1205,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "क्विटो जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3744,
+   "ok": false
+  }
+ },
+ "capital_country_063": {
+  "en0": {
+   "prompt": "Asunción is the capital of",
+   "gen": " Paraguay, a",
+   "p_first": 0.9609,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Asunción es la capital de",
+   "gen": " Paraguay, un",
+   "p_first": 0.9673,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "असुनसियोन इस देश की राजधानी है:",
+   "gen": " फिलीपींस\nअ",
+   "p_first": 0.1853,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "असुनसियोन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nअस",
+   "p_first": 0.3326,
+   "ok": false
+  }
+ },
+ "capital_country_064": {
+  "en0": {
+   "prompt": "Kingston is the capital of",
+   "gen": " Jamaica, a Caribbean island",
+   "p_first": 0.6448,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Kingston es la capital de",
+   "gen": " la isla de Jamaica",
+   "p_first": 0.5494,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "किंग्स्टन इस देश की राजधानी है:",
+   "gen": " संयुक्त राज",
+   "p_first": 0.1402,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "किंग्स्टन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.2945,
+   "ok": false
+  }
+ },
+ "capital_country_065": {
+  "en0": {
+   "prompt": "Wellington is the capital of",
+   "gen": " New Zealand, and",
+   "p_first": 0.9638,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Wellington es la capital de",
+   "gen": " Nueva Zelanda y es",
+   "p_first": 0.8133,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "वेलिंगटन इस देश की राजधानी है:",
+   "gen": " न्यूजीलैंड\nवेल",
+   "p_first": 0.6722,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "वेलिंगटन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nवेलिंग",
+   "p_first": 0.3264,
+   "ok": false
+  }
+ },
+ "capital_country_066": {
+  "en0": {
+   "prompt": "Havana is the capital of",
+   "gen": " Cuba, a country",
+   "p_first": 0.9055,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Habana es la capital de",
+   "gen": " Cuba, un país",
+   "p_first": 0.8166,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "हवाना इस देश की राजधानी है:",
+   "gen": " संयुक्त राज",
+   "p_first": 0.1396,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "हवाना जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.3613,
+   "ok": false
+  }
+ },
+ "capital_country_067": {
+  "en0": {
+   "prompt": "Sucre is the capital of",
+   "gen": " Bolivia, a country in",
+   "p_first": 0.7901,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Sucre es la capital de",
+   "gen": " Bolivia y es conocida",
+   "p_first": 0.8394,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सुक्रे इस देश की राजधानी है:",
+   "gen": " सिंगापुर\nस",
+   "p_first": 0.1152,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सुक्रे जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.2647,
+   "ok": false
+  }
+ },
+ "capital_country_068": {
+  "en0": {
+   "prompt": "San José is the capital of",
+   "gen": " Costa Rica, a country",
+   "p_first": 0.9111,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "San José es la capital de",
+   "gen": " Costa Rica y la ciudad",
+   "p_first": 0.7764,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सैन जोस इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य अमेर",
+   "p_first": 0.5255,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सैन जोस जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर: स",
+   "p_first": 0.342,
+   "ok": false
+  }
+ },
+ "capital_country_069": {
+  "en0": {
+   "prompt": "Panama City is the capital of",
+   "gen": " Panama, a country",
+   "p_first": 0.8859,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Ciudad de Panamá es la capital de",
+   "gen": " Panamá y tiene",
+   "p_first": 0.9062,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "पनामा सिटी इस देश की राजधानी है:",
+   "gen": " पेरू\nप",
+   "p_first": 0.2592,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "पनामा सिटी जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.2883,
+   "ok": false
+  }
+ },
+ "capital_country_070": {
+  "en0": {
+   "prompt": "Cairo is the capital of",
+   "gen": " Egypt, a",
+   "p_first": 0.934,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "El Cairo es la capital de",
+   "gen": " Egipto y tiene",
+   "p_first": 0.9128,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "काहिरा इस देश की राजधानी है:",
+   "gen": " भारत\nकाह",
+   "p_first": 0.2301,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "काहिरा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3053,
+   "ok": false
+  }
+ },
+ "capital_country_071": {
+  "en0": {
+   "prompt": "Jerusalem is the capital of",
+   "gen": " Israel, and",
+   "p_first": 0.6632,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Jerusalén es la capital de",
+   "gen": " Israel y tiene",
+   "p_first": 0.8918,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "यरुशलम इस देश की राजधानी है:",
+   "gen": " संयुक्त राज",
+   "p_first": 0.0966,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "यरुशलम जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nयह",
+   "p_first": 0.298,
+   "ok": false
+  }
+ },
+ "capital_country_072": {
+  "en0": {
+   "prompt": "Prague is the capital of",
+   "gen": " the Czech Republic, a",
+   "p_first": 0.8393,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Praga es la capital de",
+   "gen": " la República Checa, un",
+   "p_first": 0.7119,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "प्राग इस देश की राजधानी है:",
+   "gen": " पाकिस्तान\nपाकिस",
+   "p_first": 0.0952,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "प्राग जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nप्राग ज",
+   "p_first": 0.2439,
+   "ok": false
+  }
+ },
+ "capital_country_073": {
+  "en0": {
+   "prompt": "Bratislava is the capital of",
+   "gen": " Slovakia, a country located",
+   "p_first": 0.6756,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Bratislava es la capital de",
+   "gen": " Eslovaquia, un",
+   "p_first": 0.809,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ब्रातिस्लावा इस देश की राजधानी है:",
+   "gen": " स्लोवेनिया के",
+   "p_first": 0.3477,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ब्रातिस्लावा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nब्रात",
+   "p_first": 0.3537,
+   "ok": false
+  }
+ },
+ "capital_country_074": {
+  "en0": {
+   "prompt": "Ljubljana is the capital of",
+   "gen": " Slovenia, a small country",
+   "p_first": 0.8497,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Liubliana es la capital de",
+   "gen": " Eslovenia, un",
+   "p_first": 0.8583,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ल्यूब्लियाना इस देश की राजधानी है:",
+   "gen": " रोमेनिया के ल",
+   "p_first": 0.6112,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ल्यूब्लियाना जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nल्यूब",
+   "p_first": 0.3656,
+   "ok": false
+  }
+ },
+ "capital_country_075": {
+  "en0": {
+   "prompt": "Tallinn is the capital of",
+   "gen": " Estonia, a country located",
+   "p_first": 0.9607,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Tallin es la capital de",
+   "gen": " Estonia, un país ubic",
+   "p_first": 0.9635,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "तेलिन इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य",
+   "p_first": 0.1313,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "तेलिन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3554,
+   "ok": false
+  }
+ },
+ "capital_country_076": {
+  "en0": {
+   "prompt": "Riga is the capital of",
+   "gen": " Latvia, a country",
+   "p_first": 0.9279,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Riga es la capital de",
+   "gen": " Letonia, un",
+   "p_first": 0.8695,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "रीगा इस देश की राजधानी है:",
+   "gen": " सिंगापुर\nस",
+   "p_first": 0.1786,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "रीगा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nरीग",
+   "p_first": 0.3804,
+   "ok": false
+  }
+ },
+ "capital_country_077": {
+  "en0": {
+   "prompt": "Vilnius is the capital of",
+   "gen": " Lithuania, a country located",
+   "p_first": 0.8929,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Vilna es la capital de",
+   "gen": " la República de Mold",
+   "p_first": 0.7052,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "विनियस इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य अम",
+   "p_first": 0.138,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "विनियस जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nविनिय",
+   "p_first": 0.2975,
+   "ok": false
+  }
+ },
+ "capital_country_078": {
+  "en0": {
+   "prompt": "Minsk is the capital of",
+   "gen": " Belarus, a country",
+   "p_first": 0.8712,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Minsk es la capital de",
+   "gen": " Bielorrusia, un",
+   "p_first": 0.5419,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मिन्स्क इस देश की राजधानी है:",
+   "gen": " बेलारूस\nम",
+   "p_first": 0.3851,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "मिन्स्क जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nम",
+   "p_first": 0.3382,
+   "ok": false
+  }
+ },
+ "capital_country_079": {
+  "en0": {
+   "prompt": "Tbilisi is the capital of",
+   "gen": " Georgia, a",
+   "p_first": 0.7133,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Tiflis es la capital de",
+   "gen": " Georgia, un",
+   "p_first": 0.6058,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "त्बिलिसी इस देश की राजधानी है:",
+   "gen": " जॉर्जिया\nत",
+   "p_first": 0.3928,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "त्बिलिसी जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3395,
+   "ok": false
+  }
+ },
+ "capital_country_080": {
+  "en0": {
+   "prompt": "Yerevan is the capital of",
+   "gen": " Armenia, a small country",
+   "p_first": 0.9659,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Ereván es la capital de",
+   "gen": " Armenia y tiene una pobl",
+   "p_first": 0.9269,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "येरेवन इस देश की राजधानी है:",
+   "gen": " अर्मेनिया\nयेर",
+   "p_first": 0.2101,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "येरेवन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nयेर",
+   "p_first": 0.3975,
+   "ok": false
+  }
+ },
+ "capital_country_081": {
+  "en0": {
+   "prompt": "Baku is the capital of",
+   "gen": " Azerbaijan, a country located",
+   "p_first": 0.9556,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Bakú es la capital de",
+   "gen": " Azerbaiyán, un país",
+   "p_first": 0.673,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "बाकू इस देश की राजधानी है:",
+   "gen": " क्या यह सही है?\n",
+   "p_first": 0.0723,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बाकू जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nबाकू",
+   "p_first": 0.3543,
+   "ok": false
+  }
+ },
+ "capital_country_082": {
+  "en0": {
+   "prompt": "Astana is the capital of",
+   "gen": " Kazakhstan, a country in",
+   "p_first": 0.8517,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Astaná es la capital de",
+   "gen": " la República de Moldavia,",
+   "p_first": 0.3588,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "अस्ताना इस देश की राजधानी है:",
+   "gen": " क्या यह सटीक है?\nन",
+   "p_first": 0.5718,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अस्ताना जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nअस्ताना",
+   "p_first": 0.4018,
+   "ok": false
+  }
+ },
+ "capital_country_083": {
+  "en0": {
+   "prompt": "Tashkent is the capital of",
+   "gen": " Uzbekistan, a country",
+   "p_first": 0.8857,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Taskent es la capital de",
+   "gen": " Uzbekistán, un país",
+   "p_first": 0.8308,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "ताशकंद इस देश की राजधानी है:",
+   "gen": " क्या यह सही है?\nनह",
+   "p_first": 0.2238,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "ताशकंद जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर: ताश",
+   "p_first": 0.39,
+   "ok": false
+  }
+ },
+ "capital_country_084": {
+  "en0": {
+   "prompt": "Naypyidaw is the capital of",
+   "gen": " Myanmar (Burma",
+   "p_first": 0.9034,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Naipyidó es la capital de",
+   "gen": " la provincia de S",
+   "p_first": 0.7081,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "नेपीडॉ इस देश की राजधानी है:",
+   "gen": " भारत\nनेपीडॉ",
+   "p_first": 0.1093,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "नेपीडॉ जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nन",
+   "p_first": 0.1993,
+   "ok": false
+  }
+ },
+ "capital_country_085": {
+  "en0": {
+   "prompt": "Kuala Lumpur is the capital of",
+   "gen": " Malaysia, a country",
+   "p_first": 0.8557,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Kuala Lumpur es la capital de",
+   "gen": " Malasia y tiene",
+   "p_first": 0.6193,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "कुआलालंपुर इस देश की राजधानी है:",
+   "gen": " सिंगापुर\nस",
+   "p_first": 0.3851,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "कुआलालंपुर जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3689,
+   "ok": false
+  }
+ },
+ "capital_country_086": {
+  "en0": {
+   "prompt": "Manila is the capital of",
+   "gen": " the Philippines, a",
+   "p_first": 0.9122,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Manila es la capital de",
+   "gen": " Filipinas y es la",
+   "p_first": 0.5043,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मनीला इस देश की राजधानी है:",
+   "gen": " श्रीलंका के ल",
+   "p_first": 0.1985,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मनीला जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर:",
+   "p_first": 0.3388,
+   "ok": false
+  }
+ },
+ "capital_country_087": {
+  "en0": {
+   "prompt": "Vientiane is the capital of",
+   "gen": " Laos, a country",
+   "p_first": 0.9245,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Vientián es la capital de",
+   "gen": " Laos, un país",
+   "p_first": 0.3107,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "वियनतियाने इस देश की राजधानी है:",
+   "gen": " संयुक्त र",
+   "p_first": 0.0814,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "वियनतियाने जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3777,
+   "ok": false
+  }
+ },
+ "capital_country_088": {
+  "en0": {
+   "prompt": "Pyongyang is the capital of",
+   "gen": " North Korea, a",
+   "p_first": 0.4955,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Pionyang es la capital de",
+   "gen": " la provincia de Hwangha",
+   "p_first": 0.5832,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "प्योंगयांग इस देश की राजधानी है:",
+   "gen": " क्या यह सच है?\nन",
+   "p_first": 0.323,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "प्योंगयांग जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nप्यों",
+   "p_first": 0.4377,
+   "ok": false
+  }
+ },
+ "capital_country_089": {
+  "en0": {
+   "prompt": "Thimphu is the capital of",
+   "gen": " Bhutan, a small",
+   "p_first": 0.7167,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Timbu es la capital de",
+   "gen": " la provincia de Tim",
+   "p_first": 0.7758,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "थिम्पू इस देश की राजधानी है:",
+   "gen": " सिंगापुर",
+   "p_first": 0.1393,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "थिम्पू जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3217,
+   "ok": false
+  }
+ },
+ "capital_country_090": {
+  "en0": {
+   "prompt": "Dodoma is the capital of",
+   "gen": " Tanzania, a country located",
+   "p_first": 0.8508,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Dodoma es la capital de",
+   "gen": " Tanzania, un país ubic",
+   "p_first": 0.8512,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "डोडोमा इस देश की राजधानी है:",
+   "gen": " जापान\nडोडोमा",
+   "p_first": 0.1477,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "डोडोमा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर:",
+   "p_first": 0.3767,
+   "ok": false
+  }
+ },
+ "capital_country_091": {
+  "en0": {
+   "prompt": "Kampala is the capital of",
+   "gen": " Uganda, a country in",
+   "p_first": 0.909,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Kampala es la capital de",
+   "gen": " Uganda y tiene una pobl",
+   "p_first": 0.9277,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "कंपाला इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य",
+   "p_first": 0.1991,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "कंपाला जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.4193,
+   "ok": false
+  }
+ },
+ "capital_country_092": {
+  "en0": {
+   "prompt": "Harare is the capital of",
+   "gen": " Zimbabwe, a country",
+   "p_first": 0.9367,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Harare es la capital de",
+   "gen": " Zimbabue, un",
+   "p_first": 0.5898,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "हरारे इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य अमेर",
+   "p_first": 0.0779,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "हरारे जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर: हर",
+   "p_first": 0.2805,
+   "ok": false
+  }
+ },
+ "capital_country_093": {
+  "en0": {
+   "prompt": "Lusaka is the capital of",
+   "gen": " Zambia, a country",
+   "p_first": 0.7625,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Lusaka es la capital de",
+   "gen": " Zambia, un país",
+   "p_first": 0.626,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "लुसाका इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य अम",
+   "p_first": 0.148,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लुसाका जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nलुसाक",
+   "p_first": 0.3894,
+   "ok": false
+  }
+ },
+ "capital_country_094": {
+  "en0": {
+   "prompt": "Luanda is the capital of",
+   "gen": " Angola, a country",
+   "p_first": 0.9016,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Luanda es la capital de",
+   "gen": " Angola, un país",
+   "p_first": 0.8597,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "लुआंडा इस देश की राजधानी है:",
+   "gen": " लुआंडा (ल",
+   "p_first": 0.1406,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लुआंडा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nल",
+   "p_first": 0.4014,
+   "ok": false
+  }
+ },
+ "capital_country_095": {
+  "en0": {
+   "prompt": "Dakar is the capital of",
+   "gen": " Senegal, a",
+   "p_first": 0.9172,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Dakar es la capital de",
+   "gen": " Senegal y es",
+   "p_first": 0.7821,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "डकार इस देश की राजधानी है:",
+   "gen": " राष्ट्रीय र",
+   "p_first": 0.0904,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "डकार जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nड",
+   "p_first": 0.252,
+   "ok": false
+  }
+ },
+ "capital_country_096": {
+  "en0": {
+   "prompt": "Khartoum is the capital of",
+   "gen": " Sudan, a country in",
+   "p_first": 0.9051,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Jartum es la capital de",
+   "gen": " la isla de Born",
+   "p_first": 0.4207,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "खार्तूम इस देश की राजधानी है:",
+   "gen": " संयुक्त र",
+   "p_first": 0.0944,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "खार्तूम जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3023,
+   "ok": false
+  }
+ },
+ "capital_country_097": {
+  "en0": {
+   "prompt": "Antananarivo is the capital of",
+   "gen": " Madagascar, a country",
+   "p_first": 0.8622,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Antananarivo es la capital de",
+   "gen": " Madagascar y tiene una",
+   "p_first": 0.5109,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "अंतानानारिवो इस देश की राजधानी है:",
+   "gen": " श्रीलंका के",
+   "p_first": 0.3793,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अंतानानारिवो जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nअंत",
+   "p_first": 0.4159,
+   "ok": false
+  }
+ },
+ "capital_country_098": {
+  "en0": {
+   "prompt": "Maputo is the capital of",
+   "gen": " Mozambique, a country",
+   "p_first": 0.8096,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Maputo es la capital de",
+   "gen": " Mozambique, un país",
+   "p_first": 0.669,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मापुतो इस देश की राजधानी है:",
+   "gen": " जापान\nमापुतो",
+   "p_first": 0.1104,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मापुतो जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर:",
+   "p_first": 0.4057,
+   "ok": false
+  }
+ },
+ "capital_country_099": {
+  "en0": {
+   "prompt": "Sanaa is the capital of",
+   "gen": " Yemen, a country",
+   "p_first": 0.7406,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Saná es la capital de",
+   "gen": " la provincia de San",
+   "p_first": 0.8252,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "सना इस देश की राजधानी है:",
+   "gen": " भारत\nसन",
+   "p_first": 0.1668,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सना जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या ह",
+   "p_first": 0.2245,
+   "ok": false
+  }
+ },
+ "capital_country_100": {
+  "en0": {
+   "prompt": "Muscat is the capital of",
+   "gen": " Oman, a country",
+   "p_first": 0.6149,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Mascate es la capital de",
+   "gen": " la gobernación",
+   "p_first": 0.6016,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "मस्कट इस देश की राजधानी है:",
+   "gen": " संयुक्त अर",
+   "p_first": 0.2471,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मस्कट जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3278,
+   "ok": false
+  }
+ },
+ "capital_country_101": {
+  "en0": {
+   "prompt": "Doha is the capital of",
+   "gen": " Qatar, a country",
+   "p_first": 0.9218,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Doha es la capital de",
+   "gen": " Qatar, un país",
+   "p_first": 0.8449,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "दोहा इस देश की राजधानी है:",
+   "gen": " संयुक्त अर",
+   "p_first": 0.1187,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "दोहा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.311,
+   "ok": false
+  }
+ },
+ "capital_country_102": {
+  "en0": {
+   "prompt": "Amsterdam is the capital of",
+   "gen": " the Netherlands, a",
+   "p_first": 0.9054,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Ámsterdam es la capital de",
+   "gen": " los Países Bajos y es",
+   "p_first": 0.7442,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "एम्स्टर्डम इस देश की राजधानी है:",
+   "gen": " नीदरलैंड्स\n",
+   "p_first": 0.3085,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "एम्स्टर्डम जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3231,
+   "ok": false
+  }
+ },
+ "capital_country_103": {
+  "en0": {
+   "prompt": "London is the capital of",
+   "gen": " England and the United Kingdom",
+   "p_first": 0.8974,
+   "ok": false
+  },
+  "es0": {
+   "prompt": "Londres es la capital de",
+   "gen": " Inglaterra y del Reino",
+   "p_first": 0.8736,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "लंदन इस देश की राजधानी है:",
+   "gen": " भारत\nलंदन इस देश की",
+   "p_first": 0.2317,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "लंदन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर: लंदन",
+   "p_first": 0.3028,
+   "ok": false
+  }
+ },
+ "capital_country_104": {
+  "en0": {
+   "prompt": "Tirana is the capital of",
+   "gen": " Albania, a small country",
+   "p_first": 0.9602,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Tirana es la capital de",
+   "gen": " Albania, un país ubic",
+   "p_first": 0.868,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "तिराना इस देश की राजधानी है:",
+   "gen": " रोमानिया के ल",
+   "p_first": 0.2668,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "तिराना जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर:",
+   "p_first": 0.3937,
+   "ok": false
+  }
+ },
+ "capital_country_105": {
+  "en0": {
+   "prompt": "Valletta is the capital of",
+   "gen": " Malta, a small",
+   "p_first": 0.8983,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "La Valeta es la capital de",
+   "gen": " la isla de",
+   "p_first": 0.4156,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "वैलेटा इस देश की राजधानी है:",
+   "gen": " संयुक्त राज",
+   "p_first": 0.1735,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "वैलेटा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nव",
+   "p_first": 0.4544,
+   "ok": false
+  }
+ },
+ "capital_country_106": {
+  "en0": {
+   "prompt": "Nicosia is the capital of",
+   "gen": " Cyprus, a small",
+   "p_first": 0.8404,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Nicosia es la capital de",
+   "gen": " Chipre, una",
+   "p_first": 0.9335,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "निकोसिया इस देश की राजधानी है:",
+   "gen": " सिंट मार्ट",
+   "p_first": 0.2378,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "निकोसिया जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.5299,
+   "ok": false
+  }
+ },
+ "capital_country_107": {
+  "en0": {
+   "prompt": "Chisinau is the capital of",
+   "gen": " Moldova, a small",
+   "p_first": 0.7575,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Chisináu es la capital de",
+   "gen": " Moldavia, un país",
+   "p_first": 0.8455,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "चिसिनाउ इस देश की राजधानी है:",
+   "gen": " स्विट्ज़रलैं",
+   "p_first": 0.1472,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "चिसिनाउ जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nचिस",
+   "p_first": 0.298,
+   "ok": false
+  }
+ },
+ "capital_country_108": {
+  "en0": {
+   "prompt": "Tegucigalpa is the capital of",
+   "gen": " Honduras, a country in",
+   "p_first": 0.8906,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Tegucigalpa es la capital de",
+   "gen": " Honduras, un país de",
+   "p_first": 0.861,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "तेगुसिगाल्पा इस देश की राजधानी है:",
+   "gen": " स्विट्जरलैंड",
+   "p_first": 0.1168,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "तेगुसिगाल्पा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.4297,
+   "ok": false
+  }
+ },
+ "capital_country_109": {
+  "en0": {
+   "prompt": "Managua is the capital of",
+   "gen": " Nicaragua, a country in",
+   "p_first": 0.9704,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Managua es la capital de",
+   "gen": " Nicaragua, un país ubic",
+   "p_first": 0.9216,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मानागुआ इस देश की राजधानी है:",
+   "gen": " ब्राजील\nमान",
+   "p_first": 0.0935,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मानागुआ जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nमान",
+   "p_first": 0.3454,
+   "ok": false
+  }
+ },
+ "capital_country_110": {
+  "en0": {
+   "prompt": "Santo Domingo is the capital of",
+   "gen": " the Dominican Republic, a",
+   "p_first": 0.9227,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Santo Domingo es la capital de",
+   "gen": " la República Dominicana, un",
+   "p_first": 0.6873,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सैंटो डोमिंगो इस देश की राजधानी है:",
+   "gen": " हां, नहीं\nसैंटो डोम",
+   "p_first": 0.1222,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सैंटो डोमिंगो जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर: सैंटो",
+   "p_first": 0.3674,
+   "ok": false
+  }
+ },
+ "capital_country_111": {
+  "en0": {
+   "prompt": "Port-au-Prince is the capital of",
+   "gen": " Haiti, a country in",
+   "p_first": 0.9177,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Puerto Príncipe es la capital de",
+   "gen": " la República Dominicana",
+   "p_first": 0.5252,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "पोर्ट-औ-प्रिंस इस देश की राजधानी है:",
+   "gen": " संयुक्त र",
+   "p_first": 0.2193,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "पोर्ट-औ-प्रिंस जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.3416,
+   "ok": false
+  }
+ },
+ "capital_country_112": {
+  "en0": {
+   "prompt": "Kigali is the capital of",
+   "gen": " Rwanda, a small country",
+   "p_first": 0.9031,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Kigali es la capital de",
+   "gen": " Ruanda y tiene",
+   "p_first": 0.5848,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "किगाली इस देश की राजधानी है:",
+   "gen": " रिपब्लिक ऑफ क",
+   "p_first": 0.1451,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "किगाली जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.3796,
+   "ok": false
+  }
+ },
+ "capital_country_113": {
+  "en0": {
+   "prompt": "Mogadishu is the capital of",
+   "gen": " Somalia, a country",
+   "p_first": 0.9454,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Mogadiscio es la capital de",
+   "gen": " Somalia, un país",
+   "p_first": 0.8832,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "मोगादिशु इस देश की राजधानी है:",
+   "gen": " सोमालिया?\nन",
+   "p_first": 0.2345,
+   "ok": true
+  },
+  "hi1": {
+   "prompt": "मोगादिशु जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर",
+   "p_first": 0.4639,
+   "ok": false
+  }
+ },
+ "capital_country_114": {
+  "en0": {
+   "prompt": "Gaborone is the capital of",
+   "gen": " Botswana, a",
+   "p_first": 0.8666,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Gaborone es la capital de",
+   "gen": " Botsuana, un",
+   "p_first": 0.7078,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "गैबोरोन इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य अम",
+   "p_first": 0.1769,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "गैबोरोन जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर:",
+   "p_first": 0.3611,
+   "ok": false
+  }
+ },
+ "capital_country_115": {
+  "en0": {
+   "prompt": "Windhoek is the capital of",
+   "gen": " Namibia, a",
+   "p_first": 0.879,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Windhoek es la capital de",
+   "gen": " Namibia, un",
+   "p_first": 0.7639,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "विंडहोक इस देश की राजधानी है:",
+   "gen": " संयुक्त राज्य",
+   "p_first": 0.193,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "विंडहोक जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nविं",
+   "p_first": 0.3714,
+   "ok": false
+  }
+ },
+ "capital_country_116": {
+  "en0": {
+   "prompt": "Yaoundé is the capital of",
+   "gen": " Cameroon, a country",
+   "p_first": 0.6674,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Yaundé es la capital de",
+   "gen": " la República de Centro",
+   "p_first": 0.6805,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "याउंडे इस देश की राजधानी है:",
+   "gen": " संयुक्त राज",
+   "p_first": 0.0672,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "याउंडे जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.2569,
+   "ok": false
+  }
+ },
+ "capital_country_117": {
+  "en0": {
+   "prompt": "Manama is the capital of",
+   "gen": " Bahrain, a small",
+   "p_first": 0.8552,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Manama es la capital de",
+   "gen": " Bahrein y es",
+   "p_first": 0.2944,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "मनामा इस देश की राजधानी है:",
+   "gen": " भारत\nभारत",
+   "p_first": 0.1063,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "मनामा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\n",
+   "p_first": 0.2525,
+   "ok": false
+  }
+ },
+ "capital_country_118": {
+  "en0": {
+   "prompt": "Malé is the capital of",
+   "gen": " the Maldives, a",
+   "p_first": 0.8599,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Malé es la capital de",
+   "gen": " Maldivas, un país",
+   "p_first": 0.3668,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "माले इस देश की राजधानी है:",
+   "gen": " संयुक्त राज",
+   "p_first": 0.1233,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "माले जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.2969,
+   "ok": false
+  }
+ },
+ "capital_country_119": {
+  "en0": {
+   "prompt": "Suva is the capital of",
+   "gen": " Fiji, a tropical",
+   "p_first": 0.7992,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Suva es la capital de",
+   "gen": " Fiyi y es",
+   "p_first": 0.6607,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "सुवा इस देश की राजधानी है:",
+   "gen": " संयुक्त राज",
+   "p_first": 0.109,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "सुवा जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत",
+   "p_first": 0.2583,
+   "ok": false
+  }
+ },
+ "capital_country_120": {
+  "en0": {
+   "prompt": "Dushanbe is the capital of",
+   "gen": " Tajikistan, a country",
+   "p_first": 0.9196,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Dusambé es la capital de",
+   "gen": " la provincia de Cabinda, en",
+   "p_first": 0.8159,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "दुशांबे इस देश की राजधानी है:",
+   "gen": " भारत\nदुशांबे",
+   "p_first": 0.1254,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "दुशांबे जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर:",
+   "p_first": 0.3161,
+   "ok": false
+  }
+ },
+ "capital_country_121": {
+  "en0": {
+   "prompt": "Bishkek is the capital of",
+   "gen": " Kyrgyzstan, a",
+   "p_first": 0.7626,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Biskek es la capital de",
+   "gen": " Kazajistán y es",
+   "p_first": 0.3026,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "बिश्केक इस देश की राजधानी है:",
+   "gen": " क्या यह सही है?\n",
+   "p_first": 0.4568,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "बिश्केक जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर:",
+   "p_first": 0.3819,
+   "ok": false
+  }
+ },
+ "capital_country_122": {
+  "en0": {
+   "prompt": "Ashgabat is the capital of",
+   "gen": " Turkmenistan, a country",
+   "p_first": 0.9329,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Asjabad es la capital de",
+   "gen": " la provincia de Lebap,",
+   "p_first": 0.4366,
+   "ok": false
+  },
+  "hi0": {
+   "prompt": "अश्गाबात इस देश की राजधानी है:",
+   "gen": " क्या यह सच है?\nनहीं,",
+   "p_first": 0.222,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "अश्गाबात जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nअश्गाबात",
+   "p_first": 0.4117,
+   "ok": false
+  }
+ },
+ "capital_country_123": {
+  "en0": {
+   "prompt": "Skopje is the capital of",
+   "gen": " North Macedonia, a",
+   "p_first": 0.7072,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Skopie es la capital de",
+   "gen": " Macedonia del Norte y tiene una pobl",
+   "p_first": 0.6479,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "स्कोप्जे इस देश की राजधानी है:",
+   "gen": " स्विट्जरलैंड\nस्क",
+   "p_first": 0.1791,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "स्कोप्जे जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nउत्तर: स्क",
+   "p_first": 0.3188,
+   "ok": false
+  }
+ },
+ "capital_country_124": {
+  "en0": {
+   "prompt": "Podgorica is the capital of",
+   "gen": " Montenegro, a",
+   "p_first": 0.6777,
+   "ok": true
+  },
+  "es0": {
+   "prompt": "Podgorica es la capital de",
+   "gen": " Montenegro, un",
+   "p_first": 0.6653,
+   "ok": true
+  },
+  "hi0": {
+   "prompt": "पोडगोरिका इस देश की राजधानी है:",
+   "gen": " रूस\nपोडगोरिका",
+   "p_first": 0.2439,
+   "ok": false
+  },
+  "hi1": {
+   "prompt": "पोडगोरिका जिस देश की राजधानी है, उसका नाम",
+   "gen": " क्या है?\nपोडगोर",
+   "p_first": 0.4313,
+   "ok": false
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "trace_run": "analysis/run_20261012_p3trace",
+ "edit_ids": [
+  "capital_country_000"
+ ],
+ "ppl_before": 56.28346640119147,
+ "steps": 25,
+ "lr": 0.5,
+ "kl_factor": 0.0625,
+ "wd": 0.5,
+ "clamp": 4.0,
+ "prefixes": [
+  "",
+  "Fact: ",
+  "Note: ",
+  "Q: ",
+  "Did you know? "
+ ],
+ "cov_tokens": 30000,
+ "mid_layer": 14,
+ "n_valid": 66
+}
