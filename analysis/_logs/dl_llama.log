@@ -1,0 +1,13 @@
+config.json: complete (0 MiB)
+generation_config.json: complete (0 MiB)
+model.safetensors.index.json: whole file (20919 B)
+special_tokens_map.json: 0/0 MiB
+special_tokens_map.json: complete (0 MiB)
+tokenizer.json: 16/16 MiB
+tokenizer.json: 16/16 MiB
+tokenizer.json: complete (16 MiB)
+tokenizer_config.json: whole file (54669 B)
+model-00002-of-00002.safetensors: 16/1392 MiB
+model-00002-of-00002.safetensors: 32/1392 MiB
+model-00002-of-00002.safetensors: 48/1392 MiB
+model-00002-of-00002.safetensors: 64/1392 MiB
