@@ -104,7 +104,7 @@ def trace_one(model: HookedTransformer, prompt: str, subject: str, seed: int, si
     last = span[-1]
     return {"tokens": ids, "span": span, "last_subj": last, "obj": obj, "comp": comp,
             "obj_str": model.tokenizer.decode(obj), "comp_str": model.tokenizer.decode(comp),
-            "p_clean": p_clean, "p_corr": p_corr, "collapsed": bool(p_corr < 0.5 * p_clean),
+            "obj_ok": bool(model.tokenizer.decode(obj).strip()), "p_clean": p_clean, "p_corr": p_corr, "collapsed": bool(p_corr < 0.5 * p_clean),
             "score_clean": s_clean, "score_corr": s_corr, "score_clean_logits": s_clean_logits,
             "score_corr_logits": s_corr_logits, "grids": grids,
             "crit_mlp_layer": int(grids["mlp"][:, last].argmax()),

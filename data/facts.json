@@ -2,38 +2,38 @@
  "version": 1,
  "model": "Llama-3.2-3B-Instruct",
  "summary": {
-  "n_candidates": 154,
-  "n_kept": 52,
+  "n_candidates": 289,
+  "n_kept": 67,
   "per_relation": {
    "capital_country": {
-    "n": 50,
-    "en": 1.0,
-    "es": 0.78,
-    "hi_v0": 0.58,
+    "n": 125,
+    "en": 0.992,
+    "es": 0.72,
+    "hi_v0": 0.288,
     "hi_v1": 0.0,
     "hi_variant": 0,
-    "kept": 26
+    "kept": 33
    },
    "capital_of": {
-    "n": 65,
-    "en": 1.0,
-    "es": 0.6461538461538462,
-    "hi_v0": 0.5076923076923077,
-    "hi_v1": 0.4,
+    "n": 125,
+    "en": 0.984,
+    "es": 0.592,
+    "hi_v0": 0.392,
+    "hi_v1": 0.32,
     "hi_variant": 0,
-    "kept": 22
+    "kept": 32
    },
    "landmark_city": {
     "n": 39,
     "en": 0.9487179487179487,
     "es": 0.6923076923076923,
-    "hi_v0": 0.1794871794871795,
+    "hi_v0": 0.07692307692307693,
     "hi_v1": 0.10256410256410256,
-    "hi_variant": 0,
-    "kept": 4
+    "hi_variant": 1,
+    "kept": 2
    }
   },
-  "all_langs_correct_rate": 0.33766233766233766
+  "all_langs_correct_rate": 0.23183391003460208
  },
  "facts": [
   {
@@ -543,48 +543,232 @@
    }
   },
   {
-   "id": "landmark_city_003",
-   "relation": "landmark_city",
-   "seed": 1920937730,
+   "id": "capital_of_065",
+   "relation": "capital_of",
+   "seed": 1284684985,
    "hi_variant": 0,
    "lang": {
     "en": {
-     "subject": "the Statue of Liberty",
-     "object": "New York",
-     "prompt": "The Statue of Liberty is located in the city of"
+     "subject": "New Zealand",
+     "object": "Wellington",
+     "prompt": "The capital of New Zealand is"
     },
     "es": {
-     "subject": "la Estatua de la Libertad",
-     "object": "Nueva York",
-     "prompt": "La Estatua de la Libertad se encuentra en la ciudad de"
+     "subject": "Nueva Zelanda",
+     "object": "Wellington",
+     "prompt": "La capital de Nueva Zelanda es"
     },
     "hi": {
-     "subject": "स्टैच्यू ऑफ़ लिबर्टी",
-     "object": "न्यूयॉर्क",
-     "prompt": "स्टैच्यू ऑफ़ लिबर्टी इस शहर में स्थित है:"
+     "subject": "न्यूज़ीलैंड",
+     "object": "वेलिंगटन",
+     "prompt": "न्यूज़ीलैंड की राजधानी"
     }
    }
   },
   {
-   "id": "landmark_city_009",
-   "relation": "landmark_city",
-   "seed": 1078781260,
+   "id": "capital_of_068",
+   "relation": "capital_of",
+   "seed": 446884394,
    "hi_variant": 0,
    "lang": {
     "en": {
-     "subject": "the Sydney Opera House",
-     "object": "Sydney",
-     "prompt": "The Sydney Opera House is located in the city of"
+     "subject": "Costa Rica",
+     "object": "San José",
+     "prompt": "The capital of Costa Rica is"
     },
     "es": {
-     "subject": "la Ópera de Sídney",
-     "object": "Sídney",
-     "prompt": "La Ópera de Sídney se encuentra en la ciudad de"
+     "subject": "Costa Rica",
+     "object": "San José",
+     "prompt": "La capital de Costa Rica es"
     },
     "hi": {
-     "subject": "सिडनी ओपेरा हाउस",
-     "object": "सिडनी",
-     "prompt": "सिडनी ओपेरा हाउस इस शहर में स्थित है:"
+     "subject": "कोस्टा रिका",
+     "object": "सैन जोस",
+     "prompt": "कोस्टा रिका की राजधानी"
+    }
+   }
+  },
+  {
+   "id": "capital_of_078",
+   "relation": "capital_of",
+   "seed": 77739844,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Belarus",
+     "object": "Minsk",
+     "prompt": "The capital of Belarus is"
+    },
+    "es": {
+     "subject": "Bielorrusia",
+     "object": "Minsk",
+     "prompt": "La capital de Bielorrusia es"
+    },
+    "hi": {
+     "subject": "बेलारूस",
+     "object": "मिन्स्क",
+     "prompt": "बेलारूस की राजधानी"
+    }
+   }
+  },
+  {
+   "id": "capital_of_093",
+   "relation": "capital_of",
+   "seed": 1225116724,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Zambia",
+     "object": "Lusaka",
+     "prompt": "The capital of Zambia is"
+    },
+    "es": {
+     "subject": "Zambia",
+     "object": "Lusaka",
+     "prompt": "La capital de Zambia es"
+    },
+    "hi": {
+     "subject": "ज़ाम्बिया",
+     "object": "लुसाका",
+     "prompt": "ज़ाम्बिया की राजधानी"
+    }
+   }
+  },
+  {
+   "id": "capital_of_103",
+   "relation": "capital_of",
+   "seed": 491204345,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "the United Kingdom",
+     "object": "London",
+     "prompt": "The capital of the United Kingdom is"
+    },
+    "es": {
+     "subject": "el Reino Unido",
+     "object": "Londres",
+     "prompt": "La capital de el Reino Unido es"
+    },
+    "hi": {
+     "subject": "यूनाइटेड किंगडम",
+     "object": "लंदन",
+     "prompt": "यूनाइटेड किंगडम की राजधानी"
+    }
+   }
+  },
+  {
+   "id": "capital_of_104",
+   "relation": "capital_of",
+   "seed": 713316774,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Albania",
+     "object": "Tirana",
+     "prompt": "The capital of Albania is"
+    },
+    "es": {
+     "subject": "Albania",
+     "object": "Tirana",
+     "prompt": "La capital de Albania es"
+    },
+    "hi": {
+     "subject": "अल्बानिया",
+     "object": "तिराना",
+     "prompt": "अल्बानिया की राजधानी"
+    }
+   }
+  },
+  {
+   "id": "capital_of_106",
+   "relation": "capital_of",
+   "seed": 1968831155,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Cyprus",
+     "object": "Nicosia",
+     "prompt": "The capital of Cyprus is"
+    },
+    "es": {
+     "subject": "Chipre",
+     "object": "Nicosia",
+     "prompt": "La capital de Chipre es"
+    },
+    "hi": {
+     "subject": "साइप्रस",
+     "object": "निकोसिया",
+     "prompt": "साइप्रस की राजधानी"
+    }
+   }
+  },
+  {
+   "id": "capital_of_113",
+   "relation": "capital_of",
+   "seed": 1955745670,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Somalia",
+     "object": "Mogadishu",
+     "prompt": "The capital of Somalia is"
+    },
+    "es": {
+     "subject": "Somalia",
+     "object": "Mogadiscio",
+     "prompt": "La capital de Somalia es"
+    },
+    "hi": {
+     "subject": "सोमालिया",
+     "object": "मोगादिशु",
+     "prompt": "सोमालिया की राजधानी"
+    }
+   }
+  },
+  {
+   "id": "capital_of_115",
+   "relation": "capital_of",
+   "seed": 1009208647,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Namibia",
+     "object": "Windhoek",
+     "prompt": "The capital of Namibia is"
+    },
+    "es": {
+     "subject": "Namibia",
+     "object": "Windhoek",
+     "prompt": "La capital de Namibia es"
+    },
+    "hi": {
+     "subject": "नामीबिया",
+     "object": "विंडहोक",
+     "prompt": "नामीबिया की राजधानी"
+    }
+   }
+  },
+  {
+   "id": "capital_of_118",
+   "relation": "capital_of",
+   "seed": 246311498,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "the Maldives",
+     "object": "Malé",
+     "prompt": "The capital of the Maldives is"
+    },
+    "es": {
+     "subject": "las Maldivas",
+     "object": "Malé",
+     "prompt": "La capital de las Maldivas es"
+    },
+    "hi": {
+     "subject": "मालदीव",
+     "object": "माले",
+     "prompt": "मालदीव की राजधानी"
     }
    }
   },
@@ -592,7 +776,7 @@
    "id": "landmark_city_027",
    "relation": "landmark_city",
    "seed": 1022405280,
-   "hi_variant": 0,
+   "hi_variant": 1,
    "lang": {
     "en": {
      "subject": "Edinburgh Castle",
@@ -607,7 +791,7 @@
     "hi": {
      "subject": "एडिनबरा कैसल",
      "object": "एडिनबरा",
-     "prompt": "एडिनबरा कैसल इस शहर में स्थित है:"
+     "prompt": "एडिनबरा कैसल शहर में स्थित है, जिसका नाम"
     }
    }
   },
@@ -615,7 +799,7 @@
    "id": "landmark_city_038",
    "relation": "landmark_city",
    "seed": 1172465201,
-   "hi_variant": 0,
+   "hi_variant": 1,
    "lang": {
     "en": {
      "subject": "the Mysore Palace",
@@ -630,7 +814,7 @@
     "hi": {
      "subject": "मैसूर पैलेस",
      "object": "मैसूर",
-     "prompt": "मैसूर पैलेस इस शहर में स्थित है:"
+     "prompt": "मैसूर पैलेस शहर में स्थित है, जिसका नाम"
     }
    }
   },
@@ -1229,6 +1413,167 @@
      "subject": "कीव",
      "object": "यूक्रेन",
      "prompt": "कीव इस देश की राजधानी है:"
+    }
+   }
+  },
+  {
+   "id": "capital_country_053",
+   "relation": "capital_country",
+   "seed": 1171514532,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Ulaanbaatar",
+     "object": "Mongolia",
+     "prompt": "Ulaanbaatar is the capital of"
+    },
+    "es": {
+     "subject": "Ulán Bator",
+     "object": "Mongolia",
+     "prompt": "Ulán Bator es la capital de"
+    },
+    "hi": {
+     "subject": "उलानबटार",
+     "object": "मंगोलिया",
+     "prompt": "उलानबटार इस देश की राजधानी है:"
+    }
+   }
+  },
+  {
+   "id": "capital_country_059",
+   "relation": "capital_country",
+   "seed": 620352531,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Damascus",
+     "object": "Syria",
+     "prompt": "Damascus is the capital of"
+    },
+    "es": {
+     "subject": "Damasco",
+     "object": "Siria",
+     "prompt": "Damasco es la capital de"
+    },
+    "hi": {
+     "subject": "दमिश्क",
+     "object": "सीरिया",
+     "prompt": "दमिश्क इस देश की राजधानी है:"
+    }
+   }
+  },
+  {
+   "id": "capital_country_062",
+   "relation": "capital_country",
+   "seed": 346719171,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Quito",
+     "object": "Ecuador",
+     "prompt": "Quito is the capital of"
+    },
+    "es": {
+     "subject": "Quito",
+     "object": "Ecuador",
+     "prompt": "Quito es la capital de"
+    },
+    "hi": {
+     "subject": "क्विटो",
+     "object": "इक्वाडोर",
+     "prompt": "क्विटो इस देश की राजधानी है:"
+    }
+   }
+  },
+  {
+   "id": "capital_country_078",
+   "relation": "capital_country",
+   "seed": 29092536,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Minsk",
+     "object": "Belarus",
+     "prompt": "Minsk is the capital of"
+    },
+    "es": {
+     "subject": "Minsk",
+     "object": "Bielorrusia",
+     "prompt": "Minsk es la capital de"
+    },
+    "hi": {
+     "subject": "मिन्स्क",
+     "object": "बेलारूस",
+     "prompt": "मिन्स्क इस देश की राजधानी है:"
+    }
+   }
+  },
+  {
+   "id": "capital_country_079",
+   "relation": "capital_country",
+   "seed": 1743109973,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Tbilisi",
+     "object": "Georgia",
+     "prompt": "Tbilisi is the capital of"
+    },
+    "es": {
+     "subject": "Tiflis",
+     "object": "Georgia",
+     "prompt": "Tiflis es la capital de"
+    },
+    "hi": {
+     "subject": "त्बिलिसी",
+     "object": "जॉर्जिया",
+     "prompt": "त्बिलिसी इस देश की राजधानी है:"
+    }
+   }
+  },
+  {
+   "id": "capital_country_102",
+   "relation": "capital_country",
+   "seed": 532687999,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Amsterdam",
+     "object": "the Netherlands",
+     "prompt": "Amsterdam is the capital of"
+    },
+    "es": {
+     "subject": "Ámsterdam",
+     "object": "los Países Bajos",
+     "prompt": "Ámsterdam es la capital de"
+    },
+    "hi": {
+     "subject": "एम्स्टर्डम",
+     "object": "नीदरलैंड",
+     "prompt": "एम्स्टर्डम इस देश की राजधानी है:"
+    }
+   }
+  },
+  {
+   "id": "capital_country_113",
+   "relation": "capital_country",
+   "seed": 1936384467,
+   "hi_variant": 0,
+   "lang": {
+    "en": {
+     "subject": "Mogadishu",
+     "object": "Somalia",
+     "prompt": "Mogadishu is the capital of"
+    },
+    "es": {
+     "subject": "Mogadiscio",
+     "object": "Somalia",
+     "prompt": "Mogadiscio es la capital de"
+    },
+    "hi": {
+     "subject": "मोगादिशु",
+     "object": "सोमालिया",
+     "prompt": "मोगादिशु इस देश की राजधानी है:"
     }
    }
   }

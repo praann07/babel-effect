@@ -1,6 +1,6 @@
 """P1: keep candidate facts the model completes correctly in EN, ES and HI.
 
-A fact is correct in a language if the greedy continuation of its prompt, stripped, starts with the object string.
+A fact is correct in a language if the greedy continuation of its prompt, after dropping leading spaces only (a leading newline fails), starts with the object string.
 Hindi has two template variants per fact; the variant is chosen once per relation by whole-set Hindi accuracy
 (never per fact), then the fact must pass under that variant. Raw generations go to a write-once run dir.
 """
@@ -55,7 +55,7 @@ def main() -> None:
             for v, prompt in enumerate(L["prompts"]):
                 txt, p0 = complete(model, tok, prompt, L["object"])
                 r[f"{lang}{v}"] = {"prompt": prompt, "gen": txt, "p_first": round(p0, 4),
-                                   "ok": txt.strip().startswith(L["object"])}
+                                   "ok": txt.lstrip(" ").startswith(L["object"])}
         res[f["id"]] = r
     (run / "generations.json").write_text(json.dumps(res, ensure_ascii=False, indent=1), encoding="utf8")
 
