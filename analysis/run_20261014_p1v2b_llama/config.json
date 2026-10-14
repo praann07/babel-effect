@@ -1,0 +1,9 @@
+{
+ "model": "meta-llama/Llama-3.2-3B-Instruct",
+ "candidates": "data/v2/facts_candidates.json",
+ "tag": "p1v2b_llama",
+ "dtype": "bfloat16",
+ "n_new": 24,
+ "batch": 32,
+ "padding": "left"
+}

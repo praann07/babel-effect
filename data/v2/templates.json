@@ -1,0 +1,91 @@
+{
+ "model_used_for_selection": "meta-llama/Llama-3.2-3B-Instruct",
+ "n_tune": 30,
+ "templates": {
+  "capital_of": {
+   "en": [
+    "The capital of {s} is",
+    "The capital city of {s} is",
+    "{S} has its capital in the city of"
+   ],
+   "es": [
+    "La capital de {s} es la ciudad de",
+    "{S} tiene su capital en",
+    "La ciudad capital de {s} es"
+   ],
+   "hi": [
+    "{s} की राजधानी",
+    "{s} की राजधानी है",
+    "{s} देश की राजधानी"
+   ]
+  },
+  "capital_country": {
+   "en": [
+    "{S} is the capital of",
+    "{S} is the capital city of",
+    "{S} is the capital of the country of"
+   ],
+   "es": [
+    "El país cuya capital es {s} es",
+    "{S} es la capital del país de",
+    "{S} es la capital de"
+   ],
+   "hi": [
+    "वह देश जिसकी राजधानी {s} है:",
+    "{s} इस देश की राजधानी है:",
+    "{s} राजधानी है इस देश की:"
+   ]
+  },
+  "landmark_city": {
+   "en": [
+    "{S} is located in the city of",
+    "{S} stands in the city of",
+    "You can visit {s} in the city of"
+   ],
+   "es": [
+    "Se puede visitar {s} en la ciudad de",
+    "{S} es un lugar famoso de la ciudad de",
+    "{S} se halla en la ciudad de"
+   ],
+   "hi": [
+    "{s} इस शहर में है:",
+    "{s} इस शहर में स्थित है:",
+    "{s} शहर में स्थित है, जिसका नाम"
+   ]
+  },
+  "invention_inventor": {
+   "en": [
+    "{S} was invented by",
+    "{S} was created by",
+    "The person credited with inventing {s} is"
+   ],
+   "es": [
+    "La invención de {s} se atribuye a",
+    "La persona que inventó {s} es",
+    "Quien inventó {s} fue"
+   ],
+   "hi": [
+    "{s} का आविष्कार किया था",
+    "{s} का आविष्कार इस व्यक्ति ने किया था:",
+    "{s} के आविष्कारक का नाम है:"
+   ]
+  },
+  "event_year": {
+   "en": [
+    "{S} took place in the year",
+    "{S} occurred in the year",
+    "The year of {s} was"
+   ],
+   "es": [
+    "{S} tuvo lugar en el año",
+    "{S} sucedió en el año",
+    "El año de {s} fue"
+   ],
+   "hi": [
+    "{s} साल",
+    "{s} सन्",
+    "{s} वर्ष"
+   ]
+  }
+ }
+}

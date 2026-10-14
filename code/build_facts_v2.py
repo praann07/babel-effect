@@ -197,7 +197,16 @@ def make(rel: str, idx: int, subj: tuple[str, ...], obj: tuple[str, ...], alts: 
     return f
 
 
+def load_templates() -> dict:
+    p = Path("data/v2/templates.json")
+    if p.exists():
+        return json.loads(p.read_text(encoding="utf8"))["templates"]
+    return TEMPLATES
+
+
 def main() -> None:
+    global TEMPLATES
+    TEMPLATES = load_templates()
     facts = [make("capital_of", i, c, k) for i, (c, k) in enumerate(CAPITALS)]
     facts += [make("capital_country", i, k, c) for i, (c, k) in enumerate(CAPITALS)]
     facts += [make("landmark_city", i, l, c) for i, (l, c) in enumerate(LANDMARKS + LANDMARKS2)]

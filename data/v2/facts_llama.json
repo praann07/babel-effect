@@ -1,0 +1,5192 @@
+{
+ "version": 2,
+ "model": "meta-llama/Llama-3.2-3B-Instruct",
+ "summary": {
+  "n_candidates": 408,
+  "n_kept": 93,
+  "per_relation": {
+   "capital_of": {
+    "n": 125,
+    "kept": 27,
+    "en_p0": 123,
+    "en_p1": 121,
+    "en_p2": 121,
+    "es_p0": 96,
+    "es_p1": 85,
+    "es_p2": 86,
+    "hi_p0": 50,
+    "hi_p1": 41,
+    "hi_p2": 17
+   },
+   "capital_country": {
+    "n": 125,
+    "kept": 38,
+    "en_p0": 124,
+    "en_p1": 125,
+    "en_p2": 125,
+    "es_p0": 95,
+    "es_p1": 99,
+    "es_p2": 101,
+    "hi_p0": 63,
+    "hi_p1": 43,
+    "hi_p2": 36
+   },
+   "landmark_city": {
+    "n": 81,
+    "kept": 6,
+    "en_p0": 71,
+    "en_p1": 75,
+    "en_p2": 75,
+    "es_p0": 49,
+    "es_p1": 54,
+    "es_p2": 55,
+    "hi_p0": 17,
+    "hi_p1": 9,
+    "hi_p2": 8
+   },
+   "invention_inventor": {
+    "n": 40,
+    "kept": 0,
+    "en_p0": 29,
+    "en_p1": 31,
+    "en_p2": 29,
+    "es_p0": 24,
+    "es_p1": 16,
+    "es_p2": 18,
+    "hi_p0": 1,
+    "hi_p1": 0,
+    "hi_p2": 0
+   },
+   "event_year": {
+    "n": 37,
+    "kept": 22,
+    "en_p0": 37,
+    "en_p1": 37,
+    "en_p2": 37,
+    "es_p0": 35,
+    "es_p1": 34,
+    "es_p2": 33,
+    "hi_p0": 25,
+    "hi_p1": 24,
+    "hi_p2": 22
+   }
+  }
+ },
+ "facts": [
+  {
+   "id": "capital_of_000",
+   "relation": "capital_of",
+   "seed": 1165492875,
+   "lang": {
+    "en": {
+     "subject": "France",
+     "object": "Paris",
+     "object_alts": [],
+     "prompts": [
+      "The capital of France is",
+      "The capital city of France is",
+      "France has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Paris"
+    },
+    "es": {
+     "subject": "Francia",
+     "object": "París",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Francia es la ciudad de",
+      "Francia tiene su capital en",
+      "La ciudad capital de Francia es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "París"
+    },
+    "hi": {
+     "subject": "फ्रांस",
+     "object": "पेरिस",
+     "object_alts": [],
+     "prompts": [
+      "फ्रांस की राजधानी",
+      "फ्रांस की राजधानी है",
+      "फ्रांस देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "पेरिस"
+    }
+   }
+  },
+  {
+   "id": "capital_of_003",
+   "relation": "capital_of",
+   "seed": 1936813410,
+   "lang": {
+    "en": {
+     "subject": "Spain",
+     "object": "Madrid",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Spain is",
+      "The capital city of Spain is",
+      "Spain has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Madrid"
+    },
+    "es": {
+     "subject": "España",
+     "object": "Madrid",
+     "object_alts": [],
+     "prompts": [
+      "La capital de España es la ciudad de",
+      "España tiene su capital en",
+      "La ciudad capital de España es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Madrid"
+    },
+    "hi": {
+     "subject": "स्पेन",
+     "object": "मैड्रिड",
+     "object_alts": [],
+     "prompts": [
+      "स्पेन की राजधानी",
+      "स्पेन की राजधानी है",
+      "स्पेन देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "मैड्रिड"
+    }
+   }
+  },
+  {
+   "id": "capital_of_004",
+   "relation": "capital_of",
+   "seed": 908758428,
+   "lang": {
+    "en": {
+     "subject": "Portugal",
+     "object": "Lisbon",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Portugal is",
+      "The capital city of Portugal is",
+      "Portugal has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Lisbon"
+    },
+    "es": {
+     "subject": "Portugal",
+     "object": "Lisboa",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Portugal es la ciudad de",
+      "Portugal tiene su capital en",
+      "La ciudad capital de Portugal es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Lisboa"
+    },
+    "hi": {
+     "subject": "पुर्तगाल",
+     "object": "लिस्बन",
+     "object_alts": [],
+     "prompts": [
+      "पुर्तगाल की राजधानी",
+      "पुर्तगाल की राजधानी है",
+      "पुर्तगाल देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "लिस्बन"
+    }
+   }
+  },
+  {
+   "id": "capital_of_005",
+   "relation": "capital_of",
+   "seed": 2051902092,
+   "lang": {
+    "en": {
+     "subject": "Japan",
+     "object": "Tokyo",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Japan is",
+      "The capital city of Japan is",
+      "Japan has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Tokyo"
+    },
+    "es": {
+     "subject": "Japón",
+     "object": "Tokio",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Japón es la ciudad de",
+      "Japón tiene su capital en",
+      "La ciudad capital de Japón es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Tokio"
+    },
+    "hi": {
+     "subject": "जापान",
+     "object": "टोक्यो",
+     "object_alts": [],
+     "prompts": [
+      "जापान की राजधानी",
+      "जापान की राजधानी है",
+      "जापान देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "टोक्यो"
+    }
+   }
+  },
+  {
+   "id": "capital_of_007",
+   "relation": "capital_of",
+   "seed": 1995458461,
+   "lang": {
+    "en": {
+     "subject": "India",
+     "object": "New Delhi",
+     "object_alts": [],
+     "prompts": [
+      "The capital of India is",
+      "The capital city of India is",
+      "India has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "New Delhi"
+    },
+    "es": {
+     "subject": "India",
+     "object": "Nueva Delhi",
+     "object_alts": [],
+     "prompts": [
+      "La capital de India es la ciudad de",
+      "India tiene su capital en",
+      "La ciudad capital de India es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Nueva Delhi"
+    },
+    "hi": {
+     "subject": "भारत",
+     "object": "नई दिल्ली",
+     "object_alts": [],
+     "prompts": [
+      "भारत की राजधानी",
+      "भारत की राजधानी है",
+      "भारत देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "नई दिल्ली"
+    }
+   }
+  },
+  {
+   "id": "capital_of_008",
+   "relation": "capital_of",
+   "seed": 161385159,
+   "lang": {
+    "en": {
+     "subject": "Russia",
+     "object": "Moscow",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Russia is",
+      "The capital city of Russia is",
+      "Russia has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Moscow"
+    },
+    "es": {
+     "subject": "Rusia",
+     "object": "Moscú",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Rusia es la ciudad de",
+      "Rusia tiene su capital en",
+      "La ciudad capital de Rusia es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Moscú"
+    },
+    "hi": {
+     "subject": "रूस",
+     "object": "मॉस्को",
+     "object_alts": [],
+     "prompts": [
+      "रूस की राजधानी",
+      "रूस की राजधानी है",
+      "रूस देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "मॉस्को"
+    }
+   }
+  },
+  {
+   "id": "capital_of_010",
+   "relation": "capital_of",
+   "seed": 1420742404,
+   "lang": {
+    "en": {
+     "subject": "Argentina",
+     "object": "Buenos Aires",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Argentina is",
+      "The capital city of Argentina is",
+      "Argentina has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Buenos Aires"
+    },
+    "es": {
+     "subject": "Argentina",
+     "object": "Buenos Aires",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Argentina es la ciudad de",
+      "Argentina tiene su capital en",
+      "La ciudad capital de Argentina es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Buenos Aires"
+    },
+    "hi": {
+     "subject": "अर्जेंटीना",
+     "object": "ब्यूनस आयर्स",
+     "object_alts": [],
+     "prompts": [
+      "अर्जेंटीना की राजधानी",
+      "अर्जेंटीना की राजधानी है",
+      "अर्जेंटीना देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "ब्यूनस आयर्स"
+    }
+   }
+  },
+  {
+   "id": "capital_of_016",
+   "relation": "capital_of",
+   "seed": 1110069199,
+   "lang": {
+    "en": {
+     "subject": "Sweden",
+     "object": "Stockholm",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Sweden is",
+      "The capital city of Sweden is",
+      "Sweden has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Stockholm"
+    },
+    "es": {
+     "subject": "Suecia",
+     "object": "Estocolmo",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Suecia es la ciudad de",
+      "Suecia tiene su capital en",
+      "La ciudad capital de Suecia es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Estocolmo"
+    },
+    "hi": {
+     "subject": "स्वीडन",
+     "object": "स्टॉकहोम",
+     "object_alts": [],
+     "prompts": [
+      "स्वीडन की राजधानी",
+      "स्वीडन की राजधानी है",
+      "स्वीडन देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "स्टॉकहोम"
+    }
+   }
+  },
+  {
+   "id": "capital_of_020",
+   "relation": "capital_of",
+   "seed": 8526887,
+   "lang": {
+    "en": {
+     "subject": "Poland",
+     "object": "Warsaw",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Poland is",
+      "The capital city of Poland is",
+      "Poland has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Warsaw"
+    },
+    "es": {
+     "subject": "Polonia",
+     "object": "Varsovia",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Polonia es la ciudad de",
+      "Polonia tiene su capital en",
+      "La ciudad capital de Polonia es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Varsovia"
+    },
+    "hi": {
+     "subject": "पोलैंड",
+     "object": "वारसॉ",
+     "object_alts": [],
+     "prompts": [
+      "पोलैंड की राजधानी",
+      "पोलैंड की राजधानी है",
+      "पोलैंड देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "वारसॉ"
+    }
+   }
+  },
+  {
+   "id": "capital_of_021",
+   "relation": "capital_of",
+   "seed": 1361082750,
+   "lang": {
+    "en": {
+     "subject": "Austria",
+     "object": "Vienna",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Austria is",
+      "The capital city of Austria is",
+      "Austria has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Vienna"
+    },
+    "es": {
+     "subject": "Austria",
+     "object": "Viena",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Austria es la ciudad de",
+      "Austria tiene su capital en",
+      "La ciudad capital de Austria es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Viena"
+    },
+    "hi": {
+     "subject": "ऑस्ट्रिया",
+     "object": "वियना",
+     "object_alts": [],
+     "prompts": [
+      "ऑस्ट्रिया की राजधानी",
+      "ऑस्ट्रिया की राजधानी है",
+      "ऑस्ट्रिया देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "वियना"
+    }
+   }
+  },
+  {
+   "id": "capital_of_027",
+   "relation": "capital_of",
+   "seed": 446473316,
+   "lang": {
+    "en": {
+     "subject": "Colombia",
+     "object": "Bogotá",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Colombia is",
+      "The capital city of Colombia is",
+      "Colombia has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Bogotá"
+    },
+    "es": {
+     "subject": "Colombia",
+     "object": "Bogotá",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Colombia es la ciudad de",
+      "Colombia tiene su capital en",
+      "La ciudad capital de Colombia es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Bogotá"
+    },
+    "hi": {
+     "subject": "कोलंबिया",
+     "object": "बोगोटा",
+     "object_alts": [],
+     "prompts": [
+      "कोलंबिया की राजधानी",
+      "कोलंबिया की राजधानी है",
+      "कोलंबिया देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "बोगोटा"
+    }
+   }
+  },
+  {
+   "id": "capital_of_028",
+   "relation": "capital_of",
+   "seed": 1313585871,
+   "lang": {
+    "en": {
+     "subject": "Venezuela",
+     "object": "Caracas",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Venezuela is",
+      "The capital city of Venezuela is",
+      "Venezuela has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Caracas"
+    },
+    "es": {
+     "subject": "Venezuela",
+     "object": "Caracas",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Venezuela es la ciudad de",
+      "Venezuela tiene su capital en",
+      "La ciudad capital de Venezuela es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Caracas"
+    },
+    "hi": {
+     "subject": "वेनेज़ुएला",
+     "object": "काराकास",
+     "object_alts": [],
+     "prompts": [
+      "वेनेज़ुएला की राजधानी",
+      "वेनेज़ुएला की राजधानी है",
+      "वेनेज़ुएला देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "काराकास"
+    }
+   }
+  },
+  {
+   "id": "capital_of_029",
+   "relation": "capital_of",
+   "seed": 406299221,
+   "lang": {
+    "en": {
+     "subject": "Thailand",
+     "object": "Bangkok",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Thailand is",
+      "The capital city of Thailand is",
+      "Thailand has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Bangkok"
+    },
+    "es": {
+     "subject": "Tailandia",
+     "object": "Bangkok",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Tailandia es la ciudad de",
+      "Tailandia tiene su capital en",
+      "La ciudad capital de Tailandia es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Bangkok"
+    },
+    "hi": {
+     "subject": "थाईलैंड",
+     "object": "बैंकॉक",
+     "object_alts": [],
+     "prompts": [
+      "थाईलैंड की राजधानी",
+      "थाईलैंड की राजधानी है",
+      "थाईलैंड देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "बैंकॉक"
+    }
+   }
+  },
+  {
+   "id": "capital_of_032",
+   "relation": "capital_of",
+   "seed": 504611287,
+   "lang": {
+    "en": {
+     "subject": "Pakistan",
+     "object": "Islamabad",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Pakistan is",
+      "The capital city of Pakistan is",
+      "Pakistan has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Islamabad"
+    },
+    "es": {
+     "subject": "Pakistán",
+     "object": "Islamabad",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Pakistán es la ciudad de",
+      "Pakistán tiene su capital en",
+      "La ciudad capital de Pakistán es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Islamabad"
+    },
+    "hi": {
+     "subject": "पाकिस्तान",
+     "object": "इस्लामाबाद",
+     "object_alts": [],
+     "prompts": [
+      "पाकिस्तान की राजधानी",
+      "पाकिस्तान की राजधानी है",
+      "पाकिस्तान देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "इस्लामाबाद"
+    }
+   }
+  },
+  {
+   "id": "capital_of_035",
+   "relation": "capital_of",
+   "seed": 91056139,
+   "lang": {
+    "en": {
+     "subject": "Sri Lanka",
+     "object": "Colombo",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Sri Lanka is",
+      "The capital city of Sri Lanka is",
+      "Sri Lanka has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Colombo"
+    },
+    "es": {
+     "subject": "Sri Lanka",
+     "object": "Colombo",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Sri Lanka es la ciudad de",
+      "Sri Lanka tiene su capital en",
+      "La ciudad capital de Sri Lanka es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Colombo"
+    },
+    "hi": {
+     "subject": "श्रीलंका",
+     "object": "कोलंबो",
+     "object_alts": [],
+     "prompts": [
+      "श्रीलंका की राजधानी",
+      "श्रीलंका की राजधानी है",
+      "श्रीलंका देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "कोलंबो"
+    }
+   }
+  },
+  {
+   "id": "capital_of_046",
+   "relation": "capital_of",
+   "seed": 184532903,
+   "lang": {
+    "en": {
+     "subject": "Hungary",
+     "object": "Budapest",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Hungary is",
+      "The capital city of Hungary is",
+      "Hungary has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Budapest"
+    },
+    "es": {
+     "subject": "Hungría",
+     "object": "Budapest",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Hungría es la ciudad de",
+      "Hungría tiene su capital en",
+      "La ciudad capital de Hungría es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Budapest"
+    },
+    "hi": {
+     "subject": "हंगरी",
+     "object": "बुडापेस्ट",
+     "object_alts": [],
+     "prompts": [
+      "हंगरी की राजधानी",
+      "हंगरी की राजधानी है",
+      "हंगरी देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "बुडापेस्ट"
+    }
+   }
+  },
+  {
+   "id": "capital_of_049",
+   "relation": "capital_of",
+   "seed": 905248288,
+   "lang": {
+    "en": {
+     "subject": "Bulgaria",
+     "object": "Sofia",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Bulgaria is",
+      "The capital city of Bulgaria is",
+      "Bulgaria has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Sofia"
+    },
+    "es": {
+     "subject": "Bulgaria",
+     "object": "Sofía",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Bulgaria es la ciudad de",
+      "Bulgaria tiene su capital en",
+      "La ciudad capital de Bulgaria es"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "Sofía"
+    },
+    "hi": {
+     "subject": "बुल्गारिया",
+     "object": "सोफिया",
+     "object_alts": [],
+     "prompts": [
+      "बुल्गारिया की राजधानी",
+      "बुल्गारिया की राजधानी है",
+      "बुल्गारिया देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "सोफिया"
+    }
+   }
+  },
+  {
+   "id": "capital_of_057",
+   "relation": "capital_of",
+   "seed": 1996972697,
+   "lang": {
+    "en": {
+     "subject": "Jordan",
+     "object": "Amman",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Jordan is",
+      "The capital city of Jordan is",
+      "Jordan has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Amman"
+    },
+    "es": {
+     "subject": "Jordania",
+     "object": "Amán",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Jordania es la ciudad de",
+      "Jordania tiene su capital en",
+      "La ciudad capital de Jordania es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Amán"
+    },
+    "hi": {
+     "subject": "जॉर्डन",
+     "object": "अम्मान",
+     "object_alts": [],
+     "prompts": [
+      "जॉर्डन की राजधानी",
+      "जॉर्डन की राजधानी है",
+      "जॉर्डन देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "अम्मान"
+    }
+   }
+  },
+  {
+   "id": "capital_of_059",
+   "relation": "capital_of",
+   "seed": 19398460,
+   "lang": {
+    "en": {
+     "subject": "Syria",
+     "object": "Damascus",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Syria is",
+      "The capital city of Syria is",
+      "Syria has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Damascus"
+    },
+    "es": {
+     "subject": "Siria",
+     "object": "Damasco",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Siria es la ciudad de",
+      "Siria tiene su capital en",
+      "La ciudad capital de Siria es"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "Damasco"
+    },
+    "hi": {
+     "subject": "सीरिया",
+     "object": "दमिश्क",
+     "object_alts": [],
+     "prompts": [
+      "सीरिया की राजधानी",
+      "सीरिया की राजधानी है",
+      "सीरिया देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "दमिश्क"
+    }
+   }
+  },
+  {
+   "id": "capital_of_065",
+   "relation": "capital_of",
+   "seed": 1284684985,
+   "lang": {
+    "en": {
+     "subject": "New Zealand",
+     "object": "Wellington",
+     "object_alts": [],
+     "prompts": [
+      "The capital of New Zealand is",
+      "The capital city of New Zealand is",
+      "New Zealand has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Wellington"
+    },
+    "es": {
+     "subject": "Nueva Zelanda",
+     "object": "Wellington",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Nueva Zelanda es la ciudad de",
+      "Nueva Zelanda tiene su capital en",
+      "La ciudad capital de Nueva Zelanda es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Wellington"
+    },
+    "hi": {
+     "subject": "न्यूज़ीलैंड",
+     "object": "वेलिंगटन",
+     "object_alts": [],
+     "prompts": [
+      "न्यूज़ीलैंड की राजधानी",
+      "न्यूज़ीलैंड की राजधानी है",
+      "न्यूज़ीलैंड देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "वेलिंगटन"
+    }
+   }
+  },
+  {
+   "id": "capital_of_068",
+   "relation": "capital_of",
+   "seed": 446884394,
+   "lang": {
+    "en": {
+     "subject": "Costa Rica",
+     "object": "San José",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Costa Rica is",
+      "The capital city of Costa Rica is",
+      "Costa Rica has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "San José"
+    },
+    "es": {
+     "subject": "Costa Rica",
+     "object": "San José",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Costa Rica es la ciudad de",
+      "Costa Rica tiene su capital en",
+      "La ciudad capital de Costa Rica es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "San José"
+    },
+    "hi": {
+     "subject": "कोस्टा रिका",
+     "object": "सैन जोस",
+     "object_alts": [],
+     "prompts": [
+      "कोस्टा रिका की राजधानी",
+      "कोस्टा रिका की राजधानी है",
+      "कोस्टा रिका देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "सैन जोस"
+    }
+   }
+  },
+  {
+   "id": "capital_of_078",
+   "relation": "capital_of",
+   "seed": 77739844,
+   "lang": {
+    "en": {
+     "subject": "Belarus",
+     "object": "Minsk",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Belarus is",
+      "The capital city of Belarus is",
+      "Belarus has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Minsk"
+    },
+    "es": {
+     "subject": "Bielorrusia",
+     "object": "Minsk",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Bielorrusia es la ciudad de",
+      "Bielorrusia tiene su capital en",
+      "La ciudad capital de Bielorrusia es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Minsk"
+    },
+    "hi": {
+     "subject": "बेलारूस",
+     "object": "मिन्स्क",
+     "object_alts": [],
+     "prompts": [
+      "बेलारूस की राजधानी",
+      "बेलारूस की राजधानी है",
+      "बेलारूस देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "मिन्स्क"
+    }
+   }
+  },
+  {
+   "id": "capital_of_081",
+   "relation": "capital_of",
+   "seed": 289834539,
+   "lang": {
+    "en": {
+     "subject": "Azerbaijan",
+     "object": "Baku",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Azerbaijan is",
+      "The capital city of Azerbaijan is",
+      "Azerbaijan has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Baku"
+    },
+    "es": {
+     "subject": "Azerbaiyán",
+     "object": "Bakú",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Azerbaiyán es la ciudad de",
+      "Azerbaiyán tiene su capital en",
+      "La ciudad capital de Azerbaiyán es"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "Bakú"
+    },
+    "hi": {
+     "subject": "अज़रबैजान",
+     "object": "बाकू",
+     "object_alts": [],
+     "prompts": [
+      "अज़रबैजान की राजधानी",
+      "अज़रबैजान की राजधानी है",
+      "अज़रबैजान देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "बाकू"
+    }
+   }
+  },
+  {
+   "id": "capital_of_103",
+   "relation": "capital_of",
+   "seed": 491204345,
+   "lang": {
+    "en": {
+     "subject": "the United Kingdom",
+     "object": "London",
+     "object_alts": [],
+     "prompts": [
+      "The capital of the United Kingdom is",
+      "The capital city of the United Kingdom is",
+      "The United Kingdom has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "London"
+    },
+    "es": {
+     "subject": "el Reino Unido",
+     "object": "Londres",
+     "object_alts": [],
+     "prompts": [
+      "La capital del Reino Unido es la ciudad de",
+      "El Reino Unido tiene su capital en",
+      "La ciudad capital del Reino Unido es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Londres"
+    },
+    "hi": {
+     "subject": "यूनाइटेड किंगडम",
+     "object": "लंदन",
+     "object_alts": [],
+     "prompts": [
+      "यूनाइटेड किंगडम की राजधानी",
+      "यूनाइटेड किंगडम की राजधानी है",
+      "यूनाइटेड किंगडम देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "लंदन"
+    }
+   }
+  },
+  {
+   "id": "capital_of_104",
+   "relation": "capital_of",
+   "seed": 713316774,
+   "lang": {
+    "en": {
+     "subject": "Albania",
+     "object": "Tirana",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Albania is",
+      "The capital city of Albania is",
+      "Albania has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Tirana"
+    },
+    "es": {
+     "subject": "Albania",
+     "object": "Tirana",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Albania es la ciudad de",
+      "Albania tiene su capital en",
+      "La ciudad capital de Albania es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Tirana"
+    },
+    "hi": {
+     "subject": "अल्बानिया",
+     "object": "तिराना",
+     "object_alts": [],
+     "prompts": [
+      "अल्बानिया की राजधानी",
+      "अल्बानिया की राजधानी है",
+      "अल्बानिया देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "तिराना"
+    }
+   }
+  },
+  {
+   "id": "capital_of_106",
+   "relation": "capital_of",
+   "seed": 1968831155,
+   "lang": {
+    "en": {
+     "subject": "Cyprus",
+     "object": "Nicosia",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Cyprus is",
+      "The capital city of Cyprus is",
+      "Cyprus has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Nicosia"
+    },
+    "es": {
+     "subject": "Chipre",
+     "object": "Nicosia",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Chipre es la ciudad de",
+      "Chipre tiene su capital en",
+      "La ciudad capital de Chipre es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Nicosia"
+    },
+    "hi": {
+     "subject": "साइप्रस",
+     "object": "निकोसिया",
+     "object_alts": [],
+     "prompts": [
+      "साइप्रस की राजधानी",
+      "साइप्रस की राजधानी है",
+      "साइप्रस देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "निकोसिया"
+    }
+   }
+  },
+  {
+   "id": "capital_of_115",
+   "relation": "capital_of",
+   "seed": 1009208647,
+   "lang": {
+    "en": {
+     "subject": "Namibia",
+     "object": "Windhoek",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Namibia is",
+      "The capital city of Namibia is",
+      "Namibia has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Windhoek"
+    },
+    "es": {
+     "subject": "Namibia",
+     "object": "Windhoek",
+     "object_alts": [],
+     "prompts": [
+      "La capital de Namibia es la ciudad de",
+      "Namibia tiene su capital en",
+      "La ciudad capital de Namibia es"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Windhoek"
+    },
+    "hi": {
+     "subject": "नामीबिया",
+     "object": "विंडहोक",
+     "object_alts": [],
+     "prompts": [
+      "नामीबिया की राजधानी",
+      "नामीबिया की राजधानी है",
+      "नामीबिया देश की राजधानी"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "विंडहोक"
+    }
+   }
+  },
+  {
+   "id": "capital_country_000",
+   "relation": "capital_country",
+   "seed": 33274921,
+   "lang": {
+    "en": {
+     "subject": "Paris",
+     "object": "France",
+     "object_alts": [],
+     "prompts": [
+      "Paris is the capital of",
+      "Paris is the capital city of",
+      "Paris is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "France"
+    },
+    "es": {
+     "subject": "París",
+     "object": "Francia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es París es",
+      "París es la capital del país de",
+      "París es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Francia"
+    },
+    "hi": {
+     "subject": "पेरिस",
+     "object": "फ्रांस",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी पेरिस है:",
+      "पेरिस इस देश की राजधानी है:",
+      "पेरिस राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "फ्रांस"
+    }
+   }
+  },
+  {
+   "id": "capital_country_001",
+   "relation": "capital_country",
+   "seed": 193870771,
+   "lang": {
+    "en": {
+     "subject": "Berlin",
+     "object": "Germany",
+     "object_alts": [],
+     "prompts": [
+      "Berlin is the capital of",
+      "Berlin is the capital city of",
+      "Berlin is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Germany"
+    },
+    "es": {
+     "subject": "Berlín",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Berlín es",
+      "Berlín es la capital del país de",
+      "Berlín es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Alemania"
+    },
+    "hi": {
+     "subject": "बर्लिन",
+     "object": "जर्मनी",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी बर्लिन है:",
+      "बर्लिन इस देश की राजधानी है:",
+      "बर्लिन राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "जर्मनी"
+    }
+   }
+  },
+  {
+   "id": "capital_country_002",
+   "relation": "capital_country",
+   "seed": 1082944870,
+   "lang": {
+    "en": {
+     "subject": "Rome",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "Rome is the capital of",
+      "Rome is the capital city of",
+      "Rome is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Italy"
+    },
+    "es": {
+     "subject": "Roma",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Roma es",
+      "Roma es la capital del país de",
+      "Roma es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Italia"
+    },
+    "hi": {
+     "subject": "रोम",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी रोम है:",
+      "रोम इस देश की राजधानी है:",
+      "रोम राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "इटली"
+    }
+   }
+  },
+  {
+   "id": "capital_country_003",
+   "relation": "capital_country",
+   "seed": 1232131261,
+   "lang": {
+    "en": {
+     "subject": "Madrid",
+     "object": "Spain",
+     "object_alts": [],
+     "prompts": [
+      "Madrid is the capital of",
+      "Madrid is the capital city of",
+      "Madrid is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Spain"
+    },
+    "es": {
+     "subject": "Madrid",
+     "object": "España",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Madrid es",
+      "Madrid es la capital del país de",
+      "Madrid es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "España"
+    },
+    "hi": {
+     "subject": "मैड्रिड",
+     "object": "स्पेन",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी मैड्रिड है:",
+      "मैड्रिड इस देश की राजधानी है:",
+      "मैड्रिड राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "स्पेन"
+    }
+   }
+  },
+  {
+   "id": "capital_country_004",
+   "relation": "capital_country",
+   "seed": 1821269717,
+   "lang": {
+    "en": {
+     "subject": "Lisbon",
+     "object": "Portugal",
+     "object_alts": [],
+     "prompts": [
+      "Lisbon is the capital of",
+      "Lisbon is the capital city of",
+      "Lisbon is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Portugal"
+    },
+    "es": {
+     "subject": "Lisboa",
+     "object": "Portugal",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Lisboa es",
+      "Lisboa es la capital del país de",
+      "Lisboa es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Portugal"
+    },
+    "hi": {
+     "subject": "लिस्बन",
+     "object": "पुर्तगाल",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी लिस्बन है:",
+      "लिस्बन इस देश की राजधानी है:",
+      "लिस्बन राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "पुर्तगाल"
+    }
+   }
+  },
+  {
+   "id": "capital_country_005",
+   "relation": "capital_country",
+   "seed": 1525537563,
+   "lang": {
+    "en": {
+     "subject": "Tokyo",
+     "object": "Japan",
+     "object_alts": [],
+     "prompts": [
+      "Tokyo is the capital of",
+      "Tokyo is the capital city of",
+      "Tokyo is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Japan"
+    },
+    "es": {
+     "subject": "Tokio",
+     "object": "Japón",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Tokio es",
+      "Tokio es la capital del país de",
+      "Tokio es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Japón"
+    },
+    "hi": {
+     "subject": "टोक्यो",
+     "object": "जापान",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी टोक्यो है:",
+      "टोक्यो इस देश की राजधानी है:",
+      "टोक्यो राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "जापान"
+    }
+   }
+  },
+  {
+   "id": "capital_country_006",
+   "relation": "capital_country",
+   "seed": 420686161,
+   "lang": {
+    "en": {
+     "subject": "Beijing",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Beijing is the capital of",
+      "Beijing is the capital city of",
+      "Beijing is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "China"
+    },
+    "es": {
+     "subject": "Pekín",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Pekín es",
+      "Pekín es la capital del país de",
+      "Pekín es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "China"
+    },
+    "hi": {
+     "subject": "बीजिंग",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी बीजिंग है:",
+      "बीजिंग इस देश की राजधानी है:",
+      "बीजिंग राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "चीन"
+    }
+   }
+  },
+  {
+   "id": "capital_country_008",
+   "relation": "capital_country",
+   "seed": 1351235485,
+   "lang": {
+    "en": {
+     "subject": "Moscow",
+     "object": "Russia",
+     "object_alts": [],
+     "prompts": [
+      "Moscow is the capital of",
+      "Moscow is the capital city of",
+      "Moscow is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Russia"
+    },
+    "es": {
+     "subject": "Moscú",
+     "object": "Rusia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Moscú es",
+      "Moscú es la capital del país de",
+      "Moscú es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Rusia"
+    },
+    "hi": {
+     "subject": "मॉस्को",
+     "object": "रूस",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी मॉस्को है:",
+      "मॉस्को इस देश की राजधानी है:",
+      "मॉस्को राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "रूस"
+    }
+   }
+  },
+  {
+   "id": "capital_country_009",
+   "relation": "capital_country",
+   "seed": 1178685690,
+   "lang": {
+    "en": {
+     "subject": "Brasília",
+     "object": "Brazil",
+     "object_alts": [],
+     "prompts": [
+      "Brasília is the capital of",
+      "Brasília is the capital city of",
+      "Brasília is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Brazil"
+    },
+    "es": {
+     "subject": "Brasilia",
+     "object": "Brasil",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Brasilia es",
+      "Brasilia es la capital del país de",
+      "Brasilia es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Brasil"
+    },
+    "hi": {
+     "subject": "ब्रासीलिया",
+     "object": "ब्राज़ील",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी ब्रासीलिया है:",
+      "ब्रासीलिया इस देश की राजधानी है:",
+      "ब्रासीलिया राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "ब्राज़ील"
+    }
+   }
+  },
+  {
+   "id": "capital_country_010",
+   "relation": "capital_country",
+   "seed": 167474524,
+   "lang": {
+    "en": {
+     "subject": "Buenos Aires",
+     "object": "Argentina",
+     "object_alts": [],
+     "prompts": [
+      "Buenos Aires is the capital of",
+      "Buenos Aires is the capital city of",
+      "Buenos Aires is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Argentina"
+    },
+    "es": {
+     "subject": "Buenos Aires",
+     "object": "Argentina",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Buenos Aires es",
+      "Buenos Aires es la capital del país de",
+      "Buenos Aires es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Argentina"
+    },
+    "hi": {
+     "subject": "ब्यूनस आयर्स",
+     "object": "अर्जेंटीना",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी ब्यूनस आयर्स है:",
+      "ब्यूनस आयर्स इस देश की राजधानी है:",
+      "ब्यूनस आयर्स राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "अर्जेंटीना"
+    }
+   }
+  },
+  {
+   "id": "capital_country_011",
+   "relation": "capital_country",
+   "seed": 1199343797,
+   "lang": {
+    "en": {
+     "subject": "Mexico City",
+     "object": "Mexico",
+     "object_alts": [],
+     "prompts": [
+      "Mexico City is the capital of",
+      "Mexico City is the capital city of",
+      "Mexico City is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Mexico"
+    },
+    "es": {
+     "subject": "Ciudad de México",
+     "object": "México",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Ciudad de México es",
+      "Ciudad de México es la capital del país de",
+      "Ciudad de México es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "México"
+    },
+    "hi": {
+     "subject": "मेक्सिको सिटी",
+     "object": "मेक्सिको",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी मेक्सिको सिटी है:",
+      "मेक्सिको सिटी इस देश की राजधानी है:",
+      "मेक्सिको सिटी राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "मेक्सिको"
+    }
+   }
+  },
+  {
+   "id": "capital_country_013",
+   "relation": "capital_country",
+   "seed": 125755924,
+   "lang": {
+    "en": {
+     "subject": "Canberra",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "Canberra is the capital of",
+      "Canberra is the capital city of",
+      "Canberra is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Australia"
+    },
+    "es": {
+     "subject": "Canberra",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Canberra es",
+      "Canberra es la capital del país de",
+      "Canberra es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Australia"
+    },
+    "hi": {
+     "subject": "कैनबरा",
+     "object": "ऑस्ट्रेलिया",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी कैनबरा है:",
+      "कैनबरा इस देश की राजधानी है:",
+      "कैनबरा राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "ऑस्ट्रेलिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_014",
+   "relation": "capital_country",
+   "seed": 1614293980,
+   "lang": {
+    "en": {
+     "subject": "Athens",
+     "object": "Greece",
+     "object_alts": [],
+     "prompts": [
+      "Athens is the capital of",
+      "Athens is the capital city of",
+      "Athens is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Greece"
+    },
+    "es": {
+     "subject": "Atenas",
+     "object": "Grecia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Atenas es",
+      "Atenas es la capital del país de",
+      "Atenas es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "Grecia"
+    },
+    "hi": {
+     "subject": "एथेंस",
+     "object": "ग्रीस",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी एथेंस है:",
+      "एथेंस इस देश की राजधानी है:",
+      "एथेंस राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "ग्रीस"
+    }
+   }
+  },
+  {
+   "id": "capital_country_016",
+   "relation": "capital_country",
+   "seed": 838949060,
+   "lang": {
+    "en": {
+     "subject": "Stockholm",
+     "object": "Sweden",
+     "object_alts": [],
+     "prompts": [
+      "Stockholm is the capital of",
+      "Stockholm is the capital city of",
+      "Stockholm is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Sweden"
+    },
+    "es": {
+     "subject": "Estocolmo",
+     "object": "Suecia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Estocolmo es",
+      "Estocolmo es la capital del país de",
+      "Estocolmo es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Suecia"
+    },
+    "hi": {
+     "subject": "स्टॉकहोम",
+     "object": "स्वीडन",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी स्टॉकहोम है:",
+      "स्टॉकहोम इस देश की राजधानी है:",
+      "स्टॉकहोम राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "स्वीडन"
+    }
+   }
+  },
+  {
+   "id": "capital_country_017",
+   "relation": "capital_country",
+   "seed": 250514340,
+   "lang": {
+    "en": {
+     "subject": "Oslo",
+     "object": "Norway",
+     "object_alts": [],
+     "prompts": [
+      "Oslo is the capital of",
+      "Oslo is the capital city of",
+      "Oslo is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Norway"
+    },
+    "es": {
+     "subject": "Oslo",
+     "object": "Noruega",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Oslo es",
+      "Oslo es la capital del país de",
+      "Oslo es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Noruega"
+    },
+    "hi": {
+     "subject": "ओस्लो",
+     "object": "नॉर्वे",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी ओस्लो है:",
+      "ओस्लो इस देश की राजधानी है:",
+      "ओस्लो राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "नॉर्वे"
+    }
+   }
+  },
+  {
+   "id": "capital_country_018",
+   "relation": "capital_country",
+   "seed": 693666303,
+   "lang": {
+    "en": {
+     "subject": "Helsinki",
+     "object": "Finland",
+     "object_alts": [],
+     "prompts": [
+      "Helsinki is the capital of",
+      "Helsinki is the capital city of",
+      "Helsinki is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Finland"
+    },
+    "es": {
+     "subject": "Helsinki",
+     "object": "Finlandia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Helsinki es",
+      "Helsinki es la capital del país de",
+      "Helsinki es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Finlandia"
+    },
+    "hi": {
+     "subject": "हेलसिंकी",
+     "object": "फ़िनलैंड",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी हेलसिंकी है:",
+      "हेलसिंकी इस देश की राजधानी है:",
+      "हेलसिंकी राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "फिनलैंड"
+    }
+   }
+  },
+  {
+   "id": "capital_country_019",
+   "relation": "capital_country",
+   "seed": 2132932529,
+   "lang": {
+    "en": {
+     "subject": "Copenhagen",
+     "object": "Denmark",
+     "object_alts": [],
+     "prompts": [
+      "Copenhagen is the capital of",
+      "Copenhagen is the capital city of",
+      "Copenhagen is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Denmark"
+    },
+    "es": {
+     "subject": "Copenhague",
+     "object": "Dinamarca",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Copenhague es",
+      "Copenhague es la capital del país de",
+      "Copenhague es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Dinamarca"
+    },
+    "hi": {
+     "subject": "कोपेनहेगन",
+     "object": "डेनमार्क",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी कोपेनहेगन है:",
+      "कोपेनहेगन इस देश की राजधानी है:",
+      "कोपेनहेगन राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "डेनमार्क"
+    }
+   }
+  },
+  {
+   "id": "capital_country_021",
+   "relation": "capital_country",
+   "seed": 316771254,
+   "lang": {
+    "en": {
+     "subject": "Vienna",
+     "object": "Austria",
+     "object_alts": [],
+     "prompts": [
+      "Vienna is the capital of",
+      "Vienna is the capital city of",
+      "Vienna is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Austria"
+    },
+    "es": {
+     "subject": "Viena",
+     "object": "Austria",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Viena es",
+      "Viena es la capital del país de",
+      "Viena es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Austria"
+    },
+    "hi": {
+     "subject": "वियना",
+     "object": "ऑस्ट्रिया",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी वियना है:",
+      "वियना इस देश की राजधानी है:",
+      "वियना राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "ऑस्ट्रिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_023",
+   "relation": "capital_country",
+   "seed": 506610997,
+   "lang": {
+    "en": {
+     "subject": "Brussels",
+     "object": "Belgium",
+     "object_alts": [],
+     "prompts": [
+      "Brussels is the capital of",
+      "Brussels is the capital city of",
+      "Brussels is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Belgium"
+    },
+    "es": {
+     "subject": "Bruselas",
+     "object": "Bélgica",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Bruselas es",
+      "Bruselas es la capital del país de",
+      "Bruselas es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Bélgica"
+    },
+    "hi": {
+     "subject": "ब्रसेल्स",
+     "object": "बेल्जियम",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी ब्रसेल्स है:",
+      "ब्रसेल्स इस देश की राजधानी है:",
+      "ब्रसेल्स राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "बेल्जियम"
+    }
+   }
+  },
+  {
+   "id": "capital_country_026",
+   "relation": "capital_country",
+   "seed": 1660454970,
+   "lang": {
+    "en": {
+     "subject": "Santiago",
+     "object": "Chile",
+     "object_alts": [],
+     "prompts": [
+      "Santiago is the capital of",
+      "Santiago is the capital city of",
+      "Santiago is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Chile"
+    },
+    "es": {
+     "subject": "Santiago",
+     "object": "Chile",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Santiago es",
+      "Santiago es la capital del país de",
+      "Santiago es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Chile"
+    },
+    "hi": {
+     "subject": "सैंटियागो",
+     "object": "चिली",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी सैंटियागो है:",
+      "सैंटियागो इस देश की राजधानी है:",
+      "सैंटियागो राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "चिली"
+    }
+   }
+  },
+  {
+   "id": "capital_country_028",
+   "relation": "capital_country",
+   "seed": 363853058,
+   "lang": {
+    "en": {
+     "subject": "Caracas",
+     "object": "Venezuela",
+     "object_alts": [],
+     "prompts": [
+      "Caracas is the capital of",
+      "Caracas is the capital city of",
+      "Caracas is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Venezuela"
+    },
+    "es": {
+     "subject": "Caracas",
+     "object": "Venezuela",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Caracas es",
+      "Caracas es la capital del país de",
+      "Caracas es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Venezuela"
+    },
+    "hi": {
+     "subject": "काराकास",
+     "object": "वेनेज़ुएला",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी काराकास है:",
+      "काराकास इस देश की राजधानी है:",
+      "काराकास राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "वेनेजुएला"
+    }
+   }
+  },
+  {
+   "id": "capital_country_029",
+   "relation": "capital_country",
+   "seed": 1058993401,
+   "lang": {
+    "en": {
+     "subject": "Bangkok",
+     "object": "Thailand",
+     "object_alts": [],
+     "prompts": [
+      "Bangkok is the capital of",
+      "Bangkok is the capital city of",
+      "Bangkok is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Thailand"
+    },
+    "es": {
+     "subject": "Bangkok",
+     "object": "Tailandia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Bangkok es",
+      "Bangkok es la capital del país de",
+      "Bangkok es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Tailandia"
+    },
+    "hi": {
+     "subject": "बैंकॉक",
+     "object": "थाईलैंड",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी बैंकॉक है:",
+      "बैंकॉक इस देश की राजधानी है:",
+      "बैंकॉक राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "थाईलैंड"
+    }
+   }
+  },
+  {
+   "id": "capital_country_030",
+   "relation": "capital_country",
+   "seed": 1868554078,
+   "lang": {
+    "en": {
+     "subject": "Hanoi",
+     "object": "Vietnam",
+     "object_alts": [],
+     "prompts": [
+      "Hanoi is the capital of",
+      "Hanoi is the capital city of",
+      "Hanoi is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Vietnam"
+    },
+    "es": {
+     "subject": "Hanói",
+     "object": "Vietnam",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Hanói es",
+      "Hanói es la capital del país de",
+      "Hanói es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Vietnam"
+    },
+    "hi": {
+     "subject": "हनोई",
+     "object": "वियतनाम",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी हनोई है:",
+      "हनोई इस देश की राजधानी है:",
+      "हनोई राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "वियतनाम"
+    }
+   }
+  },
+  {
+   "id": "capital_country_031",
+   "relation": "capital_country",
+   "seed": 1994942283,
+   "lang": {
+    "en": {
+     "subject": "Jakarta",
+     "object": "Indonesia",
+     "object_alts": [],
+     "prompts": [
+      "Jakarta is the capital of",
+      "Jakarta is the capital city of",
+      "Jakarta is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Indonesia"
+    },
+    "es": {
+     "subject": "Yakarta",
+     "object": "Indonesia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Yakarta es",
+      "Yakarta es la capital del país de",
+      "Yakarta es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Indonesia"
+    },
+    "hi": {
+     "subject": "जकार्ता",
+     "object": "इंडोनेशिया",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी जकार्ता है:",
+      "जकार्ता इस देश की राजधानी है:",
+      "जकार्ता राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "इंडोनेशिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_032",
+   "relation": "capital_country",
+   "seed": 1238983075,
+   "lang": {
+    "en": {
+     "subject": "Islamabad",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompts": [
+      "Islamabad is the capital of",
+      "Islamabad is the capital city of",
+      "Islamabad is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Pakistan"
+    },
+    "es": {
+     "subject": "Islamabad",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Islamabad es",
+      "Islamabad es la capital del país de",
+      "Islamabad es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Pakistán"
+    },
+    "hi": {
+     "subject": "इस्लामाबाद",
+     "object": "पाकिस्तान",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी इस्लामाबाद है:",
+      "इस्लामाबाद इस देश की राजधानी है:",
+      "इस्लामाबाद राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "पाकिस्तान"
+    }
+   }
+  },
+  {
+   "id": "capital_country_034",
+   "relation": "capital_country",
+   "seed": 2002346541,
+   "lang": {
+    "en": {
+     "subject": "Kathmandu",
+     "object": "Nepal",
+     "object_alts": [],
+     "prompts": [
+      "Kathmandu is the capital of",
+      "Kathmandu is the capital city of",
+      "Kathmandu is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Nepal"
+    },
+    "es": {
+     "subject": "Katmandú",
+     "object": "Nepal",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Katmandú es",
+      "Katmandú es la capital del país de",
+      "Katmandú es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Nepal"
+    },
+    "hi": {
+     "subject": "काठमांडू",
+     "object": "नेपाल",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी काठमांडू है:",
+      "काठमांडू इस देश की राजधानी है:",
+      "काठमांडू राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "नेपाल"
+    }
+   }
+  },
+  {
+   "id": "capital_country_035",
+   "relation": "capital_country",
+   "seed": 886381430,
+   "lang": {
+    "en": {
+     "subject": "Colombo",
+     "object": "Sri Lanka",
+     "object_alts": [],
+     "prompts": [
+      "Colombo is the capital of",
+      "Colombo is the capital city of",
+      "Colombo is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Sri Lanka"
+    },
+    "es": {
+     "subject": "Colombo",
+     "object": "Sri Lanka",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Colombo es",
+      "Colombo es la capital del país de",
+      "Colombo es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Sri Lanka"
+    },
+    "hi": {
+     "subject": "कोलंबो",
+     "object": "श्रीलंका",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी कोलंबो है:",
+      "कोलंबो इस देश की राजधानी है:",
+      "कोलंबो राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "श्रीलंका"
+    }
+   }
+  },
+  {
+   "id": "capital_country_046",
+   "relation": "capital_country",
+   "seed": 2007525055,
+   "lang": {
+    "en": {
+     "subject": "Budapest",
+     "object": "Hungary",
+     "object_alts": [],
+     "prompts": [
+      "Budapest is the capital of",
+      "Budapest is the capital city of",
+      "Budapest is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Hungary"
+    },
+    "es": {
+     "subject": "Budapest",
+     "object": "Hungría",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Budapest es",
+      "Budapest es la capital del país de",
+      "Budapest es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Hungría"
+    },
+    "hi": {
+     "subject": "बुडापेस्ट",
+     "object": "हंगरी",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी बुडापेस्ट है:",
+      "बुडापेस्ट इस देश की राजधानी है:",
+      "बुडापेस्ट राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "हंगरी"
+    }
+   }
+  },
+  {
+   "id": "capital_country_047",
+   "relation": "capital_country",
+   "seed": 1362669170,
+   "lang": {
+    "en": {
+     "subject": "Bucharest",
+     "object": "Romania",
+     "object_alts": [],
+     "prompts": [
+      "Bucharest is the capital of",
+      "Bucharest is the capital city of",
+      "Bucharest is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Romania"
+    },
+    "es": {
+     "subject": "Bucarest",
+     "object": "Rumania",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Bucarest es",
+      "Bucarest es la capital del país de",
+      "Bucarest es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Rumania"
+    },
+    "hi": {
+     "subject": "बुखारेस्ट",
+     "object": "रोमानिया",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी बुखारेस्ट है:",
+      "बुखारेस्ट इस देश की राजधानी है:",
+      "बुखारेस्ट राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "रोमानिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_048",
+   "relation": "capital_country",
+   "seed": 998437727,
+   "lang": {
+    "en": {
+     "subject": "Kyiv",
+     "object": "Ukraine",
+     "object_alts": [],
+     "prompts": [
+      "Kyiv is the capital of",
+      "Kyiv is the capital city of",
+      "Kyiv is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Ukraine"
+    },
+    "es": {
+     "subject": "Kiev",
+     "object": "Ucrania",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Kiev es",
+      "Kiev es la capital del país de",
+      "Kiev es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Ucrania"
+    },
+    "hi": {
+     "subject": "कीव",
+     "object": "यूक्रेन",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी कीव है:",
+      "कीव इस देश की राजधानी है:",
+      "कीव राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "यूक्रेन"
+    }
+   }
+  },
+  {
+   "id": "capital_country_053",
+   "relation": "capital_country",
+   "seed": 1171514532,
+   "lang": {
+    "en": {
+     "subject": "Ulaanbaatar",
+     "object": "Mongolia",
+     "object_alts": [],
+     "prompts": [
+      "Ulaanbaatar is the capital of",
+      "Ulaanbaatar is the capital city of",
+      "Ulaanbaatar is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Mongolia"
+    },
+    "es": {
+     "subject": "Ulán Bator",
+     "object": "Mongolia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Ulán Bator es",
+      "Ulán Bator es la capital del país de",
+      "Ulán Bator es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Mongolia"
+    },
+    "hi": {
+     "subject": "उलानबटार",
+     "object": "मंगोलिया",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी उलानबटार है:",
+      "उलानबटार इस देश की राजधानी है:",
+      "उलानबटार राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "मंगोलिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_054",
+   "relation": "capital_country",
+   "seed": 1388686683,
+   "lang": {
+    "en": {
+     "subject": "Kabul",
+     "object": "Afghanistan",
+     "object_alts": [],
+     "prompts": [
+      "Kabul is the capital of",
+      "Kabul is the capital city of",
+      "Kabul is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Afghanistan"
+    },
+    "es": {
+     "subject": "Kabul",
+     "object": "Afganistán",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Kabul es",
+      "Kabul es la capital del país de",
+      "Kabul es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Afganistán"
+    },
+    "hi": {
+     "subject": "काबुल",
+     "object": "अफ़ग़ानिस्तान",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी काबुल है:",
+      "काबुल इस देश की राजधानी है:",
+      "काबुल राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "अफगानिस्तान"
+    }
+   }
+  },
+  {
+   "id": "capital_country_059",
+   "relation": "capital_country",
+   "seed": 620352531,
+   "lang": {
+    "en": {
+     "subject": "Damascus",
+     "object": "Syria",
+     "object_alts": [],
+     "prompts": [
+      "Damascus is the capital of",
+      "Damascus is the capital city of",
+      "Damascus is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Syria"
+    },
+    "es": {
+     "subject": "Damasco",
+     "object": "Siria",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Damasco es",
+      "Damasco es la capital del país de",
+      "Damasco es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Siria"
+    },
+    "hi": {
+     "subject": "दमिश्क",
+     "object": "सीरिया",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी दमिश्क है:",
+      "दमिश्क इस देश की राजधानी है:",
+      "दमिश्क राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "सीरिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_062",
+   "relation": "capital_country",
+   "seed": 346719171,
+   "lang": {
+    "en": {
+     "subject": "Quito",
+     "object": "Ecuador",
+     "object_alts": [],
+     "prompts": [
+      "Quito is the capital of",
+      "Quito is the capital city of",
+      "Quito is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Ecuador"
+    },
+    "es": {
+     "subject": "Quito",
+     "object": "Ecuador",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Quito es",
+      "Quito es la capital del país de",
+      "Quito es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Ecuador"
+    },
+    "hi": {
+     "subject": "क्विटो",
+     "object": "इक्वाडोर",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी क्विटो है:",
+      "क्विटो इस देश की राजधानी है:",
+      "क्विटो राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "इक्वाडोर"
+    }
+   }
+  },
+  {
+   "id": "capital_country_069",
+   "relation": "capital_country",
+   "seed": 958323099,
+   "lang": {
+    "en": {
+     "subject": "Panama City",
+     "object": "Panama",
+     "object_alts": [],
+     "prompts": [
+      "Panama City is the capital of",
+      "Panama City is the capital city of",
+      "Panama City is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Panama"
+    },
+    "es": {
+     "subject": "Ciudad de Panamá",
+     "object": "Panamá",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Ciudad de Panamá es",
+      "Ciudad de Panamá es la capital del país de",
+      "Ciudad de Panamá es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Panamá"
+    },
+    "hi": {
+     "subject": "पनामा सिटी",
+     "object": "पनामा",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी पनामा सिटी है:",
+      "पनामा सिटी इस देश की राजधानी है:",
+      "पनामा सिटी राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "पनामा"
+    }
+   }
+  },
+  {
+   "id": "capital_country_071",
+   "relation": "capital_country",
+   "seed": 2048223979,
+   "lang": {
+    "en": {
+     "subject": "Jerusalem",
+     "object": "Israel",
+     "object_alts": [],
+     "prompts": [
+      "Jerusalem is the capital of",
+      "Jerusalem is the capital city of",
+      "Jerusalem is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Israel"
+    },
+    "es": {
+     "subject": "Jerusalén",
+     "object": "Israel",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Jerusalén es",
+      "Jerusalén es la capital del país de",
+      "Jerusalén es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Israel"
+    },
+    "hi": {
+     "subject": "यरुशलम",
+     "object": "इज़राइल",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी यरुशलम है:",
+      "यरुशलम इस देश की राजधानी है:",
+      "यरुशलम राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "इज़राइल"
+    }
+   }
+  },
+  {
+   "id": "capital_country_079",
+   "relation": "capital_country",
+   "seed": 1743109973,
+   "lang": {
+    "en": {
+     "subject": "Tbilisi",
+     "object": "Georgia",
+     "object_alts": [],
+     "prompts": [
+      "Tbilisi is the capital of",
+      "Tbilisi is the capital city of",
+      "Tbilisi is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Georgia"
+    },
+    "es": {
+     "subject": "Tiflis",
+     "object": "Georgia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Tiflis es",
+      "Tiflis es la capital del país de",
+      "Tiflis es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Georgia"
+    },
+    "hi": {
+     "subject": "त्बिलिसी",
+     "object": "जॉर्जिया",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी त्बिलिसी है:",
+      "त्बिलिसी इस देश की राजधानी है:",
+      "त्बिलिसी राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "जॉर्जिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_113",
+   "relation": "capital_country",
+   "seed": 1936384467,
+   "lang": {
+    "en": {
+     "subject": "Mogadishu",
+     "object": "Somalia",
+     "object_alts": [],
+     "prompts": [
+      "Mogadishu is the capital of",
+      "Mogadishu is the capital city of",
+      "Mogadishu is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Somalia"
+    },
+    "es": {
+     "subject": "Mogadiscio",
+     "object": "Somalia",
+     "object_alts": [],
+     "prompts": [
+      "El país cuya capital es Mogadiscio es",
+      "Mogadiscio es la capital del país de",
+      "Mogadiscio es la capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Somalia"
+    },
+    "hi": {
+     "subject": "मोगादिशु",
+     "object": "सोमालिया",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी मोगादिशु है:",
+      "मोगादिशु इस देश की राजधानी है:",
+      "मोगादिशु राजधानी है इस देश की:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "सोमालिया"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_001",
+   "relation": "landmark_city",
+   "seed": 836429110,
+   "lang": {
+    "en": {
+     "subject": "the Colosseum",
+     "object": "Rome",
+     "object_alts": [],
+     "prompts": [
+      "The Colosseum is located in the city of",
+      "The Colosseum stands in the city of",
+      "You can visit the Colosseum in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Rome"
+    },
+    "es": {
+     "subject": "el Coliseo",
+     "object": "Roma",
+     "object_alts": [],
+     "prompts": [
+      "Se puede visitar el Coliseo en la ciudad de",
+      "El Coliseo es un lugar famoso de la ciudad de",
+      "El Coliseo se halla en la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "Roma"
+    },
+    "hi": {
+     "subject": "कोलोसियम",
+     "object": "रोम",
+     "object_alts": [],
+     "prompts": [
+      "कोलोसियम इस शहर में है:",
+      "कोलोसियम इस शहर में स्थित है:",
+      "कोलोसियम शहर में स्थित है, जिसका नाम"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "रोम"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_003",
+   "relation": "landmark_city",
+   "seed": 1920937730,
+   "lang": {
+    "en": {
+     "subject": "the Statue of Liberty",
+     "object": "New York",
+     "object_alts": [],
+     "prompts": [
+      "The Statue of Liberty is located in the city of",
+      "The Statue of Liberty stands in the city of",
+      "You can visit the Statue of Liberty in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "New York"
+    },
+    "es": {
+     "subject": "la Estatua de la Libertad",
+     "object": "Nueva York",
+     "object_alts": [],
+     "prompts": [
+      "Se puede visitar la Estatua de la Libertad en la ciudad de",
+      "La Estatua de la Libertad es un lugar famoso de la ciudad de",
+      "La Estatua de la Libertad se halla en la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Nueva York"
+    },
+    "hi": {
+     "subject": "स्टैच्यू ऑफ़ लिबर्टी",
+     "object": "न्यूयॉर्क",
+     "object_alts": [],
+     "prompts": [
+      "स्टैच्यू ऑफ़ लिबर्टी इस शहर में है:",
+      "स्टैच्यू ऑफ़ लिबर्टी इस शहर में स्थित है:",
+      "स्टैच्यू ऑफ़ लिबर्टी शहर में स्थित है, जिसका नाम"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "न्यूयॉर्क"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_027",
+   "relation": "landmark_city",
+   "seed": 1022405280,
+   "lang": {
+    "en": {
+     "subject": "Edinburgh Castle",
+     "object": "Edinburgh",
+     "object_alts": [],
+     "prompts": [
+      "Edinburgh Castle is located in the city of",
+      "Edinburgh Castle stands in the city of",
+      "You can visit Edinburgh Castle in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Edinburgh"
+    },
+    "es": {
+     "subject": "el Castillo de Edimburgo",
+     "object": "Edimburgo",
+     "object_alts": [],
+     "prompts": [
+      "Se puede visitar el Castillo de Edimburgo en la ciudad de",
+      "El Castillo de Edimburgo es un lugar famoso de la ciudad de",
+      "El Castillo de Edimburgo se halla en la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Edimburgo"
+    },
+    "hi": {
+     "subject": "एडिनबरा कैसल",
+     "object": "एडिनबरा",
+     "object_alts": [],
+     "prompts": [
+      "एडिनबरा कैसल इस शहर में है:",
+      "एडिनबरा कैसल इस शहर में स्थित है:",
+      "एडिनबरा कैसल शहर में स्थित है, जिसका नाम"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "एडिनबरा"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_038",
+   "relation": "landmark_city",
+   "seed": 1172465201,
+   "lang": {
+    "en": {
+     "subject": "the Mysore Palace",
+     "object": "Mysore",
+     "object_alts": [],
+     "prompts": [
+      "The Mysore Palace is located in the city of",
+      "The Mysore Palace stands in the city of",
+      "You can visit the Mysore Palace in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Mysore"
+    },
+    "es": {
+     "subject": "el Palacio de Mysore",
+     "object": "Mysore",
+     "object_alts": [],
+     "prompts": [
+      "Se puede visitar el Palacio de Mysore en la ciudad de",
+      "El Palacio de Mysore es un lugar famoso de la ciudad de",
+      "El Palacio de Mysore se halla en la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Mysore"
+    },
+    "hi": {
+     "subject": "मैसूर पैलेस",
+     "object": "मैसूर",
+     "object_alts": [],
+     "prompts": [
+      "मैसूर पैलेस इस शहर में है:",
+      "मैसूर पैलेस इस शहर में स्थित है:",
+      "मैसूर पैलेस शहर में स्थित है, जिसका नाम"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "मैसूर"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_042",
+   "relation": "landmark_city",
+   "seed": 993745706,
+   "lang": {
+    "en": {
+     "subject": "the Cologne Cathedral",
+     "object": "Cologne",
+     "object_alts": [],
+     "prompts": [
+      "The Cologne Cathedral is located in the city of",
+      "The Cologne Cathedral stands in the city of",
+      "You can visit the Cologne Cathedral in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Cologne"
+    },
+    "es": {
+     "subject": "la Catedral de Colonia",
+     "object": "Colonia",
+     "object_alts": [],
+     "prompts": [
+      "Se puede visitar la Catedral de Colonia en la ciudad de",
+      "La Catedral de Colonia es un lugar famoso de la ciudad de",
+      "La Catedral de Colonia se halla en la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Colonia"
+    },
+    "hi": {
+     "subject": "कोलोन कैथेड्रल",
+     "object": "कोलोन",
+     "object_alts": [],
+     "prompts": [
+      "कोलोन कैथेड्रल इस शहर में है:",
+      "कोलोन कैथेड्रल इस शहर में स्थित है:",
+      "कोलोन कैथेड्रल शहर में स्थित है, जिसका नाम"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "कोलोन"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_046",
+   "relation": "landmark_city",
+   "seed": 780310317,
+   "lang": {
+    "en": {
+     "subject": "Buckingham Palace",
+     "object": "London",
+     "object_alts": [],
+     "prompts": [
+      "Buckingham Palace is located in the city of",
+      "Buckingham Palace stands in the city of",
+      "You can visit Buckingham Palace in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "London"
+    },
+    "es": {
+     "subject": "el Palacio de Buckingham",
+     "object": "Londres",
+     "object_alts": [],
+     "prompts": [
+      "Se puede visitar el Palacio de Buckingham en la ciudad de",
+      "El Palacio de Buckingham es un lugar famoso de la ciudad de",
+      "El Palacio de Buckingham se halla en la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Londres"
+    },
+    "hi": {
+     "subject": "बकिंघम पैलेस",
+     "object": "लंदन",
+     "object_alts": [],
+     "prompts": [
+      "बकिंघम पैलेस इस शहर में है:",
+      "बकिंघम पैलेस इस शहर में स्थित है:",
+      "बकिंघम पैलेस शहर में स्थित है, जिसका नाम"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "लंदन"
+    }
+   }
+  },
+  {
+   "id": "event_year_000",
+   "relation": "event_year",
+   "seed": 824813098,
+   "lang": {
+    "en": {
+     "subject": "the Battle of Hastings",
+     "object": "1066",
+     "object_alts": [],
+     "prompts": [
+      "The Battle of Hastings took place in the year",
+      "The Battle of Hastings occurred in the year",
+      "The year of the Battle of Hastings was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1066"
+    },
+    "es": {
+     "subject": "la batalla de Hastings",
+     "object": "1066",
+     "object_alts": [],
+     "prompts": [
+      "La batalla de Hastings tuvo lugar en el año",
+      "La batalla de Hastings sucedió en el año",
+      "El año de la batalla de Hastings fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1066"
+    },
+    "hi": {
+     "subject": "हेस्टिंग्स का युद्ध",
+     "object": "1066",
+     "object_alts": [],
+     "prompts": [
+      "हेस्टिंग्स का युद्ध साल",
+      "हेस्टिंग्स का युद्ध सन्",
+      "हेस्टिंग्स का युद्ध वर्ष"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "1066"
+    }
+   }
+  },
+  {
+   "id": "event_year_002",
+   "relation": "event_year",
+   "seed": 2016336418,
+   "lang": {
+    "en": {
+     "subject": "the fall of Constantinople",
+     "object": "1453",
+     "object_alts": [],
+     "prompts": [
+      "The fall of Constantinople took place in the year",
+      "The fall of Constantinople occurred in the year",
+      "The year of the fall of Constantinople was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1453"
+    },
+    "es": {
+     "subject": "la caída de Constantinopla",
+     "object": "1453",
+     "object_alts": [],
+     "prompts": [
+      "La caída de Constantinopla tuvo lugar en el año",
+      "La caída de Constantinopla sucedió en el año",
+      "El año de la caída de Constantinopla fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1453"
+    },
+    "hi": {
+     "subject": "कॉन्स्टेंटिनोपल का पतन",
+     "object": "1453",
+     "object_alts": [],
+     "prompts": [
+      "कॉन्स्टेंटिनोपल का पतन साल",
+      "कॉन्स्टेंटिनोपल का पतन सन्",
+      "कॉन्स्टेंटिनोपल का पतन वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1453"
+    }
+   }
+  },
+  {
+   "id": "event_year_003",
+   "relation": "event_year",
+   "seed": 1995360817,
+   "lang": {
+    "en": {
+     "subject": "the first voyage of Columbus",
+     "object": "1492",
+     "object_alts": [],
+     "prompts": [
+      "The first voyage of Columbus took place in the year",
+      "The first voyage of Columbus occurred in the year",
+      "The year of the first voyage of Columbus was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1492"
+    },
+    "es": {
+     "subject": "el primer viaje de Colón",
+     "object": "1492",
+     "object_alts": [],
+     "prompts": [
+      "El primer viaje de Colón tuvo lugar en el año",
+      "El primer viaje de Colón sucedió en el año",
+      "El año del primer viaje de Colón fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1492"
+    },
+    "hi": {
+     "subject": "कोलंबस की पहली यात्रा",
+     "object": "1492",
+     "object_alts": [],
+     "prompts": [
+      "कोलंबस की पहली यात्रा साल",
+      "कोलंबस की पहली यात्रा सन्",
+      "कोलंबस की पहली यात्रा वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1492"
+    }
+   }
+  },
+  {
+   "id": "event_year_007",
+   "relation": "event_year",
+   "seed": 1550522985,
+   "lang": {
+    "en": {
+     "subject": "the Great Fire of London",
+     "object": "1666",
+     "object_alts": [],
+     "prompts": [
+      "The Great Fire of London took place in the year",
+      "The Great Fire of London occurred in the year",
+      "The year of the Great Fire of London was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1666"
+    },
+    "es": {
+     "subject": "el Gran Incendio de Londres",
+     "object": "1666",
+     "object_alts": [],
+     "prompts": [
+      "El Gran Incendio de Londres tuvo lugar en el año",
+      "El Gran Incendio de Londres sucedió en el año",
+      "El año del Gran Incendio de Londres fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1666"
+    },
+    "hi": {
+     "subject": "लंदन की महान आग",
+     "object": "1666",
+     "object_alts": [],
+     "prompts": [
+      "लंदन की महान आग साल",
+      "लंदन की महान आग सन्",
+      "लंदन की महान आग वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1666"
+    }
+   }
+  },
+  {
+   "id": "event_year_009",
+   "relation": "event_year",
+   "seed": 1763185119,
+   "lang": {
+    "en": {
+     "subject": "the American Declaration of Independence",
+     "object": "1776",
+     "object_alts": [],
+     "prompts": [
+      "The American Declaration of Independence took place in the year",
+      "The American Declaration of Independence occurred in the year",
+      "The year of the American Declaration of Independence was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1776"
+    },
+    "es": {
+     "subject": "la Declaración de Independencia de Estados Unidos",
+     "object": "1776",
+     "object_alts": [],
+     "prompts": [
+      "La Declaración de Independencia de Estados Unidos tuvo lugar en el año",
+      "La Declaración de Independencia de Estados Unidos sucedió en el año",
+      "El año de la Declaración de Independencia de Estados Unidos fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1776"
+    },
+    "hi": {
+     "subject": "अमेरिकी स्वतंत्रता की घोषणा",
+     "object": "1776",
+     "object_alts": [],
+     "prompts": [
+      "अमेरिकी स्वतंत्रता की घोषणा साल",
+      "अमेरिकी स्वतंत्रता की घोषणा सन्",
+      "अमेरिकी स्वतंत्रता की घोषणा वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1776"
+    }
+   }
+  },
+  {
+   "id": "event_year_010",
+   "relation": "event_year",
+   "seed": 1233450941,
+   "lang": {
+    "en": {
+     "subject": "the French Revolution",
+     "object": "1789",
+     "object_alts": [],
+     "prompts": [
+      "The French Revolution took place in the year",
+      "The French Revolution occurred in the year",
+      "The year of the French Revolution was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1789"
+    },
+    "es": {
+     "subject": "la Revolución francesa",
+     "object": "1789",
+     "object_alts": [],
+     "prompts": [
+      "La Revolución francesa tuvo lugar en el año",
+      "La Revolución francesa sucedió en el año",
+      "El año de la Revolución francesa fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1789"
+    },
+    "hi": {
+     "subject": "फ़्रांसीसी क्रांति",
+     "object": "1789",
+     "object_alts": [],
+     "prompts": [
+      "फ़्रांसीसी क्रांति साल",
+      "फ़्रांसीसी क्रांति सन्",
+      "फ़्रांसीसी क्रांति वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1789"
+    }
+   }
+  },
+  {
+   "id": "event_year_015",
+   "relation": "event_year",
+   "seed": 1239566452,
+   "lang": {
+    "en": {
+     "subject": "the start of the American Civil War",
+     "object": "1861",
+     "object_alts": [],
+     "prompts": [
+      "The start of the American Civil War took place in the year",
+      "The start of the American Civil War occurred in the year",
+      "The year of the start of the American Civil War was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1861"
+    },
+    "es": {
+     "subject": "el inicio de la guerra de Secesión",
+     "object": "1861",
+     "object_alts": [],
+     "prompts": [
+      "El inicio de la guerra de Secesión tuvo lugar en el año",
+      "El inicio de la guerra de Secesión sucedió en el año",
+      "El año del inicio de la guerra de Secesión fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1861"
+    },
+    "hi": {
+     "subject": "अमेरिकी गृहयुद्ध की शुरुआत",
+     "object": "1861",
+     "object_alts": [],
+     "prompts": [
+      "अमेरिकी गृहयुद्ध की शुरुआत साल",
+      "अमेरिकी गृहयुद्ध की शुरुआत सन्",
+      "अमेरिकी गृहयुद्ध की शुरुआत वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1861"
+    }
+   }
+  },
+  {
+   "id": "event_year_018",
+   "relation": "event_year",
+   "seed": 1421770319,
+   "lang": {
+    "en": {
+     "subject": "the first modern Olympic Games",
+     "object": "1896",
+     "object_alts": [],
+     "prompts": [
+      "The first modern Olympic Games took place in the year",
+      "The first modern Olympic Games occurred in the year",
+      "The year of the first modern Olympic Games was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1896"
+    },
+    "es": {
+     "subject": "los primeros Juegos Olímpicos modernos",
+     "object": "1896",
+     "object_alts": [],
+     "prompts": [
+      "Los primeros Juegos Olímpicos modernos tuvo lugar en el año",
+      "Los primeros Juegos Olímpicos modernos sucedió en el año",
+      "El año de los primeros Juegos Olímpicos modernos fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1896"
+    },
+    "hi": {
+     "subject": "पहले आधुनिक ओलंपिक खेल",
+     "object": "1896",
+     "object_alts": [],
+     "prompts": [
+      "पहले आधुनिक ओलंपिक खेल साल",
+      "पहले आधुनिक ओलंपिक खेल सन्",
+      "पहले आधुनिक ओलंपिक खेल वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1896"
+    }
+   }
+  },
+  {
+   "id": "event_year_020",
+   "relation": "event_year",
+   "seed": 2129083339,
+   "lang": {
+    "en": {
+     "subject": "the sinking of the Titanic",
+     "object": "1912",
+     "object_alts": [],
+     "prompts": [
+      "The sinking of the Titanic took place in the year",
+      "The sinking of the Titanic occurred in the year",
+      "The year of the sinking of the Titanic was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1912"
+    },
+    "es": {
+     "subject": "el hundimiento del Titanic",
+     "object": "1912",
+     "object_alts": [],
+     "prompts": [
+      "El hundimiento del Titanic tuvo lugar en el año",
+      "El hundimiento del Titanic sucedió en el año",
+      "El año del hundimiento del Titanic fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1912"
+    },
+    "hi": {
+     "subject": "टाइटैनिक का डूबना",
+     "object": "1912",
+     "object_alts": [],
+     "prompts": [
+      "टाइटैनिक का डूबना साल",
+      "टाइटैनिक का डूबना सन्",
+      "टाइटैनिक का डूबना वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1912"
+    }
+   }
+  },
+  {
+   "id": "event_year_021",
+   "relation": "event_year",
+   "seed": 987794369,
+   "lang": {
+    "en": {
+     "subject": "the start of the First World War",
+     "object": "1914",
+     "object_alts": [],
+     "prompts": [
+      "The start of the First World War took place in the year",
+      "The start of the First World War occurred in the year",
+      "The year of the start of the First World War was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1914"
+    },
+    "es": {
+     "subject": "el inicio de la Primera Guerra Mundial",
+     "object": "1914",
+     "object_alts": [],
+     "prompts": [
+      "El inicio de la Primera Guerra Mundial tuvo lugar en el año",
+      "El inicio de la Primera Guerra Mundial sucedió en el año",
+      "El año del inicio de la Primera Guerra Mundial fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1914"
+    },
+    "hi": {
+     "subject": "प्रथम विश्व युद्ध की शुरुआत",
+     "object": "1914",
+     "object_alts": [],
+     "prompts": [
+      "प्रथम विश्व युद्ध की शुरुआत साल",
+      "प्रथम विश्व युद्ध की शुरुआत सन्",
+      "प्रथम विश्व युद्ध की शुरुआत वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1914"
+    }
+   }
+  },
+  {
+   "id": "event_year_022",
+   "relation": "event_year",
+   "seed": 1474963884,
+   "lang": {
+    "en": {
+     "subject": "the Russian Revolution",
+     "object": "1917",
+     "object_alts": [],
+     "prompts": [
+      "The Russian Revolution took place in the year",
+      "The Russian Revolution occurred in the year",
+      "The year of the Russian Revolution was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1917"
+    },
+    "es": {
+     "subject": "la Revolución rusa",
+     "object": "1917",
+     "object_alts": [],
+     "prompts": [
+      "La Revolución rusa tuvo lugar en el año",
+      "La Revolución rusa sucedió en el año",
+      "El año de la Revolución rusa fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1917"
+    },
+    "hi": {
+     "subject": "रूसी क्रांति",
+     "object": "1917",
+     "object_alts": [],
+     "prompts": [
+      "रूसी क्रांति साल",
+      "रूसी क्रांति सन्",
+      "रूसी क्रांति वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1917"
+    }
+   }
+  },
+  {
+   "id": "event_year_023",
+   "relation": "event_year",
+   "seed": 793361933,
+   "lang": {
+    "en": {
+     "subject": "the Treaty of Versailles",
+     "object": "1919",
+     "object_alts": [],
+     "prompts": [
+      "The Treaty of Versailles took place in the year",
+      "The Treaty of Versailles occurred in the year",
+      "The year of the Treaty of Versailles was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1919"
+    },
+    "es": {
+     "subject": "el Tratado de Versalles",
+     "object": "1919",
+     "object_alts": [],
+     "prompts": [
+      "El Tratado de Versalles tuvo lugar en el año",
+      "El Tratado de Versalles sucedió en el año",
+      "El año del Tratado de Versalles fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1919"
+    },
+    "hi": {
+     "subject": "वर्साय की संधि",
+     "object": "1919",
+     "object_alts": [],
+     "prompts": [
+      "वर्साय की संधि साल",
+      "वर्साय की संधि सन्",
+      "वर्साय की संधि वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1919"
+    }
+   }
+  },
+  {
+   "id": "event_year_026",
+   "relation": "event_year",
+   "seed": 1736982372,
+   "lang": {
+    "en": {
+     "subject": "the start of the Second World War",
+     "object": "1939",
+     "object_alts": [],
+     "prompts": [
+      "The start of the Second World War took place in the year",
+      "The start of the Second World War occurred in the year",
+      "The year of the start of the Second World War was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1939"
+    },
+    "es": {
+     "subject": "el inicio de la Segunda Guerra Mundial",
+     "object": "1939",
+     "object_alts": [],
+     "prompts": [
+      "El inicio de la Segunda Guerra Mundial tuvo lugar en el año",
+      "El inicio de la Segunda Guerra Mundial sucedió en el año",
+      "El año del inicio de la Segunda Guerra Mundial fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1939"
+    },
+    "hi": {
+     "subject": "द्वितीय विश्व युद्ध की शुरुआत",
+     "object": "1939",
+     "object_alts": [],
+     "prompts": [
+      "द्वितीय विश्व युद्ध की शुरुआत साल",
+      "द्वितीय विश्व युद्ध की शुरुआत सन्",
+      "द्वितीय विश्व युद्ध की शुरुआत वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1939"
+    }
+   }
+  },
+  {
+   "id": "event_year_028",
+   "relation": "event_year",
+   "seed": 994230574,
+   "lang": {
+    "en": {
+     "subject": "the assassination of Mahatma Gandhi",
+     "object": "1948",
+     "object_alts": [],
+     "prompts": [
+      "The assassination of Mahatma Gandhi took place in the year",
+      "The assassination of Mahatma Gandhi occurred in the year",
+      "The year of the assassination of Mahatma Gandhi was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1948"
+    },
+    "es": {
+     "subject": "el asesinato de Mahatma Gandhi",
+     "object": "1948",
+     "object_alts": [],
+     "prompts": [
+      "El asesinato de Mahatma Gandhi tuvo lugar en el año",
+      "El asesinato de Mahatma Gandhi sucedió en el año",
+      "El año del asesinato de Mahatma Gandhi fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1948"
+    },
+    "hi": {
+     "subject": "महात्मा गांधी की हत्या",
+     "object": "1948",
+     "object_alts": [],
+     "prompts": [
+      "महात्मा गांधी की हत्या साल",
+      "महात्मा गांधी की हत्या सन्",
+      "महात्मा गांधी की हत्या वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1948"
+    }
+   }
+  },
+  {
+   "id": "event_year_029",
+   "relation": "event_year",
+   "seed": 1061676437,
+   "lang": {
+    "en": {
+     "subject": "the first human spaceflight by Yuri Gagarin",
+     "object": "1961",
+     "object_alts": [],
+     "prompts": [
+      "The first human spaceflight by Yuri Gagarin took place in the year",
+      "The first human spaceflight by Yuri Gagarin occurred in the year",
+      "The year of the first human spaceflight by Yuri Gagarin was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1961"
+    },
+    "es": {
+     "subject": "el primer vuelo espacial tripulado de Yuri Gagarin",
+     "object": "1961",
+     "object_alts": [],
+     "prompts": [
+      "El primer vuelo espacial tripulado de Yuri Gagarin tuvo lugar en el año",
+      "El primer vuelo espacial tripulado de Yuri Gagarin sucedió en el año",
+      "El año del primer vuelo espacial tripulado de Yuri Gagarin fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1961"
+    },
+    "hi": {
+     "subject": "यूरी गगारिन की पहली मानव अंतरिक्ष उड़ान",
+     "object": "1961",
+     "object_alts": [],
+     "prompts": [
+      "यूरी गगारिन की पहली मानव अंतरिक्ष उड़ान साल",
+      "यूरी गगारिन की पहली मानव अंतरिक्ष उड़ान सन्",
+      "यूरी गगारिन की पहली मानव अंतरिक्ष उड़ान वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1961"
+    }
+   }
+  },
+  {
+   "id": "event_year_030",
+   "relation": "event_year",
+   "seed": 1126440212,
+   "lang": {
+    "en": {
+     "subject": "the assassination of John F. Kennedy",
+     "object": "1963",
+     "object_alts": [],
+     "prompts": [
+      "The assassination of John F. Kennedy took place in the year",
+      "The assassination of John F. Kennedy occurred in the year",
+      "The year of the assassination of John F. Kennedy was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1963"
+    },
+    "es": {
+     "subject": "el asesinato de John F. Kennedy",
+     "object": "1963",
+     "object_alts": [],
+     "prompts": [
+      "El asesinato de John F. Kennedy tuvo lugar en el año",
+      "El asesinato de John F. Kennedy sucedió en el año",
+      "El año del asesinato de John F. Kennedy fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1963"
+    },
+    "hi": {
+     "subject": "जॉन एफ़. कैनेडी की हत्या",
+     "object": "1963",
+     "object_alts": [],
+     "prompts": [
+      "जॉन एफ़. कैनेडी की हत्या साल",
+      "जॉन एफ़. कैनेडी की हत्या सन्",
+      "जॉन एफ़. कैनेडी की हत्या वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1963"
+    }
+   }
+  },
+  {
+   "id": "event_year_031",
+   "relation": "event_year",
+   "seed": 1873664523,
+   "lang": {
+    "en": {
+     "subject": "the Apollo 11 Moon landing",
+     "object": "1969",
+     "object_alts": [],
+     "prompts": [
+      "The Apollo 11 Moon landing took place in the year",
+      "The Apollo 11 Moon landing occurred in the year",
+      "The year of the Apollo 11 Moon landing was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1969"
+    },
+    "es": {
+     "subject": "el alunizaje del Apolo 11",
+     "object": "1969",
+     "object_alts": [],
+     "prompts": [
+      "El alunizaje del Apolo 11 tuvo lugar en el año",
+      "El alunizaje del Apolo 11 sucedió en el año",
+      "El año del alunizaje del Apolo 11 fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1969"
+    },
+    "hi": {
+     "subject": "अपोलो 11 का चंद्रमा पर उतरना",
+     "object": "1969",
+     "object_alts": [],
+     "prompts": [
+      "अपोलो 11 का चंद्रमा पर उतरना साल",
+      "अपोलो 11 का चंद्रमा पर उतरना सन्",
+      "अपोलो 11 का चंद्रमा पर उतरना वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1969"
+    }
+   }
+  },
+  {
+   "id": "event_year_032",
+   "relation": "event_year",
+   "seed": 208641933,
+   "lang": {
+    "en": {
+     "subject": "the Chernobyl disaster",
+     "object": "1986",
+     "object_alts": [],
+     "prompts": [
+      "The Chernobyl disaster took place in the year",
+      "The Chernobyl disaster occurred in the year",
+      "The year of the Chernobyl disaster was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1986"
+    },
+    "es": {
+     "subject": "el desastre de Chernóbil",
+     "object": "1986",
+     "object_alts": [],
+     "prompts": [
+      "El desastre de Chernóbil tuvo lugar en el año",
+      "El desastre de Chernóbil sucedió en el año",
+      "El año del desastre de Chernóbil fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1986"
+    },
+    "hi": {
+     "subject": "चेर्नोबिल आपदा",
+     "object": "1986",
+     "object_alts": [],
+     "prompts": [
+      "चेर्नोबिल आपदा साल",
+      "चेर्नोबिल आपदा सन्",
+      "चेर्नोबिल आपदा वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1986"
+    }
+   }
+  },
+  {
+   "id": "event_year_033",
+   "relation": "event_year",
+   "seed": 437816299,
+   "lang": {
+    "en": {
+     "subject": "the fall of the Berlin Wall",
+     "object": "1989",
+     "object_alts": [],
+     "prompts": [
+      "The fall of the Berlin Wall took place in the year",
+      "The fall of the Berlin Wall occurred in the year",
+      "The year of the fall of the Berlin Wall was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1989"
+    },
+    "es": {
+     "subject": "la caída del Muro de Berlín",
+     "object": "1989",
+     "object_alts": [],
+     "prompts": [
+      "La caída del Muro de Berlín tuvo lugar en el año",
+      "La caída del Muro de Berlín sucedió en el año",
+      "El año de la caída del Muro de Berlín fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1989"
+    },
+    "hi": {
+     "subject": "बर्लिन की दीवार का गिरना",
+     "object": "1989",
+     "object_alts": [],
+     "prompts": [
+      "बर्लिन की दीवार का गिरना साल",
+      "बर्लिन की दीवार का गिरना सन्",
+      "बर्लिन की दीवार का गिरना वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1989"
+    }
+   }
+  },
+  {
+   "id": "event_year_034",
+   "relation": "event_year",
+   "seed": 720989375,
+   "lang": {
+    "en": {
+     "subject": "the dissolution of the Soviet Union",
+     "object": "1991",
+     "object_alts": [],
+     "prompts": [
+      "The dissolution of the Soviet Union took place in the year",
+      "The dissolution of the Soviet Union occurred in the year",
+      "The year of the dissolution of the Soviet Union was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1991"
+    },
+    "es": {
+     "subject": "la disolución de la Unión Soviética",
+     "object": "1991",
+     "object_alts": [],
+     "prompts": [
+      "La disolución de la Unión Soviética tuvo lugar en el año",
+      "La disolución de la Unión Soviética sucedió en el año",
+      "El año de la disolución de la Unión Soviética fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1991"
+    },
+    "hi": {
+     "subject": "सोवियत संघ का विघटन",
+     "object": "1991",
+     "object_alts": [],
+     "prompts": [
+      "सोवियत संघ का विघटन साल",
+      "सोवियत संघ का विघटन सन्",
+      "सोवियत संघ का विघटन वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1991"
+    }
+   }
+  },
+  {
+   "id": "event_year_035",
+   "relation": "event_year",
+   "seed": 2121981610,
+   "lang": {
+    "en": {
+     "subject": "the September 11 attacks",
+     "object": "2001",
+     "object_alts": [],
+     "prompts": [
+      "The September 11 attacks took place in the year",
+      "The September 11 attacks occurred in the year",
+      "The year of the September 11 attacks was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "2001"
+    },
+    "es": {
+     "subject": "los atentados del 11 de septiembre",
+     "object": "2001",
+     "object_alts": [],
+     "prompts": [
+      "Los atentados del 11 de septiembre tuvo lugar en el año",
+      "Los atentados del 11 de septiembre sucedió en el año",
+      "El año de los atentados del 11 de septiembre fue"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "2001"
+    },
+    "hi": {
+     "subject": "11 सितंबर के हमले",
+     "object": "2001",
+     "object_alts": [],
+     "prompts": [
+      "11 सितंबर के हमले साल",
+      "11 सितंबर के हमले सन्",
+      "11 सितंबर के हमले वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "2001"
+    }
+   }
+  },
+  {
+   "id": "event_year_036",
+   "relation": "event_year",
+   "seed": 31168219,
+   "lang": {
+    "en": {
+     "subject": "the Indian Ocean tsunami",
+     "object": "2004",
+     "object_alts": [],
+     "prompts": [
+      "The Indian Ocean tsunami took place in the year",
+      "The Indian Ocean tsunami occurred in the year",
+      "The year of the Indian Ocean tsunami was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "2004"
+    },
+    "es": {
+     "subject": "el tsunami del océano Índico",
+     "object": "2004",
+     "object_alts": [],
+     "prompts": [
+      "El tsunami del océano Índico tuvo lugar en el año",
+      "El tsunami del océano Índico sucedió en el año",
+      "El año del tsunami del océano Índico fue"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "2004"
+    },
+    "hi": {
+     "subject": "हिंद महासागर की सुनामी",
+     "object": "2004",
+     "object_alts": [],
+     "prompts": [
+      "हिंद महासागर की सुनामी साल",
+      "हिंद महासागर की सुनामी सन्",
+      "हिंद महासागर की सुनामी वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "2004"
+    }
+   }
+  }
+ ]
+}
