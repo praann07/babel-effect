@@ -31,15 +31,19 @@ def complete(model, tok, prompt: str, obj: str) -> tuple[str, float]:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model-dir", default="models/llama-3.2-3b-instruct")
+    ap.add_argument("--model", default="llama", choices=["llama", "gemma2"])
+    ap.add_argument("--model-dir", default=None, help="default: the directory registered for --model in common.MODELS")
     ap.add_argument("--candidates", default="data/facts_candidates.json")
-    ap.add_argument("--out", default="data/facts.json")
+    ap.add_argument("--out", default=None, help="default: the facts file registered for --model")
     ap.add_argument("--tag", default="p1filter")
     a = ap.parse_args()
+    from common import MODELS
+    a.model_dir = a.model_dir or MODELS[a.model]["dir"]
+    a.out = a.out or MODELS[a.model]["facts"]
 
     run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"
     run.mkdir(parents=True, exist_ok=False)  # write-once
-    (run / "config.json").write_text(json.dumps(vars(a) | {"model": "Llama-3.2-3B-Instruct (unsloth mirror)",
+    (run / "config.json").write_text(json.dumps(vars(a) | {"model": MODELS[a.model]["tl_name"],
                                                           "dtype": "bfloat16", "decoding": "greedy"}, indent=1))
 
     cands = json.loads(Path(a.candidates).read_text(encoding="utf8"))["facts"]
@@ -86,7 +90,7 @@ def main() -> None:
         table[rel]["kept"] = sum(k["relation"] == rel for k in kept)
     summary = {"n_candidates": len(cands), "n_kept": len(kept), "per_relation": table,
                "all_langs_correct_rate": len(kept) / len(cands)}
-    Path(a.out).write_text(json.dumps({"version": 1, "model": "Llama-3.2-3B-Instruct", "summary": summary,
+    Path(a.out).write_text(json.dumps({"version": 1, "model": MODELS[a.model]["tl_name"], "summary": summary,
                                        "facts": kept}, ensure_ascii=False, indent=1), encoding="utf8")
     (run / "accuracy.json").write_text(json.dumps(summary, indent=1))
 
