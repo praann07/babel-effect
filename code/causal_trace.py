@@ -16,7 +16,7 @@ import numpy as np
 import torch
 from transformer_lens import HookedTransformer
 
-from common import LANGS, load_facts, load_model, select_p2_facts, subject_span
+from common import LANGS, MODELS, load_facts, load_model, select_p2_facts, subject_span
 
 KINDS = ("resid", "mlp")
 
@@ -39,14 +39,23 @@ def pooled_embedding_std(model: HookedTransformer, facts: list[dict]) -> dict[st
 
 
 class Scorer:
-    """score = (final-norm hidden at last position) . (W_U[:, obj] - W_U[:, comp]), dot product in fp32."""
+    """score = softcap(h . W_U[:, obj]) - softcap(h . W_U[:, comp]) with h = final-norm hidden * norm weight, in fp32.
+
+    The soft cap (Gemma-2: 30 * tanh(x / 30)) is applied as in the model's own forward pass; it is a no-op for Llama.
+    """
 
     def __init__(self, model: HookedTransformer, obj: int, comp: int) -> None:
-        self.dir = (model.W_U[:, obj] - model.W_U[:, comp]).float()
+        self.wo, self.wc = model.W_U[:, obj].float(), model.W_U[:, comp].float()
         self.w = model.ln_final.w.float()
+        cap = getattr(model.cfg, "output_logits_soft_cap", 0) or 0
+        self.cap = float(cap) if cap and cap > 0 else 0.0
 
     def __call__(self, normalized_last: torch.Tensor) -> torch.Tensor:  # [B, d] before the RMSNorm weight
-        return (normalized_last.float() * self.w) @ self.dir
+        h = normalized_last.float() * self.w
+        lo, lc = h @ self.wo, h @ self.wc
+        if self.cap:
+            lo, lc = self.cap * torch.tanh(lo / self.cap), self.cap * torch.tanh(lc / self.cap)
+        return lo - lc
 
 
 @torch.no_grad()
@@ -114,7 +123,8 @@ def trace_one(model: HookedTransformer, prompt: str, subject: str, seed: int, si
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--facts", default="data/facts.json")
+    ap.add_argument("--model", default="llama", choices=list(MODELS))
+    ap.add_argument("--facts", default=None)
     ap.add_argument("--subset", choices=["p2", "all"], default="p2")
     ap.add_argument("--tag", default="p2trace")
     ap.add_argument("--limit", type=int, default=None, help="debug: only the first N facts")
@@ -123,14 +133,15 @@ def main() -> None:
     run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"
     run.mkdir(parents=True, exist_ok=False)  # write-once
     (run / "grids").mkdir()
+    a.facts = a.facts or MODELS[a.model]["facts"]
     all_facts = load_facts(a.facts)
     facts = select_p2_facts(all_facts) if a.subset == "p2" else all_facts
     if a.limit:
         facts = facts[: a.limit]
-    model = load_model()
+    model = load_model(a.model)
     n_layers = model.cfg.n_layers
     std = pooled_embedding_std(model, all_facts)
-    cfg = vars(a) | {"model": "Llama-3.2-3B-Instruct", "dtype": "bfloat16", "noise_mult": 3.0,
+    cfg = vars(a) | {"model": MODELS[a.model]["tl_name"], "dtype": "bfloat16", "noise_mult": 3.0,
                      "embed_std_pooled": std, "n_layers": n_layers, "fact_ids": [f["id"] for f in facts]}
     (run / "config.json").write_text(json.dumps(cfg, indent=1))
 

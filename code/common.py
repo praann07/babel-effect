@@ -8,16 +8,22 @@ from pathlib import Path
 import torch
 from transformer_lens import HookedTransformer
 
-MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"  # TransformerLens config key; weights come from MODEL_DIR
-MODEL_DIR = "models/llama-3.2-3b-instruct"
+# key -> TransformerLens config name, local weight dir, facts file (facts are filtered per model)
+MODELS = {
+    "llama": {"tl_name": "meta-llama/Llama-3.2-3B-Instruct", "dir": "models/llama-3.2-3b-instruct", "facts": "data/facts.json"},
+    "gemma2": {"tl_name": "google/gemma-2-2b", "dir": "models/gemma-2-2b", "facts": "data/facts_gemma2.json"},
+}
+MODEL_NAME = MODELS["llama"]["tl_name"]  # kept for older scripts
+MODEL_DIR = MODELS["llama"]["dir"]
 LANGS = ("en", "es", "hi")
 
 
-def load_model(local: str = MODEL_DIR, dtype: torch.dtype = torch.bfloat16) -> HookedTransformer:
+def load_model(key: str = "llama", dtype: torch.dtype = torch.bfloat16) -> HookedTransformer:
     from transformers import AutoModelForCausalLM, AutoTokenizer
-    hf = AutoModelForCausalLM.from_pretrained(local, torch_dtype=dtype)
-    tok = AutoTokenizer.from_pretrained(local)
-    model = HookedTransformer.from_pretrained_no_processing(MODEL_NAME, hf_model=hf, tokenizer=tok, dtype=dtype,
+    spec = MODELS[key]
+    hf = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=dtype)
+    tok = AutoTokenizer.from_pretrained(spec["dir"])
+    model = HookedTransformer.from_pretrained_no_processing(spec["tl_name"], hf_model=hf, tokenizer=tok, dtype=dtype,
                                                             device="cuda")
     del hf
     gc.collect()
@@ -37,10 +43,12 @@ def share_transposed_mlp_weights(model: HookedTransformer) -> None:
     """
     for blk in model.blocks:
         for name in ("W_gate", "W_in", "W_out"):
-            p = getattr(blk.mlp, name)
-            p.data = p.data.T.contiguous().T
+            if hasattr(blk.mlp, name):
+                p = getattr(blk.mlp, name)
+                p.data = p.data.T.contiguous().T
         at = blk.attn
-        for name in ("W_Q", "_W_K", "_W_V"):  # [h, d_model, d_head] -> stored as [h, d_head, d_model]
+        kv = ("_W_K", "_W_V") if hasattr(at, "_W_K") else ("W_K", "W_V")  # grouped-query vs full attention
+        for name in ("W_Q", *kv):  # [h, d_model, d_head] -> stored as [h, d_head, d_model]
             p = getattr(at, name)
             p.data = p.data.permute(0, 2, 1).contiguous().permute(0, 2, 1)
         at.W_O.data = at.W_O.data.permute(2, 0, 1).contiguous().permute(1, 2, 0)  # stored as [d_model, h, d_head]

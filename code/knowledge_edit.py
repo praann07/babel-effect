@@ -17,12 +17,12 @@ import torch
 import torch.nn.functional as F
 from transformer_lens import HookedTransformer
 
-from common import LANGS, load_facts, load_model, select_p2_facts, share_transposed_mlp_weights, subject_span
+from common import LANGS, MODELS, load_facts, load_model, select_p2_facts, share_transposed_mlp_weights, subject_span
 
 PREFIXES = ["", "Fact: ", "Note: ", "Q: ", "Did you know? "]
 N_COV_TOKENS, WINDOW = 30_000, 128
 STEPS, LR, KL_FACTOR, WD, CLAMP = 25, 0.5, 0.0625, 0.5, 4.0
-MID_LAYER = 14
+MODEL_KEY = "llama"  # set in main(); keys the covariance cache
 Path(".cache").mkdir(exist_ok=True)
 
 
@@ -51,7 +51,7 @@ def wiki_sentences(n: int = 100, seed: int = 0) -> list[str]:
 
 @torch.no_grad()
 def covariance(model: HookedTransformer, layer: int, windows: list[list[int]]) -> torch.Tensor:
-    path = Path(".cache") / f"cov_L{layer}.pt"
+    path = Path(".cache") / (f"cov_L{layer}.pt" if MODEL_KEY == "llama" else f"cov_{MODEL_KEY}_L{layer}.pt")
     if path.exists():
         return torch.load(path, weights_only=True)
     d = model.cfg.d_mlp
@@ -108,14 +108,28 @@ def context_inputs(model: HookedTransformer, prompt: str, subject: str) -> list[
     return out
 
 
+def has_post_norm(model: HookedTransformer) -> bool:
+    """Gemma-2 normalises the MLP output (ln2_post) before hook_mlp_out, so the edit point is the norm's input."""
+    return bool(model.cfg.use_normalization_before_and_after)
+
+
 @torch.no_grad()
 def get_key_and_value(model: HookedTransformer, ctxs: list, layer: int) -> tuple[torch.Tensor, torch.Tensor]:
+    """Mean key (MLP hidden) and mean current MLP output (before any post-norm) at the last subject token."""
     ks, vs = [], []
     for toks, pos in ctxs:
-        _, cache = model.run_with_cache(toks, names_filter=[f"blocks.{layer}.mlp.hook_post", f"blocks.{layer}.hook_mlp_out"],
-                                        stop_at_layer=layer + 1)
+        seen: dict[str, torch.Tensor] = {}
+        h = None
+        if has_post_norm(model):
+            h = model.blocks[layer].ln2_post.register_forward_pre_hook(lambda m, a: seen.__setitem__("v", a[0][0, pos].float()))
+        try:
+            _, cache = model.run_with_cache(toks, names_filter=[f"blocks.{layer}.mlp.hook_post", f"blocks.{layer}.hook_mlp_out"],
+                                            stop_at_layer=layer + 1)
+        finally:
+            if h is not None:
+                h.remove()
         ks.append(cache[f"blocks.{layer}.mlp.hook_post"][0, pos].float())
-        vs.append(cache[f"blocks.{layer}.hook_mlp_out"][0, pos].float())
+        vs.append(seen["v"] if has_post_norm(model) else cache[f"blocks.{layer}.hook_mlp_out"][0, pos].float())
     return torch.stack(ks).mean(0), torch.stack(vs).mean(0)
 
 
@@ -128,7 +142,9 @@ def last_logits_grad(model: HookedTransformer, toks: torch.Tensor, hooks: list) 
         return act
 
     model.run_with_hooks(toks, return_type=None, fwd_hooks=[*hooks, ("ln_final.hook_normalized", g)])
-    return ((grab["h"] * model.ln_final.w).to(model.W_U.dtype) @ model.W_U).float()
+    lg = ((grab["h"] * model.ln_final.w).to(model.W_U.dtype) @ model.W_U).float()
+    cap = getattr(model.cfg, "output_logits_soft_cap", 0) or 0
+    return cap * torch.tanh(lg / cap) if cap and cap > 0 else lg
 
 
 def optimise_delta(model: HookedTransformer, ctxs: list, essence: tuple[torch.Tensor, int], layer: int, target: int,
@@ -146,6 +162,22 @@ def optimise_delta(model: HookedTransformer, ctxs: list, essence: tuple[torch.Te
             return act
         return f
 
+    def run_delta(toks: torch.Tensor, pos: int) -> torch.Tensor:
+        """Last-position logits with delta added to the MLP output (to the input of ln2_post when the model has one)."""
+        if not has_post_norm(model):
+            return last_logits_grad(model, toks, [(name, hook_at(pos))])
+
+        def pre(mod, args):
+            x = args[0].clone()
+            x[:, pos] = x[:, pos] + delta.to(x.dtype)
+            return (x, *args[1:])
+
+        h = model.blocks[layer].ln2_post.register_forward_pre_hook(pre)
+        try:
+            return last_logits_grad(model, toks, [])
+        finally:
+            h.remove()
+
     losses = []
     tgt = torch.tensor([target], device="cuda")
     # One backward per forward; weights were re-laid out (common.share_transposed_mlp_weights) so peak VRAM stays < 8 GB.
@@ -154,11 +186,11 @@ def optimise_delta(model: HookedTransformer, ctxs: list, essence: tuple[torch.Te
             opt.zero_grad()
             ce_total = 0.0
             for toks, pos in ctxs:
-                lg = last_logits_grad(model, toks, [(name, hook_at(pos))])
+                lg = run_delta(toks, pos)
                 ce = F.cross_entropy(lg[None], tgt) / len(ctxs)
                 ce.backward()
                 ce_total += float(ce.detach())
-            lg_e = last_logits_grad(model, essence[0], [(name, hook_at(essence[1]))]).log_softmax(-1)
+            lg_e = run_delta(essence[0], essence[1]).log_softmax(-1)
             (KL_FACTOR * F.kl_div(lg_e, base_lp, log_target=True, reduction="sum")).backward()
             (WD * delta.pow(2).sum() / v0.pow(2).sum()).backward()
             opt.step()
@@ -185,10 +217,14 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--trace-run", default="analysis/run_20261012_p3trace")
     ap.add_argument("--tag", default="p4edit")
-    ap.add_argument("--facts", default="data/facts.json")
+    ap.add_argument("--model", default="llama", choices=list(MODELS))
+    ap.add_argument("--facts", default=None)
     ap.add_argument("--limit", type=int, default=None)
     a = ap.parse_args()
 
+    global MODEL_KEY
+    MODEL_KEY = a.model
+    a.facts = a.facts or MODELS[a.model]["facts"]
     all_facts = load_facts(a.facts)
     recs = {(r["id"], r["lang"]): r for r in json.loads((Path(a.trace_run) / "records.json").read_text(encoding="utf8"))}
     valid = [f for f in all_facts if all(recs[(f["id"], lg)]["collapsed"] and recs[(f["id"], lg)]["obj_ok"] and
@@ -199,8 +235,9 @@ def main() -> None:
 
     out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"
     out.mkdir(parents=True, exist_ok=False)  # write-once
-    model = load_model()
+    model = load_model(a.model)
     share_transposed_mlp_weights(model)
+    mid_layer = model.cfg.n_layers // 2
     tok = model.tokenizer
     windows = wiki_tokens(model)
     sents = wiki_sentences()
@@ -213,7 +250,7 @@ def main() -> None:
         base_en[f["id"]] = (t, float(last_probs(model, p)[t]))
     (out / "config.json").write_text(json.dumps({"trace_run": a.trace_run, "edit_ids": [f["id"] for f in edit_facts], "ppl_before": ppl0,
                                                  "steps": STEPS, "lr": LR, "kl_factor": KL_FACTOR, "wd": WD, "clamp": CLAMP,
-                                                 "prefixes": PREFIXES, "cov_tokens": N_COV_TOKENS, "mid_layer": MID_LAYER,
+                                                 "prefixes": PREFIXES, "cov_tokens": N_COV_TOKENS, "mid_layer": mid_layer,
                                                  "n_valid": len(valid)}, indent=1))
     rows = []
     for f in edit_facts:
@@ -221,12 +258,12 @@ def main() -> None:
         same_rel = [g for g in valid if g["relation"] == f["relation"] and g["lang"]["en"]["object"] != f["lang"]["en"]["object"]]
         new = rng.choice(same_rel)
         peak = recs[(f["id"], "en")]["crit_mlp_layer"]
-        rand_layer = rng.choice([l for l in range(model.cfg.n_layers) if l not in (peak, MID_LAYER)])
+        rand_layer = rng.choice([l for l in range(model.cfg.n_layers) if l not in (peak, mid_layer)])
         controls = rng.sample([g for g in valid if g["id"] != f["id"]], 20)
         L = {lg: {"prompt": f["lang"][lg]["prompt"], "old_t": first_obj_token(tok, f["lang"][lg]["prompt"], f["lang"][lg]["object"]),
                   "new_t": first_obj_token(tok, f["lang"][lg]["prompt"], new["lang"][lg]["object"])} for lg in LANGS}
         before = {lg: last_probs(model, L[lg]["prompt"]) for lg in LANGS}
-        for cond, layer in (("traced", peak), ("mid", MID_LAYER), ("random", rand_layer)):
+        for cond, layer in (("traced", peak), ("mid", mid_layer), ("random", rand_layer)):
             en = f["lang"]["en"]
             ctxs = context_inputs(model, en["prompt"], en["subject"])
             ess_ids, ess_span = subject_span(tok, f"{en['subject']} is", en["subject"])
