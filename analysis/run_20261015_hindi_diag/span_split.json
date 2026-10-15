@@ -1,0 +1,78 @@
+{
+ "llama/short_hi_span": {
+  "n": 49,
+  "hi_span_threshold": 5,
+  "pooled_z": {
+   "en-es": 3.17,
+   "en-hi": 1.69,
+   "es-hi": 3.14
+  },
+  "stratified_z": {
+   "en-es": 3.23,
+   "en-hi": 1.54,
+   "es-hi": 2.7
+  },
+  "cos": {
+   "en-es": 0.665,
+   "en-hi": 0.597,
+   "es-hi": 0.596
+  }
+ },
+ "llama/long_hi_span": {
+  "n": 43,
+  "hi_span_threshold": 5,
+  "pooled_z": {
+   "en-es": 2.44,
+   "en-hi": -1.22,
+   "es-hi": 0.89
+  },
+  "stratified_z": {
+   "en-es": 1.7,
+   "en-hi": -1.25,
+   "es-hi": 0.9
+  },
+  "cos": {
+   "en-es": 0.6,
+   "en-hi": 0.199,
+   "es-hi": 0.262
+  }
+ },
+ "gemma2/short_hi_span": {
+  "n": 32,
+  "hi_span_threshold": 8,
+  "pooled_z": {
+   "en-es": 3.12,
+   "en-hi": 1.03,
+   "es-hi": 0.41
+  },
+  "stratified_z": {
+   "en-es": 2.42,
+   "en-hi": 1.06,
+   "es-hi": 0.71
+  },
+  "cos": {
+   "en-es": 0.5,
+   "en-hi": 0.298,
+   "es-hi": 0.279
+  }
+ },
+ "gemma2/long_hi_span": {
+  "n": 26,
+  "hi_span_threshold": 8,
+  "pooled_z": {
+   "en-es": 2.09,
+   "en-hi": 1.9,
+   "es-hi": -0.36
+  },
+  "stratified_z": {
+   "en-es": 1.86,
+   "en-hi": 1.77,
+   "es-hi": -0.37
+  },
+  "cos": {
+   "en-es": 0.372,
+   "en-hi": 0.152,
+   "es-hi": 0.002
+  }
+ }
+}

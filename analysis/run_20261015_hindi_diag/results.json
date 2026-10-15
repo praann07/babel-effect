@@ -1,0 +1,94 @@
+{
+ "llama": {
+  "accuracy_by_object_tokens": {
+   "en/1-3": {
+    "acc": 0.962,
+    "n": 372
+   },
+   "en/4-6": {
+    "acc": 0.714,
+    "n": 35
+   },
+   "en/7+": {
+    "acc": 1.0,
+    "n": 1
+   },
+   "es/1-3": {
+    "acc": 0.777,
+    "n": 346
+   },
+   "es/4-6": {
+    "acc": 0.467,
+    "n": 60
+   },
+   "es/7+": {
+    "acc": 1.0,
+    "n": 2
+   },
+   "hi/1-3": {
+    "acc": 0.425,
+    "n": 127
+   },
+   "hi/4-6": {
+    "acc": 0.403,
+    "n": 216
+   },
+   "hi/7+": {
+    "acc": 0.231,
+    "n": 65
+   }
+  },
+  "spearman_correct_vs_object_tokens": {
+   "en": -0.20843212007934914,
+   "es": -0.15378439501114927,
+   "hi": -0.14603893031571702
+  },
+  "valid_n": 92,
+  "spearman_enhi_cosine_vs_hi_target_tokens": 0.15615295218157377,
+  "spearman_enhi_cosine_vs_hi_subject_span": -0.35455240911650027,
+  "hi_target_tokens_median": 4.0,
+  "hi_span_median": 5.0
+ },
+ "gemma2": {
+  "accuracy_by_object_tokens": {
+   "en/1-3": {
+    "acc": 0.922,
+    "n": 358
+   },
+   "en/4-6": {
+    "acc": 0.966,
+    "n": 89
+   },
+   "es/1-3": {
+    "acc": 0.706,
+    "n": 354
+   },
+   "es/4-6": {
+    "acc": 0.742,
+    "n": 93
+   },
+   "hi/1-3": {
+    "acc": 0.212,
+    "n": 137
+   },
+   "hi/4-6": {
+    "acc": 0.213,
+    "n": 263
+   },
+   "hi/7+": {
+    "acc": 0.021,
+    "n": 47
+   }
+  },
+  "spearman_correct_vs_object_tokens": {
+   "en": -0.09574912534499418,
+   "es": -0.20065326655636256,
+   "hi": -0.0685634620400575
+  },
+  "valid_n": 58,
+  "spearman_enhi_cosine_vs_hi_target_tokens": -0.33793565657992153,
+  "spearman_enhi_cosine_vs_hi_subject_span": -0.3884941419720826,
+  "hi_target_tokens_median": 5.0,
+  "hi_span_median": 8.0
+ }
+}
