@@ -97,6 +97,8 @@ def main() -> None:
         if only and rel not in only:
             continue
         tune = sorted((f for f in cands if f["relation"] == rel), key=lambda f: f["id"])[:a.n_tune]
+        if not tune:
+            continue  # relation not in this candidate file
         for lg in LANGS:
             accs = []
             for t in langs[lg]:
