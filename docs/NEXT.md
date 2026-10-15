@@ -8,8 +8,8 @@ Legend: [x] done, [~] running, [ ] to do. GPU items wait for the layer sweep (sc
 - [x] A5-A8 pre-registered; v2 data (5 relations, 3 phrasings); full-answer tracing; Llama v2 (n=92) and Gemma-2-2B v2 (n=58) overlap; cross-model table (33 shared facts); related work (20 verified refs); manifest 356 claims
 
 ## Fixes to make the paper reviewer-proof (do one at a time, commit after each)
-- [ ] F1 Pre-register the relation-stratified null as the primary test for everything from now on (A9). CPU, now.
-- [ ] F2 Hindi diagnostic: Hindi accuracy and overlap versus Hindi token length (answers "is it a tokenizer artifact?"). CPU, now.
+- [x] F1 Pre-register the relation-stratified null as the primary test for everything from now on (A9). CPU, now.
+- [x] F2 Hindi diagnostic: Hindi accuracy and overlap versus Hindi token length (answers "is it a tokenizer artifact?"). CPU, now.
 - [ ] F3 In-context editing baseline (put the new fact in the prompt) to put the weight-edit transfer numbers in context. Code now, run after the sweep.
 - [ ] F4 Non-copyable facts: add relations whose answers differ across languages (landmark_country, city_country); target >= 50 non-copyable valid facts per model. Data now, GPU after the sweep.
 - [ ] F5 Phrasing robustness (H8): trace phrasings 1 and 2 on 30 facts per model. GPU after the sweep.
