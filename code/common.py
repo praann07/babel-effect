@@ -11,6 +11,7 @@ from transformer_lens import HookedTransformer
 # key -> TransformerLens config name, local weight dir, facts file (facts are filtered per model)
 MODELS = {
     "llama": {"tl_name": "meta-llama/Llama-3.2-3B-Instruct", "dir": "models/llama-3.2-3b-instruct", "facts": "data/facts.json", "facts_v2": "data/v2/facts_llama.json"},
+    "llama1b": {"tl_name": "meta-llama/Llama-3.2-1B-Instruct", "dir": "models/llama-3.2-1b-instruct", "facts": "data/facts_llama1b.json", "facts_v2": "data/v2/facts_llama1b.json"},
     "gemma2": {"tl_name": "google/gemma-2-2b", "dir": "models/gemma-2-2b", "facts": "data/facts_gemma2.json", "facts_v2": "data/v2/facts_gemma2.json"},
 }
 MODEL_NAME = MODELS["llama"]["tl_name"]  # kept for older scripts
