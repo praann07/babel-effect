@@ -1,5 +1,5 @@
 {
- "n_claims": 240,
+ "n_claims": 356,
  "claims": [
   {
    "id": "n_candidates",
@@ -2763,6 +2763,1437 @@
     2
    ],
    "value": 1.0006240445509107
+  },
+  {
+   "id": "v2_llama_n_candidates",
+   "artifact": "analysis/run_20261014_p1v2b_llama/accuracy.json",
+   "key_path": [
+    "n_candidates"
+   ],
+   "value": 408
+  },
+  {
+   "id": "v2_llama_n_kept",
+   "artifact": "analysis/run_20261014_p1v2b_llama/accuracy.json",
+   "key_path": [
+    "n_kept"
+   ],
+   "value": 93
+  },
+  {
+   "id": "v2_llama_n_valid",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "n_valid"
+   ],
+   "value": 92
+  },
+  {
+   "id": "v2_llama_kept_capital_of",
+   "artifact": "analysis/run_20261014_p1v2b_llama/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_of",
+    "kept"
+   ],
+   "value": 27
+  },
+  {
+   "id": "v2_llama_kept_capital_country",
+   "artifact": "analysis/run_20261014_p1v2b_llama/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_country",
+    "kept"
+   ],
+   "value": 38
+  },
+  {
+   "id": "v2_llama_kept_landmark_city",
+   "artifact": "analysis/run_20261014_p1v2b_llama/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "landmark_city",
+    "kept"
+   ],
+   "value": 6
+  },
+  {
+   "id": "v2_llama_kept_invention_inventor",
+   "artifact": "analysis/run_20261014_p1v2b_llama/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "invention_inventor",
+    "kept"
+   ],
+   "value": 0
+  },
+  {
+   "id": "v2_llama_kept_event_year",
+   "artifact": "analysis/run_20261014_p1v2b_llama/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "event_year",
+    "kept"
+   ],
+   "value": 22
+  },
+  {
+   "id": "v2_llama_en-es_mlp_cosine_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.6265448927879333
+  },
+  {
+   "id": "v2_llama_en-es_mlp_cosine_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.5570484399795532
+  },
+  {
+   "id": "v2_llama_en-es_mlp_cosine_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.7020037174224854
+  },
+  {
+   "id": "v2_llama_en-es_mlp_cosine_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "null_mean"
+   ],
+   "value": 0.5190098881721497
+  },
+  {
+   "id": "v2_llama_en-es_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 4.223816394805908
+  },
+  {
+   "id": "v2_llama_en-es_mlp_cosine_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.000999000999000999
+  },
+  {
+   "id": "v2_llama_en-es_mlp_spearman_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "observed_median"
+   ],
+   "value": 0.4611384783798361
+  },
+  {
+   "id": "v2_llama_en-es_mlp_spearman_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "ci95",
+    0
+   ],
+   "value": 0.4277504105090113
+  },
+  {
+   "id": "v2_llama_en-es_mlp_spearman_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "ci95",
+    1
+   ],
+   "value": 0.5314723590585413
+  },
+  {
+   "id": "v2_llama_en-es_mlp_spearman_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "null_mean"
+   ],
+   "value": 0.3339859319634537
+  },
+  {
+   "id": "v2_llama_en-es_mlp_spearman_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "z"
+   ],
+   "value": 5.152615858396895
+  },
+  {
+   "id": "v2_llama_en-es_mlp_spearman_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "p_one_sided"
+   ],
+   "value": 0.000999000999000999
+  },
+  {
+   "id": "v2_llama_en-es_mlp_cosine_z_no_copyable",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 3.8528900146484375
+  },
+  {
+   "id": "v2_llama_en-es_mlp_cosine_z_stratified",
+   "artifact": "analysis/run_20261015_p3overlap_v2b_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 3.2861640453338623
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_cosine_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.509225070476532
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_cosine_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.33522829413414
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_cosine_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.5942895412445068
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_cosine_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "null_mean"
+   ],
+   "value": 0.4294070899486542
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.4528872966766357
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_cosine_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.002997002997002997
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_spearman_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "observed_median"
+   ],
+   "value": 0.3229337712096182
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_spearman_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "ci95",
+    0
+   ],
+   "value": 0.23289545703337722
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_spearman_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "ci95",
+    1
+   ],
+   "value": 0.40722495894907773
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_spearman_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "null_mean"
+   ],
+   "value": 0.24830892980325603
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_spearman_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "z"
+   ],
+   "value": 2.608808991055585
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_spearman_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "p_one_sided"
+   ],
+   "value": 0.006993006993006993
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_cosine_z_no_copyable",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.133556365966797
+  },
+  {
+   "id": "v2_llama_en-hi_mlp_cosine_z_stratified",
+   "artifact": "analysis/run_20261015_p3overlap_v2b_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.790116310119629
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_cosine_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.42252233624458313
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_cosine_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.31335383653640747
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_cosine_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.5291808843612671
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_cosine_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "null_mean"
+   ],
+   "value": 0.3283225893974304
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.4734489917755127
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_cosine_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.005994005994005994
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_spearman_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "observed_median"
+   ],
+   "value": 0.2832512315270803
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_spearman_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "ci95",
+    0
+   ],
+   "value": 0.21291735084837538
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_spearman_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "ci95",
+    1
+   ],
+   "value": 0.31691297208537106
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_spearman_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "null_mean"
+   ],
+   "value": 0.1907071702244027
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_spearman_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "z"
+   ],
+   "value": 3.0800595979763186
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_spearman_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "p_one_sided"
+   ],
+   "value": 0.000999000999000999
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_cosine_z_no_copyable",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 3.506417751312256
+  },
+  {
+   "id": "v2_llama_es-hi_mlp_cosine_z_stratified",
+   "artifact": "analysis/run_20261015_p3overlap_v2b_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.9795597791671753
+  },
+  {
+   "id": "v2_llama_crit_median_en",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "en",
+    "median"
+   ],
+   "value": 3.0
+  },
+  {
+   "id": "v2_llama_crit_frac_8_19_en",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "en",
+    "frac_in_8_19"
+   ],
+   "value": 0.03260869565217391
+  },
+  {
+   "id": "v2_llama_crit_median_es",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "es",
+    "median"
+   ],
+   "value": 4.0
+  },
+  {
+   "id": "v2_llama_crit_frac_8_19_es",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "es",
+    "frac_in_8_19"
+   ],
+   "value": 0.021739130434782608
+  },
+  {
+   "id": "v2_llama_crit_median_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "hi",
+    "median"
+   ],
+   "value": 4.0
+  },
+  {
+   "id": "v2_llama_crit_frac_8_19_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "hi",
+    "frac_in_8_19"
+   ],
+   "value": 0.10869565217391304
+  },
+  {
+   "id": "v2_gemma2_n_candidates",
+   "artifact": "analysis/run_20261015_p1v2c_gemma2/accuracy.json",
+   "key_path": [
+    "n_candidates"
+   ],
+   "value": 447
+  },
+  {
+   "id": "v2_gemma2_n_kept",
+   "artifact": "analysis/run_20261015_p1v2c_gemma2/accuracy.json",
+   "key_path": [
+    "n_kept"
+   ],
+   "value": 58
+  },
+  {
+   "id": "v2_gemma2_n_valid",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "n_valid"
+   ],
+   "value": 58
+  },
+  {
+   "id": "v2_gemma2_kept_capital_of",
+   "artifact": "analysis/run_20261015_p1v2c_gemma2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_of",
+    "kept"
+   ],
+   "value": 11
+  },
+  {
+   "id": "v2_gemma2_kept_capital_country",
+   "artifact": "analysis/run_20261015_p1v2c_gemma2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "capital_country",
+    "kept"
+   ],
+   "value": 11
+  },
+  {
+   "id": "v2_gemma2_kept_landmark_city",
+   "artifact": "analysis/run_20261015_p1v2c_gemma2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "landmark_city",
+    "kept"
+   ],
+   "value": 6
+  },
+  {
+   "id": "v2_gemma2_kept_invention_inventor",
+   "artifact": "analysis/run_20261015_p1v2c_gemma2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "invention_inventor",
+    "kept"
+   ],
+   "value": 0
+  },
+  {
+   "id": "v2_gemma2_kept_event_year",
+   "artifact": "analysis/run_20261015_p1v2c_gemma2/accuracy.json",
+   "key_path": [
+    "per_relation",
+    "event_year",
+    "kept"
+   ],
+   "value": 30
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_cosine_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.4642083942890167
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_cosine_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.32919809222221375
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_cosine_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.5422617197036743
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_cosine_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "null_mean"
+   ],
+   "value": 0.29219359159469604
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 4.8070478439331055
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_cosine_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.000999000999000999
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_spearman_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "observed_median"
+   ],
+   "value": 0.3323076923076749
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_spearman_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "ci95",
+    0
+   ],
+   "value": 0.1900854700854601
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_spearman_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "ci95",
+    1
+   ],
+   "value": 0.4646153846153602
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_spearman_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "null_mean"
+   ],
+   "value": 0.1619791452991368
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_spearman_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "z"
+   ],
+   "value": 4.549624749289692
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_spearman_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_spearman",
+    "p_one_sided"
+   ],
+   "value": 0.000999000999000999
+  },
+  {
+   "id": "v2_gemma2_en-es_mlp_cosine_z_no_copyable",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.512744665145874
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_cosine_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.22629019618034363
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_cosine_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.1681455373764038
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_cosine_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.28281906247138977
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_cosine_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "null_mean"
+   ],
+   "value": 0.1358860433101654
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.1858818531036377
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_cosine_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.00999000999000999
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_spearman_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "observed_median"
+   ],
+   "value": 0.134017094017087
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_spearman_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "ci95",
+    0
+   ],
+   "value": 0.029401709401707873
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_spearman_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "ci95",
+    1
+   ],
+   "value": 0.19897435897434854
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_spearman_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "null_mean"
+   ],
+   "value": 0.08234564102563671
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_spearman_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "z"
+   ],
+   "value": 1.3547463330343656
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_spearman_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_spearman",
+    "p_one_sided"
+   ],
+   "value": 0.08691308691308691
+  },
+  {
+   "id": "v2_gemma2_en-hi_mlp_cosine_z_no_copyable",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.4788217544555664
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_cosine_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.1372923105955124
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_cosine_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "ci95",
+    0
+   ],
+   "value": 0.014254354871809483
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_cosine_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "ci95",
+    1
+   ],
+   "value": 0.2671162784099579
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_cosine_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "null_mean"
+   ],
+   "value": 0.13396072387695312
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.07693533599376678
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_cosine_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.4935064935064935
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_spearman_obs",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "observed_median"
+   ],
+   "value": 0.05435897435897148
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_spearman_ci_lo",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "ci95",
+    0
+   ],
+   "value": -0.024273504273503
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_spearman_ci_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "ci95",
+    1
+   ],
+   "value": 0.11933333333332698
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_spearman_null_mean",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "null_mean"
+   ],
+   "value": 0.07193709401709024
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_spearman_z",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "z"
+   ],
+   "value": -0.4822132540014392
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_spearman_p",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_spearman",
+    "p_one_sided"
+   ],
+   "value": 0.6993006993006993
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_cosine_z_no_copyable",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.2199363261461258
+  },
+  {
+   "id": "v2_gemma2_crit_median_en",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "en",
+    "median"
+   ],
+   "value": 6.0
+  },
+  {
+   "id": "v2_gemma2_crit_frac_8_19_en",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "en",
+    "frac_in_8_19"
+   ],
+   "value": 0.43103448275862066
+  },
+  {
+   "id": "v2_gemma2_crit_median_es",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "es",
+    "median"
+   ],
+   "value": 6.0
+  },
+  {
+   "id": "v2_gemma2_crit_frac_8_19_es",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "es",
+    "frac_in_8_19"
+   ],
+   "value": 0.3103448275862069
+  },
+  {
+   "id": "v2_gemma2_crit_median_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "hi",
+    "median"
+   ],
+   "value": 6.0
+  },
+  {
+   "id": "v2_gemma2_crit_frac_8_19_hi",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "critical_mlp_layer",
+    "hi",
+    "frac_in_8_19"
+   ],
+   "value": 0.25862068965517243
+  },
+  {
+   "id": "cmp_n_both",
+   "artifact": "analysis/run_20261015_compare_models/results.json",
+   "key_path": [
+    "n_both"
+   ],
+   "value": 33
+  },
+  {
+   "id": "cmp_llama_en-es_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_compare_models/results.json",
+   "key_path": [
+    "intersection",
+    "llama",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.879429578781128
+  },
+  {
+   "id": "cmp_llama_en-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_compare_models/results.json",
+   "key_path": [
+    "intersection",
+    "llama",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": -0.20779834687709808
+  },
+  {
+   "id": "cmp_llama_es-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_compare_models/results.json",
+   "key_path": [
+    "intersection",
+    "llama",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.528660297393799
+  },
+  {
+   "id": "cmp_gemma2_en-es_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_compare_models/results.json",
+   "key_path": [
+    "intersection",
+    "gemma2",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 4.086973190307617
+  },
+  {
+   "id": "cmp_gemma2_en-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_compare_models/results.json",
+   "key_path": [
+    "intersection",
+    "gemma2",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.5450972318649292
+  },
+  {
+   "id": "cmp_gemma2_es-hi_mlp_cosine_z",
+   "artifact": "analysis/run_20261015_compare_models/results.json",
+   "key_path": [
+    "intersection",
+    "gemma2",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.5743109583854675
   }
  ]
 }
