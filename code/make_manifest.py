@@ -14,6 +14,13 @@ P1 = "analysis/run_20261012_p1filter_v2/accuracy.json"
 P2 = "analysis/figs_20261012_p2trace_v3/summary.json"
 P3 = "analysis/run_20261012_p3overlap/results.json"
 P4 = "analysis/run_20261013_p4edit/tables.json"
+V2 = {
+    "llama": {"p1": "analysis/run_20261014_p1v2b_llama/accuracy.json", "ov": "analysis/run_20261015_p3overlap_v2_llama/results.json",
+              "ovs": "analysis/run_20261015_p3overlap_v2b_llama/results.json"},
+    "gemma2": {"p1": "analysis/run_20261015_p1v2c_gemma2/accuracy.json", "ov": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+               "ovs": None},
+}
+CMP = "analysis/run_20261015_compare_models/results.json"
 MAN = Path("results/manifest.json")
 
 
@@ -59,6 +66,27 @@ def claims() -> list[dict]:
         for key in ("specificity_max_abs_dP", "ppl_ratio"):
             for k, i in (("med", 0), ("lo", 1), ("hi", 2)):
                 c.append((f"p4_{cond}_{key}_{k}", P4, [cond, key, i]))
+    for m, d in V2.items():
+        c += [(f"v2_{m}_n_candidates", d["p1"], ["n_candidates"]), (f"v2_{m}_n_kept", d["p1"], ["n_kept"]),
+              (f"v2_{m}_n_valid", d["ov"], ["n_valid"])]
+        for rel in ("capital_of", "capital_country", "landmark_city", "invention_inventor", "event_year"):
+            c.append((f"v2_{m}_kept_{rel}", d["p1"], ["per_relation", rel, "kept"]))
+        for pair in ("en-es", "en-hi", "es-hi"):
+            for stat in ("mlp_cosine", "mlp_spearman"):
+                base = ["sets", "primary_valid", "pairs", pair, stat]
+                for k, key in (("obs", ["observed_median"]), ("ci_lo", ["ci95", 0]), ("ci_hi", ["ci95", 1]), ("null_mean", ["null_mean"]),
+                               ("z", ["z"]), ("p", ["p_one_sided"])):
+                    c.append((f"v2_{m}_{pair}_{stat}_{k}", d["ov"], base + key))
+            c.append((f"v2_{m}_{pair}_mlp_cosine_z_no_copyable", d["ov"], ["sets", "valid_no_copyable", "pairs", pair, "mlp_cosine", "z"]))
+            if d["ovs"]:
+                c.append((f"v2_{m}_{pair}_mlp_cosine_z_stratified", d["ovs"], ["sets", "primary_valid_stratified_by_relation", "pairs", pair, "mlp_cosine", "z"]))
+        for lg in ("en", "es", "hi"):
+            c += [(f"v2_{m}_crit_median_{lg}", d["ov"], ["critical_mlp_layer", lg, "median"]),
+                  (f"v2_{m}_crit_frac_8_19_{lg}", d["ov"], ["critical_mlp_layer", lg, "frac_in_8_19"])]
+    c.append(("cmp_n_both", CMP, ["n_both"]))
+    for m in ("llama", "gemma2"):
+        for pair in ("en-es", "en-hi", "es-hi"):
+            c.append((f"cmp_{m}_{pair}_mlp_cosine_z", CMP, ["intersection", m, "pairs", pair, "mlp_cosine", "z"]))
     return [{"id": i, "artifact": a, "key_path": k} for i, a, k in c]
 
 
