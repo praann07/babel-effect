@@ -1,0 +1,99 @@
+[
+ {
+  "span": [
+   1
+  ],
+  "last_subj": 1,
+  "n_target": 1,
+  "target_ids": [
+   9822
+  ],
+  "target": "France",
+  "tf_match": true,
+  "p_clean": 0.8219105422602515,
+  "p_corr": 0.06850440826513382,
+  "collapsed": true,
+  "obj_ok": true,
+  "score_clean": -0.19612371921539307,
+  "score_corr": -2.6808571815490723,
+  "first_clean": -0.19612371921539307,
+  "first_corr": -2.6808571815490723,
+  "fastpath_vs_model_gap": 0.007608681917190552,
+  "crit_mlp_layer": 0,
+  "crit_resid_layer": 1,
+  "sanity_last_site_gap": 7.152557373046875e-07,
+  "id": "capital_country_000",
+  "lang": "en",
+  "phrasing": 0,
+  "relation": "capital_country",
+  "seed": 33274921,
+  "sigma": 0.059205662459135056
+ },
+ {
+  "span": [
+   7,
+   8
+  ],
+  "last_subj": 8,
+  "n_target": 2,
+  "target_ids": [
+   9893,
+   689
+  ],
+  "target": "Francia",
+  "tf_match": true,
+  "p_clean": 0.9797391421844033,
+  "p_corr": 0.009523179466805984,
+  "collapsed": true,
+  "obj_ok": true,
+  "score_clean": -0.020468924194574356,
+  "score_corr": -4.654026508331299,
+  "first_clean": -0.02024662308394909,
+  "first_corr": -4.653252601623535,
+  "fastpath_vs_model_gap": 0.0004803501069545746,
+  "crit_mlp_layer": 5,
+  "crit_resid_layer": 0,
+  "sanity_last_site_gap": 0.0005426406860351562,
+  "id": "capital_country_000",
+  "lang": "es",
+  "phrasing": 0,
+  "relation": "capital_country",
+  "seed": 33274921,
+  "sigma": 0.06165025010704994
+ },
+ {
+  "span": [
+   13,
+   14,
+   15
+  ],
+  "last_subj": 15,
+  "n_target": 4,
+  "target_ids": [
+   100622,
+   86133,
+   100515,
+   79468
+  ],
+  "target": "फ्रांस",
+  "tf_match": true,
+  "p_clean": 0.8818026859081012,
+  "p_corr": 0.006166846130386147,
+  "collapsed": true,
+  "obj_ok": true,
+  "score_clean": -0.12578696012496948,
+  "score_corr": -5.088567733764648,
+  "first_clean": -0.06702478975057602,
+  "first_corr": -4.52203369140625,
+  "fastpath_vs_model_gap": 0.0038461685180664062,
+  "crit_mlp_layer": 2,
+  "crit_resid_layer": 3,
+  "sanity_last_site_gap": 0.5077714920043945,
+  "id": "capital_country_000",
+  "lang": "hi",
+  "phrasing": 0,
+  "relation": "capital_country",
+  "seed": 33274921,
+  "sigma": 0.05327240377664566
+ }
+]
