@@ -1,0 +1,282 @@
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   1%|          | 3/254 [00:00<00:29,  8.53it/s]Loading weights:   3%|▎         | 8/254 [00:00<00:21, 11.61it/s]Loading weights:   4%|▍         | 10/254 [00:00<00:24, 10.02it/s]Loading weights:   6%|▌         | 15/254 [00:01<00:14, 15.96it/s]Loading weights:   7%|▋         | 18/254 [00:01<00:14, 16.17it/s]Loading weights:   8%|▊         | 20/254 [00:01<00:19, 12.24it/s]Loading weights:   9%|▊         | 22/254 [00:01<00:21, 10.84it/s]Loading weights:  10%|▉         | 25/254 [00:02<00:18, 12.40it/s]Loading weights:  11%|█         | 27/254 [00:02<00:18, 12.35it/s]Loading weights:  12%|█▏        | 31/254 [00:02<00:16, 13.71it/s]Loading weights:  15%|█▍        | 38/254 [00:02<00:10, 21.60it/s]Loading weights:  16%|█▌        | 41/254 [00:02<00:11, 18.20it/s]Loading weights:  17%|█▋        | 44/254 [00:02<00:11, 19.04it/s]Loading weights:  19%|█▊        | 47/254 [00:03<00:10, 19.05it/s]Loading weights:  20%|██        | 51/254 [00:03<00:08, 23.04it/s]Loading weights:  21%|██▏       | 54/254 [00:03<00:08, 22.78it/s]Loading weights:  22%|██▏       | 57/254 [00:03<00:11, 17.79it/s]Loading weights:  28%|██▊       | 72/254 [00:03<00:05, 35.44it/s]Loading weights:  30%|██▉       | 76/254 [00:03<00:05, 34.27it/s]Loading weights:  31%|███▏      | 80/254 [00:04<00:06, 28.05it/s]Loading weights:  33%|███▎      | 84/254 [00:04<00:07, 23.55it/s]Loading weights:  35%|███▌      | 90/254 [00:04<00:06, 25.46it/s]Loading weights:  37%|███▋      | 93/254 [00:04<00:06, 25.07it/s]Loading weights:  38%|███▊      | 96/254 [00:05<00:07, 20.30it/s]Loading weights:  39%|███▉      | 99/254 [00:05<00:08, 18.96it/s]Loading weights:  42%|████▏     | 106/254 [00:05<00:06, 24.13it/s]Loading weights:  43%|████▎     | 109/254 [00:05<00:06, 23.94it/s]Loading weights:  44%|████▍     | 112/254 [00:05<00:06, 21.08it/s]Loading weights:  45%|████▌     | 115/254 [00:06<00:10, 13.42it/s]Loading weights:  46%|████▋     | 118/254 [00:06<00:08, 15.40it/s]Loading weights:  47%|████▋     | 120/254 [00:06<00:10, 13.37it/s]Loading weights:  48%|████▊     | 122/254 [00:06<00:09, 13.21it/s]Loading weights:  50%|████▉     | 126/254 [00:06<00:07, 17.48it/s]Loading weights: 100%|██████████| 254/254 [00:06<00:00, 37.18it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+capital_country_000 en p0: target='France' n=1 P 0.822->0.0685 crit_mlp=0 gap=0.000 fast-ref=0.008 tf=True
+capital_country_000 es p0: target='Francia' n=2 P 0.980->0.0095 crit_mlp=5 gap=0.001 fast-ref=0.000 tf=True
+capital_country_000 hi p0: target='फ्रांस' n=4 P 0.882->0.0062 crit_mlp=2 gap=0.508 fast-ref=0.004 tf=True
+capital_country_001 en p0: target='Germany' n=1 P 0.928->0.0041 crit_mlp=2 gap=0.000 fast-ref=0.000 tf=True
+capital_country_001 es p0: target='Alemania' n=2 P 0.811->0.0010 crit_mlp=2 gap=0.021 fast-ref=0.004 tf=True
+capital_country_001 hi p0: target='जर्मनी' n=3 P 0.545->0.0004 crit_mlp=2 gap=0.135 fast-ref=0.030 tf=True
+capital_country_002 en p0: target='Italy' n=1 P 0.901->0.0106 crit_mlp=2 gap=0.000 fast-ref=0.001 tf=True
+capital_country_002 es p0: target='Italia' n=1 P 0.678->0.0016 crit_mlp=2 gap=0.000 fast-ref=0.004 tf=True
+capital_country_002 hi p0: target='इटली' n=4 P 0.181->0.0006 crit_mlp=5 gap=2.695 fast-ref=0.013 tf=False
+capital_country_003 en p0: target='Spain' n=1 P 0.911->0.0134 crit_mlp=3 gap=0.000 fast-ref=0.000 tf=True
+capital_country_003 es p0: target='España' n=1 P 0.725->0.0155 crit_mlp=4 gap=0.000 fast-ref=0.003 tf=True
+capital_country_003 hi p0: target='स्पेन' n=3 P 0.921->0.0032 crit_mlp=2 gap=2.577 fast-ref=0.002 tf=True
+capital_country_004 en p0: target='Portugal' n=1 P 0.970->0.0017 crit_mlp=5 gap=0.000 fast-ref=0.001 tf=True
+capital_country_004 es p0: target='Portugal' n=1 P 0.751->0.0109 crit_mlp=2 gap=0.000 fast-ref=0.008 tf=True
+capital_country_004 hi p0: target='पुर्तगाल' n=5 P 0.444->0.0015 crit_mlp=3 gap=2.924 fast-ref=0.022 tf=True
+capital_country_005 en p0: target='Japan' n=1 P 0.898->0.2175 crit_mlp=6 gap=0.000 fast-ref=0.006 tf=True
+capital_country_005 es p0: target='Japón' n=2 P 0.648->0.0123 crit_mlp=2 gap=0.002 fast-ref=0.013 tf=True
+capital_country_005 hi p0: target='जापान' n=3 P 0.528->0.0090 crit_mlp=3 gap=0.487 fast-ref=0.007 tf=True
+capital_country_006 en p0: target='China' n=1 P 0.895->0.0099 crit_mlp=2 gap=0.000 fast-ref=0.001 tf=True
+capital_country_006 es p0: target='China' n=1 P 0.673->0.0098 crit_mlp=6 gap=0.000 fast-ref=0.007 tf=True
+capital_country_006 hi p0: target='चीन' n=2 P 0.855->0.0024 crit_mlp=6 gap=0.371 fast-ref=0.002 tf=True
+capital_country_008 en p0: target='Russia' n=1 P 0.892->0.0024 crit_mlp=0 gap=0.000 fast-ref=0.004 tf=True
+capital_country_008 es p0: target='Rusia' n=2 P 0.609->0.0272 crit_mlp=3 gap=0.001 fast-ref=0.002 tf=True
+capital_country_008 hi p0: target='रूस' n=2 P 0.687->0.0093 crit_mlp=2 gap=0.973 fast-ref=0.008 tf=True
+capital_country_009 en p0: target='Brazil' n=1 P 0.956->0.0017 crit_mlp=2 gap=0.000 fast-ref=0.001 tf=True
+capital_country_009 es p0: target='Brasil' n=1 P 0.705->0.2290 crit_mlp=1 gap=0.000 fast-ref=0.005 tf=True
+capital_country_009 hi p0: target='ब्राज़ील' n=5 P 0.371->0.0080 crit_mlp=1 gap=0.756 fast-ref=0.029 tf=True
+capital_country_010 en p0: target='Argentina' n=1 P 0.804->0.0094 crit_mlp=4 gap=0.000 fast-ref=0.016 tf=True
+capital_country_010 es p0: target='Argentina' n=1 P 0.617->0.0046 crit_mlp=4 gap=0.000 fast-ref=0.005 tf=True
+capital_country_010 hi p0: target='अर्जेंटीना' n=6 P 0.112->0.0003 crit_mlp=5 gap=0.943 fast-ref=0.039 tf=True
+capital_country_011 en p0: target='Mexico' n=1 P 0.870->0.0019 crit_mlp=4 gap=0.000 fast-ref=0.007 tf=True
+capital_country_011 es p0: target='México' n=1 P 0.600->0.0124 crit_mlp=6 gap=0.000 fast-ref=0.006 tf=True
+capital_country_011 hi p0: target='मेक्सिको' n=5 P 0.513->0.0000 crit_mlp=8 gap=3.937 fast-ref=0.007 tf=True
+capital_country_013 en p0: target='Australia' n=1 P 0.930->0.0507 crit_mlp=2 gap=0.000 fast-ref=0.003 tf=True
+capital_country_013 es p0: target='Australia' n=1 P 0.321->0.0011 crit_mlp=4 gap=0.000 fast-ref=0.002 tf=True
+capital_country_013 hi p0: target='ऑस्ट्रेलिया' n=7 P 0.267->0.0005 crit_mlp=1 gap=0.290 fast-ref=0.000 tf=False
+capital_country_014 en p0: target='Greece' n=1 P 0.832->0.0007 crit_mlp=2 gap=0.000 fast-ref=0.007 tf=True
+capital_country_014 es p0: target='Grecia' n=3 P 0.791->0.0009 crit_mlp=2 gap=0.573 fast-ref=0.006 tf=True
+capital_country_014 hi p0: target='ग्रीस' n=3 P 0.312->0.0022 crit_mlp=6 gap=1.734 fast-ref=0.002 tf=True
+capital_country_016 en p0: target='Sweden' n=1 P 0.938->0.0200 crit_mlp=6 gap=0.000 fast-ref=0.001 tf=True
+capital_country_016 es p0: target='Suecia' n=2 P 0.772->0.0014 crit_mlp=4 gap=0.009 fast-ref=0.003 tf=True
+capital_country_016 hi p0: target='स्वीडन' n=4 P 0.743->0.0001 crit_mlp=4 gap=7.067 fast-ref=0.006 tf=True
+capital_country_017 en p0: target='Norway' n=1 P 0.969->0.0108 crit_mlp=6 gap=0.000 fast-ref=0.000 tf=True
+capital_country_017 es p0: target='Noruega' n=3 P 0.778->0.0201 crit_mlp=4 gap=0.018 fast-ref=0.003 tf=True
+capital_country_017 hi p0: target='नॉर्वे' n=4 P 0.602->0.0006 crit_mlp=6 gap=2.644 fast-ref=0.004 tf=True
+capital_country_018 en p0: target='Finland' n=1 P 0.934->0.0099 crit_mlp=2 gap=0.000 fast-ref=0.003 tf=True
+capital_country_018 es p0: target='Finlandia' n=2 P 0.762->0.0006 crit_mlp=3 gap=0.003 fast-ref=0.006 tf=True
+capital_country_018 hi p0: target='फिनलैंड' n=5 P 0.652->0.0022 crit_mlp=5 gap=2.162 fast-ref=0.004 tf=True
+capital_country_019 en p0: target='Denmark' n=1 P 0.888->0.0036 crit_mlp=0 gap=0.000 fast-ref=0.009 tf=True
+capital_country_019 es p0: target='Dinamarca' n=3 P 0.855->0.0077 crit_mlp=4 gap=0.004 fast-ref=0.005 tf=True
+capital_country_019 hi p0: target='डेनमार्क' n=5 P 0.522->0.0005 crit_mlp=6 gap=0.396 fast-ref=0.014 tf=True
+capital_country_021 en p0: target='Austria' n=1 P 0.742->0.0025 crit_mlp=2 gap=0.000 fast-ref=0.002 tf=True
+capital_country_021 es p0: target='Austria' n=1 P 0.523->0.0006 crit_mlp=2 gap=0.000 fast-ref=0.013 tf=True
+capital_country_021 hi p0: target='ऑस्ट्रिया' n=6 P 0.413->0.0002 crit_mlp=6 gap=2.167 fast-ref=0.001 tf=True
+capital_country_023 en p0: target='Belgium' n=1 P 0.799->0.0177 crit_mlp=2 gap=0.000 fast-ref=0.002 tf=True
+capital_country_023 es p0: target='Bélgica' n=4 P 0.669->0.0103 crit_mlp=4 gap=0.208 fast-ref=0.004 tf=True
+capital_country_023 hi p0: target='बेल्जियम' n=4 P 0.789->0.0007 crit_mlp=3 gap=3.489 fast-ref=0.004 tf=True
+capital_country_026 en p0: target='Chile' n=1 P 0.691->0.0057 crit_mlp=3 gap=0.000 fast-ref=0.006 tf=True
+capital_country_026 es p0: target='Chile' n=1 P 0.615->0.0176 crit_mlp=0 gap=0.000 fast-ref=0.002 tf=True
+capital_country_026 hi p0: target='चिली' n=3 P 0.451->0.0000 crit_mlp=3 gap=4.181 fast-ref=0.012 tf=True
+capital_country_028 en p0: target='Venezuela' n=1 P 0.801->0.0012 crit_mlp=4 gap=0.000 fast-ref=0.005 tf=True
+capital_country_028 es p0: target='Venezuela' n=1 P 0.647->0.0049 crit_mlp=2 gap=0.000 fast-ref=0.008 tf=True
+capital_country_028 hi p0: target='वेनेजुएला' n=6 P 0.118->0.0001 crit_mlp=3 gap=2.843 fast-ref=0.041 tf=True
+capital_country_029 en p0: target='Thailand' n=1 P 0.912->0.0356 crit_mlp=2 gap=0.000 fast-ref=0.005 tf=True
+capital_country_029 es p0: target='Tailandia' n=3 P 0.261->0.0054 crit_mlp=0 gap=0.260 fast-ref=0.004 tf=True
+capital_country_029 hi p0: target='थाईलैंड' n=5 P 0.285->0.0010 crit_mlp=4 gap=0.344 fast-ref=0.016 tf=True
+capital_country_030 en p0: target='Vietnam' n=1 P 0.974->0.0174 crit_mlp=6 gap=0.000 fast-ref=0.002 tf=True
+capital_country_030 es p0: target='Vietnam' n=1 P 0.693->0.0047 crit_mlp=6 gap=0.000 fast-ref=0.001 tf=True
+capital_country_030 hi p0: target='वियतनाम' n=4 P 0.618->0.0012 crit_mlp=2 gap=1.331 fast-ref=0.013 tf=True
+capital_country_031 en p0: target='Indonesia' n=1 P 0.952->0.0037 crit_mlp=2 gap=0.000 fast-ref=0.003 tf=True
+capital_country_031 es p0: target='Indonesia' n=1 P 0.672->0.0025 crit_mlp=5 gap=0.000 fast-ref=0.002 tf=True
+capital_country_031 hi p0: target='इंडोनेशिया' n=6 P 0.124->0.0018 crit_mlp=3 gap=0.609 fast-ref=0.001 tf=False
+capital_country_032 en p0: target='Pakistan' n=1 P 0.969->0.0012 crit_mlp=2 gap=0.000 fast-ref=0.003 tf=True
+capital_country_032 es p0: target='Pakistán' n=3 P 0.413->0.0032 crit_mlp=0 gap=0.022 fast-ref=0.014 tf=True
+capital_country_032 hi p0: target='पाकिस्तान' n=5 P 0.611->0.0132 crit_mlp=2 gap=0.516 fast-ref=0.009 tf=True
+capital_country_034 en p0: target='Nepal' n=1 P 0.898->0.0188 crit_mlp=16 gap=0.000 fast-ref=0.007 tf=True
+capital_country_034 es p0: target='Nepal' n=1 P 0.520->0.0017 crit_mlp=7 gap=0.000 fast-ref=0.006 tf=True
+capital_country_034 hi p0: target='नेपाल' n=3 P 0.941->0.0106 crit_mlp=2 gap=0.430 fast-ref=0.003 tf=True
+capital_country_035 en p0: target='Sri Lanka' n=2 P 0.843->0.0018 crit_mlp=5 gap=0.014 fast-ref=0.008 tf=True
+capital_country_035 es p0: target='Sri Lanka' n=2 P 0.476->0.0012 crit_mlp=5 gap=0.013 fast-ref=0.013 tf=True
+capital_country_035 hi p0: target='श्रीलंका' n=5 P 0.211->0.0143 crit_mlp=7 gap=0.404 fast-ref=0.034 tf=False
+capital_country_046 en p0: target='Hungary' n=1 P 0.840->0.0025 crit_mlp=4 gap=0.000 fast-ref=0.010 tf=True
+capital_country_046 es p0: target='Hungría' n=3 P 0.371->0.0042 crit_mlp=0 gap=0.009 fast-ref=0.007 tf=True
+capital_country_046 hi p0: target='हंगरी' n=4 P 0.519->0.0004 crit_mlp=6 gap=2.908 fast-ref=0.015 tf=True
+capital_country_047 en p0: target='Romania' n=1 P 0.981->0.0041 crit_mlp=2 gap=0.000 fast-ref=0.001 tf=True
+capital_country_047 es p0: target='Rumania' n=3 P 0.402->0.0072 crit_mlp=2 gap=0.183 fast-ref=0.006 tf=True
+capital_country_047 hi p0: target='रोमानिया' n=5 P 0.073->0.0001 crit_mlp=5 gap=3.720 fast-ref=0.027 tf=False
+capital_country_048 en p0: target='Ukraine' n=1 P 0.772->0.0032 crit_mlp=5 gap=0.000 fast-ref=0.004 tf=True
+capital_country_048 es p0: target='Ucrania' n=3 P 0.495->0.0010 crit_mlp=0 gap=1.021 fast-ref=0.004 tf=True
+capital_country_048 hi p0: target='यूक्रेन' n=4 P 0.743->0.0022 crit_mlp=6 gap=1.424 fast-ref=0.003 tf=True
+capital_country_053 en p0: target='Mongolia' n=1 P 0.922->0.0023 crit_mlp=4 gap=0.000 fast-ref=0.003 tf=True
+capital_country_053 es p0: target='Mongolia' n=1 P 0.383->0.0030 crit_mlp=4 gap=0.000 fast-ref=0.008 tf=True
+capital_country_053 hi p0: target='मंगोलिया' n=5 P 0.070->0.0000 crit_mlp=6 gap=3.940 fast-ref=0.019 tf=False
+capital_country_054 en p0: target='Afghanistan' n=1 P 0.891->0.0096 crit_mlp=5 gap=0.000 fast-ref=0.003 tf=True
+capital_country_054 es p0: target='Afganistán' n=5 P 0.452->0.0019 crit_mlp=0 gap=0.350 fast-ref=0.005 tf=True
+capital_country_054 hi p0: target='अफगानिस्तान' n=6 P 0.450->0.0003 crit_mlp=5 gap=0.568 fast-ref=0.006 tf=True
+capital_country_059 en p0: target='Syria' n=1 P 0.829->0.0027 crit_mlp=2 gap=0.000 fast-ref=0.004 tf=True
+capital_country_059 es p0: target='Siria' n=2 P 0.880->0.0002 crit_mlp=4 gap=0.001 fast-ref=0.007 tf=True
+capital_country_059 hi p0: target='सीरिया' n=4 P 0.306->0.0002 crit_mlp=4 gap=5.090 fast-ref=0.015 tf=False
+capital_country_062 en p0: target='Ecuador' n=1 P 0.962->0.0012 crit_mlp=5 gap=0.000 fast-ref=0.002 tf=True
+capital_country_062 es p0: target='Ecuador' n=1 P 0.459->0.0009 crit_mlp=5 gap=0.000 fast-ref=0.018 tf=True
+capital_country_062 hi p0: target='इक्वाडोर' n=4 P 0.189->0.0000 crit_mlp=5 gap=0.886 fast-ref=0.010 tf=True
+capital_country_069 en p0: target='Panama' n=1 P 0.888->0.0018 crit_mlp=6 gap=0.000 fast-ref=0.003 tf=True
+capital_country_069 es p0: target='Panamá' n=3 P 0.784->0.0084 crit_mlp=2 gap=0.009 fast-ref=0.004 tf=True
+capital_country_069 hi p0: target='पनामा' n=4 P 0.079->0.0000 crit_mlp=0 gap=5.709 fast-ref=0.073 tf=False
+capital_country_071 en p0: target='Israel' n=1 P 0.688->0.0034 crit_mlp=2 gap=0.000 fast-ref=0.002 tf=True
+capital_country_071 es p0: target='Israel' n=1 P 0.802->0.0002 crit_mlp=2 gap=0.000 fast-ref=0.001 tf=True
+capital_country_071 hi p0: target='इज़राइल' n=4 P 0.355->0.0004 crit_mlp=6 gap=2.948 fast-ref=0.018 tf=True
+capital_country_079 en p0: target='Georgia' n=1 P 0.717->0.0048 crit_mlp=16 gap=0.000 fast-ref=0.012 tf=True
+capital_country_079 es p0: target='Georgia' n=1 P 0.470->0.0008 crit_mlp=7 gap=0.000 fast-ref=0.021 tf=True
+capital_country_079 hi p0: target='जॉर्जिया' n=5 P 0.080->0.0001 crit_mlp=0 gap=3.700 fast-ref=0.001 tf=True
+capital_country_113 en p0: target='Somalia' n=1 P 0.946->0.0037 crit_mlp=3 gap=0.000 fast-ref=0.000 tf=True
+capital_country_113 es p0: target='Somalia' n=1 P 0.855->0.0003 crit_mlp=4 gap=0.000 fast-ref=0.001 tf=True
+capital_country_113 hi p0: target='सोमालिया' n=5 P 0.174->0.0005 crit_mlp=1 gap=4.335 fast-ref=0.036 tf=False
+capital_of_000 en p0: target='Paris' n=1 P 0.698->0.0213 crit_mlp=0 gap=0.000 fast-ref=0.001 tf=True
+capital_of_000 es p0: target='París' n=2 P 0.852->0.0109 crit_mlp=2 gap=0.052 fast-ref=0.005 tf=True
+capital_of_000 hi p0: target='पेरिस' n=3 P 0.464->0.0068 crit_mlp=1 gap=1.483 fast-ref=0.007 tf=True
+capital_of_003 en p0: target='Madrid' n=1 P 0.668->0.0005 crit_mlp=0 gap=0.000 fast-ref=0.007 tf=True
+capital_of_003 es p0: target='Madrid' n=1 P 0.959->0.0356 crit_mlp=0 gap=0.000 fast-ref=0.001 tf=True
+capital_of_003 hi p0: target='मैड्रिड' n=5 P 0.709->0.0000 crit_mlp=2 gap=8.615 fast-ref=0.001 tf=True
+capital_of_004 en p0: target='Lisbon' n=1 P 0.919->0.0006 crit_mlp=2 gap=0.000 fast-ref=0.004 tf=True
+capital_of_004 es p0: target='Lisboa' n=2 P 0.991->0.0025 crit_mlp=0 gap=0.008 fast-ref=0.000 tf=True
+capital_of_004 hi p0: target='लिस्बन' n=3 P 0.423->0.0000 crit_mlp=5 gap=3.543 fast-ref=0.034 tf=True
+capital_of_005 en p0: target='Tokyo' n=1 P 0.716->0.0199 crit_mlp=1 gap=0.000 fast-ref=0.008 tf=True
+capital_of_005 es p0: target='Tokio' n=2 P 0.856->0.0010 crit_mlp=4 gap=0.175 fast-ref=0.001 tf=True
+capital_of_005 hi p0: target='टोक्यो' n=4 P 0.213->0.0000 crit_mlp=2 gap=3.193 fast-ref=0.002 tf=True
+capital_of_007 en p0: target='New Delhi' n=2 P 0.656->0.0002 crit_mlp=4 gap=0.370 fast-ref=0.005 tf=True
+capital_of_007 es p0: target='Nueva Delhi' n=3 P 0.746->0.0006 crit_mlp=2 gap=3.113 fast-ref=0.009 tf=True
+capital_of_007 hi p0: target='नई दिल्ली' n=5 P 0.441->0.0047 crit_mlp=2 gap=0.201 fast-ref=0.004 tf=True
+capital_of_008 en p0: target='Moscow' n=1 P 0.851->0.0002 crit_mlp=0 gap=0.000 fast-ref=0.006 tf=True
+capital_of_008 es p0: target='Moscú' n=3 P 0.724->0.0015 crit_mlp=5 gap=0.063 fast-ref=0.010 tf=True
+capital_of_008 hi p0: target='मॉस्को' n=4 P 0.619->0.0000 crit_mlp=5 gap=8.671 fast-ref=0.018 tf=True
+capital_of_010 en p0: target='Buenos Aires' n=2 P 0.880->0.0019 crit_mlp=0 gap=0.008 fast-ref=0.006 tf=True
+capital_of_010 es p0: target='Buenos Aires' n=2 P 0.968->0.0167 crit_mlp=0 gap=0.024 fast-ref=0.002 tf=True
+capital_of_010 hi p0: target='ब्यूनस आयर्स' n=7 P 0.229->0.0000 crit_mlp=10 gap=6.101 fast-ref=0.015 tf=True
+capital_of_016 en p0: target='Stockholm' n=1 P 0.818->0.0022 crit_mlp=0 gap=0.000 fast-ref=0.009 tf=True
+capital_of_016 es p0: target='Estocolmo' n=3 P 0.925->0.0000 crit_mlp=2 gap=4.450 fast-ref=0.001 tf=True
+capital_of_016 hi p0: target='स्टॉकहोम' n=5 P 0.687->0.0000 crit_mlp=2 gap=12.200 fast-ref=0.001 tf=True
+capital_of_020 en p0: target='Warsaw' n=1 P 0.592->0.0021 crit_mlp=4 gap=0.000 fast-ref=0.023 tf=True
+capital_of_020 es p0: target='Varsovia' n=3 P 0.766->0.0014 crit_mlp=2 gap=0.195 fast-ref=0.010 tf=True
+capital_of_020 hi p0: target='वारसॉ' n=4 P 0.233->0.0000 crit_mlp=6 gap=10.110 fast-ref=0.018 tf=True
+capital_of_021 en p0: target='Vienna' n=1 P 0.770->0.2614 crit_mlp=0 gap=0.000 fast-ref=0.011 tf=True
+capital_of_021 es p0: target='Viena' n=2 P 0.965->0.7140 crit_mlp=2 gap=0.002 fast-ref=0.002 tf=True
+capital_of_021 hi p0: target='वियना' n=3 P 0.288->0.0000 crit_mlp=2 gap=5.164 fast-ref=0.012 tf=True
+capital_of_027 en p0: target='Bogotá' n=3 P 0.683->0.0000 crit_mlp=0 gap=0.485 fast-ref=0.001 tf=True
+capital_of_027 es p0: target='Bogotá' n=3 P 0.881->0.0452 crit_mlp=4 gap=0.002 fast-ref=0.002 tf=True
+capital_of_027 hi p0: target='बोगोटा' n=4 P 0.359->0.0000 crit_mlp=2 gap=7.547 fast-ref=0.002 tf=True
+capital_of_028 en p0: target='Caracas' n=2 P 0.832->0.0001 crit_mlp=0 gap=0.554 fast-ref=0.000 tf=True
+capital_of_028 es p0: target='Caracas' n=2 P 0.964->0.0028 crit_mlp=0 gap=0.197 fast-ref=0.002 tf=True
+capital_of_028 hi p0: target='काराकास' n=4 P 0.519->0.0000 crit_mlp=3 gap=16.571 fast-ref=0.014 tf=True
+capital_of_029 en p0: target='Bangkok' n=1 P 0.855->0.0033 crit_mlp=5 gap=0.000 fast-ref=0.010 tf=True
+capital_of_029 es p0: target='Bangkok' n=1 P 0.637->0.0010 crit_mlp=20 gap=0.000 fast-ref=0.001 tf=True
+capital_of_029 hi p0: target='बैंकॉक' n=4 P 0.260->0.0000 crit_mlp=2 gap=9.858 fast-ref=0.039 tf=True
+capital_of_032 en p0: target='Islamabad' n=1 P 0.437->0.0002 crit_mlp=0 gap=0.000 fast-ref=0.001 tf=True
+capital_of_032 es p0: target='Islamabad' n=1 P 0.463->0.0001 crit_mlp=2 gap=0.000 fast-ref=0.013 tf=True
+capital_of_032 hi p0: target='इस्लामाबाद' n=5 P 0.411->0.0003 crit_mlp=2 gap=1.783 fast-ref=0.001 tf=True
+capital_of_035 en p0: target='Colombo' n=2 P 0.737->0.0000 crit_mlp=2 gap=1.320 fast-ref=0.005 tf=True
+capital_of_035 es p0: target='Colombo' n=2 P 0.793->0.0000 crit_mlp=2 gap=4.703 fast-ref=0.005 tf=True
+capital_of_035 hi p0: target='कोलंबो' n=4 P 0.386->0.0000 crit_mlp=4 gap=14.977 fast-ref=0.018 tf=True
+capital_of_046 en p0: target='Budapest' n=1 P 0.871->0.0001 crit_mlp=0 gap=0.000 fast-ref=0.007 tf=True
+capital_of_046 es p0: target='Budapest' n=1 P 0.910->0.0051 crit_mlp=3 gap=0.000 fast-ref=0.003 tf=True
+capital_of_046 hi p0: target='बुडापेस्ट' n=5 P 0.263->0.0000 crit_mlp=6 gap=7.016 fast-ref=0.031 tf=True
+capital_of_049 en p0: target='Sofia' n=1 P 0.933->0.0001 crit_mlp=3 gap=0.000 fast-ref=0.002 tf=True
+capital_of_049 es p0: target='Sofía' n=2 P 0.785->0.0005 crit_mlp=2 gap=0.024 fast-ref=0.001 tf=True
+capital_of_049 hi p0: target='सोफिया' n=4 P 0.377->0.0001 crit_mlp=6 gap=6.410 fast-ref=0.009 tf=True
+capital_of_057 en p0: target='Amman' n=2 P 0.735->0.0001 crit_mlp=2 gap=1.158 fast-ref=0.002 tf=True
+capital_of_057 es p0: target='Amán' n=2 P 0.641->0.0000 crit_mlp=2 gap=2.889 fast-ref=0.002 tf=True
+capital_of_057 hi p0: target='अम्मान' n=3 P 0.176->0.0000 crit_mlp=4 gap=7.820 fast-ref=0.012 tf=True
+capital_of_059 en p0: target='Damascus' n=1 P 0.734->0.0015 crit_mlp=2 gap=0.000 fast-ref=0.011 tf=True
+capital_of_059 es p0: target='Damasco' n=2 P 0.919->0.0002 crit_mlp=2 gap=0.274 fast-ref=0.000 tf=True
+capital_of_059 hi p0: target='दमिश्क' n=4 P 0.475->0.0000 crit_mlp=2 gap=11.221 fast-ref=0.012 tf=True
+capital_of_065 en p0: target='Wellington' n=1 P 0.401->0.0009 crit_mlp=1 gap=0.000 fast-ref=0.010 tf=True
+capital_of_065 es p0: target='Wellington' n=1 P 0.699->0.0009 crit_mlp=6 gap=0.000 fast-ref=0.001 tf=True
+capital_of_065 hi p0: target='वेलिंगटन' n=5 P 0.540->0.0000 crit_mlp=2 gap=10.341 fast-ref=0.010 tf=True
+capital_of_068 en p0: target='San José' n=2 P 0.884->0.0001 crit_mlp=4 gap=2.529 fast-ref=0.002 tf=True
+capital_of_068 es p0: target='San José' n=2 P 0.976->0.0000 crit_mlp=4 gap=3.795 fast-ref=0.000 tf=True
+capital_of_068 hi p0: target='सैन जोस' n=4 P 0.126->0.0000 crit_mlp=6 gap=10.748 fast-ref=0.010 tf=True
+capital_of_078 en p0: target='Minsk' n=2 P 0.893->0.0205 crit_mlp=5 gap=0.095 fast-ref=0.003 tf=True
+capital_of_078 es p0: target='Minsk' n=2 P 0.879->0.0007 crit_mlp=5 gap=2.667 fast-ref=0.006 tf=True
+capital_of_078 hi p0: target='मिन्स्क' n=4 P 0.354->0.0000 crit_mlp=4 gap=16.695 fast-ref=0.006 tf=True
+capital_of_081 en p0: target='Baku' n=2 P 0.905->0.0006 crit_mlp=3 gap=0.345 fast-ref=0.000 tf=True
+capital_of_081 es p0: target='Bakú' n=2 P 0.620->0.0000 crit_mlp=1 gap=2.655 fast-ref=0.011 tf=True
+capital_of_081 hi p0: target='बाकू' n=3 P 0.437->0.0000 crit_mlp=5 gap=8.518 fast-ref=0.020 tf=True
+capital_of_103 en p0: target='London' n=1 P 0.612->0.0033 crit_mlp=2 gap=0.000 fast-ref=0.017 tf=True
+capital_of_103 es p0: target='Londres' n=2 P 0.871->0.0027 crit_mlp=2 gap=0.015 fast-ref=0.003 tf=True
+capital_of_103 hi p0: target='लंदन' n=3 P 0.642->0.0008 crit_mlp=6 gap=1.513 fast-ref=0.001 tf=True
+capital_of_104 en p0: target='Tirana' n=2 P 0.970->0.0007 crit_mlp=2 gap=0.042 fast-ref=0.001 tf=True
+capital_of_104 es p0: target='Tirana' n=2 P 0.960->0.0011 crit_mlp=0 gap=0.072 fast-ref=0.001 tf=True
+capital_of_104 hi p0: target='तिराना' n=4 P 0.322->0.0000 crit_mlp=4 gap=9.370 fast-ref=0.001 tf=True
+capital_of_106 en p0: target='Nicosia' n=3 P 0.853->0.0001 crit_mlp=2 gap=1.938 fast-ref=0.008 tf=True
+capital_of_106 es p0: target='Nicosia' n=3 P 0.815->0.0002 crit_mlp=2 gap=3.766 fast-ref=0.007 tf=True
+capital_of_106 hi p0: target='निकोसिया' n=5 P 0.645->0.0000 crit_mlp=3 gap=8.917 fast-ref=0.006 tf=True
+capital_of_115 en p0: target='Windhoek' n=3 P 0.853->0.0000 crit_mlp=5 gap=0.031 fast-ref=0.005 tf=True
+capital_of_115 es p0: target='Windhoek' n=3 P 0.926->0.0002 crit_mlp=5 gap=0.018 fast-ref=0.001 tf=True
+capital_of_115 hi p0: target='विंडहोक' n=5 P 0.113->0.0000 crit_mlp=1 gap=8.623 fast-ref=0.025 tf=True
+event_year_000 en p0: target='1066' n=3 P 0.784->0.0009 crit_mlp=4 gap=6.663 fast-ref=0.004 tf=True
+event_year_000 es p0: target='1066' n=3 P 0.816->0.0020 crit_mlp=4 gap=5.967 fast-ref=0.006 tf=True
+event_year_000 hi p0: target='1066' n=3 P 0.047->0.0000 crit_mlp=5 gap=7.603 fast-ref=0.028 tf=True
+event_year_002 en p0: target='1453' n=3 P 0.522->0.0005 crit_mlp=3 gap=6.913 fast-ref=0.003 tf=True
+event_year_002 es p0: target='1453' n=3 P 0.632->0.0000 crit_mlp=4 gap=9.890 fast-ref=0.004 tf=True
+event_year_002 hi p0: target='1453' n=3 P 0.785->0.0000 crit_mlp=6 gap=14.630 fast-ref=0.000 tf=True
+event_year_003 en p0: target='1492' n=3 P 0.698->0.0038 crit_mlp=4 gap=4.650 fast-ref=0.015 tf=True
+event_year_003 es p0: target='1492' n=3 P 0.811->0.0007 crit_mlp=4 gap=6.959 fast-ref=0.008 tf=True
+event_year_003 hi p0: target='1492' n=3 P 0.618->0.0000 crit_mlp=14 gap=9.942 fast-ref=0.006 tf=True
+event_year_007 en p0: target='1666' n=3 P 0.735->0.0001 crit_mlp=0 gap=8.254 fast-ref=0.014 tf=True
+event_year_007 es p0: target='1666' n=3 P 0.738->0.0002 crit_mlp=5 gap=8.095 fast-ref=0.002 tf=True
+event_year_007 hi p0: target='1666' n=3 P 0.889->0.0000 crit_mlp=12 gap=9.643 fast-ref=0.004 tf=True
+event_year_009 en p0: target='1776' n=3 P 0.584->0.0002 crit_mlp=5 gap=7.616 fast-ref=0.008 tf=True
+event_year_009 es p0: target='1776' n=3 P 0.713->0.0002 crit_mlp=2 gap=7.749 fast-ref=0.002 tf=True
+event_year_009 hi p0: target='1776' n=3 P 0.800->0.0000 crit_mlp=2 gap=9.046 fast-ref=0.001 tf=True
+event_year_010 en p0: target='1789' n=3 P 0.500->0.0005 crit_mlp=4 gap=6.584 fast-ref=0.021 tf=True
+event_year_010 es p0: target='1789' n=3 P 0.476->0.0005 crit_mlp=5 gap=6.858 fast-ref=0.017 tf=True
+event_year_010 hi p0: target='1789' n=3 P 0.665->0.0000 crit_mlp=4 gap=8.393 fast-ref=0.007 tf=True
+event_year_015 en p0: target='1861' n=3 P 0.499->0.0017 crit_mlp=2 gap=5.694 fast-ref=0.027 tf=True
+event_year_015 es p0: target='1861' n=3 P 0.866->0.0023 crit_mlp=6 gap=5.907 fast-ref=0.002 tf=True
+event_year_015 hi p0: target='1861' n=3 P 0.932->0.0001 crit_mlp=12 gap=8.087 fast-ref=0.003 tf=True
+event_year_018 en p0: target='1896' n=3 P 0.531->0.0006 crit_mlp=2 gap=6.866 fast-ref=0.007 tf=True
+event_year_018 es p0: target='1896' n=3 P 0.774->0.0008 crit_mlp=4 gap=6.942 fast-ref=0.010 tf=True
+event_year_018 hi p0: target='1896' n=3 P 0.888->0.0001 crit_mlp=7 gap=8.440 fast-ref=0.001 tf=True
+event_year_020 en p0: target='1912' n=3 P 0.715->0.0022 crit_mlp=4 gap=5.529 fast-ref=0.013 tf=True
+event_year_020 es p0: target='1912' n=3 P 0.797->0.0015 crit_mlp=4 gap=6.234 fast-ref=0.002 tf=True
+event_year_020 hi p0: target='1912' n=3 P 0.960->0.0002 crit_mlp=11 gap=6.292 fast-ref=0.000 tf=True
+event_year_021 en p0: target='1914' n=3 P 0.573->0.0014 crit_mlp=4 gap=6.087 fast-ref=0.019 tf=True
+event_year_021 es p0: target='1914' n=3 P 0.936->0.0088 crit_mlp=4 gap=4.747 fast-ref=0.002 tf=True
+event_year_021 hi p0: target='1914' n=3 P 0.979->0.0003 crit_mlp=3 gap=6.830 fast-ref=0.001 tf=True
+event_year_022 en p0: target='1917' n=3 P 0.577->0.0017 crit_mlp=4 gap=5.746 fast-ref=0.005 tf=True
+event_year_022 es p0: target='1917' n=3 P 0.567->0.0023 crit_mlp=2 gap=5.643 fast-ref=0.004 tf=True
+event_year_022 hi p0: target='1917' n=3 P 0.508->0.0003 crit_mlp=6 gap=6.424 fast-ref=0.006 tf=True
+event_year_023 en p0: target='1919' n=3 P 0.656->0.0016 crit_mlp=4 gap=5.816 fast-ref=0.012 tf=True
+event_year_023 es p0: target='1919' n=3 P 0.737->0.0018 crit_mlp=4 gap=6.178 fast-ref=0.005 tf=True
+event_year_023 hi p0: target='1919' n=3 P 0.528->0.0009 crit_mlp=4 gap=5.333 fast-ref=0.016 tf=True
+event_year_026 en p0: target='1939' n=3 P 0.649->0.0048 crit_mlp=2 gap=4.890 fast-ref=0.003 tf=True
+event_year_026 es p0: target='1939' n=3 P 0.927->0.0166 crit_mlp=3 gap=3.949 fast-ref=0.002 tf=True
+event_year_026 hi p0: target='1939' n=3 P 0.873->0.0008 crit_mlp=5 gap=5.389 fast-ref=0.001 tf=True
+event_year_028 en p0: target='1948' n=3 P 0.528->0.0013 crit_mlp=5 gap=5.746 fast-ref=0.014 tf=True
+event_year_028 es p0: target='1948' n=3 P 0.622->0.0051 crit_mlp=4 gap=5.021 fast-ref=0.010 tf=True
+event_year_028 hi p0: target='1948' n=3 P 0.922->0.0005 crit_mlp=1 gap=5.352 fast-ref=0.006 tf=True
+event_year_029 en p0: target='1961' n=3 P 0.411->0.0003 crit_mlp=5 gap=6.890 fast-ref=0.022 tf=True
+event_year_029 es p0: target='1961' n=3 P 0.829->0.0009 crit_mlp=5 gap=6.197 fast-ref=0.007 tf=True
+event_year_029 hi p0: target='1961' n=3 P 0.867->0.0000 crit_mlp=5 gap=5.919 fast-ref=0.001 tf=True
+event_year_030 en p0: target='1963' n=3 P 0.426->0.0007 crit_mlp=0 gap=5.827 fast-ref=0.030 tf=True
+event_year_030 es p0: target='1963' n=3 P 0.823->0.0017 crit_mlp=3 gap=6.016 fast-ref=0.001 tf=True
+event_year_030 hi p0: target='1963' n=3 P 0.943->0.0006 crit_mlp=4 gap=5.878 fast-ref=0.000 tf=True
+event_year_031 en p0: target='1969' n=3 P 0.596->0.0010 crit_mlp=5 gap=6.246 fast-ref=0.009 tf=True
+event_year_031 es p0: target='1969' n=3 P 0.875->0.0009 crit_mlp=6 gap=6.867 fast-ref=0.002 tf=True
+event_year_031 hi p0: target='1969' n=3 P 0.756->0.0001 crit_mlp=7 gap=7.063 fast-ref=0.007 tf=True
+event_year_032 en p0: target='1986' n=3 P 0.526->0.0018 crit_mlp=4 gap=5.584 fast-ref=0.017 tf=True
+event_year_032 es p0: target='1986' n=3 P 0.718->0.0043 crit_mlp=4 gap=5.229 fast-ref=0.001 tf=True
+event_year_032 hi p0: target='1986' n=3 P 0.846->0.0005 crit_mlp=9 gap=5.590 fast-ref=0.003 tf=True
+event_year_033 en p0: target='1989' n=3 P 0.577->0.0024 crit_mlp=4 gap=5.430 fast-ref=0.018 tf=True
+event_year_033 es p0: target='1989' n=3 P 0.805->0.0018 crit_mlp=4 gap=6.106 fast-ref=0.003 tf=True
+event_year_033 hi p0: target='1989' n=3 P 0.940->0.0000 crit_mlp=2 gap=6.865 fast-ref=0.001 tf=True
+event_year_034 en p0: target='1991' n=3 P 0.802->0.0013 crit_mlp=4 gap=6.090 fast-ref=0.003 tf=True
+event_year_034 es p0: target='1991' n=3 P 0.872->0.0042 crit_mlp=5 gap=5.261 fast-ref=0.000 tf=True
+event_year_034 hi p0: target='1991' n=3 P 0.826->0.0004 crit_mlp=12 gap=5.303 fast-ref=0.002 tf=True
+event_year_035 en p0: target='2001' n=3 P 0.573->0.0083 crit_mlp=4 gap=4.296 fast-ref=0.025 tf=True
+event_year_035 es p0: target='2001' n=3 P 0.752->0.0100 crit_mlp=4 gap=4.560 fast-ref=0.005 tf=True
+event_year_035 hi p0: target='2001' n=3 P 0.134->0.0061 crit_mlp=1 gap=3.483 fast-ref=0.054 tf=True
+event_year_036 en p0: target='2004' n=3 P 0.744->0.0032 crit_mlp=4 gap=5.420 fast-ref=0.008 tf=True
+event_year_036 es p0: target='2004' n=3 P 0.785->0.0085 crit_mlp=11 gap=4.533 fast-ref=0.003 tf=True
+event_year_036 hi p0: target='2004' n=3 P 0.547->0.0014 crit_mlp=12 gap=4.523 fast-ref=0.024 tf=True
+landmark_city_001 en p0: target='Rome' n=1 P 0.889->0.0033 crit_mlp=5 gap=0.000 fast-ref=0.004 tf=True
+landmark_city_001 es p0: target='Roma' n=1 P 0.446->0.0239 crit_mlp=8 gap=0.000 fast-ref=0.004 tf=True
+landmark_city_001 hi p0: target='रोम' n=2 P 0.228->0.0002 crit_mlp=7 gap=4.518 fast-ref=0.002 tf=True
+landmark_city_003 en p0: target='New York' n=2 P 0.657->0.0172 crit_mlp=6 gap=0.404 fast-ref=0.003 tf=True
+landmark_city_003 es p0: target='Nueva York' n=3 P 0.786->0.0128 crit_mlp=5 gap=0.525 fast-ref=0.003 tf=True
+landmark_city_003 hi p0: target='न्यूयॉर्क' n=6 P 0.581->0.0012 crit_mlp=6 gap=2.395 fast-ref=0.002 tf=True
+landmark_city_027 en p0: target='Edinburgh' n=1 P 0.988->0.0029 crit_mlp=5 gap=0.000 fast-ref=0.000 tf=True
+landmark_city_027 es p0: target='Edimburgo' n=4 P 0.859->0.0025 crit_mlp=2 gap=0.093 fast-ref=0.004 tf=True
+landmark_city_027 hi p0: target='एडिनबरा' n=4 P 0.274->0.0000 crit_mlp=2 gap=9.387 fast-ref=0.004 tf=True
+landmark_city_038 en p0: target='Mysore' n=3 P 0.918->0.0010 crit_mlp=8 gap=2.257 fast-ref=0.001 tf=True
+landmark_city_038 es p0: target='Mysore' n=3 P 0.764->0.0001 crit_mlp=3 gap=4.578 fast-ref=0.003 tf=True
+landmark_city_038 hi p0: target='मैसूर' n=3 P 0.196->0.0002 crit_mlp=8 gap=4.985 fast-ref=0.003 tf=True
+landmark_city_042 en p0: target='Cologne' n=1 P 0.942->0.0003 crit_mlp=5 gap=0.000 fast-ref=0.000 tf=True
+landmark_city_042 es p0: target='Colonia' n=2 P 0.520->0.0019 crit_mlp=6 gap=0.715 fast-ref=0.013 tf=True
+landmark_city_042 hi p0: target='कोलोन' n=3 P 0.079->0.0000 crit_mlp=2 gap=6.401 fast-ref=0.025 tf=True
+landmark_city_046 en p0: target='London' n=1 P 0.703->0.0051 crit_mlp=4 gap=0.000 fast-ref=0.009 tf=True
+landmark_city_046 es p0: target='Londres' n=2 P 0.371->0.0019 crit_mlp=6 gap=0.001 fast-ref=0.003 tf=True
+landmark_city_046 hi p0: target='लंदन' n=3 P 0.278->0.0014 crit_mlp=4 gap=2.107 fast-ref=0.005 tf=True
+peak VRAM GiB 7.51

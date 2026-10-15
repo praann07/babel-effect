@@ -82,10 +82,18 @@ def stat_block(M: np.ndarray, perms: np.ndarray, rng: np.random.Generator) -> di
             "p_one_sided": float((1 + (null >= obs).sum()) / (N_PERM + 1)), "observed_mean": float(obs_vec.mean())}
 
 
-def analyse(arr: dict, fids: list[str], seed: int) -> dict:
+def analyse(arr: dict, fids: list[str], seed: int, strata: list[str] | None = None) -> dict:
+    """strata (one label per fact) restricts each permutation to swap facts within the same stratum (e.g. relation)."""
     rng = np.random.default_rng(seed)
     n = len(fids)
-    perms = np.stack([rng.permutation(n) for _ in range(N_PERM)])
+    if strata is None:
+        perms = np.stack([rng.permutation(n) for _ in range(N_PERM)])
+    else:
+        groups = [np.array([i for i, g in enumerate(strata) if g == lab]) for lab in sorted(set(strata))]
+        perms = np.tile(np.arange(n), (N_PERM, 1))
+        for row in perms:
+            for g in groups:
+                row[g] = rng.permutation(g)
     out: dict = {"n_facts": n, "pairs": {}}
     for a, b in PAIRS:
         res: dict = {}
@@ -123,6 +131,8 @@ def main() -> None:
     for name, fids in sets.items():
         if len(fids) >= 10:
             results["sets"][name] = analyse(arr, fids, a.seed)
+    # post-hoc sensitivity (added after seeing the pooled results): permutations restricted to within-relation swaps
+    results["sets"]["primary_valid_stratified_by_relation"] = analyse(arr, valid, a.seed, [rel[f] for f in valid])
     # critical layers (H3)
     crit = {lg: [recs[(f, lg)]["crit_mlp_layer"] for f in valid] for lg in LANGS}
     results["critical_mlp_layer"] = {lg: {"median": float(np.median(v)), "q25": float(np.percentile(v, 25)),
