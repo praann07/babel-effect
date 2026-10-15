@@ -114,8 +114,13 @@ def main() -> None:
     ap.add_argument("--tag", default="p3overlap")
     ap.add_argument("--seed", type=int, default=20261012)
     a = ap.parse_args()
-    run = Path(a.run)
-    arr, recs = load(run)
+    runs = [Path(x) for x in a.run.split(",")]  # several trace runs (e.g. main + extra relations) are merged
+    run = runs[0]
+    arr, recs = {}, {}
+    for r_ in runs:
+        a_, c_ = load(r_)
+        arr |= a_
+        recs |= c_
     facts = sorted({f for f, _ in recs})
     rel = {f: recs[(f, "en")]["relation"] for f in facts}
     valid = [f for f in facts if all(is_valid(recs[(f, lg)]) for lg in LANGS)]
@@ -126,7 +131,7 @@ def main() -> None:
 
     out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"
     out.mkdir(parents=True, exist_ok=False)  # write-once
-    results = {"source_run": str(run), "seed": a.seed, "n_perm": N_PERM, "n_boot": N_BOOT,
+    results = {"source_run": a.run, "seed": a.seed, "n_perm": N_PERM, "n_boot": N_BOOT,
                "n_all": len(facts), "n_valid": len(valid), "excluded": sorted(set(facts) - set(valid)), "sets": {}}
     for name, fids in sets.items():
         if len(fids) >= 10:
@@ -141,7 +146,7 @@ def main() -> None:
     d = {f"{a_}-{b_}": np.abs(np.array(crit[a_]) - np.array(crit[b_])) for a_, b_ in PAIRS}
     results["critical_layer_abs_diff"] = {k: {"median": float(np.median(v)), "frac_within_2": float(np.mean(v <= 2))}
                                           for k, v in d.items()}
-    (out / "config.json").write_text(json.dumps({"source_run": str(run), "seed": a.seed, "sets": {k: len(v) for k, v in sets.items()}}, indent=1))
+    (out / "config.json").write_text(json.dumps({"source_run": a.run, "seed": a.seed, "sets": {k: len(v) for k, v in sets.items()}}, indent=1))
     (out / "results.json").write_text(json.dumps(results, indent=1))
 
     # table + figure for the primary set
