@@ -1,0 +1,30 @@
+{
+ "model": "gemma2",
+ "trace_run": "analysis/run_20261015_p3trace_v2c_gemma2",
+ "n_edit": 1,
+ "layers": [
+  6,
+  13
+ ],
+ "tag": "dbg_sweep",
+ "resume": null,
+ "model_name": "google/gemma-2-2b",
+ "n_layers": 26,
+ "edit_ids": [
+  "capital_country_003"
+ ],
+ "ppl_before": 72.08949654337937,
+ "n_valid": 58,
+ "steps": 25,
+ "lr": 0.5,
+ "kl": 0.0625,
+ "wd": 0.5,
+ "clamp": 4.0,
+ "prefixes": [
+  "",
+  "Fact: ",
+  "Note: ",
+  "Q: ",
+  "Did you know? "
+ ]
+}
