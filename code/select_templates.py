@@ -59,12 +59,28 @@ POOL = {
     },
 }
 
+POOL["landmark_country"] = {
+    "en": ["{S} is located in the country of", "{S} is in the country of", "{S} can be found in the country of", "{S} stands in",
+           "You can visit {s} in", "{S} is a famous landmark in"],
+    "es": ["{S} se encuentra en el país de", "{S} está en el país de", "{S} se halla en el país de", "{S} se encuentra en",
+           "Se puede visitar {s} en", "{S} es un lugar famoso de"],
+    "hi": ["{s} इस देश में स्थित है:", "{s} इस देश में है:", "{s} जिस देश में स्थित है, उसका नाम", "{s} स्थित है देश", "{s} मशहूर है देश", "{s} यहाँ स्थित है:"],
+}
+POOL["city_country"] = {
+    "en": ["{S} is a city in the country of", "{S} is in the country of", "{S} is located in the country of", "{S} is a city in",
+           "The country where {s} is located is", "{S} lies in"],
+    "es": ["{S} es una ciudad del país de", "{S} está en el país de", "{S} se encuentra en el país de", "{S} es una ciudad de",
+           "El país donde está {s} es", "{S} se halla en"],
+    "hi": ["{s} इस देश का शहर है:", "{s} इस देश में है:", "{s} जिस देश में स्थित है, उसका नाम", "{s} शहर है देश", "{s} किस देश में है:", "{s} स्थित है देश"],
+}
+
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="llama", choices=list(MODELS))
     ap.add_argument("--n-tune", type=int, default=30)
     ap.add_argument("--cands", default="data/v2/facts_candidates.json", help="candidate file (tuning facts come from here)")
+    ap.add_argument("--relations", default=None, help="comma list; only these relations are selected and merged into the existing templates file")
     a = ap.parse_args()
     spec = MODELS[a.model]
     run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_templates_{a.model}"
@@ -76,7 +92,10 @@ def main() -> None:
     model = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=torch.bfloat16, attn_implementation="eager").to("cuda").eval()
 
     chosen, log = {}, {}
+    only = set(a.relations.split(",")) if a.relations else None
     for rel, langs in POOL.items():
+        if only and rel not in only:
+            continue
         tune = sorted((f for f in cands if f["relation"] == rel), key=lambda f: f["id"])[:a.n_tune]
         for lg in LANGS:
             accs = []
@@ -91,9 +110,10 @@ def main() -> None:
             log[f"{rel}/{lg}"] = [{"template": langs[lg][i], "acc": accs[i]} for i in range(len(accs))]
             print(rel, lg, [(langs[lg][i], round(accs[i], 2)) for i in order], flush=True)
     out_path = Path("data/v2/templates.json" if a.model == "llama" else f"data/v2/templates_{a.model}.json")
-    out_path.write_text(json.dumps(
-        {"model_used_for_selection": spec["tl_name"], "n_tune": a.n_tune, "templates": chosen}, ensure_ascii=False, indent=1),
-        encoding="utf8")
+    merged = json.loads(out_path.read_text(encoding="utf8"))["templates"] if (only and out_path.exists()) else {}
+    merged.update(chosen)
+    out_path.write_text(json.dumps({"model_used_for_selection": spec["tl_name"], "n_tune": a.n_tune, "templates": merged},
+                                   ensure_ascii=False, indent=1), encoding="utf8")
     (run / "pool_accuracy.json").write_text(json.dumps(log, ensure_ascii=False, indent=1), encoding="utf8")
 
 

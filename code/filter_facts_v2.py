@@ -35,6 +35,7 @@ def main() -> None:
     ap.add_argument("--model", default="llama", choices=list(MODELS))
     ap.add_argument("--candidates", default="data/v2/facts_candidates.json")
     ap.add_argument("--tag", default=None)
+    ap.add_argument("--facts-out", default=None, help="default: the facts_v2 path registered for --model")
     a = ap.parse_args()
     spec = MODELS[a.model]
     run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag or 'p1v2_' + a.model}"
@@ -74,7 +75,7 @@ def main() -> None:
             table[f["relation"]]["kept"] += 1
             kept.append({"id": f["id"], "relation": f["relation"], "seed": f["seed"], "lang": rec})
     summary = {"n_candidates": len(cands), "n_kept": len(kept), "per_relation": table}
-    Path(spec["facts_v2"]).write_text(json.dumps({"version": 2, "model": spec["tl_name"], "summary": summary, "facts": kept},
+    Path(a.facts_out or spec["facts_v2"]).write_text(json.dumps({"version": 2, "model": spec["tl_name"], "summary": summary, "facts": kept},
                                                  ensure_ascii=False, indent=1), encoding="utf8")
     (run / "accuracy.json").write_text(json.dumps(summary, indent=1))
     hdr = "| relation | n | kept | " + " | ".join(f"{l} p{k}" for l in LANGS for k in range(3)) + " |"
