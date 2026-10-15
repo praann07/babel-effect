@@ -1,0 +1,7 @@
+[1/5] build
+447 candidates: {'capital_of': 125, 'capital_country': 125, 'landmark_city': 81, 'invention_inventor': 40, 'event_year': 76}
+[2/5] filter
+[3/5] spans
+[4/5] trace
+[5/5] overlap
+ALL_DONE

@@ -1,0 +1,91 @@
+{
+ "model_used_for_selection": "google/gemma-2-2b",
+ "n_tune": 30,
+ "templates": {
+  "capital_of": {
+   "en": [
+    "{S} has its capital in the city of",
+    "The capital of {s} is the city of",
+    "The seat of government of {s} is in"
+   ],
+   "es": [
+    "{S} tiene su capital en",
+    "La capital de {s} es la ciudad de",
+    "{S} tiene como capital a"
+   ],
+   "hi": [
+    "{s} की राजधानी",
+    "{s} की राजधानी शहर",
+    "{s} देश की राजधानी"
+   ]
+  },
+  "capital_country": {
+   "en": [
+    "{S} is the capital of",
+    "{S} is the capital city of",
+    "{S} is the capital of the country of"
+   ],
+   "es": [
+    "{S} es la ciudad capital de",
+    "{S} es la capital del país de",
+    "{S} es la capital de"
+   ],
+   "hi": [
+    "{s} की राजधानी वाला देश",
+    "{s} राजधानी है इस देश की:",
+    "{s} इस देश की राजधानी है:"
+   ]
+  },
+  "landmark_city": {
+   "en": [
+    "{S} is located in the city of",
+    "{S} can be found in the city of",
+    "{S} stands in the city of"
+   ],
+   "es": [
+    "Se puede visitar {s} en la ciudad de",
+    "{S} se encuentra en la ciudad de",
+    "{S} se halla en la ciudad de"
+   ],
+   "hi": [
+    "{s} इस शहर में स्थित है:",
+    "{s} इस शहर में है:",
+    "{s} यहाँ स्थित है:"
+   ]
+  },
+  "invention_inventor": {
+   "en": [
+    "{S} was invented by",
+    "{S} was created by",
+    "The person credited with inventing {s} is"
+   ],
+   "es": [
+    "La invención de {s} se atribuye a",
+    "Quien inventó {s} fue",
+    "La persona que inventó {s} es"
+   ],
+   "hi": [
+    "{s} का आविष्कार इस व्यक्ति ने किया था:",
+    "{s} के आविष्कारक का नाम है:",
+    "{s} का आविष्कार करने वाले व्यक्ति का नाम"
+   ]
+  },
+  "event_year": {
+   "en": [
+    "{S} took place in the year",
+    "{S} occurred in the year",
+    "The year of {s} was"
+   ],
+   "es": [
+    "{S} tuvo lugar en el año",
+    "{S} sucedió en el año",
+    "{S} fue en el año"
+   ],
+   "hi": [
+    "{s} सन्",
+    "{s} वर्ष",
+    "{s} साल"
+   ]
+  }
+ }
+}

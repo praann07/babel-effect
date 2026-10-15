@@ -1,0 +1,6 @@
+[1/4] select templates
+[2/4] build candidates
+408 candidates: {'capital_of': 125, 'capital_country': 125, 'landmark_city': 81, 'invention_inventor': 40, 'event_year': 37}
+[3/4] filter
+[4/4] spans
+ALL_DONE
