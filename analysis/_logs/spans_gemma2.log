@@ -1,0 +1,43 @@
+{
+ "model": "google/gemma-2-2b",
+ "n_facts": 26,
+ "errors": [],
+ "span_len_median": {
+  "en": 4.5,
+  "es": 5.0,
+  "hi": 9.0
+ },
+ "span_len_max": {
+  "en": 9,
+  "es": 10,
+  "hi": 18
+ },
+ "n_diverging_gt2_vs_en": 25,
+ "diverging_ids": [
+  "capital_of_035",
+  "capital_of_054",
+  "capital_country_016",
+  "landmark_city_009",
+  "landmark_city_027",
+  "landmark_city_038",
+  "landmark_city_042",
+  "landmark_city_047",
+  "event_year_002",
+  "event_year_007",
+  "event_year_009",
+  "event_year_010",
+  "event_year_015",
+  "event_year_018",
+  "event_year_020",
+  "event_year_021",
+  "event_year_022",
+  "event_year_026",
+  "event_year_027",
+  "event_year_028",
+  "event_year_029",
+  "event_year_030",
+  "event_year_031",
+  "event_year_033",
+  "event_year_034"
+ ]
+}

@@ -197,23 +197,28 @@ def make(rel: str, idx: int, subj: tuple[str, ...], obj: tuple[str, ...], alts: 
     return f
 
 
-def load_templates() -> dict:
-    p = Path("data/v2/templates.json")
+def load_templates(path: str = "data/v2/templates.json") -> dict:
+    p = Path(path)
     if p.exists():
         return json.loads(p.read_text(encoding="utf8"))["templates"]
     return TEMPLATES
 
 
 def main() -> None:
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--templates", default="data/v2/templates.json")
+    ap.add_argument("--out", default="data/v2/facts_candidates.json")
+    a = ap.parse_args()
     global TEMPLATES
-    TEMPLATES = load_templates()
+    TEMPLATES = load_templates(a.templates)
     facts = [make("capital_of", i, c, k) for i, (c, k) in enumerate(CAPITALS)]
     facts += [make("capital_country", i, k, c) for i, (c, k) in enumerate(CAPITALS)]
     facts += [make("landmark_city", i, l, c) for i, (l, c) in enumerate(LANDMARKS + LANDMARKS2)]
     facts += [make("invention_inventor", i, inv, who, alts) for i, (inv, who, alts) in enumerate(INVENTIONS)]
     facts += [make("event_year", i, ev, (y, y, y)) for i, (ev, y) in enumerate(EVENTS)]
     Path("data/v2").mkdir(parents=True, exist_ok=True)
-    Path("data/v2/facts_candidates.json").write_text(json.dumps(
+    Path(a.out).write_text(json.dumps(
         {"version": 2, "note": "Study v2 candidates (A5); 3 phrasings per fact and language; phrasing 0 is canonical", "facts": facts},
         ensure_ascii=False, indent=1), encoding="utf-8")
     print(len(facts), "candidates:", {r: sum(f["relation"] == r for f in facts) for r in TEMPLATES})

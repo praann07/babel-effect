@@ -64,11 +64,12 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="llama", choices=list(MODELS))
     ap.add_argument("--n-tune", type=int, default=30)
+    ap.add_argument("--cands", default="data/v2/facts_candidates.json", help="candidate file (tuning facts come from here)")
     a = ap.parse_args()
     spec = MODELS[a.model]
     run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_templates_{a.model}"
     run.mkdir(parents=True, exist_ok=False)
-    cands = json.loads(Path("data/v2/facts_candidates.json").read_text(encoding="utf8"))["facts"]
+    cands = json.loads(Path(a.cands).read_text(encoding="utf8"))["facts"]
     tok = AutoTokenizer.from_pretrained(spec["dir"])
     tok.padding_side = "left"
     tok.pad_token = tok.pad_token or tok.eos_token
@@ -89,7 +90,8 @@ def main() -> None:
             chosen.setdefault(rel, {})[lg] = [langs[lg][i] for i in order]
             log[f"{rel}/{lg}"] = [{"template": langs[lg][i], "acc": accs[i]} for i in range(len(accs))]
             print(rel, lg, [(langs[lg][i], round(accs[i], 2)) for i in order], flush=True)
-    Path("data/v2/templates.json").write_text(json.dumps(
+    out_path = Path("data/v2/templates.json" if a.model == "llama" else f"data/v2/templates_{a.model}.json")
+    out_path.write_text(json.dumps(
         {"model_used_for_selection": spec["tl_name"], "n_tune": a.n_tune, "templates": chosen}, ensure_ascii=False, indent=1),
         encoding="utf8")
     (run / "pool_accuracy.json").write_text(json.dumps(log, ensure_ascii=False, indent=1), encoding="utf8")
