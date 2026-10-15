@@ -1,12 +1,28 @@
-# NEXT
-- [x] P0 env: repo anchored at babel-effect, venv, deps pinned, torch cu128 CUDA works
-- [x] P0 gate: Llama-3.2-3B-Instruct predicts " Paris" (p=0.613); peak VRAM 7.49 GiB (analysis/p0_smoke_llama.json)
-- [x] Mirror shard sha256 verified identical to meta-llama (see docs/LOG.md)
-- [x] P1 data: data/facts.json n=67 (33 capital_country, 32 capital_of, 2 landmark_city); table at analysis/run_20261012_p1filter_v2/accuracy.md
-- [x] docs/HYPOTHESIS.md committed before any tracing/overlap computation (pre-registration)
-- [x] P2 tracing on 10 facts: pattern visible, 30/30 valid; MLP peak is layers 0-5, not the pre-registered 8-19 (H3 not met; logged)
-- [x] P3 overlap done (n=66): EN-ES above null (z=6.06), EN-HI/ES-HI not distinguishable from null; table at analysis/run_20261012_p3overlap/table_primary.md. MINIMUM PUBLISHABLE UNIT (P0-P3) reached.
-- [x] P4 editing: EN success 9/10 at traced layer (gate >= 80% met)
-- [x] P5 transfer/specificity/damage tables: analysis/run_20261013_p4edit/tables.md
-- [ ] NEXT: P6 paper/ draft, results/manifest.json, reproduce.sh
-- [ ] P2 tracing, P3 overlap, P4 editing, P5 transfer, P6 writing
+# NEXT (to-do list, updated 2026-10-15)
+
+Legend: [x] done, [~] running, [ ] to do. GPU items wait for the layer sweep (scripts_run_sweeps.sh, started 2026-10-15 09:35, about 9 h).
+
+## Done
+- [x] P0-P5 on Llama-3.2-3B (v1 pilot) and paper draft v1; repo public (praann07/babel-effect)
+- [x] Model research report (reports/Models for multilingual fact editing.md), Gemma-2-2B weights verified
+- [x] A5-A8 pre-registered; v2 data (5 relations, 3 phrasings); full-answer tracing; Llama v2 (n=92) and Gemma-2-2B v2 (n=58) overlap; cross-model table (33 shared facts); related work (20 verified refs); manifest 356 claims
+
+## Fixes to make the paper reviewer-proof (do one at a time, commit after each)
+- [ ] F1 Pre-register the relation-stratified null as the primary test for everything from now on (A9). CPU, now.
+- [ ] F2 Hindi diagnostic: Hindi accuracy and overlap versus Hindi token length (answers "is it a tokenizer artifact?"). CPU, now.
+- [ ] F3 In-context editing baseline (put the new fact in the prompt) to put the weight-edit transfer numbers in context. Code now, run after the sweep.
+- [ ] F4 Non-copyable facts: add relations whose answers differ across languages (landmark_country, city_country); target >= 50 non-copyable valid facts per model. Data now, GPU after the sweep.
+- [ ] F5 Phrasing robustness (H8): trace phrasings 1 and 2 on 30 facts per model. GPU after the sweep.
+- [ ] F6 Third model: forward-only pilot (Llama-3.2-1B first; Qwen3-1.7B-Base / BLOOM-1b7 next) and run the full pipeline only if it keeps >= 50 facts.
+- [ ] F7 More edit facts: after the sweep, rerun the best layers on about 30 facts per model.
+- [ ] F8 Paper rewrite for v2 (tables, figures, honest verdicts on H6-H9), HYPOTHESIS verdicts, README.
+- [ ] F9 reproduce.sh for v2 and one full end-to-end rerun from a clean clone.
+
+## Hypotheses status (docs/HYPOTHESIS.md A5)
+- H6 (EN-ES z>2; EN-ES > EN-HI): supported for Llama (z=4.22) and Gemma (z=4.81)
+- H7 (mid-layer edits transfer more than layers 0-5): pending the sweep
+- H8 (phrasing robustness): pending F5
+- H9 (EN-ES z>2 in >= 2 new/extended relations): not supported (only event_year testable, z=0.91)
+
+## Waiting on the user
+- Nothing now. Keep the laptop awake and plugged in while the sweep runs.
