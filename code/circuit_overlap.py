@@ -112,8 +112,8 @@ def main() -> None:
     rel = {f: recs[(f, "en")]["relation"] for f in facts}
     valid = [f for f in facts if all(is_valid(recs[(f, lg)]) for lg in LANGS)]
     sets = {"primary_valid": valid, "all_kept": facts,
-            "valid_no_landmark": [f for f in valid if rel[f] != "landmark_city"]}
-    for r in ("capital_country", "capital_of"):
+            "valid_no_copyable": [f for f in valid if rel[f] not in ("event_year", "invention_inventor")]}
+    for r in sorted(set(rel.values())):
         sets[f"valid_{r}"] = [f for f in valid if rel[f] == r]
 
     out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"
