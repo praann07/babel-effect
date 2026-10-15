@@ -145,6 +145,49 @@ EVENTS = [
     (("the Indian Ocean tsunami", "el tsunami del océano Índico", "हिंद महासागर की सुनामी"), "2004"),
 ]
 
+# batch 2 (A8): appended so earlier ids and seeds are unchanged; years distinct from batch 1 and from each other
+EVENTS2 = [
+    (("the arrival of the Black Death in Europe", "la llegada de la peste negra a Europa", "यूरोप में ब्लैक डेथ का आगमन"), "1347"),
+    (("the Treaty of Tordesillas", "el Tratado de Tordesillas", "टोरडेसिलस की संधि"), "1494"),
+    (("the fall of Tenochtitlan", "la caída de Tenochtitlan", "तेनोच्तितलान का पतन"), "1521"),
+    (("the First Battle of Panipat", "la primera batalla de Panipat", "पानीपत की पहली लड़ाई"), "1526"),
+    (("the Battle of Lepanto", "la batalla de Lepanto", "लेपांटो का युद्ध"), "1571"),
+    (("the start of the Thirty Years' War", "el inicio de la guerra de los Treinta Años", "तीस वर्षीय युद्ध की शुरुआत"), "1618"),
+    (("the Peace of Westphalia", "la Paz de Westfalia", "वेस्टफेलिया की शांति"), "1648"),
+    (("the Great Plague of London", "la Gran Plaga de Londres", "लंदन की महान प्लेग"), "1665"),
+    (("the start of the Haitian Revolution", "el inicio de la Revolución haitiana", "हैती क्रांति की शुरुआत"), "1791"),
+    (("the coronation of Napoleon as emperor", "la coronación de Napoleón como emperador", "नेपोलियन का सम्राट के रूप में राज्याभिषेक"), "1804"),
+    (("the Congress of Vienna", "el Congreso de Viena", "वियना की कांग्रेस"), "1814"),
+    (("the start of the Greek War of Independence", "el inicio de la guerra de independencia de Grecia", "यूनानी स्वतंत्रता संग्राम की शुरुआत"), "1821"),
+    (("the opening of the Stockton and Darlington Railway", "la inauguración del ferrocarril de Stockton y Darlington", "स्टॉकटन और डार्लिंगटन रेलवे का उद्घाटन"), "1825"),
+    (("the start of the First Opium War", "el inicio de la primera guerra del Opio", "प्रथम अफ़ीम युद्ध की शुरुआत"), "1839"),
+    (("the Revolutions of 1848", "las revoluciones de 1848", "1848 की क्रांतियाँ"), "1848"),
+    (("the start of the Crimean War", "el inicio de la guerra de Crimea", "क्रीमिया युद्ध की शुरुआत"), "1853"),
+    (("the publication of On the Origin of Species", "la publicación de El origen de las especies", "ऑन द ओरिजिन ऑफ़ स्पीशीज़ का प्रकाशन"), "1859"),
+    (("the Meiji Restoration", "la restauración Meiji", "मेजी पुनर्स्थापना"), "1868"),
+    (("the proclamation of the German Empire", "la proclamación del Imperio alemán", "जर्मन साम्राज्य की घोषणा"), "1871"),
+    (("the Berlin Conference on Africa", "la Conferencia de Berlín sobre África", "अफ़्रीका पर बर्लिन सम्मेलन"), "1884"),
+    (("the completion of the Eiffel Tower", "la finalización de la Torre Eiffel", "एफ़िल टॉवर का निर्माण पूर्ण होना"), "1889"),
+    (("the Spanish-American War", "la guerra hispano-estadounidense", "स्पेन-अमेरिका युद्ध"), "1898"),
+    (("the Boxer Rebellion", "la rebelión de los bóxers", "बॉक्सर विद्रोह"), "1900"),
+    (("the San Francisco earthquake", "el terremoto de San Francisco", "सैन फ़्रांसिस्को भूकंप"), "1906"),
+    (("the start of the Mexican Revolution", "el inicio de la Revolución mexicana", "मैक्सिकन क्रांति की शुरुआत"), "1910"),
+    (("the start of the Spanish flu pandemic", "el inicio de la pandemia de gripe española", "स्पेनिश फ़्लू महामारी की शुरुआत"), "1918"),
+    (("the start of the Spanish Civil War", "el inicio de la guerra civil española", "स्पेनी गृहयुद्ध की शुरुआत"), "1936"),
+    (("the founding of the People's Republic of China", "la fundación de la República Popular China", "चीनी जनवादी गणराज्य की स्थापना"), "1949"),
+    (("the start of the Korean War", "el inicio de la guerra de Corea", "कोरियाई युद्ध की शुरुआत"), "1950"),
+    (("the Suez Crisis", "la crisis de Suez", "स्वेज़ संकट"), "1956"),
+    (("the Cuban Missile Crisis", "la crisis de los misiles de Cuba", "क्यूबा मिसाइल संकट"), "1962"),
+    (("the Six-Day War", "la guerra de los Seis Días", "छह दिवसीय युद्ध"), "1967"),
+    (("the Bangladesh Liberation War", "la guerra de liberación de Bangladés", "बांग्लादेश मुक्ति संग्राम"), "1971"),
+    (("the Iranian Revolution", "la Revolución iraní", "ईरानी क्रांति"), "1979"),
+    (("the start of the Gulf War", "el inicio de la guerra del Golfo", "खाड़ी युद्ध की शुरुआत"), "1990"),
+    (("the Rwandan genocide", "el genocidio de Ruanda", "रवांडा नरसंहार"), "1994"),
+    (("the global financial crisis", "la crisis financiera mundial", "वैश्विक वित्तीय संकट"), "2008"),
+    (("the Fukushima nuclear disaster", "el desastre nuclear de Fukushima", "फुकुशिमा परमाणु आपदा"), "2011"),
+    (("the Brexit referendum", "el referéndum del Brexit", "ब्रेक्ज़िट जनमत संग्रह"), "2016"),
+]
+
 TEMPLATES = {
     "capital_of": {
         "en": ["The capital of {s} is", "The capital city of {s} is", "Q: What is the capital of {s}? A:"],
@@ -209,6 +252,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--templates", default="data/v2/templates.json")
     ap.add_argument("--out", default="data/v2/facts_candidates.json")
+    ap.add_argument("--with-events2", action="store_true", help="append the A8 event batch (Gemma pool)")
     a = ap.parse_args()
     global TEMPLATES
     TEMPLATES = load_templates(a.templates)
@@ -216,7 +260,7 @@ def main() -> None:
     facts += [make("capital_country", i, k, c) for i, (c, k) in enumerate(CAPITALS)]
     facts += [make("landmark_city", i, l, c) for i, (l, c) in enumerate(LANDMARKS + LANDMARKS2)]
     facts += [make("invention_inventor", i, inv, who, alts) for i, (inv, who, alts) in enumerate(INVENTIONS)]
-    facts += [make("event_year", i, ev, (y, y, y)) for i, (ev, y) in enumerate(EVENTS)]
+    facts += [make("event_year", i, ev, (y, y, y)) for i, (ev, y) in enumerate(EVENTS + (EVENTS2 if a.with_events2 else []))]
     Path("data/v2").mkdir(parents=True, exist_ok=True)
     Path(a.out).write_text(json.dumps(
         {"version": 2, "note": "Study v2 candidates (A5); 3 phrasings per fact and language; phrasing 0 is canonical", "facts": facts},
