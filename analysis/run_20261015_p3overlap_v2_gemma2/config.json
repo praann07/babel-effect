@@ -1,0 +1,13 @@
+{
+ "source_run": "analysis\\run_20261015_p3trace_v2_gemma2",
+ "seed": 20261012,
+ "sets": {
+  "primary_valid": 26,
+  "all_kept": 26,
+  "valid_no_copyable": 9,
+  "valid_capital_country": 1,
+  "valid_capital_of": 3,
+  "valid_event_year": 17,
+  "valid_landmark_city": 5
+ }
+}
