@@ -13,19 +13,20 @@ MODELS = {
     "llama": {"tl_name": "meta-llama/Llama-3.2-3B-Instruct", "dir": "models/llama-3.2-3b-instruct", "facts": "data/facts.json", "facts_v2": "data/v2/facts_llama.json"},
     "llama1b": {"tl_name": "meta-llama/Llama-3.2-1B-Instruct", "dir": "models/llama-3.2-1b-instruct", "facts": "data/facts_llama1b.json", "facts_v2": "data/v2/facts_llama1b.json"},
     "gemma2": {"tl_name": "google/gemma-2-2b", "dir": "models/gemma-2-2b", "facts": "data/facts_gemma2.json", "facts_v2": "data/v2/facts_gemma2.json"},
+    "bloom1b7": {"tl_name": "bigscience/bloom-1b7", "dir": "models/bloom-1b7", "facts": "data/facts_bloom1b7.json", "facts_v2": "data/v2/facts_bloom1b7.json"},
 }
 MODEL_NAME = MODELS["llama"]["tl_name"]  # kept for older scripts
 MODEL_DIR = MODELS["llama"]["dir"]
 LANGS = ("en", "es", "hi")
 
 
-def load_model(key: str = "llama", dtype: torch.dtype = torch.bfloat16) -> HookedTransformer:
+def load_model(key: str = "llama", dtype: torch.dtype = torch.bfloat16, device: str = "cuda") -> HookedTransformer:
     from transformers import AutoModelForCausalLM, AutoTokenizer
     spec = MODELS[key]
     hf = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=dtype)
     tok = AutoTokenizer.from_pretrained(spec["dir"])
     model = HookedTransformer.from_pretrained_no_processing(spec["tl_name"], hf_model=hf, tokenizer=tok, dtype=dtype,
-                                                            device="cuda")
+                                                            device=device)
     del hf
     gc.collect()
     torch.cuda.empty_cache()
