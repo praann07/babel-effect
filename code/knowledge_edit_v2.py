@@ -134,6 +134,8 @@ def main() -> None:
     ap.add_argument("--n-edit", type=int, default=10)
     ap.add_argument("--layers", default=None, help="comma list; default all layers")
     ap.add_argument("--tag", default="p4sweep")
+    ap.add_argument("--skip-first", type=int, default=0, help="skip the first N edit facts (already done in an earlier run)")
+    ap.add_argument("--add-traced", action="store_true", help="also edit each fact at its own EN traced layer and at L//2 (A9 F7 rule)")
     ap.add_argument("--resume", default=None, help="existing run dir to continue (crash recovery only)")
     a = ap.parse_args()
     ke.MODEL_KEY = a.model
@@ -142,7 +144,7 @@ def main() -> None:
     recs = {(r["id"], r["lang"]): r for r in json.loads((Path(a.trace_run) / "records.json").read_text(encoding="utf8"))
             if r.get("phrasing") == 0 and "error" not in r}
     valid = [f for f in facts if all((f["id"], lg) in recs and recs[(f["id"], lg)]["collapsed"] for lg in LANGS)]
-    edit_facts = select_edit_facts(valid, a.n_edit)
+    edit_facts = select_edit_facts(valid, a.n_edit)[a.skip_first:]
 
     out = Path(a.resume) if a.resume else Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}_{a.model}"
     out.mkdir(parents=True, exist_ok=bool(a.resume))
@@ -175,7 +177,8 @@ def main() -> None:
         e_ids, e_span = subject_span(tok, f"{en['subject']} is", en["subject"])
         essence = (torch.tensor([e_ids], device="cuda"), e_span[-1])
         before = {lg: seq_logprob(model, f["lang"][lg]["prompts"][0], new["lang"][lg]["target"]) for lg in LANGS}
-        for layer in layers:
+        f_layers = sorted(set(layers) | ({recs[(f["id"], "en")]["crit_mlp_layer"], n_layers // 2} if a.add_traced else set()))
+        for layer in f_layers:
             if (f["id"], layer) in done:
                 continue
             k, v0 = key_and_value(model, ctxs, layer)
