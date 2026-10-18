@@ -18,7 +18,7 @@ V2 = {
     "llama": {"p1": "analysis/run_20261014_p1v2b_llama/accuracy.json", "ov": "analysis/run_20261015_p3overlap_v2_llama/results.json",
               "ovs": "analysis/run_20261015_p3overlap_v2b_llama/results.json"},
     "gemma2": {"p1": "analysis/run_20261015_p1v2c_gemma2/accuracy.json", "ov": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
-               "ovs": None},
+               "ovs": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json"},
 }
 CMP = "analysis/run_20261015_compare_models/results.json"
 HD = "analysis/run_20261015_hindi_diag/results.json"

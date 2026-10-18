@@ -1,5 +1,5 @@
 {
- "n_claims": 387,
+ "n_claims": 390,
  "claims": [
   {
    "id": "n_candidates",
@@ -3704,6 +3704,19 @@
    "value": 2.512744665145874
   },
   {
+   "id": "v2_gemma2_en-es_mlp_cosine_z_stratified",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 3.853238344192505
+  },
+  {
    "id": "v2_gemma2_en-hi_mlp_cosine_obs",
    "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
    "key_path": [
@@ -3877,6 +3890,19 @@
    "value": 1.4788217544555664
   },
   {
+   "id": "v2_gemma2_en-hi_mlp_cosine_z_stratified",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.682239055633545
+  },
+  {
    "id": "v2_gemma2_es-hi_mlp_cosine_obs",
    "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
    "key_path": [
@@ -4048,6 +4074,19 @@
     "z"
    ],
    "value": 0.2199363261461258
+  },
+  {
+   "id": "v2_gemma2_es-hi_mlp_cosine_z_stratified",
+   "artifact": "analysis/run_20261015_p3overlap_v2c_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": -0.4549306035041809
   },
   {
    "id": "v2_gemma2_crit_median_en",

@@ -23,11 +23,13 @@ case "${1:-verify}" in
     ;;
   figures)
     $PY code/make_figures.py
+    $PY code/make_tables.py
     ;;
   check)
     $PY -m unittest discover -s tests
     $PY code/make_manifest.py verify
     $PY code/make_figures.py
+    $PY code/make_tables.py
     ;;
   full)
     TAG="${2:-repro}"
