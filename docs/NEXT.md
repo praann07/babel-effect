@@ -1,6 +1,6 @@
-# NEXT (to-do list, updated 2026-10-15)
+# NEXT (to-do list, updated 2026-10-19)
 
-Legend: [x] done, [~] running, [ ] to do. GPU items wait for the layer sweep (scripts_run_sweeps.sh, started 2026-10-15 09:35, about 9 h).
+Legend: [x] done, [~] running, [ ] to do. GPU items wait for the layer sweep (scripts_run_sweeps.sh). It was interrupted on 10-15 and 10-18 (laptop sleep) and resumed on 10-19 03:07 from saved rows; scripts_watchdog.sh restarts it if it dies. Estimate: Llama about 4-5 h more, Gemma about 6 h, then the queued chains.
 
 ## Done
 - [x] P0-P5 on Llama-3.2-3B (v1 pilot) and paper draft v1; repo public (praann07/babel-effect)
@@ -16,7 +16,8 @@ Legend: [x] done, [~] running, [ ] to do. GPU items wait for the layer sweep (sc
 - [~] F6 Third model: forward-only pilot (Llama-3.2-1B first; Qwen3-1.7B-Base / BLOOM-1b7 next) and run the full pipeline only if it keeps >= 50 facts.
 - [ ] F7 More edit facts: after the sweep, rerun the best layers on about 30 facts per model.
 - [ ] F8 Paper rewrite for v2 (tables, figures, honest verdicts on H6-H9), HYPOTHESIS verdicts, README.
-- [ ] F9 reproduce.sh for v2 and one full end-to-end rerun from a clean clone.
+- [~] F9 reproduce.sh: `./reproduce.sh check` (tests + manifest + figures) done; the full v2 end-to-end rerun from a clean clone is still to do.
+- [x] CPU extras done 2026-10-19: paper figures (paper/figures), unit tests (tests/), watchdog.
 
 ## Hypotheses status (docs/HYPOTHESIS.md A5)
 - H6 (EN-ES z>2; EN-ES > EN-HI): supported for Llama (z=4.22) and Gemma (z=4.81)

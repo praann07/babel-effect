@@ -1,0 +1,13 @@
+{
+ "fig1_profiles": [
+  "analysis/run_20261015_p3trace_v2_llama",
+  "analysis/run_20261015_p3trace_v2c_gemma2"
+ ],
+ "fig2_overlap": [
+  "analysis/run_20261015_p3overlap_v2b_llama/results.json",
+  "analysis/run_20261015_p3overlap_v2c_gemma2/results.json"
+ ],
+ "fig3_hindi": [
+  "analysis/run_20261015_hindi_diag/results.json"
+ ]
+}
