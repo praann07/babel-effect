@@ -21,6 +21,9 @@ V2 = {
                "ovs": None},
 }
 CMP = "analysis/run_20261015_compare_models/results.json"
+HD = "analysis/run_20261015_hindi_diag/results.json"
+HS = "analysis/run_20261015_hindi_diag/span_split.json"
+LH = "analysis/run_20261019_layer_hist/layer_hist.json"
 MAN = Path("results/manifest.json")
 
 
@@ -87,6 +90,19 @@ def claims() -> list[dict]:
     for m in ("llama", "gemma2"):
         for pair in ("en-es", "en-hi", "es-hi"):
             c.append((f"cmp_{m}_{pair}_mlp_cosine_z", CMP, ["intersection", m, "pairs", pair, "mlp_cosine", "z"]))
+    for m in ("llama", "gemma2"):  # F2 Hindi diagnostic (paper_v2 section 4.3)
+        c += [(f"hd_{m}_spearman_enhi_vs_span", HD, [m, "spearman_enhi_cosine_vs_hi_subject_span"]), (f"hd_{m}_hi_span_median", HD, [m, "hi_span_median"])]
+        for b in ("1-3", "4-6", "7+"):
+            c.append((f"hd_{m}_acc_hi_{b}", HD, [m, "accuracy_by_object_tokens", f"hi/{b}", "acc"]))
+        for part in ("short_hi_span", "long_hi_span"):
+            c += [(f"hs_{m}_{part}_n", HS, [f"{m}/{part}", "n"]), (f"hs_{m}_{part}_cos_en-hi", HS, [f"{m}/{part}", "cos", "en-hi"]),
+                  (f"hs_{m}_{part}_pooled_z_en-hi", HS, [f"{m}/{part}", "pooled_z", "en-hi"])]
+    for m, name in (("llama", "Llama-3.2-3B"), ("gemma2", "Gemma-2-2B")):  # critical-layer distribution (section 4.2, Figure 4)
+        for lg in ("en", "es", "hi"):
+            c.append((f"lh_{m}_frac_8_19_{lg}", LH, [name, lg, "frac_layer_8_19"]))
+        if m == "gemma2":
+            for lg in ("en", "es", "hi"):
+                c.append((f"lh_gemma2_hist_L14_{lg}", LH, [name, lg, "hist", 14]))
     return [{"id": i, "artifact": a, "key_path": k} for i, a, k in c]
 
 
