@@ -83,7 +83,7 @@ def main() -> None:
     ap.add_argument("--relations", default=None, help="comma list; only these relations are selected and merged into the existing templates file")
     a = ap.parse_args()
     spec = MODELS[a.model]
-    run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_templates_{a.model}"
+    run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_templates_{a.model}{'_extra' if a.relations else ''}"
     run.mkdir(parents=True, exist_ok=False)
     cands = json.loads(Path(a.cands).read_text(encoding="utf8"))["facts"]
     tok = AutoTokenizer.from_pretrained(spec["dir"])
