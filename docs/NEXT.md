@@ -22,7 +22,7 @@ Legend: [x] done, [~] running, [ ] to do. GPU items wait for the layer sweep (sc
 
 ## Hypotheses status (docs/HYPOTHESIS.md A5)
 - H6 (EN-ES z>2; EN-ES > EN-HI): supported for Llama (z=4.22) and Gemma (z=4.81)
-- H7 (mid-layer edits transfer more than layers 0-5): pending the sweep
+- H7 (mid-layer edits transfer more than layers 0-5): sweep done; supported in Gemma (ES +0.34, HI +0.07, specificity worse), contradicted for ES in Llama (-0.31); model-dependent
 - H8 (phrasing robustness): pending F5 (analysis queued in scripts_run_post.sh)
 - B1-B3 (A10, BLOOM-1b7): pending
 - H9 (EN-ES z>2 in >= 2 new/extended relations): not supported (only event_year testable, z=0.91)
