@@ -24,6 +24,7 @@ CMP = "analysis/run_20261015_compare_models/results.json"
 HD = "analysis/run_20261015_hindi_diag/results.json"
 HS = "analysis/run_20261015_hindi_diag/span_split.json"
 LH = "analysis/run_20261019_layer_hist/layer_hist.json"
+SWT = {"llama": "analysis/run_20261015_p4sweep_llama/sweep_tables.json", "gemma2": "analysis/run_20261019_p4sweep_gemma2/sweep_tables.json"}
 MAN = Path("results/manifest.json")
 
 
@@ -103,6 +104,15 @@ def claims() -> list[dict]:
         if m == "gemma2":
             for lg in ("en", "es", "hi"):
                 c.append((f"lh_gemma2_hist_L14_{lg}", LH, [name, lg, "hist", 14]))
+    for m, art in SWT.items():  # layer sweep (section 4.4)
+        for cond in ("traced", "mid", "random"):
+            c += [(f"sw_{m}_{cond}_n", art, ["conditions", cond, "n"]), (f"sw_{m}_{cond}_en_success", art, ["conditions", cond, "en_success_rate"]),
+                  (f"sw_{m}_{cond}_transfer_es_med", art, ["conditions", cond, "transfer_es", 0]), (f"sw_{m}_{cond}_transfer_hi_med", art, ["conditions", cond, "transfer_hi", 0]),
+                  (f"sw_{m}_{cond}_specificity_med", art, ["conditions", cond, "specificity", 0])]
+        for key in ("transfer_es", "transfer_hi", "specificity"):
+            for k, i in (("med", 0), ("lo", 1), ("hi", 2)):
+                c.append((f"sw_{m}_H7_{key}_{k}", art, ["H7", key, "median_diff_near_mid_minus_early", i]))
+            c.append((f"sw_{m}_H7_{key}_frac_pos", art, ["H7", key, "frac_facts_positive"]))
     return [{"id": i, "artifact": a, "key_path": k} for i, a, k in c]
 
 
