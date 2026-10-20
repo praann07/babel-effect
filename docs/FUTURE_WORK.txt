@@ -1,0 +1,37 @@
+THE BABEL EFFECT - FUTURE WORK AND KNOWN WEAKNESSES (written 2026-10-21, for the reviewer)
+Companion to paper/The_Babel_Effect_draft_v2.pdf. Nothing here is claimed as a result.
+
+A. EXPERIMENTS ALREADY DESIGNED (pre-registered in docs/HYPOTHESIS.md) BUT NOT YET RUN
+1. Gemma-2-2B follow-up edits (20 further facts at the rule-chosen layer, the traced layer and L//2). The run was interrupted; the Llama counterpart is done.
+2. BLOOM-1b7 (A10): a model that was trained on Hindi with a tokenizer that splits Hindi into fewer pieces. Predictions fixed in advance: B1 at least 50 facts survive the filter; B2 EN-ES z > 2; B3 Hindi subject spans <= 3 tokens and EN-HI z > 2. This is the direct test of whether the weak Hindi result is a tokenisation effect. The TransformerLens BLOOM code path (ALiBi, no BOS token) is untested and may need debugging.
+3. Llama-3.2-1B-Instruct pilot (same tokenizer as the main model, smaller size); full pipeline only if at least 50 facts pass the filter.
+
+B. KNOWN WEAKNESSES THAT FUTURE WORK SHOULD FIX (the author's own list, not exhaustive)
+1. Sample size. 29 to 126 facts per analysis; edit sweeps use only 10 facts per model and the follow-up 20. Per-layer rates move in steps of 0.1. Needs several hundred facts and a power analysis stated in advance.
+2. Hand-written facts and templates. Templates were chosen on the same 30 facts per relation that are later evaluated. Needs held-out template selection, more relations, and facts from a public multilingual benchmark (for example X-FACTR / mLAMA style data) instead of hand-written ones.
+3. Model confound. Llama is an Instruct model and Gemma a base model; differences between them cannot be attributed to architecture. Needs base and instruct versions of the same family.
+4. Hindi. Hindi subjects span 5 (Llama) and 8 (Gemma) tokens against 2 for English, and the EN-HI overlap falls with span length. Hindi facts and answers were not checked by a native speaker. Needs a Hindi-speaker audit and a language with a better tokenisation (BLOOM, Qwen) as controls.
+5. What "overlap" measures. The main statistic is the cosine of two per-layer MLP profiles at one token. Similar depth profiles could arise for any two prompts about the same kind of fact. Needs (i) a control comparing different facts in the same language against different languages of the same fact, (ii) multi-token and attention-head patching, (iii) path patching, not only single-site restoration.
+6. Single noise level and single corruption scheme (Gaussian noise, 3 sigma on subject tokens). Needs sensitivity to the noise level and to a symmetric (token-swap) corruption.
+7. Edit method. Only a rank-1 edit of one MLP layer is used; no MEMIT-style multi-layer edit, no sequential edits. Edit success is defined by greedy generation of the exact new answer.
+8. Specificity uses 20 control facts and damage uses 100 Wikipedia sentences; both are small. Mid-layer edits showed large specificity loss in the Llama follow-up (median 0.57 against 0.06 at the traced layer); the 10-fact sweep gave 0.08, so the estimate is unstable.
+9. In-context baseline anomaly. In Llama, an English statement in the prompt changed Spanish and Hindi answers for 10/10 facts but English for 0/10. This was not investigated and may be a formatting or token-boundary issue; the baseline has only 10 facts per model.
+10. Post-hoc analyses. The relation-stratified null, the Hindi span split and the critical-layer histogram (Gemma modes at layers 4, 6, 14) were added after seeing results and are labelled exploratory.
+11. H7 (mid-layer edits transfer more) is supported in Gemma and contradicted for Spanish in Llama; no pooled claim is made and the Llama follow-up does not re-test it.
+12. Two model families only; no model above 3B parameters.
+13. Related work was searched in a bounded way; the claim that no paper combines tracing, overlap, and cross-lingual edit transfer on the same model is an absence in that search, not proof.
+
+C. PLANNED IMPROVEMENTS IF THE PAPER CONTINUES
+1. Finish A and rerun the paper's tables with the full results.
+2. Add a power analysis and expand to several hundred facts across more relations and a public benchmark.
+3. Add base/instruct pairs of one family and one larger model (7B class) if compute allows (current limit: one 8 GB GPU, no spend).
+4. Add the controls in B5 and B6 and report whether the EN-ES alignment survives them.
+5. Native-speaker audit of the Hindi data.
+6. Explain or fix the in-context anomaly (B9).
+7. Clean-clone reproduction of the whole pipeline (reproduce.sh currently covers the verification of 537 numbers, not the full v2 pipeline).
+8. Choose a venue; current honest estimate: workshop paper likely, Findings plausible if A and B1-B6 hold up, main-conference acceptance unlikely.
+
+D. WHAT WOULD CHANGE THE AUTHOR'S CONCLUSION
+- If EN-ES overlap disappears under the control in B5 (different facts, same language pair), the "shared lookup" claim is wrong.
+- If BLOOM-1b7 shows strong EN-HI overlap with short Hindi spans, the weak Hindi result is mostly tokenisation. If it does not, tokenisation is not the explanation.
+- If edit transfer to Spanish and Hindi stays low even where the in-context baseline transfers, the edit site (not cross-lingual access) is the bottleneck.
