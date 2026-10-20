@@ -1,0 +1,29 @@
+{
+ "n_facts": 10,
+ "summary": {
+  "en_context/en": {
+   "median_dP": 0.4788320358724669,
+   "success_rate": 0.8
+  },
+  "en_context/es": {
+   "median_dP": 0.5606112756191421,
+   "success_rate": 0.7
+  },
+  "en_context/hi": {
+   "median_dP": 0.27485348982013136,
+   "success_rate": 0.6
+  },
+  "own_context/en": {
+   "median_dP": 0.4788320358724669,
+   "success_rate": 0.8
+  },
+  "own_context/es": {
+   "median_dP": 0.5146441614516579,
+   "success_rate": 0.8
+  },
+  "own_context/hi": {
+   "median_dP": 0.49399089345071723,
+   "success_rate": 1.0
+  }
+ }
+}

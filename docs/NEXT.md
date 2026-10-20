@@ -20,15 +20,17 @@ Legend: [x] done, [~] running, [ ] to do. GPU items wait for the layer sweep (sc
 - [~] F9 reproduce.sh: `./reproduce.sh check` (tests + manifest + figures) done; the full v2 end-to-end rerun from a clean clone is still to do.
 - [x] CPU extras done 2026-10-19: paper figures (paper/figures), unit tests (tests/), watchdog.
 
-## Hypotheses status (docs/HYPOTHESIS.md A5)
-- H6 (EN-ES z>2; EN-ES > EN-HI): supported for Llama (z=4.22) and Gemma (z=4.81)
-- H7 (mid-layer edits transfer more than layers 0-5): sweep done; supported in Gemma (ES +0.34, HI +0.07, specificity worse), contradicted for ES in Llama (-0.31); model-dependent
-- H8 (phrasing robustness): pending F5 (analysis queued in scripts_run_post.sh)
-- B1-B3 (A10, BLOOM-1b7): pending
-- H9 (EN-ES z>2 in >= 2 new/extended relations): not supported (only event_year testable, z=0.91)
+## Hypotheses status (docs/HYPOTHESIS.md, Verdicts section)
+- H6 supported (both models). H7 supported in Gemma, contradicted for ES in Llama. H8 supported (both). H9 not supported. F4 met for Llama, not Gemma. F3/F7 descriptive (Llama F7 done).
+- B1-B3 (A10, BLOOM-1b7): pending.
+
+## Left to run (GPU; start with Desktop "Start Experiments.bat" or the two nohup commands in the queue2 script header)
+1. Gemma F7 (20 new facts; partial dir analysis/run_20261020_p4f7_gemma2 is kept unused, the queue starts a fresh one)
+2. BLOOM-1b7 pilot (A10; TransformerLens BLOOM path untested)
+3. Llama-3.2-1B pilot (full pipeline only if >= 50 facts)
+
+## Left to write (CPU)
+- Add Gemma F7 and the pilots to paper section 4.5/5 once run; related-work additions after verifying 2411.08745; README refresh; reproduce.sh for the v2 pipeline + one clean-clone rerun; fix Start Experiments.bat.
 
 ## Waiting on the user
-- Nothing now. Keep the laptop awake and plugged in while the sweep runs.
-
-## Queue order (all GPU, one at a time; each waits on the previous log's ALL_DONE)
-scripts_run_sweeps.sh (Llama then Gemma sweep; scripts_watchdog.sh restarts it) -> scripts_run_extra.sh -> scripts_run_incontext.sh -> scripts_run_llama1b.sh -> scripts_run_post.sh (H8 analysis, F7) -> scripts_run_bloom.sh. Logs: analysis/_logs/*_chain.log.
+- Venue choice; optional Hindi-speaker spot check; keep the laptop plugged in while the GPU queue runs.

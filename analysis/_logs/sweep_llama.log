@@ -1,0 +1,41 @@
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   2%|▏         | 4/254 [00:00<00:11, 21.03it/s]Loading weights:   4%|▍         | 10/254 [00:00<00:08, 27.56it/s]Loading weights:   5%|▌         | 13/254 [00:00<00:10, 22.26it/s]Loading weights:   6%|▋         | 16/254 [00:00<00:11, 20.21it/s]Loading weights:   7%|▋         | 19/254 [00:00<00:13, 17.45it/s]Loading weights:   8%|▊         | 21/254 [00:01<00:16, 14.38it/s]Loading weights:   9%|▉         | 24/254 [00:01<00:15, 15.01it/s]Loading weights:  11%|█▏        | 29/254 [00:01<00:10, 21.15it/s]Loading weights:  13%|█▎        | 32/254 [00:01<00:12, 17.53it/s]Loading weights:  14%|█▍        | 35/254 [00:02<00:16, 13.39it/s]Loading weights:  15%|█▍        | 37/254 [00:02<00:15, 14.04it/s]Loading weights:  16%|█▌        | 40/254 [00:02<00:13, 16.08it/s]Loading weights:  18%|█▊        | 45/254 [00:02<00:09, 21.70it/s]Loading weights:  19%|█▉        | 48/254 [00:02<00:09, 21.93it/s]Loading weights:  20%|██        | 52/254 [00:02<00:07, 25.65it/s]Loading weights:  22%|██▏       | 56/254 [00:02<00:08, 22.64it/s]Loading weights:  24%|██▎       | 60/254 [00:03<00:10, 19.34it/s]Loading weights:  25%|██▍       | 63/254 [00:03<00:10, 17.55it/s]Loading weights:  28%|██▊       | 70/254 [00:03<00:07, 25.64it/s]Loading weights:  31%|███       | 78/254 [00:03<00:05, 32.37it/s]Loading weights:  32%|███▏      | 82/254 [00:03<00:06, 27.45it/s]Loading weights:  34%|███▍      | 86/254 [00:04<00:07, 21.34it/s]Loading weights:  35%|███▌      | 90/254 [00:04<00:07, 21.33it/s]Loading weights:  37%|███▋      | 93/254 [00:04<00:08, 18.00it/s]Loading weights:  38%|███▊      | 96/254 [00:04<00:08, 19.26it/s]Loading weights:  39%|███▉      | 99/254 [00:04<00:07, 20.32it/s]Loading weights:  43%|████▎     | 109/254 [00:05<00:04, 34.04it/s]Loading weights:  44%|████▍     | 113/254 [00:05<00:04, 33.27it/s]Loading weights:  47%|████▋     | 119/254 [00:05<00:04, 33.26it/s]Loading weights:  48%|████▊     | 123/254 [00:05<00:04, 32.70it/s]Loading weights:  50%|█████     | 127/254 [00:05<00:04, 25.72it/s]Loading weights:  51%|█████     | 130/254 [00:05<00:06, 20.66it/s]Loading weights: 100%|██████████| 254/254 [00:05<00:00, 42.45it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+capital_country_000 L0: EN dP=0.974 ok=True ES dP=0.700 HI dP=0.000 spec=0.037 ppl x1.002
+capital_country_000 L1: EN dP=0.959 ok=True ES dP=0.708 HI dP=0.071 spec=0.029 ppl x0.999
+capital_country_000 L2: EN dP=0.965 ok=True ES dP=0.596 HI dP=0.398 spec=0.136 ppl x1.002
+capital_country_000 L3: EN dP=0.988 ok=True ES dP=0.397 HI dP=0.121 spec=0.069 ppl x0.999
+capital_country_000 L4: EN dP=0.753 ok=True ES dP=0.741 HI dP=0.037 spec=0.173 ppl x0.999
+capital_country_000 L5: EN dP=0.817 ok=True ES dP=0.148 HI dP=0.031 spec=0.895 ppl x1.002
+capital_country_000 L6: EN dP=0.527 ok=True ES dP=0.000 HI dP=0.000 spec=0.061 ppl x0.998
+capital_country_000 L7: EN dP=0.922 ok=True ES dP=0.663 HI dP=0.057 spec=0.261 ppl x1.001
+capital_country_000 L8: EN dP=0.977 ok=True ES dP=0.796 HI dP=0.342 spec=0.098 ppl x1.001
+capital_country_000 L9: EN dP=0.935 ok=True ES dP=0.003 HI dP=0.009 spec=0.088 ppl x1.001
+capital_country_000 L10: EN dP=0.846 ok=True ES dP=0.915 HI dP=0.251 spec=0.927 ppl x1.001
+capital_country_000 L11: EN dP=0.939 ok=True ES dP=0.867 HI dP=0.402 spec=0.909 ppl x1.001
+capital_country_000 L12: EN dP=0.922 ok=True ES dP=0.312 HI dP=0.092 spec=0.060 ppl x1.000
+capital_country_000 L13: EN dP=0.870 ok=True ES dP=0.945 HI dP=0.247 spec=0.831 ppl x0.999
+capital_country_000 L14: EN dP=0.953 ok=True ES dP=0.179 HI dP=0.001 spec=0.063 ppl x1.003
+capital_country_000 L15: EN dP=0.923 ok=True ES dP=-0.000 HI dP=-0.000 spec=0.032 ppl x1.001
+capital_country_000 L16: EN dP=0.835 ok=True ES dP=0.000 HI dP=0.000 spec=0.030 ppl x1.000
+capital_country_000 L17: EN dP=0.132 ok=False ES dP=-0.000 HI dP=0.000 spec=0.076 ppl x0.999
+capital_country_000 L18: EN dP=0.890 ok=True ES dP=0.000 HI dP=0.000 spec=0.027 ppl x1.000
+capital_country_000 L19: EN dP=0.807 ok=True ES dP=0.000 HI dP=-0.000 spec=0.037 ppl x1.000
+capital_country_000 L20: EN dP=0.990 ok=True ES dP=0.000 HI dP=0.000 spec=0.041 ppl x0.999
+capital_country_000 L21: EN dP=0.872 ok=True ES dP=0.000 HI dP=-0.000 spec=0.033 ppl x1.000
+capital_country_000 L22: EN dP=0.784 ok=True ES dP=0.000 HI dP=-0.000 spec=0.106 ppl x1.000
+capital_country_000 L23: EN dP=0.925 ok=True ES dP=0.000 HI dP=0.000 spec=0.033 ppl x1.001
+capital_country_000 L24: EN dP=0.865 ok=True ES dP=-0.000 HI dP=-0.000 spec=0.027 ppl x1.000
+capital_country_000 L25: EN dP=0.799 ok=True ES dP=-0.000 HI dP=-0.000 spec=0.028 ppl x1.000
+capital_country_000 L26: EN dP=0.549 ok=True ES dP=0.000 HI dP=-0.000 spec=0.067 ppl x1.000
+capital_country_000 L27: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+capital_of_000 L0: EN dP=0.647 ok=True ES dP=0.000 HI dP=0.000 spec=0.024 ppl x1.001
+capital_of_000 L1: EN dP=-0.000 ok=False ES dP=-0.000 HI dP=0.000 spec=0.079 ppl x0.999
+capital_of_000 L2: EN dP=0.896 ok=True ES dP=0.881 HI dP=0.004 spec=0.035 ppl x1.004
+capital_of_000 L3: EN dP=0.000 ok=False ES dP=-0.000 HI dP=0.000 spec=0.060 ppl x0.998
+capital_of_000 L4: EN dP=0.860 ok=True ES dP=0.715 HI dP=0.051 spec=0.042 ppl x1.000
+capital_of_000 L5: EN dP=0.939 ok=True ES dP=0.100 HI dP=0.039 spec=0.874 ppl x1.002
+capital_of_000 L6: EN dP=0.839 ok=True ES dP=0.313 HI dP=0.163 spec=0.304 ppl x1.000
+capital_of_000 L7: EN dP=0.969 ok=True ES dP=0.685 HI dP=0.043 spec=0.317 ppl x1.000
+capital_of_000 L8: EN dP=0.983 ok=True ES dP=0.108 HI dP=0.191 spec=0.806 ppl x1.000
+capital_of_000 L9: EN dP=0.026 ok=False ES dP=0.006 HI dP=0.053 spec=0.883 ppl x0.998
+capital_of_000 L10: EN dP=0.981 ok=True ES dP=0.087 HI dP=0.044 spec=0.882 ppl x1.001

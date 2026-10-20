@@ -25,6 +25,9 @@ HD = "analysis/run_20261015_hindi_diag/results.json"
 HS = "analysis/run_20261015_hindi_diag/span_split.json"
 LH = "analysis/run_20261019_layer_hist/layer_hist.json"
 SWT = {"llama": "analysis/run_20261015_p4sweep_llama/sweep_tables.json", "gemma2": "analysis/run_20261019_p4sweep_gemma2/sweep_tables.json"}
+OVA = {"llama": "analysis/run_20261019_p3overlap_v2all_10191057/results.json", "gemma2": "analysis/run_20261020_p3overlap_v2all_10200339/results.json"}
+H8 = {"llama": "analysis/run_20261019_h8_10191057_llama/results.json", "gemma2": "analysis/run_20261019_h8_10191057_gemma2/results.json"}
+INC = {"llama": "analysis/run_20261020_incontext_10200339_llama/summary.json", "gemma2": "analysis/run_20261020_incontext_10200339_gemma2/summary.json"}
 MAN = Path("results/manifest.json")
 
 
@@ -113,6 +116,25 @@ def claims() -> list[dict]:
             for k, i in (("med", 0), ("lo", 1), ("hi", 2)):
                 c.append((f"sw_{m}_H7_{key}_{k}", art, ["H7", key, "median_diff_near_mid_minus_early", i]))
             c.append((f"sw_{m}_H7_{key}_frac_pos", art, ["H7", key, "frac_facts_positive"]))
+    for m, art in OVA.items():  # overlap incl. non-copyable relations (section 4.5)
+        sets = ["primary_valid", "valid_no_copyable", "primary_valid_stratified_by_relation"] + (["valid_city_country"] if m == "llama" else [])
+        for s in sets:
+            c.append((f"ova_{m}_{s}_n", art, ["sets", s, "n_facts"]))
+            for pr in ("en-es", "en-hi", "es-hi"):
+                c += [(f"ova_{m}_{s}_{pr}_cos", art, ["sets", s, "pairs", pr, "mlp_cosine", "observed_median"]),
+                      (f"ova_{m}_{s}_{pr}_z", art, ["sets", s, "pairs", pr, "mlp_cosine", "z"])]
+    for m, art in H8.items():  # phrasing robustness (H8)
+        c += [(f"h8_{m}_n", art, ["summary", "n_facts"]), (f"h8_{m}_within", art, ["summary", "median_within"]), (f"h8_{m}_cross", art, ["summary", "median_cross"]),
+              (f"h8_{m}_d", art, ["summary", "median_d"]), (f"h8_{m}_d_lo", art, ["summary", "ci95_d", 0]), (f"h8_{m}_d_hi", art, ["summary", "ci95_d", 1]),
+              (f"h8_{m}_frac_pos", art, ["summary", "frac_facts_d_positive"])]
+    for m, art in INC.items():  # in-context baseline
+        for k in ("en_context/en", "en_context/es", "en_context/hi"):
+            c += [(f"inc_{m}_{k}_dP", art, ["summary", k, "median_dP"]), (f"inc_{m}_{k}_success", art, ["summary", k, "success_rate"])]
+    f7 = "analysis/run_20261020_p4f7_llama/sweep_tables.json"  # 30-fact follow-up edits (Llama; Gemma not finished)
+    for cond in ("traced", "mid", "random"):
+        c += [(f"f7_llama_{cond}_n", f7, ["conditions", cond, "n"]), (f"f7_llama_{cond}_en_success", f7, ["conditions", cond, "en_success_rate"]),
+              (f"f7_llama_{cond}_transfer_es_med", f7, ["conditions", cond, "transfer_es", 0]), (f"f7_llama_{cond}_transfer_hi_med", f7, ["conditions", cond, "transfer_hi", 0]),
+              (f"f7_llama_{cond}_specificity_med", f7, ["conditions", cond, "specificity", 0]), (f"f7_llama_{cond}_ppl_med", f7, ["conditions", cond, "ppl_ratio", 0])]
     return [{"id": i, "artifact": a, "key_path": k} for i, a, k in c]
 
 

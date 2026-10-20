@@ -1,0 +1,412 @@
+[
+ {
+  "fact": "capital_country_003",
+  "new_fact": "capital_country_009",
+  "relation": "capital_country",
+  "en_context/en": {
+   "logp_before": -14.216904640197754,
+   "logp_after": -0.5910329818725586,
+   "dP": 0.553754300957782,
+   "success": true
+  },
+  "en_context/es": {
+   "logp_before": -11.918538093566895,
+   "logp_after": -0.25831863284111023,
+   "dP": 0.7723424314252537,
+   "success": true
+  },
+  "en_context/hi": {
+   "logp_before": -7.06161642074585,
+   "logp_after": -1.8356236219406128,
+   "dP": 0.15865660324857966,
+   "success": false
+  },
+  "own_context/en": {
+   "logp_before": -14.216904640197754,
+   "logp_after": -0.5910329818725586,
+   "dP": 0.553754300957782,
+   "success": true
+  },
+  "own_context/es": {
+   "logp_before": -11.918538093566895,
+   "logp_after": -0.43405038118362427,
+   "dP": 0.6478729480380376,
+   "success": true
+  },
+  "own_context/hi": {
+   "logp_before": -7.06161642074585,
+   "logp_after": -0.7806971073150635,
+   "dP": 0.45722917341021235,
+   "success": true
+  }
+ },
+ {
+  "fact": "capital_country_005",
+  "new_fact": "capital_country_056",
+  "relation": "capital_country",
+  "en_context/en": {
+   "logp_before": -11.037947654724121,
+   "logp_after": -0.8239585757255554,
+   "dP": 0.4386755389684295,
+   "success": true
+  },
+  "en_context/es": {
+   "logp_before": -9.495002746582031,
+   "logp_after": -0.8925718069076538,
+   "dP": 0.40952575554537485,
+   "success": true
+  },
+  "en_context/hi": {
+   "logp_before": -6.0967583656311035,
+   "logp_after": -3.5107312202453613,
+   "dP": 0.027624911124997306,
+   "success": false
+  },
+  "own_context/en": {
+   "logp_before": -11.037947654724121,
+   "logp_after": -0.8239585757255554,
+   "dP": 0.4386755389684295,
+   "success": true
+  },
+  "own_context/es": {
+   "logp_before": -9.495002746582031,
+   "logp_after": -0.6705961227416992,
+   "dP": 0.5113284007494824,
+   "success": true
+  },
+  "own_context/hi": {
+   "logp_before": -6.0967583656311035,
+   "logp_after": -1.0230213403701782,
+   "dP": 0.357256954238221,
+   "success": true
+  }
+ },
+ {
+  "fact": "capital_country_008",
+  "new_fact": "capital_country_003",
+  "relation": "capital_country",
+  "en_context/en": {
+   "logp_before": -11.843338012695312,
+   "logp_after": -0.4906616806983948,
+   "dP": 0.6122139789328964,
+   "success": true
+  },
+  "en_context/es": {
+   "logp_before": -10.19990348815918,
+   "logp_after": -0.28178516030311584,
+   "dP": 0.7543985759650192,
+   "success": true
+  },
+  "en_context/hi": {
+   "logp_before": -7.200620174407959,
+   "logp_after": -2.374204635620117,
+   "dP": 0.09234237611217848,
+   "success": false
+  },
+  "own_context/en": {
+   "logp_before": -11.843338012695312,
+   "logp_after": -0.4906616806983948,
+   "dP": 0.6122139789328964,
+   "success": true
+  },
+  "own_context/es": {
+   "logp_before": -10.19990348815918,
+   "logp_after": -0.5840119123458862,
+   "dP": 0.557619429375647,
+   "success": true
+  },
+  "own_context/hi": {
+   "logp_before": -7.200620174407959,
+   "logp_after": -0.7610318064689636,
+   "dP": 0.4664380116856836,
+   "success": true
+  }
+ },
+ {
+  "fact": "capital_country_009",
+  "new_fact": "capital_country_065",
+  "relation": "capital_country",
+  "en_context/en": {
+   "logp_before": -12.684920310974121,
+   "logp_after": -1.1788995265960693,
+   "dP": 0.30761397932827017,
+   "success": true
+  },
+  "en_context/es": {
+   "logp_before": -14.692302703857422,
+   "logp_after": -0.7366040945053101,
+   "dP": 0.47873648736989266,
+   "success": true
+  },
+  "en_context/hi": {
+   "logp_before": -9.979351997375488,
+   "logp_after": -3.07991886138916,
+   "dP": 0.045916638778084086,
+   "success": false
+  },
+  "own_context/en": {
+   "logp_before": -12.684920310974121,
+   "logp_after": -1.1788995265960693,
+   "dP": 0.30761397932827017,
+   "success": true
+  },
+  "own_context/es": {
+   "logp_before": -14.692302703857422,
+   "logp_after": -0.6123995184898376,
+   "dP": 0.5420482354743545,
+   "success": true
+  },
+  "own_context/hi": {
+   "logp_before": -9.979351997375488,
+   "logp_after": -0.9838960766792297,
+   "dP": 0.37380535574467133,
+   "success": true
+  }
+ },
+ {
+  "fact": "capital_of_000",
+  "new_fact": "capital_of_008",
+  "relation": "capital_of",
+  "en_context/en": {
+   "logp_before": -9.87397289276123,
+   "logp_after": -0.604676365852356,
+   "dP": 0.5461996858453588,
+   "success": true
+  },
+  "en_context/es": {
+   "logp_before": -10.342056274414062,
+   "logp_after": -2.5198092460632324,
+   "dP": 0.08044270825639271,
+   "success": false
+  },
+  "en_context/hi": {
+   "logp_before": -7.699586868286133,
+   "logp_after": -1.242104172706604,
+   "dP": 0.28832292944854143,
+   "success": true
+  },
+  "own_context/en": {
+   "logp_before": -9.87397289276123,
+   "logp_after": -0.604676365852356,
+   "dP": 0.5461996858453588,
+   "success": true
+  },
+  "own_context/es": {
+   "logp_before": -10.342056274414062,
+   "logp_after": -0.9449536800384521,
+   "dP": 0.3886653269976861,
+   "success": true
+  },
+  "own_context/hi": {
+   "logp_before": -7.699586868286133,
+   "logp_after": -0.605049729347229,
+   "dP": 0.5455942570913401,
+   "success": true
+  }
+ },
+ {
+  "fact": "capital_of_001",
+  "new_fact": "capital_of_035",
+  "relation": "capital_of",
+  "en_context/en": {
+   "logp_before": -18.780580520629883,
+   "logp_after": -0.6558734774589539,
+   "dP": 0.5189885327765044,
+   "success": true
+  },
+  "en_context/es": {
+   "logp_before": -18.145824432373047,
+   "logp_after": -2.6644062995910645,
+   "dP": 0.06964067380313221,
+   "success": false
+  },
+  "en_context/hi": {
+   "logp_before": -12.565153121948242,
+   "logp_after": -0.8510068655014038,
+   "dP": 0.42698130758747,
+   "success": true
+  },
+  "own_context/en": {
+   "logp_before": -18.780580520629883,
+   "logp_after": -0.6558734774589539,
+   "dP": 0.5189885327765044,
+   "success": true
+  },
+  "own_context/es": {
+   "logp_before": -18.145824432373047,
+   "logp_after": -0.8835742473602295,
+   "dP": 0.4133030081137022,
+   "success": true
+  },
+  "own_context/hi": {
+   "logp_before": -12.565153121948242,
+   "logp_after": -0.3758035898208618,
+   "dP": 0.6867337103831578,
+   "success": true
+  }
+ },
+ {
+  "fact": "capital_of_002",
+  "new_fact": "capital_of_001",
+  "relation": "capital_of",
+  "en_context/en": {
+   "logp_before": -8.622572898864746,
+   "logp_after": -0.47888991236686707,
+   "dP": 0.6192906804542809,
+   "success": true
+  },
+  "en_context/es": {
+   "logp_before": -8.157187461853027,
+   "logp_after": -3.4575085639953613,
+   "dP": 0.03122149736099902,
+   "success": false
+  },
+  "en_context/hi": {
+   "logp_before": -8.379842758178711,
+   "logp_after": -1.3408870697021484,
+   "dP": 0.26138405019172123,
+   "success": true
+  },
+  "own_context/en": {
+   "logp_before": -8.622572898864746,
+   "logp_after": -0.47888991236686707,
+   "dP": 0.6192906804542809,
+   "success": true
+  },
+  "own_context/es": {
+   "logp_before": -8.157187461853027,
+   "logp_after": -0.6573041081428528,
+   "dP": 0.5179599221538334,
+   "success": true
+  },
+  "own_context/hi": {
+   "logp_before": -8.379842758178711,
+   "logp_after": -0.6652772426605225,
+   "dP": 0.5139015228870484,
+   "success": true
+  }
+ },
+ {
+  "fact": "event_year_002",
+  "new_fact": "event_year_069",
+  "relation": "event_year",
+  "en_context/en": {
+   "logp_before": -10.649913787841797,
+   "logp_after": -2.4121479988098145,
+   "dP": 0.0895988755924856,
+   "success": false
+  },
+  "en_context/es": {
+   "logp_before": -10.844112396240234,
+   "logp_after": -0.44237977266311646,
+   "dP": 0.6424860638683917,
+   "success": true
+  },
+  "en_context/hi": {
+   "logp_before": -10.330255508422852,
+   "logp_after": -0.31480634212493896,
+   "dP": 0.7298975865688403,
+   "success": true
+  },
+  "own_context/en": {
+   "logp_before": -10.649913787841797,
+   "logp_after": -2.4121479988098145,
+   "dP": 0.0895988755924856,
+   "success": false
+  },
+  "own_context/es": {
+   "logp_before": -10.844112396240234,
+   "logp_after": -2.715538501739502,
+   "dP": 0.0661497919306723,
+   "success": false
+  },
+  "own_context/hi": {
+   "logp_before": -10.330255508422852,
+   "logp_after": -0.5173931121826172,
+   "dP": 0.5960397874923686,
+   "success": true
+  }
+ },
+ {
+  "fact": "event_year_007",
+  "new_fact": "event_year_044",
+  "relation": "event_year",
+  "en_context/en": {
+   "logp_before": -3.9882564544677734,
+   "logp_after": -0.8278050422668457,
+   "dP": 0.41847544990208363,
+   "success": false
+  },
+  "en_context/es": {
+   "logp_before": -4.659997940063477,
+   "logp_after": -0.22488221526145935,
+   "dP": 0.789143795420605,
+   "success": true
+  },
+  "en_context/hi": {
+   "logp_before": -5.1507792472839355,
+   "logp_after": -0.1288534551858902,
+   "dP": 0.8733078967438048,
+   "success": true
+  },
+  "own_context/en": {
+   "logp_before": -3.9882564544677734,
+   "logp_after": -0.8278050422668457,
+   "dP": 0.41847544990208363,
+   "success": false
+  },
+  "own_context/es": {
+   "logp_before": -4.659997940063477,
+   "logp_after": -0.5133788585662842,
+   "dP": 0.5890035312567716,
+   "success": true
+  },
+  "own_context/hi": {
+   "logp_before": -5.1507792472839355,
+   "logp_after": -0.33384400606155396,
+   "dP": 0.7103706036727769,
+   "success": true
+  }
+ },
+ {
+  "fact": "event_year_009",
+  "new_fact": "event_year_027",
+  "relation": "event_year",
+  "en_context/en": {
+   "logp_before": -7.652957916259766,
+   "logp_after": -1.1699029207229614,
+   "dP": 0.30992243481549614,
+   "success": true
+  },
+  "en_context/es": {
+   "logp_before": -8.587172508239746,
+   "logp_after": -0.26327747106552124,
+   "dP": 0.7683421406468646,
+   "success": true
+  },
+  "en_context/hi": {
+   "logp_before": -5.422990798950195,
+   "logp_after": -0.1475478559732437,
+   "dP": 0.8584072204649553,
+   "success": true
+  },
+  "own_context/en": {
+   "logp_before": -7.652957916259766,
+   "logp_after": -1.1699029207229614,
+   "dP": 0.30992243481549614,
+   "success": true
+  },
+  "own_context/es": {
+   "logp_before": -8.587172508239746,
+   "logp_after": -1.3804818391799927,
+   "dP": 0.2512708792347321,
+   "success": false
+  },
+  "own_context/hi": {
+   "logp_before": -5.422990798950195,
+   "logp_after": -0.7371112108230591,
+   "dP": 0.4740802640143861,
+   "success": true
+  }
+ }
+]

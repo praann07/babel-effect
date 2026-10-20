@@ -1,0 +1,263 @@
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   4%|▍         | 12/288 [00:00<00:03, 85.57it/s]Loading weights:   7%|▋         | 21/288 [00:00<00:05, 49.36it/s]Loading weights:   9%|▉         | 27/288 [00:00<00:08, 30.19it/s]Loading weights:  11%|█         | 31/288 [00:00<00:09, 28.27it/s]Loading weights:  12%|█▏        | 35/288 [00:01<00:10, 23.75it/s]Loading weights:  13%|█▎        | 38/288 [00:01<00:10, 23.82it/s]Loading weights:  14%|█▍        | 41/288 [00:01<00:10, 22.99it/s]Loading weights:  15%|█▌        | 44/288 [00:01<00:14, 17.37it/s]Loading weights:  16%|█▋        | 47/288 [00:01<00:12, 19.06it/s]Loading weights:  19%|█▉        | 54/288 [00:02<00:12, 18.80it/s]Loading weights:  21%|██        | 60/288 [00:02<00:09, 24.79it/s]Loading weights:  22%|██▏       | 64/288 [00:02<00:11, 19.94it/s]Loading weights:  23%|██▎       | 67/288 [00:02<00:11, 19.64it/s]Loading weights:  25%|██▌       | 72/288 [00:02<00:08, 24.04it/s]Loading weights:  26%|██▌       | 75/288 [00:03<00:09, 22.63it/s]Loading weights:  27%|██▋       | 78/288 [00:03<00:12, 17.31it/s]Loading weights:  28%|██▊       | 82/288 [00:03<00:09, 21.09it/s]Loading weights:  30%|███       | 87/288 [00:03<00:11, 18.14it/s]Loading weights:  31%|███▏      | 90/288 [00:03<00:10, 19.13it/s]Loading weights:  32%|███▏      | 93/288 [00:04<00:09, 19.73it/s]Loading weights:  34%|███▍      | 98/288 [00:04<00:10, 18.22it/s]Loading weights:  35%|███▌      | 101/288 [00:04<00:10, 17.67it/s]Loading weights:  36%|███▌      | 103/288 [00:04<00:10, 17.69it/s]Loading weights:  38%|███▊      | 109/288 [00:05<00:09, 17.94it/s]Loading weights:  39%|███▊      | 111/288 [00:05<00:11, 16.00it/s]Loading weights:  41%|████      | 117/288 [00:05<00:07, 22.46it/s]Loading weights:  42%|████▏     | 120/288 [00:05<00:10, 16.54it/s]Loading weights:  43%|████▎     | 123/288 [00:05<00:09, 17.44it/s]Loading weights:  44%|████▍     | 126/288 [00:05<00:08, 18.65it/s]Loading weights:  45%|████▌     | 130/288 [00:06<00:07, 20.89it/s]Loading weights:  46%|████▌     | 133/288 [00:06<00:09, 16.70it/s]Loading weights:  47%|████▋     | 135/288 [00:06<00:09, 16.35it/s]Loading weights:  48%|████▊     | 137/288 [00:06<00:10, 14.88it/s]Loading weights:  48%|████▊     | 139/288 [00:06<00:10, 14.72it/s]Loading weights:  50%|█████     | 144/288 [00:07<00:08, 17.64it/s]Loading weights:  52%|█████▏    | 149/288 [00:07<00:06, 23.05it/s]Loading weights:  53%|█████▎    | 152/288 [00:07<00:06, 22.42it/s]Loading weights:  54%|█████▍    | 155/288 [00:07<00:08, 15.28it/s]Loading weights:  55%|█████▍    | 158/288 [00:07<00:07, 16.54it/s]Loading weights:  57%|█████▋    | 164/288 [00:08<00:08, 14.71it/s]Loading weights:  60%|█████▉    | 172/288 [00:08<00:05, 23.05it/s]Loading weights:  61%|██████    | 176/288 [00:08<00:07, 15.63it/s]Loading weights:  63%|██████▎   | 181/288 [00:09<00:05, 19.71it/s]Loading weights:  65%|██████▍   | 186/288 [00:09<00:06, 16.41it/s]Loading weights:  66%|██████▋   | 191/288 [00:09<00:04, 20.50it/s]Loading weights:  68%|██████▊   | 197/288 [00:09<00:03, 22.97it/s]Loading weights:  70%|██████▉   | 201/288 [00:10<00:04, 18.13it/s]Loading weights:  72%|███████▏  | 206/288 [00:10<00:03, 22.47it/s]Loading weights:  73%|███████▎  | 210/288 [00:10<00:04, 15.92it/s]Loading weights:  74%|███████▍  | 214/288 [00:10<00:03, 18.90it/s]Loading weights:  76%|███████▌  | 218/288 [00:10<00:03, 20.60it/s]Loading weights:  77%|███████▋  | 221/288 [00:11<00:04, 16.09it/s]Loading weights:  78%|███████▊  | 225/288 [00:11<00:03, 19.23it/s]Loading weights:  80%|███████▉  | 230/288 [00:11<00:02, 22.71it/s]Loading weights:  81%|████████  | 233/288 [00:11<00:02, 18.62it/s]Loading weights:  82%|████████▏ | 236/288 [00:11<00:02, 19.92it/s]Loading weights:  84%|████████▎ | 241/288 [00:12<00:02, 17.83it/s]Loading weights:  85%|████████▍ | 244/288 [00:12<00:02, 16.53it/s]Loading weights:  87%|████████▋ | 250/288 [00:12<00:02, 16.16it/s]Loading weights:  88%|████████▊ | 254/288 [00:13<00:02, 16.14it/s]Loading weights:  91%|█████████▏| 263/288 [00:13<00:01, 16.70it/s]Loading weights:  94%|█████████▍| 270/288 [00:13<00:00, 22.52it/s]Loading weights:  95%|█████████▌| 274/288 [00:13<00:00, 22.68it/s]Loading weights:  96%|█████████▌| 277/288 [00:14<00:00, 17.55it/s]Loading weights:  97%|█████████▋| 280/288 [00:14<00:00, 18.64it/s]Loading weights: 100%|██████████| 288/288 [00:14<00:00, 20.10it/s]
+Loaded pretrained model google/gemma-2-2b into HookedTransformer
+capital_country_003 L0: EN dP=0.831 ok=True ES dP=0.863 HI dP=0.000 spec=0.026 ppl x1.004
+capital_country_003 L1: EN dP=0.894 ok=True ES dP=0.889 HI dP=0.000 spec=0.037 ppl x1.002
+capital_country_003 L2: EN dP=0.673 ok=True ES dP=0.781 HI dP=0.000 spec=0.086 ppl x1.001
+capital_country_003 L3: EN dP=0.932 ok=True ES dP=0.966 HI dP=-0.000 spec=0.021 ppl x1.003
+capital_country_003 L4: EN dP=0.847 ok=True ES dP=0.789 HI dP=0.020 spec=0.032 ppl x1.001
+capital_country_003 L5: EN dP=0.813 ok=True ES dP=0.572 HI dP=0.007 spec=0.115 ppl x1.004
+capital_country_003 L6: EN dP=0.745 ok=True ES dP=0.684 HI dP=0.061 spec=0.130 ppl x1.004
+capital_country_003 L7: EN dP=0.819 ok=True ES dP=0.824 HI dP=0.003 spec=0.181 ppl x1.000
+capital_country_003 L8: EN dP=0.802 ok=True ES dP=0.903 HI dP=0.007 spec=0.037 ppl x1.001
+capital_country_003 L9: EN dP=0.889 ok=True ES dP=0.841 HI dP=0.006 spec=0.107 ppl x1.004
+capital_country_003 L10: EN dP=0.033 ok=False ES dP=0.017 HI dP=0.012 spec=0.078 ppl x1.002
+capital_country_003 L11: EN dP=0.797 ok=True ES dP=0.591 HI dP=0.013 spec=0.046 ppl x1.003
+capital_country_003 L12: EN dP=0.701 ok=True ES dP=0.042 HI dP=0.166 spec=0.081 ppl x1.002
+capital_country_003 L13: EN dP=0.875 ok=True ES dP=0.674 HI dP=0.024 spec=0.118 ppl x0.999
+capital_country_003 L14: EN dP=0.910 ok=True ES dP=0.828 HI dP=0.061 spec=0.075 ppl x0.998
+capital_country_003 L15: EN dP=0.918 ok=True ES dP=0.484 HI dP=0.068 spec=0.847 ppl x0.996
+capital_country_003 L16: EN dP=0.906 ok=True ES dP=0.779 HI dP=0.081 spec=0.513 ppl x1.002
+capital_country_003 L17: EN dP=0.943 ok=True ES dP=0.937 HI dP=0.133 spec=0.279 ppl x1.000
+capital_country_003 L18: EN dP=0.970 ok=True ES dP=0.959 HI dP=0.108 spec=0.140 ppl x1.002
+capital_country_003 L19: EN dP=0.983 ok=True ES dP=0.985 HI dP=0.025 spec=0.036 ppl x0.996
+capital_country_003 L20: EN dP=0.918 ok=True ES dP=0.827 HI dP=0.029 spec=0.031 ppl x1.000
+capital_country_003 L21: EN dP=0.966 ok=True ES dP=0.753 HI dP=0.012 spec=0.065 ppl x1.000
+capital_country_003 L22: EN dP=0.977 ok=True ES dP=0.768 HI dP=0.031 spec=0.173 ppl x1.002
+capital_country_003 L23: EN dP=0.967 ok=True ES dP=0.869 HI dP=0.004 spec=0.054 ppl x1.003
+capital_country_003 L24: EN dP=0.921 ok=True ES dP=0.650 HI dP=0.001 spec=0.041 ppl x0.999
+capital_country_003 L25: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+capital_of_000 L0: EN dP=0.870 ok=True ES dP=0.612 HI dP=-0.000 spec=0.160 ppl x1.005
+capital_of_000 L1: EN dP=0.935 ok=True ES dP=0.001 HI dP=-0.000 spec=0.402 ppl x1.003
+capital_of_000 L2: EN dP=0.948 ok=True ES dP=0.604 HI dP=-0.000 spec=0.065 ppl x1.002
+capital_of_000 L3: EN dP=0.965 ok=True ES dP=0.707 HI dP=0.147 spec=0.033 ppl x1.001
+capital_of_000 L4: EN dP=0.882 ok=True ES dP=0.560 HI dP=0.335 spec=0.379 ppl x1.031
+capital_of_000 L5: EN dP=0.888 ok=True ES dP=0.661 HI dP=0.145 spec=0.485 ppl x1.013
+capital_of_000 L6: EN dP=0.887 ok=True ES dP=0.006 HI dP=0.076 spec=0.041 ppl x0.998
+capital_of_000 L7: EN dP=0.957 ok=True ES dP=0.130 HI dP=0.109 spec=0.126 ppl x1.002
+capital_of_000 L8: EN dP=0.904 ok=True ES dP=0.001 HI dP=0.000 spec=0.058 ppl x1.001
+capital_of_000 L9: EN dP=0.912 ok=True ES dP=0.427 HI dP=0.049 spec=0.119 ppl x1.003
+capital_of_000 L10: EN dP=0.189 ok=False ES dP=0.060 HI dP=0.054 spec=0.213 ppl x1.010
+capital_of_000 L11: EN dP=0.001 ok=False ES dP=0.000 HI dP=0.003 spec=0.038 ppl x1.005
+capital_of_000 L12: EN dP=0.695 ok=True ES dP=0.399 HI dP=0.186 spec=0.271 ppl x1.011
+capital_of_000 L13: EN dP=0.884 ok=True ES dP=0.525 HI dP=0.001 spec=0.631 ppl x1.021
+capital_of_000 L14: EN dP=0.773 ok=True ES dP=0.562 HI dP=0.074 spec=0.071 ppl x1.000
+capital_of_000 L15: EN dP=0.895 ok=True ES dP=0.650 HI dP=0.115 spec=0.306 ppl x1.004
+capital_of_000 L16: EN dP=0.841 ok=True ES dP=0.387 HI dP=0.114 spec=0.229 ppl x1.008
+capital_of_000 L17: EN dP=0.896 ok=True ES dP=0.627 HI dP=0.326 spec=0.484 ppl x1.003
+capital_of_000 L18: EN dP=0.965 ok=True ES dP=0.538 HI dP=0.206 spec=0.082 ppl x1.003
+capital_of_000 L19: EN dP=0.977 ok=True ES dP=0.807 HI dP=0.049 spec=0.114 ppl x0.999
+capital_of_000 L20: EN dP=0.941 ok=True ES dP=0.233 HI dP=0.101 spec=0.084 ppl x1.001
+capital_of_000 L21: EN dP=0.990 ok=True ES dP=0.471 HI dP=0.039 spec=0.070 ppl x1.001
+capital_of_000 L22: EN dP=0.971 ok=True ES dP=0.257 HI dP=0.027 spec=0.126 ppl x1.001
+capital_of_000 L23: EN dP=0.990 ok=True ES dP=0.053 HI dP=-0.000 spec=0.082 ppl x1.002
+capital_of_000 L24: EN dP=0.053 ok=False ES dP=0.000 HI dP=-0.000 spec=0.106 ppl x1.003
+capital_of_000 L25: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+event_year_002 L0: EN dP=0.700 ok=True ES dP=0.000 HI dP=-0.000 spec=0.022 ppl x1.000
+event_year_002 L1: EN dP=0.770 ok=True ES dP=-0.000 HI dP=0.000 spec=0.022 ppl x0.999
+event_year_002 L2: EN dP=0.744 ok=True ES dP=-0.000 HI dP=-0.000 spec=0.024 ppl x1.003
+event_year_002 L3: EN dP=0.739 ok=True ES dP=0.000 HI dP=-0.000 spec=0.015 ppl x1.000
+event_year_002 L4: EN dP=0.763 ok=True ES dP=0.748 HI dP=0.085 spec=0.045 ppl x1.005
+event_year_002 L5: EN dP=0.654 ok=True ES dP=0.195 HI dP=0.000 spec=0.041 ppl x1.011
+event_year_002 L6: EN dP=0.723 ok=True ES dP=0.050 HI dP=0.013 spec=0.027 ppl x1.001
+event_year_002 L7: EN dP=0.675 ok=True ES dP=0.167 HI dP=0.001 spec=0.020 ppl x1.002
+event_year_002 L8: EN dP=0.447 ok=True ES dP=0.642 HI dP=0.000 spec=0.023 ppl x0.999
+event_year_002 L9: EN dP=0.032 ok=False ES dP=0.131 HI dP=0.000 spec=0.027 ppl x1.000
+event_year_002 L10: EN dP=0.003 ok=False ES dP=0.003 HI dP=0.001 spec=0.020 ppl x1.000
+event_year_002 L11: EN dP=0.748 ok=True ES dP=0.011 HI dP=-0.000 spec=0.046 ppl x1.000
+event_year_002 L12: EN dP=0.523 ok=True ES dP=0.321 HI dP=0.001 spec=0.024 ppl x1.002
+event_year_002 L13: EN dP=0.512 ok=True ES dP=0.203 HI dP=0.001 spec=0.060 ppl x1.000
+event_year_002 L14: EN dP=0.639 ok=True ES dP=0.270 HI dP=0.002 spec=0.032 ppl x0.999
+event_year_002 L15: EN dP=0.033 ok=False ES dP=0.001 HI dP=0.000 spec=0.087 ppl x0.997
+event_year_002 L16: EN dP=0.002 ok=False ES dP=0.000 HI dP=0.000 spec=0.032 ppl x1.002
+event_year_002 L17: EN dP=0.670 ok=True ES dP=0.353 HI dP=0.003 spec=0.030 ppl x1.004
+event_year_002 L18: EN dP=0.014 ok=False ES dP=0.000 HI dP=0.000 spec=0.018 ppl x1.000
+event_year_002 L19: EN dP=0.081 ok=False ES dP=0.102 HI dP=0.070 spec=0.016 ppl x1.001
+event_year_002 L20: EN dP=0.353 ok=True ES dP=0.003 HI dP=0.001 spec=0.043 ppl x1.001
+event_year_002 L21: EN dP=0.024 ok=False ES dP=0.002 HI dP=0.000 spec=0.019 ppl x1.001
+event_year_002 L22: EN dP=0.005 ok=False ES dP=0.032 HI dP=0.000 spec=0.017 ppl x1.000
+event_year_002 L23: EN dP=0.415 ok=True ES dP=0.004 HI dP=0.000 spec=0.050 ppl x1.001
+event_year_002 L24: EN dP=0.010 ok=False ES dP=0.000 HI dP=0.000 spec=0.025 ppl x0.999
+event_year_002 L25: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+capital_country_005 L0: EN dP=0.897 ok=True ES dP=0.000 HI dP=0.002 spec=0.109 ppl x0.999
+capital_country_005 L1: EN dP=0.809 ok=True ES dP=0.000 HI dP=0.000 spec=0.022 ppl x0.998
+capital_country_005 L2: EN dP=0.725 ok=True ES dP=0.000 HI dP=0.006 spec=0.162 ppl x1.003
+capital_country_005 L3: EN dP=0.940 ok=True ES dP=0.000 HI dP=0.001 spec=0.024 ppl x1.001
+capital_country_005 L4: EN dP=0.942 ok=True ES dP=0.013 HI dP=0.014 spec=0.057 ppl x1.007
+capital_country_005 L5: EN dP=0.734 ok=True ES dP=0.634 HI dP=0.062 spec=0.080 ppl x1.003
+capital_country_005 L6: EN dP=0.676 ok=True ES dP=0.480 HI dP=0.066 spec=0.091 ppl x1.004
+capital_country_005 L7: EN dP=0.366 ok=True ES dP=0.132 HI dP=0.017 spec=0.136 ppl x1.002
+capital_country_005 L8: EN dP=0.739 ok=True ES dP=0.108 HI dP=0.020 spec=0.046 ppl x1.000
+capital_country_005 L9: EN dP=0.786 ok=True ES dP=0.656 HI dP=0.053 spec=0.310 ppl x1.007
+capital_country_005 L10: EN dP=0.396 ok=True ES dP=0.040 HI dP=-0.002 spec=0.379 ppl x1.002
+capital_country_005 L11: EN dP=0.038 ok=False ES dP=0.531 HI dP=0.038 spec=0.030 ppl x1.000
+capital_country_005 L12: EN dP=0.722 ok=True ES dP=0.579 HI dP=0.048 spec=0.064 ppl x1.010
+capital_country_005 L13: EN dP=0.610 ok=True ES dP=0.100 HI dP=-0.002 spec=0.474 ppl x1.002
+capital_country_005 L14: EN dP=0.798 ok=True ES dP=0.588 HI dP=0.025 spec=0.324 ppl x1.006
+capital_country_005 L15: EN dP=0.751 ok=True ES dP=0.601 HI dP=0.053 spec=0.132 ppl x1.002
+capital_country_005 L16: EN dP=0.799 ok=True ES dP=0.400 HI dP=0.154 spec=0.689 ppl x1.002
+capital_country_005 L17: EN dP=0.809 ok=True ES dP=0.661 HI dP=0.088 spec=0.027 ppl x0.998
+capital_country_005 L18: EN dP=0.914 ok=True ES dP=0.394 HI dP=0.012 spec=0.050 ppl x1.000
+capital_country_005 L19: EN dP=0.871 ok=True ES dP=0.470 HI dP=0.021 spec=0.067 ppl x0.999
+capital_country_005 L20: EN dP=0.892 ok=True ES dP=0.084 HI dP=0.002 spec=0.019 ppl x1.001
+capital_country_005 L21: EN dP=0.812 ok=True ES dP=0.152 HI dP=0.013 spec=0.029 ppl x1.000
+capital_country_005 L22: EN dP=0.015 ok=False ES dP=0.000 HI dP=-0.001 spec=0.061 ppl x1.001
+capital_country_005 L23: EN dP=0.362 ok=False ES dP=0.002 HI dP=-0.001 spec=0.134 ppl x1.001
+capital_country_005 L24: EN dP=0.256 ok=False ES dP=0.001 HI dP=-0.001 spec=0.099 ppl x1.000
+capital_country_005 L25: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+capital_of_001 L0: EN dP=0.987 ok=True ES dP=0.001 HI dP=0.000 spec=0.149 ppl x1.003
+capital_of_001 L1: EN dP=0.701 ok=True ES dP=0.000 HI dP=0.000 spec=0.019 ppl x0.997
+capital_of_001 L2: EN dP=0.948 ok=True ES dP=0.001 HI dP=0.000 spec=0.045 ppl x1.000
+capital_of_001 L3: EN dP=0.917 ok=True ES dP=0.408 HI dP=0.022 spec=0.021 ppl x1.007
+capital_of_001 L4: EN dP=0.905 ok=True ES dP=0.003 HI dP=0.028 spec=0.008 ppl x1.003
+capital_of_001 L5: EN dP=0.797 ok=True ES dP=0.000 HI dP=-0.000 spec=0.136 ppl x1.002
+capital_of_001 L6: EN dP=0.824 ok=True ES dP=0.010 HI dP=0.006 spec=0.048 ppl x0.998
+capital_of_001 L7: EN dP=0.017 ok=False ES dP=0.000 HI dP=0.000 spec=0.159 ppl x0.999
+capital_of_001 L8: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.006 spec=0.074 ppl x1.003
+capital_of_001 L9: EN dP=0.784 ok=True ES dP=0.081 HI dP=0.003 spec=0.629 ppl x1.002
+capital_of_001 L10: EN dP=0.718 ok=True ES dP=0.004 HI dP=0.003 spec=0.146 ppl x1.009
+capital_of_001 L11: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.009 spec=0.083 ppl x1.002
+capital_of_001 L12: EN dP=0.015 ok=False ES dP=0.001 HI dP=0.037 spec=0.886 ppl x1.015
+capital_of_001 L13: EN dP=0.831 ok=True ES dP=0.306 HI dP=0.230 spec=0.822 ppl x1.005
+capital_of_001 L14: EN dP=0.851 ok=True ES dP=0.361 HI dP=0.184 spec=0.097 ppl x0.998
+capital_of_001 L15: EN dP=0.781 ok=True ES dP=0.164 HI dP=0.067 spec=0.368 ppl x0.990
+capital_of_001 L16: EN dP=0.861 ok=True ES dP=0.309 HI dP=0.070 spec=0.697 ppl x1.005
+capital_of_001 L17: EN dP=0.906 ok=True ES dP=0.447 HI dP=0.011 spec=0.261 ppl x0.998
+capital_of_001 L18: EN dP=0.974 ok=True ES dP=0.861 HI dP=0.004 spec=0.031 ppl x0.999
+capital_of_001 L19: EN dP=0.894 ok=True ES dP=0.077 HI dP=0.000 spec=0.025 ppl x0.999
+capital_of_001 L20: EN dP=0.989 ok=True ES dP=0.948 HI dP=0.001 spec=0.279 ppl x1.004
+capital_of_001 L21: EN dP=1.000 ok=True ES dP=1.000 HI dP=0.000 spec=0.257 ppl x0.999
+capital_of_001 L22: EN dP=0.000 ok=False ES dP=0.000 HI dP=-0.000 spec=0.099 ppl x1.003
+capital_of_001 L23: EN dP=0.995 ok=True ES dP=0.556 HI dP=0.000 spec=0.725 ppl x1.002
+capital_of_001 L24: EN dP=0.996 ok=True ES dP=0.036 HI dP=0.000 spec=0.114 ppl x1.002
+capital_of_001 L25: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+event_year_007 L0: EN dP=0.646 ok=True ES dP=0.005 HI dP=0.001 spec=0.017 ppl x0.998
+event_year_007 L1: EN dP=0.518 ok=True ES dP=0.004 HI dP=-0.000 spec=0.026 ppl x1.002
+event_year_007 L2: EN dP=0.815 ok=True ES dP=0.466 HI dP=0.001 spec=0.019 ppl x0.999
+event_year_007 L3: EN dP=0.786 ok=True ES dP=0.000 HI dP=0.001 spec=0.027 ppl x1.000
+event_year_007 L4: EN dP=0.145 ok=False ES dP=0.082 HI dP=0.009 spec=0.021 ppl x0.998
+event_year_007 L5: EN dP=0.743 ok=True ES dP=0.398 HI dP=0.001 spec=0.023 ppl x1.000
+event_year_007 L6: EN dP=0.203 ok=False ES dP=0.079 HI dP=0.002 spec=0.020 ppl x1.001
+event_year_007 L7: EN dP=0.830 ok=True ES dP=0.080 HI dP=0.021 spec=0.029 ppl x1.001
+event_year_007 L8: EN dP=0.837 ok=True ES dP=0.368 HI dP=0.017 spec=0.040 ppl x0.999
+event_year_007 L9: EN dP=0.081 ok=False ES dP=0.020 HI dP=0.004 spec=0.056 ppl x1.000
+event_year_007 L10: EN dP=0.000 ok=False ES dP=-0.001 HI dP=-0.001 spec=0.021 ppl x1.002
+event_year_007 L11: EN dP=0.612 ok=True ES dP=0.113 HI dP=0.037 spec=0.057 ppl x0.999
+event_year_007 L12: EN dP=0.103 ok=False ES dP=0.033 HI dP=0.005 spec=0.047 ppl x0.999
+event_year_007 L13: EN dP=0.861 ok=True ES dP=0.788 HI dP=0.381 spec=0.183 ppl x1.000
+event_year_007 L14: EN dP=-0.004 ok=False ES dP=-0.005 HI dP=-0.002 spec=0.020 ppl x0.999
+event_year_007 L15: EN dP=0.290 ok=False ES dP=-0.006 HI dP=0.080 spec=0.248 ppl x1.001
+event_year_007 L16: EN dP=0.795 ok=True ES dP=0.608 HI dP=0.063 spec=0.030 ppl x1.000
+event_year_007 L17: EN dP=0.185 ok=False ES dP=0.037 HI dP=0.012 spec=0.018 ppl x1.001
+event_year_007 L18: EN dP=-0.004 ok=False ES dP=-0.005 HI dP=-0.003 spec=0.034 ppl x1.000
+event_year_007 L19: EN dP=0.812 ok=True ES dP=0.694 HI dP=0.390 spec=0.026 ppl x1.000
+event_year_007 L20: EN dP=0.818 ok=True ES dP=0.744 HI dP=0.007 spec=0.030 ppl x1.000
+event_year_007 L21: EN dP=0.762 ok=True ES dP=0.670 HI dP=0.145 spec=0.018 ppl x1.001
+event_year_007 L22: EN dP=-0.005 ok=False ES dP=-0.002 HI dP=-0.001 spec=0.018 ppl x1.000
+event_year_007 L23: EN dP=0.055 ok=False ES dP=0.024 HI dP=0.018 spec=0.040 ppl x1.000
+event_year_007 L24: EN dP=0.114 ok=False ES dP=-0.001 HI dP=-0.000 spec=0.012 ppl x1.000
+event_year_007 L25: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+capital_country_008 L0: EN dP=0.943 ok=True ES dP=0.000 HI dP=0.000 spec=0.036 ppl x1.002
+capital_country_008 L1: EN dP=0.877 ok=True ES dP=0.000 HI dP=0.000 spec=0.015 ppl x1.001
+capital_country_008 L2: EN dP=0.879 ok=True ES dP=0.000 HI dP=-0.000 spec=0.009 ppl x0.999
+capital_country_008 L3: EN dP=0.941 ok=True ES dP=0.780 HI dP=0.000 spec=0.035 ppl x1.000
+capital_country_008 L4: EN dP=0.878 ok=True ES dP=0.426 HI dP=0.019 spec=0.677 ppl x1.006
+capital_country_008 L5: EN dP=0.863 ok=True ES dP=0.580 HI dP=0.000 spec=0.078 ppl x1.003
+capital_country_008 L6: EN dP=0.788 ok=True ES dP=0.296 HI dP=0.102 spec=0.021 ppl x1.000
+capital_country_008 L7: EN dP=0.879 ok=True ES dP=0.470 HI dP=0.079 spec=0.037 ppl x0.999
+capital_country_008 L8: EN dP=0.815 ok=True ES dP=0.122 HI dP=0.072 spec=0.057 ppl x1.001
+capital_country_008 L9: EN dP=0.772 ok=True ES dP=0.127 HI dP=0.018 spec=0.043 ppl x1.000
+capital_country_008 L10: EN dP=0.024 ok=False ES dP=0.521 HI dP=0.022 spec=0.050 ppl x0.998
+capital_country_008 L11: EN dP=0.000 ok=False ES dP=0.100 HI dP=0.030 spec=0.124 ppl x1.001
+capital_country_008 L12: EN dP=0.003 ok=False ES dP=0.710 HI dP=0.097 spec=0.056 ppl x0.999
+capital_country_008 L13: EN dP=0.250 ok=False ES dP=0.721 HI dP=0.230 spec=0.039 ppl x0.997
+capital_country_008 L14: EN dP=0.822 ok=True ES dP=0.759 HI dP=0.130 spec=0.242 ppl x1.002
+capital_country_008 L15: EN dP=0.870 ok=True ES dP=0.655 HI dP=0.109 spec=0.226 ppl x1.005
+capital_country_008 L16: EN dP=0.927 ok=True ES dP=0.862 HI dP=0.081 spec=0.063 ppl x1.000
+capital_country_008 L17: EN dP=0.883 ok=True ES dP=0.823 HI dP=0.282 spec=0.217 ppl x1.000
+capital_country_008 L18: EN dP=0.877 ok=True ES dP=0.909 HI dP=0.122 spec=0.624 ppl x0.998
+capital_country_008 L19: EN dP=0.962 ok=True ES dP=0.863 HI dP=0.081 spec=0.045 ppl x0.999
+capital_country_008 L20: EN dP=0.722 ok=True ES dP=0.002 HI dP=0.001 spec=0.015 ppl x1.000
+capital_country_008 L21: EN dP=0.952 ok=True ES dP=0.429 HI dP=0.036 spec=0.089 ppl x0.999
+capital_country_008 L22: EN dP=0.856 ok=True ES dP=0.007 HI dP=0.000 spec=0.018 ppl x1.000
+capital_country_008 L23: EN dP=0.017 ok=False ES dP=-0.000 HI dP=-0.000 spec=0.057 ppl x1.001
+capital_country_008 L24: EN dP=-0.000 ok=False ES dP=-0.000 HI dP=-0.001 spec=0.076 ppl x0.999
+capital_country_008 L25: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+capital_of_002 L0: EN dP=0.975 ok=True ES dP=0.287 HI dP=-0.000 spec=0.015 ppl x1.000
+capital_of_002 L1: EN dP=0.965 ok=True ES dP=0.710 HI dP=-0.000 spec=0.020 ppl x1.001
+capital_of_002 L2: EN dP=0.921 ok=True ES dP=0.746 HI dP=0.007 spec=0.874 ppl x1.008
+capital_of_002 L3: EN dP=0.939 ok=True ES dP=0.589 HI dP=0.213 spec=0.913 ppl x1.039
+capital_of_002 L4: EN dP=0.921 ok=True ES dP=0.466 HI dP=0.141 spec=0.647 ppl x1.023
+capital_of_002 L5: EN dP=0.777 ok=True ES dP=0.006 HI dP=0.000 spec=0.045 ppl x1.000
+capital_of_002 L6: EN dP=0.843 ok=True ES dP=0.299 HI dP=0.117 spec=0.022 ppl x1.003
+capital_of_002 L7: EN dP=0.883 ok=True ES dP=0.612 HI dP=0.287 spec=0.048 ppl x1.003
+capital_of_002 L8: EN dP=0.721 ok=True ES dP=0.704 HI dP=0.474 spec=0.394 ppl x1.003
+capital_of_002 L9: EN dP=0.850 ok=True ES dP=0.210 HI dP=0.388 spec=0.057 ppl x1.005
+capital_of_002 L10: EN dP=0.316 ok=False ES dP=0.053 HI dP=0.124 spec=0.043 ppl x1.004
+capital_of_002 L11: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.001 spec=0.033 ppl x1.002
+capital_of_002 L12: EN dP=0.133 ok=False ES dP=0.007 HI dP=0.274 spec=0.071 ppl x1.008
+capital_of_002 L13: EN dP=0.467 ok=False ES dP=0.036 HI dP=0.295 spec=0.051 ppl x1.006
+capital_of_002 L14: EN dP=0.944 ok=True ES dP=0.735 HI dP=0.473 spec=0.404 ppl x1.009
+capital_of_002 L15: EN dP=0.928 ok=True ES dP=0.541 HI dP=0.378 spec=0.159 ppl x1.005
+capital_of_002 L16: EN dP=0.963 ok=True ES dP=0.542 HI dP=0.224 spec=0.135 ppl x1.003
+capital_of_002 L17: EN dP=0.941 ok=True ES dP=0.742 HI dP=0.069 spec=0.413 ppl x1.002
+capital_of_002 L18: EN dP=0.978 ok=True ES dP=0.476 HI dP=0.209 spec=0.187 ppl x1.000
+capital_of_002 L19: EN dP=0.978 ok=True ES dP=0.462 HI dP=0.032 spec=0.238 ppl x0.997
+capital_of_002 L20: EN dP=0.970 ok=True ES dP=0.421 HI dP=0.015 spec=0.058 ppl x1.005
+capital_of_002 L21: EN dP=0.989 ok=True ES dP=0.224 HI dP=0.000 spec=0.048 ppl x1.006
+capital_of_002 L22: EN dP=0.965 ok=True ES dP=0.454 HI dP=0.004 spec=0.059 ppl x1.004
+capital_of_002 L23: EN dP=0.001 ok=False ES dP=-0.000 HI dP=-0.000 spec=0.110 ppl x1.005
+capital_of_002 L24: EN dP=0.050 ok=False ES dP=0.001 HI dP=-0.000 spec=0.069 ppl x1.001
+capital_of_002 L25: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+event_year_009 L0: EN dP=0.736 ok=True ES dP=0.000 HI dP=0.000 spec=0.016 ppl x0.999
+event_year_009 L1: EN dP=0.728 ok=True ES dP=0.000 HI dP=-0.001 spec=0.040 ppl x0.999
+event_year_009 L2: EN dP=0.725 ok=True ES dP=0.000 HI dP=-0.000 spec=0.018 ppl x1.001
+event_year_009 L3: EN dP=0.845 ok=True ES dP=0.000 HI dP=-0.000 spec=0.012 ppl x0.999
+event_year_009 L4: EN dP=0.742 ok=True ES dP=0.045 HI dP=0.504 spec=0.020 ppl x0.999
+event_year_009 L5: EN dP=0.769 ok=True ES dP=0.208 HI dP=0.014 spec=0.036 ppl x1.001
+event_year_009 L6: EN dP=0.632 ok=True ES dP=0.051 HI dP=0.012 spec=0.060 ppl x0.999
+event_year_009 L7: EN dP=0.691 ok=True ES dP=0.001 HI dP=0.373 spec=0.020 ppl x0.999
+event_year_009 L8: EN dP=0.461 ok=True ES dP=0.014 HI dP=0.730 spec=0.026 ppl x0.999
+event_year_009 L9: EN dP=0.372 ok=False ES dP=0.192 HI dP=0.365 spec=0.032 ppl x1.000
+event_year_009 L10: EN dP=0.306 ok=False ES dP=0.299 HI dP=0.367 spec=0.034 ppl x1.000
+event_year_009 L11: EN dP=0.128 ok=True ES dP=0.026 HI dP=0.109 spec=0.053 ppl x0.999
+event_year_009 L12: EN dP=0.104 ok=False ES dP=0.115 HI dP=0.287 spec=0.354 ppl x1.001
+event_year_009 L13: EN dP=0.618 ok=True ES dP=0.006 HI dP=0.460 spec=0.040 ppl x1.001
+event_year_009 L14: EN dP=0.538 ok=True ES dP=0.236 HI dP=0.454 spec=0.077 ppl x1.000
+event_year_009 L15: EN dP=0.320 ok=True ES dP=0.136 HI dP=0.123 spec=0.335 ppl x1.000
+event_year_009 L16: EN dP=0.068 ok=False ES dP=0.013 HI dP=0.061 spec=0.026 ppl x1.001
+event_year_009 L17: EN dP=0.480 ok=True ES dP=0.089 HI dP=0.087 spec=0.065 ppl x1.000
+event_year_009 L18: EN dP=0.474 ok=True ES dP=0.130 HI dP=0.083 spec=0.015 ppl x1.000
+event_year_009 L19: EN dP=0.431 ok=True ES dP=0.018 HI dP=0.022 spec=0.014 ppl x1.001
+event_year_009 L20: EN dP=0.585 ok=True ES dP=0.073 HI dP=0.096 spec=0.018 ppl x1.002
+event_year_009 L21: EN dP=0.364 ok=True ES dP=0.001 HI dP=0.003 spec=0.032 ppl x1.001
+event_year_009 L22: EN dP=0.099 ok=False ES dP=0.043 HI dP=0.039 spec=0.196 ppl x1.001
+event_year_009 L23: EN dP=0.000 ok=False ES dP=-0.000 HI dP=0.001 spec=0.007 ppl x1.001
+event_year_009 L24: EN dP=0.004 ok=False ES dP=-0.000 HI dP=-0.000 spec=0.041 ppl x1.000
+event_year_009 L25: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+capital_country_009 L0: EN dP=0.785 ok=True ES dP=0.000 HI dP=-0.000 spec=0.014 ppl x1.013
+capital_country_009 L1: EN dP=0.897 ok=True ES dP=0.766 HI dP=0.000 spec=0.024 ppl x1.012
+capital_country_009 L2: EN dP=0.884 ok=True ES dP=0.751 HI dP=0.001 spec=0.013 ppl x1.000
+capital_country_009 L3: EN dP=0.905 ok=True ES dP=0.845 HI dP=0.029 spec=0.020 ppl x0.999
+capital_country_009 L4: EN dP=0.705 ok=True ES dP=0.804 HI dP=0.023 spec=0.114 ppl x1.016
+capital_country_009 L5: EN dP=0.864 ok=True ES dP=0.505 HI dP=0.049 spec=0.028 ppl x0.997
+capital_country_009 L6: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.016 ppl x0.999
+capital_country_009 L7: EN dP=0.605 ok=True ES dP=0.571 HI dP=0.001 spec=0.058 ppl x0.998
+capital_country_009 L8: EN dP=0.846 ok=True ES dP=0.688 HI dP=0.000 spec=0.025 ppl x0.999
+capital_country_009 L9: EN dP=0.631 ok=True ES dP=0.654 HI dP=0.000 spec=0.024 ppl x1.000
+capital_country_009 L10: EN dP=0.726 ok=True ES dP=0.227 HI dP=0.000 spec=0.028 ppl x1.000
+capital_country_009 L11: EN dP=0.892 ok=True ES dP=0.799 HI dP=0.000 spec=0.034 ppl x0.997
+capital_country_009 L12: EN dP=0.614 ok=True ES dP=0.636 HI dP=0.001 spec=0.030 ppl x0.999
+capital_country_009 L13: EN dP=0.831 ok=True ES dP=0.827 HI dP=0.004 spec=0.058 ppl x0.999
+capital_country_009 L14: EN dP=0.823 ok=True ES dP=0.823 HI dP=0.009 spec=0.027 ppl x0.998
+capital_country_009 L15: EN dP=0.869 ok=True ES dP=0.825 HI dP=0.030 spec=0.139 ppl x1.004
+capital_country_009 L16: EN dP=0.862 ok=True ES dP=0.708 HI dP=0.012 spec=0.012 ppl x1.001
+capital_country_009 L17: EN dP=0.770 ok=True ES dP=0.541 HI dP=0.001 spec=0.027 ppl x1.001
+capital_country_009 L18: EN dP=0.942 ok=True ES dP=0.897 HI dP=0.052 spec=0.016 ppl x0.998
+capital_country_009 L19: EN dP=0.909 ok=True ES dP=0.806 HI dP=0.025 spec=0.022 ppl x1.000
+capital_country_009 L20: EN dP=0.971 ok=True ES dP=0.317 HI dP=0.002 spec=0.025 ppl x1.000
+capital_country_009 L21: EN dP=0.594 ok=True ES dP=0.288 HI dP=0.000 spec=0.040 ppl x0.999
+capital_country_009 L22: EN dP=-0.000 ok=False ES dP=-0.000 HI dP=0.000 spec=0.029 ppl x1.001
+capital_country_009 L23: EN dP=0.000 ok=False ES dP=0.000 HI dP=-0.000 spec=0.014 ppl x1.001
+capital_country_009 L24: EN dP=0.000 ok=False ES dP=-0.000 HI dP=-0.000 spec=0.020 ppl x0.999
+capital_country_009 L25: EN dP=0.000 ok=False ES dP=0.000 HI dP=0.000 spec=0.000 ppl x1.000
+peak VRAM GiB 7.25

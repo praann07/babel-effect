@@ -1,0 +1,50 @@
+{
+ "model": "gemma2",
+ "trace_run": "analysis/run_20261015_p3trace_v2c_gemma2",
+ "n_edit": 30,
+ "layers": [
+  3
+ ],
+ "tag": "p4f7",
+ "skip_first": 10,
+ "add_traced": true,
+ "resume": null,
+ "model_name": "google/gemma-2-2b",
+ "n_layers": 26,
+ "edit_ids": [
+  "capital_of_005",
+  "event_year_010",
+  "capital_country_011",
+  "capital_of_008",
+  "event_year_015",
+  "capital_country_016",
+  "capital_of_035",
+  "event_year_018",
+  "capital_country_024",
+  "capital_of_046",
+  "event_year_020",
+  "capital_country_048",
+  "capital_of_050",
+  "event_year_021",
+  "capital_country_056",
+  "capital_of_054",
+  "event_year_022",
+  "capital_country_065",
+  "capital_of_100",
+  "event_year_026"
+ ],
+ "ppl_before": 72.08949654337937,
+ "n_valid": 58,
+ "steps": 25,
+ "lr": 0.5,
+ "kl": 0.0625,
+ "wd": 0.5,
+ "clamp": 4.0,
+ "prefixes": [
+  "",
+  "Fact: ",
+  "Note: ",
+  "Q: ",
+  "Did you know? "
+ ]
+}

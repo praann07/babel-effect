@@ -1,0 +1,50 @@
+{
+ "model": "llama",
+ "trace_run": "analysis/run_20261015_p3trace_v2_llama",
+ "n_edit": 30,
+ "layers": [
+  21
+ ],
+ "tag": "p4f7",
+ "skip_first": 10,
+ "add_traced": true,
+ "resume": null,
+ "model_name": "meta-llama/Llama-3.2-3B-Instruct",
+ "n_layers": 28,
+ "edit_ids": [
+  "capital_of_005",
+  "event_year_007",
+  "capital_country_004",
+  "capital_of_007",
+  "event_year_009",
+  "capital_country_005",
+  "capital_of_008",
+  "event_year_010",
+  "capital_country_006",
+  "capital_of_010",
+  "event_year_015",
+  "capital_country_008",
+  "capital_of_016",
+  "event_year_018",
+  "capital_country_009",
+  "capital_of_020",
+  "event_year_020",
+  "capital_country_010",
+  "capital_of_027",
+  "event_year_021"
+ ],
+ "ppl_before": 56.28346640119147,
+ "n_valid": 92,
+ "steps": 25,
+ "lr": 0.5,
+ "kl": 0.0625,
+ "wd": 0.5,
+ "clamp": 4.0,
+ "prefixes": [
+  "",
+  "Fact: ",
+  "Note: ",
+  "Q: ",
+  "Did you know? "
+ ]
+}

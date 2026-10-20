@@ -1,0 +1,158 @@
+{
+ "landmark_country/en": [
+  {
+   "template": "{S} is located in the country of",
+   "acc": 0.8
+  },
+  {
+   "template": "{S} is in the country of",
+   "acc": 0.8
+  },
+  {
+   "template": "{S} can be found in the country of",
+   "acc": 0.8
+  },
+  {
+   "template": "{S} stands in",
+   "acc": 0.0
+  },
+  {
+   "template": "You can visit {s} in",
+   "acc": 0.0
+  },
+  {
+   "template": "{S} is a famous landmark in",
+   "acc": 0.03333333333333333
+  }
+ ],
+ "landmark_country/es": [
+  {
+   "template": "{S} se encuentra en el país de",
+   "acc": 0.5333333333333333
+  },
+  {
+   "template": "{S} está en el país de",
+   "acc": 0.5666666666666667
+  },
+  {
+   "template": "{S} se halla en el país de",
+   "acc": 0.4
+  },
+  {
+   "template": "{S} se encuentra en",
+   "acc": 0.0
+  },
+  {
+   "template": "Se puede visitar {s} en",
+   "acc": 0.03333333333333333
+  },
+  {
+   "template": "{S} es un lugar famoso de",
+   "acc": 0.0
+  }
+ ],
+ "landmark_country/hi": [
+  {
+   "template": "{s} इस देश में स्थित है:",
+   "acc": 0.2
+  },
+  {
+   "template": "{s} इस देश में है:",
+   "acc": 0.3333333333333333
+  },
+  {
+   "template": "{s} जिस देश में स्थित है, उसका नाम",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} स्थित है देश",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} मशहूर है देश",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} यहाँ स्थित है:",
+   "acc": 0.03333333333333333
+  }
+ ],
+ "city_country/en": [
+  {
+   "template": "{S} is a city in the country of",
+   "acc": 0.8666666666666667
+  },
+  {
+   "template": "{S} is in the country of",
+   "acc": 0.8666666666666667
+  },
+  {
+   "template": "{S} is located in the country of",
+   "acc": 0.8666666666666667
+  },
+  {
+   "template": "{S} is a city in",
+   "acc": 0.2
+  },
+  {
+   "template": "The country where {s} is located is",
+   "acc": 0.8666666666666667
+  },
+  {
+   "template": "{S} lies in",
+   "acc": 0.0
+  }
+ ],
+ "city_country/es": [
+  {
+   "template": "{S} es una ciudad del país de",
+   "acc": 0.7333333333333333
+  },
+  {
+   "template": "{S} está en el país de",
+   "acc": 0.6333333333333333
+  },
+  {
+   "template": "{S} se encuentra en el país de",
+   "acc": 0.6333333333333333
+  },
+  {
+   "template": "{S} es una ciudad de",
+   "acc": 0.26666666666666666
+  },
+  {
+   "template": "El país donde está {s} es",
+   "acc": 0.8
+  },
+  {
+   "template": "{S} se halla en",
+   "acc": 0.0
+  }
+ ],
+ "city_country/hi": [
+  {
+   "template": "{s} इस देश का शहर है:",
+   "acc": 0.4666666666666667
+  },
+  {
+   "template": "{s} इस देश में है:",
+   "acc": 0.26666666666666666
+  },
+  {
+   "template": "{s} जिस देश में स्थित है, उसका नाम",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} शहर है देश",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} किस देश में है:",
+   "acc": 0.6333333333333333
+  },
+  {
+   "template": "{s} स्थित है देश",
+   "acc": 0.0
+  }
+ ]
+}

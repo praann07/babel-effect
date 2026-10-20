@@ -1,0 +1,111 @@
+THE BABEL EFFECT - STATUS REPORT (written 2026-10-19)
+Repo: C:\Users\Som Praneeth\Desktop\reasearch\babel-effect   (public: https://github.com/praann07/babel-effect, branch main)
+All work below is committed locally; nothing from today has been pushed to GitHub.
+(The sibling folder ..\RRAP is archived and untouched.)
+
+====================================================================
+1. THE GOAL
+====================================================================
+Write a paper good enough for a conference or journal (ACL / EMNLP / ICLR / TMLR). Venue not chosen yet.
+
+Research question: when a language model knows a fact ("capital of France = Paris"), is it stored
+separately per language, or once in a shared, language-neutral form?
+
+Method (small open models, one 8 GB laptop GPU, $0 spend, English / Spanish / Hindi):
+  1. Causal tracing: scramble the subject, restore clean internal states one layer/word at a time,
+     see which layers bring the answer back.
+  2. Compare the languages' layer profiles against a shuffled-fact null (1000 permutations).
+  3. Edit the fact in English only (rank-1 edit of one MLP layer).
+  4. Check whether Spanish and Hindi change too; measure damage to unrelated facts and to text.
+Models: Llama-3.2-3B-Instruct, Gemma-2-2B (done); BLOOM-1b7 and Llama-3.2-1B (queued).
+
+====================================================================
+2. WHAT WAS DONE
+====================================================================
+Phase 0-5 (v1 pilot, Llama-3.2-3B, 66 facts, first-token scoring): environment, data, tracing,
+overlap, editing, transfer, first paper draft (paper/paper.md). In the pilot the Hindi pairs sat at the null.
+
+Study v2 (pre-registered amendments A5-A10 in docs/HYPOTHESIS.md, written before running):
+  - Downloaded and SHA-256-verified Gemma-2-2B, Llama-3.2-1B, BLOOM-1b7 weights (resumable downloader).
+  - New data: 5 relations x 3 phrasings x 3 languages; template selection; strict answer matching.
+    Kept facts: Llama 93 (92 valid), Gemma 58.
+  - Full-answer scoring for tracing and editing (not just the first token).
+  - Edit-layer sweep: 10 facts x EVERY layer (Llama 280 edits, Gemma 260 edits). DONE.
+  - Fixed engineering problems: TransformerLens memory blow-up, Gemma-2 soft-cap and post-norm,
+    matcher bug (leading newline), template-selection crash, run-folder collision for repeat runs.
+  - Reviewer-proofing: relation-stratified null, Hindi tokenisation diagnostic, critical-layer histogram.
+  - Paper support: 6 figures (paper/figures), full overlap tables (paper/tables), 13 unit tests
+    (tests/test_core.py), claim manifest of 444 numbers all verified (./reproduce.sh check),
+    related work with 20+ verified arXiv IDs, paper v2 draft (paper/paper_v2_draft.md).
+  - Operations: the laptop's sleep killed the sweep twice (about 3 days lost); fixed with a keep-awake
+    guard, resumable runs, and watchdogs. The first chain of queued scripts died around 10:40 on Oct 19
+    (memory pressure); replaced by ONE restartable queue (scripts_run_queue2.sh + scripts_watchdog2.sh).
+  - Deep-research workflow (105 agents): returned 15 verified claims that agree with our related-work section
+    (Fierro et al. 2410.14387, Wendler et al. 2402.10588, Lu et al. 2505.20546, Durrani et al. 2505.14393,
+    BMIKE-53 2406.17764, 2407.10275, 2406.16416, plus 2411.08745 on language vs concept patching).
+    The synthesis step failed because the weekly usage limit was hit (resets Oct 20 14:30 IST).
+
+====================================================================
+3. RESULTS SO FAR (all numbers are in results/manifest.json and docs/LOG.md)
+====================================================================
+A. Overlap of causal profiles (median MLP-profile cosine, pooled shuffled-fact null; z-score)
+   Llama (n=92):  EN-ES 0.627 z=4.22 | EN-HI 0.509 z=2.45 | ES-HI 0.423 z=2.47
+   Gemma (n=58):  EN-ES 0.464 z=4.81 | EN-HI 0.226 z=2.19 | ES-HI 0.137 z=0.08
+   With a same-relation null, only EN-ES stays significant after correction in both models
+   (stratified z: Llama 3.29 / 1.79 / 1.98; Gemma 3.85 / 1.68 / -0.45).
+   -> H6 holds: English and Spanish are aligned beyond chance in both models.
+B. Hindi: weaker, and depends on how many tokens the Hindi subject takes (median 5 tokens Llama, 8 Gemma,
+   vs 2 for English). Llama EN-HI cosine 0.60 with short Hindi subjects vs 0.20 with long ones.
+   Hindi accuracy collapses mainly for answers of 7+ tokens.
+C. Where the fact is looked up: Llama layers 0-6 (median 3-4); Gemma has three modes (layers 4, 6, 14).
+   Layer 14 is the peak for 17/58 English and 13/58 Spanish facts but only 2/58 Hindi facts (exploratory).
+D. Edit sweep (English-only edit, 10 facts per model):
+   English success 0.84 (Llama) / 0.74 (Gemma) over all layers; edits at the last layers often fail.
+   Spanish success 0.41 / 0.48; Hindi 0.18 / 0.20 (never above 0.5 at any layer).
+   At the traced layer: Spanish transfer ratio 0.66 (Llama) / 0.38 (Gemma); Hindi 0.0001 / 0.095.
+   H7 (mid-layer edits transfer more than layers 0-5 and cost more specificity):
+     Gemma  - supported (Spanish +0.34 [0.01, 0.62], Hindi +0.07 [0.03, 0.13], specificity +0.04).
+     Llama  - contradicted for Spanish (-0.31 [-0.47, -0.09]); Hindi and specificity not different from zero.
+   -> model-dependent; no pooled claim.
+E. H9 (EN-ES z>2 in at least two new relations): not supported so far (only event_year testable, z=0.91).
+   H8 (phrasing robustness): pending.
+
+Honest assessment: workshop paper likely; Findings-level plausible if the extra runs hold;
+main-conference acceptance unlikely. Null and mixed results are reported as results.
+
+====================================================================
+4. RUNNING NOW (background scripts, no token cost)
+====================================================================
+scripts_run_queue2.sh (restartable; done-steps listed in analysis/_logs/queue2.done; log analysis/_logs/queue2.log)
+Order: Llama extra-relations trace -> Gemma extra relations (templates, facts, trace) -> H8 phrasing traces and
+analysis -> in-context baseline (both models) -> 30-fact follow-up edits (rule fixed in advance) -> BLOOM-1b7
+pilot (A10) -> Llama-3.2-1B pilot. Watchdog: scripts_watchdog2.sh restarts it if it dies.
+Last check (10:57 IST Oct 19): started the Llama extra trace. Later progress NOT checked since.
+
+====================================================================
+5. WHAT REMAINS
+====================================================================
+Experiments (queued, GPU):
+  F3 in-context editing baseline (both models)            F4 non-copyable relations (landmark->country, city->country)
+  F5 phrasing robustness H8 (30 facts per model)          F7 30 edit facts per model at the rule-chosen layers
+  F6 Llama-3.2-1B pilot (full run only if >= 50 facts)    F10 BLOOM-1b7 (A10: tests whether weak Hindi is a tokenisation effect;
+                                                          weights ready, the TransformerLens BLOOM path is untested and may need debugging)
+Writing / hygiene (CPU):
+  F8 finish the v2 paper: Section 4.5 (H8, non-copyable, in-context), Section 5 discussion, final abstract,
+     verdicts for H6-H9 and A10 in docs/HYPOTHESIS.md, README update, add the newly verified related-work items
+  F9 reproduce.sh for the full v2 pipeline and one end-to-end rerun from a clean clone
+  Push the commits to GitHub when you approve.
+Decisions for you:
+  - Venue and format (full paper vs workshop) once the extra results are in.
+  - Optional: have a Hindi-speaking person spot-check the Hindi facts and answers.
+
+====================================================================
+6. HOW TO CHECK THINGS
+====================================================================
+  Queue progress:      tail analysis/_logs/queue2.log   (and analysis/_logs/queue2.done)
+  GPU:                 nvidia-smi
+  Verify the numbers:  ./reproduce.sh check            (unit tests + 444-claim manifest + figures + tables)
+  Main documents:      docs/LOG.md (decisions and results), docs/NEXT.md (to-do), docs/HYPOTHESIS.md (pre-registration),
+                       paper/paper_v2_draft.md, results/manifest.json
+Please keep the laptop plugged in and awake, and close memory-heavy apps (low free RAM killed background jobs today).
+My token budget is throttled until the weekly limit resets (Oct 20 14:30 IST); the GPU queue does not depend on it.

@@ -1,0 +1,20 @@
+{
+ "model": "gemma2",
+ "facts": "data/v2/facts_extra_gemma2.json",
+ "subset": "all",
+ "phrasings": "0",
+ "limit": null,
+ "tag": "p3extra_10191057",
+ "model_name": "google/gemma-2-2b",
+ "dtype": "bfloat16",
+ "noise_mult": 3.0,
+ "embed_std_pooled": {
+  "en": 1.759806752204895,
+  "es": 1.7101517915725708,
+  "hi": 1.5229477882385254
+ },
+ "n_layers": 26,
+ "fact_ids": [
+  "landmark_country_061"
+ ]
+}

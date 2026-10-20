@@ -1,0 +1,32 @@
+{
+ "n_candidates": 156,
+ "n_kept": 34,
+ "per_relation": {
+  "landmark_country": {
+   "n": 81,
+   "kept": 7,
+   "en_p0": 57,
+   "en_p1": 64,
+   "en_p2": 62,
+   "es_p0": 38,
+   "es_p1": 51,
+   "es_p2": 53,
+   "hi_p0": 31,
+   "hi_p1": 20,
+   "hi_p2": 4
+  },
+  "city_country": {
+   "n": 75,
+   "kept": 27,
+   "en_p0": 65,
+   "en_p1": 67,
+   "en_p2": 66,
+   "es_p0": 60,
+   "es_p1": 63,
+   "es_p2": 57,
+   "hi_p0": 51,
+   "hi_p1": 38,
+   "hi_p2": 32
+  }
+ }
+}

@@ -1,0 +1,105 @@
+[
+ {
+  "span": [
+   1,
+   2,
+   3
+  ],
+  "last_subj": 3,
+  "n_target": 1,
+  "target_ids": [
+   5892
+  ],
+  "target": "China",
+  "tf_match": true,
+  "p_clean": 0.8960945386334986,
+  "p_corr": 0.02991548174477405,
+  "collapsed": true,
+  "obj_ok": true,
+  "score_clean": -0.10970935970544815,
+  "score_corr": -3.5093791484832764,
+  "first_clean": -0.10970935970544815,
+  "first_corr": -3.5093791484832764,
+  "fastpath_vs_model_gap": 0.0024565160274505615,
+  "crit_mlp_layer": 3,
+  "crit_resid_layer": 5,
+  "sanity_last_site_gap": 4.76837158203125e-07,
+  "id": "landmark_country_061",
+  "lang": "en",
+  "phrasing": 0,
+  "relation": "landmark_country",
+  "seed": 2043571043,
+  "sigma": 5.279420256614685
+ },
+ {
+  "span": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "last_subj": 4,
+  "n_target": 1,
+  "target_ids": [
+   5892
+  ],
+  "target": "China",
+  "tf_match": true,
+  "p_clean": 0.5624290780708483,
+  "p_corr": 0.0024855779274152038,
+  "collapsed": true,
+  "obj_ok": true,
+  "score_clean": -0.5754902362823486,
+  "score_corr": -5.997250080108643,
+  "first_clean": -0.5754902362823486,
+  "first_corr": -5.997250080108643,
+  "fastpath_vs_model_gap": 0.02961099147796631,
+  "crit_mlp_layer": 6,
+  "crit_resid_layer": 10,
+  "sanity_last_site_gap": 1.430511474609375e-06,
+  "id": "landmark_country_061",
+  "lang": "es",
+  "phrasing": 0,
+  "relation": "landmark_country",
+  "seed": 2043571043,
+  "sigma": 5.130455374717712
+ },
+ {
+  "span": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "last_subj": 8,
+  "n_target": 2,
+  "target_ids": [
+   14980,
+   57213
+  ],
+  "target": "चीन",
+  "tf_match": false,
+  "p_clean": 0.07254359545808,
+  "p_corr": 0.003955444116458778,
+  "collapsed": true,
+  "obj_ok": true,
+  "score_clean": -2.623567581176758,
+  "score_corr": -5.532662391662598,
+  "first_clean": -2.5809288024902344,
+  "first_corr": -5.061767101287842,
+  "fastpath_vs_model_gap": 0.06542491912841797,
+  "crit_mlp_layer": 2,
+  "crit_resid_layer": 9,
+  "sanity_last_site_gap": 0.4282710552215576,
+  "id": "landmark_country_061",
+  "lang": "hi",
+  "phrasing": 0,
+  "relation": "landmark_country",
+  "seed": 2043571043,
+  "sigma": 4.568843364715576
+ }
+]
