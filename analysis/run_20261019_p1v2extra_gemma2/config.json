@@ -1,0 +1,10 @@
+{
+ "model": "google/gemma-2-2b",
+ "candidates": "data/v2/facts_candidates_extra_gemma2.json",
+ "tag": "p1v2extra_gemma2",
+ "facts_out": "data/v2/facts_extra_gemma2.json",
+ "dtype": "bfloat16",
+ "n_new": 24,
+ "batch": 32,
+ "padding": "left"
+}

@@ -1,0 +1,25 @@
+{
+ "run": "analysis\\run_20261019_p4sweep_gemma2",
+ "spec_cut": 0.04892581642129111,
+ "chosen_layer": 3,
+ "chosen": {
+  "n": 10,
+  "en_success": 1.0,
+  "spec": 0.022331324126543373
+ },
+ "eligible_layers": [
+  0,
+  1,
+  2,
+  3,
+  6,
+  8,
+  10,
+  11,
+  18,
+  19,
+  20,
+  21,
+  25
+ ]
+}

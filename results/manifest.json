@@ -1,5 +1,5 @@
 {
- "n_claims": 444,
+ "n_claims": 537,
  "claims": [
   {
    "id": "n_candidates",
@@ -5120,6 +5120,1064 @@
     "frac_facts_positive"
    ],
    "value": 0.9
+  },
+  {
+   "id": "ova_llama_primary_valid_n",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "n_facts"
+   ],
+   "value": 126
+  },
+  {
+   "id": "ova_llama_primary_valid_en-es_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.6417125463485718
+  },
+  {
+   "id": "ova_llama_primary_valid_en-es_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 5.058237075805664
+  },
+  {
+   "id": "ova_llama_primary_valid_en-hi_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.4999834895133972
+  },
+  {
+   "id": "ova_llama_primary_valid_en-hi_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.9010090827941895
+  },
+  {
+   "id": "ova_llama_primary_valid_es-hi_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.41313278675079346
+  },
+  {
+   "id": "ova_llama_primary_valid_es-hi_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.6314589977264404
+  },
+  {
+   "id": "ova_llama_valid_no_copyable_n",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "n_facts"
+   ],
+   "value": 104
+  },
+  {
+   "id": "ova_llama_valid_no_copyable_en-es_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.6532760858535767
+  },
+  {
+   "id": "ova_llama_valid_no_copyable_en-es_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 4.871444225311279
+  },
+  {
+   "id": "ova_llama_valid_no_copyable_en-hi_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.5294191241264343
+  },
+  {
+   "id": "ova_llama_valid_no_copyable_en-hi_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.781909227371216
+  },
+  {
+   "id": "ova_llama_valid_no_copyable_es-hi_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.48845282196998596
+  },
+  {
+   "id": "ova_llama_valid_no_copyable_es-hi_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 3.50890851020813
+  },
+  {
+   "id": "ova_llama_primary_valid_stratified_by_relation_n",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "n_facts"
+   ],
+   "value": 126
+  },
+  {
+   "id": "ova_llama_primary_valid_stratified_by_relation_en-es_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.6417125463485718
+  },
+  {
+   "id": "ova_llama_primary_valid_stratified_by_relation_en-es_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 4.242958068847656
+  },
+  {
+   "id": "ova_llama_primary_valid_stratified_by_relation_en-hi_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.4999834895133972
+  },
+  {
+   "id": "ova_llama_primary_valid_stratified_by_relation_en-hi_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.664796829223633
+  },
+  {
+   "id": "ova_llama_primary_valid_stratified_by_relation_es-hi_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.41313278675079346
+  },
+  {
+   "id": "ova_llama_primary_valid_stratified_by_relation_es-hi_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.9752542972564697
+  },
+  {
+   "id": "ova_llama_valid_city_country_n",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_city_country",
+    "n_facts"
+   ],
+   "value": 27
+  },
+  {
+   "id": "ova_llama_valid_city_country_en-es_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_city_country",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.6656262278556824
+  },
+  {
+   "id": "ova_llama_valid_city_country_en-es_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_city_country",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.9572339057922363
+  },
+  {
+   "id": "ova_llama_valid_city_country_en-hi_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_city_country",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.5319352746009827
+  },
+  {
+   "id": "ova_llama_valid_city_country_en-hi_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_city_country",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.463663101196289
+  },
+  {
+   "id": "ova_llama_valid_city_country_es-hi_cos",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_city_country",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.34768423438072205
+  },
+  {
+   "id": "ova_llama_valid_city_country_es-hi_z",
+   "artifact": "analysis/run_20261019_p3overlap_v2all_10191057/results.json",
+   "key_path": [
+    "sets",
+    "valid_city_country",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": -0.11525680124759674
+  },
+  {
+   "id": "ova_gemma2_primary_valid_n",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "n_facts"
+   ],
+   "value": 59
+  },
+  {
+   "id": "ova_gemma2_primary_valid_en-es_cos",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.4355236887931824
+  },
+  {
+   "id": "ova_gemma2_primary_valid_en-es_z",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 3.858536720275879
+  },
+  {
+   "id": "ova_gemma2_primary_valid_en-hi_cos",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.22208569943904877
+  },
+  {
+   "id": "ova_gemma2_primary_valid_en-hi_z",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.0855603218078613
+  },
+  {
+   "id": "ova_gemma2_primary_valid_es-hi_cos",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.13227973878383636
+  },
+  {
+   "id": "ova_gemma2_primary_valid_es-hi_z",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.05964136868715286
+  },
+  {
+   "id": "ova_gemma2_valid_no_copyable_n",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "n_facts"
+   ],
+   "value": 29
+  },
+  {
+   "id": "ova_gemma2_valid_no_copyable_en-es_cos",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.5072113871574402
+  },
+  {
+   "id": "ova_gemma2_valid_no_copyable_en-es_z",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.528012752532959
+  },
+  {
+   "id": "ova_gemma2_valid_no_copyable_en-hi_cos",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.3142986297607422
+  },
+  {
+   "id": "ova_gemma2_valid_no_copyable_en-hi_z",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.16303288936615
+  },
+  {
+   "id": "ova_gemma2_valid_no_copyable_es-hi_cos",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.27980470657348633
+  },
+  {
+   "id": "ova_gemma2_valid_no_copyable_es-hi_z",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "valid_no_copyable",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.41672900319099426
+  },
+  {
+   "id": "ova_gemma2_primary_valid_stratified_by_relation_n",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "n_facts"
+   ],
+   "value": 59
+  },
+  {
+   "id": "ova_gemma2_primary_valid_stratified_by_relation_en-es_cos",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.4355236887931824
+  },
+  {
+   "id": "ova_gemma2_primary_valid_stratified_by_relation_en-es_z",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 3.1833999156951904
+  },
+  {
+   "id": "ova_gemma2_primary_valid_stratified_by_relation_en-hi_cos",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.22208569943904877
+  },
+  {
+   "id": "ova_gemma2_primary_valid_stratified_by_relation_en-hi_z",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.6874017715454102
+  },
+  {
+   "id": "ova_gemma2_primary_valid_stratified_by_relation_es-hi_cos",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.13227973878383636
+  },
+  {
+   "id": "ova_gemma2_primary_valid_stratified_by_relation_es-hi_z",
+   "artifact": "analysis/run_20261020_p3overlap_v2all_10200339/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": -0.40478047728538513
+  },
+  {
+   "id": "h8_llama_n",
+   "artifact": "analysis/run_20261019_h8_10191057_llama/results.json",
+   "key_path": [
+    "summary",
+    "n_facts"
+   ],
+   "value": 30
+  },
+  {
+   "id": "h8_llama_within",
+   "artifact": "analysis/run_20261019_h8_10191057_llama/results.json",
+   "key_path": [
+    "summary",
+    "median_within"
+   ],
+   "value": 0.7537842368086178
+  },
+  {
+   "id": "h8_llama_cross",
+   "artifact": "analysis/run_20261019_h8_10191057_llama/results.json",
+   "key_path": [
+    "summary",
+    "median_cross"
+   ],
+   "value": 0.6094498286644618
+  },
+  {
+   "id": "h8_llama_d",
+   "artifact": "analysis/run_20261019_h8_10191057_llama/results.json",
+   "key_path": [
+    "summary",
+    "median_d"
+   ],
+   "value": 0.1386086692412694
+  },
+  {
+   "id": "h8_llama_d_lo",
+   "artifact": "analysis/run_20261019_h8_10191057_llama/results.json",
+   "key_path": [
+    "summary",
+    "ci95_d",
+    0
+   ],
+   "value": 0.10101806124051416
+  },
+  {
+   "id": "h8_llama_d_hi",
+   "artifact": "analysis/run_20261019_h8_10191057_llama/results.json",
+   "key_path": [
+    "summary",
+    "ci95_d",
+    1
+   ],
+   "value": 0.2275725404421488
+  },
+  {
+   "id": "h8_llama_frac_pos",
+   "artifact": "analysis/run_20261019_h8_10191057_llama/results.json",
+   "key_path": [
+    "summary",
+    "frac_facts_d_positive"
+   ],
+   "value": 0.8666666666666667
+  },
+  {
+   "id": "h8_gemma2_n",
+   "artifact": "analysis/run_20261019_h8_10191057_gemma2/results.json",
+   "key_path": [
+    "summary",
+    "n_facts"
+   ],
+   "value": 30
+  },
+  {
+   "id": "h8_gemma2_within",
+   "artifact": "analysis/run_20261019_h8_10191057_gemma2/results.json",
+   "key_path": [
+    "summary",
+    "median_within"
+   ],
+   "value": 0.7407379547754924
+  },
+  {
+   "id": "h8_gemma2_cross",
+   "artifact": "analysis/run_20261019_h8_10191057_gemma2/results.json",
+   "key_path": [
+    "summary",
+    "median_cross"
+   ],
+   "value": 0.33785171341151
+  },
+  {
+   "id": "h8_gemma2_d",
+   "artifact": "analysis/run_20261019_h8_10191057_gemma2/results.json",
+   "key_path": [
+    "summary",
+    "median_d"
+   ],
+   "value": 0.34084451571106916
+  },
+  {
+   "id": "h8_gemma2_d_lo",
+   "artifact": "analysis/run_20261019_h8_10191057_gemma2/results.json",
+   "key_path": [
+    "summary",
+    "ci95_d",
+    0
+   ],
+   "value": 0.2867427604893843
+  },
+  {
+   "id": "h8_gemma2_d_hi",
+   "artifact": "analysis/run_20261019_h8_10191057_gemma2/results.json",
+   "key_path": [
+    "summary",
+    "ci95_d",
+    1
+   ],
+   "value": 0.46308721105257666
+  },
+  {
+   "id": "h8_gemma2_frac_pos",
+   "artifact": "analysis/run_20261019_h8_10191057_gemma2/results.json",
+   "key_path": [
+    "summary",
+    "frac_facts_d_positive"
+   ],
+   "value": 1.0
+  },
+  {
+   "id": "inc_llama_en_context/en_dP",
+   "artifact": "analysis/run_20261020_incontext_10200339_llama/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/en",
+    "median_dP"
+   ],
+   "value": 0.0031377236861073214
+  },
+  {
+   "id": "inc_llama_en_context/en_success",
+   "artifact": "analysis/run_20261020_incontext_10200339_llama/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/en",
+    "success_rate"
+   ],
+   "value": 0.0
+  },
+  {
+   "id": "inc_llama_en_context/es_dP",
+   "artifact": "analysis/run_20261020_incontext_10200339_llama/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/es",
+    "median_dP"
+   ],
+   "value": 0.7510502483645899
+  },
+  {
+   "id": "inc_llama_en_context/es_success",
+   "artifact": "analysis/run_20261020_incontext_10200339_llama/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/es",
+    "success_rate"
+   ],
+   "value": 1.0
+  },
+  {
+   "id": "inc_llama_en_context/hi_dP",
+   "artifact": "analysis/run_20261020_incontext_10200339_llama/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/hi",
+    "median_dP"
+   ],
+   "value": 0.6903866157363463
+  },
+  {
+   "id": "inc_llama_en_context/hi_success",
+   "artifact": "analysis/run_20261020_incontext_10200339_llama/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/hi",
+    "success_rate"
+   ],
+   "value": 1.0
+  },
+  {
+   "id": "inc_gemma2_en_context/en_dP",
+   "artifact": "analysis/run_20261020_incontext_10200339_gemma2/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/en",
+    "median_dP"
+   ],
+   "value": 0.4788320358724669
+  },
+  {
+   "id": "inc_gemma2_en_context/en_success",
+   "artifact": "analysis/run_20261020_incontext_10200339_gemma2/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/en",
+    "success_rate"
+   ],
+   "value": 0.8
+  },
+  {
+   "id": "inc_gemma2_en_context/es_dP",
+   "artifact": "analysis/run_20261020_incontext_10200339_gemma2/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/es",
+    "median_dP"
+   ],
+   "value": 0.5606112756191421
+  },
+  {
+   "id": "inc_gemma2_en_context/es_success",
+   "artifact": "analysis/run_20261020_incontext_10200339_gemma2/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/es",
+    "success_rate"
+   ],
+   "value": 0.7
+  },
+  {
+   "id": "inc_gemma2_en_context/hi_dP",
+   "artifact": "analysis/run_20261020_incontext_10200339_gemma2/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/hi",
+    "median_dP"
+   ],
+   "value": 0.27485348982013136
+  },
+  {
+   "id": "inc_gemma2_en_context/hi_success",
+   "artifact": "analysis/run_20261020_incontext_10200339_gemma2/summary.json",
+   "key_path": [
+    "summary",
+    "en_context/hi",
+    "success_rate"
+   ],
+   "value": 0.6
+  },
+  {
+   "id": "f7_llama_traced_n",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "n"
+   ],
+   "value": 20
+  },
+  {
+   "id": "f7_llama_traced_en_success",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "en_success_rate"
+   ],
+   "value": 0.8
+  },
+  {
+   "id": "f7_llama_traced_transfer_es_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "transfer_es",
+    0
+   ],
+   "value": 0.6960199967602732
+  },
+  {
+   "id": "f7_llama_traced_transfer_hi_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "transfer_hi",
+    0
+   ],
+   "value": 0.005066616004668977
+  },
+  {
+   "id": "f7_llama_traced_specificity_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "specificity",
+    0
+   ],
+   "value": 0.06244056351461241
+  },
+  {
+   "id": "f7_llama_traced_ppl_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "ppl_ratio",
+    0
+   ],
+   "value": 1.0000449077984652
+  },
+  {
+   "id": "f7_llama_mid_n",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "n"
+   ],
+   "value": 20
+  },
+  {
+   "id": "f7_llama_mid_en_success",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "en_success_rate"
+   ],
+   "value": 0.95
+  },
+  {
+   "id": "f7_llama_mid_transfer_es_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "transfer_es",
+    0
+   ],
+   "value": 0.7797012155191936
+  },
+  {
+   "id": "f7_llama_mid_transfer_hi_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "transfer_hi",
+    0
+   ],
+   "value": 0.10502982218588473
+  },
+  {
+   "id": "f7_llama_mid_specificity_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "specificity",
+    0
+   ],
+   "value": 0.5684674907359151
+  },
+  {
+   "id": "f7_llama_mid_ppl_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "ppl_ratio",
+    0
+   ],
+   "value": 1.0004892411092214
+  },
+  {
+   "id": "f7_llama_random_n",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "n"
+   ],
+   "value": 20
+  },
+  {
+   "id": "f7_llama_random_en_success",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "en_success_rate"
+   ],
+   "value": 0.65
+  },
+  {
+   "id": "f7_llama_random_transfer_es_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "transfer_es",
+    0
+   ],
+   "value": 6.584678495533626e-05
+  },
+  {
+   "id": "f7_llama_random_transfer_hi_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "transfer_hi",
+    0
+   ],
+   "value": 2.497148653305062e-05
+  },
+  {
+   "id": "f7_llama_random_specificity_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "specificity",
+    0
+   ],
+   "value": 0.028082428407916582
+  },
+  {
+   "id": "f7_llama_random_ppl_med",
+   "artifact": "analysis/run_20261020_p4f7_llama/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "ppl_ratio",
+    0
+   ],
+   "value": 0.999582281012374
   }
  ]
 }

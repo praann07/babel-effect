@@ -1,0 +1,93 @@
+{
+ "version": 2,
+ "model": "google/gemma-2-2b",
+ "summary": {
+  "n_candidates": 156,
+  "n_kept": 1,
+  "per_relation": {
+   "landmark_country": {
+    "n": 81,
+    "kept": 1,
+    "en_p0": 62,
+    "en_p1": 66,
+    "en_p2": 66,
+    "es_p0": 27,
+    "es_p1": 40,
+    "es_p2": 36,
+    "hi_p0": 4,
+    "hi_p1": 10,
+    "hi_p2": 23
+   },
+   "city_country": {
+    "n": 75,
+    "kept": 0,
+    "en_p0": 65,
+    "en_p1": 72,
+    "en_p2": 67,
+    "es_p0": 50,
+    "es_p1": 70,
+    "es_p2": 67,
+    "hi_p0": 8,
+    "hi_p1": 21,
+    "hi_p2": 7
+   }
+  }
+ },
+ "facts": [
+  {
+   "id": "landmark_country_061",
+   "relation": "landmark_country",
+   "seed": 2043571043,
+   "lang": {
+    "en": {
+     "subject": "the Great Wall",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "The Great Wall is located in the country of",
+      "The Great Wall can be found in the country of",
+      "The Great Wall is in the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "China"
+    },
+    "es": {
+     "subject": "la Gran Muralla",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "La Gran Muralla se encuentra en el país de",
+      "La Gran Muralla se halla en el país de",
+      "La Gran Muralla está en el país de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "China"
+    },
+    "hi": {
+     "subject": "चीन की महान दीवार",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "चीन की महान दीवार इस देश में स्थित है:",
+      "चीन की महान दीवार इस देश में है:",
+      "चीन की महान दीवार जिस देश में स्थित है, उसका नाम"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "चीन"
+    }
+   }
+  }
+ ]
+}

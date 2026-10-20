@@ -1,0 +1,38 @@
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   7%|▋         | 20/288 [00:00<00:03, 73.00it/s]Loading weights:  10%|▉         | 28/288 [00:00<00:09, 28.11it/s]Loading weights:  11%|█         | 32/288 [00:01<00:15, 16.71it/s]Loading weights:  14%|█▎        | 39/288 [00:01<00:11, 21.25it/s]Loading weights:  15%|█▍        | 43/288 [00:02<00:18, 13.47it/s]Loading weights:  16%|█▋        | 47/288 [00:02<00:16, 14.83it/s]Loading weights:  18%|█▊        | 53/288 [00:02<00:13, 17.33it/s]Loading weights:  19%|█▉        | 56/288 [00:03<00:18, 12.47it/s]Loading weights:  20%|██        | 58/288 [00:03<00:17, 12.91it/s]Loading weights:  22%|██▏       | 64/288 [00:03<00:14, 15.03it/s]Loading weights:  23%|██▎       | 66/288 [00:04<00:21, 10.40it/s]Loading weights:  24%|██▍       | 70/288 [00:04<00:17, 12.13it/s]Loading weights:  26%|██▌       | 74/288 [00:04<00:18, 11.42it/s]Loading weights:  26%|██▋       | 76/288 [00:05<00:21, 10.01it/s]Loading weights:  27%|██▋       | 78/288 [00:05<00:23,  9.13it/s]Loading weights:  28%|██▊       | 82/288 [00:05<00:18, 10.93it/s]Loading weights:  30%|██▉       | 86/288 [00:06<00:26,  7.72it/s]Loading weights:  31%|███       | 89/288 [00:06<00:21,  9.30it/s]Loading weights:  33%|███▎      | 94/288 [00:06<00:14, 13.33it/s]Loading weights:  34%|███▎      | 97/288 [00:06<00:15, 12.59it/s]Loading weights:  34%|███▍      | 99/288 [00:07<00:20,  9.29it/s]Loading weights:  35%|███▌      | 102/288 [00:07<00:18, 10.16it/s]Loading weights:  38%|███▊      | 108/288 [00:08<00:17, 10.18it/s]Loading weights:  38%|███▊      | 110/288 [00:08<00:18,  9.50it/s]Loading weights:  39%|███▉      | 113/288 [00:09<00:31,  5.63it/s]Loading weights:  44%|████▍     | 126/288 [00:09<00:12, 13.33it/s]Loading weights:  45%|████▌     | 130/288 [00:10<00:15, 10.11it/s]Loading weights:  47%|████▋     | 135/288 [00:10<00:12, 12.63it/s]Loading weights:  48%|████▊     | 138/288 [00:11<00:13, 10.84it/s]Loading weights:  50%|████▉     | 143/288 [00:11<00:13, 10.38it/s]Loading weights:  51%|█████     | 146/288 [00:11<00:12, 11.17it/s]Loading weights:  53%|█████▎    | 153/288 [00:12<00:09, 13.63it/s]Loading weights:  54%|█████▍    | 155/288 [00:12<00:13,  9.57it/s]Loading weights:  55%|█████▌    | 159/288 [00:12<00:10, 12.06it/s]Loading weights:  56%|█████▌    | 161/288 [00:13<00:14,  8.50it/s]Loading weights:  58%|█████▊    | 166/288 [00:13<00:12,  9.58it/s]Loading weights:  58%|█████▊    | 168/288 [00:14<00:11, 10.27it/s]Loading weights:  61%|██████    | 175/288 [00:14<00:10, 10.89it/s]Loading weights:  61%|██████▏   | 177/288 [00:14<00:11,  9.68it/s]Loading weights:  63%|██████▎   | 181/288 [00:15<00:09, 11.80it/s]Loading weights:  64%|██████▍   | 184/288 [00:15<00:10,  9.48it/s]Loading weights:  65%|██████▍   | 186/288 [00:15<00:11,  9.21it/s]Loading weights:  66%|██████▌   | 190/288 [00:16<00:08, 11.93it/s]Loading weights:  67%|██████▋   | 192/288 [00:16<00:07, 12.22it/s]Loading weights:  68%|██████▊   | 196/288 [00:17<00:12,  7.58it/s]Loading weights:  70%|██████▉   | 201/288 [00:17<00:07, 10.89it/s]Loading weights:  70%|███████   | 203/288 [00:17<00:07, 11.84it/s]Loading weights:  72%|███████▏  | 207/288 [00:17<00:08,  9.88it/s]Loading weights:  73%|███████▎  | 209/288 [00:18<00:08,  9.24it/s]Loading weights:  74%|███████▎  | 212/288 [00:18<00:07, 10.42it/s]Loading weights:  76%|███████▌  | 219/288 [00:19<00:08,  8.57it/s]Loading weights:  77%|███████▋  | 223/288 [00:19<00:06, 10.58it/s]Loading weights:  78%|███████▊  | 225/288 [00:20<00:10,  5.88it/s]Loading weights:  82%|████████▏ | 236/288 [00:20<00:04, 11.75it/s]Loading weights:  83%|████████▎ | 240/288 [00:21<00:03, 12.49it/s]Loading weights:  84%|████████▍ | 242/288 [00:21<00:03, 11.60it/s]Loading weights:  85%|████████▍ | 244/288 [00:21<00:04,  9.84it/s]Loading weights:  85%|████████▌ | 246/288 [00:21<00:04, 10.00it/s]Loading weights:  87%|████████▋ | 251/288 [00:22<00:03, 11.65it/s]Loading weights:  88%|████████▊ | 253/288 [00:22<00:04,  7.41it/s]Loading weights:  89%|████████▉ | 257/288 [00:22<00:03, 10.07it/s]Loading weights:  90%|█████████ | 260/288 [00:23<00:04,  6.65it/s]Loading weights:  93%|█████████▎| 268/288 [00:23<00:01, 12.11it/s]Loading weights:  94%|█████████▍| 271/288 [00:24<00:01, 13.76it/s]Loading weights:  95%|█████████▌| 274/288 [00:24<00:01, 10.08it/s]Loading weights:  96%|█████████▌| 277/288 [00:24<00:01,  9.69it/s]Loading weights:  97%|█████████▋| 279/288 [00:25<00:00, 10.08it/s]Loading weights: 100%|██████████| 288/288 [00:25<00:00, 11.42it/s]
+Loaded pretrained model google/gemma-2-2b into HookedTransformer
+capital_country_003 {'en_context/en': (0.55, True), 'en_context/es': (0.77, True), 'en_context/hi': (0.16, False), 'own_context/en': (0.55, True), 'own_context/es': (0.65, True), 'own_context/hi': (0.46, True)}
+capital_country_005 {'en_context/en': (0.44, True), 'en_context/es': (0.41, True), 'en_context/hi': (0.03, False), 'own_context/en': (0.44, True), 'own_context/es': (0.51, True), 'own_context/hi': (0.36, True)}
+capital_country_008 {'en_context/en': (0.61, True), 'en_context/es': (0.75, True), 'en_context/hi': (0.09, False), 'own_context/en': (0.61, True), 'own_context/es': (0.56, True), 'own_context/hi': (0.47, True)}
+capital_country_009 {'en_context/en': (0.31, True), 'en_context/es': (0.48, True), 'en_context/hi': (0.05, False), 'own_context/en': (0.31, True), 'own_context/es': (0.54, True), 'own_context/hi': (0.37, True)}
+capital_of_000 {'en_context/en': (0.55, True), 'en_context/es': (0.08, False), 'en_context/hi': (0.29, True), 'own_context/en': (0.55, True), 'own_context/es': (0.39, True), 'own_context/hi': (0.55, True)}
+capital_of_001 {'en_context/en': (0.52, True), 'en_context/es': (0.07, False), 'en_context/hi': (0.43, True), 'own_context/en': (0.52, True), 'own_context/es': (0.41, True), 'own_context/hi': (0.69, True)}
+capital_of_002 {'en_context/en': (0.62, True), 'en_context/es': (0.03, False), 'en_context/hi': (0.26, True), 'own_context/en': (0.62, True), 'own_context/es': (0.52, True), 'own_context/hi': (0.51, True)}
+event_year_002 {'en_context/en': (0.09, False), 'en_context/es': (0.64, True), 'en_context/hi': (0.73, True), 'own_context/en': (0.09, False), 'own_context/es': (0.07, False), 'own_context/hi': (0.6, True)}
+event_year_007 {'en_context/en': (0.42, False), 'en_context/es': (0.79, True), 'en_context/hi': (0.87, True), 'own_context/en': (0.42, False), 'own_context/es': (0.59, True), 'own_context/hi': (0.71, True)}
+event_year_009 {'en_context/en': (0.31, True), 'en_context/es': (0.77, True), 'en_context/hi': (0.86, True), 'own_context/en': (0.31, True), 'own_context/es': (0.25, False), 'own_context/hi': (0.47, True)}
+{
+ "en_context/en": {
+  "median_dP": 0.4788320358724669,
+  "success_rate": 0.8
+ },
+ "en_context/es": {
+  "median_dP": 0.5606112756191421,
+  "success_rate": 0.7
+ },
+ "en_context/hi": {
+  "median_dP": 0.27485348982013136,
+  "success_rate": 0.6
+ },
+ "own_context/en": {
+  "median_dP": 0.4788320358724669,
+  "success_rate": 0.8
+ },
+ "own_context/es": {
+  "median_dP": 0.5146441614516579,
+  "success_rate": 0.8
+ },
+ "own_context/hi": {
+  "median_dP": 0.49399089345071723,
+  "success_rate": 1.0
+ }
+}
