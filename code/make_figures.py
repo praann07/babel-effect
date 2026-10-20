@@ -71,7 +71,7 @@ def fig_overlap(out: Path) -> None:
         ax.set_title(f"{name} (n={d['en-es']['mlp_cosine']['n']})", fontsize=10)
         ax.set_ylim(0, 0.8)
     axes[0].set_ylabel("MLP-profile cosine")
-    axes[0].legend(frameon=False, fontsize=8, loc="upper right")
+    axes[0].legend(frameon=False, fontsize=8, loc="lower left")
     fig.tight_layout()
     save(fig, out, "fig2_overlap")
 
