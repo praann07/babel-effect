@@ -26,7 +26,7 @@ FIGS = {  # section heading prefix -> [(file, width, caption)]
             ("fig6_sweep_gemma2.png", 1.0, "Gemma-2-2B edit sweep, same layout as Figure~\\ref{fig:sw1}.")],
 }
 SIM = [(">=", "≥"), ("<=", "≤"), ("+/-", "±"), ("->", "→"), (" x pooled", " × pooled"),
-       ("English-Spanish overlap is the only pair that survives the relation-stratified null and correction in both models.", "Table~\\ref{tab:main} gives the pre-registered overlap results and Figures~\\ref{fig:fig1} and~\\ref{fig:fig2} show the profiles and the overlap. English-Spanish overlap is the one result that survives every check."),
+       ("English-Spanish overlap is the only pair that survives the relation-stratified null and correction in both models.", "Table~\\ref{tab:main} gives the pre-registered overlap results and Figures~\\ref{fig:fig1} and~\\ref{fig:fig2} show the profiles and the overlap. English-Spanish overlap is the only pair that survives the relation-stratified null and correction in both models."),
        ("Figure 4, exploratory", "Figure~\\ref{fig:fig4}, exploratory"), ("(Figures 5 and 6)", "(Figures~\\ref{fig:sw1} and~\\ref{fig:sw2})"),
        ("for answers of 7 or more tokens (Llama", "for answers of 7 or more tokens (Figure~\\ref{fig:fig3}; Llama"),
        ("*Conditions (A5).* At the fact's", "*Conditions (A5).* Table~\\ref{tab:edit} lists the three conditions. At the fact's"),
