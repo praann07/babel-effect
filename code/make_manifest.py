@@ -28,6 +28,7 @@ SWT = {"llama": "analysis/run_20261015_p4sweep_llama/sweep_tables.json", "gemma2
 OVA = {"llama": "analysis/run_20261019_p3overlap_v2all_10191057/results.json", "gemma2": "analysis/run_20261020_p3overlap_v2all_10200339/results.json"}
 H8 = {"llama": "analysis/run_20261019_h8_10191057_llama/results.json", "gemma2": "analysis/run_20261019_h8_10191057_gemma2/results.json"}
 INC = {"llama": "analysis/run_20261020_incontext_10200339_llama/summary.json", "gemma2": "analysis/run_20261020_incontext_10200339_gemma2/summary.json"}
+CTL = "analysis/run_20261021_controls/results.json"
 MAN = Path("results/manifest.json")
 
 
@@ -135,6 +136,17 @@ def claims() -> list[dict]:
         c += [(f"f7_llama_{cond}_n", f7, ["conditions", cond, "n"]), (f"f7_llama_{cond}_en_success", f7, ["conditions", cond, "en_success_rate"]),
               (f"f7_llama_{cond}_transfer_es_med", f7, ["conditions", cond, "transfer_es", 0]), (f"f7_llama_{cond}_transfer_hi_med", f7, ["conditions", cond, "transfer_hi", 0]),
               (f"f7_llama_{cond}_specificity_med", f7, ["conditions", cond, "specificity", 0]), (f"f7_llama_{cond}_ppl_med", f7, ["conditions", cond, "ppl_ratio", 0])]
+    for m in ("llama", "gemma2"):  # A11 controls (section 4.6)
+        c += [(f"ctl_{m}_n", CTL, [m, "n"]), (f"ctl_{m}_clusters", CTL, [m, "C3", "n_clusters"]),
+              (f"ctl_{m}_ci_lo", CTL, [m, "C3", "cluster_boot_ci95", 0]), (f"ctl_{m}_ci_hi", CTL, [m, "C3", "cluster_boot_ci95", 1]),
+              (f"ctl_{m}_spearman_sim_cos", CTL, [m, "C2", "spearman_sim_vs_cos", 0]), (f"ctl_{m}_frac_identical", CTL, [m, "C2", "frac_identical_after_norm"])]
+        c += [(f"ctl_{m}_C0_{k}", CTL, [m, "C0", k]) for k in ("same_fact_en_es", "diff_fact_same_rel_en_es", "diff_fact_same_rel_en_en", "diff_fact_same_rel_es_es")]
+        for v in ("C1_uncentred_stratified", "C1_centred_stratified"):
+            c += [(f"ctl_{m}_{v}_{k}", CTL, [m, v, k]) for k in ("median", "null_mean", "z")]
+        for h in ("low", "high"):
+            c.append((f"ctl_{m}_{h}_n", CTL, [m, "C2", h, "n"]))
+            for v in ("uncentred", "centred"):
+                c += [(f"ctl_{m}_{h}_{v}_median", CTL, [m, "C2", h, v, "median"]), (f"ctl_{m}_{h}_{v}_z", CTL, [m, "C2", h, v, "z"])]
     return [{"id": i, "artifact": a, "key_path": k} for i, a, k in c]
 
 

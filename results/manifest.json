@@ -1,5 +1,5 @@
 {
- "n_claims": 537,
+ "n_claims": 589,
  "claims": [
   {
    "id": "n_candidates",
@@ -6178,6 +6178,566 @@
     0
    ],
    "value": 0.999582281012374
+  },
+  {
+   "id": "ctl_llama_n",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "n"
+   ],
+   "value": 126
+  },
+  {
+   "id": "ctl_llama_clusters",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C3",
+    "n_clusters"
+   ],
+   "value": 81
+  },
+  {
+   "id": "ctl_llama_ci_lo",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C3",
+    "cluster_boot_ci95",
+    0
+   ],
+   "value": 0.5956122875213623
+  },
+  {
+   "id": "ctl_llama_ci_hi",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C3",
+    "cluster_boot_ci95",
+    1
+   ],
+   "value": 0.6880472898483276
+  },
+  {
+   "id": "ctl_llama_spearman_sim_cos",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "spearman_sim_vs_cos",
+    0
+   ],
+   "value": 0.2904626921634796
+  },
+  {
+   "id": "ctl_llama_frac_identical",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "frac_identical_after_norm"
+   ],
+   "value": 0.36507936507936506
+  },
+  {
+   "id": "ctl_llama_C0_same_fact_en_es",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C0",
+    "same_fact_en_es"
+   ],
+   "value": 0.570072591304779
+  },
+  {
+   "id": "ctl_llama_C0_diff_fact_same_rel_en_es",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C0",
+    "diff_fact_same_rel_en_es"
+   ],
+   "value": 0.48000654578208923
+  },
+  {
+   "id": "ctl_llama_C0_diff_fact_same_rel_en_en",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C0",
+    "diff_fact_same_rel_en_en"
+   ],
+   "value": 0.6063686013221741
+  },
+  {
+   "id": "ctl_llama_C0_diff_fact_same_rel_es_es",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C0",
+    "diff_fact_same_rel_es_es"
+   ],
+   "value": 0.41337481141090393
+  },
+  {
+   "id": "ctl_llama_C1_uncentred_stratified_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C1_uncentred_stratified",
+    "median"
+   ],
+   "value": 0.6417125463485718
+  },
+  {
+   "id": "ctl_llama_C1_uncentred_stratified_null_mean",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C1_uncentred_stratified",
+    "null_mean"
+   ],
+   "value": 0.5456219911575317
+  },
+  {
+   "id": "ctl_llama_C1_uncentred_stratified_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C1_uncentred_stratified",
+    "z"
+   ],
+   "value": 4.41166877746582
+  },
+  {
+   "id": "ctl_llama_C1_centred_stratified_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C1_centred_stratified",
+    "median"
+   ],
+   "value": 0.28430089354515076
+  },
+  {
+   "id": "ctl_llama_C1_centred_stratified_null_mean",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C1_centred_stratified",
+    "null_mean"
+   ],
+   "value": 0.11295350641012192
+  },
+  {
+   "id": "ctl_llama_C1_centred_stratified_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C1_centred_stratified",
+    "z"
+   ],
+   "value": 3.6064443588256836
+  },
+  {
+   "id": "ctl_llama_low_n",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "low",
+    "n"
+   ],
+   "value": 64
+  },
+  {
+   "id": "ctl_llama_low_uncentred_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "low",
+    "uncentred",
+    "median"
+   ],
+   "value": 0.5679107308387756
+  },
+  {
+   "id": "ctl_llama_low_uncentred_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "low",
+    "uncentred",
+    "z"
+   ],
+   "value": 2.0370097160339355
+  },
+  {
+   "id": "ctl_llama_low_centred_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "low",
+    "centred",
+    "median"
+   ],
+   "value": 0.24421797692775726
+  },
+  {
+   "id": "ctl_llama_low_centred_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "low",
+    "centred",
+    "z"
+   ],
+   "value": 1.4370458126068115
+  },
+  {
+   "id": "ctl_llama_high_n",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "high",
+    "n"
+   ],
+   "value": 62
+  },
+  {
+   "id": "ctl_llama_high_uncentred_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "high",
+    "uncentred",
+    "median"
+   ],
+   "value": 0.7185318470001221
+  },
+  {
+   "id": "ctl_llama_high_uncentred_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "high",
+    "uncentred",
+    "z"
+   ],
+   "value": 4.503702640533447
+  },
+  {
+   "id": "ctl_llama_high_centred_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "high",
+    "centred",
+    "median"
+   ],
+   "value": 0.3050445318222046
+  },
+  {
+   "id": "ctl_llama_high_centred_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "llama",
+    "C2",
+    "high",
+    "centred",
+    "z"
+   ],
+   "value": 3.3637561798095703
+  },
+  {
+   "id": "ctl_gemma2_n",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "n"
+   ],
+   "value": 59
+  },
+  {
+   "id": "ctl_gemma2_clusters",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C3",
+    "n_clusters"
+   ],
+   "value": 56
+  },
+  {
+   "id": "ctl_gemma2_ci_lo",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C3",
+    "cluster_boot_ci95",
+    0
+   ],
+   "value": 0.323148250579834
+  },
+  {
+   "id": "ctl_gemma2_ci_hi",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C3",
+    "cluster_boot_ci95",
+    1
+   ],
+   "value": 0.5360406041145325
+  },
+  {
+   "id": "ctl_gemma2_spearman_sim_cos",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "spearman_sim_vs_cos",
+    0
+   ],
+   "value": 0.22115721800116894
+  },
+  {
+   "id": "ctl_gemma2_frac_identical",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "frac_identical_after_norm"
+   ],
+   "value": 0.11864406779661017
+  },
+  {
+   "id": "ctl_gemma2_C0_same_fact_en_es",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C0",
+    "same_fact_en_es"
+   ],
+   "value": 0.4238344728946686
+  },
+  {
+   "id": "ctl_gemma2_C0_diff_fact_same_rel_en_es",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C0",
+    "diff_fact_same_rel_en_es"
+   ],
+   "value": 0.24192234873771667
+  },
+  {
+   "id": "ctl_gemma2_C0_diff_fact_same_rel_en_en",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C0",
+    "diff_fact_same_rel_en_en"
+   ],
+   "value": 0.2471877485513687
+  },
+  {
+   "id": "ctl_gemma2_C0_diff_fact_same_rel_es_es",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C0",
+    "diff_fact_same_rel_es_es"
+   ],
+   "value": 0.23377415537834167
+  },
+  {
+   "id": "ctl_gemma2_C1_uncentred_stratified_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C1_uncentred_stratified",
+    "median"
+   ],
+   "value": 0.4355236887931824
+  },
+  {
+   "id": "ctl_gemma2_C1_uncentred_stratified_null_mean",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C1_uncentred_stratified",
+    "null_mean"
+   ],
+   "value": 0.32486197352409363
+  },
+  {
+   "id": "ctl_gemma2_C1_uncentred_stratified_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C1_uncentred_stratified",
+    "z"
+   ],
+   "value": 3.2355713844299316
+  },
+  {
+   "id": "ctl_gemma2_C1_centred_stratified_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C1_centred_stratified",
+    "median"
+   ],
+   "value": 0.4098537862300873
+  },
+  {
+   "id": "ctl_gemma2_C1_centred_stratified_null_mean",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C1_centred_stratified",
+    "null_mean"
+   ],
+   "value": 0.08155044913291931
+  },
+  {
+   "id": "ctl_gemma2_C1_centred_stratified_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C1_centred_stratified",
+    "z"
+   ],
+   "value": 5.427934169769287
+  },
+  {
+   "id": "ctl_gemma2_low_n",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "low",
+    "n"
+   ],
+   "value": 30
+  },
+  {
+   "id": "ctl_gemma2_low_uncentred_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "low",
+    "uncentred",
+    "median"
+   ],
+   "value": 0.4002479314804077
+  },
+  {
+   "id": "ctl_gemma2_low_uncentred_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "low",
+    "uncentred",
+    "z"
+   ],
+   "value": 2.801715850830078
+  },
+  {
+   "id": "ctl_gemma2_low_centred_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "low",
+    "centred",
+    "median"
+   ],
+   "value": 0.4579163193702698
+  },
+  {
+   "id": "ctl_gemma2_low_centred_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "low",
+    "centred",
+    "z"
+   ],
+   "value": 3.4178683757781982
+  },
+  {
+   "id": "ctl_gemma2_high_n",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "high",
+    "n"
+   ],
+   "value": 29
+  },
+  {
+   "id": "ctl_gemma2_high_uncentred_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "high",
+    "uncentred",
+    "median"
+   ],
+   "value": 0.49668124318122864
+  },
+  {
+   "id": "ctl_gemma2_high_uncentred_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "high",
+    "uncentred",
+    "z"
+   ],
+   "value": 1.947346568107605
+  },
+  {
+   "id": "ctl_gemma2_high_centred_median",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "high",
+    "centred",
+    "median"
+   ],
+   "value": 0.2906896471977234
+  },
+  {
+   "id": "ctl_gemma2_high_centred_z",
+   "artifact": "analysis/run_20261021_controls/results.json",
+   "key_path": [
+    "gemma2",
+    "C2",
+    "high",
+    "centred",
+    "z"
+   ],
+   "value": 2.6283037662506104
   }
  ]
 }

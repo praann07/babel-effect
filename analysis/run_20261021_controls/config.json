@@ -1,0 +1,18 @@
+{
+ "sets": {
+  "llama": [
+   "analysis/run_20261015_p3trace_v2_llama",
+   "analysis/run_20261019_p3extra_10191057_llama",
+   "data/v2/facts_llama.json",
+   "data/v2/facts_extra_llama.json"
+  ],
+  "gemma2": [
+   "analysis/run_20261015_p3trace_v2c_gemma2",
+   "analysis/run_20261019_p3extra_10191057_gemma2",
+   "data/v2/facts_gemma2.json",
+   "data/v2/facts_extra_gemma2.json"
+  ]
+ },
+ "n_perm": 10000,
+ "amendment": "A11"
+}
