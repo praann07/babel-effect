@@ -94,3 +94,10 @@ Priors come from the causal-tracing literature (Meng et al. 2022, arXiv:2202.052
 - **H9** (EN-ES z > 2 in at least two new or extended relations, Llama): not supported among the pre-registered relations (event_year z = 0.91; the others had < 10 facts). city_country (A9, later) z = 1.96.
 - **F4** (>= 50 non-copyable valid facts): met for Llama (104), not met for Gemma (29).
 - **F3, F7**: descriptive. Gemma F7 did not finish (interrupted); B1-B3 (BLOOM-1b7) and the Llama-3.2-1B pilot have not run.
+
+- **A11 (2026-10-21, after an external review of draft v2 and before any of the following is computed; no new GPU run).** The review argued that the EN-ES overlap may reflect generic profile shape and English/Spanish subject-name overlap rather than fact-specific shared lookup. Controls on the cached traces (Llama: 126 valid facts, main + extra runs; Gemma: 59), code/controls_overlap.py:
+  - **C0 (descriptive).** Mean cosine of the last-subject-token MLP profile for: same fact EN-ES; different fact, same relation, EN-ES; EN-EN and ES-ES different fact, same relation. The fact-specific increment is same-fact minus different-fact EN-ES.
+  - **C1 (centred statistic).** Profiles are centred by subtracting the per-language mean profile over facts; EN-ES median cosine with the relation-stratified null at 10,000 permutations. Prediction: z > 2 in both models.
+  - **C2 (lexical control).** Lexical similarity of the EN and ES subject strings = difflib ratio after accent stripping and lower-casing. Facts split at the median similarity; EN-ES centred and uncentred stratified z within each half; Spearman correlation of similarity with the per-fact EN-ES cosine. Prediction (shared-lookup reading): z > 2 in the LOW-similarity half in both models. If it fails there but holds in the high-similarity half, the lexical explanation is supported and the shared-lookup claim is withdrawn for these data.
+  - **C3 (entity dependence).** Facts sharing an English subject or answer string are clustered (union-find); 95% CI of the median EN-ES cosine by cluster bootstrap (2000 resamples).
+  - Reported whatever the result. This amendment is not edited afterwards.
