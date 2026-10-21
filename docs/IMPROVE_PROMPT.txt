@@ -1,0 +1,27 @@
+You are a senior mechanistic-interpretability researcher and area chair (ACL / EMNLP / ICLR / TMLR) who also mentors students. Earlier you gave a harsh review of "The Babel Effect" (draft v2). I took it seriously. Attached: the REVISED PDF (The_Babel_Effect_draft_v2.pdf, 11 pages). This time I do not want another review. I want a concrete improvement plan I can execute.
+
+CONSTRAINTS (hard)
+- One student, one laptop GPU with 8 GB VRAM, $0 budget, open weights only, about 4 weeks.
+- Models: Llama-3.2-3B-Instruct and Gemma-2-2B (TransformerLens). Small pilots possible: Llama-3.2-1B, BLOOM-1b7.
+- Everything is pre-registered in writing before it is run; raw outputs are never deleted; no number goes in the paper without a manifest entry.
+
+WHAT I CHANGED SINCE YOUR REVIEW
+1. New controls (Section 4.6, pre-registered as amendment A11, run on cached traces, no GPU):
+   - Gemma-2-2B (n=59): same fact EN-ES profile cosine 0.424; different fact 0.242; EN-vs-EN different facts 0.247. After subtracting each language's mean profile, EN-ES alignment is stronger (z=5.43). Low name-similarity half: z=2.80 uncentred, 3.42 centred (n=30). Entity-cluster bootstrap CI [0.323, 0.536].
+   - Llama-3.2-3B (n=126): same fact EN-ES 0.570; different fact 0.480; EN-vs-EN different facts 0.606 (HIGHER than same-fact EN-ES). Centred EN-ES z=3.61. 36.5% of EN/ES subject names are identical; name similarity predicts EN-ES similarity (Spearman 0.29). Low name-similarity half (n=64): z=2.04 uncentred, 1.44 centred, which is below my own pre-registered threshold of 2. Cluster CI [0.596, 0.688].
+2. Softened the abstract, discussion and Section 4.1: evidence is consistent with partly shared EN/ES lookup in Gemma; in Llama it cannot be separated from name overlap; no support for a single language-neutral space.
+3. Not changed yet: the in-context baseline (Llama English 0/10 but Spanish and Hindi 10/10, n=10, looks like a prompt bug), 1000 permutations in the main tables, Fig. 4 tiny buckets, unexplained notation (L//2, A/H codes), uncited references (Dubey, Merity), missing related work, no Llama base-vs-instruct comparison, no English-paraphrase control for the edit, no native-speaker Hindi audit, no external timestamp for the pre-registration.
+
+Other key results for context: H8 phrasing robustness (within-language vs cross-language profile similarity): Llama 0.754 vs 0.609, Gemma 0.741 vs 0.338. Llama rank-1 edit, 20 new facts: English success 0.80 / 0.95 / 0.65 for traced / mid / random layer; ES transfer 0.70 / 0.78; HI 0.005 / 0.105; specificity 0.062 / 0.568 (unstable). Gemma 30-edit follow-up, BLOOM and Llama-1B pilots are not yet run.
+
+WHAT I NEED FROM YOU (be specific; no vague advice)
+1. THE ONE CLAIM. Given the new control results, what is the single claim this paper can defend today, in one sentence? Is it the Gemma EN-ES alignment, the Llama name-overlap finding, the H8 phrasing result, or something else? Which results should be demoted to "exploratory" and which cut entirely?
+2. DEBUG LIST. For each unresolved item in point 3 above, say exactly what to check or change, and how I know it is fixed. Start with the in-context baseline: what are the most likely causes of Llama English 0/10 vs Spanish/Hindi 10/10, and in what order should I test them?
+3. THE TOP 5 EXPERIMENTS, ranked by (change in your verdict) / (cost on an 8 GB laptop GPU). For each: exact design, number of facts needed for adequate power (give a power argument), the pre-registered prediction, what result would move your verdict up, and what result would move it down. Include whether a cleaner design for the "shared vs language-specific" question exists, e.g. a control that removes name overlap entirely (transliterated or invented entities, name-dissimilar subsets, or cross-script pairs), and whether activation patching across languages is better than comparing layer profiles.
+4. METHOD REPAIR. Is per-layer MLP-profile cosine at one token a defensible measure of a "shared circuit"? If not, what replacement statistic can I compute from my existing traces at no GPU cost (centred cosine, partial correlation controlling for relation and layer-depth profile, CKA, rank-based tests, mixed-effects model with fact and relation random effects)? Give the formula or procedure.
+5. RELATED WORK. List the papers I must cite and position against. For each, give title and authors as best you know; if you are not sure it exists, say "not sure" and do NOT invent. I will verify each on arXiv before citing. Say what each one does that I do not, and what I do that it does not.
+6. VENUE AND TIMELINE. Week-by-week plan for 4 weeks with a go / no-go gate at the end of each week, a target venue (workshop vs Findings vs TMLR) and what the paper must contain at each tier.
+7. WHAT TO CUT. If I had to delete 30% of the paper to make the rest stronger, what goes?
+8. REWRITE. A new title and a new abstract of at most 180 words in which every sentence is defensible given the control results above.
+
+Style: numbered lists, short sentences, no encouragement paragraphs, no praise padding. If a plan item depends on a result I do not have yet, give me the decision rule for both outcomes. If you are unsure of a fact, say so.
