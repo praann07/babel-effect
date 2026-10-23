@@ -112,3 +112,62 @@ Priors come from the causal-tracing literature (Meng et al. 2022, arXiv:2202.052
   - **Smallest effect of interest.** One third of Gemma's mean D in S1 (all facts), in the same statistic. "No name-free alignment" is claimed for a model only if the upper 95% bound of the S4 intercept is below this value; a non-significant result alone is not evidence of absence.
   - **Predictions (directions).** Gemma: S1 D > 0 with CI excluding 0 on non-event_year facts and on all facts; S3 effect in the middle band; S4 intercept CI excludes 0. Llama: S4 intercept small, CI includes 0. If Gemma's S1 fails on non-event_year facts (n = 29) it is reported as unresolved at that n, not as absence.
   - **Not covered.** Cross-language interchange patching and name-dissimilar new facts need GPU runs and get their own amendments (A13+) before any data exist. Reported whatever the result; this amendment is not edited afterwards.
+- **A12a (2026-10-23, after an external review of A12 and before any A12 or A12a statistic is computed; CPU only, cached traces, no GPU). A12 is not edited and is run exactly as written; A12a adds analyses and corrects how two of them are read.**
+  - **Why.** Code inspection and numbers already in the manifest show four problems in A12 as written. None of them comes from an A12 result.
+    - (1) The corruption noise is shared across languages. `causal_trace_v2.py` draws the subject noise from the per-fact seed (sha256 of the fact id) for every language and every phrasing. Subject token k therefore gets the same noise row in EN, ES and HI. With subject-first templates and identical names, the EN and ES token prefixes up to the last subject token are identical, so the measured site is computed identically in both languages, apart from sigma.
+    - (2) A12 centres unnormalised profiles. A centred profile then points along the mean profile when the fact's total effect is above average. A correlation of total effects across languages therefore shows up as alignment.
+    - (3) The S4 intercept is evaluated at the reference relation, at log total effect = 0 and at name similarity = 0. This is an extrapolation, and it makes the A12 absence rule unusable.
+    - (4) The A12 smallest effect of interest is defined from Gemma's own D.
+    - Also: the A11 Spearman broke ties by fact order (46 Llama similarities equal 1.0), and the A11 and A12 permutations allow fixed points.
+  - **Seen before writing this.** The A11 results, the per-relation z-values in docs/LOG.md, the code, and the external review's predictions (Q1-Q5 below). No A12 or A12a statistic and no prefix-class count has been computed.
+  - **Sets.** As A12: Llama 126 and Gemma 59 valid facts (trace runs as in `code/controls_overlap.py` SETS), phrasing 0. Relations with < 10 valid facts are merged into "other" (as in A12). These merged labels are the strata for centring, for the different-fact baselines and for the permutations.
+  - **Normalised-centred (NC) profiles.**
+    - p = the MLP-output indirect effect per layer at the last subject token (as in A3/A5).
+    - u = p / ||p||. The NC profile is u minus the mean u of the fact's stratum, per language.
+    - Secondary variant: u − (u·m̂)m̂, where m̂ is the unit stratum mean.
+    - Facts with ||p|| < 1e-8 are excluded and listed.
+  - **Prefix classes (EN vs ES, from the token ids stored in the cached grids).**
+    - IP: identical token ids from BOS up to and including the last subject token.
+    - EQ: not IP, and the two subject spans have the same number of tokens, so the last subject token gets the same noise row.
+    - OT: all other facts.
+    - **Rule fixed now, whatever the counts:** IP facts are uninformative about cross-language sharing by construction. They are excluded from every cross-language claim from now on and reported only descriptively.
+  - **Token-level covariates.** Computed with each model's own tokenizer files; no weights are loaded.
+    - J: Jaccard of the sets of EN and ES subject token pieces (decoded, whitespace stripped, lower-cased, NFKD accents removed, empty pieces dropped).
+    - LT: last subject token id identical.
+    - NR: equal span length, i.e. a shared last-token noise row.
+    - SD: |EN span − ES span| in tokens.
+    - AI: answer strings identical after `matching.norm`.
+    - TE_en, TE_es: log total effect (score_clean − score_corr) in each language, centred at the model mean.
+    - The A12 difflib similarity is kept as a secondary covariate.
+  - **S1a (NC increment).**
+    - D_i = s_ii − mean over same-stratum j ≠ i of s_ij, on NC profiles (the A12 S1 definition).
+    - Report the mean D with a 95% entity-cluster bootstrap CI (A11 clusters, 2000 resamples).
+    - Empirical p from 10,000 within-stratum derangements of the ES profiles (no fixed points): p = (1 + #{null ≥ obs}) / (B + 1).
+    - Sets: (i) **informative = not IP and not event_year (primary)**; (ii) all valid facts; (iii) event_year only; (iv) each prefix class, overall and within each stratum that has ≥ 5 facts in that class.
+  - **S1b (magnitude diagnostic).**
+    - Spearman (average ranks) of TE_en vs TE_es within stratum: ranks demeaned per stratum, with a stratified permutation p.
+    - Mean D on unnormalised relation-centred profiles (A12 S1), reported next to S1a on the same sets.
+  - **S4a (covariate model).** It replaces the coding of A12 S4; A12 S4 is still reported as written.
+    - On informative facts, D_i (NC) is regressed by OLS on J, LT, AI, NR, SD, TE_en, TE_es and stratum (sum-to-zero coding), with entity-cluster robust SEs (CR1).
+    - Target quantity: the predicted D at J = 0, LT = 0, AI = 0, NR = 0, SD = 1, TE at the mean, strata averaged with equal weight. This is "name-free, no shared noise row, non-copyable" alignment.
+    - Report it with a 95% CI from the robust SE, plus a cluster-bootstrap CI as robustness.
+    - Report how many facts have J = 0 and how many have NR = 0. If fewer than 10 facts have J = 0, the target is labelled an extrapolation.
+  - **Corrections of A11 (labelled as such).**
+    - C2 Spearman is recomputed with average ranks and a within-stratum permutation, on raw cosine and on NC D.
+    - C1 is recomputed with derangements.
+    - Both the old and the corrected versions are reported.
+  - **Fixed smallest effect of interest.** δ = 0.05 cosine units of NC D, for both models. It is about half the smallest A11 same-minus-different increment (0.090, Llama) and was chosen without any A12 or A12a number. A12's own SESOI is also reported.
+  - **Decision rules.** Per model, on the two primary quantities (S1a on informative facts and the S4a target), using 97.5% CIs (Bonferroni over 2):
+    - Present: lower bound > 0.
+    - Absent: upper bound < δ.
+    - Unresolved: anything else.
+    - A12a cannot remove shared-noise effects from EQ and OT facts. A "present" verdict is therefore provisional until the independent-seed re-trace (A13a), and it is worded "not explained by prefix identity, profile magnitude or token overlap".
+  - **Predictions (directions, from the review, stated before computing).**
+    - Q1: within the same stratum, mean D is higher for IP than for OT facts in Llama.
+    - Q2: on all valid facts, Gemma's D on NC profiles is smaller than its D on unnormalised centred profiles (A12 S1).
+    - Q3: Gemma S1a on informative facts has a CI that includes 0.
+    - Q4: the Llama S4a target has a CI that includes 0.
+    - Q5: TE_en and TE_es are positively correlated within stratum in both models.
+    - Results against these predictions are reported as such.
+  - **Implementation.** `code/confound_overlap.py` with the flag `--a12a`. Seed 20261023 for the bootstrap and the permutations. Results go to a new write-once run directory, and every reported number enters the manifest. Results are reported whatever they are, and this amendment is not edited afterwards.
+  - **Not covered.** Independent noise seeds per language with averaged noise draws (A13a) and cross-language interchange patching (A13) need GPU runs. Each gets its own amendment before any data exist.
