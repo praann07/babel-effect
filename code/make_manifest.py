@@ -29,6 +29,7 @@ OVA = {"llama": "analysis/run_20261019_p3overlap_v2all_10191057/results.json", "
 H8 = {"llama": "analysis/run_20261019_h8_10191057_llama/results.json", "gemma2": "analysis/run_20261019_h8_10191057_gemma2/results.json"}
 INC = {"llama": "analysis/run_20261020_incontext_10200339_llama/summary.json", "gemma2": "analysis/run_20261020_incontext_10200339_gemma2/summary.json"}
 CTL = "analysis/run_20261021_controls/results.json"
+CF = "analysis/run_20261024_confound_A12a/results.json"
 MAN = Path("results/manifest.json")
 
 
@@ -147,6 +148,22 @@ def claims() -> list[dict]:
             c.append((f"ctl_{m}_{h}_n", CTL, [m, "C2", h, "n"]))
             for v in ("uncentred", "centred"):
                 c += [(f"ctl_{m}_{h}_{v}_median", CTL, [m, "C2", h, v, "median"]), (f"ctl_{m}_{h}_{v}_z", CTL, [m, "C2", h, v, "z"])]
+    for m in ("llama", "gemma2"):  # A12/A12a confound-adjusted analysis (CPU)
+        c += [(f"cf_{m}_n", CF, [m, "n"]), (f"cf_{m}_n_J0", CF, [m, "n_J0"]), (f"cf_{m}_n_NR0", CF, [m, "n_NR0"])]
+        c += [(f"cf_{m}_class_{k}", CF, [m, "prefix_class_counts", k]) for k in ("IP", "EQ", "OT")]
+        for nm in ("all", "informative", "EQ", "OT", "event_year_only", "non_event_year"):
+            for v in ("NC", "raw_centred_A12"):
+                c += [(f"cf_{m}_S1_{nm}_{v}_D", CF, [m, "S1", nm, v, "mean_D"]), (f"cf_{m}_S1_{nm}_{v}_p", CF, [m, "S1", nm, v, "p"])]
+            c += [(f"cf_{m}_S1_{nm}_n", CF, [m, "S1", nm, "NC", "n"]), (f"cf_{m}_S1_{nm}_NC_ci_lo", CF, [m, "S1", nm, "NC", "ci97.5_cluster", 0]),
+                  (f"cf_{m}_S1_{nm}_NC_ci_hi", CF, [m, "S1", nm, "NC", "ci97.5_cluster", 1])]
+        for nm in ("all", "informative"):
+            c += [(f"cf_{m}_retr_{nm}_top1", CF, [m, "S1", nm, "retrieval_NC", "top1"]), (f"cf_{m}_retr_{nm}_chance", CF, [m, "S1", nm, "retrieval_NC", "chance_top1"]),
+                  (f"cf_{m}_retr_{nm}_p", CF, [m, "S1", nm, "retrieval_NC", "p_top1"])]
+        c += [(f"cf_{m}_S4a_pred", CF, [m, "S4a_informative", "target_pred_D"]), (f"cf_{m}_S4a_ci_lo", CF, [m, "S4a_informative", "target_ci97.5", 0]),
+              (f"cf_{m}_S4a_ci_hi", CF, [m, "S4a_informative", "target_ci97.5", 1]), (f"cf_{m}_S4a_n", CF, [m, "S4a_informative", "n"]),
+              (f"cf_{m}_TE_rho", CF, [m, "S1b_TE_spearman_within_stratum", "rho"])]
+        for b in ("early", "middle", "late"):
+            c += [(f"cf_{m}_band_{b}_all_D", CF, [m, "S3_bands", b, "all", "mean_D"]), (f"cf_{m}_band_{b}_inf_D", CF, [m, "S3_bands", b, "informative", "mean_D"])]
     return [{"id": i, "artifact": a, "key_path": k} for i, a, k in c]
 
 

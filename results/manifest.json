@@ -1,5 +1,5 @@
 {
- "n_claims": 589,
+ "n_claims": 719,
  "claims": [
   {
    "id": "n_candidates",
@@ -6738,6 +6738,1544 @@
     "z"
    ],
    "value": 2.6283037662506104
+  },
+  {
+   "id": "cf_llama_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "n"
+   ],
+   "value": 126
+  },
+  {
+   "id": "cf_llama_n_J0",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "n_J0"
+   ],
+   "value": 64
+  },
+  {
+   "id": "cf_llama_n_NR0",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "n_NR0"
+   ],
+   "value": 95
+  },
+  {
+   "id": "cf_llama_class_IP",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "prefix_class_counts",
+    "IP"
+   ],
+   "value": 1
+  },
+  {
+   "id": "cf_llama_class_EQ",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "prefix_class_counts",
+    "EQ"
+   ],
+   "value": 30
+  },
+  {
+   "id": "cf_llama_class_OT",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "prefix_class_counts",
+    "OT"
+   ],
+   "value": 95
+  },
+  {
+   "id": "cf_llama_S1_all_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "all",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.2272905599074586
+  },
+  {
+   "id": "cf_llama_S1_all_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "all",
+    "NC",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_S1_all_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "all",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.23404874291921418
+  },
+  {
+   "id": "cf_llama_S1_all_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "all",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_S1_all_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "all",
+    "NC",
+    "n"
+   ],
+   "value": 126
+  },
+  {
+   "id": "cf_llama_S1_all_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "all",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": 0.15976950949947127
+  },
+  {
+   "id": "cf_llama_S1_all_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "all",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.2974805945039667
+  },
+  {
+   "id": "cf_llama_S1_informative_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "informative",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.2385879509078646
+  },
+  {
+   "id": "cf_llama_S1_informative_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "informative",
+    "NC",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_S1_informative_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "informative",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.25536941145591946
+  },
+  {
+   "id": "cf_llama_S1_informative_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "informative",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_S1_informative_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "informative",
+    "NC",
+    "n"
+   ],
+   "value": 103
+  },
+  {
+   "id": "cf_llama_S1_informative_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "informative",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": 0.16090990834984006
+  },
+  {
+   "id": "cf_llama_S1_informative_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "informative",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.3100046500047692
+  },
+  {
+   "id": "cf_llama_S1_EQ_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "EQ",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.4362437275548776
+  },
+  {
+   "id": "cf_llama_S1_EQ_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "EQ",
+    "NC",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_S1_EQ_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "EQ",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.4541891430815061
+  },
+  {
+   "id": "cf_llama_S1_EQ_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "EQ",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_S1_EQ_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "EQ",
+    "NC",
+    "n"
+   ],
+   "value": 30
+  },
+  {
+   "id": "cf_llama_S1_EQ_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "EQ",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": 0.3137982897169136
+  },
+  {
+   "id": "cf_llama_S1_EQ_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "EQ",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.5573091245877245
+  },
+  {
+   "id": "cf_llama_S1_OT_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "OT",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.14546994666912053
+  },
+  {
+   "id": "cf_llama_S1_OT_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "OT",
+    "NC",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_S1_OT_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "OT",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.12945549111617238
+  },
+  {
+   "id": "cf_llama_S1_OT_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "OT",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 0.0006999300069993001
+  },
+  {
+   "id": "cf_llama_S1_OT_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "OT",
+    "NC",
+    "n"
+   ],
+   "value": 95
+  },
+  {
+   "id": "cf_llama_S1_OT_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "OT",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": 0.06916794136880407
+  },
+  {
+   "id": "cf_llama_S1_OT_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "OT",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.22178658128314935
+  },
+  {
+   "id": "cf_llama_S1_event_year_only_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "event_year_only",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.16005237091502006
+  },
+  {
+   "id": "cf_llama_S1_event_year_only_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "event_year_only",
+    "NC",
+    "p"
+   ],
+   "value": 0.016798320167983202
+  },
+  {
+   "id": "cf_llama_S1_event_year_only_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "event_year_only",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.1298284103077921
+  },
+  {
+   "id": "cf_llama_S1_event_year_only_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "event_year_only",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 0.0627937206279372
+  },
+  {
+   "id": "cf_llama_S1_event_year_only_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "event_year_only",
+    "NC",
+    "n"
+   ],
+   "value": 22
+  },
+  {
+   "id": "cf_llama_S1_event_year_only_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "event_year_only",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": -0.022636308418904346
+  },
+  {
+   "id": "cf_llama_S1_event_year_only_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "event_year_only",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.3512147359973328
+  },
+  {
+   "id": "cf_llama_S1_non_event_year_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "non_event_year",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.24151402296355137
+  },
+  {
+   "id": "cf_llama_S1_non_event_year_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "non_event_year",
+    "NC",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_S1_non_event_year_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "non_event_year",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.2560953517408612
+  },
+  {
+   "id": "cf_llama_S1_non_event_year_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "non_event_year",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_S1_non_event_year_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "non_event_year",
+    "NC",
+    "n"
+   ],
+   "value": 104
+  },
+  {
+   "id": "cf_llama_S1_non_event_year_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "non_event_year",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": 0.16985066194136592
+  },
+  {
+   "id": "cf_llama_S1_non_event_year_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "non_event_year",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.31149674124632626
+  },
+  {
+   "id": "cf_llama_retr_all_top1",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "all",
+    "retrieval_NC",
+    "top1"
+   ],
+   "value": 0.16666666666666666
+  },
+  {
+   "id": "cf_llama_retr_all_chance",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "all",
+    "retrieval_NC",
+    "chance_top1"
+   ],
+   "value": 0.03968253968253968
+  },
+  {
+   "id": "cf_llama_retr_all_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "all",
+    "retrieval_NC",
+    "p_top1"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_retr_informative_top1",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "informative",
+    "retrieval_NC",
+    "top1"
+   ],
+   "value": 0.17475728155339806
+  },
+  {
+   "id": "cf_llama_retr_informative_chance",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "informative",
+    "retrieval_NC",
+    "chance_top1"
+   ],
+   "value": 0.038834951456310676
+  },
+  {
+   "id": "cf_llama_retr_informative_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1",
+    "informative",
+    "retrieval_NC",
+    "p_top1"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_llama_S4a_pred",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S4a_informative",
+    "target_pred_D"
+   ],
+   "value": 0.1266629205377698
+  },
+  {
+   "id": "cf_llama_S4a_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S4a_informative",
+    "target_ci97.5",
+    0
+   ],
+   "value": 0.0031264221512616736
+  },
+  {
+   "id": "cf_llama_S4a_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S4a_informative",
+    "target_ci97.5",
+    1
+   ],
+   "value": 0.25019941892427794
+  },
+  {
+   "id": "cf_llama_S4a_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S4a_informative",
+    "n"
+   ],
+   "value": 103
+  },
+  {
+   "id": "cf_llama_TE_rho",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S1b_TE_spearman_within_stratum",
+    "rho"
+   ],
+   "value": 0.19645207439198856
+  },
+  {
+   "id": "cf_llama_band_early_all_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S3_bands",
+    "early",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.21044565995209039
+  },
+  {
+   "id": "cf_llama_band_early_inf_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S3_bands",
+    "early",
+    "informative",
+    "mean_D"
+   ],
+   "value": 0.21548886675821635
+  },
+  {
+   "id": "cf_llama_band_middle_all_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S3_bands",
+    "middle",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.3504846607767312
+  },
+  {
+   "id": "cf_llama_band_middle_inf_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S3_bands",
+    "middle",
+    "informative",
+    "mean_D"
+   ],
+   "value": 0.3512811472196385
+  },
+  {
+   "id": "cf_llama_band_late_all_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S3_bands",
+    "late",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.4386980167870957
+  },
+  {
+   "id": "cf_llama_band_late_inf_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "llama",
+    "S3_bands",
+    "late",
+    "informative",
+    "mean_D"
+   ],
+   "value": 0.5444707921480091
+  },
+  {
+   "id": "cf_gemma2_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "n"
+   ],
+   "value": 59
+  },
+  {
+   "id": "cf_gemma2_n_J0",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "n_J0"
+   ],
+   "value": 38
+  },
+  {
+   "id": "cf_gemma2_n_NR0",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "n_NR0"
+   ],
+   "value": 35
+  },
+  {
+   "id": "cf_gemma2_class_IP",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "prefix_class_counts",
+    "IP"
+   ],
+   "value": 4
+  },
+  {
+   "id": "cf_gemma2_class_EQ",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "prefix_class_counts",
+    "EQ"
+   ],
+   "value": 20
+  },
+  {
+   "id": "cf_gemma2_class_OT",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "prefix_class_counts",
+    "OT"
+   ],
+   "value": 35
+  },
+  {
+   "id": "cf_gemma2_S1_all_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "all",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.21924692455489755
+  },
+  {
+   "id": "cf_gemma2_S1_all_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "all",
+    "NC",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_gemma2_S1_all_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "all",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.21271546898504434
+  },
+  {
+   "id": "cf_gemma2_S1_all_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "all",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_gemma2_S1_all_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "all",
+    "NC",
+    "n"
+   ],
+   "value": 59
+  },
+  {
+   "id": "cf_gemma2_S1_all_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "all",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": 0.10820900520413704
+  },
+  {
+   "id": "cf_gemma2_S1_all_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "all",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.3298367068270158
+  },
+  {
+   "id": "cf_gemma2_S1_informative_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "informative",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.11810758620500565
+  },
+  {
+   "id": "cf_gemma2_S1_informative_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "informative",
+    "NC",
+    "p"
+   ],
+   "value": 0.004199580041995801
+  },
+  {
+   "id": "cf_gemma2_S1_informative_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "informative",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.04676486909389496
+  },
+  {
+   "id": "cf_gemma2_S1_informative_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "informative",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 0.22367763223677634
+  },
+  {
+   "id": "cf_gemma2_S1_informative_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "informative",
+    "NC",
+    "n"
+   ],
+   "value": 25
+  },
+  {
+   "id": "cf_gemma2_S1_informative_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "informative",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": -0.016117875436789025
+  },
+  {
+   "id": "cf_gemma2_S1_informative_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "informative",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.27460673206485814
+  },
+  {
+   "id": "cf_gemma2_S1_EQ_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "EQ",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.4924617864583668
+  },
+  {
+   "id": "cf_gemma2_S1_EQ_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "EQ",
+    "NC",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_gemma2_S1_EQ_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "EQ",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.5315836668014526
+  },
+  {
+   "id": "cf_gemma2_S1_EQ_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "EQ",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_gemma2_S1_EQ_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "EQ",
+    "NC",
+    "n"
+   ],
+   "value": 19
+  },
+  {
+   "id": "cf_gemma2_S1_EQ_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "EQ",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": 0.3752846568234657
+  },
+  {
+   "id": "cf_gemma2_S1_EQ_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "EQ",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.6030140222295335
+  },
+  {
+   "id": "cf_gemma2_S1_OT_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "OT",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.0022332579961844854
+  },
+  {
+   "id": "cf_gemma2_S1_OT_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "OT",
+    "NC",
+    "p"
+   ],
+   "value": 0.48295170482951705
+  },
+  {
+   "id": "cf_gemma2_S1_OT_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "OT",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": -0.026647501225982393
+  },
+  {
+   "id": "cf_gemma2_S1_OT_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "OT",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 0.706029397060294
+  },
+  {
+   "id": "cf_gemma2_S1_OT_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "OT",
+    "NC",
+    "n"
+   ],
+   "value": 35
+  },
+  {
+   "id": "cf_gemma2_S1_OT_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "OT",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": -0.10464976262399094
+  },
+  {
+   "id": "cf_gemma2_S1_OT_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "OT",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.11401155146930617
+  },
+  {
+   "id": "cf_gemma2_S1_event_year_only_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "event_year_only",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.23867585447927317
+  },
+  {
+   "id": "cf_gemma2_S1_event_year_only_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "event_year_only",
+    "NC",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_gemma2_S1_event_year_only_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "event_year_only",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.29411710761487486
+  },
+  {
+   "id": "cf_gemma2_S1_event_year_only_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "event_year_only",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_gemma2_S1_event_year_only_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "event_year_only",
+    "NC",
+    "n"
+   ],
+   "value": 30
+  },
+  {
+   "id": "cf_gemma2_S1_event_year_only_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "event_year_only",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": 0.08512060427262137
+  },
+  {
+   "id": "cf_gemma2_S1_event_year_only_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "event_year_only",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.3927461250203973
+  },
+  {
+   "id": "cf_gemma2_S1_non_event_year_NC_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "non_event_year",
+    "NC",
+    "mean_D"
+   ],
+   "value": 0.19914803152968144
+  },
+  {
+   "id": "cf_gemma2_S1_non_event_year_NC_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "non_event_year",
+    "NC",
+    "p"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_gemma2_S1_non_event_year_raw_centred_A12_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "non_event_year",
+    "raw_centred_A12",
+    "mean_D"
+   ],
+   "value": 0.1285068772990128
+  },
+  {
+   "id": "cf_gemma2_S1_non_event_year_raw_centred_A12_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "non_event_year",
+    "raw_centred_A12",
+    "p"
+   ],
+   "value": 0.012098790120987902
+  },
+  {
+   "id": "cf_gemma2_S1_non_event_year_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "non_event_year",
+    "NC",
+    "n"
+   ],
+   "value": 29
+  },
+  {
+   "id": "cf_gemma2_S1_non_event_year_NC_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "non_event_year",
+    "NC",
+    "ci97.5_cluster",
+    0
+   ],
+   "value": 0.051951163476493596
+  },
+  {
+   "id": "cf_gemma2_S1_non_event_year_NC_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "non_event_year",
+    "NC",
+    "ci97.5_cluster",
+    1
+   ],
+   "value": 0.35202380517943105
+  },
+  {
+   "id": "cf_gemma2_retr_all_top1",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "all",
+    "retrieval_NC",
+    "top1"
+   ],
+   "value": 0.288135593220339
+  },
+  {
+   "id": "cf_gemma2_retr_all_chance",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "all",
+    "retrieval_NC",
+    "chance_top1"
+   ],
+   "value": 0.06779661016949153
+  },
+  {
+   "id": "cf_gemma2_retr_all_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "all",
+    "retrieval_NC",
+    "p_top1"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_gemma2_retr_informative_top1",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "informative",
+    "retrieval_NC",
+    "top1"
+   ],
+   "value": 0.36
+  },
+  {
+   "id": "cf_gemma2_retr_informative_chance",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "informative",
+    "retrieval_NC",
+    "chance_top1"
+   ],
+   "value": 0.12
+  },
+  {
+   "id": "cf_gemma2_retr_informative_p",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1",
+    "informative",
+    "retrieval_NC",
+    "p_top1"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "cf_gemma2_S4a_pred",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S4a_informative",
+    "target_pred_D"
+   ],
+   "value": -0.02504512361400505
+  },
+  {
+   "id": "cf_gemma2_S4a_ci_lo",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S4a_informative",
+    "target_ci97.5",
+    0
+   ],
+   "value": -0.24788780518376877
+  },
+  {
+   "id": "cf_gemma2_S4a_ci_hi",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S4a_informative",
+    "target_ci97.5",
+    1
+   ],
+   "value": 0.19779755795575868
+  },
+  {
+   "id": "cf_gemma2_S4a_n",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S4a_informative",
+    "n"
+   ],
+   "value": 25
+  },
+  {
+   "id": "cf_gemma2_TE_rho",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S1b_TE_spearman_within_stratum",
+    "rho"
+   ],
+   "value": 0.7367261069925867
+  },
+  {
+   "id": "cf_gemma2_band_early_all_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S3_bands",
+    "early",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.2081346104584508
+  },
+  {
+   "id": "cf_gemma2_band_early_inf_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S3_bands",
+    "early",
+    "informative",
+    "mean_D"
+   ],
+   "value": 0.09910538583993912
+  },
+  {
+   "id": "cf_gemma2_band_middle_all_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S3_bands",
+    "middle",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.18580562233040898
+  },
+  {
+   "id": "cf_gemma2_band_middle_inf_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S3_bands",
+    "middle",
+    "informative",
+    "mean_D"
+   ],
+   "value": 0.031722192764282224
+  },
+  {
+   "id": "cf_gemma2_band_late_all_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S3_bands",
+    "late",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.17223236514097554
+  },
+  {
+   "id": "cf_gemma2_band_late_inf_D",
+   "artifact": "analysis/run_20261024_confound_A12a/results.json",
+   "key_path": [
+    "gemma2",
+    "S3_bands",
+    "late",
+    "informative",
+    "mean_D"
+   ],
+   "value": 0.11138906344771385
   }
  ]
 }
