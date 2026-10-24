@@ -1,0 +1,6 @@
+{
+ "llama_run": "analysis/run_20261024_p3seeds_10240109_llama",
+ "gemma_run": "analysis/run_20261024_p3seeds_10240109_gemma2",
+ "tag": "seeds_covariates_A13b",
+ "amendment": "A13b"
+}
