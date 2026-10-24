@@ -1,0 +1,805 @@
+{
+ "model": "google/gemma-2-2b",
+ "templates": {
+  "capital_of": [
+   "The capital of {s} is",
+   "La capital de {s} es la ciudad de"
+  ],
+  "capital_country": [
+   "The country whose capital is {s} is",
+   "El país cuya capital es {s} es"
+  ],
+  "landmark_city": [
+   "The city where {s} is located is",
+   "La ciudad donde está {s} es"
+  ],
+  "landmark_country": [
+   "The country where {s} is located is",
+   "El país donde está {s} es"
+  ],
+  "city_country": [
+   "The country where {s} is located is",
+   "El país donde está {s} es"
+  ]
+ },
+ "summary": {
+  "capital_country": {
+   "tune_n": 30,
+   "tune_en": 30,
+   "tune_es": 5,
+   "eval_n": 95,
+   "eval_both": 25,
+   "template_ok": false
+  },
+  "capital_of": {
+   "tune_n": 30,
+   "tune_en": 4,
+   "tune_es": 22,
+   "eval_n": 95,
+   "eval_both": 36,
+   "template_ok": false
+  },
+  "city_country": {
+   "tune_n": 30,
+   "tune_en": 16,
+   "tune_es": 18,
+   "eval_n": 45,
+   "eval_both": 27,
+   "template_ok": true
+  },
+  "landmark_city": {
+   "tune_n": 30,
+   "tune_en": 27,
+   "tune_es": 15,
+   "eval_n": 51,
+   "eval_both": 8,
+   "template_ok": true
+  },
+  "landmark_country": {
+   "tune_n": 30,
+   "tune_en": 24,
+   "tune_es": 12,
+   "eval_n": 51,
+   "eval_both": 16,
+   "template_ok": false
+  }
+ },
+ "n_kept": 35,
+ "facts": [
+  {
+   "id": "city_country_030",
+   "relation": "city_country",
+   "seed": 2028254763,
+   "lang": {
+    "en": {
+     "subject": "Brisbane",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "The country where Brisbane is located is",
+     "target": "Australia"
+    },
+    "es": {
+     "subject": "Brisbane",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "El país donde está Brisbane es",
+     "target": "Australia"
+    }
+   }
+  },
+  {
+   "id": "city_country_031",
+   "relation": "city_country",
+   "seed": 2117191724,
+   "lang": {
+    "en": {
+     "subject": "Perth",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "The country where Perth is located is",
+     "target": "Australia"
+    },
+    "es": {
+     "subject": "Perth",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "El país donde está Perth es",
+     "target": "Australia"
+    }
+   }
+  },
+  {
+   "id": "city_country_032",
+   "relation": "city_country",
+   "seed": 488515214,
+   "lang": {
+    "en": {
+     "subject": "Toronto",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "The country where Toronto is located is",
+     "target": "Canada"
+    },
+    "es": {
+     "subject": "Toronto",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompt": "El país donde está Toronto es",
+     "target": "Canadá"
+    }
+   }
+  },
+  {
+   "id": "city_country_033",
+   "relation": "city_country",
+   "seed": 1066016499,
+   "lang": {
+    "en": {
+     "subject": "Vancouver",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "The country where Vancouver is located is",
+     "target": "Canada"
+    },
+    "es": {
+     "subject": "Vancouver",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompt": "El país donde está Vancouver es",
+     "target": "Canadá"
+    }
+   }
+  },
+  {
+   "id": "city_country_034",
+   "relation": "city_country",
+   "seed": 33814939,
+   "lang": {
+    "en": {
+     "subject": "Montreal",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "The country where Montreal is located is",
+     "target": "Canada"
+    },
+    "es": {
+     "subject": "Montreal",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompt": "El país donde está Montreal es",
+     "target": "Canadá"
+    }
+   }
+  },
+  {
+   "id": "city_country_043",
+   "relation": "city_country",
+   "seed": 1086766568,
+   "lang": {
+    "en": {
+     "subject": "Rio de Janeiro",
+     "object": "Brazil",
+     "object_alts": [],
+     "prompt": "The country where Rio de Janeiro is located is",
+     "target": "Brazil"
+    },
+    "es": {
+     "subject": "Río de Janeiro",
+     "object": "Brasil",
+     "object_alts": [],
+     "prompt": "El país donde está Río de Janeiro es",
+     "target": "Brasil"
+    }
+   }
+  },
+  {
+   "id": "city_country_044",
+   "relation": "city_country",
+   "seed": 1982949192,
+   "lang": {
+    "en": {
+     "subject": "São Paulo",
+     "object": "Brazil",
+     "object_alts": [],
+     "prompt": "The country where São Paulo is located is",
+     "target": "Brazil"
+    },
+    "es": {
+     "subject": "São Paulo",
+     "object": "Brasil",
+     "object_alts": [],
+     "prompt": "El país donde está São Paulo es",
+     "target": "Brasil"
+    }
+   }
+  },
+  {
+   "id": "city_country_045",
+   "relation": "city_country",
+   "seed": 734995139,
+   "lang": {
+    "en": {
+     "subject": "Shanghai",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "The country where Shanghai is located is",
+     "target": "China"
+    },
+    "es": {
+     "subject": "Shanghái",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "El país donde está Shanghái es",
+     "target": "China"
+    }
+   }
+  },
+  {
+   "id": "city_country_047",
+   "relation": "city_country",
+   "seed": 9725991,
+   "lang": {
+    "en": {
+     "subject": "Shenzhen",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "The country where Shenzhen is located is",
+     "target": "China"
+    },
+    "es": {
+     "subject": "Shenzhen",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "El país donde está Shenzhen es",
+     "target": "China"
+    }
+   }
+  },
+  {
+   "id": "city_country_049",
+   "relation": "city_country",
+   "seed": 1900766124,
+   "lang": {
+    "en": {
+     "subject": "Osaka",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "The country where Osaka is located is",
+     "target": "Japan"
+    },
+    "es": {
+     "subject": "Osaka",
+     "object": "Japón",
+     "object_alts": [],
+     "prompt": "El país donde está Osaka es",
+     "target": "Japón"
+    }
+   }
+  },
+  {
+   "id": "city_country_051",
+   "relation": "city_country",
+   "seed": 1234914066,
+   "lang": {
+    "en": {
+     "subject": "Yokohama",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "The country where Yokohama is located is",
+     "target": "Japan"
+    },
+    "es": {
+     "subject": "Yokohama",
+     "object": "Japón",
+     "object_alts": [],
+     "prompt": "El país donde está Yokohama es",
+     "target": "Japón"
+    }
+   }
+  },
+  {
+   "id": "city_country_052",
+   "relation": "city_country",
+   "seed": 1979530094,
+   "lang": {
+    "en": {
+     "subject": "Busan",
+     "object": "South Korea",
+     "object_alts": [],
+     "prompt": "The country where Busan is located is",
+     "target": "South Korea"
+    },
+    "es": {
+     "subject": "Busan",
+     "object": "Corea del Sur",
+     "object_alts": [],
+     "prompt": "El país donde está Busan es",
+     "target": "Corea del Sur"
+    }
+   }
+  },
+  {
+   "id": "city_country_053",
+   "relation": "city_country",
+   "seed": 955652159,
+   "lang": {
+    "en": {
+     "subject": "Karachi",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "The country where Karachi is located is",
+     "target": "Pakistan"
+    },
+    "es": {
+     "subject": "Karachi",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompt": "El país donde está Karachi es",
+     "target": "Pakistán"
+    }
+   }
+  },
+  {
+   "id": "city_country_054",
+   "relation": "city_country",
+   "seed": 1480100747,
+   "lang": {
+    "en": {
+     "subject": "Lahore",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "The country where Lahore is located is",
+     "target": "Pakistan"
+    },
+    "es": {
+     "subject": "Lahore",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompt": "El país donde está Lahore es",
+     "target": "Pakistán"
+    }
+   }
+  },
+  {
+   "id": "city_country_055",
+   "relation": "city_country",
+   "seed": 1896006697,
+   "lang": {
+    "en": {
+     "subject": "Alexandria",
+     "object": "Egypt",
+     "object_alts": [],
+     "prompt": "The country where Alexandria is located is",
+     "target": "Egypt"
+    },
+    "es": {
+     "subject": "Alejandría",
+     "object": "Egipto",
+     "object_alts": [],
+     "prompt": "El país donde está Alejandría es",
+     "target": "Egipto"
+    }
+   }
+  },
+  {
+   "id": "city_country_056",
+   "relation": "city_country",
+   "seed": 1822357181,
+   "lang": {
+    "en": {
+     "subject": "Casablanca",
+     "object": "Morocco",
+     "object_alts": [],
+     "prompt": "The country where Casablanca is located is",
+     "target": "Morocco"
+    },
+    "es": {
+     "subject": "Casablanca",
+     "object": "Marruecos",
+     "object_alts": [],
+     "prompt": "El país donde está Casablanca es",
+     "target": "Marruecos"
+    }
+   }
+  },
+  {
+   "id": "city_country_060",
+   "relation": "city_country",
+   "seed": 983796059,
+   "lang": {
+    "en": {
+     "subject": "Saint Petersburg",
+     "object": "Russia",
+     "object_alts": [],
+     "prompt": "The country where Saint Petersburg is located is",
+     "target": "Russia"
+    },
+    "es": {
+     "subject": "San Petersburgo",
+     "object": "Rusia",
+     "object_alts": [],
+     "prompt": "El país donde está San Petersburgo es",
+     "target": "Rusia"
+    }
+   }
+  },
+  {
+   "id": "city_country_061",
+   "relation": "city_country",
+   "seed": 2016871018,
+   "lang": {
+    "en": {
+     "subject": "Kraków",
+     "object": "Poland",
+     "object_alts": [],
+     "prompt": "The country where Kraków is located is",
+     "target": "Poland"
+    },
+    "es": {
+     "subject": "Cracovia",
+     "object": "Polonia",
+     "object_alts": [],
+     "prompt": "El país donde está Cracovia es",
+     "target": "Polonia"
+    }
+   }
+  },
+  {
+   "id": "city_country_062",
+   "relation": "city_country",
+   "seed": 1426215726,
+   "lang": {
+    "en": {
+     "subject": "Porto",
+     "object": "Portugal",
+     "object_alts": [],
+     "prompt": "The country where Porto is located is",
+     "target": "Portugal"
+    },
+    "es": {
+     "subject": "Oporto",
+     "object": "Portugal",
+     "object_alts": [],
+     "prompt": "El país donde está Oporto es",
+     "target": "Portugal"
+    }
+   }
+  },
+  {
+   "id": "city_country_063",
+   "relation": "city_country",
+   "seed": 117606394,
+   "lang": {
+    "en": {
+     "subject": "Zurich",
+     "object": "Switzerland",
+     "object_alts": [],
+     "prompt": "The country where Zurich is located is",
+     "target": "Switzerland"
+    },
+    "es": {
+     "subject": "Zúrich",
+     "object": "Suiza",
+     "object_alts": [],
+     "prompt": "El país donde está Zúrich es",
+     "target": "Suiza"
+    }
+   }
+  },
+  {
+   "id": "city_country_064",
+   "relation": "city_country",
+   "seed": 286991732,
+   "lang": {
+    "en": {
+     "subject": "Geneva",
+     "object": "Switzerland",
+     "object_alts": [],
+     "prompt": "The country where Geneva is located is",
+     "target": "Switzerland"
+    },
+    "es": {
+     "subject": "Ginebra",
+     "object": "Suiza",
+     "object_alts": [],
+     "prompt": "El país donde está Ginebra es",
+     "target": "Suiza"
+    }
+   }
+  },
+  {
+   "id": "city_country_065",
+   "relation": "city_country",
+   "seed": 586742209,
+   "lang": {
+    "en": {
+     "subject": "Gothenburg",
+     "object": "Sweden",
+     "object_alts": [],
+     "prompt": "The country where Gothenburg is located is",
+     "target": "Sweden"
+    },
+    "es": {
+     "subject": "Gotemburgo",
+     "object": "Suecia",
+     "object_alts": [],
+     "prompt": "El país donde está Gotemburgo es",
+     "target": "Suecia"
+    }
+   }
+  },
+  {
+   "id": "city_country_066",
+   "relation": "city_country",
+   "seed": 1277977584,
+   "lang": {
+    "en": {
+     "subject": "Bergen",
+     "object": "Norway",
+     "object_alts": [],
+     "prompt": "The country where Bergen is located is",
+     "target": "Norway"
+    },
+    "es": {
+     "subject": "Bergen",
+     "object": "Noruega",
+     "object_alts": [],
+     "prompt": "El país donde está Bergen es",
+     "target": "Noruega"
+    }
+   }
+  },
+  {
+   "id": "city_country_067",
+   "relation": "city_country",
+   "seed": 1832880020,
+   "lang": {
+    "en": {
+     "subject": "Salzburg",
+     "object": "Austria",
+     "object_alts": [],
+     "prompt": "The country where Salzburg is located is",
+     "target": "Austria"
+    },
+    "es": {
+     "subject": "Salzburgo",
+     "object": "Austria",
+     "object_alts": [],
+     "prompt": "El país donde está Salzburgo es",
+     "target": "Austria"
+    }
+   }
+  },
+  {
+   "id": "city_country_068",
+   "relation": "city_country",
+   "seed": 515752186,
+   "lang": {
+    "en": {
+     "subject": "Antwerp",
+     "object": "Belgium",
+     "object_alts": [],
+     "prompt": "The country where Antwerp is located is",
+     "target": "Belgium"
+    },
+    "es": {
+     "subject": "Amberes",
+     "object": "Bélgica",
+     "object_alts": [],
+     "prompt": "El país donde está Amberes es",
+     "target": "Bélgica"
+    }
+   }
+  },
+  {
+   "id": "city_country_070",
+   "relation": "city_country",
+   "seed": 1446884130,
+   "lang": {
+    "en": {
+     "subject": "Guadalajara",
+     "object": "Mexico",
+     "object_alts": [],
+     "prompt": "The country where Guadalajara is located is",
+     "target": "Mexico"
+    },
+    "es": {
+     "subject": "Guadalajara",
+     "object": "México",
+     "object_alts": [],
+     "prompt": "El país donde está Guadalajara es",
+     "target": "México"
+    }
+   }
+  },
+  {
+   "id": "city_country_071",
+   "relation": "city_country",
+   "seed": 189431841,
+   "lang": {
+    "en": {
+     "subject": "Medellín",
+     "object": "Colombia",
+     "object_alts": [],
+     "prompt": "The country where Medellín is located is",
+     "target": "Colombia"
+    },
+    "es": {
+     "subject": "Medellín",
+     "object": "Colombia",
+     "object_alts": [],
+     "prompt": "El país donde está Medellín es",
+     "target": "Colombia"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_031",
+   "relation": "landmark_city",
+   "seed": 162762104,
+   "lang": {
+    "en": {
+     "subject": "Tower Bridge",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The city where Tower Bridge is located is",
+     "target": "London"
+    },
+    "es": {
+     "subject": "el Tower Bridge",
+     "object": "Londres",
+     "object_alts": [],
+     "prompt": "La ciudad donde está el Tower Bridge es",
+     "target": "Londres"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_032",
+   "relation": "landmark_city",
+   "seed": 240782083,
+   "lang": {
+    "en": {
+     "subject": "Times Square",
+     "object": "New York",
+     "object_alts": [],
+     "prompt": "The city where Times Square is located is",
+     "target": "New York"
+    },
+    "es": {
+     "subject": "Times Square",
+     "object": "Nueva York",
+     "object_alts": [],
+     "prompt": "La ciudad donde está Times Square es",
+     "target": "Nueva York"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_035",
+   "relation": "landmark_city",
+   "seed": 1105405494,
+   "lang": {
+    "en": {
+     "subject": "the Hawa Mahal",
+     "object": "Jaipur",
+     "object_alts": [],
+     "prompt": "The city where the Hawa Mahal is located is",
+     "target": "Jaipur"
+    },
+    "es": {
+     "subject": "el Hawa Mahal",
+     "object": "Jaipur",
+     "object_alts": [],
+     "prompt": "La ciudad donde está el Hawa Mahal es",
+     "target": "Jaipur"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_037",
+   "relation": "landmark_city",
+   "seed": 1925296081,
+   "lang": {
+    "en": {
+     "subject": "the Meenakshi Temple",
+     "object": "Madurai",
+     "object_alts": [],
+     "prompt": "The city where the Meenakshi Temple is located is",
+     "target": "Madurai"
+    },
+    "es": {
+     "subject": "el Templo de Meenakshi",
+     "object": "Madurai",
+     "object_alts": [],
+     "prompt": "La ciudad donde está el Templo de Meenakshi es",
+     "target": "Madurai"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_045",
+   "relation": "landmark_city",
+   "seed": 615626336,
+   "lang": {
+    "en": {
+     "subject": "the Parthenon",
+     "object": "Athens",
+     "object_alts": [],
+     "prompt": "The city where the Parthenon is located is",
+     "target": "Athens"
+    },
+    "es": {
+     "subject": "el Partenón",
+     "object": "Atenas",
+     "object_alts": [],
+     "prompt": "La ciudad donde está el Partenón es",
+     "target": "Atenas"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_047",
+   "relation": "landmark_city",
+   "seed": 1489957892,
+   "lang": {
+    "en": {
+     "subject": "the Tower of London",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The city where the Tower of London is located is",
+     "target": "London"
+    },
+    "es": {
+     "subject": "la Torre de Londres",
+     "object": "Londres",
+     "object_alts": [],
+     "prompt": "La ciudad donde está la Torre de Londres es",
+     "target": "Londres"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_052",
+   "relation": "landmark_city",
+   "seed": 710483160,
+   "lang": {
+    "en": {
+     "subject": "the Park Güell",
+     "object": "Barcelona",
+     "object_alts": [],
+     "prompt": "The city where the Park Güell is located is",
+     "target": "Barcelona"
+    },
+    "es": {
+     "subject": "el Parque Güell",
+     "object": "Barcelona",
+     "object_alts": [],
+     "prompt": "La ciudad donde está el Parque Güell es",
+     "target": "Barcelona"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_068",
+   "relation": "landmark_city",
+   "seed": 1333619482,
+   "lang": {
+    "en": {
+     "subject": "Angkor Wat",
+     "object": "Siem Reap",
+     "object_alts": [],
+     "prompt": "The city where Angkor Wat is located is",
+     "target": "Siem Reap"
+    },
+    "es": {
+     "subject": "Angkor Wat",
+     "object": "Siem Reap",
+     "object_alts": [],
+     "prompt": "La ciudad donde está Angkor Wat es",
+     "target": "Siem Reap"
+    }
+   }
+  }
+ ]
+}

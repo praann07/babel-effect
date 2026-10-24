@@ -24,6 +24,16 @@ TEMPLATES = {  # fixed in docs/HYPOTHESIS.md A13 before this was run
     "landmark_country": ("The country where {s} is located is", "El país donde está {s} es"),
     "city_country": ("The country where {s} is located is", "El país donde está {s} es"),
 }
+CANDS = {  # A13c: candidate templates per relation and language (first = the A13 template); used with --select (Gemma only)
+    "capital_of": (["The capital of {s} is", "The capital of {s} is the city of", "The capital city of {s} is called"], ["La capital de {s} es la ciudad de", "La capital de {s} se llama"]),
+    "capital_country": (["The country whose capital is {s} is", "The country whose capital is {s} is called", "The country with the capital city {s} is called"],
+                        ["El país cuya capital es {s} es", "El país cuya capital es {s} se llama"]),
+    "landmark_city": (["The city where {s} is located is", "The city where {s} is located is called", "You can visit {s} in the city of"],
+                      ["La ciudad donde está {s} es", "Se puede visitar {s} en la ciudad de", "La ciudad donde está {s} se llama"]),
+    "landmark_country": (["The country where {s} is located is", "The country where {s} is located is called", "You can visit {s} in the country of"],
+                         ["El país donde está {s} es", "El país donde está {s} se llama", "Se puede visitar {s} en el país de"]),
+}
+CANDS["city_country"] = CANDS["landmark_country"]
 POOLS = {"llama": ["data/v2/facts_candidates.json", "data/v2/facts_candidates_extra_llama.json"],
          "gemma2": ["data/v2/facts_candidates_gemma2.json", "data/v2/facts_candidates_extra_gemma2.json"]}
 N_TUNE = 30
@@ -33,6 +43,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True, choices=["llama", "gemma2"])
     ap.add_argument("--tag", default="e2filter")
+    ap.add_argument("--select", action="store_true", help="A13c: select templates per relation/language on the tuning facts")
     a = ap.parse_args()
     spec = MODELS[a.model]
     run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}_{a.model}"
@@ -41,6 +52,19 @@ def main() -> None:
     cands.sort(key=lambda f: (f["relation"], f["id"]))
     tok = AutoTokenizer.from_pretrained(spec["dir"]); tok.padding_side = "left"; tok.pad_token = tok.pad_token or tok.eos_token
     model = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=torch.bfloat16, attn_implementation="eager").to("cuda").eval()
+    if a.select:
+        tmpl: dict = {}
+        for r in TEMPLATES:
+            fs = [f for f in cands if f["relation"] == r][:N_TUNE]
+            for k, lg in enumerate(("en", "es")):
+                accs = []
+                for tp in CANDS[r][k]:
+                    g = generate(model, tok, [tp.format(s=f["lang"][lg]["subject"]) for f in fs])
+                    accs.append(sum(strict_match(x, [f["lang"][lg]["object"], *f["lang"][lg]["object_alts"]]) is not None for x, f in zip(g, fs)) / len(fs))
+                best = max(range(len(accs)), key=lambda i: (accs[i], -i))
+                tmpl.setdefault(r, [None, None])[k] = CANDS[r][k][best]
+                print(r, lg, dict(zip(CANDS[r][k], accs)), "->", CANDS[r][k][best], flush=True)
+        TEMPLATES.update({r: tuple(v) for r, v in tmpl.items()})
     prompts = {(f["id"], lg): TEMPLATES[f["relation"]][k].format(s=f["lang"][lg]["subject"]) for f in cands for k, lg in enumerate(("en", "es"))}
     keys = list(prompts)
     gens = dict(zip(keys, generate(model, tok, [prompts[k] for k in keys])))

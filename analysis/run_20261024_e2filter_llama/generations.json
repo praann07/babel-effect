@@ -1,0 +1,3898 @@
+{
+ "capital_country_000|en": {
+  "prompt": "The country whose capital is Paris is",
+  "gen": " France.\nThe country whose capital is Berlin is Germany.\nThe country whose capital is Rome is Italy.\nThe country whose capital"
+ },
+ "capital_country_000|es": {
+  "prompt": "El país cuya capital es París es",
+  "gen": " Francia.\nLa capital de Francia es París.\nLa ciudad de París es la capital de Francia.\n"
+ },
+ "capital_country_001|en": {
+  "prompt": "The country whose capital is Berlin is",
+  "gen": " Germany.\nThe country whose capital is Berlin is Germany.\nThis statement is false. Berlin is the capital of Germany, but"
+ },
+ "capital_country_001|es": {
+  "prompt": "El país cuya capital es Berlín es",
+  "gen": " Alemania.\nLa capital de Alemania es Berlín.\nLa ciudad de Berlín es la capital de Alemania.\n"
+ },
+ "capital_country_002|en": {
+  "prompt": "The country whose capital is Rome is",
+  "gen": " Italy.\nThe country whose capital is Rome is Italy.\nThis statement is false. The country whose capital is Rome is actually"
+ },
+ "capital_country_002|es": {
+  "prompt": "El país cuya capital es Roma es",
+  "gen": " Italia.\nLa capital de Italia es Roma.\nLa capital de Italia es Roma.\nLa respuesta correcta es la terc"
+ },
+ "capital_country_003|en": {
+  "prompt": "The country whose capital is Madrid is",
+  "gen": " Spain.\nThe country whose capital is Madrid is Spain.\nThis is a true statement. Madrid is the capital of Spain,"
+ },
+ "capital_country_003|es": {
+  "prompt": "El país cuya capital es Madrid es",
+  "gen": " España.\nLa capital de España es Madrid.\nLa ciudad de Madrid es la capital de España.\nLa capital de España es"
+ },
+ "capital_country_004|en": {
+  "prompt": "The country whose capital is Lisbon is",
+  "gen": " Portugal.\nThe country whose capital is Lisbon is Portugal.\nThis statement is false. The country whose capital is Lisbon is actually"
+ },
+ "capital_country_004|es": {
+  "prompt": "El país cuya capital es Lisboa es",
+  "gen": " Portugal.\nLa capital de Portugal es Lisboa.\nLa ciudad de Lisboa es la capital de Portugal.\nLa ciudad de"
+ },
+ "capital_country_005|en": {
+  "prompt": "The country whose capital is Tokyo is",
+  "gen": " Japan.\nThe country whose capital is Tokyo is Japan.\nThis statement is false. The capital of Japan is actually Tokyo,"
+ },
+ "capital_country_005|es": {
+  "prompt": "El país cuya capital es Tokio es",
+  "gen": " Japón.\nLa capital de Japón es Tokio.\nLa ciudad de Tokio es la capital de Japón.\n"
+ },
+ "capital_country_006|en": {
+  "prompt": "The country whose capital is Beijing is",
+  "gen": " China.\nThe country whose capital is Beijing is China.\nThe country whose capital is Beijing is China.\nThe country whose capital"
+ },
+ "capital_country_006|es": {
+  "prompt": "El país cuya capital es Pekín es",
+  "gen": " China.\nLa capital de China es Pekín.\nLa ciudad de Pekín es la capital de China.\nLa capital de"
+ },
+ "capital_country_007|en": {
+  "prompt": "The country whose capital is New Delhi is",
+  "gen": " India.\nThe country whose capital is New Delhi is India.\nThe country whose capital is New Delhi is India.\nThe country"
+ },
+ "capital_country_007|es": {
+  "prompt": "El país cuya capital es Nueva Delhi es",
+  "gen": " India.\nLa capital de India es Nueva Delhi.\nLa ciudad de Nueva Delhi es la capital de la India.\n"
+ },
+ "capital_country_008|en": {
+  "prompt": "The country whose capital is Moscow is",
+  "gen": " Russia.\nThe country whose capital is Moscow is Russia.\nThe country whose capital is Moscow is Russia.\nThe country whose capital"
+ },
+ "capital_country_008|es": {
+  "prompt": "El país cuya capital es Moscú es",
+  "gen": " Rusia. La capital de Rusia es Moscú. La ciudad de Moscú tiene una población de"
+ },
+ "capital_country_009|en": {
+  "prompt": "The country whose capital is Brasília is",
+  "gen": " Brazil.\nThe country whose capital is Brasília is Brazil.\nThis statement is false. The country whose capital is Brasília"
+ },
+ "capital_country_009|es": {
+  "prompt": "El país cuya capital es Brasilia es",
+  "gen": " Brasil.\nLa capital de Brasil es Brasilia.\nLa ciudad de Brasilia es la capital de Brasil.\nLa ciudad de"
+ },
+ "capital_country_010|en": {
+  "prompt": "The country whose capital is Buenos Aires is",
+  "gen": " Argentina.\nThe country whose capital is Buenos Aires is Argentina.\nThis statement is false. Buenos Aires is the capital of Argentina"
+ },
+ "capital_country_010|es": {
+  "prompt": "El país cuya capital es Buenos Aires es",
+  "gen": " Argentina.\nLa capital de Argentina es Buenos Aires.\nLa ciudad de Buenos Aires es la capital de Argentina.\nLa capital de"
+ },
+ "capital_country_011|en": {
+  "prompt": "The country whose capital is Mexico City is",
+  "gen": " Mexico.\nThe country whose capital is Mexico City is Mexico.\nThis statement is false. Mexico City is the capital of Mexico"
+ },
+ "capital_country_011|es": {
+  "prompt": "El país cuya capital es Ciudad de México es",
+  "gen": " México.\nLa capital de México es la Ciudad de México.\nLa Ciudad de México es la capital de México.\nLa capital"
+ },
+ "capital_country_012|en": {
+  "prompt": "The country whose capital is Ottawa is",
+  "gen": " Canada.\nThe country whose capital is Ottawa is Canada.\nThis statement is false. The country whose capital is Ottawa is actually"
+ },
+ "capital_country_012|es": {
+  "prompt": "El país cuya capital es Ottawa es",
+  "gen": " Canadá.\nLa capital de Canadá es Ottawa.\nLa capital de Canadá es Ottawa.\nLa capital"
+ },
+ "capital_country_013|en": {
+  "prompt": "The country whose capital is Canberra is",
+  "gen": " Australia.\nThe country whose capital is Canberra is Australia.\nThis statement is false. The country whose capital is Canberra is actually"
+ },
+ "capital_country_013|es": {
+  "prompt": "El país cuya capital es Canberra es",
+  "gen": " Australia.\nLa capital de Australia es Canberra.\nLa capital de Australia es Canberra.\nLa capital de Australia es Canberra.\nLa"
+ },
+ "capital_country_014|en": {
+  "prompt": "The country whose capital is Athens is",
+  "gen": " Greece.\nThe country whose capital is Athens is Greece.\nThis statement is false. The country whose capital is Athens is actually"
+ },
+ "capital_country_014|es": {
+  "prompt": "El país cuya capital es Atenas es",
+  "gen": " Grecia.\nLa capital de Grecia es Atenas.\nLa ciudad de Atenas es la capital"
+ },
+ "capital_country_015|en": {
+  "prompt": "The country whose capital is Ankara is",
+  "gen": " Turkey.\nThe country whose capital is Ankara is Turkey.\nThis statement is true. Ankara is indeed the capital of Turkey."
+ },
+ "capital_country_015|es": {
+  "prompt": "El país cuya capital es Ankara es",
+  "gen": " Turquía.\nLa capital de Turquía es Ankara.\nLa ciudad de Ankara es la capital de Turquía"
+ },
+ "capital_country_016|en": {
+  "prompt": "The country whose capital is Stockholm is",
+  "gen": " Sweden.\nThe country whose capital is Stockholm is Sweden.\nThe country whose capital is Stockholm is Sweden.\nThe country whose capital"
+ },
+ "capital_country_016|es": {
+  "prompt": "El país cuya capital es Estocolmo es",
+  "gen": " Suecia. Suecia es un país con una gran diversidad geográfica, desde la costa atlántica hasta"
+ },
+ "capital_country_017|en": {
+  "prompt": "The country whose capital is Oslo is",
+  "gen": " Norway.\nThe country whose capital is Oslo is Norway.\nThis statement is false. The country whose capital is Oslo is actually"
+ },
+ "capital_country_017|es": {
+  "prompt": "El país cuya capital es Oslo es",
+  "gen": " Noruega.\nLa capital de Noruega es Oslo.\nLa capital de Noruega es Oslo.\nLa respuesta"
+ },
+ "capital_country_018|en": {
+  "prompt": "The country whose capital is Helsinki is",
+  "gen": " Finland.\nThe country whose capital is Helsinki is Finland.\nThis is a true statement. Helsinki is the capital and largest city"
+ },
+ "capital_country_018|es": {
+  "prompt": "El país cuya capital es Helsinki es",
+  "gen": " Finlandia.\nLa capital de Finlandia es Helsinki.\nLa capital de Finlandia es Helsinki.\nLa capital de Finlandia"
+ },
+ "capital_country_019|en": {
+  "prompt": "The country whose capital is Copenhagen is",
+  "gen": " Denmark.\nThe country whose capital is Copenhagen is Denmark.\nThis statement is false. The country whose capital is Copenhagen is actually"
+ },
+ "capital_country_019|es": {
+  "prompt": "El país cuya capital es Copenhague es",
+  "gen": " Dinamarca.\nLa capital de Dinamarca es Copenhague.\nLa capital de Dinamarca es Copenh"
+ },
+ "capital_country_020|en": {
+  "prompt": "The country whose capital is Warsaw is",
+  "gen": " Poland.\nThe country whose capital is Warsaw is Poland.\nThis statement is false. The country whose capital is Warsaw is actually"
+ },
+ "capital_country_020|es": {
+  "prompt": "El país cuya capital es Varsovia es",
+  "gen": " Polonia.\nLa capital de Polonia es Varsovia.\nLa ciudad de Varsovia es la capital de Pol"
+ },
+ "capital_country_021|en": {
+  "prompt": "The country whose capital is Vienna is",
+  "gen": " Austria.\nThe country whose capital is Vienna is Austria.\nThis statement is false. The country whose capital is Vienna is actually"
+ },
+ "capital_country_021|es": {
+  "prompt": "El país cuya capital es Viena es",
+  "gen": " Austria.\nLa capital de Austria es Viena.\nLa ciudad de Viena es la capital de Austria.\nLa capital de"
+ },
+ "capital_country_022|en": {
+  "prompt": "The country whose capital is Bern is",
+  "gen": " Switzerland.\nThe country whose capital is Bern is Switzerland.\nThis is a true statement. Bern is the capital of Switzerland,"
+ },
+ "capital_country_022|es": {
+  "prompt": "El país cuya capital es Berna es",
+  "gen": " Suiza.\nLa capital de Suiza es Berna.\nLa capital de Suiza es Berna.\nLa capital de"
+ },
+ "capital_country_023|en": {
+  "prompt": "The country whose capital is Brussels is",
+  "gen": " Belgium.\nThe country whose capital is Brussels is Belgium.\nThe country whose capital is Brussels is Belgium.\nThe country whose capital"
+ },
+ "capital_country_023|es": {
+  "prompt": "El país cuya capital es Bruselas es",
+  "gen": " Bélgica. La capital de Bélgica es Bruselas. La capital de Bélgica"
+ },
+ "capital_country_024|en": {
+  "prompt": "The country whose capital is Dublin is",
+  "gen": " Ireland.\nThe country whose capital is Dublin is Ireland.\nThis statement is false. The country whose capital is Dublin is actually"
+ },
+ "capital_country_024|es": {
+  "prompt": "El país cuya capital es Dublín es",
+  "gen": " Irlanda. La capital de Irlanda es Dublín. La ciudad de Dublín es la capital de Irlanda y"
+ },
+ "capital_country_025|en": {
+  "prompt": "The country whose capital is Lima is",
+  "gen": " Peru.\nThe country whose capital is Lima is Peru.\nThe country whose capital is Lima is Peru.\nThe country whose capital"
+ },
+ "capital_country_025|es": {
+  "prompt": "El país cuya capital es Lima es",
+  "gen": " Perú.\nLa capital de Perú es Lima.\nLa ciudad de Lima es la capital de Perú.\nLa ciudad"
+ },
+ "capital_country_026|en": {
+  "prompt": "The country whose capital is Santiago is",
+  "gen": " Chile.\nThe country whose capital is Santiago is Chile.\nThe country whose capital is Santiago is Chile.\nThe country whose capital"
+ },
+ "capital_country_026|es": {
+  "prompt": "El país cuya capital es Santiago es",
+  "gen": " Chile. Chile es un país de América del Sur, con una población de aproximadamente 18 millones de habitantes"
+ },
+ "capital_country_027|en": {
+  "prompt": "The country whose capital is Bogotá is",
+  "gen": " Colombia.\nThe country whose capital is Bogotá is Colombia.\nThe country whose capital is Bogotá is Colombia.\n"
+ },
+ "capital_country_027|es": {
+  "prompt": "El país cuya capital es Bogotá es",
+  "gen": " Colombia.\nLa capital de Colombia es Bogotá.\nLa ciudad de Bogotá es la capital de Colombia.\nLa"
+ },
+ "capital_country_028|en": {
+  "prompt": "The country whose capital is Caracas is",
+  "gen": "... (Answer: Venezuela)\nThe country whose capital is Caracas is... (Answer: Venezuela) is incorrect. The"
+ },
+ "capital_country_028|es": {
+  "prompt": "El país cuya capital es Caracas es",
+  "gen": " Venezuela.\nLa capital de Venezuela es Caracas.\nLa ciudad de Caracas es la capital de Venezuela.\nLa ciudad de"
+ },
+ "capital_country_029|en": {
+  "prompt": "The country whose capital is Bangkok is",
+  "gen": " Thailand.\nThe country whose capital is Bangkok is Thailand.\nThis statement is false. The country whose capital is Bangkok is actually"
+ },
+ "capital_country_029|es": {
+  "prompt": "El país cuya capital es Bangkok es",
+  "gen": " Tailandia.\nLa capital de Tailandia es Bangkok.\nLa capital de Tailandia es Bangkok.\nLa capital"
+ },
+ "capital_country_030|en": {
+  "prompt": "The country whose capital is Hanoi is",
+  "gen": " Vietnam.\nThe country whose capital is Hanoi is Vietnam.\nThis statement is false. The country whose capital is Hanoi"
+ },
+ "capital_country_030|es": {
+  "prompt": "El país cuya capital es Hanói es",
+  "gen": " Vietnam. Hanói es la ciudad más grande de Vietnam y es conocida por su arquitectura colonial, su"
+ },
+ "capital_country_031|en": {
+  "prompt": "The country whose capital is Jakarta is",
+  "gen": " Indonesia.\nThe country whose capital is Jakarta is Indonesia.\nThe country whose capital is Jakarta is Indonesia.\nThe country whose capital"
+ },
+ "capital_country_031|es": {
+  "prompt": "El país cuya capital es Yakarta es",
+  "gen": " Indonesia.\nLa capital de Indonesia es Yakarta.\nLa ciudad de Yakarta es la capital de Indonesia.\nLa ciudad de"
+ },
+ "capital_country_032|en": {
+  "prompt": "The country whose capital is Islamabad is",
+  "gen": " Pakistan.\nThe country whose capital is Islamabad is Pakistan.\nThe country whose capital is Islamabad is Pakistan.\nThe country whose capital"
+ },
+ "capital_country_032|es": {
+  "prompt": "El país cuya capital es Islamabad es",
+  "gen": " Pakistán.\nLa capital de Pakistán es Islamabad.\nLa ciudad de Islamabad es la capital de Pakistán"
+ },
+ "capital_country_033|en": {
+  "prompt": "The country whose capital is Dhaka is",
+  "gen": " Bangladesh.\nThe country whose capital is Dhaka is Bangladesh.\nThe country whose capital is Dhaka is Bangladesh.\nThe country"
+ },
+ "capital_country_033|es": {
+  "prompt": "El país cuya capital es Daca es",
+  "gen": " Bangladesh.\nLa capital de Bangladesh es Daca.\nLa capital de Bangladesh es Daca.\nLa capital de Bangladesh es D"
+ },
+ "capital_country_034|en": {
+  "prompt": "The country whose capital is Kathmandu is",
+  "gen": " Nepal.\nThe country whose capital is Kathmandu is Nepal. Nepal is a landlocked country located in South Asia."
+ },
+ "capital_country_034|es": {
+  "prompt": "El país cuya capital es Katmandú es",
+  "gen": " Nepal.\nLa capital de Nepal es Katmandú.\nLa capital de Nepal es Katmandú, Nepal.\nLa capital"
+ },
+ "capital_country_035|en": {
+  "prompt": "The country whose capital is Colombo is",
+  "gen": " Sri Lanka.\nThe country whose capital is Colombo is Sri Lanka. The country whose capital is Colombo is Sri Lanka"
+ },
+ "capital_country_035|es": {
+  "prompt": "El país cuya capital es Colombo es",
+  "gen": " Sri Lanka.\nLa capital de Sri Lanka es Colombo.\nLa capital de Sri Lanka es Colombo, y el país"
+ },
+ "capital_country_036|en": {
+  "prompt": "The country whose capital is Tehran is",
+  "gen": " Iran.\nThe country whose capital is Tehran is Iran.\nThis statement is false. The country whose capital is Tehran is actually"
+ },
+ "capital_country_036|es": {
+  "prompt": "El país cuya capital es Teherán es",
+  "gen": " Irán.\nLa capital de Irán es Teherán.\nLa capital de Irán es Teherán.\nLa"
+ },
+ "capital_country_037|en": {
+  "prompt": "The country whose capital is Baghdad is",
+  "gen": " Iraq.\nThe country whose capital is Baghdad is Iraq.\nThis statement is false. The country whose capital is Baghdad is actually"
+ },
+ "capital_country_037|es": {
+  "prompt": "El país cuya capital es Bagdad es",
+  "gen": " Irak.\nLa capital de Irak es Bagdad.\nLa ciudad de Bagdad es la capital de Irak.\n"
+ },
+ "capital_country_038|en": {
+  "prompt": "The country whose capital is Riyadh is",
+  "gen": " Saudi Arabia.\nThe country whose capital is Riyadh is Saudi Arabia.\nThe country whose capital is Riyadh is Saudi Arabia.\nThe"
+ },
+ "capital_country_038|es": {
+  "prompt": "El país cuya capital es Riad es",
+  "gen": " Arabia Saudita.\nLa capital de Arabia Saudita es Riad.\nLa capital de Arabia Saudita es Riad.\n"
+ },
+ "capital_country_039|en": {
+  "prompt": "The country whose capital is Nairobi is",
+  "gen": " Kenya.\nThe country whose capital is Nairobi is Kenya.\nThis statement is false. Nairobi is the capital of Kenya, but"
+ },
+ "capital_country_039|es": {
+  "prompt": "El país cuya capital es Nairobi es",
+  "gen": " Kenia.\nLa capital de Kenia es Nairobi.\nLa capital de Kenia es Nairobi.\nLa capital de Kenia"
+ },
+ "capital_country_040|en": {
+  "prompt": "The country whose capital is Abuja is",
+  "gen": " Nigeria.\nThe country whose capital is Abuja is Nigeria.\nThe country whose capital is Abuja is Nigeria.\nThe country"
+ },
+ "capital_country_040|es": {
+  "prompt": "El país cuya capital es Abuya es",
+  "gen": ": \nLa respuesta es: República Dominicana. \n\nLa República Dominicana es un país de América Latina,"
+ },
+ "capital_country_041|en": {
+  "prompt": "The country whose capital is Addis Ababa is",
+  "gen": " Ethiopia.\nThe country whose capital is Addis Ababa is Ethiopia.\nThe country whose capital is Addis Ababa is"
+ },
+ "capital_country_041|es": {
+  "prompt": "El país cuya capital es Adís Abeba es",
+  "gen": " Etiopía.\nLa capital de Etiopía es Adís Abeba.\nLa capital de Etiop"
+ },
+ "capital_country_042|en": {
+  "prompt": "The country whose capital is Rabat is",
+  "gen": " Morocco.\nThe country whose capital is Rabat is Morocco.\nThe country whose capital is Rabat is Morocco.\nThe country"
+ },
+ "capital_country_042|es": {
+  "prompt": "El país cuya capital es Rabat es",
+  "gen": " Marruecos. Marruecos es un país africano con una población de 36 millones de habitantes"
+ },
+ "capital_country_043|en": {
+  "prompt": "The country whose capital is Algiers is",
+  "gen": " Algeria.\nThe country whose capital is Algiers is Algeria.\nThe country whose capital is Algiers is Algeria.\nThe country"
+ },
+ "capital_country_043|es": {
+  "prompt": "El país cuya capital es Argel es",
+  "gen": " Argelia.\nLa capital de Argelia es Argel.\nLa capital de Argelia es Argel.\nLa capital de"
+ },
+ "capital_country_044|en": {
+  "prompt": "The country whose capital is Pretoria is",
+  "gen": " South Africa.\nThe country whose capital is Pretoria is South Africa.\nThe country whose capital is Pretoria is South Africa"
+ },
+ "capital_country_044|es": {
+  "prompt": "El país cuya capital es Pretoria es",
+  "gen": "?\nLa respuesta es Sudáfrica. Pretoria es la capital administrativa de Sudáfrica, mientras que Ciudad del"
+ },
+ "capital_country_045|en": {
+  "prompt": "The country whose capital is Accra is",
+  "gen": " Ghana.\nThe country whose capital is Accra is Ghana.\nThis statement is false. The country whose capital is Accra"
+ },
+ "capital_country_045|es": {
+  "prompt": "El país cuya capital es Acra es",
+  "gen": " Gana\nLa capital de Gana es Acra, que es la ciudad más grande del país y la segunda ciudad"
+ },
+ "capital_country_046|en": {
+  "prompt": "The country whose capital is Budapest is",
+  "gen": " Hungary.\nThe country whose capital is Budapest is Hungary.\nThe country whose capital is Budapest is Hungary.\nThe country whose capital"
+ },
+ "capital_country_046|es": {
+  "prompt": "El país cuya capital es Budapest es",
+  "gen": " Hungría.\nLa capital de Hungría es Budapest.\nLa ciudad de Budapest es la capital de Hungría"
+ },
+ "capital_country_047|en": {
+  "prompt": "The country whose capital is Bucharest is",
+  "gen": " Romania.\nThe country whose capital is Bucharest is Romania.\nThe country whose capital is Bucharest is Romania.\nThe country"
+ },
+ "capital_country_047|es": {
+  "prompt": "El país cuya capital es Bucarest es",
+  "gen": " Rumania.\nLa capital de Rumania es Bucarest.\nLa capital de Rumania es Buc"
+ },
+ "capital_country_048|en": {
+  "prompt": "The country whose capital is Kyiv is",
+  "gen": " Ukraine.\nThe country whose capital is Kyiv is Ukraine.\nThe country whose capital is Kyiv is Ukraine.\nThe country"
+ },
+ "capital_country_048|es": {
+  "prompt": "El país cuya capital es Kiev es",
+  "gen": " Ucrania.\nLa capital de Ucrania es Kiev.\nLa capital de Ucrania es Kiev.\nLa respuesta"
+ },
+ "capital_country_049|en": {
+  "prompt": "The country whose capital is Sofia is",
+  "gen": " Bulgaria.\nThe country whose capital is Sofia is Bulgaria.\nThis statement is false. The country whose capital is Sofia is actually"
+ },
+ "capital_country_049|es": {
+  "prompt": "El país cuya capital es Sofía es",
+  "gen": " Bulgaria. Bulgaria es un país con una rica historia y cultura, conocido por sus paisajes naturales impresion"
+ },
+ "capital_country_050|en": {
+  "prompt": "The country whose capital is Belgrade is",
+  "gen": " Serbia.\nThe country whose capital is Belgrade is Serbia.\nThis is a true statement. Belgrade is the capital and"
+ },
+ "capital_country_050|es": {
+  "prompt": "El país cuya capital es Belgrado es",
+  "gen": " Serbia.\nLa capital de Serbia es Belgrado.\nLa capital de Serbia es Belgrado.\nLa capital de Serbia"
+ },
+ "capital_country_051|en": {
+  "prompt": "The country whose capital is Zagreb is",
+  "gen": ":\nA) Croatia\nB) Slovenia\nC) D) Bosnia and Herzegovina\nD) Montenegro\n"
+ },
+ "capital_country_051|es": {
+  "prompt": "El país cuya capital es Zagreb es",
+  "gen": "...?\nLa respuesta es Croacia."
+ },
+ "capital_country_052|en": {
+  "prompt": "The country whose capital is Reykjavik is",
+  "gen": " Iceland.\nIceland is a Nordic island country located in the North Atlantic Ocean.\nThe country has a population of around "
+ },
+ "capital_country_052|es": {
+  "prompt": "El país cuya capital es Reikiavik es",
+  "gen": " Islandia. La capital de Islandia es Reikiavik. El país tiene una población de 360."
+ },
+ "capital_country_053|en": {
+  "prompt": "The country whose capital is Ulaanbaatar is",
+  "gen": " Mongolia.\nThe country whose capital is Ulaanbaatar is Mongolia.\nThis statement is true. Ulaanba"
+ },
+ "capital_country_053|es": {
+  "prompt": "El país cuya capital es Ulán Bator es",
+  "gen": " Mongolia\nLa capital de Mongolia es Ulaanbaatar (también conocida como Ulán Bator)\n"
+ },
+ "capital_country_054|en": {
+  "prompt": "The country whose capital is Kabul is",
+  "gen": " Afghanistan.\nThe country whose capital is Kabul is Afghanistan.\nThis statement is false. The country whose capital is Kabul is actually"
+ },
+ "capital_country_054|es": {
+  "prompt": "El país cuya capital es Kabul es",
+  "gen": " Afganistán.\nLa capital de Afganistán es Kabul.\nLa capital de Afganist"
+ },
+ "capital_country_055|en": {
+  "prompt": "The country whose capital is Phnom Penh is",
+  "gen": " Cambodia.\nThe country whose capital is Phnom Penh is Cambodia.\nThe country whose capital is Phnom Penh is"
+ },
+ "capital_country_055|es": {
+  "prompt": "El país cuya capital es Nom Pen es",
+  "gen": " Camboya. La capital de Camboya es Phnom Penh. La ciudad de Nom Pen es un pueblo"
+ },
+ "capital_country_056|en": {
+  "prompt": "The country whose capital is Seoul is",
+  "gen": " South Korea.\nThe country whose capital is Seoul is South Korea.\nThe country whose capital is Seoul is South Korea.\nThe"
+ },
+ "capital_country_056|es": {
+  "prompt": "El país cuya capital es Seúl es",
+  "gen": " Corea del Sur.\nLa capital de Corea del Sur es Seúl.\nLa capital de Corea del Sur"
+ },
+ "capital_country_057|en": {
+  "prompt": "The country whose capital is Amman is",
+  "gen": " Jordan.\nThe country whose capital is Amman is Jordan.\nThis statement is true. Amman is the capital and largest"
+ },
+ "capital_country_057|es": {
+  "prompt": "El país cuya capital es Amán es",
+  "gen": " Israel.\nLa respuesta correcta es Israel. El país cuya capital es Amán es Israel. El país cuya"
+ },
+ "capital_country_058|en": {
+  "prompt": "The country whose capital is Beirut is",
+  "gen": " Lebanon.\nThe country whose capital is Beirut is Lebanon.\nThis statement is false. Beirut is the capital of Lebanon, but"
+ },
+ "capital_country_058|es": {
+  "prompt": "El país cuya capital es Beirut es",
+  "gen": " Líbano.\nLa capital de Líbano es Beirut.\nLa capital de Líbano es Beirut"
+ },
+ "capital_country_059|en": {
+  "prompt": "The country whose capital is Damascus is",
+  "gen": " Syria.\nThe country whose capital is Damascus is Syria.\nThe country whose capital is Damascus is Syria.\nThe country whose capital"
+ },
+ "capital_country_059|es": {
+  "prompt": "El país cuya capital es Damasco es",
+  "gen": " Siria.\nLa capital de Siria es Damasco.\nLa ciudad de Damasco es la capital de Siria.\n"
+ },
+ "capital_country_060|en": {
+  "prompt": "The country whose capital is Tripoli is",
+  "gen": " Libya.\nThe country whose capital is Tripoli is Libya. Libya is a country located in North Africa, and its capital"
+ },
+ "capital_country_060|es": {
+  "prompt": "El país cuya capital es Trípoli es",
+  "gen": " Libia.\nLa capital de Libia es Trípoli.\nLa ciudad de Trípoli es la capital"
+ },
+ "capital_country_061|en": {
+  "prompt": "The country whose capital is Montevideo is",
+  "gen": " Uruguay.\nThe country whose capital is Montevideo is Uruguay. Uruguay is a small country located in South America, bordered"
+ },
+ "capital_country_061|es": {
+  "prompt": "El país cuya capital es Montevideo es",
+  "gen": " Uruguay. Uruguay es un país pequeño ubicado en el sur de América del Sur, limitado por Brasil al n"
+ },
+ "capital_country_062|en": {
+  "prompt": "The country whose capital is Quito is",
+  "gen": " Ecuador.\nThe country whose capital is Quito is Ecuador.\nThis statement is false. The country whose capital is Quito"
+ },
+ "capital_country_062|es": {
+  "prompt": "El país cuya capital es Quito es",
+  "gen": " Ecuador.\nLa capital de Ecuador es Quito.\nLa ciudad de Quito es la capital de Ecuador.\nLa ciudad de"
+ },
+ "capital_country_063|en": {
+  "prompt": "The country whose capital is Asunción is",
+  "gen": ":\nA) Argentina\nB) Paraguay\nC) Uruguay\nD) Brazil\nThe best answer is B"
+ },
+ "capital_country_063|es": {
+  "prompt": "El país cuya capital es Asunción es",
+  "gen": " Paraguay.\nLa capital de Paraguay es Asunción.\nLa ciudad de Asunción es la capital y la"
+ },
+ "capital_country_064|en": {
+  "prompt": "The country whose capital is Kingston is",
+  "gen": " Jamaica.\nThe country whose capital is Kingston is Jamaica.\nThe country whose capital is Kingston is Jamaica.\nThe country whose capital"
+ },
+ "capital_country_064|es": {
+  "prompt": "El país cuya capital es Kingston es",
+  "gen": " Jamaica. Jamaica es un país insular ubicado en el Caribe, al este de Cuba y al oeste de"
+ },
+ "capital_country_065|en": {
+  "prompt": "The country whose capital is Wellington is",
+  "gen": " New Zealand.\nThe country whose capital is Wellington is New Zealand.\nThe country whose capital is Wellington is New Zealand.\nThe"
+ },
+ "capital_country_065|es": {
+  "prompt": "El país cuya capital es Wellington es",
+  "gen": "... Nueva Zelanda.\n\nLa respuesta es Nueva Zelanda."
+ },
+ "capital_country_066|en": {
+  "prompt": "The country whose capital is Havana is",
+  "gen": " Cuba.\nThe country whose capital is Havana is Cuba.\nThe country whose capital is Havana is Cuba.\nThe country whose capital"
+ },
+ "capital_country_066|es": {
+  "prompt": "El país cuya capital es La Habana es",
+  "gen": " Cuba.\nLa capital de Cuba es La Habana.\nLa ciudad de La Habana es la capital de Cuba.\nLa"
+ },
+ "capital_country_067|en": {
+  "prompt": "The country whose capital is Sucre is",
+  "gen": " Bolivia.\nThe country whose capital is Sucre is Bolivia.\nThis statement is false. The country whose capital is Sucre"
+ },
+ "capital_country_067|es": {
+  "prompt": "El país cuya capital es Sucre es",
+  "gen": " Bolivia\nLa capital de Bolivia es Sucre, pero la ciudad más poblada es La Paz. Bolivia tiene una pobl"
+ },
+ "capital_country_068|en": {
+  "prompt": "The country whose capital is San José is",
+  "gen": " Costa Rica.\nThe country whose capital is San José is Costa Rica.\nThe country whose capital is San José is Costa Rica"
+ },
+ "capital_country_068|es": {
+  "prompt": "El país cuya capital es San José es",
+  "gen": " Costa Rica.\nLa capital de Costa Rica es San José.\nLa capital de Costa Rica es San José.\nLa capital de"
+ },
+ "capital_country_069|en": {
+  "prompt": "The country whose capital is Panama City is",
+  "gen": " Panama.\nThe country whose capital is Panama City is Panama.\nThis statement is false. Panama City is the capital of Panama"
+ },
+ "capital_country_069|es": {
+  "prompt": "El país cuya capital es Ciudad de Panamá es",
+  "gen": " Panamá.\nLa capital de Panamá es Ciudad de Panamá.\nLa capital de Panamá es"
+ },
+ "capital_country_070|en": {
+  "prompt": "The country whose capital is Cairo is",
+  "gen": " Egypt.\nThe country whose capital is Cairo is Egypt.\nThe country whose capital is Cairo is Egypt.\nThe country whose capital"
+ },
+ "capital_country_070|es": {
+  "prompt": "El país cuya capital es El Cairo es",
+  "gen": " Egipto.\nLa capital de Egipto es El Cairo.\nLa capital de Egipto es El Cairo.\n"
+ },
+ "capital_country_071|en": {
+  "prompt": "The country whose capital is Jerusalem is",
+  "gen": " Israel.\nThe country whose capital is Jerusalem is Israel.\nThis statement is false. Jerusalem is the capital of Israel, but"
+ },
+ "capital_country_071|es": {
+  "prompt": "El país cuya capital es Jerusalén es",
+  "gen": " Israel.\nLa capital de Israel es Jerusalén.\nLa ciudad de Jerusalén es la ciudad más antigua del"
+ },
+ "capital_country_072|en": {
+  "prompt": "The country whose capital is Prague is",
+  "gen": " the Czech Republic.\nThe country whose capital is Prague is the Czech Republic.\nThe capital of the Czech Republic is Prague.\n"
+ },
+ "capital_country_072|es": {
+  "prompt": "El país cuya capital es Praga es",
+  "gen": " la República Checa.\nLa capital de la República Checa es Praga.\nLa República Checa tiene"
+ },
+ "capital_country_073|en": {
+  "prompt": "The country whose capital is Bratislava is",
+  "gen": ":\nA) Czech Republic\nB) Slovakia\nC) Hungary\nD) Poland\n\nThe best answer is B."
+ },
+ "capital_country_073|es": {
+  "prompt": "El país cuya capital es Bratislava es",
+  "gen": "...\nLa respuesta es Eslovaquia."
+ },
+ "capital_country_074|en": {
+  "prompt": "The country whose capital is Ljubljana is",
+  "gen": " Slovenia.\nThe country whose capital is Ljubljana is Slovenia. (Note: Ljubljana is"
+ },
+ "capital_country_074|es": {
+  "prompt": "El país cuya capital es Liubliana es",
+  "gen": " Eslovenia.\nLa capital de Eslovenia es Liubliana.\nLa capital de Eslovenia es Li"
+ },
+ "capital_country_075|en": {
+  "prompt": "The country whose capital is Tallinn is",
+  "gen": " Estonia.\nThe country whose capital is Riga is Latvia.\nThe country whose capital is Vilnius is Lithuania.\nThe"
+ },
+ "capital_country_075|es": {
+  "prompt": "El país cuya capital es Tallin es",
+  "gen": " Estonia.\nLa capital de Estonia es Tallin.\nLa capital de Estonia es Tallin.\nLa capital de Estonia es Tall"
+ },
+ "capital_country_076|en": {
+  "prompt": "The country whose capital is Riga is",
+  "gen": " Latvia.\nThe country whose capital is Riga is Latvia.\nThis is a true statement. Riga is the capital and"
+ },
+ "capital_country_076|es": {
+  "prompt": "El país cuya capital es Riga es",
+  "gen": " Letonia.\nLa capital de Letonia es Riga.\nLa ciudad de Riga es la capital de Letonia.\n"
+ },
+ "capital_country_077|en": {
+  "prompt": "The country whose capital is Vilnius is",
+  "gen": " Lithuania.\nThe country whose capital is Vilnius is Lithuania.\nThis statement is false. The country whose capital is Vil"
+ },
+ "capital_country_077|es": {
+  "prompt": "El país cuya capital es Vilna es",
+  "gen": " Lituania.\nLa capital de Lituania es Vilna (también conocida como Vilnius en"
+ },
+ "capital_country_078|en": {
+  "prompt": "The country whose capital is Minsk is",
+  "gen": " Belarus.\nThe country whose capital is Minsk is Belarus. Belarus is a landlocked country located in Eastern Europe, bordered"
+ },
+ "capital_country_078|es": {
+  "prompt": "El país cuya capital es Minsk es",
+  "gen": "...?\nLa respuesta es Bielorrusia."
+ },
+ "capital_country_079|en": {
+  "prompt": "The country whose capital is Tbilisi is",
+  "gen": " Georgia.\nThe country whose capital is Tbilisi is Georgia.\nThis is a true statement. Tbilisi is the"
+ },
+ "capital_country_079|es": {
+  "prompt": "El país cuya capital es Tiflis es",
+  "gen": " Georgia.\nLa capital de Georgia es Tiflis.\nLa capital de Georgia es Tiflis.\nLa capital de Georgia"
+ },
+ "capital_country_080|en": {
+  "prompt": "The country whose capital is Yerevan is",
+  "gen": " Armenia.\nThe country whose capital is Yerevan is Armenia.\nThe country whose capital is Yerevan is Armenia.\n"
+ },
+ "capital_country_080|es": {
+  "prompt": "El país cuya capital es Ereván es",
+  "gen": " Armenia\nLa capital de Armenia es Ereván\nLa capital de Armenia es Ereván\nLa capital de Armenia"
+ },
+ "capital_country_081|en": {
+  "prompt": "The country whose capital is Baku is",
+  "gen": " Azerbaijan.\nThe country whose capital is Baku is Azerbaijan.\nThis statement is true. Baku is the capital and largest"
+ },
+ "capital_country_081|es": {
+  "prompt": "El país cuya capital es Bakú es",
+  "gen": " Azerbaiyán.\nLa capital de Azerbaiyán es Bakú.\nLa ciudad de Bakú es la capital de Azerbai"
+ },
+ "capital_country_082|en": {
+  "prompt": "The country whose capital is Astana is",
+  "gen": " Kazakhstan.\nThe country whose capital is Astana is Kazakhstan.\nI think there may be a small mistake here. Astana"
+ },
+ "capital_country_082|es": {
+  "prompt": "El país cuya capital es Astaná es",
+  "gen": " Kazajistán.\nLa capital de Kazajistán es Astaná.\nLa capital de Kazajistán es"
+ },
+ "capital_country_083|en": {
+  "prompt": "The country whose capital is Tashkent is",
+  "gen": ":\nA) Uzbekistan\nB) Kyrgyzstan\nC) Tajikistan\nD) Central Asian countries\n"
+ },
+ "capital_country_083|es": {
+  "prompt": "El país cuya capital es Taskent es",
+  "gen": " Uzbekistán.\nLa capital de Uzbekistán es Taskent.\nLa capital de Uzbekistán es Taskent.\n"
+ },
+ "capital_country_084|en": {
+  "prompt": "The country whose capital is Naypyidaw is",
+  "gen": ":\nA) Myanmar\nB)) Cambodia\nC) Vietnam\nD) Laos\nThe best answer is A."
+ },
+ "capital_country_084|es": {
+  "prompt": "El país cuya capital es Naipyidó es",
+  "gen": "...?\nLa respuesta es:  India\n\nLa pregunta es: ¿Cuál es el país cuya capital es Na"
+ },
+ "capital_country_085|en": {
+  "prompt": "The country whose capital is Kuala Lumpur is",
+  "gen": " Malaysia.\nThe country whose capital is Kuala Lumpur is Malaysia.\nThis statement is false. The country whose capital is Kuala Lumpur"
+ },
+ "capital_country_085|es": {
+  "prompt": "El país cuya capital es Kuala Lumpur es",
+  "gen": " Malasia.\nLa capital de Malasia es Kuala Lumpur.\nLa capital de Malasia es Kuala Lumpur.\nLa capital de"
+ },
+ "capital_country_086|en": {
+  "prompt": "The country whose capital is Manila is",
+  "gen": " the Philippines.\nThe country whose capital is Manila is the Philippines.\nThe country whose capital is Manila is the Philippines.\nThe"
+ },
+ "capital_country_086|es": {
+  "prompt": "El país cuya capital es Manila es",
+  "gen": " el que tiene el mayor número de personas que viven en la ciudad, con más de 1.800.000"
+ },
+ "capital_country_087|en": {
+  "prompt": "The country whose capital is Vientiane is",
+  "gen": " Laos.\nThe country whose capital is Phnom Penh is Cambodia.\nThe country whose capital is Bangkok is Thailand.\nThe"
+ },
+ "capital_country_087|es": {
+  "prompt": "El país cuya capital es Vientián es",
+  "gen": " Laos. El país cuya capital es Vientián es Laos. El país cuya capital es Vienti"
+ },
+ "capital_country_088|en": {
+  "prompt": "The country whose capital is Pyongyang is",
+  "gen": "... (Answer: North Korea)\nThe country whose capital is Pyongyang is... (Answer: North Korea)\nThe capital of"
+ },
+ "capital_country_088|es": {
+  "prompt": "El país cuya capital es Pionyang es",
+  "gen": " Corea del Norte.\nLa capital de Corea del Norte es Pionyang.\nLa capital de Corea del Norte"
+ },
+ "capital_country_089|en": {
+  "prompt": "The country whose capital is Thimphu is",
+  "gen": " Bhutan.\nThe country whose capital is Thimphu is Bhutan.\nThis statement is true. Thimph"
+ },
+ "capital_country_089|es": {
+  "prompt": "El país cuya capital es Timbu es",
+  "gen": "?\nNo hay información sobre un país con una capital llamada Timbu. Es posible que estés pensando en un"
+ },
+ "capital_country_090|en": {
+  "prompt": "The country whose capital is Dodoma is",
+  "gen": " Tanzania.\nThe country whose capital is Dodoma is Tanzania.\nThe country whose capital is Dodoma is Tanzania.\nThe country"
+ },
+ "capital_country_090|es": {
+  "prompt": "El país cuya capital es Dodoma es",
+  "gen": " Tanzania.\nLa capital de Tanzania es Dodoma.\nLa capital de Tanzania es Dodoma.\nLa capital de Tanzania es Dod"
+ },
+ "capital_country_091|en": {
+  "prompt": "The country whose capital is Kampala is",
+  "gen": " Uganda.\nThe country whose capital is Kampala is Uganda.\nThis statement is false. The country whose capital is Kampala"
+ },
+ "capital_country_091|es": {
+  "prompt": "El país cuya capital es Kampala es",
+  "gen": " Uganda.\nLa capital de Uganda es Kampala.\nLa capital de Uganda es Kampala.\nLa capital de Uganda es Kamp"
+ },
+ "capital_country_092|en": {
+  "prompt": "The country whose capital is Harare is",
+  "gen": " Zimbabwe.\nThe country whose capital is Harare is Zimbabwe.\nThe country whose capital is Harare is Zimbabwe.\nThe country"
+ },
+ "capital_country_092|es": {
+  "prompt": "El país cuya capital es Harare es",
+  "gen": " Zimbabwe.\nLa capital de Zimbabwe es Harare.\nLa capital de Zimbabwe es Harare.\nLa capital de Zimbabwe es Har"
+ },
+ "capital_country_093|en": {
+  "prompt": "The country whose capital is Lusaka is",
+  "gen": " Zambia.\nThe country whose capital is Lusaka is Zambia.\nThis statement is false. The country whose capital is L"
+ },
+ "capital_country_093|es": {
+  "prompt": "El país cuya capital es Lusaka es",
+  "gen": " Zambia.\nLa capital de Zambia es Lusaka.\nLa capital de Zambia es Lusaka.\nLa capital de Zambia"
+ },
+ "capital_country_094|en": {
+  "prompt": "The country whose capital is Luanda is",
+  "gen": " Angola.\nThe country whose capital is Luanda is Angola.\nThe country whose capital is Luanda is Angola.\nThe country"
+ },
+ "capital_country_094|es": {
+  "prompt": "El país cuya capital es Luanda es",
+  "gen": " Angola.\nLa capital de Angola es Luanda.\nLa ciudad de Luanda es la capital de Angola.\nLa ciudad de"
+ },
+ "capital_country_095|en": {
+  "prompt": "The country whose capital is Dakar is",
+  "gen": " Senegal.\nThe country whose capital is Dakar is Senegal.\nThe country whose capital is Dakar is Senegal"
+ },
+ "capital_country_095|es": {
+  "prompt": "El país cuya capital es Dakar es",
+  "gen": " Senegal.\nLa capital de Senegal es Dakar.\nLa capital de Senegal es Dakar.\nLa capital de"
+ },
+ "capital_country_096|en": {
+  "prompt": "The country whose capital is Khartoum is",
+  "gen": " Sudan.\nThe country whose capital is Khartoum is Sudan.\nThis statement is incorrect. The country whose capital is"
+ },
+ "capital_country_096|es": {
+  "prompt": "El país cuya capital es Jartum es",
+  "gen": " Egipto.\nLa capital de Egipto es El Cairo.\nJartum es la capital de Sudán.\n"
+ },
+ "capital_country_097|en": {
+  "prompt": "The country whose capital is Antananarivo is",
+  "gen": " Madagascar.\nThe country whose capital is Antananarivo is Madagascar.\nThe country whose capital is Antananarivo is"
+ },
+ "capital_country_097|es": {
+  "prompt": "El país cuya capital es Antananarivo es",
+  "gen": " Madagascar. El país tiene una población de 25 millones de habitantes y se encuentra en la isla de Madagascar"
+ },
+ "capital_country_098|en": {
+  "prompt": "The country whose capital is Maputo is",
+  "gen": " Mozambique.\nThe country whose capital is Maputo is Mozambique.\nThis statement is false. The country whose capital is"
+ },
+ "capital_country_098|es": {
+  "prompt": "El país cuya capital es Maputo es",
+  "gen": "?\nEl país cuya capital es Maputo es Mocambique. Maputo es la capital y la ciudad más grande"
+ },
+ "capital_country_099|en": {
+  "prompt": "The country whose capital is Sanaa is",
+  "gen": " Yemen.\nThe country whose capital is Sanaa is Yemen.\nThe country whose capital is Sanaa is Yemen.\n"
+ },
+ "capital_country_099|es": {
+  "prompt": "El país cuya capital es Saná es",
+  "gen": "...?\nLa respuesta es: Siria. La capital de Siria es Saná. La respuesta correcta es:"
+ },
+ "capital_country_100|en": {
+  "prompt": "The country whose capital is Muscat is",
+  "gen": " Oman.\nThe country whose capital is Muscat is Oman. Oman is a country located in the Middle East, and its"
+ },
+ "capital_country_100|es": {
+  "prompt": "El país cuya capital es Mascate es",
+  "gen": "...?\nLa respuesta es: Omán."
+ },
+ "capital_country_101|en": {
+  "prompt": "The country whose capital is Doha is",
+  "gen": " Qatar.\nThe country whose capital is Doha is Qatar.\nThis statement is true. Doha is the capital and largest"
+ },
+ "capital_country_101|es": {
+  "prompt": "El país cuya capital es Doha es",
+  "gen": " Qatar.\nLa capital de Qatar es Doha.\nLa capital de Qatar es Doha.\nLa capital de Qatar es D"
+ },
+ "capital_country_102|en": {
+  "prompt": "The country whose capital is Amsterdam is",
+  "gen": " the Netherlands.\nThe country whose capital is Amsterdam is the Netherlands.\nThis statement is false. The country whose capital is Amsterdam"
+ },
+ "capital_country_102|es": {
+  "prompt": "El país cuya capital es Ámsterdam es",
+  "gen": " Países Bajos.\nLa capital de Países Bajos es Ámsterdam.\nLa ciudad de Ám"
+ },
+ "capital_country_103|en": {
+  "prompt": "The country whose capital is London is",
+  "gen": "... (a) France (b) England (c) London (d) None of the above\n\n## Step "
+ },
+ "capital_country_103|es": {
+  "prompt": "El país cuya capital es Londres es",
+  "gen": " Inglaterra.\nLa capital de Inglaterra es Londres.\nLa capital de Inglaterra es Londres.\n"
+ },
+ "capital_country_104|en": {
+  "prompt": "The country whose capital is Tirana is",
+  "gen": "?\nAlbania\nThe country whose capital is Tirana is?\nAlbania\nThe country whose capital is Tir"
+ },
+ "capital_country_104|es": {
+  "prompt": "El país cuya capital es Tirana es",
+  "gen": " Albania.\nLa capital de Albania es Tirana.\nLa capital de Albania es Tirana.\nLa capital de Albania es Tir"
+ },
+ "capital_country_105|en": {
+  "prompt": "The country whose capital is Valletta is",
+  "gen": " Malta.\nThe country whose capital is Valletta is Malta.\nThis is a true statement. Valletta is the"
+ },
+ "capital_country_105|es": {
+  "prompt": "El país cuya capital es La Valeta es",
+  "gen": " Malta. Malta es un país insular en el Mediterráneo, con una población de aproximadamente 475."
+ },
+ "capital_country_106|en": {
+  "prompt": "The country whose capital is Nicosia is",
+  "gen": " Cyprus.\nThe country whose capital is Nicosia is Cyprus. The country whose capital is Nicosia is Cyprus."
+ },
+ "capital_country_106|es": {
+  "prompt": "El país cuya capital es Nicosia es",
+  "gen": "... \n\nLa respuesta es Chipre. \n\nChipre es un país insular en el Mediterráneo, con una"
+ },
+ "capital_country_107|en": {
+  "prompt": "The country whose capital is Chisinau is",
+  "gen": ":\nA) Romania\nB) Moldova\nC) Chiapas\nD) Mexico\nThe best answer is B"
+ },
+ "capital_country_107|es": {
+  "prompt": "El país cuya capital es Chisináu es",
+  "gen": " Moldavia.\nLa capital de Moldavia es Chisináu.\nLa capital de Moldavia es Chisináu.\nLa"
+ },
+ "capital_country_108|en": {
+  "prompt": "The country whose capital is Tegucigalpa is",
+  "gen": " Honduras.\nThe country whose capital is Tegucigalpa is Honduras. Honduras is a country located in Central America"
+ },
+ "capital_country_108|es": {
+  "prompt": "El país cuya capital es Tegucigalpa es",
+  "gen": " Honduras\nLa capital de Honduras es Tegucigalpa. Honduras es un país ubicado en el centro de"
+ },
+ "capital_country_109|en": {
+  "prompt": "The country whose capital is Managua is",
+  "gen": ":\nA) Nicaragua\nB) Costa Rica\nC) Panama\nD) Central America\nThe best answer is A"
+ },
+ "capital_country_109|es": {
+  "prompt": "El país cuya capital es Managua es",
+  "gen": " Nicaragua.\nLa capital de Nicaragua es Managua.\nLa ciudad de Managua es la capital de Nicaragua.\nLa ciudad de"
+ },
+ "capital_country_110|en": {
+  "prompt": "The country whose capital is Santo Domingo is",
+  "gen": " the Dominican Republic.\nThe country whose capital is Santo Domingo is the Dominican Republic.\nThe country whose capital is Santo Doming"
+ },
+ "capital_country_110|es": {
+  "prompt": "El país cuya capital es Santo Domingo es",
+  "gen": " la República Dominicana.\nLa República Dominicana es un país de América Latina, ubicado en la isla"
+ },
+ "capital_country_111|en": {
+  "prompt": "The country whose capital is Port-au-Prince is",
+  "gen": " Haiti.\nThe country whose capital is Port-au-Prince is Haiti. Haiti is a country located in the Caribbean Sea,"
+ },
+ "capital_country_111|es": {
+  "prompt": "El país cuya capital es Puerto Príncipe es",
+  "gen": " Haití.\nLa capital de Haití es Puerto Príncipe.\nLa capital de Haití es Puerto Prí"
+ },
+ "capital_country_112|en": {
+  "prompt": "The country whose capital is Kigali is",
+  "gen": " which of the following?\nA) Rwanda\nB) Burundi\nC) Bujumbura\nD) None"
+ },
+ "capital_country_112|es": {
+  "prompt": "El país cuya capital es Kigali es",
+  "gen": "...?\nLa respuesta es Ruanda. Kigali es la capital y la ciudad más grande de Ruanda. Es"
+ },
+ "capital_country_113|en": {
+  "prompt": "The country whose capital is Mogadishu is",
+  "gen": " Somalia.\nThe country whose capital is Mogadishu is Somalia.\nThis statement is incorrect. The country whose capital is"
+ },
+ "capital_country_113|es": {
+  "prompt": "El país cuya capital es Mogadiscio es",
+  "gen": " Somalia.\nSomalia es un país africano ubicado en la península de Banting, en"
+ },
+ "capital_country_114|en": {
+  "prompt": "The country whose capital is Gaborone is",
+  "gen": " Botswana.\nThe country whose capital is Gaborone is Botswana. Botswana is a landlocked country located in"
+ },
+ "capital_country_114|es": {
+  "prompt": "El país cuya capital es Gaborone es",
+  "gen": "?\nLa respuesta es Botsuana. Botsuana es un país ubicado en el norte de Á"
+ },
+ "capital_country_115|en": {
+  "prompt": "The country whose capital is Windhoek is",
+  "gen": "?\nNamibia\nThe country whose capital is Windhoek is?\nNamibia\nThe country whose capital is Windho"
+ },
+ "capital_country_115|es": {
+  "prompt": "El país cuya capital es Windhoek es",
+  "gen": "?\nLa respuesta es Namibia."
+ },
+ "capital_country_116|en": {
+  "prompt": "The country whose capital is Yaoundé is",
+  "gen": " Cameroon.\nThe country whose capital is Yaoundé is Cameroon. The country whose capital is Yaoundé is Cameroon."
+ },
+ "capital_country_116|es": {
+  "prompt": "El país cuya capital es Yaundé es",
+  "gen": " Camerún\nLa capital de Camerún es Yaundé. El país tiene una población de 25"
+ },
+ "capital_country_117|en": {
+  "prompt": "The country whose capital is Manama is",
+  "gen": " Bahrain.\nThe country whose capital is Manama is Bahrain. I'm not sure if this is a true statement or not"
+ },
+ "capital_country_117|es": {
+  "prompt": "El país cuya capital es Manama es",
+  "gen": "...?\nLa respuesta es: Bahrein."
+ },
+ "capital_country_118|en": {
+  "prompt": "The country whose capital is Malé is",
+  "gen": " the Maldives.\nThe country whose capital is Malé is the Maldives.\nThe Maldives is a country located in"
+ },
+ "capital_country_118|es": {
+  "prompt": "El país cuya capital es Malé es",
+  "gen": " el que tiene el mayor número de islas en el océano Índico.\nLa respuesta es Maldiv"
+ },
+ "capital_country_119|en": {
+  "prompt": "The country whose capital is Suva is",
+  "gen": ":\nA) Fiji\nB) Vanuatu\nC) Solomon Islands\nD) Papua New Guinea\nThe best"
+ },
+ "capital_country_119|es": {
+  "prompt": "El país cuya capital es Suva es",
+  "gen": "...?\nLa respuesta es Fiyi. Suva es la capital y la ciudad más grande de Fiyi. Es el"
+ },
+ "capital_country_120|en": {
+  "prompt": "The country whose capital is Dushanbe is",
+  "gen": " Tajikistan.\nThe country whose capital is Dushanbe is Tajikistan. The country whose capital is D"
+ },
+ "capital_country_120|es": {
+  "prompt": "El país cuya capital es Dusambé es",
+  "gen": "...?\nLa respuesta es: República Democrática del Congo."
+ },
+ "capital_country_121|en": {
+  "prompt": "The country whose capital is Bishkek is",
+  "gen": ":\nA) Kyrgyzstan\nB) Tajikistan\nC) Dushanbe\nD) Ashg"
+ },
+ "capital_country_121|es": {
+  "prompt": "El país cuya capital es Biskek es",
+  "gen": " Kazajistán.\nLa capital de Kazajistán es Biskek.\nLa capital de Kazajistán"
+ },
+ "capital_country_122|en": {
+  "prompt": "The country whose capital is Ashgabat is",
+  "gen": " Turkmenistan.\nThe country whose capital is Ashgabat is Turkmenistan. Turkmenistan is a country"
+ },
+ "capital_country_122|es": {
+  "prompt": "El país cuya capital es Asjabad es",
+  "gen": " Turkmenistán.\nLa capital de Turkmenistán es Asjabad.\nLa capital de Turkmenistán"
+ },
+ "capital_country_123|en": {
+  "prompt": "The country whose capital is Skopje is",
+  "gen": "?\nThe answer is North Macedonia.\nThe country whose capital is Skopje is North Macedonia. Skopje is the"
+ },
+ "capital_country_123|es": {
+  "prompt": "El país cuya capital es Skopie es",
+  "gen": " Macedonia del Norte.\nLa capital de Macedonia del Norte es Skopie.\nLa capital de Macedonia es Skopie.\n"
+ },
+ "capital_country_124|en": {
+  "prompt": "The country whose capital is Podgorica is",
+  "gen": ":\nA) Bosnia and Herzegovina\nB) Montenegro\nC) Serbia\nD) Croatia\nThe best"
+ },
+ "capital_country_124|es": {
+  "prompt": "El país cuya capital es Podgorica es",
+  "gen": "...?\nLa respuesta es Montenegro. Montenegro es un país de Europa del Sur, con una población de aproxim"
+ },
+ "capital_of_000|en": {
+  "prompt": "The capital of France is",
+  "gen": " Paris. The capital of Italy is Rome. The capital of Spain is Madrid. The capital of Germany is Berlin. The"
+ },
+ "capital_of_000|es": {
+  "prompt": "La capital de Francia es la ciudad de",
+  "gen": " París. La ciudad de París es la capital de Francia y tiene una población de más de 2"
+ },
+ "capital_of_001|en": {
+  "prompt": "The capital of Germany is",
+  "gen": " Berlin. Berlin is a city with a rich history and a vibrant cultural scene. It is home to many famous landmarks,"
+ },
+ "capital_of_001|es": {
+  "prompt": "La capital de Alemania es la ciudad de",
+  "gen": " Berlín. La ciudad de Berlín es la capital y la ciudad más grande de Alemania. La ciudad de Ber"
+ },
+ "capital_of_002|en": {
+  "prompt": "The capital of Italy is",
+  "gen": " Rome, but the capital of Italy is actually Rome, and the capital of Italy is also Rome. This is a classic"
+ },
+ "capital_of_002|es": {
+  "prompt": "La capital de Italia es la ciudad de",
+  "gen": " Roma, que se encuentra en el centro del país. La ciudad es famosa por su rica historia, arqu"
+ },
+ "capital_of_003|en": {
+  "prompt": "The capital of Spain is",
+  "gen": " Madrid. The capital of France is Paris. The capital of Italy is Rome. The capital of Germany is Berlin. The"
+ },
+ "capital_of_003|es": {
+  "prompt": "La capital de España es la ciudad de",
+  "gen": " Madrid, que se encuentra en la comunidad autónoma de Castilla y León. La ciudad tiene una población"
+ },
+ "capital_of_004|en": {
+  "prompt": "The capital of Portugal is",
+  "gen": " Lisbon. Lisbon is the largest city in Portugal and is located in the western part of the country. It is a popular"
+ },
+ "capital_of_004|es": {
+  "prompt": "La capital de Portugal es la ciudad de",
+  "gen": " Lisboa, que se encuentra en la costa oeste del país. La ciudad tiene una rica historia y cultura,"
+ },
+ "capital_of_005|en": {
+  "prompt": "The capital of Japan is",
+  "gen": " Tokyo. Tokyo is a major city located on the eastern coast of Honshu, the largest island of Japan. It"
+ },
+ "capital_of_005|es": {
+  "prompt": "La capital de Japón es la ciudad de",
+  "gen": " Tokio, que es la ciudad más grande del país y la segunda ciudad más grande del mundo. Tokio es conoc"
+ },
+ "capital_of_006|en": {
+  "prompt": "The capital of China is",
+  "gen": " Beijing. Beijing is a city with a rich history and culture, and it is home to many famous landmarks such as the"
+ },
+ "capital_of_006|es": {
+  "prompt": "La capital de China es la ciudad de",
+  "gen": " Pekín (Beijing). Pekín es la ciudad más grande de China y tiene una población de más de "
+ },
+ "capital_of_007|en": {
+  "prompt": "The capital of India is",
+  "gen": " New Delhi. It is the largest city in India and is located in the northern part of the country. New Delhi is"
+ },
+ "capital_of_007|es": {
+  "prompt": "La capital de India es la ciudad de",
+  "gen": " Nueva Delhi, que se encuentra en el norte del país. Nueva Delhi es una ciudad vibrante y divers"
+ },
+ "capital_of_008|en": {
+  "prompt": "The capital of Russia is",
+  "gen": " Moscow. Moscow is a major city in Russia, and it is the country's largest city. It is located in the"
+ },
+ "capital_of_008|es": {
+  "prompt": "La capital de Rusia es la ciudad de",
+  "gen": " Moscú. La ciudad de Moscú tiene una población de 12,6 millones de habitantes."
+ },
+ "capital_of_009|en": {
+  "prompt": "The capital of Brazil is",
+  "gen": " Brasília, which is located in the Federal District. The city was built in the 1950s and 196"
+ },
+ "capital_of_009|es": {
+  "prompt": "La capital de Brasil es la ciudad de",
+  "gen": " Brasilia, que fue fundada en 1960. Brasilia es conocida por su arquitectura modern"
+ },
+ "capital_of_010|en": {
+  "prompt": "The capital of Argentina is",
+  "gen": " Buenos Aires. Buenos Aires is the largest city in Argentina and is located in the eastern part of the country. It is"
+ },
+ "capital_of_010|es": {
+  "prompt": "La capital de Argentina es la ciudad de",
+  "gen": " Buenos Aires. La ciudad tiene una población de más de 15 millones de habitantes y es conocida por su"
+ },
+ "capital_of_011|en": {
+  "prompt": "The capital of Mexico is",
+  "gen": " Mexico City, which is located in the Valley of Mexico. The city is situated in the central part of the country,"
+ },
+ "capital_of_011|es": {
+  "prompt": "La capital de México es la ciudad de",
+  "gen": " México, que es la ciudad más grande del país y la segunda ciudad más grande de América Latina. La ciudad de México"
+ },
+ "capital_of_012|en": {
+  "prompt": "The capital of Canada is",
+  "gen": " Ottawa, which is located in the province of Ontario. However, the capital of Canada is actually located in the province of"
+ },
+ "capital_of_012|es": {
+  "prompt": "La capital de Canadá es la ciudad de",
+  "gen": " Ottawa, que se encuentra en la región de Ontario. La ciudad de Ottawa es conocida por su rica historia"
+ },
+ "capital_of_013|en": {
+  "prompt": "The capital of Australia is",
+  "gen": " Canberra, which is located in the Australian Capital Territory (ACT). Canberra is a planned city, designed by American architect Walter"
+ },
+ "capital_of_013|es": {
+  "prompt": "La capital de Australia es la ciudad de",
+  "gen": " Canberra, que se encuentra en el centro del país. Canberra es conocida por su arquitectura moderna y"
+ },
+ "capital_of_014|en": {
+  "prompt": "The capital of Greece is",
+  "gen": " Athens. The capital of Greece is Athens. The capital of Greece is Athens. The capital of Greece is Athens. The"
+ },
+ "capital_of_014|es": {
+  "prompt": "La capital de Grecia es la ciudad de",
+  "gen": " Atenas, que se encuentra en la península de Grecia. Atenas es una ciudad"
+ },
+ "capital_of_015|en": {
+  "prompt": "The capital of Turkey is",
+  "gen": " Ankara. It is located in the central part of the country, in the Ankara Province. Ankara is a significant cultural and"
+ },
+ "capital_of_015|es": {
+  "prompt": "La capital de Turquía es la ciudad de",
+  "gen": " Estambul (también conocida como Estambul, Estambul, Estambul, Estamb"
+ },
+ "capital_of_016|en": {
+  "prompt": "The capital of Sweden is",
+  "gen": " Stockholm. Stockholm is the largest city in Sweden and is located on the eastern coast of the country, on the shores of"
+ },
+ "capital_of_016|es": {
+  "prompt": "La capital de Suecia es la ciudad de",
+  "gen": " Estocolmo. Estocolmo es una ciudad muy grande y tiene una población de más de 2 millones de"
+ },
+ "capital_of_017|en": {
+  "prompt": "The capital of Norway is",
+  "gen": " Oslo. Oslo is a beautiful city with a rich history and culture. It is known for its stunning architecture, vibrant arts"
+ },
+ "capital_of_017|es": {
+  "prompt": "La capital de Noruega es la ciudad de",
+  "gen": " Oslo, que se encuentra en el sur de la isla de Noruega. Oslo es una ciudad cosmopolita"
+ },
+ "capital_of_018|en": {
+  "prompt": "The capital of Finland is",
+  "gen": " Helsinki. Helsinki is the largest city in Finland and is located on the southern coast of the Gulf of Finland. The city"
+ },
+ "capital_of_018|es": {
+  "prompt": "La capital de Finlandia es la ciudad de",
+  "gen": " Helsinki, que se encuentra en la costa oeste del país. La ciudad tiene una población de aproximadamente 640"
+ },
+ "capital_of_019|en": {
+  "prompt": "The capital of Denmark is",
+  "gen": " Copenhagen. Copenhagen is a beautiful city with a rich history and culture. It is known for its stunning architecture, vibrant nightlife"
+ },
+ "capital_of_019|es": {
+  "prompt": "La capital de Dinamarca es la ciudad de",
+  "gen": " Copenhague (CopenHague). La ciudad tiene una población de 623,000 habitantes y es"
+ },
+ "capital_of_020|en": {
+  "prompt": "The capital of Poland is",
+  "gen": " Warsaw (Polish: Warszawa). It is the largest city in Poland and the country's economic, cultural,"
+ },
+ "capital_of_020|es": {
+  "prompt": "La capital de Polonia es la ciudad de",
+  "gen": " Varsovia. La ciudad de Varsovia tiene una población de 1.768.536 habitantes y"
+ },
+ "capital_of_021|en": {
+  "prompt": "The capital of Austria is",
+  "gen": " Vienna, which is also the largest city in the country. Vienna is known for its rich history, cultural heritage, and"
+ },
+ "capital_of_021|es": {
+  "prompt": "La capital de Austria es la ciudad de",
+  "gen": " Viena (en alemán, Wien). La ciudad tiene una población de 1,9 millones de habit"
+ },
+ "capital_of_022|en": {
+  "prompt": "The capital of Switzerland is",
+  "gen": " Bern, but the country has no official capital. This is because Switzerland is a federal republic with a unique system of government"
+ },
+ "capital_of_022|es": {
+  "prompt": "La capital de Suiza es la ciudad de",
+  "gen": " Berna, que se encuentra en el centro del país. La ciudad de Berna es conocida por su arqu"
+ },
+ "capital_of_023|en": {
+  "prompt": "The capital of Belgium is",
+  "gen": " Brussels, which is also the capital of the region of Flanders. Brussels is a multilingual city, with three official"
+ },
+ "capital_of_023|es": {
+  "prompt": "La capital de Bélgica es la ciudad de",
+  "gen": " Bruselas, que es también la capital de la región de la Comunidad flamiga. La ciudad tiene una"
+ },
+ "capital_of_024|en": {
+  "prompt": "The capital of Ireland is",
+  "gen": " Dublin. Dublin is a beautiful city with a rich history and culture. It is known for its vibrant atmosphere, stunning architecture"
+ },
+ "capital_of_024|es": {
+  "prompt": "La capital de Irlanda es la ciudad de",
+  "gen": " Dublín (Dublin). La ciudad tiene una población de más de 527,617 habitantes y es conoc"
+ },
+ "capital_of_025|en": {
+  "prompt": "The capital of Peru is",
+  "gen": " Lima. Lima is a city located in the central coastal region of Peru. It is the largest city in Peru and the"
+ },
+ "capital_of_025|es": {
+  "prompt": "La capital de Perú es la ciudad de",
+  "gen": " Lima, que se encuentra en la costa central del país. Lima es una ciudad vibrante y diversa, con una"
+ },
+ "capital_of_026|en": {
+  "prompt": "The capital of Chile is",
+  "gen": " Santiago. It is the largest city in Chile and is located in the central part of the country. Santiago is a major"
+ },
+ "capital_of_026|es": {
+  "prompt": "La capital de Chile es la ciudad de",
+  "gen": " Santiago, que se encuentra en el centro del país. Santiago es una ciudad vibrante y diversa, con una r"
+ },
+ "capital_of_027|en": {
+  "prompt": "The capital of Colombia is",
+  "gen": " Bogotá. It is the largest city in Colombia and is located in the Andean highlands. Bogotá"
+ },
+ "capital_of_027|es": {
+  "prompt": "La capital de Colombia es la ciudad de",
+  "gen": " Bogotá, que se encuentra en el valle de Bogotá, en el departamento de Cundinamar"
+ },
+ "capital_of_028|en": {
+  "prompt": "The capital of Venezuela is",
+  "gen": " Caracas. It is located in the northern part of the country, in the Andes mountain range. Caracas is"
+ },
+ "capital_of_028|es": {
+  "prompt": "La capital de Venezuela es la ciudad de",
+  "gen": " Caracas, que se encuentra en el noroeste del país. Caracas es la ciudad más grande y la capital"
+ },
+ "capital_of_029|en": {
+  "prompt": "The capital of Thailand is",
+  "gen": " Bangkok. Bangkok is a bustling metropolis with a rich history and culture. It is known for its ornate temples,"
+ },
+ "capital_of_029|es": {
+  "prompt": "La capital de Tailandia es la ciudad de",
+  "gen": " Bangkok, que es conocida por su arquitectura, su cultura y su vida nocturna. Bangkok es"
+ },
+ "capital_of_030|en": {
+  "prompt": "The capital of Vietnam is",
+  "gen": " Hanoi, which is located in the northern part of the country. Hanoi is a city with a rich history and"
+ },
+ "capital_of_030|es": {
+  "prompt": "La capital de Vietnam es la ciudad de",
+  "gen": " Hanoi, que se encuentra en el norte del país. Hanoi es conocida por su arquitectura"
+ },
+ "capital_of_031|en": {
+  "prompt": "The capital of Indonesia is",
+  "gen": " Jakarta. It is the largest city in Indonesia and is located on the northwest coast of the island of Java. Jakarta is"
+ },
+ "capital_of_031|es": {
+  "prompt": "La capital de Indonesia es la ciudad de",
+  "gen": " Yakarta. La ciudad de Yakarta es la capital de la provincia de Jakartapura, que es una de"
+ },
+ "capital_of_032|en": {
+  "prompt": "The capital of Pakistan is",
+  "gen": " Islamabad, which is located in the north-central part of the country. Islamabad is a planned city, built in the "
+ },
+ "capital_of_032|es": {
+  "prompt": "La capital de Pakistán es la ciudad de",
+  "gen": " Islamabad, que se encuentra en el norte del país. Islamabad es conocida por su arquitectura moderna"
+ },
+ "capital_of_033|en": {
+  "prompt": "The capital of Bangladesh is",
+  "gen": " Dhaka. It is the largest city in Bangladesh and is located in the central part of the country. Dhaka is"
+ },
+ "capital_of_033|es": {
+  "prompt": "La capital de Bangladés es la ciudad de",
+  "gen": " Dhaka. La ciudad de Dhaka es la capital y la ciudad más grande de Bangladés. La ciudad tiene"
+ },
+ "capital_of_034|en": {
+  "prompt": "The capital of Nepal is",
+  "gen": " Kathmandu. It is the largest city in Nepal and is located in the central part of the country. Kathmand"
+ },
+ "capital_of_034|es": {
+  "prompt": "La capital de Nepal es la ciudad de",
+  "gen": " Katmandú (en nepalí, काठमाडौं, Kāthmandu). La ciudad tiene"
+ },
+ "capital_of_035|en": {
+  "prompt": "The capital of Sri Lanka is",
+  "gen": " Colombo. However, the administrative capital is Sri Jayawardenepura Kotte, which is located about 10"
+ },
+ "capital_of_035|es": {
+  "prompt": "La capital de Sri Lanka es la ciudad de",
+  "gen": " Colombo, que es la ciudad más grande del país y la segunda ciudad más grande de Sri Lanka después de la capital"
+ },
+ "capital_of_036|en": {
+  "prompt": "The capital of Iran is",
+  "gen": " Tehran. Tehran is the largest city in Iran and is located in the north-central part of the country. It is a"
+ },
+ "capital_of_036|es": {
+  "prompt": "La capital de Irán es la ciudad de",
+  "gen": " Teherán, que es la capital y la ciudad más grande de Irán. Teherán es una ciudad vibr"
+ },
+ "capital_of_037|en": {
+  "prompt": "The capital of Iraq is",
+  "gen": " Baghdad.\nThe capital of Iraq is Baghdad.\nThe capital of Iraq is Baghdad.\nThe capital of Iraq is Baghdad.\nThe"
+ },
+ "capital_of_037|es": {
+  "prompt": "La capital de Irak es la ciudad de",
+  "gen": " Bagdad, que se encuentra en el centro del país. La ciudad tiene una población de más de 7 millones"
+ },
+ "capital_of_038|en": {
+  "prompt": "The capital of Saudi Arabia is",
+  "gen": " Riyadh.\nThe capital of Saudi Arabia is Riyadh.\nThe capital of Saudi Arabia is Riyadh.\nThe capital of Saudi Arabia is"
+ },
+ "capital_of_038|es": {
+  "prompt": "La capital de Arabia Saudita es la ciudad de",
+  "gen": " Riad, que es conocida por su arquitectura tradicional y su rica historia. La ciudad es"
+ },
+ "capital_of_039|en": {
+  "prompt": "The capital of Kenya is",
+  "gen": " Nairobi. Nairobi is the largest city in Kenya and is located in the central part of the country. It is a major"
+ },
+ "capital_of_039|es": {
+  "prompt": "La capital de Kenia es la ciudad de",
+  "gen": " Nairobi. Nairobi es una ciudad vibrante y diversa, conocida por su rica historia, su cultura y su"
+ },
+ "capital_of_040|en": {
+  "prompt": "The capital of Nigeria is",
+  "gen": " Abuja, but the largest city is Lagos. Nigeria is a country located in West Africa, and it has a diverse"
+ },
+ "capital_of_040|es": {
+  "prompt": "La capital de Nigeria es la ciudad de",
+  "gen": " Abuja. La ciudad de Abuja es la capital de Nigeria y tiene una población de más de 3 millones"
+ },
+ "capital_of_041|en": {
+  "prompt": "The capital of Ethiopia is",
+  "gen": " Addis Ababa. The country is located in the Horn of Africa, bordered by Djibouti to the northeast"
+ },
+ "capital_of_041|es": {
+  "prompt": "La capital de Etiopía es la ciudad de",
+  "gen": " Addis Abeba (también conocida como Adis Abeba). La ciudad tiene una población de más"
+ },
+ "capital_of_042|en": {
+  "prompt": "The capital of Morocco is",
+  "gen": " Rabat. Rabat is a city located in the northwest of the country, on the Atlantic coast. It is the"
+ },
+ "capital_of_042|es": {
+  "prompt": "La capital de Marruecos es la ciudad de",
+  "gen": " Rabat, que se encuentra en el norte del país. La ciudad tiene una población de aproximadamente 1"
+ },
+ "capital_of_043|en": {
+  "prompt": "The capital of Algeria is",
+  "gen": " Algiers. It is a major port city and the largest city in the country. Algiers is known for its rich"
+ },
+ "capital_of_043|es": {
+  "prompt": "La capital de Argelia es la ciudad de",
+  "gen": " Argel, que tiene una población de 3.000.000 de habitantes. La ciudad es famosa"
+ },
+ "capital_of_044|en": {
+  "prompt": "The capital of South Africa is",
+  "gen": " Pretoria, but the country's largest city is Johannesburg. The country's official language is Afrikaans, but the most"
+ },
+ "capital_of_044|es": {
+  "prompt": "La capital de Sudáfrica es la ciudad de",
+  "gen": " Pretoria, pero en 2011, el gobierno decidió que la ciudad de Ciudad del Cabo sería"
+ },
+ "capital_of_045|en": {
+  "prompt": "The capital of Ghana is",
+  "gen": " Accra. Accra is a bustling city with a rich history and culture. It is the largest city in Ghana and"
+ },
+ "capital_of_045|es": {
+  "prompt": "La capital de Ghana es la ciudad de",
+  "gen": " Acra (en inglés, Accra). Es la ciudad más grande del país y la capital de la región"
+ },
+ "capital_of_046|en": {
+  "prompt": "The capital of Hungary is",
+  "gen": " Budapest. It is a beautiful city with a rich history and culture. Budapest is known for its stunning architecture, thermal baths"
+ },
+ "capital_of_046|es": {
+  "prompt": "La capital de Hungría es la ciudad de",
+  "gen": " Budapest, que se encuentra en el centro de Europa. Budapest es una ciudad vibrante y llena de vida, con"
+ },
+ "capital_of_047|en": {
+  "prompt": "The capital of Romania is",
+  "gen": " Bucharest. It is the largest city in Romania and is located in the southern part of the country. Bucharest is"
+ },
+ "capital_of_047|es": {
+  "prompt": "La capital de Rumania es la ciudad de",
+  "gen": " Bucarest. Bucarest es una ciudad vibrante y llena de vida, con una mezcla única de"
+ },
+ "capital_of_048|en": {
+  "prompt": "The capital of Ukraine is",
+  "gen": " Kyiv (also known as Kiev). It is located in the north-central part of the country, on the Dnie"
+ },
+ "capital_of_048|es": {
+  "prompt": "La capital de Ucrania es la ciudad de",
+  "gen": " Kiev (Kiev en inglés). Kiev es una ciudad con una rica historia y cultura, y es conocida"
+ },
+ "capital_of_049|en": {
+  "prompt": "The capital of Bulgaria is",
+  "gen": " Sofia. Sofia is a city with a rich history, dating back to the 7th century BC. It has been"
+ },
+ "capital_of_049|es": {
+  "prompt": "La capital de Bulgaria es la ciudad de",
+  "gen": " Sofía, que se encuentra en el este del país. La ciudad tiene una población de más de 1,"
+ },
+ "capital_of_050|en": {
+  "prompt": "The capital of Serbia is",
+  "gen": " Belgrade. It is a city with a rich history and a blend of Eastern and Western cultures. The city is situated"
+ },
+ "capital_of_050|es": {
+  "prompt": "La capital de Serbia es la ciudad de",
+  "gen": " Belgrado, que tiene una población de más de 1,1 millones de habitantes. La ciudad es"
+ },
+ "capital_of_051|en": {
+  "prompt": "The capital of Croatia is",
+  "gen": " Zagreb. It is the largest city in the country and is known for its rich history, cultural attractions, and vibrant"
+ },
+ "capital_of_051|es": {
+  "prompt": "La capital de Croacia es la ciudad de",
+  "gen": " Zagreb, que se encuentra en el centro del país. La ciudad tiene una población de más de 800."
+ },
+ "capital_of_052|en": {
+  "prompt": "The capital of Iceland is",
+  "gen": " Reykjavik. It is a city with a rich history and culture, known for its vibrant nightlife, stunning natural"
+ },
+ "capital_of_052|es": {
+  "prompt": "La capital de Islandia es la ciudad de",
+  "gen": " Reikiavik. La ciudad tiene una población de aproximadamente 120.000 habitantes y es conocida"
+ },
+ "capital_of_053|en": {
+  "prompt": "The capital of Mongolia is",
+  "gen": " Ulaanbaatar. It is the largest city in the country and is located in the central part of the country"
+ },
+ "capital_of_053|es": {
+  "prompt": "La capital de Mongolia es la ciudad de",
+  "gen": " Ulaanbaatar, que tiene una población de más de 1,3 millones de habitantes. La"
+ },
+ "capital_of_054|en": {
+  "prompt": "The capital of Afghanistan is",
+  "gen": " Kabul.\nThe capital of Afghanistan is Kabul.\nThe capital of Afghanistan is Kabul.\nThe capital of Afghanistan is Kabul.\nThe"
+ },
+ "capital_of_054|es": {
+  "prompt": "La capital de Afganistán es la ciudad de",
+  "gen": " Cabul (o Kabul en inglés). La ciudad se encuentra en el centro del país y es el centro político"
+ },
+ "capital_of_055|en": {
+  "prompt": "The capital of Cambodia is",
+  "gen": " Phnom Penh. The country is located in Southeast Asia, bordered by Thailand to the west, Vietnam to the east"
+ },
+ "capital_of_055|es": {
+  "prompt": "La capital de Camboya es la ciudad de",
+  "gen": " Phnom Penh. La ciudad tiene una población de más de 2 millones de habitantes y es conocida"
+ },
+ "capital_of_056|en": {
+  "prompt": "The capital of South Korea is",
+  "gen": " Seoul. Seoul is a bustling metropolis with a rich history and culture. It is known for its vibrant nightlife, delicious"
+ },
+ "capital_of_056|es": {
+  "prompt": "La capital de Corea del Sur es la ciudad de",
+  "gen": " Seúl, que es conocida por su arquitectura moderna, su vida nocturna vibrante"
+ },
+ "capital_of_057|en": {
+  "prompt": "The capital of Jordan is",
+  "gen": " Amman. Amman is a city with a rich history, dating back to the 3rd millennium BC. It"
+ },
+ "capital_of_057|es": {
+  "prompt": "La capital de Jordania es la ciudad de",
+  "gen": " Amán, que es conocida por su rica historia, su arquitectura islámica y su ubic"
+ },
+ "capital_of_058|en": {
+  "prompt": "The capital of Lebanon is",
+  "gen": " Beirut. Beirut is a city located in the Middle East, on the eastern coast of the Mediterranean Sea. It is the"
+ },
+ "capital_of_058|es": {
+  "prompt": "La capital de Líbano es la ciudad de",
+  "gen": " Beirut, que es conocida por su rica historia, su arquitectura única y su vibrante vida cultural"
+ },
+ "capital_of_059|en": {
+  "prompt": "The capital of Syria is",
+  "gen": " Damascus. It is the largest city in Syria and the country's economic, cultural, and historical center. Damascus is a"
+ },
+ "capital_of_059|es": {
+  "prompt": "La capital de Siria es la ciudad de",
+  "gen": " Damasco, que es la capital y la ciudad más grande de Siria. La ciudad tiene una población de más"
+ },
+ "capital_of_060|en": {
+  "prompt": "The capital of Libya is",
+  "gen": " Tripoli. Tripoli is the largest city in Libya and is located on the Mediterranean coast. The city has a rich"
+ },
+ "capital_of_060|es": {
+  "prompt": "La capital de Libia es la ciudad de",
+  "gen": " Tripoli. Tripoli es la ciudad más grande y la capital de Libia, con una población de más de"
+ },
+ "capital_of_061|en": {
+  "prompt": "The capital of Uruguay is",
+  "gen": " Montevideo. It is the largest city in Uruguay and is located on the coast of the Atlantic Ocean. Montev"
+ },
+ "capital_of_061|es": {
+  "prompt": "La capital de Uruguay es la ciudad de",
+  "gen": " Montevideo, que se encuentra en la costa este del país. Montevideo es una ciudad vibrante y divers"
+ },
+ "capital_of_062|en": {
+  "prompt": "The capital of Ecuador is",
+  "gen": " Quito, which is located in the Andes mountain range. Quito is a city of great cultural and historical significance"
+ },
+ "capital_of_062|es": {
+  "prompt": "La capital de Ecuador es la ciudad de",
+  "gen": " Quito, que se encuentra en la región de Pichincha. Quito es una ciudad histórica y"
+ },
+ "capital_of_063|en": {
+  "prompt": "The capital of Paraguay is",
+  "gen": " Asunción. It is the country's largest city and is located on the Paraguay River. Asunción is"
+ },
+ "capital_of_063|es": {
+  "prompt": "La capital de Paraguay es la ciudad de",
+  "gen": " Asunción. La ciudad tiene una población de 547,000 habitantes y se encuentra en el centro del"
+ },
+ "capital_of_064|en": {
+  "prompt": "The capital of Jamaica is",
+  "gen": " Kingston. Kingston is a major port city and the largest city in Jamaica. It is located on the southeastern coast of Jamaica"
+ },
+ "capital_of_064|es": {
+  "prompt": "La capital de Jamaica es la ciudad de",
+  "gen": " Kingston, que se encuentra en la costa norte de la isla. La ciudad tiene una población de aproximadamente"
+ },
+ "capital_of_065|en": {
+  "prompt": "The capital of New Zealand is",
+  "gen": " Wellington, but the country's largest city is Auckland. Auckland is a major port city and is located on the North Island"
+ },
+ "capital_of_065|es": {
+  "prompt": "La capital de Nueva Zelanda es la ciudad de",
+  "gen": " Wellington, que se encuentra en la costa este de la isla del Norte. Wellington es conocida por su arqu"
+ },
+ "capital_of_066|en": {
+  "prompt": "The capital of Cuba is",
+  "gen": " Havana. Cuba is an island nation located in the Caribbean Sea. It is the largest island in the Caribbean and the second"
+ },
+ "capital_of_066|es": {
+  "prompt": "La capital de Cuba es la ciudad de",
+  "gen": " La Habana, que es conocida por su arquitectura colonial, su rica historia y su vibrante"
+ },
+ "capital_of_067|en": {
+  "prompt": "The capital of Bolivia is",
+  "gen": " Sucre, but the seat of government is La Paz. Bolivia is a landlocked country in South America, bordered by"
+ },
+ "capital_of_067|es": {
+  "prompt": "La capital de Bolivia es la ciudad de",
+  "gen": " Sucre, pero en la actualidad, la ciudad más poblada y con mayor influencia económica y política es"
+ },
+ "capital_of_068|en": {
+  "prompt": "The capital of Costa Rica is",
+  "gen": " San José. It is the largest city in the country and is located in the central highlands. San José is a"
+ },
+ "capital_of_068|es": {
+  "prompt": "La capital de Costa Rica es la ciudad de",
+  "gen": " San José, que se encuentra en el centro del país. La ciudad tiene una población de más de 1,"
+ },
+ "capital_of_069|en": {
+  "prompt": "The capital of Panama is",
+  "gen": " Panama City, which is located on the Pacific coast of the country. The city is a major economic and financial hub,"
+ },
+ "capital_of_069|es": {
+  "prompt": "La capital de Panamá es la ciudad de",
+  "gen": " Panamá, que es la capital y la ciudad más grande de Panamá. La ciudad tiene una población"
+ },
+ "capital_of_070|en": {
+  "prompt": "The capital of Egypt is",
+  "gen": " Cairo. Cairo is a city located in northeastern Egypt, on the Nile River. It is the largest city in Egypt and"
+ },
+ "capital_of_070|es": {
+  "prompt": "La capital de Egipto es la ciudad de",
+  "gen": " El Cairo, que tiene una población de más de 20 millones de habitantes. La ciudad es famosa por"
+ },
+ "capital_of_071|en": {
+  "prompt": "The capital of Israel is",
+  "gen": " Jerusalem, but the country's largest city is Tel Aviv. Tel Aviv is a major economic and cultural center, and is"
+ },
+ "capital_of_071|es": {
+  "prompt": "La capital de Israel es la ciudad de",
+  "gen": " Jerusalén, que es también la ciudad más antigua del mundo. La ciudad tiene una rica historia que se"
+ },
+ "capital_of_072|en": {
+  "prompt": "The capital of the Czech Republic is",
+  "gen": " Prague, which is also the largest city in the country. Prague is a beautiful city with a rich history and culture,"
+ },
+ "capital_of_072|es": {
+  "prompt": "La capital de la República Checa es la ciudad de",
+  "gen": " Praga, que se encuentra en el corazón de Europa Central. La ciudad tiene una rica historia y una ar"
+ },
+ "capital_of_073|en": {
+  "prompt": "The capital of Slovakia is",
+  "gen": " Bratislava. It is the largest city in the country and is located in the western part of the country, near"
+ },
+ "capital_of_073|es": {
+  "prompt": "La capital de Eslovaquia es la ciudad de",
+  "gen": " Bratislava. La ciudad tiene una población de aproximadamente 450.000 habitantes y se encuentra en el"
+ },
+ "capital_of_074|en": {
+  "prompt": "The capital of Slovenia is",
+  "gen": " Ljubljana. Ljubljana is a beautiful city with a rich history and culture. It is"
+ },
+ "capital_of_074|es": {
+  "prompt": "La capital de Eslovenia es la ciudad de",
+  "gen": " Liubliana (Ljubljana en esloveno). La ciudad tiene una población de 294"
+ },
+ "capital_of_075|en": {
+  "prompt": "The capital of Estonia is",
+  "gen": " Tallinn, which is also the country's largest city. It is located on the northern coast of the Baltic Sea,"
+ },
+ "capital_of_075|es": {
+  "prompt": "La capital de Estonia es la ciudad de",
+  "gen": " Tallin, que se encuentra en la costa norte del país. Tallin es una ciudad histórica y culturalmente"
+ },
+ "capital_of_076|en": {
+  "prompt": "The capital of Latvia is",
+  "gen": " Riga, which is also the largest city in the country. Riga is a beautiful city with a rich history and"
+ },
+ "capital_of_076|es": {
+  "prompt": "La capital de Letonia es la ciudad de",
+  "gen": " Riga, que se encuentra en el este del país. Riga es una ciudad histórica y culturalmente rica"
+ },
+ "capital_of_077|en": {
+  "prompt": "The capital of Lithuania is",
+  "gen": " Vilnius. It is the largest city in Lithuania and is located in the southeastern part of the country. Vilni"
+ },
+ "capital_of_077|es": {
+  "prompt": "La capital de Lituania es la ciudad de",
+  "gen": " Vilnius. Vilnius es una ciudad histórica y culturalmente rica, con una arquitectura"
+ },
+ "capital_of_078|en": {
+  "prompt": "The capital of Belarus is",
+  "gen": " Minsk. Belarus is a landlocked country located in Eastern Europe, bordered by Russia, Ukraine, Poland, Lithuania,"
+ },
+ "capital_of_078|es": {
+  "prompt": "La capital de Bielorrusia es la ciudad de",
+  "gen": " Minsk. Minsk es la capital y la ciudad más grande de Bielorrusia. La ciudad tiene una"
+ },
+ "capital_of_079|en": {
+  "prompt": "The capital of Georgia is",
+  "gen": " Tbilisi. The country is located in the Caucasus region, bordered by Russia to the north, Turkey to the"
+ },
+ "capital_of_079|es": {
+  "prompt": "La capital de Georgia es la ciudad de",
+  "gen": " Tiflis (Tifli, Tiflis, Tiflis, Tiflis, Tiflis,"
+ },
+ "capital_of_080|en": {
+  "prompt": "The capital of Armenia is",
+  "gen": " Yerevan. Yerevan is a city located in the central part of Armenia, on the Hrazdan River"
+ },
+ "capital_of_080|es": {
+  "prompt": "La capital de Armenia es la ciudad de",
+  "gen": " Ereván (en armenio, Երևան, Ereván). La"
+ },
+ "capital_of_081|en": {
+  "prompt": "The capital of Azerbaijan is",
+  "gen": " Baku. Azerbaijan is a country located in the South Caucasus region, bordered by Russia to the north, Georgia to"
+ },
+ "capital_of_081|es": {
+  "prompt": "La capital de Azerbaiyán es la ciudad de",
+  "gen": " Bakú, que se encuentra en la costa del Mar Cáucaso. Bakú es una ciudad cosmopolita"
+ },
+ "capital_of_082|en": {
+  "prompt": "The capital of Kazakhstan is",
+  "gen": " Astana, but the country's largest city is Almaty. Almaty is a major cultural and economic center"
+ },
+ "capital_of_082|es": {
+  "prompt": "La capital de Kazajistán es la ciudad de",
+  "gen": " Astana, que se encuentra en el norte del país. La ciudad tiene una población de más de 1"
+ },
+ "capital_of_083|en": {
+  "prompt": "The capital of Uzbekistan is",
+  "gen": " Tashkent. It is located in the Fergana Valley, in the south of the country. Tash"
+ },
+ "capital_of_083|es": {
+  "prompt": "La capital de Uzbekistán es la ciudad de",
+  "gen": " Tashkent. Tashkent es una ciudad próspera y cosmopolita, con una r"
+ },
+ "capital_of_084|en": {
+  "prompt": "The capital of Myanmar is",
+  "gen": " Naypyidaw, which is located in the central part of the country. The city was built in 2002"
+ },
+ "capital_of_084|es": {
+  "prompt": "La capital de Birmania es la ciudad de",
+  "gen": " Naypyidaw, que se encuentra en el centro del país. La ciudad fue construida en 2002 y"
+ },
+ "capital_of_085|en": {
+  "prompt": "The capital of Malaysia is",
+  "gen": " Kuala Lumpur. It is a city located in the central part of the Malay Peninsula, in the state of Selangor"
+ },
+ "capital_of_085|es": {
+  "prompt": "La capital de Malasia es la ciudad de",
+  "gen": " Kuala Lumpur, que se encuentra en el centro del país. La ciudad tiene una población de más de 1,"
+ },
+ "capital_of_086|en": {
+  "prompt": "The capital of the Philippines is",
+  "gen": " Manila. Manila is the country's largest city and is located on the island of Luzon. The city has a rich"
+ },
+ "capital_of_086|es": {
+  "prompt": "La capital de Filipinas es la ciudad de",
+  "gen": " Manila, que es la capital y la ciudad más grande de la isla de Luzón. Manila es una ciudad vibr"
+ },
+ "capital_of_087|en": {
+  "prompt": "The capital of Laos is",
+  "gen": " Vientiane. It is a city with a rich history and culture, known for its beautiful temples, bustling markets,"
+ },
+ "capital_of_087|es": {
+  "prompt": "La capital de Laos es la ciudad de",
+  "gen": " Vientiane, que se encuentra en el centro del país. La ciudad tiene una población de aproximadamente 800"
+ },
+ "capital_of_088|en": {
+  "prompt": "The capital of North Korea is",
+  "gen": " Pyongyang. It is the largest city in the country and is located in the northwestern part of the Korean Peninsula. Pyongyang"
+ },
+ "capital_of_088|es": {
+  "prompt": "La capital de Corea del Norte es la ciudad de",
+  "gen": " Pyongyang, que se encuentra en la costa este del país. La ciudad tiene una población de aproximadamente 2,"
+ },
+ "capital_of_089|en": {
+  "prompt": "The capital of Bhutan is",
+  "gen": " Thimphu. It is the largest city in the country and is known for its unique blend of traditional and modern"
+ },
+ "capital_of_089|es": {
+  "prompt": "La capital de Bután es la ciudad de",
+  "gen": " Thimphu, que es también la capital del distrito de Thimphu. La ciudad tiene una pobl"
+ },
+ "capital_of_090|en": {
+  "prompt": "The capital of Tanzania is",
+  "gen": " Dodoma, but the largest city is Dar es Salaam. The country is located in East Africa, bordered by Kenya"
+ },
+ "capital_of_090|es": {
+  "prompt": "La capital de Tanzania es la ciudad de",
+  "gen": " Dodoma, pero la ciudad más poblada es Dar es Salaam. La ciudad de Dar es Salaam es la"
+ },
+ "capital_of_091|en": {
+  "prompt": "The capital of Uganda is",
+  "gen": " Kampala. Uganda is a country located in East Africa, bordered by South Sudan to the north, the Democratic Republic of"
+ },
+ "capital_of_091|es": {
+  "prompt": "La capital de Uganda es la ciudad de",
+  "gen": " Kampala. La ciudad tiene una población de más de 1.500.000 habitantes y es un importante"
+ },
+ "capital_of_092|en": {
+  "prompt": "The capital of Zimbabwe is",
+  "gen": " Harare. The country is located in southern Africa, bordering South Africa, Botswana, Zambia, and Mozambique"
+ },
+ "capital_of_092|es": {
+  "prompt": "La capital de Zimbabue es la ciudad de",
+  "gen": " Harare. La ciudad de Harare es la capital y la ciudad más grande de Zimbabue. La ciudad"
+ },
+ "capital_of_093|en": {
+  "prompt": "The capital of Zambia is",
+  "gen": " Lusaka. Lusaka is a city located in the southern part of the country, and it is the largest"
+ },
+ "capital_of_093|es": {
+  "prompt": "La capital de Zambia es la ciudad de",
+  "gen": " Lusaka, que se encuentra en el sur del país. Lusaka es una ciudad próspera y"
+ },
+ "capital_of_094|en": {
+  "prompt": "The capital of Angola is",
+  "gen": " Luanda. Luanda is a major city in southern Africa and is known for its beautiful beaches, vibrant culture, and"
+ },
+ "capital_of_094|es": {
+  "prompt": "La capital de Angola es la ciudad de",
+  "gen": " Luanda, que se encuentra en la costa oeste del país. Luanda es una ciudad próspera y"
+ },
+ "capital_of_095|en": {
+  "prompt": "The capital of Senegal is",
+  "gen": " Dakar. Dakar is a city located on the western coast of Africa, in the Senegal River delta. It"
+ },
+ "capital_of_095|es": {
+  "prompt": "La capital de Senegal es la ciudad de",
+  "gen": " Dakar. Dakar es una ciudad vibrante y llena de vida, con una mezcla única de culturas"
+ },
+ "capital_of_096|en": {
+  "prompt": "The capital of Sudan is",
+  "gen": " Khartoum. Khartoum is a city located in northeastern Sudan, on the confluence of the Nile"
+ },
+ "capital_of_096|es": {
+  "prompt": "La capital de Sudán es la ciudad de",
+  "gen": " Cartum, que se encuentra en el norte del país. Cartum es una ciudad próspera y cosm"
+ },
+ "capital_of_097|en": {
+  "prompt": "The capital of Madagascar is",
+  "gen": " Antananarivo. The country is known for its unique wildlife, including lemurs, fossa (the island's"
+ },
+ "capital_of_097|es": {
+  "prompt": "La capital de Madagascar es la ciudad de",
+  "gen": " Antananarivo. La ciudad tiene una población de aproximadamente 1,8 millones de habitantes y se"
+ },
+ "capital_of_098|en": {
+  "prompt": "The capital of Mozambique is",
+  "gen": " Maputo. The country is located in southeastern Africa, bordering the Indian Ocean. Mozambique is a country with a"
+ },
+ "capital_of_098|es": {
+  "prompt": "La capital de Mozambique es la ciudad de",
+  "gen": " Maputo. Maputo es una ciudad vibrante y cosmopolita, con una mezcla única de influencias african"
+ },
+ "capital_of_099|en": {
+  "prompt": "The capital of Yemen is",
+  "gen": " Sana'a. Sana'a is a city located in the northern part of Yemen, in the Sana'a Governor"
+ },
+ "capital_of_099|es": {
+  "prompt": "La capital de Yemen es la ciudad de",
+  "gen": " Sanaa, que se encuentra en el norte del país. Sanaa es una ciudad próspera"
+ },
+ "capital_of_100|en": {
+  "prompt": "The capital of Oman is",
+  "gen": " Muscat. Muscat is a beautiful city with a rich history and culture. It is known for its stunning architecture,"
+ },
+ "capital_of_100|es": {
+  "prompt": "La capital de Omán es la ciudad de",
+  "gen": " Mascate (Mascate). Mascate es la ciudad más grande de Omán y tiene una población de más"
+ },
+ "capital_of_101|en": {
+  "prompt": "The capital of Qatar is",
+  "gen": " Doha. Qatar is a country located in the Middle East, bordering the Persian Gulf. It is known for its"
+ },
+ "capital_of_101|es": {
+  "prompt": "La capital de Catar es la ciudad de",
+  "gen": " Doha, que se encuentra en el norte del país. Doha es una ciudad moderna y prósper"
+ },
+ "capital_of_102|en": {
+  "prompt": "The capital of the Netherlands is",
+  "gen": " Amsterdam, but the country's largest city is actually Rotterdam. Rotterdam is a major port city located in the southwestern part of"
+ },
+ "capital_of_102|es": {
+  "prompt": "La capital de los Países Bajos es la ciudad de",
+  "gen": " Ámsterdam. La ciudad es famosa por su arquitectura histórica, su vida nocturna y"
+ },
+ "capital_of_103|en": {
+  "prompt": "The capital of the United Kingdom is",
+  "gen": " London. The capital of France is Paris. The capital of Germany is Berlin. The capital of Italy is Rome. The"
+ },
+ "capital_of_103|es": {
+  "prompt": "La capital de el Reino Unido es la ciudad de",
+  "gen": " Londres. Londres es una ciudad cosmopolita y vibrante, con una rica historia y cultura. La"
+ },
+ "capital_of_104|en": {
+  "prompt": "The capital of Albania is",
+  "gen": " Tirana. It is the largest city in the country and is known for its rich history, cultural landmarks, and vibrant"
+ },
+ "capital_of_104|es": {
+  "prompt": "La capital de Albania es la ciudad de",
+  "gen": " Tirana, que se encuentra en el centro del país. La ciudad tiene una población de más de 1 mill"
+ },
+ "capital_of_105|en": {
+  "prompt": "The capital of Malta is",
+  "gen": " Valletta, which is a UNESCO World Heritage Site. The city is known for its stunning architecture, rich history,"
+ },
+ "capital_of_105|es": {
+  "prompt": "La capital de Malta es la ciudad de",
+  "gen": " Valletta, que es conocida por su arquitectura barroca y su rica historia. La"
+ },
+ "capital_of_106|en": {
+  "prompt": "The capital of Cyprus is",
+  "gen": " Nicosia (Lefkosia in Greek). It is the largest city in the country and is located in the"
+ },
+ "capital_of_106|es": {
+  "prompt": "La capital de Chipre es la ciudad de",
+  "gen": " Nicosia (Nikósia en griego). Nicosia es la ciudad más grande de Chipre y"
+ },
+ "capital_of_107|en": {
+  "prompt": "The capital of Moldova is",
+  "gen": " Chișinău. Chișinău is the largest city in Moldova and is located in the central"
+ },
+ "capital_of_107|es": {
+  "prompt": "La capital de Moldavia es la ciudad de",
+  "gen": " Chișinău. La ciudad tiene una población de 1.1 millones de habitantes y se encuentra"
+ },
+ "capital_of_108|en": {
+  "prompt": "The capital of Honduras is",
+  "gen": " Tegucigalpa. Honduras is a country located in Central America, bordered by Guatemala to the west, El"
+ },
+ "capital_of_108|es": {
+  "prompt": "La capital de Honduras es la ciudad de",
+  "gen": " Tegucigalpa, que se encuentra en el centro del país. La ciudad tiene una población de aproxim"
+ },
+ "capital_of_109|en": {
+  "prompt": "The capital of Nicaragua is",
+  "gen": " Managua. It is the largest city in the country and is located in the western part of the country, near the"
+ },
+ "capital_of_109|es": {
+  "prompt": "La capital de Nicaragua es la ciudad de",
+  "gen": " Managua, que se encuentra en el centro del país. La ciudad tiene una población de más de 1,"
+ },
+ "capital_of_110|en": {
+  "prompt": "The capital of the Dominican Republic is",
+  "gen": " Santo Domingo. The country is located in the Caribbean Sea, and its official language is Spanish. The Dominican Republic is"
+ },
+ "capital_of_110|es": {
+  "prompt": "La capital de la República Dominicana es la ciudad de",
+  "gen": " Santo Domingo. La ciudad tiene una población de más de 2 millones de habitantes y es conocida por"
+ },
+ "capital_of_111|en": {
+  "prompt": "The capital of Haiti is",
+  "gen": " Port-au-Prince. However, the country's largest city is actually Cap-Haïten, which is located on"
+ },
+ "capital_of_111|es": {
+  "prompt": "La capital de Haití es la ciudad de",
+  "gen": " Port-au-Prince, que se encuentra en la costa caribeña del país. La ciudad tiene una población de"
+ },
+ "capital_of_112|en": {
+  "prompt": "The capital of Rwanda is",
+  "gen": " Kigali. It is the largest city in the country and is known for its vibrant culture, rich history, and"
+ },
+ "capital_of_112|es": {
+  "prompt": "La capital de Ruanda es la ciudad de",
+  "gen": " Kigali. Kigali es una ciudad moderna y próspera, con una población de más"
+ },
+ "capital_of_113|en": {
+  "prompt": "The capital of Somalia is",
+  "gen": " Mogadishu. The country is located in the Horn of Africa, bordered by Djibouti to the northwest"
+ },
+ "capital_of_113|es": {
+  "prompt": "La capital de Somalia es la ciudad de",
+  "gen": " Mogadishu. La ciudad tiene una población de más de 1,5 millones de habitantes y es"
+ },
+ "capital_of_114|en": {
+  "prompt": "The capital of Botswana is",
+  "gen": " Gaborone. Gaborone is a city located in the southern part of the country, in the Gaborone"
+ },
+ "capital_of_114|es": {
+  "prompt": "La capital de Botsuana es la ciudad de",
+  "gen": " Gaborone, que tiene una población de 275 000 habitantes. La ciudad de Francistown,"
+ },
+ "capital_of_115|en": {
+  "prompt": "The capital of Namibia is",
+  "gen": " Windhoek. The country is known for its unique wildlife, including elephants, lions, and cheetahs."
+ },
+ "capital_of_115|es": {
+  "prompt": "La capital de Namibia es la ciudad de",
+  "gen": " Windhoek, que se encuentra en el centro del país. Windhoek es una ciudad próspera y"
+ },
+ "capital_of_116|en": {
+  "prompt": "The capital of Cameroon is",
+  "gen": " Yaoundé. Cameroon is a country located in Central Africa, bordered by Nigeria to the west, Chad to the northeast"
+ },
+ "capital_of_116|es": {
+  "prompt": "La capital de Camerún es la ciudad de",
+  "gen": " Yaoundé. La ciudad de Yaoundé es la capital y la ciudad más grande de Camerún. La"
+ },
+ "capital_of_117|en": {
+  "prompt": "The capital of Bahrain is",
+  "gen": " Manama. It is the largest city in the country and is located on the eastern coast of the Persian Gulf. Man"
+ },
+ "capital_of_117|es": {
+  "prompt": "La capital de Baréin es la ciudad de",
+  "gen": " Manama. Manama es la capital y la ciudad más grande de Baréin. La ciudad tiene una población"
+ },
+ "capital_of_118|en": {
+  "prompt": "The capital of the Maldives is",
+  "gen": " Malé. The Maldives is a country located in the Indian Ocean, and it is known for its beautiful beaches,"
+ },
+ "capital_of_118|es": {
+  "prompt": "La capital de las Maldivas es la ciudad de",
+  "gen": " Malé, que se encuentra en el centro del archipiélago. La ciudad es conocida por su arqu"
+ },
+ "capital_of_119|en": {
+  "prompt": "The capital of Fiji is",
+  "gen": " Suva. Fiji is a country located in the Pacific Ocean, and it is an archipelago of more than "
+ },
+ "capital_of_119|es": {
+  "prompt": "La capital de Fiyi es la ciudad de",
+  "gen": " Suva, que se encuentra en la isla principal, Viti Levu. Suva es la ciudad más grande"
+ },
+ "capital_of_120|en": {
+  "prompt": "The capital of Tajikistan is",
+  "gen": " Dushanbe. It is located in the Fergana Valley, in the southeastern part of the country. D"
+ },
+ "capital_of_120|es": {
+  "prompt": "La capital de Tayikistán es la ciudad de",
+  "gen": " Dushanbe, que se encuentra en el valle del río Panj. La ciudad tiene una población"
+ },
+ "capital_of_121|en": {
+  "prompt": "The capital of Kyrgyzstan is",
+  "gen": " Bishkek. The country is located in Central Asia, bordered by China to the east, Kazakhstan to the north,"
+ },
+ "capital_of_121|es": {
+  "prompt": "La capital de Kirguistán es la ciudad de",
+  "gen": " Bishkek. La ciudad tiene una población de 1.2 millones de habitantes y se encuentra en el"
+ },
+ "capital_of_122|en": {
+  "prompt": "The capital of Turkmenistan is",
+  "gen": " Ashgabat. It is a city with a rich history and culture, known for its stunning architecture, beautiful parks"
+ },
+ "capital_of_122|es": {
+  "prompt": "La capital de Turkmenistán es la ciudad de",
+  "gen": " Ashgabat. La ciudad tiene una población de 1.1 millones de habitantes y se encuentra en"
+ },
+ "capital_of_123|en": {
+  "prompt": "The capital of North Macedonia is",
+  "gen": " Skopje. The country is located in the Balkan Peninsula, bordered by Serbia to the north, Kosovo to the"
+ },
+ "capital_of_123|es": {
+  "prompt": "La capital de Macedonia del Norte es la ciudad de",
+  "gen": " Skopje, que tiene una población de 500.000 habitantes. La ciudad es conocida por su"
+ },
+ "capital_of_124|en": {
+  "prompt": "The capital of Montenegro is",
+  "gen": " Podgorica. It is the largest city in the country and is located in the central part of the country, near"
+ },
+ "capital_of_124|es": {
+  "prompt": "La capital de Montenegro es la ciudad de",
+  "gen": " Podgorica, que tiene una población de 200.000 habitantes. La ciudad es conocida por su"
+ },
+ "city_country_000|en": {
+  "prompt": "The country where Barcelona is located is",
+  "gen": " Spain. Barcelona is the capital of the autonomous community of Catalonia, and it is the second-largest city in Spain, after"
+ },
+ "city_country_000|es": {
+  "prompt": "El país donde está Barcelona es",
+  "gen": " España. Barcelona es la capital de la provincia de Barcelona y la capital de la comunidad autónoma de Cataluña"
+ },
+ "city_country_001|en": {
+  "prompt": "The country where Seville is located is",
+  "gen": " Spain.\nSeville is the capital of the autonomous community of Andalusia.\nSeville is located in the southwestern part"
+ },
+ "city_country_001|es": {
+  "prompt": "El país donde está Sevilla es",
+  "gen": " España. Sevilla es una ciudad que se encuentra en la región de Andalucía, en el sur de España"
+ },
+ "city_country_002|en": {
+  "prompt": "The country where Valencia is located is",
+  "gen": " Spain. Valencia is the third largest city in Spain and is located in the central part of the country, on the Mediterranean"
+ },
+ "city_country_002|es": {
+  "prompt": "El país donde está Valencia es",
+  "gen": " España. Valencia es una ciudad que se encuentra en la costa este de España, en la comunidad autónoma de Valencia"
+ },
+ "city_country_003|en": {
+  "prompt": "The country where Munich is located is",
+  "gen": " Germany. Munich is the capital of the state of Bavaria. It is located in the southeastern part of the country,"
+ },
+ "city_country_003|es": {
+  "prompt": "El país donde está Múnich es",
+  "gen": " Alemania. Múnich es la capital del estado de Baviera. La ciudad tiene una población de aproximadamente"
+ },
+ "city_country_004|en": {
+  "prompt": "The country where Hamburg is located is",
+  "gen": " Germany. Hamburg is a major port city in northern Germany, situated on the Elbe River. It is the second-largest"
+ },
+ "city_country_004|es": {
+  "prompt": "El país donde está Hamburgo es",
+  "gen": " Alemania. Hamburgo es una ciudad importante en Alemania, conocida por su rica historia, su"
+ },
+ "city_country_005|en": {
+  "prompt": "The country where Frankfurt is located is",
+  "gen": " Germany. Frankfurt is the financial hub of Germany and is home to the European Central Bank and the German Federal Bank. The"
+ },
+ "city_country_005|es": {
+  "prompt": "El país donde está Fráncfort es",
+  "gen": " Alemania. Fráncfort es una ciudad importante en Alemania, conocida por su rica historia, su"
+ },
+ "city_country_006|en": {
+  "prompt": "The country where Milan is located is",
+  "gen": " Italy. Milan is the capital of the Lombardy region. Milan is a major city in Italy and is known for its"
+ },
+ "city_country_006|es": {
+  "prompt": "El país donde está Milán es",
+  "gen": " Italia. La ciudad de Milán es la capital de la región de Lombardía. La ciudad tiene una pobl"
+ },
+ "city_country_007|en": {
+  "prompt": "The country where Naples is located is",
+  "gen": " Italy. Naples is a city located in the Campania region of Italy. It is the capital of the province of"
+ },
+ "city_country_007|es": {
+  "prompt": "El país donde está Nápoles es",
+  "gen": " Italia. Nápoles es una ciudad portuaria y capital de la región de Campania, en el"
+ },
+ "city_country_008|en": {
+  "prompt": "The country where Florence is located is",
+  "gen": " Italy. Florence is a city located in the central part of Italy, in the Tuscany region. It is known"
+ },
+ "city_country_008|es": {
+  "prompt": "El país donde está Florencia es",
+  "gen": " Italia. Florencia es una ciudad en la región de Toscana, en el norte de Italia."
+ },
+ "city_country_009|en": {
+  "prompt": "The country where Venice is located is",
+  "gen": " Italy. Italy is a country located in Southern Europe, bordering the Mediterranean Sea. It is known for its rich history"
+ },
+ "city_country_009|es": {
+  "prompt": "El país donde está Venecia es",
+  "gen": " Italia. Italia es un país con una gran diversidad geográfica y cultural. La ciudad de Venecia es"
+ },
+ "city_country_010|en": {
+  "prompt": "The country where Turin is located is",
+  "gen": " Italy. Turin is the capital of the Piedmont region. It is a city with a rich history and culture,"
+ },
+ "city_country_010|es": {
+  "prompt": "El país donde está Turín es",
+  "gen": " Italia. Turín es la capital de la región de Piamonte. La ciudad tiene una población de "
+ },
+ "city_country_011|en": {
+  "prompt": "The country where Marseille is located is",
+  "gen": " France.\nMarseille is the second-largest city in France, after Paris.\nMarseille is located in the Provence-Al"
+ },
+ "city_country_011|es": {
+  "prompt": "El país donde está Marsella es",
+  "gen": " Italia. Marsella es una ciudad portuaria y capital de la provincia de Marsella, en la región de"
+ },
+ "city_country_012|en": {
+  "prompt": "The country where Nice is located is",
+  "gen": " France. Nice is a city located in the Provence-Alpes-Côte d'Azur region of southeastern France."
+ },
+ "city_country_012|es": {
+  "prompt": "El país donde está Niza es",
+  "gen": " Francia. Niza es una ciudad costera en el departamento de Alpes Marítimos, en el sur de"
+ },
+ "city_country_013|en": {
+  "prompt": "The country where Toulouse is located is",
+  "gen": " France. Toulouse is the fourth largest city in France, located in the south of the country, in the region of"
+ },
+ "city_country_013|es": {
+  "prompt": "El país donde está Toulouse es",
+  "gen": " Francia. Toulouse es una ciudad ubicada en el sur de Francia, en la región de Occit"
+ },
+ "city_country_014|en": {
+  "prompt": "The country where Manchester is located is",
+  "gen": " England, United Kingdom. Manchester is a city located in the northwest of England, in the county of Greater Manchester. It"
+ },
+ "city_country_014|es": {
+  "prompt": "El país donde está Mánchester es",
+  "gen": " Inglaterra, Reino Unido. Manchester es una ciudad ubicada en el norte de Inglaterra,"
+ },
+ "city_country_015|en": {
+  "prompt": "The country where Liverpool is located is",
+  "gen": " England, United Kingdom. Liverpool is a city located in the northwest of England, in the county of Merseyside."
+ },
+ "city_country_015|es": {
+  "prompt": "El país donde está Liverpool es",
+  "gen": " Inglaterra, Reino Unido. El club tiene una gran cantidad de seguidores en todo el mundo,"
+ },
+ "city_country_016|en": {
+  "prompt": "The country where Birmingham is located is",
+  "gen": " England, United Kingdom. Birmingham is a major city in the West Midlands region of England, and it is known for its"
+ },
+ "city_country_016|es": {
+  "prompt": "El país donde está Birmingham es",
+  "gen": " Inglaterra, Reino Unido. Birmingham es una ciudad ubicada en el centro de Inglaterra, en"
+ },
+ "city_country_017|en": {
+  "prompt": "The country where Glasgow is located is",
+  "gen": " Scotland, which is part of the United Kingdom. Glasgow is the largest city in Scotland and the third-largest city in the"
+ },
+ "city_country_017|es": {
+  "prompt": "El país donde está Glasgow es",
+  "gen": " Escocia, Reino Unido. Glasgow es una ciudad ubicada en el centro de Escocia, en"
+ },
+ "city_country_018|en": {
+  "prompt": "The country where Mumbai is located is",
+  "gen": " India.\nMumbai is the capital of India.\nMumbai is the largest city in India.\nMumbai is the financial"
+ },
+ "city_country_018|es": {
+  "prompt": "El país donde está Bombay es",
+  "gen": " India. Bombay es la antigua capital de la India y es ahora conocida como Mumbai. La ciudad es famosa"
+ },
+ "city_country_019|en": {
+  "prompt": "The country where Kolkata is located is",
+  "gen": " India.\nKolkata is the capital of the Indian state of West Bengal.\nKolkata is the second most populous city in"
+ },
+ "city_country_019|es": {
+  "prompt": "El país donde está Calcuta es",
+  "gen": " India. Calcuta es la ciudad más grande de la India y la capital de la India Occidental. La ciudad"
+ },
+ "city_country_020|en": {
+  "prompt": "The country where Chennai is located is",
+  "gen": " India.\nChennai is the capital city of the Indian state of Tamil Nadu.\nChennai is also known as the \""
+ },
+ "city_country_020|es": {
+  "prompt": "El país donde está Chennai es",
+  "gen": " India.\nLa ciudad de Chennai es la capital de la India del sur.\nLa ciudad de Chennai es la capital de la"
+ },
+ "city_country_021|en": {
+  "prompt": "The country where Bangalore is located is",
+  "gen": " India.\nBangalore is the capital of the state of Karnataka in India.\nBangalore is also known as the \"Sil"
+ },
+ "city_country_021|es": {
+  "prompt": "El país donde está Bangalore es",
+  "gen": " India.\nLa ciudad de Bangalore es la capital de la India del estado de Karnataka.\nLa ciudad de Bangalore es conocida"
+ },
+ "city_country_022|en": {
+  "prompt": "The country where Hyderabad is located is",
+  "gen": " India.\nHyderabad is the capital of the state of Telangana in India.\nThe city of Hyderabad is known for"
+ },
+ "city_country_022|es": {
+  "prompt": "El país donde está Hyderabad es",
+  "gen": " India. Hyderabad es una ciudad en el estado de Telangana, en el sudeste de la India. Es"
+ },
+ "city_country_023|en": {
+  "prompt": "The country where Ahmedabad is located is",
+  "gen": " India.\nAhmedabad is the largest city in the state of Gujarat, India.\nThe city is situated on the banks"
+ },
+ "city_country_023|es": {
+  "prompt": "El país donde está Ahmedabad es",
+  "gen": " India.\nAhmedabad es una ciudad en el estado de Gujarat, en el oeste de la India. Es la"
+ },
+ "city_country_024|en": {
+  "prompt": "The country where Pune is located is",
+  "gen": " India.\nPune is a city located in the state of Maharashtra, India.\nPune is also known as the \""
+ },
+ "city_country_024|es": {
+  "prompt": "El país donde está Pune es",
+  "gen": " la India. Pune es una ciudad importante en el estado de Maharashtra, en el oeste de la India. Es conoc"
+ },
+ "city_country_025|en": {
+  "prompt": "The country where Lucknow is located is",
+  "gen": " India.\nLucknow is a city located in the state of Uttar Pradesh, India.\nLucknow is the capital city of"
+ },
+ "city_country_025|es": {
+  "prompt": "El país donde está Lucknow es",
+  "gen": " India.\nLucknow es una ciudad en el estado de Uttar Pradesh, India.\nLucknow es conocida por su r"
+ },
+ "city_country_026|en": {
+  "prompt": "The country where Jaipur is located is",
+  "gen": " India.\nJaipur is the capital of the state of Rajasthan in India.\nJaipur is known for its rich cultural heritage"
+ },
+ "city_country_026|es": {
+  "prompt": "El país donde está Jaipur es",
+  "gen": " India.\nJaipur es una ciudad en el estado de Rajasthan, India. Es la capital del distrito de Jaipur"
+ },
+ "city_country_027|en": {
+  "prompt": "The country where Istanbul is located is",
+  "gen": " Turkey.\nIstanbul is the largest city in Turkey and is located on the Bosphorus Strait, which separates Europe and"
+ },
+ "city_country_027|es": {
+  "prompt": "El país donde está Estambul es",
+  "gen": " Turquía. Estambul es la ciudad más grande de Turquía y la segunda ciudad más grande de Europa"
+ },
+ "city_country_028|en": {
+  "prompt": "The country where Sydney is located is",
+  "gen": " Australia. Australia is a country and continent, and it is located in the Southern Hemisphere. It is the world's sixth"
+ },
+ "city_country_028|es": {
+  "prompt": "El país donde está Sídney es",
+  "gen": " Australia. Australia es un país con una gran diversidad de culturas, idiomas y paisajes naturales. La"
+ },
+ "city_country_029|en": {
+  "prompt": "The country where Melbourne is located is",
+  "gen": " Australia. Melbourne is the second-largest city in Australia, after Sydney. It is located in the southeastern part of the country"
+ },
+ "city_country_029|es": {
+  "prompt": "El país donde está Melbourne es",
+  "gen": " Australia. Melbourne es la segunda ciudad más grande de Australia después de Sídney. Melbourne tiene una población de aproxim"
+ },
+ "city_country_030|en": {
+  "prompt": "The country where Brisbane is located is",
+  "gen": " Australia. Brisbane is the capital of Queensland, a state in the southeastern part of the country. Brisbane is a major city"
+ },
+ "city_country_030|es": {
+  "prompt": "El país donde está Brisbane es",
+  "gen": " Australia. Brisbane es la capital de Queensland y tiene una población de aproximadamente 2,5 millones de personas."
+ },
+ "city_country_031|en": {
+  "prompt": "The country where Perth is located is",
+  "gen": " Australia. Perth is the capital of Western Australia. Perth is a major city in Australia and is known for its beautiful beaches"
+ },
+ "city_country_031|es": {
+  "prompt": "El país donde está Perth es",
+  "gen": " Australia. Perth es la capital de la región de Australia Occidental. Perth es una ciudad costera que se encuentra"
+ },
+ "city_country_032|en": {
+  "prompt": "The country where Toronto is located is",
+  "gen": " Canada.\nToronto is the largest city in Canada.\nToronto is located on the northwestern shore of Lake Ontario.\nThe city"
+ },
+ "city_country_032|es": {
+  "prompt": "El país donde está Toronto es",
+  "gen": " Canadá.\nLa ciudad de Toronto es la capital de la provincia de Ontario.\nToronto es una ciudad cosmopolita"
+ },
+ "city_country_033|en": {
+  "prompt": "The country where Vancouver is located is",
+  "gen": " Canada.\nVancouver is a city located in the province of British Columbia, Canada.\nThe city is situated on the west"
+ },
+ "city_country_033|es": {
+  "prompt": "El país donde está Vancouver es",
+  "gen": " Canadá.\nVancouver es una ciudad ubicada en la costa oeste de Canadá, en la reg"
+ },
+ "city_country_034|en": {
+  "prompt": "The country where Montreal is located is",
+  "gen": " Canada.\nThe country where Montreal is located is Canada. (Note: Montreal is a city, not a country. A"
+ },
+ "city_country_034|es": {
+  "prompt": "El país donde está Montreal es",
+  "gen": " Canadá.\nLa ciudad de Montreal está en la provincia de Quebec.\nLa ciudad de Montreal tiene una población de"
+ },
+ "city_country_035|en": {
+  "prompt": "The country where New York is located is",
+  "gen": " the United States of America.\nNew York is a state in the United States of America.\nNew York is located in the"
+ },
+ "city_country_035|es": {
+  "prompt": "El país donde está Nueva York es",
+  "gen": " Estados Unidos.\nLa ciudad donde está Nueva York es Nueva York.\nLa ciudad de Nueva York es una ciudad"
+ },
+ "city_country_036|en": {
+  "prompt": "The country where Los Angeles is located is",
+  "gen": " the United States of America.\nLos Angeles is a major city in the state of California, in the western part of the"
+ },
+ "city_country_036|es": {
+  "prompt": "El país donde está Los Ángeles es",
+  "gen": " Estados Unidos.\nEl país donde está Los Ángeles es Estados Unidos.\nLa respuesta correcta es: Sí,"
+ },
+ "city_country_037|en": {
+  "prompt": "The country where Chicago is located is",
+  "gen": " the United States of America.\nChicago is a city located in the state of Illinois in the United States of America.\nChicago"
+ },
+ "city_country_037|es": {
+  "prompt": "El país donde está Chicago es",
+  "gen": " Estados Unidos.\nChicago es una ciudad ubicada en el estado de Illinois, en el norte de Estados Unidos.\nLa"
+ },
+ "city_country_038|en": {
+  "prompt": "The country where Houston is located is",
+  "gen": " the United States of America.\nThe city of Houston is located in the state of Texas.\nThe state of Texas is located"
+ },
+ "city_country_038|es": {
+  "prompt": "El país donde está Houston es",
+  "gen": " Texas, en los Estados Unidos. Houston es una ciudad importante en el estado de Texas y en todo el país, conoc"
+ },
+ "city_country_039|en": {
+  "prompt": "The country where Boston is located is",
+  "gen": " the United States of America.\nBoston is the capital of the state of Massachusetts.\nBoston is a major city in the northeastern"
+ },
+ "city_country_039|es": {
+  "prompt": "El país donde está Boston es",
+  "gen": " Estados Unidos.\nBoston es una ciudad ubicada en el estado de Massachusetts, en el noreste de Estados Unidos.\n"
+ },
+ "city_country_040|en": {
+  "prompt": "The country where Miami is located is",
+  "gen": " the United States of America.\nMiami is a city located in the state of Florida, in the southeastern part of the country"
+ },
+ "city_country_040|es": {
+  "prompt": "El país donde está Miami es",
+  "gen": " Cuba\nLa ciudad de Miami es una ciudad ubicada en el estado de Florida, en el sur de Estados Unidos."
+ },
+ "city_country_041|en": {
+  "prompt": "The country where Seattle is located is",
+  "gen": " the United States of America.\nSeattle is located in the state of Washington.\nThe city of Seattle is situated on the Pu"
+ },
+ "city_country_041|es": {
+  "prompt": "El país donde está Seattle es",
+  "gen": " Washington, en el norte de Estados Unidos. Seattle es una ciudad ubicada en el estado de Washington, en el"
+ },
+ "city_country_042|en": {
+  "prompt": "The country where San Francisco is located is",
+  "gen": " the United States of America.\nSan Francisco is a city located in the state of California, in the western part of the"
+ },
+ "city_country_042|es": {
+  "prompt": "El país donde está San Francisco es",
+  "gen": " Estados Unidos.\nEl país donde está San Francisco es Estados Unidos.\nLa respuesta correcta es: Sí, San Francisco"
+ },
+ "city_country_043|en": {
+  "prompt": "The country where Rio de Janeiro is located is",
+  "gen": " Brazil.\nRio de Janeiro is a major city in Brazil, known for its beautiful beaches, vibrant culture, and iconic landmarks"
+ },
+ "city_country_043|es": {
+  "prompt": "El país donde está Río de Janeiro es",
+  "gen": " Brasil.\nRío de Janeiro es una ciudad brasileña, capital del estado de Río de Janeiro y del Distrito"
+ },
+ "city_country_044|en": {
+  "prompt": "The country where São Paulo is located is",
+  "gen": " Brazil.\nSão Paulo is the largest city in Brazil and the second-largest city in the Americas.\nSão Paulo is"
+ },
+ "city_country_044|es": {
+  "prompt": "El país donde está São Paulo es",
+  "gen": " Brasil.\nSão Paulo es una ciudad brasileña y capital del estado de São Paulo.\nSão Paulo es la ciudad"
+ },
+ "city_country_045|en": {
+  "prompt": "The country where Shanghai is located is",
+  "gen": " China. Shanghai is the largest city in China and is located in the eastern part of the country. It is a major"
+ },
+ "city_country_045|es": {
+  "prompt": "El país donde está Shanghái es",
+  "gen": " China. China es un país con una gran diversidad geográfica y cultural. La ciudad de Shanghái"
+ },
+ "city_country_046|en": {
+  "prompt": "The country where Guangzhou is located is",
+  "gen": " China. Guangzhou is the capital of Guangdong province. Guangzhou is a major city in southern China and is known"
+ },
+ "city_country_046|es": {
+  "prompt": "El país donde está Cantón es",
+  "gen": " un país independiente, pero está bajo la jurisdicción de la República de China (Taiwán)."
+ },
+ "city_country_047|en": {
+  "prompt": "The country where Shenzhen is located is",
+  "gen": " China. Shenzhen is a major city in the Guangdong province of China. It is known for its rapid economic growth"
+ },
+ "city_country_047|es": {
+  "prompt": "El país donde está Shenzhen es",
+  "gen": " China. Shenzhen es una ciudad ubicada en la provincia de Guangdong, en el sur de China. Es conoc"
+ },
+ "city_country_048|en": {
+  "prompt": "The country where Chengdu is located is",
+  "gen": " China. Chengdu is the capital of Sichuan Province. It is a major city in southwestern China and is known"
+ },
+ "city_country_048|es": {
+  "prompt": "El país donde está Chengdú es",
+  "gen": " China. Chengdú es una ciudad importante en la provincia de Sichuan, China. La ciudad tiene una pobl"
+ },
+ "city_country_049|en": {
+  "prompt": "The country where Osaka is located is",
+  "gen": " Japan. Osaka is the third largest city in Japan and is known for its food, entertainment, and nightlife. Osaka is"
+ },
+ "city_country_049|es": {
+  "prompt": "El país donde está Osaka es",
+  "gen": " Japón. Osaka es una ciudad ubicada en la isla de Honshu, en el sur de Japón"
+ },
+ "city_country_050|en": {
+  "prompt": "The country where Kyoto is located is",
+  "gen": " Japan. Kyoto is a city located in the central part of Japan, and it is known for its rich cultural heritage and"
+ },
+ "city_country_050|es": {
+  "prompt": "El país donde está Kioto es",
+  "gen": " Japón. Kioto es una ciudad en Japón conocida por su rica historia y cultura. Es famosa"
+ },
+ "city_country_051|en": {
+  "prompt": "The country where Yokohama is located is",
+  "gen": " Japan.\nYokohama is the second-largest city in Japan, after Tokyo.\nYokohama is a major"
+ },
+ "city_country_051|es": {
+  "prompt": "El país donde está Yokohama es",
+  "gen": " Japón.\nLa ciudad de Yokohama es la segunda ciudad más grande de Japón.\nLa ciudad de Yokoh"
+ },
+ "city_country_052|en": {
+  "prompt": "The country where Busan is located is",
+  "gen": " South Korea. Busan is the second-largest city in South Korea, after Seoul. It is a major port city and"
+ },
+ "city_country_052|es": {
+  "prompt": "El país donde está Busan es",
+  "gen": " Corea del Sur. Busan es una ciudad costera en el sur de Corea del Sur, conocida por"
+ },
+ "city_country_053|en": {
+  "prompt": "The country where Karachi is located is",
+  "gen": " Pakistan.\nKarachi is the largest city in Pakistan and is located on the Arabian Sea.\nIt is a major port city"
+ },
+ "city_country_053|es": {
+  "prompt": "El país donde está Karachi es",
+  "gen": " Pakistán. Karachi es la ciudad más grande de Pakistán y la segunda ciudad más grande de Asia. Karachi"
+ },
+ "city_country_054|en": {
+  "prompt": "The country where Lahore is located is",
+  "gen": " Pakistan.\nLahore is the second largest city in Pakistan and is located in the province of Punjab.\nLahore"
+ },
+ "city_country_054|es": {
+  "prompt": "El país donde está Lahore es",
+  "gen": " Pakistán. Lahore es la segunda ciudad más grande de Pakistán y la capital de la provincia de Punjab."
+ },
+ "city_country_055|en": {
+  "prompt": "The country where Alexandria is located is",
+  "gen": " Egypt. Alexandria is a major city in Egypt and is known for its rich history, cultural significance, and natural beauty."
+ },
+ "city_country_055|es": {
+  "prompt": "El país donde está Alejandría es",
+  "gen": " Egipto. Alejandría es una ciudad importante en Egipto, conocida por su rica historia"
+ },
+ "city_country_056|en": {
+  "prompt": "The country where Casablanca is located is",
+  "gen": " Morocco. The city of Casablanca is the largest city in Morocco and is located on the Atlantic coast. It"
+ },
+ "city_country_056|es": {
+  "prompt": "El país donde está Casablanca es",
+  "gen": " Marruecos. Marruecos es un país del norte de África, con una costa en el Mediterrá"
+ },
+ "city_country_057|en": {
+  "prompt": "The country where Johannesburg is located is",
+  "gen": " South Africa.\nJohannesburg is the largest city in South Africa and is located in the Gauteng province.\nThe"
+ },
+ "city_country_057|es": {
+  "prompt": "El país donde está Johannesburgo es",
+  "gen": " Sudáfrica. Johannesburgo es la ciudad más grande de Sudáfrica y la segunda ciudad más grande de Á"
+ },
+ "city_country_058|en": {
+  "prompt": "The country where Cape Town is located is",
+  "gen": " South Africa. Cape Town is the second-most populous city in South Africa, after Johannesburg. It is located at the southern"
+ },
+ "city_country_058|es": {
+  "prompt": "El país donde está Ciudad del Cabo es",
+  "gen": " México. La ciudad de Ciudad del Cabo es la capital de la península de Baja California Sur,"
+ },
+ "city_country_059|en": {
+  "prompt": "The country where Lagos is located is",
+  "gen": " Nigeria.\nLagos is the largest city in Nigeria and the most populous city in Africa.\nLagos is a major economic"
+ },
+ "city_country_059|es": {
+  "prompt": "El país donde está Lagos es",
+  "gen": " un país africano, y Lagos es un nombre común en muchos países africanos. Sin embargo, hay un"
+ },
+ "city_country_060|en": {
+  "prompt": "The country where Saint Petersburg is located is",
+  "gen": " Russia. Saint Petersburg is the second-largest city in Russia, after Moscow. It is located on the Neva River,"
+ },
+ "city_country_060|es": {
+  "prompt": "El país donde está San Petersburgo es",
+  "gen": " Rusia. San Petersburgo es la capital de la región de San Petersburgo y la ciudad más grande"
+ },
+ "city_country_061|en": {
+  "prompt": "The country where Kraków is located is",
+  "gen": " Poland.\nKraków is the second-largest city in Poland, with a population of over 760,000 people.\n"
+ },
+ "city_country_061|es": {
+  "prompt": "El país donde está Cracovia es",
+  "gen": " Polonia. Cracovia es la capital de la región de Silesia. La ciudad tiene una pobl"
+ },
+ "city_country_062|en": {
+  "prompt": "The country where Porto is located is",
+  "gen": " Portugal. Porto is a city located in the north of Portugal, in the Douro Valley. The city is known for"
+ },
+ "city_country_062|es": {
+  "prompt": "El país donde está Oporto es",
+  "gen": " Portugal. Portugal es un país europeo que se encuentra en el oeste de Europa, limitado por España al o"
+ },
+ "city_country_063|en": {
+  "prompt": "The country where Zurich is located is",
+  "gen": " Switzerland.\nZurich is the largest city in Switzerland.\nZurich is located on the shores of Lake Zurich.\n"
+ },
+ "city_country_063|es": {
+  "prompt": "El país donde está Zúrich es",
+  "gen": " Suiza. Suiza es un país de Europa Occidental, conocido por su rica historia, cultura y pais"
+ },
+ "city_country_064|en": {
+  "prompt": "The country where Geneva is located is",
+  "gen": " Switzerland. Geneva is the second most populous city in Switzerland, after Zurich. Geneva is a global center for international relations,"
+ },
+ "city_country_064|es": {
+  "prompt": "El país donde está Ginebra es",
+  "gen": " Suiza. Suiza es un país pequeño con una población de aproximadamente 8,5 millones de personas"
+ },
+ "city_country_065|en": {
+  "prompt": "The country where Gothenburg is located is",
+  "gen": " Sweden. Gothenburg is the second largest city in Sweden, after Stockholm. It is located on the west coast of"
+ },
+ "city_country_065|es": {
+  "prompt": "El país donde está Gotemburgo es",
+  "gen": " Suecia. Gotemburgo es una ciudad costera en el sur de Suecia, en la costa del B"
+ },
+ "city_country_066|en": {
+  "prompt": "The country where Bergen is located is",
+  "gen": " Norway. Bergen is the second-largest city in Norway, located in the western part of the country. It is situated on"
+ },
+ "city_country_066|es": {
+  "prompt": "El país donde está Bergen es",
+  "gen": " Noruega. Bergen es una ciudad costera en el sur de Noruega, conocida por su arqu"
+ },
+ "city_country_067|en": {
+  "prompt": "The country where Salzburg is located is",
+  "gen": " Austria. Salzburg is a city located in the state of Salzburg, in the western part of Austria. It is"
+ },
+ "city_country_067|es": {
+  "prompt": "El país donde está Salzburgo es",
+  "gen": " Austria, y Salzburgo es una ciudad que se encuentra en el estado de Baviera, en el sur de"
+ },
+ "city_country_068|en": {
+  "prompt": "The country where Antwerp is located is",
+  "gen": " Belgium. Antwerp is a city located in the Flemish region of Belgium. It is the second-largest city in Belgium"
+ },
+ "city_country_068|es": {
+  "prompt": "El país donde está Amberes es",
+  "gen": " Bélgica.\nAmberes es una ciudad de Bélgica, en el estado de Brabante"
+ },
+ "city_country_069|en": {
+  "prompt": "The country where Rotterdam is located is",
+  "gen": " the Netherlands. Rotterdam is the second-largest city in the Netherlands, after Amsterdam. Rotterdam is a major port city and is"
+ },
+ "city_country_069|es": {
+  "prompt": "El país donde está Róterdam es",
+  "gen": " Países Bajos.\nRóterdam es una ciudad en el País Bajos.\nLa ciudad de R"
+ },
+ "city_country_070|en": {
+  "prompt": "The country where Guadalajara is located is",
+  "gen": " Mexico.\nGuadalajara is the second-largest city in Mexico and is located in the state of Jalisco.\nThe"
+ },
+ "city_country_070|es": {
+  "prompt": "El país donde está Guadalajara es",
+  "gen": " México.\nLa ciudad de Guadalajara es la capital del estado de Jalisco, México.\nLa ciudad de Gu"
+ },
+ "city_country_071|en": {
+  "prompt": "The country where Medellín is located is",
+  "gen": " Colombia.\nMedellín is a city located in the Aburrá Valley in Colombia.\nMedellín is known for"
+ },
+ "city_country_071|es": {
+  "prompt": "El país donde está Medellín es",
+  "gen": " Colombia.\nLa ciudad de Medellín se encuentra en la región de Antioquia, en el departamento de Ant"
+ },
+ "city_country_072|en": {
+  "prompt": "The country where Dubai is located is",
+  "gen": " United Arab Emirates (UAE). Dubai is the most populous city in the UAE and is known for its luxurious lifestyle,"
+ },
+ "city_country_072|es": {
+  "prompt": "El país donde está Dubái es",
+  "gen": " Emiratos Árabes Unidos (UAE). El país tiene una población de 9,5 millones de"
+ },
+ "city_country_073|en": {
+  "prompt": "The country where Abu Dhabi is located is",
+  "gen": " the United Arab Emirates (UAE). Abu Dhabi is the capital city of the UAE and is the largest of the seven"
+ },
+ "city_country_073|es": {
+  "prompt": "El país donde está Abu Dabi es",
+  "gen": ": Emiratos Árabes Unidos\nEl país donde está Abu Dabi es: Emiratos Árabes"
+ },
+ "city_country_074|en": {
+  "prompt": "The country where Kyiv is located is",
+  "gen": " Ukraine.\nKyiv is the capital city of Ukraine.\nThe city of Kyiv is located in the north-eastern part"
+ },
+ "city_country_074|es": {
+  "prompt": "El país donde está Kiev es",
+  "gen": " Ucrania.\nLa capital de Ucrania es Kiev.\nLa ciudad de Kiev es la capital de la región"
+ },
+ "landmark_city_000|en": {
+  "prompt": "The city where the Eiffel Tower is located is",
+  "gen": " Paris, France. The Eiffel Tower is a famous iron lattice tower built for the 1889 World's Fair"
+ },
+ "landmark_city_000|es": {
+  "prompt": "La ciudad donde está la Torre Eiffel es",
+  "gen": " París, Francia. La Torre Eiffel es una de las estructuras más icónicas y emblem"
+ },
+ "landmark_city_001|en": {
+  "prompt": "The city where the Colosseum is located is",
+  "gen": " Rome, Italy. The Colosseum is a large amphitheater that was built in the 1st century"
+ },
+ "landmark_city_001|es": {
+  "prompt": "La ciudad donde está el Coliseo es",
+  "gen": " Roma, y el Coliseo es un monumento a la gloria de Roma. El Coliseo es un"
+ },
+ "landmark_city_002|en": {
+  "prompt": "The city where Big Ben is located is",
+  "gen": " London, England. Big Ben is actually the name of the great bell inside the clock tower, not the clock tower itself"
+ },
+ "landmark_city_002|es": {
+  "prompt": "La ciudad donde está el Big Ben es",
+  "gen": " Londres.\nLa ciudad donde está el Big Ben es París.\nLa ciudad donde está el Big Ben es Roma.\n"
+ },
+ "landmark_city_003|en": {
+  "prompt": "The city where the Statue of Liberty is located is",
+  "gen": " New York City, but the statue is actually located in Liberty Island, which is part of the state of New Jersey."
+ },
+ "landmark_city_003|es": {
+  "prompt": "La ciudad donde está la Estatua de la Libertad es",
+  "gen": " Nueva York\nLa ciudad donde está la Estatua de la Libertad es Nueva York\nLa ciudad donde"
+ },
+ "landmark_city_004|en": {
+  "prompt": "The city where the Taj Mahal is located is",
+  "gen": " Agra, which is in the state of Uttar Pradesh, India. The Taj Mahal is a white marble maus"
+ },
+ "landmark_city_004|es": {
+  "prompt": "La ciudad donde está el Taj Mahal es",
+  "gen": " Agra, en la India. Agra es una ciudad histórica y culturalmente rica, conocida por su"
+ },
+ "landmark_city_005|en": {
+  "prompt": "The city where the Sagrada Familia is located is",
+  "gen": " Barcelona, Spain. The Sagrada Familia is a famous cathedral designed by Antoni Gaudí, a renowned Catalan"
+ },
+ "landmark_city_005|es": {
+  "prompt": "La ciudad donde está la Sagrada Familia es",
+  "gen": " Barcelona, en España. La Sagrada Familia es una de las iglesias más famosas del mundo y es"
+ },
+ "landmark_city_006|en": {
+  "prompt": "The city where the Brandenburg Gate is located is",
+  "gen": " Berlin, Germany. The Brandenburg Gate is a famous landmark and one of the most iconic symbols of Berlin and Germany."
+ },
+ "landmark_city_006|es": {
+  "prompt": "La ciudad donde está la Puerta de Brandeburgo es",
+  "gen": " Berlín, Alemania. La Puerta de Brandeburgo es una de las puertas más famosas de"
+ },
+ "landmark_city_007|en": {
+  "prompt": "The city where the Acropolis is located is",
+  "gen": " Athens, Greece. The Acropolis is a citadel located on a high rocky outcrop above the city of Athens,"
+ },
+ "landmark_city_007|es": {
+  "prompt": "La ciudad donde está la Acrópolis es",
+  "gen": " la ciudad más grande de Grecia. La Acrópolis es un lugar sagrado en la ciudad,"
+ },
+ "landmark_city_008|en": {
+  "prompt": "The city where the Red Fort is located is",
+  "gen": " Agra, which is in the state of Uttar Pradesh, India. The Red Fort, also known as Lal Qila"
+ },
+ "landmark_city_008|es": {
+  "prompt": "La ciudad donde está el Fuerte Rojo es",
+  "gen": " una ciudad ficticia en el universo de la serie de televisión \"V\" (V for Vendetta). La"
+ },
+ "landmark_city_009|en": {
+  "prompt": "The city where the Sydney Opera House is located is",
+  "gen": " called Sydney, but the city where the Sydney Opera House is located is actually called Sydney, New South Wales, Australia."
+ },
+ "landmark_city_009|es": {
+  "prompt": "La ciudad donde está la Ópera de Sídney es",
+  "gen": " una serie de televisión de drama y misterio que se estrenó en 2022 en la cadena de"
+ },
+ "landmark_city_010|en": {
+  "prompt": "The city where the Burj Khalifa is located is",
+  "gen": " Dubai, United Arab Emirates. The Burj Khalifa is the tallest building in the world, standing at 828 meters"
+ },
+ "landmark_city_010|es": {
+  "prompt": "La ciudad donde está el Burj Khalifa es",
+  "gen": " Dubai, en los Emiratos Árabes Unidos. El Burj Khalifa es el edificio más alto del"
+ },
+ "landmark_city_011|en": {
+  "prompt": "The city where the Kremlin is located is",
+  "gen": " Moscow, Russia. The Kremlin is a fortified complex in the heart of Moscow that serves as the official residence of the President"
+ },
+ "landmark_city_011|es": {
+  "prompt": "La ciudad donde está el Kremlin es",
+  "gen": " San Petersburgo, Rusia. La ciudad de San Petersburgo es la capital de la región de San"
+ },
+ "landmark_city_012|en": {
+  "prompt": "The city where the Louvre is located is",
+  "gen": " Paris, France. The Louvre is one of the world's largest and most famous museums, housing a vast collection of"
+ },
+ "landmark_city_012|es": {
+  "prompt": "La ciudad donde está el Louvre es",
+  "gen": " París, Francia. El Louvre es uno de los museos más famosos del mundo, conocido por"
+ },
+ "landmark_city_013|en": {
+  "prompt": "The city where the Leaning Tower is located is",
+  "gen": " called Pisa, Italy. The tower is a famous landmark and a popular tourist destination. It is known for its unintended"
+ },
+ "landmark_city_013|es": {
+  "prompt": "La ciudad donde está la Torre inclinada es",
+  "gen": " San Francisco, California, Estados Unidos. La Torre inclinada, también conocida como Torre de la Tor"
+ },
+ "landmark_city_014|en": {
+  "prompt": "The city where the Charminar is located is",
+  "gen": ":\nHyderabad\nThe Charminar is a famous landmark in the city of Hyderabad, which is the capital of the"
+ },
+ "landmark_city_014|es": {
+  "prompt": "La ciudad donde está el Charminar es",
+  "gen": " la ciudad de Hyderabad, en la India. El Charminar es un monumento histórico y un símbolo"
+ },
+ "landmark_city_015|en": {
+  "prompt": "The city where the Hagia Sophia is located is",
+  "gen": " Istanbul, Turkey. Hagia Sophia, also known as Ayasofya, is a former Byzantine church, Ottoman"
+ },
+ "landmark_city_015|es": {
+  "prompt": "La ciudad donde está Santa Sofía es",
+  "gen": " la ciudad de Estambul, Turquía. La ciudad de Estambul es la ciudad más grande de Tur"
+ },
+ "landmark_city_016|en": {
+  "prompt": "The city where the Alhambra is located is",
+  "gen": " Granada, Spain. The Alhambra is a palace and fortress complex in Granada, Spain, that was"
+ },
+ "landmark_city_016|es": {
+  "prompt": "La ciudad donde está la Alhambra es",
+  "gen": " Granada, en la región de Andalucía, España. La Alhambra es un palacio"
+ },
+ "landmark_city_017|en": {
+  "prompt": "The city where the Prado Museum is located is",
+  "gen": ":\nA) Madrid\nB) Barcelona\nC) Barcelona\nD) Valencia\n\nThe best answer is A."
+ },
+ "landmark_city_017|es": {
+  "prompt": "La ciudad donde está el Museo del Prado es",
+  "gen": " Madrid, España. El Museo del Prado es uno de los museos de arte más importantes del mundo y se"
+ },
+ "landmark_city_018|en": {
+  "prompt": "The city where Christ the Redeemer is located is",
+  "gen": " Rio de Janeiro, Brazil. The statue of Christ the Redeemer is one of the most iconic landmarks in the world and"
+ },
+ "landmark_city_018|es": {
+  "prompt": "La ciudad donde está el Cristo Redentor es",
+  "gen": " Río de Janeiro, Brasil. El Cristo Redentor es una de las atracciones turísticas más famosas"
+ },
+ "landmark_city_019|en": {
+  "prompt": "The city where the Space Needle is located is",
+  "gen": " Seattle, Washington. The Space Needle is a 605-foot-tall (184 meters) tower that was built for the"
+ },
+ "landmark_city_019|es": {
+  "prompt": "La ciudad donde está la Space Needle es",
+  "gen": " Seattle, Washington. La Space Needle es una estructura de 605 pies de altura que se encuentra en el centro de"
+ },
+ "landmark_city_020|en": {
+  "prompt": "The city where the Golden Gate Bridge is located is",
+  "gen": " San Francisco, California. The Golden Gate Bridge is an iconic suspension bridge that spans the Golden Gate strait, which is"
+ },
+ "landmark_city_020|es": {
+  "prompt": "La ciudad donde está el Puente Golden Gate es",
+  "gen": " San Francisco, California, Estados Unidos. El Puente Golden Gate es un puente de acero y hormigón"
+ },
+ "landmark_city_021|en": {
+  "prompt": "The city where the CN Tower is located is",
+  "gen": " Toronto, Ontario, Canada. The CN Tower is a 553-meter-tall (1,815 ft) communications and"
+ },
+ "landmark_city_021|es": {
+  "prompt": "La ciudad donde está la Torre CN es",
+  "gen": " Toronto, Ontario, Canadá. La ciudad tiene una población de aproximadamente 2,7 millones de habit"
+ },
+ "landmark_city_022|en": {
+  "prompt": "The city where the Petronas Towers is located is",
+  "gen": " Kuala Lumpur, Malaysia. The Petronas Towers, also known as the Twin Towers, are two 452-meter-t"
+ },
+ "landmark_city_022|es": {
+  "prompt": "La ciudad donde está las Torres Petronas es",
+  "gen": " Kuala Lumpur, la capital de Malasia. Las Torres Petronas son un complejo de rascacielos"
+ },
+ "landmark_city_023|en": {
+  "prompt": "The city where the Forbidden City is located is",
+  "gen": " Beijing, China. The Forbidden City is a UNESCO World Heritage Site and is considered one of the most famous and iconic landmarks"
+ },
+ "landmark_city_023|es": {
+  "prompt": "La ciudad donde está la Ciudad Prohibida es",
+  "gen": " una novela de 1981 escrita por el escritor estadounidense Paul Auster. La novela"
+ },
+ "landmark_city_024|en": {
+  "prompt": "The city where the Atomium is located is",
+  "gen": " Brussels, Belgium. The Atomium is a 102-meter-tall (335 ft) structure built for the 195"
+ },
+ "landmark_city_024|es": {
+  "prompt": "La ciudad donde está el Atomium es",
+  "gen": " Bruselas\nLa ciudad donde se encuentra el Atomium es Bruselas, Bélgica. El Atom"
+ },
+ "landmark_city_025|en": {
+  "prompt": "The city where the Hermitage Museum is located is",
+  "gen": " St. Petersburg, Russia. The Hermitage Museum is one of the largest and oldest museums in the world, with"
+ },
+ "landmark_city_025|es": {
+  "prompt": "La ciudad donde está el Museo del Hermitage es",
+  "gen": " San Petersburgo, Rusia. El Museo del Hermitage es uno de los museos más grandes y"
+ },
+ "landmark_city_026|en": {
+  "prompt": "The city where the Charles Bridge is located is",
+  "gen": " Prague, the capital of the Czech Republic. The Charles Bridge is a historic stone Gothic bridge that spans the Vltava"
+ },
+ "landmark_city_026|es": {
+  "prompt": "La ciudad donde está el Puente de Carlos es",
+  "gen": " una ciudad que se encuentra en el norte de Francia, en la región de Normandía. La ciudad"
+ },
+ "landmark_city_027|en": {
+  "prompt": "The city where Edinburgh Castle is located is",
+  "gen": " not Edinburgh, but rather the city of Edinburgh is the capital of Scotland, and the castle is situated on the Royal Mile"
+ },
+ "landmark_city_027|es": {
+  "prompt": "La ciudad donde está el Castillo de Edimburgo es",
+  "gen": " Edimburgo\nLa ciudad donde está el Castillo de Edimburgo es Edimburgo\nLa ciudad"
+ },
+ "landmark_city_028|en": {
+  "prompt": "The city where the Trevi Fountain is located is",
+  "gen": " Rome, Italy. The Trevi Fountain is a beautiful baroque fountain in the heart of Rome, and it is one"
+ },
+ "landmark_city_028|es": {
+  "prompt": "La ciudad donde está la Fontana de Trevi es",
+  "gen": " Roma, la ciudad eterna. La Fontana de Trevi es una de las fuentes más famosas de la"
+ },
+ "landmark_city_029|en": {
+  "prompt": "The city where the Rialto Bridge is located is",
+  "gen": ":\nA) Venice\nB) Cividale del Friuli\nC) Pordenone\nD) Trieste"
+ },
+ "landmark_city_029|es": {
+  "prompt": "La ciudad donde está el Puente de Rialto es",
+  "gen": " Venecia, Italia. El Puente de Rialto es un puente de piedra que cruza el"
+ },
+ "landmark_city_030|en": {
+  "prompt": "The city where Westminster Abbey is located is",
+  "gen": " London, England. Westminster Abbey is a historic church that has been the site of coronations, royal weddings, and state"
+ },
+ "landmark_city_030|es": {
+  "prompt": "La ciudad donde está la Abadía de Westminster es",
+  "gen": " Londres. La Abadía de Westminster es una de las iglesias más antiguas de Inglaterra"
+ },
+ "landmark_city_031|en": {
+  "prompt": "The city where Tower Bridge is located is",
+  "gen": " London, England. The bridge is a combined bascule and suspension bridge that spans the River Thames. It was opened"
+ },
+ "landmark_city_031|es": {
+  "prompt": "La ciudad donde está el Tower Bridge es",
+  "gen": " Londres, en Inglaterra. El Tower Bridge es un puente de hierro y acero que cruza"
+ },
+ "landmark_city_032|en": {
+  "prompt": "The city where Times Square is located is",
+  "gen": " New York City, which is located in the state of New York. The state of New York is located in the northeastern"
+ },
+ "landmark_city_032|es": {
+  "prompt": "La ciudad donde está Times Square es",
+  "gen": " Nueva York\nLa ciudad donde está Times Square es Nueva York\nLa ciudad donde está Times Square es Nueva"
+ },
+ "landmark_city_033|en": {
+  "prompt": "The city where the Hollywood Sign is located is",
+  "gen": " not Los Angeles, but rather...?\nThe answer is... (dramatic pause) ...Los Angeles! The Hollywood"
+ },
+ "landmark_city_033|es": {
+  "prompt": "La ciudad donde está el Cartel de Hollywood es",
+  "gen": " una película de 2006 dirigida por Robert Rodriguez y protagonizada por Antonio Banderas, Johnny Depp,"
+ },
+ "landmark_city_034|en": {
+  "prompt": "The city where the Golden Temple is located is",
+  "gen": " Amritsar, which is the capital of the Indian state of Punjab. The Golden Temple, also known as the Har"
+ },
+ "landmark_city_034|es": {
+  "prompt": "La ciudad donde está el Templo Dorado es",
+  "gen": " una ciudad que se encuentra en el norte de Perú, en la región de San Martín. La ciudad"
+ },
+ "landmark_city_035|en": {
+  "prompt": "The city where the Hawa Mahal is located is",
+  "gen": "?\nThe city where the Hawa Mahal is located is Jaipur.\nHawa Mahal is a palace in Ja"
+ },
+ "landmark_city_035|es": {
+  "prompt": "La ciudad donde está el Hawa Mahal es",
+  "gen": " Jaipur, en la India. El Hawa Mahal, que significa \"palacio de la brisa\" en"
+ },
+ "landmark_city_036|en": {
+  "prompt": "The city where the Victoria Memorial is located is",
+  "gen": "?\nThe Victoria Memorial is located in Kolkata, West Bengal, India. It was built in 1921 to commemorate Queen"
+ },
+ "landmark_city_036|es": {
+  "prompt": "La ciudad donde está el Memorial Victoria es",
+  "gen": " la ciudad de San Juan, Puerto Rico. El Memorial es un monumento que conmemora a los soldados estad"
+ },
+ "landmark_city_037|en": {
+  "prompt": "The city where the Meenakshi Temple is located is",
+  "gen": "?\nThe city where the Meenakshi Temple is located is Madurai.\nThe city where the Meenakshi"
+ },
+ "landmark_city_037|es": {
+  "prompt": "La ciudad donde está el Templo de Meenakshi es",
+  "gen": "?\nLa ciudad donde está el Templo de Meenakshi es Madurai, en el estado de Tamil Nadu,"
+ },
+ "landmark_city_038|en": {
+  "prompt": "The city where the Mysore Palace is located is",
+  "gen": "?\nThe city where the Mysore Palace is located is Mysore.\nThe Mysore Palace is a palace"
+ },
+ "landmark_city_038|es": {
+  "prompt": "La ciudad donde está el Palacio de Mysore es",
+  "gen": "?\nLa respuesta es Mysore."
+ },
+ "landmark_city_039|en": {
+  "prompt": "The city where the Pantheon is located is",
+  "gen": " Rome, Italy. The Pantheon is a temple dedicated to all the gods of ancient Rome, and it is considered one"
+ },
+ "landmark_city_039|es": {
+  "prompt": "La ciudad donde está el Panteón es",
+  "gen": " una ciudad que se encuentra en el estado de México, México. La ciudad es conocida por su rica historia,"
+ },
+ "landmark_city_040|en": {
+  "prompt": "The city where the Vatican Museums is located is",
+  "gen": " Rome, Italy. The Vatican Museums are a collection of museums located within the Vatican City, an independent city-state located"
+ },
+ "landmark_city_040|es": {
+  "prompt": "La ciudad donde está los Museos Vaticanos es",
+  "gen": " Roma, Italia. El Museo Vaticano es uno de los museos más famosos del mundo, con más"
+ },
+ "landmark_city_041|en": {
+  "prompt": "The city where the Blue Mosque is located is",
+  "gen": " Istanbul, Turkey. The Blue Mosque, also known as the Sultan Ahmed Mosque, is one of the most famous and iconic"
+ },
+ "landmark_city_041|es": {
+  "prompt": "La ciudad donde está la Mezquita Azul es",
+  "gen": " una ciudad que se encuentra en el norte de España, en la región de Galicia. La ciudad es conoc"
+ },
+ "landmark_city_042|en": {
+  "prompt": "The city where the Cologne Cathedral is located is",
+  "gen": " a beautiful and historic city in western Germany. Here are some of the top attractions and things to do in Cologne:\n**"
+ },
+ "landmark_city_042|es": {
+  "prompt": "La ciudad donde está la Catedral de Colonia es",
+  "gen": " la ciudad de Colonia, en el estado de Santa Fe, Argentina. La Catedral de Colonia es una"
+ },
+ "landmark_city_043|en": {
+  "prompt": "The city where the Neuschwanstein Castle is located is",
+  "gen": " Füssen, Germany. Füssen is a charming town in the Allgäu region of Bavaria, Germany."
+ },
+ "landmark_city_043|es": {
+  "prompt": "La ciudad donde está el Castillo de Neuschwanstein es",
+  "gen": " Füssen, en Baviera, Alemania. El castillo fue construido en el siglo XIX por el"
+ },
+ "landmark_city_044|en": {
+  "prompt": "The city where the Reichstag is located is",
+  "gen": " Berlin, Germany. The Reichstag building is a historic landmark and a symbol of German history and politics. It was built"
+ },
+ "landmark_city_044|es": {
+  "prompt": "La ciudad donde está el Reichstag es",
+  "gen": " Berlín, y el Reichstag es el edificio donde se reúne el Reichstag, el parlamento a"
+ },
+ "landmark_city_045|en": {
+  "prompt": "The city where the Parthenon is located is",
+  "gen": " Athens, Greece. The Parthenon is a temple dedicated to the goddess Athena, and it is considered one of the"
+ },
+ "landmark_city_045|es": {
+  "prompt": "La ciudad donde está el Partenón es",
+  "gen": " Atenas, en Grecia. El Partenón es un edificio antiguo que se encuentra en el"
+ },
+ "landmark_city_046|en": {
+  "prompt": "The city where Buckingham Palace is located is",
+  "gen": " London, England. Buckingham Palace is the official residence and administrative headquarters of the British monarch, currently King Charles III. The"
+ },
+ "landmark_city_046|es": {
+  "prompt": "La ciudad donde está el Palacio de Buckingham es",
+  "gen": " Londres.\nLa ciudad donde está el Palacio de Buckingham es Londres.\nLa respuesta correcta es: Sí"
+ },
+ "landmark_city_047|en": {
+  "prompt": "The city where the Tower of London is located is",
+  "gen": " London, England. The Tower of London is a historic fortress and former prison that has served as a palace, armory"
+ },
+ "landmark_city_047|es": {
+  "prompt": "La ciudad donde está la Torre de Londres es",
+  "gen": " Londres.\nLa ciudad donde está el Palacio de Buckingham es Londres.\nLa ciudad donde está el Parlamento brit"
+ },
+ "landmark_city_048|en": {
+  "prompt": "The city where the London Eye is located is",
+  "gen": " Southwark, but the London Eye is actually situated in the London Borough of Lambeth. Southwark is a"
+ },
+ "landmark_city_048|es": {
+  "prompt": "La ciudad donde está el London Eye es",
+  "gen": " Londres. El London Eye es un gran globo terráqueo de 135 metros de altura, que ofrece"
+ },
+ "landmark_city_049|en": {
+  "prompt": "The city where the Arc de Triomphe is located is",
+  "gen": " Paris, France. The Arc de Triomphe is a monumental arch that honors the soldiers who fought and died for France"
+ },
+ "landmark_city_049|es": {
+  "prompt": "La ciudad donde está el Arco del Triunfo es",
+  "gen": " París\nLa ciudad donde está el Arco del Triunfo es París\nLa ciudad donde está el Ar"
+ },
+ "landmark_city_050|en": {
+  "prompt": "The city where Notre-Dame Cathedral is located is",
+  "gen": " Paris, France. The cathedral was built in the 12th century and is one of the most famous landmarks in the"
+ },
+ "landmark_city_050|es": {
+  "prompt": "La ciudad donde está la Catedral de Notre Dame es",
+  "gen": " París, Francia. La Catedral de Notre Dame es una de las catedrales más famosas"
+ },
+ "landmark_city_051|en": {
+  "prompt": "The city where the Palace of Versailles is located is",
+  "gen": " not Paris, but...?\nThe answer is: Versailles.\nThe Palace of Versailles is located in the city of"
+ },
+ "landmark_city_051|es": {
+  "prompt": "La ciudad donde está el Palacio de Versalles es",
+  "gen": " París\nLa ciudad donde está el Palacio de Versalles es París\nLa respuesta correcta es: No"
+ },
+ "landmark_city_052|en": {
+  "prompt": "The city where the Park Güell is located is",
+  "gen": " Barcelona, Spain. Park Güell is a public park designed by the famous Catalan architect Antoni Gaudí. The"
+ },
+ "landmark_city_052|es": {
+  "prompt": "La ciudad donde está el Parque Güell es",
+  "gen": " Barcelona, España. El Parque Güell es un parque público diseñado por el arquitecto Antoni"
+ },
+ "landmark_city_053|en": {
+  "prompt": "The city where the Royal Palace is located is",
+  "gen": " called?\nThe city where the Royal Palace is located is called Bangkok.\nBangkok is the capital and largest city of Thailand"
+ },
+ "landmark_city_053|es": {
+  "prompt": "La ciudad donde está el Palacio Real es",
+  "gen": " Madrid\nLa ciudad donde está el Palacio Real es Madrid\nLa ciudad donde está el Palacio Real es Madrid\n"
+ },
+ "landmark_city_054|en": {
+  "prompt": "The city where the Guggenheim Museum is located is",
+  "gen": " a popular tourist destination, known for its rich cultural heritage and stunning architecture. The city is situated on the Bosphorus"
+ },
+ "landmark_city_054|es": {
+  "prompt": "La ciudad donde está el Museo Guggenheim es",
+  "gen": " Bilbao, en el País Vasco, España. El Museo Guggenheim Bilbao es un museo"
+ },
+ "landmark_city_055|en": {
+  "prompt": "The city where the Empire State Building is located is",
+  "gen": " New York City, which is the most populous city in the United States. The Empire State Building is a 102-story"
+ },
+ "landmark_city_055|es": {
+  "prompt": "La ciudad donde está el Empire State es",
+  "gen": " una serie de televisión estadounidense de drama y comedia que se estrenó en 2021 en"
+ },
+ "landmark_city_056|en": {
+  "prompt": "The city where the White House is located is",
+  "gen": " Washington, D.C.\nThe city where the White House is located is Washington, D.C.\nThe White House is located"
+ },
+ "landmark_city_056|es": {
+  "prompt": "La ciudad donde está la Casa Blanca es",
+  "gen": " Washington D.C.\nLa Casa Blanca es la residencia oficial del presidente de los Estados Unidos.\nLa ciudad donde está"
+ },
+ "landmark_city_057|en": {
+  "prompt": "The city where Mount Rushmore is located is",
+  "gen": " not the only one with a rich history and natural beauty. The Black Hills of South Dakota are home to many other attractions"
+ },
+ "landmark_city_057|es": {
+  "prompt": "La ciudad donde está el Monte Rushmore es",
+  "gen": ": \nA) San Francisco\nB)  Washington D.C.\nC)  Denver\nD)  Chicago\n\n"
+ },
+ "landmark_city_058|en": {
+  "prompt": "The city where the Hollywood Walk of Fame is located is",
+  "gen": " Hollywood, California, USA. The Walk of Fame is a sidewalk filled with the names of celebrities from the entertainment industry,"
+ },
+ "landmark_city_058|es": {
+  "prompt": "La ciudad donde está el Paseo de la Fama de Hollywood es",
+  "gen": " Hollywood, California, Estados Unidos. Hollywood es una ciudad ubicada en el condado de Los Ángeles, California"
+ },
+ "landmark_city_059|en": {
+  "prompt": "The city where the Chichen Itza pyramid is located is",
+  "gen": " called\nChichen Itza is located in the state of Yucatan, Mexico. The city where Chichen It"
+ },
+ "landmark_city_059|es": {
+  "prompt": "La ciudad donde está la pirámide de Chichén Itzá es",
+  "gen": " la ciudad de Mérida, en el estado de Yucatán, México. La pirámide de Ch"
+ },
+ "landmark_city_060|en": {
+  "prompt": "The city where Machu Picchu is located is",
+  "gen": " Cuzco, Peru. Cuzco is a city in the Andes mountains, and it is the old In"
+ },
+ "landmark_city_060|es": {
+  "prompt": "La ciudad donde está Machu Picchu es",
+  "gen": " Cuzco, Perú. Cuzco es una ciudad histórica y culturalmente rica, ubicada en"
+ },
+ "landmark_city_061|en": {
+  "prompt": "The city where the Great Wall is located is",
+  "gen": " not Beijing, but rather a city called Mutianyu, which is located in the mountains of Hebei Province. However"
+ },
+ "landmark_city_061|es": {
+  "prompt": "La ciudad donde está la Gran Muralla es",
+  "gen": " Pekín, la capital de China. Pekín es una ciudad muy grande y tiene una gran cantidad de personas. La"
+ },
+ "landmark_city_062|en": {
+  "prompt": "The city where the Temple of Heaven is located is",
+  "gen": " Beijing, China. The Temple of Heaven is a complex of Taoist temples and gardens that was built in the 15"
+ },
+ "landmark_city_062|es": {
+  "prompt": "La ciudad donde está el Templo del Cielo es",
+  "gen": " una ciudad que se encuentra en el norte de China, en la provincia de Hebei. La ciudad tiene una pobl"
+ },
+ "landmark_city_063|en": {
+  "prompt": "The city where the Oriental Pearl Tower is located is",
+  "gen": " Shanghai, China. The Oriental Pearl Tower is a 468-meter-tall (1,533 ft) observation and broadcasting"
+ },
+ "landmark_city_063|es": {
+  "prompt": "La ciudad donde está la Torre de la Perla Oriental es",
+  "gen": " la ciudad de Mombasa, en Kenia. La Torre de la Perla Oriental, también conocida como"
+ },
+ "landmark_city_064|en": {
+  "prompt": "The city where the Tokyo Skytree is located is",
+  "gen": " Tokyo, Japan. The Tokyo Skytree is a broadcasting tower that stands at 634 meters (2,080 feet)"
+ },
+ "landmark_city_064|es": {
+  "prompt": "La ciudad donde está la Tokyo Skytree es",
+  "gen": " Tokio, Japón. La Tokyo Skytree es una torre de transmisión de televisión de 634"
+ },
+ "landmark_city_065|en": {
+  "prompt": "The city where Himeji Castle is located is",
+  "gen": " called Himeji, which is a city in Hyogo Prefecture, Japan. Himeji is a popular tourist"
+ },
+ "landmark_city_065|es": {
+  "prompt": "La ciudad donde está el Castillo de Himeji es",
+  "gen": " la ciudad de Akashi, en la prefectura de Hyogo, en la isla de Honshu, Jap"
+ },
+ "landmark_city_066|en": {
+  "prompt": "The city where the Gyeongbokgung Palace is located is",
+  "gen": " Seoul, South Korea. Gyeongbokgung Palace is the largest and most iconic palace in Korea, built"
+ },
+ "landmark_city_066|es": {
+  "prompt": "La ciudad donde está el Palacio Gyeongbokgung es",
+  "gen": " la capital de Corea del Sur. Se encuentra en la península coreana y es el centro político"
+ },
+ "landmark_city_067|en": {
+  "prompt": "The city where the Marina Bay Sands is located is",
+  "gen": " Singapore. Singapore is a country in Southeast Asia, and it is known for its modern architecture, vibrant culture, and high"
+ },
+ "landmark_city_067|es": {
+  "prompt": "La ciudad donde está el Marina Bay Sands es",
+  "gen": " Singapur. El hotel es famoso por su arquitectura impresionante y su ubicación en el coraz"
+ },
+ "landmark_city_068|en": {
+  "prompt": "The city where Angkor Wat is located is",
+  "gen": " Siem Reap, a town in northwestern Cambodia. Siem Reap is a popular tourist destination, known for"
+ },
+ "landmark_city_068|es": {
+  "prompt": "La ciudad donde está Angkor Wat es",
+  "gen": "\nLa respuesta es Siem Reap."
+ },
+ "landmark_city_069|en": {
+  "prompt": "The city where the Lotus Temple is located is",
+  "gen": " a city of contrasts, where ancient traditions and modernity coexist. New Delhi, the capital of India, is a"
+ },
+ "landmark_city_069|es": {
+  "prompt": "La ciudad donde está el Templo del Loto es",
+  "gen": " una ciudad que se encuentra en el norte de China, en la provincia de Hebei. La ciudad tiene una pobl"
+ },
+ "landmark_city_070|en": {
+  "prompt": "The city where India Gate is located is",
+  "gen": " New Delhi, which is the capital of India. India Gate is a war memorial that was built in 1931 to"
+ },
+ "landmark_city_070|es": {
+  "prompt": "La ciudad donde está la Puerta de la India es",
+  "gen": "?\nLa respuesta es Mumbai."
+ },
+ "landmark_city_071|en": {
+  "prompt": "The city where the Qutub Minar is located is",
+  "gen": "\nA) Delhi\nB) Qutub\nC) Qutubabad\nD) Mehrauli\n"
+ },
+ "landmark_city_071|es": {
+  "prompt": "La ciudad donde está el Qutb Minar es",
+  "gen": " la ciudad de Delhi, India. El Qutb Minar es un monumento histórico y religioso ubicado"
+ },
+ "landmark_city_072|en": {
+  "prompt": "The city where the Gateway of India is located is",
+  "gen": " Mumbai.\nThe Gateway of India is a monument located in Mumbai, India.\nThe Gateway of India is a famous monument located"
+ },
+ "landmark_city_072|es": {
+  "prompt": "La ciudad donde está la Puerta de la India de Bombay es",
+  "gen": " la ciudad de Mumbai. La Puerta de la India es un edificio histórico que se encuentra en la ciudad de"
+ },
+ "landmark_city_073|en": {
+  "prompt": "The city where the Konark Sun Temple is located is",
+  "gen": ":\nA) Bhubaneswar\nB) C) Cuttack\nC) D) Puri\nD"
+ },
+ "landmark_city_073|es": {
+  "prompt": "La ciudad donde está el Templo del Sol de Konark es",
+  "gen": "\nA) Bhubaneswar\nB) Templo de Konark\nC) Dhauli\nD)"
+ },
+ "landmark_city_074|en": {
+  "prompt": "The city where the Ajanta Caves is located is",
+  "gen": "\nAjanta Caves is located in the city of Aurangabad in the state of Maharashtra, India. The caves"
+ },
+ "landmark_city_074|es": {
+  "prompt": "La ciudad donde está las cuevas de Ajanta es",
+  "gen": " la ciudad de Aurangabad, en el estado de Maharashtra, India. La ciudad de Aurangabad es conocida"
+ },
+ "landmark_city_075|en": {
+  "prompt": "The city where the Mahabodhi Temple is located is",
+  "gen": "\nThe city where the Mahabodhi Temple is located is\nThe correct answer is Bodh Gaya.\nThe"
+ },
+ "landmark_city_075|es": {
+  "prompt": "La ciudad donde está el Templo Mahabodhi es",
+  "gen": " Patna, en el estado de Bihar, India. El Templo Mahabodhi es un lugar sagrado para"
+ },
+ "landmark_city_076|en": {
+  "prompt": "The city where the Lingaraja Temple is located is",
+  "gen": "\nThe city where the Lingaraja Temple is located is\nThe best answer is Bhubaneswar."
+ },
+ "landmark_city_076|es": {
+  "prompt": "La ciudad donde está el Templo Lingaraja es",
+  "gen": " la ciudad de Puri, en la India. El Templo Lingaraja es uno de los templos más ant"
+ },
+ "landmark_city_077|en": {
+  "prompt": "The city where the Fatehpur Sikri is located is",
+  "gen": "\nThe city where the Fatehpur Sikri is located is\nThe best answer is Agra."
+ },
+ "landmark_city_077|es": {
+  "prompt": "La ciudad donde está Fatehpur Sikri es",
+  "gen": " la ciudad de Agra, en el estado de Uttar Pradesh, India. Agra es una ciudad histórica y cultural"
+ },
+ "landmark_city_078|en": {
+  "prompt": "The city where the Amber Fort is located is",
+  "gen": " Jaipur, which is the capital of the state of Rajasthan in India. The Amber Fort is a popular tourist destination and"
+ },
+ "landmark_city_078|es": {
+  "prompt": "La ciudad donde está el Fuerte Amber es",
+  "gen": " una ciudad en el estado de California, Estados Unidos. La ciudad tiene una población de aproximadamente 1.000"
+ },
+ "landmark_city_079|en": {
+  "prompt": "The city where the Pyramids of Giza is located is",
+  "gen": "?\nThe city where the Pyramids of Giza is located is Giza.\nThe city where the Pyramids of G"
+ },
+ "landmark_city_079|es": {
+  "prompt": "La ciudad donde está las pirámides de Guiza es",
+  "gen": " la ciudad de: \nLa ciudad donde se encuentran las pirámides de Guiza es la ciudad de: \n"
+ },
+ "landmark_city_080|en": {
+  "prompt": "The city where Table Mountain is located is",
+  "gen": " Cape Town, South Africa. Table Mountain is a flat-topped mountain that rises 1,086 meters (3,"
+ },
+ "landmark_city_080|es": {
+  "prompt": "La ciudad donde está la Montaña de la Mesa es",
+  "gen": " una ciudad ubicada en el estado de Chihuahua, México. Se encuentra en la región del Valle de"
+ },
+ "landmark_country_000|en": {
+  "prompt": "The country where the Eiffel Tower is located is",
+  "gen": " France.\nThe Eiffel Tower is a famous iron lattice tower built in 1889 for the World's Fair in"
+ },
+ "landmark_country_000|es": {
+  "prompt": "El país donde está la Torre Eiffel es",
+  "gen": " Francia.\nLa Torre Eiffel es una de las estructuras más famosas del mundo.\nLa Torre"
+ },
+ "landmark_country_001|en": {
+  "prompt": "The country where the Colosseum is located is",
+  "gen": " Italy.\nThe Colosseum is a large amphitheater in Rome, Italy.\nThe Colosseum was"
+ },
+ "landmark_country_001|es": {
+  "prompt": "El país donde está el Coliseo es",
+  "gen": " Italia. El Coliseo es un monumento histórico y un lugar de gran importancia cultural y turística en"
+ },
+ "landmark_country_002|en": {
+  "prompt": "The country where Big Ben is located is",
+  "gen": "... (drum roll) ... England! But, actually, Big Ben is not the name of the clock tower itself"
+ },
+ "landmark_country_002|es": {
+  "prompt": "El país donde está el Big Ben es",
+  "gen": " Inglaterra, pero el reloj que se encuentra en la torre de la catedral de San Pablo"
+ },
+ "landmark_country_003|en": {
+  "prompt": "The country where the Statue of Liberty is located is",
+  "gen": " the United States of America.\nThe country where the Eiffel Tower is located is France.\nThe country where the Great"
+ },
+ "landmark_country_003|es": {
+  "prompt": "El país donde está la Estatua de la Libertad es",
+  "gen": " Estados Unidos.\nLa Estatua de la Libertad es una de las figuras más icónicas de la cultura"
+ },
+ "landmark_country_004|en": {
+  "prompt": "The country where the Taj Mahal is located is",
+  "gen": " India.\nThe Taj Mahal is a white marble mausoleum built by Mughal Emperor Shah Jahan in"
+ },
+ "landmark_country_004|es": {
+  "prompt": "El país donde está el Taj Mahal es",
+  "gen": " India. El Taj Mahal es un mausoleo construido por el emperador mogol Shah Jahan"
+ },
+ "landmark_country_005|en": {
+  "prompt": "The country where the Sagrada Familia is located is",
+  "gen": " Spain.\nThe Sagrada Familia is a famous cathedral in Barcelona, Spain, designed by Antoni Gaudí.\n"
+ },
+ "landmark_country_005|es": {
+  "prompt": "El país donde está la Sagrada Familia es",
+  "gen": " España.\nLa Sagrada Familia es una catedral gótica y neogótica diseñada por Anton"
+ },
+ "landmark_country_006|en": {
+  "prompt": "The country where the Brandenburg Gate is located is",
+  "gen": " Germany.\nThe Brandenburg Gate is a famous landmark in Berlin, Germany.\nThe Brandenburg Gate is a symbol of Berlin"
+ },
+ "landmark_country_006|es": {
+  "prompt": "El país donde está la Puerta de Brandeburgo es",
+  "gen": " Alemania. La Puerta de Brandeburgo es una de las puertas de la ciudad de Berlín,"
+ },
+ "landmark_country_007|en": {
+  "prompt": "The country where the Acropolis is located is",
+  "gen": " Greece. The Acropolis is a citadel located on a high rocky outcrop above the city of Athens, Greece."
+ },
+ "landmark_country_007|es": {
+  "prompt": "El país donde está la Acrópolis es",
+  "gen": " Grecia. La Acrópolis es un lugar emblemático en Grecia, conocido por su"
+ },
+ "landmark_country_008|en": {
+  "prompt": "The country where the Red Fort is located is",
+  "gen": " India.\nThe Red Fort is a UNESCO World Heritage Site.\nThe Red Fort is a symbol of India's rich history and"
+ },
+ "landmark_country_008|es": {
+  "prompt": "El país donde está el Fuerte Rojo es",
+  "gen": " China. El Fuerte Rojo es un nombre común para referirse a la Gran Muralla China, que es"
+ },
+ "landmark_country_009|en": {
+  "prompt": "The country where the Sydney Opera House is located is",
+  "gen": " Australia.\nThe country where the Sydney Opera House is located is Australia. Australia is a country and continent located in the Southern"
+ },
+ "landmark_country_009|es": {
+  "prompt": "El país donde está la Ópera de Sídney es",
+  "gen": " Australia. La Ópera de Sídney es una de las estructuras más icónicas de la ciudad"
+ },
+ "landmark_country_010|en": {
+  "prompt": "The country where the Burj Khalifa is located is",
+  "gen": "...?\nThe answer is: United Arab Emirates (UAE)\nThe Burj Khalifa is the tallest building in the"
+ },
+ "landmark_country_010|es": {
+  "prompt": "El país donde está el Burj Khalifa es",
+  "gen": ": Emiratos Árabes Unidos\nEl Burj Khalifa es el edificio más alto del mundo, ubic"
+ },
+ "landmark_country_011|en": {
+  "prompt": "The country where the Kremlin is located is",
+  "gen": " Russia.\nThe Kremlin is a fortified complex in the heart of Moscow, Russia, that serves as the official residence of the"
+ },
+ "landmark_country_011|es": {
+  "prompt": "El país donde está el Kremlin es",
+  "gen": " Rusia. El Kremlin es el palacio principal del gobierno de Rusia y se encuentra en Moscú. El"
+ },
+ "landmark_country_012|en": {
+  "prompt": "The country where the Louvre is located is",
+  "gen": " France. The Louvre is the world's largest art museum, with a collection of over 550,000 works of"
+ },
+ "landmark_country_012|es": {
+  "prompt": "El país donde está el Louvre es",
+  "gen": " Francia. El Louvre es uno de los museos más famosos del mundo y se encuentra en París,"
+ },
+ "landmark_country_013|en": {
+  "prompt": "The country where the Leaning Tower is located is",
+  "gen": " Italy.\nThe Leaning Tower of Pisa is a famous tower located in Pisa, Italy. It is known for"
+ },
+ "landmark_country_013|es": {
+  "prompt": "El país donde está la Torre inclinada es",
+  "gen": " Francia.\nLa Torre inclinada es un monumento ubicado en la ciudad de Puy-de-Dôme"
+ },
+ "landmark_country_014|en": {
+  "prompt": "The country where the Charminar is located is",
+  "gen": "?\nThe Charminar is located in the city of Hyderabad, which is the capital of the Indian state of Telang"
+ },
+ "landmark_country_014|es": {
+  "prompt": "El país donde está el Charminar es",
+  "gen": " la India.\nEl Charminar es un monumento histórico en la ciudad de Hyderabad, en la India. F"
+ },
+ "landmark_country_015|en": {
+  "prompt": "The country where the Hagia Sophia is located is",
+  "gen": " Turkey.\nThe Hagia Sophia is a former Orthodox patriarchal basilica, a former imperial mosque, and now a museum"
+ },
+ "landmark_country_015|es": {
+  "prompt": "El país donde está Santa Sofía es",
+  "gen": " Rusia. Santa Sofía es una iglesia ortodoxa rusa en la ciudad de San Petersburgo,"
+ },
+ "landmark_country_016|en": {
+  "prompt": "The country where the Alhambra is located is",
+  "gen": " Spain.\nThe Alhambra is a palace and fortress complex in Granada, Spain.\nThe Alhambra"
+ },
+ "landmark_country_016|es": {
+  "prompt": "El país donde está la Alhambra es",
+  "gen": " España. La Alhambra es un palacio y jardines de la época islámica en Gran"
+ },
+ "landmark_country_017|en": {
+  "prompt": "The country where the Prado Museum is located is",
+  "gen": " Spain. The Prado Museum is one of the world's greatest art museums, and it is located in Madrid, the"
+ },
+ "landmark_country_017|es": {
+  "prompt": "El país donde está el Museo del Prado es",
+  "gen": " España.\nEl Museo del Prado es uno de los museos de arte más importantes del mundo.\nEl Museo"
+ },
+ "landmark_country_018|en": {
+  "prompt": "The country where Christ the Redeemer is located is",
+  "gen": " Brazil.\nThe country where the Eiffel Tower is located is France.\nThe country where the Great Wall of China is"
+ },
+ "landmark_country_018|es": {
+  "prompt": "El país donde está el Cristo Redentor es",
+  "gen": " Brasil.\nEl Cristo Redentor es una de las 7 maravillas del mundo moderno.\nEl Crist"
+ },
+ "landmark_country_019|en": {
+  "prompt": "The country where the Space Needle is located is",
+  "gen": " the United States of America.\nThe Space Needle is a 605-foot-tall (184 meters) tower located in Seattle"
+ },
+ "landmark_country_019|es": {
+  "prompt": "El país donde está la Space Needle es",
+  "gen": " Seattle, Washington, Estados Unidos. La Space Needle es una estructura de observación de 605 pies (184 metros"
+ },
+ "landmark_country_020|en": {
+  "prompt": "The country where the Golden Gate Bridge is located is",
+  "gen": " the United States of America.\nThe Golden Gate Bridge is a suspension bridge that spans the Golden Gate strait, which is"
+ },
+ "landmark_country_020|es": {
+  "prompt": "El país donde está el Puente Golden Gate es",
+  "gen": " San Francisco, California, Estados Unidos. El Puente Golden Gate es un puente de acero y hormigón"
+ },
+ "landmark_country_021|en": {
+  "prompt": "The country where the CN Tower is located is",
+  "gen": " Canada.\nThe CN Tower is a 553-meter-tall (1,815 ft) free-standing communication and observation tower"
+ },
+ "landmark_country_021|es": {
+  "prompt": "El país donde está la Torre CN es",
+  "gen": " Canadá.\nLa Torre CN (Cable National) es una torre de comunicaciones ubicada en Montreal"
+ },
+ "landmark_country_022|en": {
+  "prompt": "The country where the Petronas Towers is located is",
+  "gen": " Malaysia.\nThe Petronas Towers, also known as the Twin Towers, are two 452-meter-tall skyscrap"
+ },
+ "landmark_country_022|es": {
+  "prompt": "El país donde está las Torres Petronas es",
+  "gen": " Malasia. Las Torres Petronas son un complejo de rascacielos ubicado en Kuala Lumpur,"
+ },
+ "landmark_country_023|en": {
+  "prompt": "The country where the Forbidden City is located is",
+  "gen": " China.\nThe Forbidden City is a UNESCO World Heritage Site and is considered one of the most famous and iconic landmarks in China"
+ },
+ "landmark_country_023|es": {
+  "prompt": "El país donde está la Ciudad Prohibida es",
+  "gen": " China. La Ciudad Prohibida es un complejo de edificios históricos en el centro de Pekín"
+ },
+ "landmark_country_024|en": {
+  "prompt": "The country where the Atomium is located is",
+  "gen": " Belgium. The Atomium is a 102-meter-tall (335 ft) structure built for the 1958 Brussels"
+ },
+ "landmark_country_024|es": {
+  "prompt": "El país donde está el Atomium es",
+  "gen": " Bélgica.\nEl país donde está el Atomium es Bélgica.\nLa respuesta es correcta.\n"
+ },
+ "landmark_country_025|en": {
+  "prompt": "The country where the Hermitage Museum is located is",
+  "gen": " Russia. The Hermitage Museum is one of the largest and oldest museums in the world, with a collection of over"
+ },
+ "landmark_country_025|es": {
+  "prompt": "El país donde está el Museo del Hermitage es",
+  "gen": " Rusia.\nEl Museo del Hermitage es uno de los museos más famosos del mundo, ubicado"
+ },
+ "landmark_country_026|en": {
+  "prompt": "The country where the Charles Bridge is located is",
+  "gen": " the Czech Republic. The Charles Bridge is a historic stone Gothic bridge in Prague, the capital city of the Czech Republic."
+ },
+ "landmark_country_026|es": {
+  "prompt": "El país donde está el Puente de Carlos es",
+  "gen": " el Reino Unido.\nEl Puente de Carlos es un puente de carretera que cruza el r"
+ },
+ "landmark_country_027|en": {
+  "prompt": "The country where Edinburgh Castle is located is",
+  "gen": " Scotland, which is a part of the United Kingdom. The castle is situated atop Castle Rock, a dormant volcano, in"
+ },
+ "landmark_country_027|es": {
+  "prompt": "El país donde está el Castillo de Edimburgo es",
+  "gen": " Escocia.\nEl Castillo de Edimburgo es un castillo medieval ubicado en el corazón de Ed"
+ },
+ "landmark_country_028|en": {
+  "prompt": "The country where the Trevi Fountain is located is",
+  "gen": " Italy.\nThe Trevi Fountain is a famous baroque fountain in Rome, Italy.\nThe fountain is named after the Trev"
+ },
+ "landmark_country_028|es": {
+  "prompt": "El país donde está la Fontana de Trevi es",
+  "gen": " Italia.\nLa Fontana de Trevi es una de las fuentes más famosas de Roma, Italia. Se encuentra"
+ },
+ "landmark_country_029|en": {
+  "prompt": "The country where the Rialto Bridge is located is",
+  "gen": " Italy.\nThe Rialto Bridge is a famous bridge in Venice, Italy.\nThe Rialto Bridge is a bridge"
+ },
+ "landmark_country_029|es": {
+  "prompt": "El país donde está el Puente de Rialto es",
+  "gen": " Italia.\nLa ciudad donde se encuentra el Puente de Rialto es Venecia.\nEl Puente de R"
+ },
+ "landmark_country_030|en": {
+  "prompt": "The country where Westminster Abbey is located is",
+  "gen": " England.\nThe country where Westminster Abbey is located is England.\nI'm happy to help you with your question about Westminster Abbey"
+ },
+ "landmark_country_030|es": {
+  "prompt": "El país donde está la Abadía de Westminster es",
+  "gen": " Inglaterra, Reino Unido. La Abadía de Westminster es una de las iglesias más fam"
+ },
+ "landmark_country_031|en": {
+  "prompt": "The country where Tower Bridge is located is",
+  "gen": " England, United Kingdom.\nTower Bridge is a famous bridge in London, England, that spans the River Thames. It is"
+ },
+ "landmark_country_031|es": {
+  "prompt": "El país donde está el Tower Bridge es",
+  "gen": " Inglaterra, Reino Unido. El Tower Bridge es un puente de hierro y acero que cru"
+ },
+ "landmark_country_032|en": {
+  "prompt": "The country where Times Square is located is",
+  "gen": " the United States of America.\nThe country where Times Square is located is the United States of America. (Source: Wikipedia"
+ },
+ "landmark_country_032|es": {
+  "prompt": "El país donde está Times Square es",
+  "gen": " Estados Unidos.\nEl país donde está Times Square es Estados Unidos. (1)\nEl país donde está Times Square es Estados"
+ },
+ "landmark_country_033|en": {
+  "prompt": "The country where the Hollywood Sign is located is",
+  "gen": " California, USA. The Hollywood Sign is a popular tourist attraction and a symbol of the American film industry. It is located"
+ },
+ "landmark_country_033|es": {
+  "prompt": "El país donde está el Cartel de Hollywood es",
+  "gen": " un país ficticio que se encuentra en el norte de California, Estados Unidos. El Cartel de Hollywood es un"
+ },
+ "landmark_country_034|en": {
+  "prompt": "The country where the Golden Temple is located is",
+  "gen": "?\nThe country where the Golden Temple is located is India.\nThe Golden Temple is a sacred site for the Sikh community,"
+ },
+ "landmark_country_034|es": {
+  "prompt": "El país donde está el Templo Dorado es",
+  "gen": " Perú\nEl Templo Dorado es un templo ubicado en la ciudad de Cusco, Perú"
+ },
+ "landmark_country_035|en": {
+  "prompt": "The country where the Hawa Mahal is located is",
+  "gen": "?\nThe answer is India.\nHawa Mahal, which translates to \"Palace of the Winds,\" is a "
+ },
+ "landmark_country_035|es": {
+  "prompt": "El país donde está el Hawa Mahal es",
+  "gen": " India.\nEl Hawa Mahal es un palacio de la ciudad de Jaipur, en el estado de Rajasthan,"
+ },
+ "landmark_country_036|en": {
+  "prompt": "The country where the Victoria Memorial is located is",
+  "gen": "?\nThe Victoria Memorial is located in India.\nThe Victoria Memorial is located in Kolkata, West Bengal, India.\nThe Victoria"
+ },
+ "landmark_country_036|es": {
+  "prompt": "El país donde está el Memorial Victoria es",
+  "gen": " el Reino Unido. El Memorial Victoria es un monumento que conmemora a los soldados británicos"
+ },
+ "landmark_country_037|en": {
+  "prompt": "The country where the Meenakshi Temple is located is",
+  "gen": "?\nThe country where the Meenakshi Temple is located is India.\nThe Meenakshi Temple is a famous"
+ },
+ "landmark_country_037|es": {
+  "prompt": "El país donde está el Templo de Meenakshi es",
+  "gen": "?\nLa respuesta es India. El Templo de Meenakshi es un templo hindú en Madurá"
+ },
+ "landmark_country_038|en": {
+  "prompt": "The country where the Mysore Palace is located is",
+  "gen": "?\nThe Mysore Palace is located in the country of India.\nThe Mysore Palace is located in the state"
+ },
+ "landmark_country_038|es": {
+  "prompt": "El país donde está el Palacio de Mysore es",
+  "gen": " India.\nEl Palacio de Mysore es un palacio real de la ciudad de Mysore, en el"
+ },
+ "landmark_country_039|en": {
+  "prompt": "The country where the Pantheon is located is",
+  "gen": " Italy.\nThe Pantheon is a temple in Rome, Italy, built in 126 AD during the reign of Emperor Had"
+ },
+ "landmark_country_039|es": {
+  "prompt": "El país donde está el Panteón es",
+  "gen": " un país que tiene una gran cantidad de monumentos y sitios históricos, y es conocido por su rica"
+ },
+ "landmark_country_040|en": {
+  "prompt": "The country where the Vatican Museums is located is",
+  "gen": " Italy. The Vatican Museums is a museum complex located within the Vatican City, an independent city-state located within Rome,"
+ },
+ "landmark_country_040|es": {
+  "prompt": "El país donde está los Museos Vaticanos es",
+  "gen": " Italia.\nEl país donde se encuentran los Museos Vaticanos es Italia.\nEl país donde se encuentran los Muse"
+ },
+ "landmark_country_041|en": {
+  "prompt": "The country where the Blue Mosque is located is",
+  "gen": " Turkey.\nThe Blue Mosque, also known as the Sultan Ahmed Mosque, is a historic mosque in Istanbul, Turkey. It"
+ },
+ "landmark_country_041|es": {
+  "prompt": "El país donde está la Mezquita Azul es",
+  "gen": " Turquía. La Mezquita Azul se encuentra en la ciudad de Bursa, en el norte"
+ },
+ "landmark_country_042|en": {
+  "prompt": "The country where the Cologne Cathedral is located is",
+  "gen": " Germany. The Cologne Cathedral, also known as the Kölner Dom, is a magnificent Gothic cathedral that took more than"
+ },
+ "landmark_country_042|es": {
+  "prompt": "El país donde está la Catedral de Colonia es",
+  "gen": " Alemania.\nLa Catedral de Colonia (en alemán: Kölner Dom) es una c"
+ },
+ "landmark_country_043|en": {
+  "prompt": "The country where the Neuschwanstein Castle is located is",
+  "gen": " Germany.\nThe Neuschwanstein Castle is a fairytale-like castle located in Bavaria, Germany. It was"
+ },
+ "landmark_country_043|es": {
+  "prompt": "El país donde está el Castillo de Neuschwanstein es",
+  "gen": " Alemania.\nEl castillo de Neuschwanstein es un castillo real de finales del siglo XIX"
+ },
+ "landmark_country_044|en": {
+  "prompt": "The country where the Reichstag is located is",
+  "gen": " Germany.\nThe Reichstag building is a historic building in Berlin, Germany, that serves as the seat of the German parliament"
+ },
+ "landmark_country_044|es": {
+  "prompt": "El país donde está el Reichstag es",
+  "gen": " Alemania. El Reichstag es el edificio principal del Parlamento alemán, conocido como el Bundest"
+ },
+ "landmark_country_045|en": {
+  "prompt": "The country where the Parthenon is located is",
+  "gen": " Greece. The Parthenon is a temple dedicated to the goddess Athena, and it is considered one of the greatest surviving"
+ },
+ "landmark_country_045|es": {
+  "prompt": "El país donde está el Partenón es",
+  "gen": " Grecia. El Partenón es un edificio antiguo que se encuentra en Atenas, Grec"
+ },
+ "landmark_country_046|en": {
+  "prompt": "The country where Buckingham Palace is located is",
+  "gen": " England, which is part of the United Kingdom (UK). The UK is a constitutional monarchy, with Queen Elizabeth II as"
+ },
+ "landmark_country_046|es": {
+  "prompt": "El país donde está el Palacio de Buckingham es",
+  "gen": " el Reino Unido.\nEl Palacio de Buckingham es la residencia oficial del monarca británico.\n"
+ },
+ "landmark_country_047|en": {
+  "prompt": "The country where the Tower of London is located is",
+  "gen": " England.\nThe Tower of London is a historic fortress located in the city of London, England.\nThe Tower of London is"
+ },
+ "landmark_country_047|es": {
+  "prompt": "El país donde está la Torre de Londres es",
+  "gen": " Inglaterra, en el Reino Unido. La Torre de Londres es un castillo y un muse"
+ },
+ "landmark_country_048|en": {
+  "prompt": "The country where the London Eye is located is",
+  "gen": " England, United Kingdom.\nThe London Eye is a giant Ferris wheel located on the South Bank of the River Thames in"
+ },
+ "landmark_country_048|es": {
+  "prompt": "El país donde está el London Eye es",
+  "gen": " Inglaterra, Reino Unido. El London Eye es un gran globo terráqueo de 135"
+ },
+ "landmark_country_049|en": {
+  "prompt": "The country where the Arc de Triomphe is located is",
+  "gen": " France.\nThe Arc de Triomphe is a monumental arch in Paris, France, that honors the soldiers who fought and"
+ },
+ "landmark_country_049|es": {
+  "prompt": "El país donde está el Arco del Triunfo es",
+  "gen": " Francia.\nLa respuesta correcta es Francia. El Arco del Triunfo es un monumento ubicado"
+ },
+ "landmark_country_050|en": {
+  "prompt": "The country where Notre-Dame Cathedral is located is",
+  "gen": " France. The cathedral is located in the city of Paris, which is the capital of France. The cathedral is a famous"
+ },
+ "landmark_country_050|es": {
+  "prompt": "El país donde está la Catedral de Notre Dame es",
+  "gen": " Francia. La Catedral de Notre Dame es una de las catedrales más famosas del mundo y"
+ },
+ "landmark_country_051|en": {
+  "prompt": "The country where the Palace of Versailles is located is",
+  "gen": " France.\nThe Palace of Versailles is a former royal palace located in the Île-de-France region of France.\n"
+ },
+ "landmark_country_051|es": {
+  "prompt": "El país donde está el Palacio de Versalles es",
+  "gen": " Francia.\nEl Palacio de Versalles es un palacio real francés ubicado en el suburbio de Vers"
+ },
+ "landmark_country_052|en": {
+  "prompt": "The country where the Park Güell is located is",
+  "gen": " Spain.\nPark Güell is a public park in Barcelona, Spain, designed by the famous architect Antoni Gaudí"
+ },
+ "landmark_country_052|es": {
+  "prompt": "El país donde está el Parque Güell es",
+  "gen": " Barcelona, España. El Parque Güell es un parque público de Barcelona, España, diseñado por el ar"
+ },
+ "landmark_country_053|en": {
+  "prompt": "The country where the Royal Palace is located is",
+  "gen": " called Thailand. Thailand is a country in Southeast Asia. The Royal Palace is located in Bangkok, the capital city of Thailand"
+ },
+ "landmark_country_053|es": {
+  "prompt": "El país donde está el Palacio Real es",
+  "gen": " España. El Palacio Real de Madrid es el palacio principal de la familia real española y se encuentra en la"
+ },
+ "landmark_country_054|en": {
+  "prompt": "The country where the Guggenheim Museum is located is",
+  "gen": ": \nA) Spain\nB) Bilbao\nC) Frank Lloyd Wright\nD) United States\nThe best"
+ },
+ "landmark_country_054|es": {
+  "prompt": "El país donde está el Museo Guggenheim es",
+  "gen": ": \nA) España\nB) Bilbao\nC) Frankreich\nD) Italia\n\nLa respuesta correcta"
+ },
+ "landmark_country_055|en": {
+  "prompt": "The country where the Empire State Building is located is",
+  "gen": " the United States of America.\nThe Empire State Building is a 102-story skyscraper in Midtown Manhattan, New York"
+ },
+ "landmark_country_055|es": {
+  "prompt": "El país donde está el Empire State es",
+  "gen": " Estados Unidos.\nEl Empire State Building es un edificio de oficinas de 102 piso, ubicado en"
+ },
+ "landmark_country_056|en": {
+  "prompt": "The country where the White House is located is",
+  "gen": " the United States of America.\nThe White House is the official residence and workplace of the President of the United States.\nThe"
+ },
+ "landmark_country_056|es": {
+  "prompt": "El país donde está la Casa Blanca es",
+  "gen": " Estados Unidos.\nLa Casa Blanca es la residencia oficial del presidente de Estados Unidos.\nLa Casa Blanca es fam"
+ },
+ "landmark_country_057|en": {
+  "prompt": "The country where Mount Rushmore is located is",
+  "gen": " the United States of America.\nMount Rushmore is a famous sculpture carved into the side of a mountain in the Black Hills"
+ },
+ "landmark_country_057|es": {
+  "prompt": "El país donde está el Monte Rushmore es",
+  "gen": " Estados Unidos.\nEl Monte Rushmore es una escultura monumental en el estado de Dakota del Sur, Estados Unidos."
+ },
+ "landmark_country_058|en": {
+  "prompt": "The country where the Hollywood Walk of Fame is located is",
+  "gen": " the United States of America.\nThe Hollywood Walk of Fame is a famous sidewalk in Hollywood, California, that features the names"
+ },
+ "landmark_country_058|es": {
+  "prompt": "El país donde está el Paseo de la Fama de Hollywood es",
+  "gen": " California, Estados Unidos.\nEl Paseo de la Fama de Hollywood es un paseo de estrellas en"
+ },
+ "landmark_country_059|en": {
+  "prompt": "The country where the Chichen Itza pyramid is located is",
+  "gen": " Mexico.\nThe Chichen Itza pyramid is a famous Mayan archaeological site.\nThe pyramid is also known as El Castillo"
+ },
+ "landmark_country_059|es": {
+  "prompt": "El país donde está la pirámide de Chichén Itzá es",
+  "gen": " México.\nLa pirámide de Chichén Itzá es una de las estructuras más famosas de Meso"
+ },
+ "landmark_country_060|en": {
+  "prompt": "The country where Machu Picchu is located is",
+  "gen": " Peru.\nMachu Picchu is an Inca citadel located on a mountain ridge above the Urubamba Valley in"
+ },
+ "landmark_country_060|es": {
+  "prompt": "El país donde está Machu Picchu es",
+  "gen": " Perú\nMachu Picchu es un sitio arqueológico ubicado en la cordillera de los And"
+ },
+ "landmark_country_061|en": {
+  "prompt": "The country where the Great Wall is located is",
+  "gen": " China. The Great Wall of China is a series of fortifications built across the northern borders of China to protect the country"
+ },
+ "landmark_country_061|es": {
+  "prompt": "El país donde está la Gran Muralla es",
+  "gen": " China. La Gran Muralla China es una de las estructuras más antiguas y más largas del mundo,"
+ },
+ "landmark_country_062|en": {
+  "prompt": "The country where the Temple of Heaven is located is",
+  "gen": " China.\nThe Temple of Heaven is a complex of Taoist temples in Beijing, China, that was built in 142"
+ },
+ "landmark_country_062|es": {
+  "prompt": "El país donde está el Templo del Cielo es",
+  "gen": " China. El Templo del Cielo (, Tiān Gōng) es un templo budista de"
+ },
+ "landmark_country_063|en": {
+  "prompt": "The country where the Oriental Pearl Tower is located is",
+  "gen": " China.\nThe Oriental Pearl Tower is a 468-meter-tall (1,533 ft) observation and broadcasting tower in"
+ },
+ "landmark_country_063|es": {
+  "prompt": "El país donde está la Torre de la Perla Oriental es",
+  "gen": " el país más grande de América Latina y el segundo más grande de América del Norte. El país tiene una población de"
+ },
+ "landmark_country_064|en": {
+  "prompt": "The country where the Tokyo Skytree is located is",
+  "gen": " Japan.\nThe Tokyo Skytree is a broadcasting tower located in the heart of Tokyo, Japan.\nThe Tokyo Skytree is"
+ },
+ "landmark_country_064|es": {
+  "prompt": "El país donde está la Tokyo Skytree es",
+  "gen": " Japón.\nLa Tokyo Skytree es una torre de transmisión de televisión de 634 metros de altura"
+ },
+ "landmark_country_065|en": {
+  "prompt": "The country where Himeji Castle is located is",
+  "gen": " Japan. Himeji Castle is a UNESCO World Heritage Site and is considered one of Japan's most beautiful and well-p"
+ },
+ "landmark_country_065|es": {
+  "prompt": "El país donde está el Castillo de Himeji es",
+  "gen": " Japón. El Castillo de Himeji es un castillo japonés ubicado en la ciudad de Himeji"
+ },
+ "landmark_country_066|en": {
+  "prompt": "The country where the Gyeongbokgung Palace is located is",
+  "gen": " South Korea. Gyeongbokgung Palace is the largest and most iconic palace in Korea, built in "
+ },
+ "landmark_country_066|es": {
+  "prompt": "El país donde está el Palacio Gyeongbokgung es",
+  "gen": " Corea del Sur, pero el Palacio Gyeongbokgung es un palacio real de Corea"
+ },
+ "landmark_country_067|en": {
+  "prompt": "The country where the Marina Bay Sands is located is",
+  "gen": " Singapore. Singapore is a small island city-state located in Southeast Asia. It is known for its modern architecture, vibrant culture"
+ },
+ "landmark_country_067|es": {
+  "prompt": "El país donde está el Marina Bay Sands es",
+  "gen": " Singapur. El Marina Bay Sands es un complejo turístico ubicado en el corazón de Singapur,"
+ },
+ "landmark_country_068|en": {
+  "prompt": "The country where Angkor Wat is located is",
+  "gen": " Cambodia. Cambodia is a country in Southeast Asia. It is bordered by Thailand to the west, Laos to the north,"
+ },
+ "landmark_country_068|es": {
+  "prompt": "El país donde está Angkor Wat es",
+  "gen": "...?\nLa respuesta es Camboya. Angkor Wat es un complejo arqueológico de gran importancia"
+ },
+ "landmark_country_069|en": {
+  "prompt": "The country where the Lotus Temple is located is",
+  "gen": " India, but it is not located in India. It is actually located in New Delhi, India's capital city, but"
+ },
+ "landmark_country_069|es": {
+  "prompt": "El país donde está el Templo del Loto es",
+  "gen": " China. El Templo del Loto es un templo budista que se encuentra en la ciudad de Lhasa"
+ },
+ "landmark_country_070|en": {
+  "prompt": "The country where India Gate is located is",
+  "gen": "?\nThe answer is New Delhi.\nIndia Gate is a war memorial located in New Delhi, India. It was built in"
+ },
+ "landmark_country_070|es": {
+  "prompt": "El país donde está la Puerta de la India es",
+  "gen": "?\nLa respuesta es India. La Puerta de la India es una de las puertas de la ciudad de Mumbai,"
+ },
+ "landmark_country_071|en": {
+  "prompt": "The country where the Qutub Minar is located is",
+  "gen": " India.\nThe Qutub Minar is a 72.5-meter-tall (238 ft) minaret located"
+ },
+ "landmark_country_071|es": {
+  "prompt": "El país donde está el Qutb Minar es",
+  "gen": " India\nEl Qutb Minar es un monumento histórico ubicado en la ciudad de Delhi, India."
+ },
+ "landmark_country_072|en": {
+  "prompt": "The country where the Gateway of India is located is",
+  "gen": "?\nThe Gateway of India is located in the country of India.\nThe Gateway of India is a monumental arch that was built"
+ },
+ "landmark_country_072|es": {
+  "prompt": "El país donde está la Puerta de la India de Bombay es",
+  "gen": " India. La Puerta de la India es una de las puertas de la ciudad de Bombay (ahora conocida"
+ },
+ "landmark_country_073|en": {
+  "prompt": "The country where the Konark Sun Temple is located is",
+  "gen": "?\nThe country where the Konark Sun Temple is located is India.\nThe Konark Sun Temple is a magnificent temple built"
+ },
+ "landmark_country_073|es": {
+  "prompt": "El país donde está el Templo del Sol de Konark es",
+  "gen": " la India.\nEl Templo del Sol de Konark es un templo hindú en la ciudad de Konark,"
+ },
+ "landmark_country_074|en": {
+  "prompt": "The country where the Ajanta Caves is located is",
+  "gen": "?\nThe Ajanta Caves are located in India.\nThe Ajanta Caves are located in the state of Maharashtra,"
+ },
+ "landmark_country_074|es": {
+  "prompt": "El país donde está las cuevas de Ajanta es",
+  "gen": " la India. Las cuevas de Ajanta son famosas por sus pinturas rupestres y son consideradas Pat"
+ },
+ "landmark_country_075|en": {
+  "prompt": "The country where the Mahabodhi Temple is located is",
+  "gen": "?\nThe Mahabodhi Temple is located in the country of India.\nThe Mahabodhi Temple is a UNESCO"
+ },
+ "landmark_country_075|es": {
+  "prompt": "El país donde está el Templo Mahabodhi es",
+  "gen": " la India, pero también se encuentra en Sri Lanka y Nepal. El Templo Mahabodhi es un lugar sag"
+ },
+ "landmark_country_076|en": {
+  "prompt": "The country where the Lingaraja Temple is located is",
+  "gen": "?\nThe Lingaraja Temple is located in the country of Nepal. It is situated in the city of Bhaktapur"
+ },
+ "landmark_country_076|es": {
+  "prompt": "El país donde está el Templo Lingaraja es",
+  "gen": " el estado de Andhra Pradesh, en la India. El templo es un ejemplo de arquitectura hindú"
+ },
+ "landmark_country_077|en": {
+  "prompt": "The country where the Fatehpur Sikri is located is",
+  "gen": "?\nThe Fatehpur Sikri is located in the country of India.\nFatehpur Sikri is a city"
+ },
+ "landmark_country_077|es": {
+  "prompt": "El país donde está Fatehpur Sikri es",
+  "gen": " India. Fatehpur Sikri es una ciudad histórica ubicada en el estado de Uttar Pradesh, en el n"
+ },
+ "landmark_country_078|en": {
+  "prompt": "The country where the Amber Fort is located is",
+  "gen": "?\nThe country where the Amber Fort is located is India.\nThe Amber Fort is located in the city of Jaipur,"
+ },
+ "landmark_country_078|es": {
+  "prompt": "El país donde está el Fuerte Amber es",
+  "gen": " un país pequeño en el norte de Europa, conocido por sus paisajes naturales impresionantes y su"
+ },
+ "landmark_country_079|en": {
+  "prompt": "The country where the Pyramids of Giza is located is",
+  "gen": " Egypt.\nThe country where the Pyramids of Giza is located is Egypt.\nThe Pyramids of Giza are located"
+ },
+ "landmark_country_079|es": {
+  "prompt": "El país donde está las pirámides de Guiza es",
+  "gen": " Egipto.\nLa pirámide de Guiza es la pirámide más grande de Egipto.\nLa"
+ },
+ "landmark_country_080|en": {
+  "prompt": "The country where Table Mountain is located is",
+  "gen": " South Africa.\nTable Mountain is a flat-topped mountain located in Cape Town, South Africa. It is a prominent landmark"
+ },
+ "landmark_country_080|es": {
+  "prompt": "El país donde está la Montaña de la Mesa es",
+  "gen": " el Reino Unido. La Montaña de la Mesa es una montaña de 1.215 metros de altura"
+ }
+}
