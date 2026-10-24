@@ -1,0 +1,17 @@
+{
+ "model": "llama",
+ "amendment": "A13a",
+ "k_ind": 10,
+ "k_sh": 5,
+ "sigma_mult": 3.0,
+ "embed_std_pooled": {
+  "en": 0.019735220819711685,
+  "es": 0.020550083369016647,
+  "hi": 0.017757467925548553
+ },
+ "fact_ids": [
+  "capital_country_000",
+  "capital_country_001"
+ ],
+ "seed_rule": "sha256('id|lang|k') mod 2^31 (IND), sha256('id|shared|k') (SH)"
+}

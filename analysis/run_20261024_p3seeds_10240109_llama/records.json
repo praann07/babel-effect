@@ -1,0 +1,2018 @@
+[
+ {
+  "id": "capital_country_000",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.19612371921539307,
+  "lp_corr_ind_mean": -3.02094247341156,
+  "lp_corr_orig": -2.6808571815490723
+ },
+ {
+  "id": "capital_country_000",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.020468924194574356,
+  "lp_corr_ind_mean": -4.613303685188294,
+  "lp_corr_orig": -4.654026508331299
+ },
+ {
+  "id": "capital_country_001",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.07486123591661453,
+  "lp_corr_ind_mean": -5.060393691062927,
+  "lp_corr_orig": -5.501468658447266
+ },
+ {
+  "id": "capital_country_001",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.20974396169185638,
+  "lp_corr_ind_mean": -7.177945470809936,
+  "lp_corr_orig": -6.946967124938965
+ },
+ {
+  "id": "capital_country_002",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.10465940088033676,
+  "lp_corr_ind_mean": -4.2354320049285885,
+  "lp_corr_orig": -4.544368743896484
+ },
+ {
+  "id": "capital_country_002",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.38901346921920776,
+  "lp_corr_ind_mean": -5.829427194595337,
+  "lp_corr_orig": -6.423267841339111
+ },
+ {
+  "id": "capital_country_003",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.09288731962442398,
+  "lp_corr_ind_mean": -4.755820894241333,
+  "lp_corr_orig": -4.3122453689575195
+ },
+ {
+  "id": "capital_country_003",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.3214488923549652,
+  "lp_corr_ind_mean": -4.9545673608779905,
+  "lp_corr_orig": -4.1697468757629395
+ },
+ {
+  "id": "capital_country_004",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.03028961829841137,
+  "lp_corr_ind_mean": -5.251153230667114,
+  "lp_corr_orig": -6.359607696533203
+ },
+ {
+  "id": "capital_country_004",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.28676939010620117,
+  "lp_corr_ind_mean": -6.684603643417359,
+  "lp_corr_orig": -4.517472267150879
+ },
+ {
+  "id": "capital_country_005",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.10743144154548645,
+  "lp_corr_ind_mean": -5.2072878122329715,
+  "lp_corr_orig": -1.5257484912872314
+ },
+ {
+  "id": "capital_country_005",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.4332340955734253,
+  "lp_corr_ind_mean": -5.2720073699951175,
+  "lp_corr_orig": -4.402091026306152
+ },
+ {
+  "id": "capital_country_006",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.11116866767406464,
+  "lp_corr_ind_mean": -5.522179317474365,
+  "lp_corr_orig": -4.619240760803223
+ },
+ {
+  "id": "capital_country_006",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.3964077830314636,
+  "lp_corr_ind_mean": -5.479561281204224,
+  "lp_corr_orig": -4.627840518951416
+ },
+ {
+  "id": "capital_country_008",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.11466708779335022,
+  "lp_corr_ind_mean": -5.472472476959228,
+  "lp_corr_orig": -6.011809349060059
+ },
+ {
+  "id": "capital_country_008",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.4951614439487457,
+  "lp_corr_ind_mean": -6.324519968032837,
+  "lp_corr_orig": -3.604109048843384
+ },
+ {
+  "id": "capital_country_009",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.04525744915008545,
+  "lp_corr_ind_mean": -5.893576335906983,
+  "lp_corr_orig": -6.388303756713867
+ },
+ {
+  "id": "capital_country_009",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.34974825382232666,
+  "lp_corr_ind_mean": -4.133214020729065,
+  "lp_corr_orig": -1.4739370346069336
+ },
+ {
+  "id": "capital_country_010",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.2181316614151001,
+  "lp_corr_ind_mean": -5.293335247039795,
+  "lp_corr_orig": -4.663887977600098
+ },
+ {
+  "id": "capital_country_010",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.4826032519340515,
+  "lp_corr_ind_mean": -5.624187374114991,
+  "lp_corr_orig": -5.379451751708984
+ },
+ {
+  "id": "capital_country_011",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.13901259005069733,
+  "lp_corr_ind_mean": -5.881067752838135,
+  "lp_corr_orig": -6.281089782714844
+ },
+ {
+  "id": "capital_country_011",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.5104873180389404,
+  "lp_corr_ind_mean": -5.267808246612549,
+  "lp_corr_orig": -4.392576694488525
+ },
+ {
+  "id": "capital_country_013",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.07267483323812485,
+  "lp_corr_ind_mean": -3.197651720046997,
+  "lp_corr_orig": -2.9823782444000244
+ },
+ {
+  "id": "capital_country_013",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -1.1348401308059692,
+  "lp_corr_ind_mean": -5.850150537490845,
+  "lp_corr_orig": -6.785006523132324
+ },
+ {
+  "id": "capital_country_014",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.1835191398859024,
+  "lp_corr_ind_mean": -5.7429361820220945,
+  "lp_corr_orig": -7.242807388305664
+ },
+ {
+  "id": "capital_country_014",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.23433959484100342,
+  "lp_corr_ind_mean": -5.754804277420044,
+  "lp_corr_orig": -7.029507637023926
+ },
+ {
+  "id": "capital_country_016",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.06423946470022202,
+  "lp_corr_ind_mean": -4.973000884056091,
+  "lp_corr_orig": -3.9121015071868896
+ },
+ {
+  "id": "capital_country_016",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.258724182844162,
+  "lp_corr_ind_mean": -6.307946729660034,
+  "lp_corr_orig": -6.5980401039123535
+ },
+ {
+  "id": "capital_country_017",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.0315859392285347,
+  "lp_corr_ind_mean": -5.247567892074585,
+  "lp_corr_orig": -4.526714324951172
+ },
+ {
+  "id": "capital_country_017",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.2507432699203491,
+  "lp_corr_ind_mean": -4.205959796905518,
+  "lp_corr_orig": -3.9052937030792236
+ },
+ {
+  "id": "capital_country_018",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.068335622549057,
+  "lp_corr_ind_mean": -4.754856133460999,
+  "lp_corr_orig": -4.612049102783203
+ },
+ {
+  "id": "capital_country_018",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.2721508741378784,
+  "lp_corr_ind_mean": -6.193147492408753,
+  "lp_corr_orig": -7.477817058563232
+ },
+ {
+  "id": "capital_country_019",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.11925210058689117,
+  "lp_corr_ind_mean": -4.431405067443848,
+  "lp_corr_orig": -5.626523494720459
+ },
+ {
+  "id": "capital_country_019",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.1560804545879364,
+  "lp_corr_ind_mean": -5.499586486816407,
+  "lp_corr_orig": -4.871728897094727
+ },
+ {
+  "id": "capital_country_021",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.29891541600227356,
+  "lp_corr_ind_mean": -5.780114459991455,
+  "lp_corr_orig": -5.985532283782959
+ },
+ {
+  "id": "capital_country_021",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.6491109728813171,
+  "lp_corr_ind_mean": -7.418983602523804,
+  "lp_corr_orig": -7.490174293518066
+ },
+ {
+  "id": "capital_country_023",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.22385360300540924,
+  "lp_corr_ind_mean": -4.7647703170776365,
+  "lp_corr_orig": -4.035015106201172
+ },
+ {
+  "id": "capital_country_023",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.4023757874965668,
+  "lp_corr_ind_mean": -4.851648688316345,
+  "lp_corr_orig": -4.57529878616333
+ },
+ {
+  "id": "capital_country_026",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.3700803518295288,
+  "lp_corr_ind_mean": -6.182594966888428,
+  "lp_corr_orig": -5.16023063659668
+ },
+ {
+  "id": "capital_country_026",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.4857202470302582,
+  "lp_corr_ind_mean": -4.9169082880020145,
+  "lp_corr_orig": -4.039760589599609
+ },
+ {
+  "id": "capital_country_028",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.22228258848190308,
+  "lp_corr_ind_mean": -6.179894828796387,
+  "lp_corr_orig": -6.739480972290039
+ },
+ {
+  "id": "capital_country_028",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.43591681122779846,
+  "lp_corr_ind_mean": -4.640672898292541,
+  "lp_corr_orig": -5.326170921325684
+ },
+ {
+  "id": "capital_country_029",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.09158916026353836,
+  "lp_corr_ind_mean": -5.010115838050842,
+  "lp_corr_orig": -3.3350255489349365
+ },
+ {
+  "id": "capital_country_029",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -1.3451287746429443,
+  "lp_corr_ind_mean": -6.157872533798217,
+  "lp_corr_orig": -5.217019557952881
+ },
+ {
+  "id": "capital_country_030",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.026234259828925133,
+  "lp_corr_ind_mean": -4.888903522491455,
+  "lp_corr_orig": -4.050987243652344
+ },
+ {
+  "id": "capital_country_030",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.36674028635025024,
+  "lp_corr_ind_mean": -5.442827987670898,
+  "lp_corr_orig": -5.364670276641846
+ },
+ {
+  "id": "capital_country_031",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.048957791179418564,
+  "lp_corr_ind_mean": -5.618468332290649,
+  "lp_corr_orig": -5.601620197296143
+ },
+ {
+  "id": "capital_country_031",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.3978002071380615,
+  "lp_corr_ind_mean": -5.852270221710205,
+  "lp_corr_orig": -5.99608850479126
+ },
+ {
+  "id": "capital_country_032",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.031786661595106125,
+  "lp_corr_ind_mean": -5.160651111602784,
+  "lp_corr_orig": -6.7621541023254395
+ },
+ {
+  "id": "capital_country_032",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.8849585652351379,
+  "lp_corr_ind_mean": -6.224182844161987,
+  "lp_corr_orig": -5.755491256713867
+ },
+ {
+  "id": "capital_country_034",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.1080155298113823,
+  "lp_corr_ind_mean": -5.999666547775268,
+  "lp_corr_orig": -3.971597194671631
+ },
+ {
+  "id": "capital_country_034",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.6542064547538757,
+  "lp_corr_ind_mean": -6.436467266082763,
+  "lp_corr_orig": -6.3586015701293945
+ },
+ {
+  "id": "capital_country_035",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.17076534032821655,
+  "lp_corr_ind_mean": -5.70895676612854,
+  "lp_corr_orig": -6.299148082733154
+ },
+ {
+  "id": "capital_country_035",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.7417313456535339,
+  "lp_corr_ind_mean": -6.740800380706787,
+  "lp_corr_orig": -6.728924751281738
+ },
+ {
+  "id": "capital_country_046",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.17394164204597473,
+  "lp_corr_ind_mean": -6.582751321792602,
+  "lp_corr_orig": -5.990793228149414
+ },
+ {
+  "id": "capital_country_046",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.991279125213623,
+  "lp_corr_ind_mean": -6.970966386795044,
+  "lp_corr_orig": -5.477823257446289
+ },
+ {
+  "id": "capital_country_047",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.019069787114858627,
+  "lp_corr_ind_mean": -5.371002054214477,
+  "lp_corr_orig": -5.490176200866699
+ },
+ {
+  "id": "capital_country_047",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.9118422865867615,
+  "lp_corr_ind_mean": -5.329416084289551,
+  "lp_corr_orig": -4.93147611618042
+ },
+ {
+  "id": "capital_country_048",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.25897127389907837,
+  "lp_corr_ind_mean": -5.633257293701172,
+  "lp_corr_orig": -5.745644569396973
+ },
+ {
+  "id": "capital_country_048",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.702232837677002,
+  "lp_corr_ind_mean": -5.5116050243377686,
+  "lp_corr_orig": -6.895615577697754
+ },
+ {
+  "id": "capital_country_053",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.08077093958854675,
+  "lp_corr_ind_mean": -5.625259447097778,
+  "lp_corr_orig": -6.088130474090576
+ },
+ {
+  "id": "capital_country_053",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.9586064219474792,
+  "lp_corr_ind_mean": -5.962014150619507,
+  "lp_corr_orig": -5.797844886779785
+ },
+ {
+  "id": "capital_country_054",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.11549371480941772,
+  "lp_corr_ind_mean": -5.608545255661011,
+  "lp_corr_orig": -4.644041538238525
+ },
+ {
+  "id": "capital_country_054",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.7947108745574951,
+  "lp_corr_ind_mean": -5.636915326118469,
+  "lp_corr_orig": -6.270305633544922
+ },
+ {
+  "id": "capital_country_059",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.1870240569114685,
+  "lp_corr_ind_mean": -6.071535682678222,
+  "lp_corr_orig": -5.929555416107178
+ },
+ {
+  "id": "capital_country_059",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.12812387943267822,
+  "lp_corr_ind_mean": -7.807090950012207,
+  "lp_corr_orig": -8.298454284667969
+ },
+ {
+  "id": "capital_country_062",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.03842831030488014,
+  "lp_corr_ind_mean": -5.953070783615113,
+  "lp_corr_orig": -6.7356343269348145
+ },
+ {
+  "id": "capital_country_062",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.7787366509437561,
+  "lp_corr_ind_mean": -5.009949207305908,
+  "lp_corr_orig": -6.978963375091553
+ },
+ {
+  "id": "capital_country_069",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.11843079328536987,
+  "lp_corr_ind_mean": -6.142240858078003,
+  "lp_corr_orig": -6.347108364105225
+ },
+ {
+  "id": "capital_country_069",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.24353277683258057,
+  "lp_corr_ind_mean": -5.662093639373779,
+  "lp_corr_orig": -4.782144069671631
+ },
+ {
+  "id": "capital_country_071",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.3742714822292328,
+  "lp_corr_ind_mean": -5.728621101379394,
+  "lp_corr_orig": -5.679892539978027
+ },
+ {
+  "id": "capital_country_071",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.22099386155605316,
+  "lp_corr_ind_mean": -5.605519938468933,
+  "lp_corr_orig": -8.361737251281738
+ },
+ {
+  "id": "capital_country_079",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.33228808641433716,
+  "lp_corr_ind_mean": -4.99326639175415,
+  "lp_corr_orig": -5.337767601013184
+ },
+ {
+  "id": "capital_country_079",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.7541618347167969,
+  "lp_corr_ind_mean": -7.333480167388916,
+  "lp_corr_orig": -7.148643970489502
+ },
+ {
+  "id": "capital_country_113",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.05571023002266884,
+  "lp_corr_ind_mean": -5.870536613464355,
+  "lp_corr_orig": -5.591681957244873
+ },
+ {
+  "id": "capital_country_113",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.15651443600654602,
+  "lp_corr_ind_mean": -6.101888513565063,
+  "lp_corr_orig": -8.129677772521973
+ },
+ {
+  "id": "capital_of_000",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.3592214286327362,
+  "lp_corr_ind_mean": -3.268837723135948,
+  "lp_corr_orig": -3.850105047225952
+ },
+ {
+  "id": "capital_of_000",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.16003012657165527,
+  "lp_corr_ind_mean": -4.878221559524536,
+  "lp_corr_orig": -4.523307800292969
+ },
+ {
+  "id": "capital_of_003",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.40283986926078796,
+  "lp_corr_ind_mean": -7.544365644454956,
+  "lp_corr_orig": -7.514361381530762
+ },
+ {
+  "id": "capital_of_003",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.04150504991412163,
+  "lp_corr_ind_mean": -3.59953031539917,
+  "lp_corr_orig": -3.335038185119629
+ },
+ {
+  "id": "capital_of_004",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.08491254597902298,
+  "lp_corr_ind_mean": -6.090559589862823,
+  "lp_corr_orig": -7.413665771484375
+ },
+ {
+  "id": "capital_of_004",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.009232882410287857,
+  "lp_corr_ind_mean": -5.989540076255798,
+  "lp_corr_orig": -5.995826244354248
+ },
+ {
+  "id": "capital_of_005",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.33475181460380554,
+  "lp_corr_ind_mean": -5.266538739204407,
+  "lp_corr_orig": -3.9183106422424316
+ },
+ {
+  "id": "capital_of_005",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.15596039593219757,
+  "lp_corr_ind_mean": -5.043312454223633,
+  "lp_corr_orig": -6.933019638061523
+ },
+ {
+  "id": "capital_of_007",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.4222773313522339,
+  "lp_corr_ind_mean": -7.23330512046814,
+  "lp_corr_orig": -8.391379356384277
+ },
+ {
+  "id": "capital_of_007",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.29311516880989075,
+  "lp_corr_ind_mean": -7.055930757522583,
+  "lp_corr_orig": -7.379177570343018
+ },
+ {
+  "id": "capital_of_008",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.16153773665428162,
+  "lp_corr_ind_mean": -5.333344459533691,
+  "lp_corr_orig": -8.418232917785645
+ },
+ {
+  "id": "capital_of_008",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.32296252250671387,
+  "lp_corr_ind_mean": -7.6994678497314455,
+  "lp_corr_orig": -6.530174255371094
+ },
+ {
+  "id": "capital_of_010",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.12766002118587494,
+  "lp_corr_ind_mean": -6.193341875076294,
+  "lp_corr_orig": -6.247564792633057
+ },
+ {
+  "id": "capital_of_010",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.03226421773433685,
+  "lp_corr_ind_mean": -3.9383958101272585,
+  "lp_corr_orig": -4.091733455657959
+ },
+ {
+  "id": "capital_of_016",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.2006499171257019,
+  "lp_corr_ind_mean": -7.655016660690308,
+  "lp_corr_orig": -6.098363399505615
+ },
+ {
+  "id": "capital_of_016",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.07775659114122391,
+  "lp_corr_ind_mean": -8.830732154846192,
+  "lp_corr_orig": -12.937211036682129
+ },
+ {
+  "id": "capital_of_020",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.5240586400032043,
+  "lp_corr_ind_mean": -8.443038749694825,
+  "lp_corr_orig": -6.166473388671875
+ },
+ {
+  "id": "capital_of_020",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.2660351097583771,
+  "lp_corr_ind_mean": -7.868311500549316,
+  "lp_corr_orig": -6.582972049713135
+ },
+ {
+  "id": "capital_of_027",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.381441205739975,
+  "lp_corr_ind_mean": -9.511997032165528,
+  "lp_corr_orig": -10.138392448425293
+ },
+ {
+  "id": "capital_of_027",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.12640681862831116,
+  "lp_corr_ind_mean": -4.199569606781006,
+  "lp_corr_orig": -3.095693826675415
+ },
+ {
+  "id": "capital_of_028",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.18369071185588837,
+  "lp_corr_ind_mean": -8.231024694442748,
+  "lp_corr_orig": -9.545769691467285
+ },
+ {
+  "id": "capital_of_028",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.03669150918722153,
+  "lp_corr_ind_mean": -5.949008798599243,
+  "lp_corr_orig": -5.87567663192749
+ },
+ {
+  "id": "capital_of_029",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.15615981817245483,
+  "lp_corr_ind_mean": -6.494674873352051,
+  "lp_corr_orig": -5.725996017456055
+ },
+ {
+  "id": "capital_of_029",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.4505292773246765,
+  "lp_corr_ind_mean": -6.50955605506897,
+  "lp_corr_orig": -6.908477783203125
+ },
+ {
+  "id": "capital_of_032",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.8281540870666504,
+  "lp_corr_ind_mean": -8.629912853240967,
+  "lp_corr_orig": -8.566482543945312
+ },
+ {
+  "id": "capital_of_032",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.7695339918136597,
+  "lp_corr_ind_mean": -9.293353462219239,
+  "lp_corr_orig": -9.265419006347656
+ },
+ {
+  "id": "capital_of_035",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.30552175641059875,
+  "lp_corr_ind_mean": -7.725975584983826,
+  "lp_corr_orig": -10.320362091064453
+ },
+ {
+  "id": "capital_of_035",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.23203003406524658,
+  "lp_corr_ind_mean": -10.804642391204833,
+  "lp_corr_orig": -11.875177383422852
+ },
+ {
+  "id": "capital_of_046",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.13821899890899658,
+  "lp_corr_ind_mean": -7.078118133544922,
+  "lp_corr_orig": -9.33874797821045
+ },
+ {
+  "id": "capital_of_046",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.09438589960336685,
+  "lp_corr_ind_mean": -6.27813835144043,
+  "lp_corr_orig": -5.269201755523682
+ },
+ {
+  "id": "capital_of_049",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.06976136565208435,
+  "lp_corr_ind_mean": -7.377447271347046,
+  "lp_corr_orig": -8.917728424072266
+ },
+ {
+  "id": "capital_of_049",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.24233005940914154,
+  "lp_corr_ind_mean": -7.670594978332519,
+  "lp_corr_orig": -7.584043502807617
+ },
+ {
+  "id": "capital_of_057",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.3080057203769684,
+  "lp_corr_ind_mean": -8.436033987998963,
+  "lp_corr_orig": -9.135534286499023
+ },
+ {
+  "id": "capital_of_057",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.44448232650756836,
+  "lp_corr_ind_mean": -10.464078426361084,
+  "lp_corr_orig": -10.293519020080566
+ },
+ {
+  "id": "capital_of_059",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.30898308753967285,
+  "lp_corr_ind_mean": -8.803680229187012,
+  "lp_corr_orig": -6.504244804382324
+ },
+ {
+  "id": "capital_of_059",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.08464384078979492,
+  "lp_corr_ind_mean": -9.368250179290772,
+  "lp_corr_orig": -8.690526962280273
+ },
+ {
+  "id": "capital_of_065",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.9136050939559937,
+  "lp_corr_ind_mean": -6.64796404838562,
+  "lp_corr_orig": -6.9943952560424805
+ },
+ {
+  "id": "capital_of_065",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.3580208122730255,
+  "lp_corr_ind_mean": -7.364196681976319,
+  "lp_corr_orig": -7.065522193908691
+ },
+ {
+  "id": "capital_of_068",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.12302236258983612,
+  "lp_corr_ind_mean": -8.799748134613036,
+  "lp_corr_orig": -9.51155948638916
+ },
+ {
+  "id": "capital_of_068",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.024188678711652756,
+  "lp_corr_ind_mean": -6.274795866012573,
+  "lp_corr_orig": -11.547493934631348
+ },
+ {
+  "id": "capital_of_078",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.11355744302272797,
+  "lp_corr_ind_mean": -7.110588014125824,
+  "lp_corr_orig": -3.8872013092041016
+ },
+ {
+  "id": "capital_of_078",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.12866075336933136,
+  "lp_corr_ind_mean": -7.934299659729004,
+  "lp_corr_orig": -7.286022186279297
+ },
+ {
+  "id": "capital_of_081",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.09970062971115112,
+  "lp_corr_ind_mean": -7.205937242507934,
+  "lp_corr_orig": -7.4103240966796875
+ },
+ {
+  "id": "capital_of_081",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.4788377583026886,
+  "lp_corr_ind_mean": -11.911689758300781,
+  "lp_corr_orig": -10.775752067565918
+ },
+ {
+  "id": "capital_of_103",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.4905356764793396,
+  "lp_corr_ind_mean": -6.195825004577637,
+  "lp_corr_orig": -5.703512668609619
+ },
+ {
+  "id": "capital_of_103",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.13863082230091095,
+  "lp_corr_ind_mean": -6.039181327819824,
+  "lp_corr_orig": -5.928515911102295
+ },
+ {
+  "id": "capital_of_104",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.03021019883453846,
+  "lp_corr_ind_mean": -8.782402229309081,
+  "lp_corr_orig": -7.326474666595459
+ },
+ {
+  "id": "capital_of_104",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.04083721712231636,
+  "lp_corr_ind_mean": -6.096478831768036,
+  "lp_corr_orig": -6.843773365020752
+ },
+ {
+  "id": "capital_of_106",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.159296452999115,
+  "lp_corr_ind_mean": -8.151298427581787,
+  "lp_corr_orig": -9.021329879760742
+ },
+ {
+  "id": "capital_of_106",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.20501190423965454,
+  "lp_corr_ind_mean": -8.19570059776306,
+  "lp_corr_orig": -8.3696928024292
+ },
+ {
+  "id": "capital_of_115",
+  "lang": "en",
+  "relation": "capital_of",
+  "lp_clean": -0.15867072343826294,
+  "lp_corr_ind_mean": -8.763259172439575,
+  "lp_corr_orig": -9.913200378417969
+ },
+ {
+  "id": "capital_of_115",
+  "lang": "es",
+  "relation": "capital_of",
+  "lp_clean": -0.07644963264465332,
+  "lp_corr_ind_mean": -7.148597955703735,
+  "lp_corr_orig": -8.317743301391602
+ },
+ {
+  "id": "city_country_000",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.41859039664268494,
+  "lp_corr_ind_mean": -5.963510799407959,
+  "lp_corr_orig": -5.089788436889648
+ },
+ {
+  "id": "city_country_000",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.4490354657173157,
+  "lp_corr_ind_mean": -4.29658317565918,
+  "lp_corr_orig": -5.3084611892700195
+ },
+ {
+  "id": "city_country_001",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.8196051120758057,
+  "lp_corr_ind_mean": -6.284728097915649,
+  "lp_corr_orig": -4.463262557983398
+ },
+ {
+  "id": "city_country_001",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.19198967516422272,
+  "lp_corr_ind_mean": -4.4695042133331295,
+  "lp_corr_orig": -4.195594787597656
+ },
+ {
+  "id": "city_country_002",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.6618506908416748,
+  "lp_corr_ind_mean": -5.926199722290039,
+  "lp_corr_orig": -5.943170547485352
+ },
+ {
+  "id": "city_country_002",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.5985023379325867,
+  "lp_corr_ind_mean": -5.23956708908081,
+  "lp_corr_orig": -4.277847766876221
+ },
+ {
+  "id": "city_country_003",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.1756919026374817,
+  "lp_corr_ind_mean": -6.503255939483642,
+  "lp_corr_orig": -6.57969856262207
+ },
+ {
+  "id": "city_country_003",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.18939755856990814,
+  "lp_corr_ind_mean": -6.26411075592041,
+  "lp_corr_orig": -5.728600978851318
+ },
+ {
+  "id": "city_country_004",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.3779899775981903,
+  "lp_corr_ind_mean": -5.66655580997467,
+  "lp_corr_orig": -5.575472831726074
+ },
+ {
+  "id": "city_country_004",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.20724280178546906,
+  "lp_corr_ind_mean": -6.150997114181519,
+  "lp_corr_orig": -5.795027732849121
+ },
+ {
+  "id": "city_country_005",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.022777359932661057,
+  "lp_corr_ind_mean": -5.646243762969971,
+  "lp_corr_orig": -6.6375861167907715
+ },
+ {
+  "id": "city_country_005",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.4316416084766388,
+  "lp_corr_ind_mean": -7.058721828460693,
+  "lp_corr_orig": -7.028072357177734
+ },
+ {
+  "id": "city_country_009",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.2706556022167206,
+  "lp_corr_ind_mean": -5.037297773361206,
+  "lp_corr_orig": -5.8208160400390625
+ },
+ {
+  "id": "city_country_009",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.17642554640769958,
+  "lp_corr_ind_mean": -6.187610173225403,
+  "lp_corr_orig": -4.555517673492432
+ },
+ {
+  "id": "city_country_020",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.0679841861128807,
+  "lp_corr_ind_mean": -5.589683389663696,
+  "lp_corr_orig": -5.617700576782227
+ },
+ {
+  "id": "city_country_020",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.6535766124725342,
+  "lp_corr_ind_mean": -7.472770929336548,
+  "lp_corr_orig": -7.5914483070373535
+ },
+ {
+  "id": "city_country_021",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.09777554869651794,
+  "lp_corr_ind_mean": -5.589773225784302,
+  "lp_corr_orig": -5.785560607910156
+ },
+ {
+  "id": "city_country_021",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -1.0143705606460571,
+  "lp_corr_ind_mean": -6.510103034973144,
+  "lp_corr_orig": -6.316366195678711
+ },
+ {
+  "id": "city_country_022",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.14368057250976562,
+  "lp_corr_ind_mean": -4.955444765090943,
+  "lp_corr_orig": -6.579189300537109
+ },
+ {
+  "id": "city_country_022",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.8054491877555847,
+  "lp_corr_ind_mean": -7.153193569183349,
+  "lp_corr_orig": -5.948517799377441
+ },
+ {
+  "id": "city_country_027",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.03355228528380394,
+  "lp_corr_ind_mean": -5.2749292850494385,
+  "lp_corr_orig": -5.040055274963379
+ },
+ {
+  "id": "city_country_027",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.29612454771995544,
+  "lp_corr_ind_mean": -5.6467286348342896,
+  "lp_corr_orig": -5.643855094909668
+ },
+ {
+  "id": "city_country_028",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.4264163672924042,
+  "lp_corr_ind_mean": -4.212503606081009,
+  "lp_corr_orig": -3.626558303833008
+ },
+ {
+  "id": "city_country_028",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.27396026253700256,
+  "lp_corr_ind_mean": -6.469850301742554,
+  "lp_corr_orig": -3.9572596549987793
+ },
+ {
+  "id": "city_country_029",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.15291668474674225,
+  "lp_corr_ind_mean": -4.872694802284241,
+  "lp_corr_orig": -5.259669780731201
+ },
+ {
+  "id": "city_country_029",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.21784159541130066,
+  "lp_corr_ind_mean": -7.010357427597046,
+  "lp_corr_orig": -5.884143829345703
+ },
+ {
+  "id": "city_country_031",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.2281835824251175,
+  "lp_corr_ind_mean": -5.202700901031494,
+  "lp_corr_orig": -5.047187805175781
+ },
+ {
+  "id": "city_country_031",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.2812582850456238,
+  "lp_corr_ind_mean": -7.33994140625,
+  "lp_corr_orig": -7.532659530639648
+ },
+ {
+  "id": "city_country_043",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.03575727343559265,
+  "lp_corr_ind_mean": -4.9566758394241335,
+  "lp_corr_orig": -5.474479675292969
+ },
+ {
+  "id": "city_country_043",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.04140154644846916,
+  "lp_corr_ind_mean": -4.754422068595886,
+  "lp_corr_orig": -5.4386820793151855
+ },
+ {
+  "id": "city_country_044",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.0406922847032547,
+  "lp_corr_ind_mean": -4.885832047462463,
+  "lp_corr_orig": -2.62168550491333
+ },
+ {
+  "id": "city_country_044",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.029650550335645676,
+  "lp_corr_ind_mean": -5.786979389190674,
+  "lp_corr_orig": -2.994719982147217
+ },
+ {
+  "id": "city_country_045",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.06661590933799744,
+  "lp_corr_ind_mean": -4.85965850353241,
+  "lp_corr_orig": -5.124993324279785
+ },
+ {
+  "id": "city_country_045",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.2544945180416107,
+  "lp_corr_ind_mean": -5.2452548265457155,
+  "lp_corr_orig": -4.1750617027282715
+ },
+ {
+  "id": "city_country_047",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.08781261742115021,
+  "lp_corr_ind_mean": -5.867850637435913,
+  "lp_corr_orig": -6.388298988342285
+ },
+ {
+  "id": "city_country_047",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.3029046654701233,
+  "lp_corr_ind_mean": -5.851777648925781,
+  "lp_corr_orig": -6.264434814453125
+ },
+ {
+  "id": "city_country_048",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.33257466554641724,
+  "lp_corr_ind_mean": -5.9392781257629395,
+  "lp_corr_orig": -5.449480056762695
+ },
+ {
+  "id": "city_country_048",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -1.0127134323120117,
+  "lp_corr_ind_mean": -6.08220157623291,
+  "lp_corr_orig": -4.945489406585693
+ },
+ {
+  "id": "city_country_049",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.026690980419516563,
+  "lp_corr_ind_mean": -5.528588819503784,
+  "lp_corr_orig": -5.38102912902832
+ },
+ {
+  "id": "city_country_049",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.5438874959945679,
+  "lp_corr_ind_mean": -7.661192274093628,
+  "lp_corr_orig": -7.676384925842285
+ },
+ {
+  "id": "city_country_050",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.019630558788776398,
+  "lp_corr_ind_mean": -4.583065867424011,
+  "lp_corr_orig": -1.9937806129455566
+ },
+ {
+  "id": "city_country_050",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.7431742548942566,
+  "lp_corr_ind_mean": -8.52492651939392,
+  "lp_corr_orig": -7.198174476623535
+ },
+ {
+  "id": "city_country_051",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.047457266598939896,
+  "lp_corr_ind_mean": -4.885394048690796,
+  "lp_corr_orig": -6.354644775390625
+ },
+ {
+  "id": "city_country_051",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.3175215423107147,
+  "lp_corr_ind_mean": -6.370137071609497,
+  "lp_corr_orig": -4.791722774505615
+ },
+ {
+  "id": "city_country_054",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.03491587936878204,
+  "lp_corr_ind_mean": -6.506716871261597,
+  "lp_corr_orig": -6.756908416748047
+ },
+ {
+  "id": "city_country_054",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.30650511384010315,
+  "lp_corr_ind_mean": -7.091910266876221,
+  "lp_corr_orig": -5.676169395446777
+ },
+ {
+  "id": "city_country_060",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.9614278078079224,
+  "lp_corr_ind_mean": -6.432777452468872,
+  "lp_corr_orig": -7.20621919631958
+ },
+ {
+  "id": "city_country_060",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.361944317817688,
+  "lp_corr_ind_mean": -6.110637235641479,
+  "lp_corr_orig": -4.767731666564941
+ },
+ {
+  "id": "city_country_061",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.027356766164302826,
+  "lp_corr_ind_mean": -6.366367959976197,
+  "lp_corr_orig": -6.393604278564453
+ },
+ {
+  "id": "city_country_061",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.48557353019714355,
+  "lp_corr_ind_mean": -5.517904424667359,
+  "lp_corr_orig": -5.4353837966918945
+ },
+ {
+  "id": "city_country_063",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.025487195700407028,
+  "lp_corr_ind_mean": -6.0793633460998535,
+  "lp_corr_orig": -6.431683540344238
+ },
+ {
+  "id": "city_country_063",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.14694271981716156,
+  "lp_corr_ind_mean": -7.43679895401001,
+  "lp_corr_orig": -6.227386474609375
+ },
+ {
+  "id": "city_country_065",
+  "lang": "en",
+  "relation": "city_country",
+  "lp_clean": -0.027727292850613594,
+  "lp_corr_ind_mean": -6.492941284179688,
+  "lp_corr_orig": -5.691465377807617
+ },
+ {
+  "id": "city_country_065",
+  "lang": "es",
+  "relation": "city_country",
+  "lp_clean": -0.16170616447925568,
+  "lp_corr_ind_mean": -6.864879369735718,
+  "lp_corr_orig": -5.952685356140137
+ },
+ {
+  "id": "event_year_000",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.24381165206432343,
+  "lp_corr_ind_mean": -6.436860370635986,
+  "lp_corr_orig": -7.043163299560547
+ },
+ {
+  "id": "event_year_000",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.20287443697452545,
+  "lp_corr_ind_mean": -6.923609781265259,
+  "lp_corr_orig": -6.193212032318115
+ },
+ {
+  "id": "event_year_002",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.6500446796417236,
+  "lp_corr_ind_mean": -8.05506591796875,
+  "lp_corr_orig": -7.612518310546875
+ },
+ {
+  "id": "event_year_002",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.45936405658721924,
+  "lp_corr_ind_mean": -7.9307280540466305,
+  "lp_corr_orig": -10.097602844238281
+ },
+ {
+  "id": "event_year_003",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.3593602478504181,
+  "lp_corr_ind_mean": -7.419874906539917,
+  "lp_corr_orig": -5.564974784851074
+ },
+ {
+  "id": "event_year_003",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.20948591828346252,
+  "lp_corr_ind_mean": -7.406700992584229,
+  "lp_corr_orig": -7.2255859375
+ },
+ {
+  "id": "event_year_007",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.30808499455451965,
+  "lp_corr_ind_mean": -8.629182147979737,
+  "lp_corr_orig": -9.723823547363281
+ },
+ {
+  "id": "event_year_007",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.303602397441864,
+  "lp_corr_ind_mean": -8.93953890800476,
+  "lp_corr_orig": -8.631270408630371
+ },
+ {
+  "id": "event_year_009",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.5385956168174744,
+  "lp_corr_ind_mean": -6.863437223434448,
+  "lp_corr_orig": -8.39929485321045
+ },
+ {
+  "id": "event_year_009",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.33878442645072937,
+  "lp_corr_ind_mean": -7.3430334568023685,
+  "lp_corr_orig": -8.62702751159668
+ },
+ {
+  "id": "event_year_010",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.6927964687347412,
+  "lp_corr_ind_mean": -7.023478603363037,
+  "lp_corr_orig": -7.630685806274414
+ },
+ {
+  "id": "event_year_010",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.7413901090621948,
+  "lp_corr_ind_mean": -6.9678267478942875,
+  "lp_corr_orig": -7.50809383392334
+ },
+ {
+  "id": "event_year_015",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.6960830092430115,
+  "lp_corr_ind_mean": -6.778851938247681,
+  "lp_corr_orig": -6.401206970214844
+ },
+ {
+  "id": "event_year_015",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.1442001461982727,
+  "lp_corr_ind_mean": -6.89565076828003,
+  "lp_corr_orig": -6.094742774963379
+ },
+ {
+  "id": "event_year_018",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.6336479783058167,
+  "lp_corr_ind_mean": -7.8833695411682125,
+  "lp_corr_orig": -7.40327262878418
+ },
+ {
+  "id": "event_year_018",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.2567172348499298,
+  "lp_corr_ind_mean": -7.453218412399292,
+  "lp_corr_orig": -7.140294075012207
+ },
+ {
+  "id": "event_year_020",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.335590660572052,
+  "lp_corr_ind_mean": -6.830527639389038,
+  "lp_corr_orig": -6.106032371520996
+ },
+ {
+  "id": "event_year_020",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.22712300717830658,
+  "lp_corr_ind_mean": -6.488668441772461,
+  "lp_corr_orig": -6.500977039337158
+ },
+ {
+  "id": "event_year_021",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.5563084483146667,
+  "lp_corr_ind_mean": -6.238993072509766,
+  "lp_corr_orig": -6.564533233642578
+ },
+ {
+  "id": "event_year_021",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.06628613919019699,
+  "lp_corr_ind_mean": -6.319957065582275,
+  "lp_corr_orig": -4.737014293670654
+ },
+ {
+  "id": "event_year_022",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.5500537157058716,
+  "lp_corr_ind_mean": -6.378822374343872,
+  "lp_corr_orig": -6.354123115539551
+ },
+ {
+  "id": "event_year_022",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.5680097341537476,
+  "lp_corr_ind_mean": -6.331029033660888,
+  "lp_corr_orig": -6.087636947631836
+ },
+ {
+  "id": "event_year_023",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.4212842881679535,
+  "lp_corr_ind_mean": -6.774014186859131,
+  "lp_corr_orig": -6.449001789093018
+ },
+ {
+  "id": "event_year_023",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.30572518706321716,
+  "lp_corr_ind_mean": -6.372031211853027,
+  "lp_corr_orig": -6.342994689941406
+ },
+ {
+  "id": "event_year_026",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.4320642650127411,
+  "lp_corr_ind_mean": -5.808102560043335,
+  "lp_corr_orig": -5.331485271453857
+ },
+ {
+  "id": "event_year_026",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.07611531019210815,
+  "lp_corr_ind_mean": -6.149103260040283,
+  "lp_corr_orig": -4.098506927490234
+ },
+ {
+  "id": "event_year_028",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.6394976377487183,
+  "lp_corr_ind_mean": -6.747144174575806,
+  "lp_corr_orig": -6.63052225112915
+ },
+ {
+  "id": "event_year_028",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.47426241636276245,
+  "lp_corr_ind_mean": -6.369480991363526,
+  "lp_corr_orig": -5.287845611572266
+ },
+ {
+  "id": "event_year_029",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.8885961174964905,
+  "lp_corr_ind_mean": -7.064294958114624,
+  "lp_corr_orig": -8.088769912719727
+ },
+ {
+  "id": "event_year_029",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.18695825338363647,
+  "lp_corr_ind_mean": -6.351144313812256,
+  "lp_corr_orig": -6.999756336212158
+ },
+ {
+  "id": "event_year_030",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.8522605895996094,
+  "lp_corr_ind_mean": -7.052405309677124,
+  "lp_corr_orig": -7.250536918640137
+ },
+ {
+  "id": "event_year_030",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.19495147466659546,
+  "lp_corr_ind_mean": -6.569400072097778,
+  "lp_corr_orig": -6.405726432800293
+ },
+ {
+  "id": "event_year_031",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.5167560577392578,
+  "lp_corr_ind_mean": -6.534391975402832,
+  "lp_corr_orig": -6.868837833404541
+ },
+ {
+  "id": "event_year_031",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.13310687243938446,
+  "lp_corr_ind_mean": -6.296895217895508,
+  "lp_corr_orig": -7.038414001464844
+ },
+ {
+  "id": "event_year_032",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.6430880427360535,
+  "lp_corr_ind_mean": -6.749985647201538,
+  "lp_corr_orig": -6.29517936706543
+ },
+ {
+  "id": "event_year_032",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.3315384089946747,
+  "lp_corr_ind_mean": -5.79468936920166,
+  "lp_corr_orig": -5.454574108123779
+ },
+ {
+  "id": "event_year_033",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.5496081113815308,
+  "lp_corr_ind_mean": -7.204293584823608,
+  "lp_corr_orig": -6.027734756469727
+ },
+ {
+  "id": "event_year_033",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.21660393476486206,
+  "lp_corr_ind_mean": -6.333216047286987,
+  "lp_corr_orig": -6.301168441772461
+ },
+ {
+  "id": "event_year_034",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.2202465832233429,
+  "lp_corr_ind_mean": -6.523881721496582,
+  "lp_corr_orig": -6.662796974182129
+ },
+ {
+  "id": "event_year_034",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.13703913986682892,
+  "lp_corr_ind_mean": -5.57126932144165,
+  "lp_corr_orig": -5.474452018737793
+ },
+ {
+  "id": "event_year_035",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.5571750402450562,
+  "lp_corr_ind_mean": -5.235004520416259,
+  "lp_corr_orig": -4.791543960571289
+ },
+ {
+  "id": "event_year_035",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.28445184230804443,
+  "lp_corr_ind_mean": -4.435641789436341,
+  "lp_corr_orig": -4.608081817626953
+ },
+ {
+  "id": "event_year_036",
+  "lang": "en",
+  "relation": "event_year",
+  "lp_clean": -0.2952887713909149,
+  "lp_corr_ind_mean": -5.145129156112671,
+  "lp_corr_orig": -5.74588680267334
+ },
+ {
+  "id": "event_year_036",
+  "lang": "es",
+  "relation": "event_year",
+  "lp_clean": -0.24256183207035065,
+  "lp_corr_ind_mean": -5.160446548461914,
+  "lp_corr_orig": -4.767270088195801
+ },
+ {
+  "id": "landmark_city_001",
+  "lang": "en",
+  "relation": "landmark_city",
+  "lp_clean": -0.1178692877292633,
+  "lp_corr_ind_mean": -5.165479564666748,
+  "lp_corr_orig": -5.714299201965332
+ },
+ {
+  "id": "landmark_city_001",
+  "lang": "es",
+  "relation": "landmark_city",
+  "lp_clean": -0.8083892464637756,
+  "lp_corr_ind_mean": -4.702148342132569,
+  "lp_corr_orig": -3.7346994876861572
+ },
+ {
+  "id": "landmark_city_003",
+  "lang": "en",
+  "relation": "landmark_city",
+  "lp_clean": -0.419982373714447,
+  "lp_corr_ind_mean": -4.948009777069092,
+  "lp_corr_orig": -4.062396049499512
+ },
+ {
+  "id": "landmark_city_003",
+  "lang": "es",
+  "relation": "landmark_city",
+  "lp_clean": -0.24019722640514374,
+  "lp_corr_ind_mean": -3.747588407993317,
+  "lp_corr_orig": -4.359549522399902
+ },
+ {
+  "id": "landmark_city_027",
+  "lang": "en",
+  "relation": "landmark_city",
+  "lp_clean": -0.012165984138846397,
+  "lp_corr_ind_mean": -5.795354127883911,
+  "lp_corr_orig": -5.836622714996338
+ },
+ {
+  "id": "landmark_city_027",
+  "lang": "es",
+  "relation": "landmark_city",
+  "lp_clean": -0.1519765406847,
+  "lp_corr_ind_mean": -7.4880757331848145,
+  "lp_corr_orig": -6.00580358505249
+ },
+ {
+  "id": "landmark_city_038",
+  "lang": "en",
+  "relation": "landmark_city",
+  "lp_clean": -0.08509096503257751,
+  "lp_corr_ind_mean": -8.011078023910523,
+  "lp_corr_orig": -6.883219242095947
+ },
+ {
+  "id": "landmark_city_038",
+  "lang": "es",
+  "relation": "landmark_city",
+  "lp_clean": -0.2697071135044098,
+  "lp_corr_ind_mean": -9.417741441726685,
+  "lp_corr_orig": -8.963065147399902
+ },
+ {
+  "id": "landmark_city_042",
+  "lang": "en",
+  "relation": "landmark_city",
+  "lp_clean": -0.05995761230587959,
+  "lp_corr_ind_mean": -7.743889665603637,
+  "lp_corr_orig": -8.191717147827148
+ },
+ {
+  "id": "landmark_city_042",
+  "lang": "es",
+  "relation": "landmark_city",
+  "lp_clean": -0.6537326574325562,
+  "lp_corr_ind_mean": -6.868834972381592,
+  "lp_corr_orig": -6.251816749572754
+ },
+ {
+  "id": "landmark_city_046",
+  "lang": "en",
+  "relation": "landmark_city",
+  "lp_clean": -0.3525885045528412,
+  "lp_corr_ind_mean": -5.802547883987427,
+  "lp_corr_orig": -5.275669097900391
+ },
+ {
+  "id": "landmark_city_046",
+  "lang": "es",
+  "relation": "landmark_city",
+  "lp_clean": -0.9923746585845947,
+  "lp_corr_ind_mean": -4.8625391006469725,
+  "lp_corr_orig": -6.250376224517822
+ },
+ {
+  "id": "landmark_country_004",
+  "lang": "en",
+  "relation": "landmark_country",
+  "lp_clean": -0.4458593726158142,
+  "lp_corr_ind_mean": -4.8357237577438354,
+  "lp_corr_orig": -4.252946853637695
+ },
+ {
+  "id": "landmark_country_004",
+  "lang": "es",
+  "relation": "landmark_country",
+  "lp_clean": -1.5017027854919434,
+  "lp_corr_ind_mean": -7.587781524658203,
+  "lp_corr_orig": -7.723696708679199
+ },
+ {
+  "id": "landmark_country_010",
+  "lang": "en",
+  "relation": "landmark_country",
+  "lp_clean": -1.4188733100891113,
+  "lp_corr_ind_mean": -10.076252937316895,
+  "lp_corr_orig": -12.00611686706543
+ },
+ {
+  "id": "landmark_country_010",
+  "lang": "es",
+  "relation": "landmark_country",
+  "lp_clean": -3.2882540225982666,
+  "lp_corr_ind_mean": -13.419277954101563,
+  "lp_corr_orig": -14.766654014587402
+ },
+ {
+  "id": "landmark_country_060",
+  "lang": "en",
+  "relation": "landmark_country",
+  "lp_clean": -0.10169079899787903,
+  "lp_corr_ind_mean": -5.0692249774932865,
+  "lp_corr_orig": -3.712230920791626
+ },
+ {
+  "id": "landmark_country_060",
+  "lang": "es",
+  "relation": "landmark_country",
+  "lp_clean": -0.31448957324028015,
+  "lp_corr_ind_mean": -6.9415748596191404,
+  "lp_corr_orig": -6.0144524574279785
+ },
+ {
+  "id": "landmark_country_070",
+  "lang": "en",
+  "relation": "landmark_country",
+  "lp_clean": -0.7420403957366943,
+  "lp_corr_ind_mean": -3.999819016456604,
+  "lp_corr_orig": -4.5993781089782715
+ },
+ {
+  "id": "landmark_country_070",
+  "lang": "es",
+  "relation": "landmark_country",
+  "lp_clean": -2.0714128017425537,
+  "lp_corr_ind_mean": -7.627855014801026,
+  "lp_corr_orig": -6.673529624938965
+ },
+ {
+  "id": "landmark_country_071",
+  "lang": "en",
+  "relation": "landmark_country",
+  "lp_clean": -0.5472019910812378,
+  "lp_corr_ind_mean": -4.617497730255127,
+  "lp_corr_orig": -4.73105525970459
+ },
+ {
+  "id": "landmark_country_071",
+  "lang": "es",
+  "relation": "landmark_country",
+  "lp_clean": -2.348562717437744,
+  "lp_corr_ind_mean": -7.658276128768921,
+  "lp_corr_orig": -8.607369422912598
+ },
+ {
+  "id": "landmark_country_072",
+  "lang": "en",
+  "relation": "landmark_country",
+  "lp_clean": -1.0098772048950195,
+  "lp_corr_ind_mean": -4.4331289529800415,
+  "lp_corr_orig": -5.0804595947265625
+ },
+ {
+  "id": "landmark_country_072",
+  "lang": "es",
+  "relation": "landmark_country",
+  "lp_clean": -1.7674365043640137,
+  "lp_corr_ind_mean": -8.124816632270813,
+  "lp_corr_orig": -8.721155166625977
+ },
+ {
+  "id": "landmark_country_074",
+  "lang": "en",
+  "relation": "landmark_country",
+  "lp_clean": -0.7525128126144409,
+  "lp_corr_ind_mean": -5.555476140975952,
+  "lp_corr_orig": -5.243508338928223
+ },
+ {
+  "id": "landmark_country_074",
+  "lang": "es",
+  "relation": "landmark_country",
+  "lp_clean": -1.0222182273864746,
+  "lp_corr_ind_mean": -7.809712219238281,
+  "lp_corr_orig": -8.100441932678223
+ }
+]

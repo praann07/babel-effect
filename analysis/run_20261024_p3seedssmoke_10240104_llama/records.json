@@ -1,0 +1,34 @@
+[
+ {
+  "id": "capital_country_000",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.19612371921539307,
+  "lp_corr_ind_mean": -3.02094247341156,
+  "lp_corr_orig": -2.6808571815490723
+ },
+ {
+  "id": "capital_country_000",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.020468924194574356,
+  "lp_corr_ind_mean": -4.613303685188294,
+  "lp_corr_orig": -4.654026508331299
+ },
+ {
+  "id": "capital_country_001",
+  "lang": "en",
+  "relation": "capital_country",
+  "lp_clean": -0.07486123591661453,
+  "lp_corr_ind_mean": -5.060393691062927,
+  "lp_corr_orig": -5.501468658447266
+ },
+ {
+  "id": "capital_country_001",
+  "lang": "es",
+  "relation": "capital_country",
+  "lp_clean": -0.20974396169185638,
+  "lp_corr_ind_mean": -7.177945470809936,
+  "lp_corr_orig": -6.946967124938965
+ }
+]

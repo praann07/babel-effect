@@ -30,6 +30,7 @@ H8 = {"llama": "analysis/run_20261019_h8_10191057_llama/results.json", "gemma2":
 INC = {"llama": "analysis/run_20261020_incontext_10200339_llama/summary.json", "gemma2": "analysis/run_20261020_incontext_10200339_gemma2/summary.json"}
 CTL = "analysis/run_20261021_controls/results.json"
 CF = "analysis/run_20261024_confound_A12a/results.json"
+SD = "analysis/run_20261024_seeds_A13a_10240109/results.json"
 MAN = Path("results/manifest.json")
 
 
@@ -164,6 +165,18 @@ def claims() -> list[dict]:
               (f"cf_{m}_TE_rho", CF, [m, "S1b_TE_spearman_within_stratum", "rho"])]
         for b in ("early", "middle", "late"):
             c += [(f"cf_{m}_band_{b}_all_D", CF, [m, "S3_bands", b, "all", "mean_D"]), (f"cf_{m}_band_{b}_inf_D", CF, [m, "S3_bands", b, "informative", "mean_D"])]
+    for m in ("llama", "gemma2"):  # A13a independent-noise re-trace
+        c += [(f"sd_{m}_P4_pass", SD, [m, "P4_pass"]), (f"sd_{m}_G1_D", SD, [m, "G1", "D_ind_informative"]), (f"sd_{m}_G1_ci_lo", SD, [m, "G1", "ci97.5", 0]),
+              (f"sd_{m}_G1_ci_hi", SD, [m, "G1", "ci97.5", 1]), (f"sd_{m}_G1_ceil_en", SD, [m, "G1", "ceiling_en"]), (f"sd_{m}_G1_ceil_es", SD, [m, "G1", "ceiling_es"])]
+        for nm in ("all", "informative", "EQ", "OT", "event_year_only", "non_event_year"):
+            c += [(f"sd_{m}_{nm}_n", SD, [m, "S", nm, "ind", "n"]), (f"sd_{m}_{nm}_ind_D", SD, [m, "S", nm, "ind", "mean_D"]), (f"sd_{m}_{nm}_ind_ci_lo", SD, [m, "S", nm, "ind", "ci97.5_cluster", 0]),
+                  (f"sd_{m}_{nm}_ind_ci_hi", SD, [m, "S", nm, "ind", "ci97.5_cluster", 1]), (f"sd_{m}_{nm}_sh_D", SD, [m, "S", nm, "sh", "mean_D"]),
+                  (f"sd_{m}_{nm}_orig_D", SD, [m, "S", nm, "orig", "mean_D"]), (f"sd_{m}_{nm}_ind5_D", SD, [m, "S", nm, "D_ind5_mean"]),
+                  (f"sd_{m}_{nm}_delta", SD, [m, "S", nm, "Delta_SH_minus_IND5", "mean"]), (f"sd_{m}_{nm}_delta_lo", SD, [m, "S", nm, "Delta_SH_minus_IND5", "ci97.5_cluster", 0]),
+                  (f"sd_{m}_{nm}_delta_hi", SD, [m, "S", nm, "Delta_SH_minus_IND5", "ci97.5_cluster", 1]),
+                  (f"sd_{m}_{nm}_ceil_en", SD, [m, "S", nm, "enAB", "mean_D"]), (f"sd_{m}_{nm}_ceil_es", SD, [m, "S", nm, "esAB", "mean_D"])]
+        for lg in ("en", "es"):
+            c += [(f"sd_{m}_reg_{lg}_median_abs", SD, [m, "P4_regression", lg, "median_abs_diff"]), (f"sd_{m}_reg_{lg}_corr", SD, [m, "P4_regression", lg, "corr"])]
     return [{"id": i, "artifact": a, "key_path": k} for i, a, k in c]
 
 
