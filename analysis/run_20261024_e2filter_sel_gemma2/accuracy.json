@@ -1,0 +1,42 @@
+{
+ "capital_country": {
+  "tune_n": 30,
+  "tune_en": 30,
+  "tune_es": 30,
+  "eval_n": 95,
+  "eval_both": 72,
+  "template_ok": true
+ },
+ "capital_of": {
+  "tune_n": 30,
+  "tune_en": 27,
+  "tune_es": 23,
+  "eval_n": 95,
+  "eval_both": 53,
+  "template_ok": true
+ },
+ "city_country": {
+  "tune_n": 30,
+  "tune_en": 25,
+  "tune_es": 26,
+  "eval_n": 45,
+  "eval_both": 35,
+  "template_ok": true
+ },
+ "landmark_city": {
+  "tune_n": 30,
+  "tune_en": 29,
+  "tune_es": 24,
+  "eval_n": 51,
+  "eval_both": 28,
+  "template_ok": true
+ },
+ "landmark_country": {
+  "tune_n": 30,
+  "tune_en": 25,
+  "tune_es": 15,
+  "eval_n": 51,
+  "eval_both": 26,
+  "template_ok": true
+ }
+}

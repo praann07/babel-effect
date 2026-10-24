@@ -1,0 +1,4564 @@
+{
+ "model": "google/gemma-2-2b",
+ "templates": {
+  "capital_of": [
+   "The capital city of {s} is called",
+   "La capital de {s} se llama"
+  ],
+  "capital_country": [
+   "The country whose capital is {s} is",
+   "El país cuya capital es {s} se llama"
+  ],
+  "landmark_city": [
+   "The city where {s} is located is called",
+   "Se puede visitar {s} en la ciudad de"
+  ],
+  "landmark_country": [
+   "The country where {s} is located is called",
+   "El país donde está {s} se llama"
+  ],
+  "city_country": [
+   "You can visit {s} in the country of",
+   "El país donde está {s} se llama"
+  ]
+ },
+ "summary": {
+  "capital_country": {
+   "tune_n": 30,
+   "tune_en": 30,
+   "tune_es": 30,
+   "eval_n": 95,
+   "eval_both": 72,
+   "template_ok": true
+  },
+  "capital_of": {
+   "tune_n": 30,
+   "tune_en": 27,
+   "tune_es": 23,
+   "eval_n": 95,
+   "eval_both": 53,
+   "template_ok": true
+  },
+  "city_country": {
+   "tune_n": 30,
+   "tune_en": 25,
+   "tune_es": 26,
+   "eval_n": 45,
+   "eval_both": 35,
+   "template_ok": true
+  },
+  "landmark_city": {
+   "tune_n": 30,
+   "tune_en": 29,
+   "tune_es": 24,
+   "eval_n": 51,
+   "eval_both": 28,
+   "template_ok": true
+  },
+  "landmark_country": {
+   "tune_n": 30,
+   "tune_en": 25,
+   "tune_es": 15,
+   "eval_n": 51,
+   "eval_both": 26,
+   "template_ok": true
+  }
+ },
+ "n_kept": 214,
+ "facts": [
+  {
+   "id": "capital_country_030",
+   "relation": "capital_country",
+   "seed": 1868554078,
+   "lang": {
+    "en": {
+     "subject": "Hanoi",
+     "object": "Vietnam",
+     "object_alts": [],
+     "prompt": "The country whose capital is Hanoi is",
+     "target": "Vietnam"
+    },
+    "es": {
+     "subject": "Hanói",
+     "object": "Vietnam",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Hanói se llama",
+     "target": "Vietnam"
+    }
+   }
+  },
+  {
+   "id": "capital_country_031",
+   "relation": "capital_country",
+   "seed": 1994942283,
+   "lang": {
+    "en": {
+     "subject": "Jakarta",
+     "object": "Indonesia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Jakarta is",
+     "target": "Indonesia"
+    },
+    "es": {
+     "subject": "Yakarta",
+     "object": "Indonesia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Yakarta se llama",
+     "target": "Indonesia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_032",
+   "relation": "capital_country",
+   "seed": 1238983075,
+   "lang": {
+    "en": {
+     "subject": "Islamabad",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "The country whose capital is Islamabad is",
+     "target": "Pakistan"
+    },
+    "es": {
+     "subject": "Islamabad",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Islamabad se llama",
+     "target": "Pakistán"
+    }
+   }
+  },
+  {
+   "id": "capital_country_034",
+   "relation": "capital_country",
+   "seed": 2002346541,
+   "lang": {
+    "en": {
+     "subject": "Kathmandu",
+     "object": "Nepal",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kathmandu is",
+     "target": "Nepal"
+    },
+    "es": {
+     "subject": "Katmandú",
+     "object": "Nepal",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Katmandú se llama",
+     "target": "Nepal"
+    }
+   }
+  },
+  {
+   "id": "capital_country_035",
+   "relation": "capital_country",
+   "seed": 886381430,
+   "lang": {
+    "en": {
+     "subject": "Colombo",
+     "object": "Sri Lanka",
+     "object_alts": [],
+     "prompt": "The country whose capital is Colombo is",
+     "target": "Sri Lanka"
+    },
+    "es": {
+     "subject": "Colombo",
+     "object": "Sri Lanka",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Colombo se llama",
+     "target": "Sri Lanka"
+    }
+   }
+  },
+  {
+   "id": "capital_country_036",
+   "relation": "capital_country",
+   "seed": 62653980,
+   "lang": {
+    "en": {
+     "subject": "Tehran",
+     "object": "Iran",
+     "object_alts": [],
+     "prompt": "The country whose capital is Tehran is",
+     "target": "Iran"
+    },
+    "es": {
+     "subject": "Teherán",
+     "object": "Irán",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Teherán se llama",
+     "target": "Irán"
+    }
+   }
+  },
+  {
+   "id": "capital_country_037",
+   "relation": "capital_country",
+   "seed": 1793875441,
+   "lang": {
+    "en": {
+     "subject": "Baghdad",
+     "object": "Iraq",
+     "object_alts": [],
+     "prompt": "The country whose capital is Baghdad is",
+     "target": "Iraq"
+    },
+    "es": {
+     "subject": "Bagdad",
+     "object": "Irak",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Bagdad se llama",
+     "target": "Irak"
+    }
+   }
+  },
+  {
+   "id": "capital_country_038",
+   "relation": "capital_country",
+   "seed": 4427812,
+   "lang": {
+    "en": {
+     "subject": "Riyadh",
+     "object": "Saudi Arabia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Riyadh is",
+     "target": "Saudi Arabia"
+    },
+    "es": {
+     "subject": "Riad",
+     "object": "Arabia Saudita",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Riad se llama",
+     "target": "Arabia Saudita"
+    }
+   }
+  },
+  {
+   "id": "capital_country_039",
+   "relation": "capital_country",
+   "seed": 757266566,
+   "lang": {
+    "en": {
+     "subject": "Nairobi",
+     "object": "Kenya",
+     "object_alts": [],
+     "prompt": "The country whose capital is Nairobi is",
+     "target": "Kenya"
+    },
+    "es": {
+     "subject": "Nairobi",
+     "object": "Kenia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Nairobi se llama",
+     "target": "Kenia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_041",
+   "relation": "capital_country",
+   "seed": 195656048,
+   "lang": {
+    "en": {
+     "subject": "Addis Ababa",
+     "object": "Ethiopia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Addis Ababa is",
+     "target": "Ethiopia"
+    },
+    "es": {
+     "subject": "Adís Abeba",
+     "object": "Etiopía",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Adís Abeba se llama",
+     "target": "Etiopía"
+    }
+   }
+  },
+  {
+   "id": "capital_country_042",
+   "relation": "capital_country",
+   "seed": 1949946245,
+   "lang": {
+    "en": {
+     "subject": "Rabat",
+     "object": "Morocco",
+     "object_alts": [],
+     "prompt": "The country whose capital is Rabat is",
+     "target": "Morocco"
+    },
+    "es": {
+     "subject": "Rabat",
+     "object": "Marruecos",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Rabat se llama",
+     "target": "Marruecos"
+    }
+   }
+  },
+  {
+   "id": "capital_country_043",
+   "relation": "capital_country",
+   "seed": 172122120,
+   "lang": {
+    "en": {
+     "subject": "Algiers",
+     "object": "Algeria",
+     "object_alts": [],
+     "prompt": "The country whose capital is Algiers is",
+     "target": "Algeria"
+    },
+    "es": {
+     "subject": "Argel",
+     "object": "Argelia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Argel se llama",
+     "target": "Argelia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_044",
+   "relation": "capital_country",
+   "seed": 264687277,
+   "lang": {
+    "en": {
+     "subject": "Pretoria",
+     "object": "South Africa",
+     "object_alts": [],
+     "prompt": "The country whose capital is Pretoria is",
+     "target": "South Africa"
+    },
+    "es": {
+     "subject": "Pretoria",
+     "object": "Sudáfrica",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Pretoria se llama",
+     "target": "Sudáfrica"
+    }
+   }
+  },
+  {
+   "id": "capital_country_045",
+   "relation": "capital_country",
+   "seed": 1609692362,
+   "lang": {
+    "en": {
+     "subject": "Accra",
+     "object": "Ghana",
+     "object_alts": [],
+     "prompt": "The country whose capital is Accra is",
+     "target": "Ghana"
+    },
+    "es": {
+     "subject": "Acra",
+     "object": "Ghana",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Acra se llama",
+     "target": "Ghana"
+    }
+   }
+  },
+  {
+   "id": "capital_country_046",
+   "relation": "capital_country",
+   "seed": 2007525055,
+   "lang": {
+    "en": {
+     "subject": "Budapest",
+     "object": "Hungary",
+     "object_alts": [],
+     "prompt": "The country whose capital is Budapest is",
+     "target": "Hungary"
+    },
+    "es": {
+     "subject": "Budapest",
+     "object": "Hungría",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Budapest se llama",
+     "target": "Hungría"
+    }
+   }
+  },
+  {
+   "id": "capital_country_047",
+   "relation": "capital_country",
+   "seed": 1362669170,
+   "lang": {
+    "en": {
+     "subject": "Bucharest",
+     "object": "Romania",
+     "object_alts": [],
+     "prompt": "The country whose capital is Bucharest is",
+     "target": "Romania"
+    },
+    "es": {
+     "subject": "Bucarest",
+     "object": "Rumania",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Bucarest se llama",
+     "target": "Rumania"
+    }
+   }
+  },
+  {
+   "id": "capital_country_048",
+   "relation": "capital_country",
+   "seed": 998437727,
+   "lang": {
+    "en": {
+     "subject": "Kyiv",
+     "object": "Ukraine",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kyiv is",
+     "target": "Ukraine"
+    },
+    "es": {
+     "subject": "Kiev",
+     "object": "Ucrania",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Kiev se llama",
+     "target": "Ucrania"
+    }
+   }
+  },
+  {
+   "id": "capital_country_049",
+   "relation": "capital_country",
+   "seed": 74744275,
+   "lang": {
+    "en": {
+     "subject": "Sofia",
+     "object": "Bulgaria",
+     "object_alts": [],
+     "prompt": "The country whose capital is Sofia is",
+     "target": "Bulgaria"
+    },
+    "es": {
+     "subject": "Sofía",
+     "object": "Bulgaria",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Sofía se llama",
+     "target": "Bulgaria"
+    }
+   }
+  },
+  {
+   "id": "capital_country_050",
+   "relation": "capital_country",
+   "seed": 1546960182,
+   "lang": {
+    "en": {
+     "subject": "Belgrade",
+     "object": "Serbia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Belgrade is",
+     "target": "Serbia"
+    },
+    "es": {
+     "subject": "Belgrado",
+     "object": "Serbia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Belgrado se llama",
+     "target": "Serbia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_051",
+   "relation": "capital_country",
+   "seed": 1549431987,
+   "lang": {
+    "en": {
+     "subject": "Zagreb",
+     "object": "Croatia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Zagreb is",
+     "target": "Croatia"
+    },
+    "es": {
+     "subject": "Zagreb",
+     "object": "Croacia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Zagreb se llama",
+     "target": "Croacia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_052",
+   "relation": "capital_country",
+   "seed": 1612935256,
+   "lang": {
+    "en": {
+     "subject": "Reykjavik",
+     "object": "Iceland",
+     "object_alts": [],
+     "prompt": "The country whose capital is Reykjavik is",
+     "target": "Iceland"
+    },
+    "es": {
+     "subject": "Reikiavik",
+     "object": "Islandia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Reikiavik se llama",
+     "target": "Islandia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_053",
+   "relation": "capital_country",
+   "seed": 1171514532,
+   "lang": {
+    "en": {
+     "subject": "Ulaanbaatar",
+     "object": "Mongolia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Ulaanbaatar is",
+     "target": "Mongolia"
+    },
+    "es": {
+     "subject": "Ulán Bator",
+     "object": "Mongolia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Ulán Bator se llama",
+     "target": "Mongolia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_054",
+   "relation": "capital_country",
+   "seed": 1388686683,
+   "lang": {
+    "en": {
+     "subject": "Kabul",
+     "object": "Afghanistan",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kabul is",
+     "target": "Afghanistan"
+    },
+    "es": {
+     "subject": "Kabul",
+     "object": "Afganistán",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Kabul se llama",
+     "target": "Afganistán"
+    }
+   }
+  },
+  {
+   "id": "capital_country_055",
+   "relation": "capital_country",
+   "seed": 824794623,
+   "lang": {
+    "en": {
+     "subject": "Phnom Penh",
+     "object": "Cambodia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Phnom Penh is",
+     "target": "Cambodia"
+    },
+    "es": {
+     "subject": "Nom Pen",
+     "object": "Camboya",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Nom Pen se llama",
+     "target": "Camboya"
+    }
+   }
+  },
+  {
+   "id": "capital_country_056",
+   "relation": "capital_country",
+   "seed": 1784820928,
+   "lang": {
+    "en": {
+     "subject": "Seoul",
+     "object": "South Korea",
+     "object_alts": [],
+     "prompt": "The country whose capital is Seoul is",
+     "target": "South Korea"
+    },
+    "es": {
+     "subject": "Seúl",
+     "object": "Corea del Sur",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Seúl se llama",
+     "target": "Corea del Sur"
+    }
+   }
+  },
+  {
+   "id": "capital_country_058",
+   "relation": "capital_country",
+   "seed": 1468531986,
+   "lang": {
+    "en": {
+     "subject": "Beirut",
+     "object": "Lebanon",
+     "object_alts": [],
+     "prompt": "The country whose capital is Beirut is",
+     "target": "Lebanon"
+    },
+    "es": {
+     "subject": "Beirut",
+     "object": "Líbano",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Beirut se llama",
+     "target": "Líbano"
+    }
+   }
+  },
+  {
+   "id": "capital_country_059",
+   "relation": "capital_country",
+   "seed": 620352531,
+   "lang": {
+    "en": {
+     "subject": "Damascus",
+     "object": "Syria",
+     "object_alts": [],
+     "prompt": "The country whose capital is Damascus is",
+     "target": "Syria"
+    },
+    "es": {
+     "subject": "Damasco",
+     "object": "Siria",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Damasco se llama",
+     "target": "Siria"
+    }
+   }
+  },
+  {
+   "id": "capital_country_060",
+   "relation": "capital_country",
+   "seed": 1362721927,
+   "lang": {
+    "en": {
+     "subject": "Tripoli",
+     "object": "Libya",
+     "object_alts": [],
+     "prompt": "The country whose capital is Tripoli is",
+     "target": "Libya"
+    },
+    "es": {
+     "subject": "Trípoli",
+     "object": "Libia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Trípoli se llama",
+     "target": "Libia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_061",
+   "relation": "capital_country",
+   "seed": 375733540,
+   "lang": {
+    "en": {
+     "subject": "Montevideo",
+     "object": "Uruguay",
+     "object_alts": [],
+     "prompt": "The country whose capital is Montevideo is",
+     "target": "Uruguay"
+    },
+    "es": {
+     "subject": "Montevideo",
+     "object": "Uruguay",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Montevideo se llama",
+     "target": "Uruguay"
+    }
+   }
+  },
+  {
+   "id": "capital_country_062",
+   "relation": "capital_country",
+   "seed": 346719171,
+   "lang": {
+    "en": {
+     "subject": "Quito",
+     "object": "Ecuador",
+     "object_alts": [],
+     "prompt": "The country whose capital is Quito is",
+     "target": "Ecuador"
+    },
+    "es": {
+     "subject": "Quito",
+     "object": "Ecuador",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Quito se llama",
+     "target": "Ecuador"
+    }
+   }
+  },
+  {
+   "id": "capital_country_063",
+   "relation": "capital_country",
+   "seed": 1322240616,
+   "lang": {
+    "en": {
+     "subject": "Asunción",
+     "object": "Paraguay",
+     "object_alts": [],
+     "prompt": "The country whose capital is Asunción is",
+     "target": "Paraguay"
+    },
+    "es": {
+     "subject": "Asunción",
+     "object": "Paraguay",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Asunción se llama",
+     "target": "Paraguay"
+    }
+   }
+  },
+  {
+   "id": "capital_country_064",
+   "relation": "capital_country",
+   "seed": 1062859025,
+   "lang": {
+    "en": {
+     "subject": "Kingston",
+     "object": "Jamaica",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kingston is",
+     "target": "Jamaica"
+    },
+    "es": {
+     "subject": "Kingston",
+     "object": "Jamaica",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Kingston se llama",
+     "target": "Jamaica"
+    }
+   }
+  },
+  {
+   "id": "capital_country_065",
+   "relation": "capital_country",
+   "seed": 1136062718,
+   "lang": {
+    "en": {
+     "subject": "Wellington",
+     "object": "New Zealand",
+     "object_alts": [],
+     "prompt": "The country whose capital is Wellington is",
+     "target": "New Zealand"
+    },
+    "es": {
+     "subject": "Wellington",
+     "object": "Nueva Zelanda",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Wellington se llama",
+     "target": "Nueva Zelanda"
+    }
+   }
+  },
+  {
+   "id": "capital_country_066",
+   "relation": "capital_country",
+   "seed": 1482368708,
+   "lang": {
+    "en": {
+     "subject": "Havana",
+     "object": "Cuba",
+     "object_alts": [],
+     "prompt": "The country whose capital is Havana is",
+     "target": "Cuba"
+    },
+    "es": {
+     "subject": "La Habana",
+     "object": "Cuba",
+     "object_alts": [],
+     "prompt": "El país cuya capital es La Habana se llama",
+     "target": "Cuba"
+    }
+   }
+  },
+  {
+   "id": "capital_country_067",
+   "relation": "capital_country",
+   "seed": 1812110366,
+   "lang": {
+    "en": {
+     "subject": "Sucre",
+     "object": "Bolivia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Sucre is",
+     "target": "Bolivia"
+    },
+    "es": {
+     "subject": "Sucre",
+     "object": "Bolivia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Sucre se llama",
+     "target": "Bolivia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_068",
+   "relation": "capital_country",
+   "seed": 211137016,
+   "lang": {
+    "en": {
+     "subject": "San José",
+     "object": "Costa Rica",
+     "object_alts": [],
+     "prompt": "The country whose capital is San José is",
+     "target": "Costa Rica"
+    },
+    "es": {
+     "subject": "San José",
+     "object": "Costa Rica",
+     "object_alts": [],
+     "prompt": "El país cuya capital es San José se llama",
+     "target": "Costa Rica"
+    }
+   }
+  },
+  {
+   "id": "capital_country_069",
+   "relation": "capital_country",
+   "seed": 958323099,
+   "lang": {
+    "en": {
+     "subject": "Panama City",
+     "object": "Panama",
+     "object_alts": [],
+     "prompt": "The country whose capital is Panama City is",
+     "target": "Panama"
+    },
+    "es": {
+     "subject": "Ciudad de Panamá",
+     "object": "Panamá",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Ciudad de Panamá se llama",
+     "target": "Panamá"
+    }
+   }
+  },
+  {
+   "id": "capital_country_070",
+   "relation": "capital_country",
+   "seed": 385683045,
+   "lang": {
+    "en": {
+     "subject": "Cairo",
+     "object": "Egypt",
+     "object_alts": [],
+     "prompt": "The country whose capital is Cairo is",
+     "target": "Egypt"
+    },
+    "es": {
+     "subject": "El Cairo",
+     "object": "Egipto",
+     "object_alts": [],
+     "prompt": "El país cuya capital es El Cairo se llama",
+     "target": "Egipto"
+    }
+   }
+  },
+  {
+   "id": "capital_country_071",
+   "relation": "capital_country",
+   "seed": 2048223979,
+   "lang": {
+    "en": {
+     "subject": "Jerusalem",
+     "object": "Israel",
+     "object_alts": [],
+     "prompt": "The country whose capital is Jerusalem is",
+     "target": "Israel"
+    },
+    "es": {
+     "subject": "Jerusalén",
+     "object": "Israel",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Jerusalén se llama",
+     "target": "Israel"
+    }
+   }
+  },
+  {
+   "id": "capital_country_073",
+   "relation": "capital_country",
+   "seed": 233678700,
+   "lang": {
+    "en": {
+     "subject": "Bratislava",
+     "object": "Slovakia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Bratislava is",
+     "target": "Slovakia"
+    },
+    "es": {
+     "subject": "Bratislava",
+     "object": "Eslovaquia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Bratislava se llama",
+     "target": "Eslovaquia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_074",
+   "relation": "capital_country",
+   "seed": 1466670833,
+   "lang": {
+    "en": {
+     "subject": "Ljubljana",
+     "object": "Slovenia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Ljubljana is",
+     "target": "Slovenia"
+    },
+    "es": {
+     "subject": "Liubliana",
+     "object": "Eslovenia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Liubliana se llama",
+     "target": "Eslovenia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_075",
+   "relation": "capital_country",
+   "seed": 1735340783,
+   "lang": {
+    "en": {
+     "subject": "Tallinn",
+     "object": "Estonia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Tallinn is",
+     "target": "Estonia"
+    },
+    "es": {
+     "subject": "Tallin",
+     "object": "Estonia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Tallin se llama",
+     "target": "Estonia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_076",
+   "relation": "capital_country",
+   "seed": 1497455855,
+   "lang": {
+    "en": {
+     "subject": "Riga",
+     "object": "Latvia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Riga is",
+     "target": "Latvia"
+    },
+    "es": {
+     "subject": "Riga",
+     "object": "Letonia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Riga se llama",
+     "target": "Letonia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_077",
+   "relation": "capital_country",
+   "seed": 2003090077,
+   "lang": {
+    "en": {
+     "subject": "Vilnius",
+     "object": "Lithuania",
+     "object_alts": [],
+     "prompt": "The country whose capital is Vilnius is",
+     "target": "Lithuania"
+    },
+    "es": {
+     "subject": "Vilna",
+     "object": "Lituania",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Vilna se llama",
+     "target": "Lituania"
+    }
+   }
+  },
+  {
+   "id": "capital_country_078",
+   "relation": "capital_country",
+   "seed": 29092536,
+   "lang": {
+    "en": {
+     "subject": "Minsk",
+     "object": "Belarus",
+     "object_alts": [],
+     "prompt": "The country whose capital is Minsk is",
+     "target": "Belarus"
+    },
+    "es": {
+     "subject": "Minsk",
+     "object": "Bielorrusia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Minsk se llama",
+     "target": "Bielorrusia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_079",
+   "relation": "capital_country",
+   "seed": 1743109973,
+   "lang": {
+    "en": {
+     "subject": "Tbilisi",
+     "object": "Georgia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Tbilisi is",
+     "target": "Georgia"
+    },
+    "es": {
+     "subject": "Tiflis",
+     "object": "Georgia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Tiflis se llama",
+     "target": "Georgia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_080",
+   "relation": "capital_country",
+   "seed": 476895431,
+   "lang": {
+    "en": {
+     "subject": "Yerevan",
+     "object": "Armenia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Yerevan is",
+     "target": "Armenia"
+    },
+    "es": {
+     "subject": "Ereván",
+     "object": "Armenia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Ereván se llama",
+     "target": "Armenia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_083",
+   "relation": "capital_country",
+   "seed": 1469429836,
+   "lang": {
+    "en": {
+     "subject": "Tashkent",
+     "object": "Uzbekistan",
+     "object_alts": [],
+     "prompt": "The country whose capital is Tashkent is",
+     "target": "Uzbekistan"
+    },
+    "es": {
+     "subject": "Taskent",
+     "object": "Uzbekistán",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Taskent se llama",
+     "target": "Uzbekistán"
+    }
+   }
+  },
+  {
+   "id": "capital_country_084",
+   "relation": "capital_country",
+   "seed": 381067558,
+   "lang": {
+    "en": {
+     "subject": "Naypyidaw",
+     "object": "Myanmar",
+     "object_alts": [],
+     "prompt": "The country whose capital is Naypyidaw is",
+     "target": "Myanmar"
+    },
+    "es": {
+     "subject": "Naipyidó",
+     "object": "Birmania",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Naipyidó se llama",
+     "target": "Birmania"
+    }
+   }
+  },
+  {
+   "id": "capital_country_085",
+   "relation": "capital_country",
+   "seed": 1556497973,
+   "lang": {
+    "en": {
+     "subject": "Kuala Lumpur",
+     "object": "Malaysia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kuala Lumpur is",
+     "target": "Malaysia"
+    },
+    "es": {
+     "subject": "Kuala Lumpur",
+     "object": "Malasia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Kuala Lumpur se llama",
+     "target": "Malasia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_086",
+   "relation": "capital_country",
+   "seed": 1532346719,
+   "lang": {
+    "en": {
+     "subject": "Manila",
+     "object": "the Philippines",
+     "object_alts": [],
+     "prompt": "The country whose capital is Manila is",
+     "target": "the Philippines"
+    },
+    "es": {
+     "subject": "Manila",
+     "object": "Filipinas",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Manila se llama",
+     "target": "Filipinas"
+    }
+   }
+  },
+  {
+   "id": "capital_country_087",
+   "relation": "capital_country",
+   "seed": 875902177,
+   "lang": {
+    "en": {
+     "subject": "Vientiane",
+     "object": "Laos",
+     "object_alts": [],
+     "prompt": "The country whose capital is Vientiane is",
+     "target": "Laos"
+    },
+    "es": {
+     "subject": "Vientián",
+     "object": "Laos",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Vientián se llama",
+     "target": "Laos"
+    }
+   }
+  },
+  {
+   "id": "capital_country_088",
+   "relation": "capital_country",
+   "seed": 374357868,
+   "lang": {
+    "en": {
+     "subject": "Pyongyang",
+     "object": "North Korea",
+     "object_alts": [],
+     "prompt": "The country whose capital is Pyongyang is",
+     "target": "North Korea"
+    },
+    "es": {
+     "subject": "Pionyang",
+     "object": "Corea del Norte",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Pionyang se llama",
+     "target": "Corea del Norte"
+    }
+   }
+  },
+  {
+   "id": "capital_country_090",
+   "relation": "capital_country",
+   "seed": 76617176,
+   "lang": {
+    "en": {
+     "subject": "Dodoma",
+     "object": "Tanzania",
+     "object_alts": [],
+     "prompt": "The country whose capital is Dodoma is",
+     "target": "Tanzania"
+    },
+    "es": {
+     "subject": "Dodoma",
+     "object": "Tanzania",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Dodoma se llama",
+     "target": "Tanzania"
+    }
+   }
+  },
+  {
+   "id": "capital_country_091",
+   "relation": "capital_country",
+   "seed": 1578044425,
+   "lang": {
+    "en": {
+     "subject": "Kampala",
+     "object": "Uganda",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kampala is",
+     "target": "Uganda"
+    },
+    "es": {
+     "subject": "Kampala",
+     "object": "Uganda",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Kampala se llama",
+     "target": "Uganda"
+    }
+   }
+  },
+  {
+   "id": "capital_country_092",
+   "relation": "capital_country",
+   "seed": 1123385049,
+   "lang": {
+    "en": {
+     "subject": "Harare",
+     "object": "Zimbabwe",
+     "object_alts": [],
+     "prompt": "The country whose capital is Harare is",
+     "target": "Zimbabwe"
+    },
+    "es": {
+     "subject": "Harare",
+     "object": "Zimbabue",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Harare se llama",
+     "target": "Zimbabue"
+    }
+   }
+  },
+  {
+   "id": "capital_country_093",
+   "relation": "capital_country",
+   "seed": 814535879,
+   "lang": {
+    "en": {
+     "subject": "Lusaka",
+     "object": "Zambia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Lusaka is",
+     "target": "Zambia"
+    },
+    "es": {
+     "subject": "Lusaka",
+     "object": "Zambia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Lusaka se llama",
+     "target": "Zambia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_094",
+   "relation": "capital_country",
+   "seed": 240755570,
+   "lang": {
+    "en": {
+     "subject": "Luanda",
+     "object": "Angola",
+     "object_alts": [],
+     "prompt": "The country whose capital is Luanda is",
+     "target": "Angola"
+    },
+    "es": {
+     "subject": "Luanda",
+     "object": "Angola",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Luanda se llama",
+     "target": "Angola"
+    }
+   }
+  },
+  {
+   "id": "capital_country_095",
+   "relation": "capital_country",
+   "seed": 1263551267,
+   "lang": {
+    "en": {
+     "subject": "Dakar",
+     "object": "Senegal",
+     "object_alts": [],
+     "prompt": "The country whose capital is Dakar is",
+     "target": "Senegal"
+    },
+    "es": {
+     "subject": "Dakar",
+     "object": "Senegal",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Dakar se llama",
+     "target": "Senegal"
+    }
+   }
+  },
+  {
+   "id": "capital_country_097",
+   "relation": "capital_country",
+   "seed": 728420301,
+   "lang": {
+    "en": {
+     "subject": "Antananarivo",
+     "object": "Madagascar",
+     "object_alts": [],
+     "prompt": "The country whose capital is Antananarivo is",
+     "target": "Madagascar"
+    },
+    "es": {
+     "subject": "Antananarivo",
+     "object": "Madagascar",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Antananarivo se llama",
+     "target": "Madagascar"
+    }
+   }
+  },
+  {
+   "id": "capital_country_098",
+   "relation": "capital_country",
+   "seed": 1222127517,
+   "lang": {
+    "en": {
+     "subject": "Maputo",
+     "object": "Mozambique",
+     "object_alts": [],
+     "prompt": "The country whose capital is Maputo is",
+     "target": "Mozambique"
+    },
+    "es": {
+     "subject": "Maputo",
+     "object": "Mozambique",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Maputo se llama",
+     "target": "Mozambique"
+    }
+   }
+  },
+  {
+   "id": "capital_country_100",
+   "relation": "capital_country",
+   "seed": 1282807494,
+   "lang": {
+    "en": {
+     "subject": "Muscat",
+     "object": "Oman",
+     "object_alts": [],
+     "prompt": "The country whose capital is Muscat is",
+     "target": "Oman"
+    },
+    "es": {
+     "subject": "Mascate",
+     "object": "Omán",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Mascate se llama",
+     "target": "Omán"
+    }
+   }
+  },
+  {
+   "id": "capital_country_104",
+   "relation": "capital_country",
+   "seed": 1851145538,
+   "lang": {
+    "en": {
+     "subject": "Tirana",
+     "object": "Albania",
+     "object_alts": [],
+     "prompt": "The country whose capital is Tirana is",
+     "target": "Albania"
+    },
+    "es": {
+     "subject": "Tirana",
+     "object": "Albania",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Tirana se llama",
+     "target": "Albania"
+    }
+   }
+  },
+  {
+   "id": "capital_country_106",
+   "relation": "capital_country",
+   "seed": 593489295,
+   "lang": {
+    "en": {
+     "subject": "Nicosia",
+     "object": "Cyprus",
+     "object_alts": [],
+     "prompt": "The country whose capital is Nicosia is",
+     "target": "Cyprus"
+    },
+    "es": {
+     "subject": "Nicosia",
+     "object": "Chipre",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Nicosia se llama",
+     "target": "Chipre"
+    }
+   }
+  },
+  {
+   "id": "capital_country_108",
+   "relation": "capital_country",
+   "seed": 1936295722,
+   "lang": {
+    "en": {
+     "subject": "Tegucigalpa",
+     "object": "Honduras",
+     "object_alts": [],
+     "prompt": "The country whose capital is Tegucigalpa is",
+     "target": "Honduras"
+    },
+    "es": {
+     "subject": "Tegucigalpa",
+     "object": "Honduras",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Tegucigalpa se llama",
+     "target": "Honduras"
+    }
+   }
+  },
+  {
+   "id": "capital_country_109",
+   "relation": "capital_country",
+   "seed": 1018432417,
+   "lang": {
+    "en": {
+     "subject": "Managua",
+     "object": "Nicaragua",
+     "object_alts": [],
+     "prompt": "The country whose capital is Managua is",
+     "target": "Nicaragua"
+    },
+    "es": {
+     "subject": "Managua",
+     "object": "Nicaragua",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Managua se llama",
+     "target": "Nicaragua"
+    }
+   }
+  },
+  {
+   "id": "capital_country_111",
+   "relation": "capital_country",
+   "seed": 1310641297,
+   "lang": {
+    "en": {
+     "subject": "Port-au-Prince",
+     "object": "Haiti",
+     "object_alts": [],
+     "prompt": "The country whose capital is Port-au-Prince is",
+     "target": "Haiti"
+    },
+    "es": {
+     "subject": "Puerto Príncipe",
+     "object": "Haití",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Puerto Príncipe se llama",
+     "target": "Haití"
+    }
+   }
+  },
+  {
+   "id": "capital_country_112",
+   "relation": "capital_country",
+   "seed": 645474556,
+   "lang": {
+    "en": {
+     "subject": "Kigali",
+     "object": "Rwanda",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kigali is",
+     "target": "Rwanda"
+    },
+    "es": {
+     "subject": "Kigali",
+     "object": "Ruanda",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Kigali se llama",
+     "target": "Ruanda"
+    }
+   }
+  },
+  {
+   "id": "capital_country_113",
+   "relation": "capital_country",
+   "seed": 1936384467,
+   "lang": {
+    "en": {
+     "subject": "Mogadishu",
+     "object": "Somalia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Mogadishu is",
+     "target": "Somalia"
+    },
+    "es": {
+     "subject": "Mogadiscio",
+     "object": "Somalia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Mogadiscio se llama",
+     "target": "Somalia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_115",
+   "relation": "capital_country",
+   "seed": 735292766,
+   "lang": {
+    "en": {
+     "subject": "Windhoek",
+     "object": "Namibia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Windhoek is",
+     "target": "Namibia"
+    },
+    "es": {
+     "subject": "Windhoek",
+     "object": "Namibia",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Windhoek se llama",
+     "target": "Namibia"
+    }
+   }
+  },
+  {
+   "id": "capital_country_121",
+   "relation": "capital_country",
+   "seed": 2041710580,
+   "lang": {
+    "en": {
+     "subject": "Bishkek",
+     "object": "Kyrgyzstan",
+     "object_alts": [],
+     "prompt": "The country whose capital is Bishkek is",
+     "target": "Kyrgyzstan"
+    },
+    "es": {
+     "subject": "Biskek",
+     "object": "Kirguistán",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Biskek se llama",
+     "target": "Kirguistán"
+    }
+   }
+  },
+  {
+   "id": "capital_country_124",
+   "relation": "capital_country",
+   "seed": 1289466801,
+   "lang": {
+    "en": {
+     "subject": "Podgorica",
+     "object": "Montenegro",
+     "object_alts": [],
+     "prompt": "The country whose capital is Podgorica is",
+     "target": "Montenegro"
+    },
+    "es": {
+     "subject": "Podgorica",
+     "object": "Montenegro",
+     "object_alts": [],
+     "prompt": "El país cuya capital es Podgorica se llama",
+     "target": "Montenegro"
+    }
+   }
+  },
+  {
+   "id": "capital_of_032",
+   "relation": "capital_of",
+   "seed": 504611287,
+   "lang": {
+    "en": {
+     "subject": "Pakistan",
+     "object": "Islamabad",
+     "object_alts": [],
+     "prompt": "The capital city of Pakistan is called",
+     "target": "Islamabad"
+    },
+    "es": {
+     "subject": "Pakistán",
+     "object": "Islamabad",
+     "object_alts": [],
+     "prompt": "La capital de Pakistán se llama",
+     "target": "Islamabad"
+    }
+   }
+  },
+  {
+   "id": "capital_of_035",
+   "relation": "capital_of",
+   "seed": 91056139,
+   "lang": {
+    "en": {
+     "subject": "Sri Lanka",
+     "object": "Colombo",
+     "object_alts": [],
+     "prompt": "The capital city of Sri Lanka is called",
+     "target": "Colombo"
+    },
+    "es": {
+     "subject": "Sri Lanka",
+     "object": "Colombo",
+     "object_alts": [],
+     "prompt": "La capital de Sri Lanka se llama",
+     "target": "Colombo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_036",
+   "relation": "capital_of",
+   "seed": 338323185,
+   "lang": {
+    "en": {
+     "subject": "Iran",
+     "object": "Tehran",
+     "object_alts": [],
+     "prompt": "The capital city of Iran is called",
+     "target": "Tehran"
+    },
+    "es": {
+     "subject": "Irán",
+     "object": "Teherán",
+     "object_alts": [],
+     "prompt": "La capital de Irán se llama",
+     "target": "Teherán"
+    }
+   }
+  },
+  {
+   "id": "capital_of_037",
+   "relation": "capital_of",
+   "seed": 860272675,
+   "lang": {
+    "en": {
+     "subject": "Iraq",
+     "object": "Baghdad",
+     "object_alts": [],
+     "prompt": "The capital city of Iraq is called",
+     "target": "Baghdad"
+    },
+    "es": {
+     "subject": "Irak",
+     "object": "Bagdad",
+     "object_alts": [],
+     "prompt": "La capital de Irak se llama",
+     "target": "Bagdad"
+    }
+   }
+  },
+  {
+   "id": "capital_of_038",
+   "relation": "capital_of",
+   "seed": 1115304880,
+   "lang": {
+    "en": {
+     "subject": "Saudi Arabia",
+     "object": "Riyadh",
+     "object_alts": [],
+     "prompt": "The capital city of Saudi Arabia is called",
+     "target": "Riyadh"
+    },
+    "es": {
+     "subject": "Arabia Saudita",
+     "object": "Riad",
+     "object_alts": [],
+     "prompt": "La capital de Arabia Saudita se llama",
+     "target": "Riad"
+    }
+   }
+  },
+  {
+   "id": "capital_of_039",
+   "relation": "capital_of",
+   "seed": 2107477237,
+   "lang": {
+    "en": {
+     "subject": "Kenya",
+     "object": "Nairobi",
+     "object_alts": [],
+     "prompt": "The capital city of Kenya is called",
+     "target": "Nairobi"
+    },
+    "es": {
+     "subject": "Kenia",
+     "object": "Nairobi",
+     "object_alts": [],
+     "prompt": "La capital de Kenia se llama",
+     "target": "Nairobi"
+    }
+   }
+  },
+  {
+   "id": "capital_of_042",
+   "relation": "capital_of",
+   "seed": 428967276,
+   "lang": {
+    "en": {
+     "subject": "Morocco",
+     "object": "Rabat",
+     "object_alts": [],
+     "prompt": "The capital city of Morocco is called",
+     "target": "Rabat"
+    },
+    "es": {
+     "subject": "Marruecos",
+     "object": "Rabat",
+     "object_alts": [],
+     "prompt": "La capital de Marruecos se llama",
+     "target": "Rabat"
+    }
+   }
+  },
+  {
+   "id": "capital_of_046",
+   "relation": "capital_of",
+   "seed": 184532903,
+   "lang": {
+    "en": {
+     "subject": "Hungary",
+     "object": "Budapest",
+     "object_alts": [],
+     "prompt": "The capital city of Hungary is called",
+     "target": "Budapest"
+    },
+    "es": {
+     "subject": "Hungría",
+     "object": "Budapest",
+     "object_alts": [],
+     "prompt": "La capital de Hungría se llama",
+     "target": "Budapest"
+    }
+   }
+  },
+  {
+   "id": "capital_of_047",
+   "relation": "capital_of",
+   "seed": 1359031918,
+   "lang": {
+    "en": {
+     "subject": "Romania",
+     "object": "Bucharest",
+     "object_alts": [],
+     "prompt": "The capital city of Romania is called",
+     "target": "Bucharest"
+    },
+    "es": {
+     "subject": "Rumania",
+     "object": "Bucarest",
+     "object_alts": [],
+     "prompt": "La capital de Rumania se llama",
+     "target": "Bucarest"
+    }
+   }
+  },
+  {
+   "id": "capital_of_048",
+   "relation": "capital_of",
+   "seed": 252456768,
+   "lang": {
+    "en": {
+     "subject": "Ukraine",
+     "object": "Kyiv",
+     "object_alts": [],
+     "prompt": "The capital city of Ukraine is called",
+     "target": "Kyiv"
+    },
+    "es": {
+     "subject": "Ucrania",
+     "object": "Kiev",
+     "object_alts": [],
+     "prompt": "La capital de Ucrania se llama",
+     "target": "Kiev"
+    }
+   }
+  },
+  {
+   "id": "capital_of_049",
+   "relation": "capital_of",
+   "seed": 905248288,
+   "lang": {
+    "en": {
+     "subject": "Bulgaria",
+     "object": "Sofia",
+     "object_alts": [],
+     "prompt": "The capital city of Bulgaria is called",
+     "target": "Sofia"
+    },
+    "es": {
+     "subject": "Bulgaria",
+     "object": "Sofía",
+     "object_alts": [],
+     "prompt": "La capital de Bulgaria se llama",
+     "target": "Sofía"
+    }
+   }
+  },
+  {
+   "id": "capital_of_050",
+   "relation": "capital_of",
+   "seed": 474588998,
+   "lang": {
+    "en": {
+     "subject": "Serbia",
+     "object": "Belgrade",
+     "object_alts": [],
+     "prompt": "The capital city of Serbia is called",
+     "target": "Belgrade"
+    },
+    "es": {
+     "subject": "Serbia",
+     "object": "Belgrado",
+     "object_alts": [],
+     "prompt": "La capital de Serbia se llama",
+     "target": "Belgrado"
+    }
+   }
+  },
+  {
+   "id": "capital_of_051",
+   "relation": "capital_of",
+   "seed": 922838153,
+   "lang": {
+    "en": {
+     "subject": "Croatia",
+     "object": "Zagreb",
+     "object_alts": [],
+     "prompt": "The capital city of Croatia is called",
+     "target": "Zagreb"
+    },
+    "es": {
+     "subject": "Croacia",
+     "object": "Zagreb",
+     "object_alts": [],
+     "prompt": "La capital de Croacia se llama",
+     "target": "Zagreb"
+    }
+   }
+  },
+  {
+   "id": "capital_of_054",
+   "relation": "capital_of",
+   "seed": 1123400112,
+   "lang": {
+    "en": {
+     "subject": "Afghanistan",
+     "object": "Kabul",
+     "object_alts": [],
+     "prompt": "The capital city of Afghanistan is called",
+     "target": "Kabul"
+    },
+    "es": {
+     "subject": "Afganistán",
+     "object": "Kabul",
+     "object_alts": [],
+     "prompt": "La capital de Afganistán se llama",
+     "target": "Kabul"
+    }
+   }
+  },
+  {
+   "id": "capital_of_056",
+   "relation": "capital_of",
+   "seed": 1893950898,
+   "lang": {
+    "en": {
+     "subject": "South Korea",
+     "object": "Seoul",
+     "object_alts": [],
+     "prompt": "The capital city of South Korea is called",
+     "target": "Seoul"
+    },
+    "es": {
+     "subject": "Corea del Sur",
+     "object": "Seúl",
+     "object_alts": [],
+     "prompt": "La capital de Corea del Sur se llama",
+     "target": "Seúl"
+    }
+   }
+  },
+  {
+   "id": "capital_of_058",
+   "relation": "capital_of",
+   "seed": 823452684,
+   "lang": {
+    "en": {
+     "subject": "Lebanon",
+     "object": "Beirut",
+     "object_alts": [],
+     "prompt": "The capital city of Lebanon is called",
+     "target": "Beirut"
+    },
+    "es": {
+     "subject": "Líbano",
+     "object": "Beirut",
+     "object_alts": [],
+     "prompt": "La capital de Líbano se llama",
+     "target": "Beirut"
+    }
+   }
+  },
+  {
+   "id": "capital_of_059",
+   "relation": "capital_of",
+   "seed": 19398460,
+   "lang": {
+    "en": {
+     "subject": "Syria",
+     "object": "Damascus",
+     "object_alts": [],
+     "prompt": "The capital city of Syria is called",
+     "target": "Damascus"
+    },
+    "es": {
+     "subject": "Siria",
+     "object": "Damasco",
+     "object_alts": [],
+     "prompt": "La capital de Siria se llama",
+     "target": "Damasco"
+    }
+   }
+  },
+  {
+   "id": "capital_of_061",
+   "relation": "capital_of",
+   "seed": 128978415,
+   "lang": {
+    "en": {
+     "subject": "Uruguay",
+     "object": "Montevideo",
+     "object_alts": [],
+     "prompt": "The capital city of Uruguay is called",
+     "target": "Montevideo"
+    },
+    "es": {
+     "subject": "Uruguay",
+     "object": "Montevideo",
+     "object_alts": [],
+     "prompt": "La capital de Uruguay se llama",
+     "target": "Montevideo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_062",
+   "relation": "capital_of",
+   "seed": 1903015886,
+   "lang": {
+    "en": {
+     "subject": "Ecuador",
+     "object": "Quito",
+     "object_alts": [],
+     "prompt": "The capital city of Ecuador is called",
+     "target": "Quito"
+    },
+    "es": {
+     "subject": "Ecuador",
+     "object": "Quito",
+     "object_alts": [],
+     "prompt": "La capital de Ecuador se llama",
+     "target": "Quito"
+    }
+   }
+  },
+  {
+   "id": "capital_of_063",
+   "relation": "capital_of",
+   "seed": 479130591,
+   "lang": {
+    "en": {
+     "subject": "Paraguay",
+     "object": "Asunción",
+     "object_alts": [],
+     "prompt": "The capital city of Paraguay is called",
+     "target": "Asunción"
+    },
+    "es": {
+     "subject": "Paraguay",
+     "object": "Asunción",
+     "object_alts": [],
+     "prompt": "La capital de Paraguay se llama",
+     "target": "Asunción"
+    }
+   }
+  },
+  {
+   "id": "capital_of_064",
+   "relation": "capital_of",
+   "seed": 1858175152,
+   "lang": {
+    "en": {
+     "subject": "Jamaica",
+     "object": "Kingston",
+     "object_alts": [],
+     "prompt": "The capital city of Jamaica is called",
+     "target": "Kingston"
+    },
+    "es": {
+     "subject": "Jamaica",
+     "object": "Kingston",
+     "object_alts": [],
+     "prompt": "La capital de Jamaica se llama",
+     "target": "Kingston"
+    }
+   }
+  },
+  {
+   "id": "capital_of_065",
+   "relation": "capital_of",
+   "seed": 1284684985,
+   "lang": {
+    "en": {
+     "subject": "New Zealand",
+     "object": "Wellington",
+     "object_alts": [],
+     "prompt": "The capital city of New Zealand is called",
+     "target": "Wellington"
+    },
+    "es": {
+     "subject": "Nueva Zelanda",
+     "object": "Wellington",
+     "object_alts": [],
+     "prompt": "La capital de Nueva Zelanda se llama",
+     "target": "Wellington"
+    }
+   }
+  },
+  {
+   "id": "capital_of_066",
+   "relation": "capital_of",
+   "seed": 1071583359,
+   "lang": {
+    "en": {
+     "subject": "Cuba",
+     "object": "Havana",
+     "object_alts": [],
+     "prompt": "The capital city of Cuba is called",
+     "target": "Havana"
+    },
+    "es": {
+     "subject": "Cuba",
+     "object": "La Habana",
+     "object_alts": [],
+     "prompt": "La capital de Cuba se llama",
+     "target": "La Habana"
+    }
+   }
+  },
+  {
+   "id": "capital_of_072",
+   "relation": "capital_of",
+   "seed": 1684157163,
+   "lang": {
+    "en": {
+     "subject": "the Czech Republic",
+     "object": "Prague",
+     "object_alts": [],
+     "prompt": "The capital city of the Czech Republic is called",
+     "target": "Prague"
+    },
+    "es": {
+     "subject": "la República Checa",
+     "object": "Praga",
+     "object_alts": [],
+     "prompt": "La capital de la República Checa se llama",
+     "target": "Praga"
+    }
+   }
+  },
+  {
+   "id": "capital_of_073",
+   "relation": "capital_of",
+   "seed": 888643595,
+   "lang": {
+    "en": {
+     "subject": "Slovakia",
+     "object": "Bratislava",
+     "object_alts": [],
+     "prompt": "The capital city of Slovakia is called",
+     "target": "Bratislava"
+    },
+    "es": {
+     "subject": "Eslovaquia",
+     "object": "Bratislava",
+     "object_alts": [],
+     "prompt": "La capital de Eslovaquia se llama",
+     "target": "Bratislava"
+    }
+   }
+  },
+  {
+   "id": "capital_of_075",
+   "relation": "capital_of",
+   "seed": 419164074,
+   "lang": {
+    "en": {
+     "subject": "Estonia",
+     "object": "Tallinn",
+     "object_alts": [],
+     "prompt": "The capital city of Estonia is called",
+     "target": "Tallinn"
+    },
+    "es": {
+     "subject": "Estonia",
+     "object": "Tallin",
+     "object_alts": [],
+     "prompt": "La capital de Estonia se llama",
+     "target": "Tallin"
+    }
+   }
+  },
+  {
+   "id": "capital_of_076",
+   "relation": "capital_of",
+   "seed": 214145102,
+   "lang": {
+    "en": {
+     "subject": "Latvia",
+     "object": "Riga",
+     "object_alts": [],
+     "prompt": "The capital city of Latvia is called",
+     "target": "Riga"
+    },
+    "es": {
+     "subject": "Letonia",
+     "object": "Riga",
+     "object_alts": [],
+     "prompt": "La capital de Letonia se llama",
+     "target": "Riga"
+    }
+   }
+  },
+  {
+   "id": "capital_of_078",
+   "relation": "capital_of",
+   "seed": 77739844,
+   "lang": {
+    "en": {
+     "subject": "Belarus",
+     "object": "Minsk",
+     "object_alts": [],
+     "prompt": "The capital city of Belarus is called",
+     "target": "Minsk"
+    },
+    "es": {
+     "subject": "Bielorrusia",
+     "object": "Minsk",
+     "object_alts": [],
+     "prompt": "La capital de Bielorrusia se llama",
+     "target": "Minsk"
+    }
+   }
+  },
+  {
+   "id": "capital_of_081",
+   "relation": "capital_of",
+   "seed": 289834539,
+   "lang": {
+    "en": {
+     "subject": "Azerbaijan",
+     "object": "Baku",
+     "object_alts": [],
+     "prompt": "The capital city of Azerbaijan is called",
+     "target": "Baku"
+    },
+    "es": {
+     "subject": "Azerbaiyán",
+     "object": "Bakú",
+     "object_alts": [],
+     "prompt": "La capital de Azerbaiyán se llama",
+     "target": "Bakú"
+    }
+   }
+  },
+  {
+   "id": "capital_of_085",
+   "relation": "capital_of",
+   "seed": 221055698,
+   "lang": {
+    "en": {
+     "subject": "Malaysia",
+     "object": "Kuala Lumpur",
+     "object_alts": [],
+     "prompt": "The capital city of Malaysia is called",
+     "target": "Kuala Lumpur"
+    },
+    "es": {
+     "subject": "Malasia",
+     "object": "Kuala Lumpur",
+     "object_alts": [],
+     "prompt": "La capital de Malasia se llama",
+     "target": "Kuala Lumpur"
+    }
+   }
+  },
+  {
+   "id": "capital_of_086",
+   "relation": "capital_of",
+   "seed": 1400682310,
+   "lang": {
+    "en": {
+     "subject": "the Philippines",
+     "object": "Manila",
+     "object_alts": [],
+     "prompt": "The capital city of the Philippines is called",
+     "target": "Manila"
+    },
+    "es": {
+     "subject": "Filipinas",
+     "object": "Manila",
+     "object_alts": [],
+     "prompt": "La capital de Filipinas se llama",
+     "target": "Manila"
+    }
+   }
+  },
+  {
+   "id": "capital_of_091",
+   "relation": "capital_of",
+   "seed": 1727417973,
+   "lang": {
+    "en": {
+     "subject": "Uganda",
+     "object": "Kampala",
+     "object_alts": [],
+     "prompt": "The capital city of Uganda is called",
+     "target": "Kampala"
+    },
+    "es": {
+     "subject": "Uganda",
+     "object": "Kampala",
+     "object_alts": [],
+     "prompt": "La capital de Uganda se llama",
+     "target": "Kampala"
+    }
+   }
+  },
+  {
+   "id": "capital_of_092",
+   "relation": "capital_of",
+   "seed": 784912305,
+   "lang": {
+    "en": {
+     "subject": "Zimbabwe",
+     "object": "Harare",
+     "object_alts": [],
+     "prompt": "The capital city of Zimbabwe is called",
+     "target": "Harare"
+    },
+    "es": {
+     "subject": "Zimbabue",
+     "object": "Harare",
+     "object_alts": [],
+     "prompt": "La capital de Zimbabue se llama",
+     "target": "Harare"
+    }
+   }
+  },
+  {
+   "id": "capital_of_093",
+   "relation": "capital_of",
+   "seed": 1225116724,
+   "lang": {
+    "en": {
+     "subject": "Zambia",
+     "object": "Lusaka",
+     "object_alts": [],
+     "prompt": "The capital city of Zambia is called",
+     "target": "Lusaka"
+    },
+    "es": {
+     "subject": "Zambia",
+     "object": "Lusaka",
+     "object_alts": [],
+     "prompt": "La capital de Zambia se llama",
+     "target": "Lusaka"
+    }
+   }
+  },
+  {
+   "id": "capital_of_094",
+   "relation": "capital_of",
+   "seed": 1752363437,
+   "lang": {
+    "en": {
+     "subject": "Angola",
+     "object": "Luanda",
+     "object_alts": [],
+     "prompt": "The capital city of Angola is called",
+     "target": "Luanda"
+    },
+    "es": {
+     "subject": "Angola",
+     "object": "Luanda",
+     "object_alts": [],
+     "prompt": "La capital de Angola se llama",
+     "target": "Luanda"
+    }
+   }
+  },
+  {
+   "id": "capital_of_095",
+   "relation": "capital_of",
+   "seed": 196594806,
+   "lang": {
+    "en": {
+     "subject": "Senegal",
+     "object": "Dakar",
+     "object_alts": [],
+     "prompt": "The capital city of Senegal is called",
+     "target": "Dakar"
+    },
+    "es": {
+     "subject": "Senegal",
+     "object": "Dakar",
+     "object_alts": [],
+     "prompt": "La capital de Senegal se llama",
+     "target": "Dakar"
+    }
+   }
+  },
+  {
+   "id": "capital_of_097",
+   "relation": "capital_of",
+   "seed": 1555007804,
+   "lang": {
+    "en": {
+     "subject": "Madagascar",
+     "object": "Antananarivo",
+     "object_alts": [],
+     "prompt": "The capital city of Madagascar is called",
+     "target": "Antananarivo"
+    },
+    "es": {
+     "subject": "Madagascar",
+     "object": "Antananarivo",
+     "object_alts": [],
+     "prompt": "La capital de Madagascar se llama",
+     "target": "Antananarivo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_098",
+   "relation": "capital_of",
+   "seed": 1625364395,
+   "lang": {
+    "en": {
+     "subject": "Mozambique",
+     "object": "Maputo",
+     "object_alts": [],
+     "prompt": "The capital city of Mozambique is called",
+     "target": "Maputo"
+    },
+    "es": {
+     "subject": "Mozambique",
+     "object": "Maputo",
+     "object_alts": [],
+     "prompt": "La capital de Mozambique se llama",
+     "target": "Maputo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_101",
+   "relation": "capital_of",
+   "seed": 1837764820,
+   "lang": {
+    "en": {
+     "subject": "Qatar",
+     "object": "Doha",
+     "object_alts": [],
+     "prompt": "The capital city of Qatar is called",
+     "target": "Doha"
+    },
+    "es": {
+     "subject": "Catar",
+     "object": "Doha",
+     "object_alts": [],
+     "prompt": "La capital de Catar se llama",
+     "target": "Doha"
+    }
+   }
+  },
+  {
+   "id": "capital_of_102",
+   "relation": "capital_of",
+   "seed": 507702553,
+   "lang": {
+    "en": {
+     "subject": "the Netherlands",
+     "object": "Amsterdam",
+     "object_alts": [],
+     "prompt": "The capital city of the Netherlands is called",
+     "target": "Amsterdam"
+    },
+    "es": {
+     "subject": "los Países Bajos",
+     "object": "Ámsterdam",
+     "object_alts": [],
+     "prompt": "La capital de los Países Bajos se llama",
+     "target": "Ámsterdam"
+    }
+   }
+  },
+  {
+   "id": "capital_of_103",
+   "relation": "capital_of",
+   "seed": 491204345,
+   "lang": {
+    "en": {
+     "subject": "the United Kingdom",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The capital city of the United Kingdom is called",
+     "target": "London"
+    },
+    "es": {
+     "subject": "el Reino Unido",
+     "object": "Londres",
+     "object_alts": [],
+     "prompt": "La capital de el Reino Unido se llama",
+     "target": "Londres"
+    }
+   }
+  },
+  {
+   "id": "capital_of_104",
+   "relation": "capital_of",
+   "seed": 713316774,
+   "lang": {
+    "en": {
+     "subject": "Albania",
+     "object": "Tirana",
+     "object_alts": [],
+     "prompt": "The capital city of Albania is called",
+     "target": "Tirana"
+    },
+    "es": {
+     "subject": "Albania",
+     "object": "Tirana",
+     "object_alts": [],
+     "prompt": "La capital de Albania se llama",
+     "target": "Tirana"
+    }
+   }
+  },
+  {
+   "id": "capital_of_106",
+   "relation": "capital_of",
+   "seed": 1968831155,
+   "lang": {
+    "en": {
+     "subject": "Cyprus",
+     "object": "Nicosia",
+     "object_alts": [],
+     "prompt": "The capital city of Cyprus is called",
+     "target": "Nicosia"
+    },
+    "es": {
+     "subject": "Chipre",
+     "object": "Nicosia",
+     "object_alts": [],
+     "prompt": "La capital de Chipre se llama",
+     "target": "Nicosia"
+    }
+   }
+  },
+  {
+   "id": "capital_of_108",
+   "relation": "capital_of",
+   "seed": 929623914,
+   "lang": {
+    "en": {
+     "subject": "Honduras",
+     "object": "Tegucigalpa",
+     "object_alts": [],
+     "prompt": "The capital city of Honduras is called",
+     "target": "Tegucigalpa"
+    },
+    "es": {
+     "subject": "Honduras",
+     "object": "Tegucigalpa",
+     "object_alts": [],
+     "prompt": "La capital de Honduras se llama",
+     "target": "Tegucigalpa"
+    }
+   }
+  },
+  {
+   "id": "capital_of_109",
+   "relation": "capital_of",
+   "seed": 162556257,
+   "lang": {
+    "en": {
+     "subject": "Nicaragua",
+     "object": "Managua",
+     "object_alts": [],
+     "prompt": "The capital city of Nicaragua is called",
+     "target": "Managua"
+    },
+    "es": {
+     "subject": "Nicaragua",
+     "object": "Managua",
+     "object_alts": [],
+     "prompt": "La capital de Nicaragua se llama",
+     "target": "Managua"
+    }
+   }
+  },
+  {
+   "id": "capital_of_110",
+   "relation": "capital_of",
+   "seed": 768022020,
+   "lang": {
+    "en": {
+     "subject": "the Dominican Republic",
+     "object": "Santo Domingo",
+     "object_alts": [],
+     "prompt": "The capital city of the Dominican Republic is called",
+     "target": "Santo Domingo"
+    },
+    "es": {
+     "subject": "la República Dominicana",
+     "object": "Santo Domingo",
+     "object_alts": [],
+     "prompt": "La capital de la República Dominicana se llama",
+     "target": "Santo Domingo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_112",
+   "relation": "capital_of",
+   "seed": 1155247318,
+   "lang": {
+    "en": {
+     "subject": "Rwanda",
+     "object": "Kigali",
+     "object_alts": [],
+     "prompt": "The capital city of Rwanda is called",
+     "target": "Kigali"
+    },
+    "es": {
+     "subject": "Ruanda",
+     "object": "Kigali",
+     "object_alts": [],
+     "prompt": "La capital de Ruanda se llama",
+     "target": "Kigali"
+    }
+   }
+  },
+  {
+   "id": "capital_of_113",
+   "relation": "capital_of",
+   "seed": 1955745670,
+   "lang": {
+    "en": {
+     "subject": "Somalia",
+     "object": "Mogadishu",
+     "object_alts": [],
+     "prompt": "The capital city of Somalia is called",
+     "target": "Mogadishu"
+    },
+    "es": {
+     "subject": "Somalia",
+     "object": "Mogadiscio",
+     "object_alts": [],
+     "prompt": "La capital de Somalia se llama",
+     "target": "Mogadiscio"
+    }
+   }
+  },
+  {
+   "id": "capital_of_114",
+   "relation": "capital_of",
+   "seed": 1427495941,
+   "lang": {
+    "en": {
+     "subject": "Botswana",
+     "object": "Gaborone",
+     "object_alts": [],
+     "prompt": "The capital city of Botswana is called",
+     "target": "Gaborone"
+    },
+    "es": {
+     "subject": "Botsuana",
+     "object": "Gaborone",
+     "object_alts": [],
+     "prompt": "La capital de Botsuana se llama",
+     "target": "Gaborone"
+    }
+   }
+  },
+  {
+   "id": "capital_of_115",
+   "relation": "capital_of",
+   "seed": 1009208647,
+   "lang": {
+    "en": {
+     "subject": "Namibia",
+     "object": "Windhoek",
+     "object_alts": [],
+     "prompt": "The capital city of Namibia is called",
+     "target": "Windhoek"
+    },
+    "es": {
+     "subject": "Namibia",
+     "object": "Windhoek",
+     "object_alts": [],
+     "prompt": "La capital de Namibia se llama",
+     "target": "Windhoek"
+    }
+   }
+  },
+  {
+   "id": "capital_of_117",
+   "relation": "capital_of",
+   "seed": 217154609,
+   "lang": {
+    "en": {
+     "subject": "Bahrain",
+     "object": "Manama",
+     "object_alts": [],
+     "prompt": "The capital city of Bahrain is called",
+     "target": "Manama"
+    },
+    "es": {
+     "subject": "Baréin",
+     "object": "Manama",
+     "object_alts": [],
+     "prompt": "La capital de Baréin se llama",
+     "target": "Manama"
+    }
+   }
+  },
+  {
+   "id": "capital_of_119",
+   "relation": "capital_of",
+   "seed": 2009475688,
+   "lang": {
+    "en": {
+     "subject": "Fiji",
+     "object": "Suva",
+     "object_alts": [],
+     "prompt": "The capital city of Fiji is called",
+     "target": "Suva"
+    },
+    "es": {
+     "subject": "Fiyi",
+     "object": "Suva",
+     "object_alts": [],
+     "prompt": "La capital de Fiyi se llama",
+     "target": "Suva"
+    }
+   }
+  },
+  {
+   "id": "capital_of_124",
+   "relation": "capital_of",
+   "seed": 932642316,
+   "lang": {
+    "en": {
+     "subject": "Montenegro",
+     "object": "Podgorica",
+     "object_alts": [],
+     "prompt": "The capital city of Montenegro is called",
+     "target": "Podgorica"
+    },
+    "es": {
+     "subject": "Montenegro",
+     "object": "Podgorica",
+     "object_alts": [],
+     "prompt": "La capital de Montenegro se llama",
+     "target": "Podgorica"
+    }
+   }
+  },
+  {
+   "id": "city_country_030",
+   "relation": "city_country",
+   "seed": 2028254763,
+   "lang": {
+    "en": {
+     "subject": "Brisbane",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "You can visit Brisbane in the country of",
+     "target": "Australia"
+    },
+    "es": {
+     "subject": "Brisbane",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "El país donde está Brisbane se llama",
+     "target": "Australia"
+    }
+   }
+  },
+  {
+   "id": "city_country_031",
+   "relation": "city_country",
+   "seed": 2117191724,
+   "lang": {
+    "en": {
+     "subject": "Perth",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "You can visit Perth in the country of",
+     "target": "Australia"
+    },
+    "es": {
+     "subject": "Perth",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "El país donde está Perth se llama",
+     "target": "Australia"
+    }
+   }
+  },
+  {
+   "id": "city_country_032",
+   "relation": "city_country",
+   "seed": 488515214,
+   "lang": {
+    "en": {
+     "subject": "Toronto",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "You can visit Toronto in the country of",
+     "target": "Canada"
+    },
+    "es": {
+     "subject": "Toronto",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompt": "El país donde está Toronto se llama",
+     "target": "Canadá"
+    }
+   }
+  },
+  {
+   "id": "city_country_033",
+   "relation": "city_country",
+   "seed": 1066016499,
+   "lang": {
+    "en": {
+     "subject": "Vancouver",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "You can visit Vancouver in the country of",
+     "target": "Canada"
+    },
+    "es": {
+     "subject": "Vancouver",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompt": "El país donde está Vancouver se llama",
+     "target": "Canadá"
+    }
+   }
+  },
+  {
+   "id": "city_country_034",
+   "relation": "city_country",
+   "seed": 33814939,
+   "lang": {
+    "en": {
+     "subject": "Montreal",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "You can visit Montreal in the country of",
+     "target": "Canada"
+    },
+    "es": {
+     "subject": "Montreal",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompt": "El país donde está Montreal se llama",
+     "target": "Canadá"
+    }
+   }
+  },
+  {
+   "id": "city_country_035",
+   "relation": "city_country",
+   "seed": 298635876,
+   "lang": {
+    "en": {
+     "subject": "New York",
+     "object": "the United States",
+     "object_alts": [],
+     "prompt": "You can visit New York in the country of",
+     "target": "the United States"
+    },
+    "es": {
+     "subject": "Nueva York",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompt": "El país donde está Nueva York se llama",
+     "target": "Estados Unidos"
+    }
+   }
+  },
+  {
+   "id": "city_country_042",
+   "relation": "city_country",
+   "seed": 185776689,
+   "lang": {
+    "en": {
+     "subject": "San Francisco",
+     "object": "the United States",
+     "object_alts": [],
+     "prompt": "You can visit San Francisco in the country of",
+     "target": "the United States"
+    },
+    "es": {
+     "subject": "San Francisco",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompt": "El país donde está San Francisco se llama",
+     "target": "Estados Unidos"
+    }
+   }
+  },
+  {
+   "id": "city_country_043",
+   "relation": "city_country",
+   "seed": 1086766568,
+   "lang": {
+    "en": {
+     "subject": "Rio de Janeiro",
+     "object": "Brazil",
+     "object_alts": [],
+     "prompt": "You can visit Rio de Janeiro in the country of",
+     "target": "Brazil"
+    },
+    "es": {
+     "subject": "Río de Janeiro",
+     "object": "Brasil",
+     "object_alts": [],
+     "prompt": "El país donde está Río de Janeiro se llama",
+     "target": "Brasil"
+    }
+   }
+  },
+  {
+   "id": "city_country_044",
+   "relation": "city_country",
+   "seed": 1982949192,
+   "lang": {
+    "en": {
+     "subject": "São Paulo",
+     "object": "Brazil",
+     "object_alts": [],
+     "prompt": "You can visit São Paulo in the country of",
+     "target": "Brazil"
+    },
+    "es": {
+     "subject": "São Paulo",
+     "object": "Brasil",
+     "object_alts": [],
+     "prompt": "El país donde está São Paulo se llama",
+     "target": "Brasil"
+    }
+   }
+  },
+  {
+   "id": "city_country_045",
+   "relation": "city_country",
+   "seed": 734995139,
+   "lang": {
+    "en": {
+     "subject": "Shanghai",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "You can visit Shanghai in the country of",
+     "target": "China"
+    },
+    "es": {
+     "subject": "Shanghái",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "El país donde está Shanghái se llama",
+     "target": "China"
+    }
+   }
+  },
+  {
+   "id": "city_country_047",
+   "relation": "city_country",
+   "seed": 9725991,
+   "lang": {
+    "en": {
+     "subject": "Shenzhen",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "You can visit Shenzhen in the country of",
+     "target": "China"
+    },
+    "es": {
+     "subject": "Shenzhen",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "El país donde está Shenzhen se llama",
+     "target": "China"
+    }
+   }
+  },
+  {
+   "id": "city_country_048",
+   "relation": "city_country",
+   "seed": 1908097033,
+   "lang": {
+    "en": {
+     "subject": "Chengdu",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "You can visit Chengdu in the country of",
+     "target": "China"
+    },
+    "es": {
+     "subject": "Chengdú",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "El país donde está Chengdú se llama",
+     "target": "China"
+    }
+   }
+  },
+  {
+   "id": "city_country_049",
+   "relation": "city_country",
+   "seed": 1900766124,
+   "lang": {
+    "en": {
+     "subject": "Osaka",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "You can visit Osaka in the country of",
+     "target": "Japan"
+    },
+    "es": {
+     "subject": "Osaka",
+     "object": "Japón",
+     "object_alts": [],
+     "prompt": "El país donde está Osaka se llama",
+     "target": "Japón"
+    }
+   }
+  },
+  {
+   "id": "city_country_050",
+   "relation": "city_country",
+   "seed": 1972641372,
+   "lang": {
+    "en": {
+     "subject": "Kyoto",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "You can visit Kyoto in the country of",
+     "target": "Japan"
+    },
+    "es": {
+     "subject": "Kioto",
+     "object": "Japón",
+     "object_alts": [],
+     "prompt": "El país donde está Kioto se llama",
+     "target": "Japón"
+    }
+   }
+  },
+  {
+   "id": "city_country_051",
+   "relation": "city_country",
+   "seed": 1234914066,
+   "lang": {
+    "en": {
+     "subject": "Yokohama",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "You can visit Yokohama in the country of",
+     "target": "Japan"
+    },
+    "es": {
+     "subject": "Yokohama",
+     "object": "Japón",
+     "object_alts": [],
+     "prompt": "El país donde está Yokohama se llama",
+     "target": "Japón"
+    }
+   }
+  },
+  {
+   "id": "city_country_052",
+   "relation": "city_country",
+   "seed": 1979530094,
+   "lang": {
+    "en": {
+     "subject": "Busan",
+     "object": "South Korea",
+     "object_alts": [],
+     "prompt": "You can visit Busan in the country of",
+     "target": "South Korea"
+    },
+    "es": {
+     "subject": "Busan",
+     "object": "Corea del Sur",
+     "object_alts": [],
+     "prompt": "El país donde está Busan se llama",
+     "target": "Corea del Sur"
+    }
+   }
+  },
+  {
+   "id": "city_country_053",
+   "relation": "city_country",
+   "seed": 955652159,
+   "lang": {
+    "en": {
+     "subject": "Karachi",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "You can visit Karachi in the country of",
+     "target": "Pakistan"
+    },
+    "es": {
+     "subject": "Karachi",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompt": "El país donde está Karachi se llama",
+     "target": "Pakistán"
+    }
+   }
+  },
+  {
+   "id": "city_country_054",
+   "relation": "city_country",
+   "seed": 1480100747,
+   "lang": {
+    "en": {
+     "subject": "Lahore",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "You can visit Lahore in the country of",
+     "target": "Pakistan"
+    },
+    "es": {
+     "subject": "Lahore",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompt": "El país donde está Lahore se llama",
+     "target": "Pakistán"
+    }
+   }
+  },
+  {
+   "id": "city_country_055",
+   "relation": "city_country",
+   "seed": 1896006697,
+   "lang": {
+    "en": {
+     "subject": "Alexandria",
+     "object": "Egypt",
+     "object_alts": [],
+     "prompt": "You can visit Alexandria in the country of",
+     "target": "Egypt"
+    },
+    "es": {
+     "subject": "Alejandría",
+     "object": "Egipto",
+     "object_alts": [],
+     "prompt": "El país donde está Alejandría se llama",
+     "target": "Egipto"
+    }
+   }
+  },
+  {
+   "id": "city_country_056",
+   "relation": "city_country",
+   "seed": 1822357181,
+   "lang": {
+    "en": {
+     "subject": "Casablanca",
+     "object": "Morocco",
+     "object_alts": [],
+     "prompt": "You can visit Casablanca in the country of",
+     "target": "Morocco"
+    },
+    "es": {
+     "subject": "Casablanca",
+     "object": "Marruecos",
+     "object_alts": [],
+     "prompt": "El país donde está Casablanca se llama",
+     "target": "Marruecos"
+    }
+   }
+  },
+  {
+   "id": "city_country_057",
+   "relation": "city_country",
+   "seed": 1448482347,
+   "lang": {
+    "en": {
+     "subject": "Johannesburg",
+     "object": "South Africa",
+     "object_alts": [],
+     "prompt": "You can visit Johannesburg in the country of",
+     "target": "South Africa"
+    },
+    "es": {
+     "subject": "Johannesburgo",
+     "object": "Sudáfrica",
+     "object_alts": [],
+     "prompt": "El país donde está Johannesburgo se llama",
+     "target": "Sudáfrica"
+    }
+   }
+  },
+  {
+   "id": "city_country_058",
+   "relation": "city_country",
+   "seed": 1381263406,
+   "lang": {
+    "en": {
+     "subject": "Cape Town",
+     "object": "South Africa",
+     "object_alts": [],
+     "prompt": "You can visit Cape Town in the country of",
+     "target": "South Africa"
+    },
+    "es": {
+     "subject": "Ciudad del Cabo",
+     "object": "Sudáfrica",
+     "object_alts": [],
+     "prompt": "El país donde está Ciudad del Cabo se llama",
+     "target": "Sudáfrica"
+    }
+   }
+  },
+  {
+   "id": "city_country_059",
+   "relation": "city_country",
+   "seed": 937410958,
+   "lang": {
+    "en": {
+     "subject": "Lagos",
+     "object": "Nigeria",
+     "object_alts": [],
+     "prompt": "You can visit Lagos in the country of",
+     "target": "Nigeria"
+    },
+    "es": {
+     "subject": "Lagos",
+     "object": "Nigeria",
+     "object_alts": [],
+     "prompt": "El país donde está Lagos se llama",
+     "target": "Nigeria"
+    }
+   }
+  },
+  {
+   "id": "city_country_060",
+   "relation": "city_country",
+   "seed": 983796059,
+   "lang": {
+    "en": {
+     "subject": "Saint Petersburg",
+     "object": "Russia",
+     "object_alts": [],
+     "prompt": "You can visit Saint Petersburg in the country of",
+     "target": "Russia"
+    },
+    "es": {
+     "subject": "San Petersburgo",
+     "object": "Rusia",
+     "object_alts": [],
+     "prompt": "El país donde está San Petersburgo se llama",
+     "target": "Rusia"
+    }
+   }
+  },
+  {
+   "id": "city_country_061",
+   "relation": "city_country",
+   "seed": 2016871018,
+   "lang": {
+    "en": {
+     "subject": "Kraków",
+     "object": "Poland",
+     "object_alts": [],
+     "prompt": "You can visit Kraków in the country of",
+     "target": "Poland"
+    },
+    "es": {
+     "subject": "Cracovia",
+     "object": "Polonia",
+     "object_alts": [],
+     "prompt": "El país donde está Cracovia se llama",
+     "target": "Polonia"
+    }
+   }
+  },
+  {
+   "id": "city_country_062",
+   "relation": "city_country",
+   "seed": 1426215726,
+   "lang": {
+    "en": {
+     "subject": "Porto",
+     "object": "Portugal",
+     "object_alts": [],
+     "prompt": "You can visit Porto in the country of",
+     "target": "Portugal"
+    },
+    "es": {
+     "subject": "Oporto",
+     "object": "Portugal",
+     "object_alts": [],
+     "prompt": "El país donde está Oporto se llama",
+     "target": "Portugal"
+    }
+   }
+  },
+  {
+   "id": "city_country_063",
+   "relation": "city_country",
+   "seed": 117606394,
+   "lang": {
+    "en": {
+     "subject": "Zurich",
+     "object": "Switzerland",
+     "object_alts": [],
+     "prompt": "You can visit Zurich in the country of",
+     "target": "Switzerland"
+    },
+    "es": {
+     "subject": "Zúrich",
+     "object": "Suiza",
+     "object_alts": [],
+     "prompt": "El país donde está Zúrich se llama",
+     "target": "Suiza"
+    }
+   }
+  },
+  {
+   "id": "city_country_064",
+   "relation": "city_country",
+   "seed": 286991732,
+   "lang": {
+    "en": {
+     "subject": "Geneva",
+     "object": "Switzerland",
+     "object_alts": [],
+     "prompt": "You can visit Geneva in the country of",
+     "target": "Switzerland"
+    },
+    "es": {
+     "subject": "Ginebra",
+     "object": "Suiza",
+     "object_alts": [],
+     "prompt": "El país donde está Ginebra se llama",
+     "target": "Suiza"
+    }
+   }
+  },
+  {
+   "id": "city_country_065",
+   "relation": "city_country",
+   "seed": 586742209,
+   "lang": {
+    "en": {
+     "subject": "Gothenburg",
+     "object": "Sweden",
+     "object_alts": [],
+     "prompt": "You can visit Gothenburg in the country of",
+     "target": "Sweden"
+    },
+    "es": {
+     "subject": "Gotemburgo",
+     "object": "Suecia",
+     "object_alts": [],
+     "prompt": "El país donde está Gotemburgo se llama",
+     "target": "Suecia"
+    }
+   }
+  },
+  {
+   "id": "city_country_066",
+   "relation": "city_country",
+   "seed": 1277977584,
+   "lang": {
+    "en": {
+     "subject": "Bergen",
+     "object": "Norway",
+     "object_alts": [],
+     "prompt": "You can visit Bergen in the country of",
+     "target": "Norway"
+    },
+    "es": {
+     "subject": "Bergen",
+     "object": "Noruega",
+     "object_alts": [],
+     "prompt": "El país donde está Bergen se llama",
+     "target": "Noruega"
+    }
+   }
+  },
+  {
+   "id": "city_country_067",
+   "relation": "city_country",
+   "seed": 1832880020,
+   "lang": {
+    "en": {
+     "subject": "Salzburg",
+     "object": "Austria",
+     "object_alts": [],
+     "prompt": "You can visit Salzburg in the country of",
+     "target": "Austria"
+    },
+    "es": {
+     "subject": "Salzburgo",
+     "object": "Austria",
+     "object_alts": [],
+     "prompt": "El país donde está Salzburgo se llama",
+     "target": "Austria"
+    }
+   }
+  },
+  {
+   "id": "city_country_068",
+   "relation": "city_country",
+   "seed": 515752186,
+   "lang": {
+    "en": {
+     "subject": "Antwerp",
+     "object": "Belgium",
+     "object_alts": [],
+     "prompt": "You can visit Antwerp in the country of",
+     "target": "Belgium"
+    },
+    "es": {
+     "subject": "Amberes",
+     "object": "Bélgica",
+     "object_alts": [],
+     "prompt": "El país donde está Amberes se llama",
+     "target": "Bélgica"
+    }
+   }
+  },
+  {
+   "id": "city_country_070",
+   "relation": "city_country",
+   "seed": 1446884130,
+   "lang": {
+    "en": {
+     "subject": "Guadalajara",
+     "object": "Mexico",
+     "object_alts": [],
+     "prompt": "You can visit Guadalajara in the country of",
+     "target": "Mexico"
+    },
+    "es": {
+     "subject": "Guadalajara",
+     "object": "México",
+     "object_alts": [],
+     "prompt": "El país donde está Guadalajara se llama",
+     "target": "México"
+    }
+   }
+  },
+  {
+   "id": "city_country_071",
+   "relation": "city_country",
+   "seed": 189431841,
+   "lang": {
+    "en": {
+     "subject": "Medellín",
+     "object": "Colombia",
+     "object_alts": [],
+     "prompt": "You can visit Medellín in the country of",
+     "target": "Colombia"
+    },
+    "es": {
+     "subject": "Medellín",
+     "object": "Colombia",
+     "object_alts": [],
+     "prompt": "El país donde está Medellín se llama",
+     "target": "Colombia"
+    }
+   }
+  },
+  {
+   "id": "city_country_074",
+   "relation": "city_country",
+   "seed": 1140618436,
+   "lang": {
+    "en": {
+     "subject": "Kyiv",
+     "object": "Ukraine",
+     "object_alts": [],
+     "prompt": "You can visit Kyiv in the country of",
+     "target": "Ukraine"
+    },
+    "es": {
+     "subject": "Kiev",
+     "object": "Ucrania",
+     "object_alts": [],
+     "prompt": "El país donde está Kiev se llama",
+     "target": "Ucrania"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_030",
+   "relation": "landmark_city",
+   "seed": 306640834,
+   "lang": {
+    "en": {
+     "subject": "Westminster Abbey",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The city where Westminster Abbey is located is called",
+     "target": "London"
+    },
+    "es": {
+     "subject": "la Abadía de Westminster",
+     "object": "Londres",
+     "object_alts": [],
+     "prompt": "Se puede visitar la Abadía de Westminster en la ciudad de",
+     "target": "Londres"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_031",
+   "relation": "landmark_city",
+   "seed": 162762104,
+   "lang": {
+    "en": {
+     "subject": "Tower Bridge",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The city where Tower Bridge is located is called",
+     "target": "London"
+    },
+    "es": {
+     "subject": "el Tower Bridge",
+     "object": "Londres",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Tower Bridge en la ciudad de",
+     "target": "Londres"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_032",
+   "relation": "landmark_city",
+   "seed": 240782083,
+   "lang": {
+    "en": {
+     "subject": "Times Square",
+     "object": "New York",
+     "object_alts": [],
+     "prompt": "The city where Times Square is located is called",
+     "target": "New York"
+    },
+    "es": {
+     "subject": "Times Square",
+     "object": "Nueva York",
+     "object_alts": [],
+     "prompt": "Se puede visitar Times Square en la ciudad de",
+     "target": "Nueva York"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_033",
+   "relation": "landmark_city",
+   "seed": 439674167,
+   "lang": {
+    "en": {
+     "subject": "the Hollywood Sign",
+     "object": "Los Angeles",
+     "object_alts": [],
+     "prompt": "The city where the Hollywood Sign is located is called",
+     "target": "Los Angeles"
+    },
+    "es": {
+     "subject": "el Cartel de Hollywood",
+     "object": "Los Ángeles",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Cartel de Hollywood en la ciudad de",
+     "target": "Los Ángeles"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_035",
+   "relation": "landmark_city",
+   "seed": 1105405494,
+   "lang": {
+    "en": {
+     "subject": "the Hawa Mahal",
+     "object": "Jaipur",
+     "object_alts": [],
+     "prompt": "The city where the Hawa Mahal is located is called",
+     "target": "Jaipur"
+    },
+    "es": {
+     "subject": "el Hawa Mahal",
+     "object": "Jaipur",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Hawa Mahal en la ciudad de",
+     "target": "Jaipur"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_037",
+   "relation": "landmark_city",
+   "seed": 1925296081,
+   "lang": {
+    "en": {
+     "subject": "the Meenakshi Temple",
+     "object": "Madurai",
+     "object_alts": [],
+     "prompt": "The city where the Meenakshi Temple is located is called",
+     "target": "Madurai"
+    },
+    "es": {
+     "subject": "el Templo de Meenakshi",
+     "object": "Madurai",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Templo de Meenakshi en la ciudad de",
+     "target": "Madurai"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_038",
+   "relation": "landmark_city",
+   "seed": 1172465201,
+   "lang": {
+    "en": {
+     "subject": "the Mysore Palace",
+     "object": "Mysore",
+     "object_alts": [],
+     "prompt": "The city where the Mysore Palace is located is called",
+     "target": "Mysore"
+    },
+    "es": {
+     "subject": "el Palacio de Mysore",
+     "object": "Mysore",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Palacio de Mysore en la ciudad de",
+     "target": "Mysore"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_042",
+   "relation": "landmark_city",
+   "seed": 993745706,
+   "lang": {
+    "en": {
+     "subject": "the Cologne Cathedral",
+     "object": "Cologne",
+     "object_alts": [],
+     "prompt": "The city where the Cologne Cathedral is located is called",
+     "target": "Cologne"
+    },
+    "es": {
+     "subject": "la Catedral de Colonia",
+     "object": "Colonia",
+     "object_alts": [],
+     "prompt": "Se puede visitar la Catedral de Colonia en la ciudad de",
+     "target": "Colonia"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_044",
+   "relation": "landmark_city",
+   "seed": 154378907,
+   "lang": {
+    "en": {
+     "subject": "the Reichstag",
+     "object": "Berlin",
+     "object_alts": [],
+     "prompt": "The city where the Reichstag is located is called",
+     "target": "Berlin"
+    },
+    "es": {
+     "subject": "el Reichstag",
+     "object": "Berlín",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Reichstag en la ciudad de",
+     "target": "Berlín"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_045",
+   "relation": "landmark_city",
+   "seed": 615626336,
+   "lang": {
+    "en": {
+     "subject": "the Parthenon",
+     "object": "Athens",
+     "object_alts": [],
+     "prompt": "The city where the Parthenon is located is called",
+     "target": "Athens"
+    },
+    "es": {
+     "subject": "el Partenón",
+     "object": "Atenas",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Partenón en la ciudad de",
+     "target": "Atenas"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_046",
+   "relation": "landmark_city",
+   "seed": 780310317,
+   "lang": {
+    "en": {
+     "subject": "Buckingham Palace",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The city where Buckingham Palace is located is called",
+     "target": "London"
+    },
+    "es": {
+     "subject": "el Palacio de Buckingham",
+     "object": "Londres",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Palacio de Buckingham en la ciudad de",
+     "target": "Londres"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_047",
+   "relation": "landmark_city",
+   "seed": 1489957892,
+   "lang": {
+    "en": {
+     "subject": "the Tower of London",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The city where the Tower of London is located is called",
+     "target": "London"
+    },
+    "es": {
+     "subject": "la Torre de Londres",
+     "object": "Londres",
+     "object_alts": [],
+     "prompt": "Se puede visitar la Torre de Londres en la ciudad de",
+     "target": "Londres"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_048",
+   "relation": "landmark_city",
+   "seed": 1076562805,
+   "lang": {
+    "en": {
+     "subject": "the London Eye",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The city where the London Eye is located is called",
+     "target": "London"
+    },
+    "es": {
+     "subject": "el London Eye",
+     "object": "Londres",
+     "object_alts": [],
+     "prompt": "Se puede visitar el London Eye en la ciudad de",
+     "target": "Londres"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_049",
+   "relation": "landmark_city",
+   "seed": 590304581,
+   "lang": {
+    "en": {
+     "subject": "the Arc de Triomphe",
+     "object": "Paris",
+     "object_alts": [],
+     "prompt": "The city where the Arc de Triomphe is located is called",
+     "target": "Paris"
+    },
+    "es": {
+     "subject": "el Arco del Triunfo",
+     "object": "París",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Arco del Triunfo en la ciudad de",
+     "target": "París"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_050",
+   "relation": "landmark_city",
+   "seed": 701107441,
+   "lang": {
+    "en": {
+     "subject": "Notre-Dame Cathedral",
+     "object": "Paris",
+     "object_alts": [],
+     "prompt": "The city where Notre-Dame Cathedral is located is called",
+     "target": "Paris"
+    },
+    "es": {
+     "subject": "la Catedral de Notre Dame",
+     "object": "París",
+     "object_alts": [],
+     "prompt": "Se puede visitar la Catedral de Notre Dame en la ciudad de",
+     "target": "París"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_051",
+   "relation": "landmark_city",
+   "seed": 1176721099,
+   "lang": {
+    "en": {
+     "subject": "the Palace of Versailles",
+     "object": "Versailles",
+     "object_alts": [],
+     "prompt": "The city where the Palace of Versailles is located is called",
+     "target": "Versailles"
+    },
+    "es": {
+     "subject": "el Palacio de Versalles",
+     "object": "Versalles",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Palacio de Versalles en la ciudad de",
+     "target": "Versalles"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_052",
+   "relation": "landmark_city",
+   "seed": 710483160,
+   "lang": {
+    "en": {
+     "subject": "the Park Güell",
+     "object": "Barcelona",
+     "object_alts": [],
+     "prompt": "The city where the Park Güell is located is called",
+     "target": "Barcelona"
+    },
+    "es": {
+     "subject": "el Parque Güell",
+     "object": "Barcelona",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Parque Güell en la ciudad de",
+     "target": "Barcelona"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_054",
+   "relation": "landmark_city",
+   "seed": 453374172,
+   "lang": {
+    "en": {
+     "subject": "the Guggenheim Museum",
+     "object": "Bilbao",
+     "object_alts": [],
+     "prompt": "The city where the Guggenheim Museum is located is called",
+     "target": "Bilbao"
+    },
+    "es": {
+     "subject": "el Museo Guggenheim",
+     "object": "Bilbao",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Museo Guggenheim en la ciudad de",
+     "target": "Bilbao"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_055",
+   "relation": "landmark_city",
+   "seed": 1511073499,
+   "lang": {
+    "en": {
+     "subject": "the Empire State Building",
+     "object": "New York",
+     "object_alts": [],
+     "prompt": "The city where the Empire State Building is located is called",
+     "target": "New York"
+    },
+    "es": {
+     "subject": "el Empire State",
+     "object": "Nueva York",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Empire State en la ciudad de",
+     "target": "Nueva York"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_056",
+   "relation": "landmark_city",
+   "seed": 913915894,
+   "lang": {
+    "en": {
+     "subject": "the White House",
+     "object": "Washington",
+     "object_alts": [],
+     "prompt": "The city where the White House is located is called",
+     "target": "Washington"
+    },
+    "es": {
+     "subject": "la Casa Blanca",
+     "object": "Washington",
+     "object_alts": [],
+     "prompt": "Se puede visitar la Casa Blanca en la ciudad de",
+     "target": "Washington"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_058",
+   "relation": "landmark_city",
+   "seed": 449418411,
+   "lang": {
+    "en": {
+     "subject": "the Hollywood Walk of Fame",
+     "object": "Los Angeles",
+     "object_alts": [],
+     "prompt": "The city where the Hollywood Walk of Fame is located is called",
+     "target": "Los Angeles"
+    },
+    "es": {
+     "subject": "el Paseo de la Fama de Hollywood",
+     "object": "Los Ángeles",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Paseo de la Fama de Hollywood en la ciudad de",
+     "target": "Los Ángeles"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_065",
+   "relation": "landmark_city",
+   "seed": 910669331,
+   "lang": {
+    "en": {
+     "subject": "Himeji Castle",
+     "object": "Himeji",
+     "object_alts": [],
+     "prompt": "The city where Himeji Castle is located is called",
+     "target": "Himeji"
+    },
+    "es": {
+     "subject": "el Castillo de Himeji",
+     "object": "Himeji",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Castillo de Himeji en la ciudad de",
+     "target": "Himeji"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_066",
+   "relation": "landmark_city",
+   "seed": 1525982065,
+   "lang": {
+    "en": {
+     "subject": "the Gyeongbokgung Palace",
+     "object": "Seoul",
+     "object_alts": [],
+     "prompt": "The city where the Gyeongbokgung Palace is located is called",
+     "target": "Seoul"
+    },
+    "es": {
+     "subject": "el Palacio Gyeongbokgung",
+     "object": "Seúl",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Palacio Gyeongbokgung en la ciudad de",
+     "target": "Seúl"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_067",
+   "relation": "landmark_city",
+   "seed": 983239733,
+   "lang": {
+    "en": {
+     "subject": "the Marina Bay Sands",
+     "object": "Singapore",
+     "object_alts": [],
+     "prompt": "The city where the Marina Bay Sands is located is called",
+     "target": "Singapore"
+    },
+    "es": {
+     "subject": "el Marina Bay Sands",
+     "object": "Singapur",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Marina Bay Sands en la ciudad de",
+     "target": "Singapur"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_068",
+   "relation": "landmark_city",
+   "seed": 1333619482,
+   "lang": {
+    "en": {
+     "subject": "Angkor Wat",
+     "object": "Siem Reap",
+     "object_alts": [],
+     "prompt": "The city where Angkor Wat is located is called",
+     "target": "Siem Reap"
+    },
+    "es": {
+     "subject": "Angkor Wat",
+     "object": "Siem Reap",
+     "object_alts": [],
+     "prompt": "Se puede visitar Angkor Wat en la ciudad de",
+     "target": "Siem Reap"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_071",
+   "relation": "landmark_city",
+   "seed": 209554993,
+   "lang": {
+    "en": {
+     "subject": "the Qutub Minar",
+     "object": "Delhi",
+     "object_alts": [],
+     "prompt": "The city where the Qutub Minar is located is called",
+     "target": "Delhi"
+    },
+    "es": {
+     "subject": "el Qutb Minar",
+     "object": "Delhi",
+     "object_alts": [],
+     "prompt": "Se puede visitar el Qutb Minar en la ciudad de",
+     "target": "Delhi"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_074",
+   "relation": "landmark_city",
+   "seed": 237998159,
+   "lang": {
+    "en": {
+     "subject": "the Ajanta Caves",
+     "object": "Aurangabad",
+     "object_alts": [],
+     "prompt": "The city where the Ajanta Caves is located is called",
+     "target": "Aurangabad"
+    },
+    "es": {
+     "subject": "las cuevas de Ajanta",
+     "object": "Aurangabad",
+     "object_alts": [],
+     "prompt": "Se puede visitar las cuevas de Ajanta en la ciudad de",
+     "target": "Aurangabad"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_077",
+   "relation": "landmark_city",
+   "seed": 1646624668,
+   "lang": {
+    "en": {
+     "subject": "the Fatehpur Sikri",
+     "object": "Agra",
+     "object_alts": [],
+     "prompt": "The city where the Fatehpur Sikri is located is called",
+     "target": "Agra"
+    },
+    "es": {
+     "subject": "Fatehpur Sikri",
+     "object": "Agra",
+     "object_alts": [],
+     "prompt": "Se puede visitar Fatehpur Sikri en la ciudad de",
+     "target": "Agra"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_041",
+   "relation": "landmark_country",
+   "seed": 980797993,
+   "lang": {
+    "en": {
+     "subject": "the Blue Mosque",
+     "object": "Turkey",
+     "object_alts": [],
+     "prompt": "The country where the Blue Mosque is located is called",
+     "target": "Turkey"
+    },
+    "es": {
+     "subject": "la Mezquita Azul",
+     "object": "Turquía",
+     "object_alts": [],
+     "prompt": "El país donde está la Mezquita Azul se llama",
+     "target": "Turquía"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_042",
+   "relation": "landmark_country",
+   "seed": 1329300767,
+   "lang": {
+    "en": {
+     "subject": "the Cologne Cathedral",
+     "object": "Germany",
+     "object_alts": [],
+     "prompt": "The country where the Cologne Cathedral is located is called",
+     "target": "Germany"
+    },
+    "es": {
+     "subject": "la Catedral de Colonia",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompt": "El país donde está la Catedral de Colonia se llama",
+     "target": "Alemania"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_043",
+   "relation": "landmark_country",
+   "seed": 170944811,
+   "lang": {
+    "en": {
+     "subject": "the Neuschwanstein Castle",
+     "object": "Germany",
+     "object_alts": [],
+     "prompt": "The country where the Neuschwanstein Castle is located is called",
+     "target": "Germany"
+    },
+    "es": {
+     "subject": "el Castillo de Neuschwanstein",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompt": "El país donde está el Castillo de Neuschwanstein se llama",
+     "target": "Alemania"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_044",
+   "relation": "landmark_country",
+   "seed": 1885706495,
+   "lang": {
+    "en": {
+     "subject": "the Reichstag",
+     "object": "Germany",
+     "object_alts": [],
+     "prompt": "The country where the Reichstag is located is called",
+     "target": "Germany"
+    },
+    "es": {
+     "subject": "el Reichstag",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompt": "El país donde está el Reichstag se llama",
+     "target": "Alemania"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_045",
+   "relation": "landmark_country",
+   "seed": 1585455932,
+   "lang": {
+    "en": {
+     "subject": "the Parthenon",
+     "object": "Greece",
+     "object_alts": [],
+     "prompt": "The country where the Parthenon is located is called",
+     "target": "Greece"
+    },
+    "es": {
+     "subject": "el Partenón",
+     "object": "Grecia",
+     "object_alts": [],
+     "prompt": "El país donde está el Partenón se llama",
+     "target": "Grecia"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_049",
+   "relation": "landmark_country",
+   "seed": 1450552405,
+   "lang": {
+    "en": {
+     "subject": "the Arc de Triomphe",
+     "object": "France",
+     "object_alts": [],
+     "prompt": "The country where the Arc de Triomphe is located is called",
+     "target": "France"
+    },
+    "es": {
+     "subject": "el Arco del Triunfo",
+     "object": "Francia",
+     "object_alts": [],
+     "prompt": "El país donde está el Arco del Triunfo se llama",
+     "target": "Francia"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_050",
+   "relation": "landmark_country",
+   "seed": 1139718551,
+   "lang": {
+    "en": {
+     "subject": "Notre-Dame Cathedral",
+     "object": "France",
+     "object_alts": [],
+     "prompt": "The country where Notre-Dame Cathedral is located is called",
+     "target": "France"
+    },
+    "es": {
+     "subject": "la Catedral de Notre Dame",
+     "object": "Francia",
+     "object_alts": [],
+     "prompt": "El país donde está la Catedral de Notre Dame se llama",
+     "target": "Francia"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_051",
+   "relation": "landmark_country",
+   "seed": 1087286006,
+   "lang": {
+    "en": {
+     "subject": "the Palace of Versailles",
+     "object": "France",
+     "object_alts": [],
+     "prompt": "The country where the Palace of Versailles is located is called",
+     "target": "France"
+    },
+    "es": {
+     "subject": "el Palacio de Versalles",
+     "object": "Francia",
+     "object_alts": [],
+     "prompt": "El país donde está el Palacio de Versalles se llama",
+     "target": "Francia"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_055",
+   "relation": "landmark_country",
+   "seed": 200531332,
+   "lang": {
+    "en": {
+     "subject": "the Empire State Building",
+     "object": "the United States",
+     "object_alts": [],
+     "prompt": "The country where the Empire State Building is located is called",
+     "target": "the United States"
+    },
+    "es": {
+     "subject": "el Empire State",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompt": "El país donde está el Empire State se llama",
+     "target": "Estados Unidos"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_056",
+   "relation": "landmark_country",
+   "seed": 1132671906,
+   "lang": {
+    "en": {
+     "subject": "the White House",
+     "object": "the United States",
+     "object_alts": [],
+     "prompt": "The country where the White House is located is called",
+     "target": "the United States"
+    },
+    "es": {
+     "subject": "la Casa Blanca",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompt": "El país donde está la Casa Blanca se llama",
+     "target": "Estados Unidos"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_058",
+   "relation": "landmark_country",
+   "seed": 312866749,
+   "lang": {
+    "en": {
+     "subject": "the Hollywood Walk of Fame",
+     "object": "the United States",
+     "object_alts": [],
+     "prompt": "The country where the Hollywood Walk of Fame is located is called",
+     "target": "the United States"
+    },
+    "es": {
+     "subject": "el Paseo de la Fama de Hollywood",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompt": "El país donde está el Paseo de la Fama de Hollywood se llama",
+     "target": "Estados Unidos"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_059",
+   "relation": "landmark_country",
+   "seed": 106733577,
+   "lang": {
+    "en": {
+     "subject": "the Chichen Itza pyramid",
+     "object": "Mexico",
+     "object_alts": [],
+     "prompt": "The country where the Chichen Itza pyramid is located is called",
+     "target": "Mexico"
+    },
+    "es": {
+     "subject": "la pirámide de Chichén Itzá",
+     "object": "México",
+     "object_alts": [],
+     "prompt": "El país donde está la pirámide de Chichén Itzá se llama",
+     "target": "México"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_060",
+   "relation": "landmark_country",
+   "seed": 239823406,
+   "lang": {
+    "en": {
+     "subject": "Machu Picchu",
+     "object": "Peru",
+     "object_alts": [],
+     "prompt": "The country where Machu Picchu is located is called",
+     "target": "Peru"
+    },
+    "es": {
+     "subject": "Machu Picchu",
+     "object": "Perú",
+     "object_alts": [],
+     "prompt": "El país donde está Machu Picchu se llama",
+     "target": "Perú"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_061",
+   "relation": "landmark_country",
+   "seed": 2043571043,
+   "lang": {
+    "en": {
+     "subject": "the Great Wall",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "The country where the Great Wall is located is called",
+     "target": "China"
+    },
+    "es": {
+     "subject": "la Gran Muralla",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "El país donde está la Gran Muralla se llama",
+     "target": "China"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_063",
+   "relation": "landmark_country",
+   "seed": 869406231,
+   "lang": {
+    "en": {
+     "subject": "the Oriental Pearl Tower",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "The country where the Oriental Pearl Tower is located is called",
+     "target": "China"
+    },
+    "es": {
+     "subject": "la Torre de la Perla Oriental",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "El país donde está la Torre de la Perla Oriental se llama",
+     "target": "China"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_064",
+   "relation": "landmark_country",
+   "seed": 552646244,
+   "lang": {
+    "en": {
+     "subject": "the Tokyo Skytree",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "The country where the Tokyo Skytree is located is called",
+     "target": "Japan"
+    },
+    "es": {
+     "subject": "la Tokyo Skytree",
+     "object": "Japón",
+     "object_alts": [],
+     "prompt": "El país donde está la Tokyo Skytree se llama",
+     "target": "Japón"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_065",
+   "relation": "landmark_country",
+   "seed": 1634792092,
+   "lang": {
+    "en": {
+     "subject": "Himeji Castle",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "The country where Himeji Castle is located is called",
+     "target": "Japan"
+    },
+    "es": {
+     "subject": "el Castillo de Himeji",
+     "object": "Japón",
+     "object_alts": [],
+     "prompt": "El país donde está el Castillo de Himeji se llama",
+     "target": "Japón"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_067",
+   "relation": "landmark_country",
+   "seed": 1097937123,
+   "lang": {
+    "en": {
+     "subject": "the Marina Bay Sands",
+     "object": "Singapore",
+     "object_alts": [],
+     "prompt": "The country where the Marina Bay Sands is located is called",
+     "target": "Singapore"
+    },
+    "es": {
+     "subject": "el Marina Bay Sands",
+     "object": "Singapur",
+     "object_alts": [],
+     "prompt": "El país donde está el Marina Bay Sands se llama",
+     "target": "Singapur"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_068",
+   "relation": "landmark_country",
+   "seed": 1004014349,
+   "lang": {
+    "en": {
+     "subject": "Angkor Wat",
+     "object": "Cambodia",
+     "object_alts": [],
+     "prompt": "The country where Angkor Wat is located is called",
+     "target": "Cambodia"
+    },
+    "es": {
+     "subject": "Angkor Wat",
+     "object": "Camboya",
+     "object_alts": [],
+     "prompt": "El país donde está Angkor Wat se llama",
+     "target": "Camboya"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_070",
+   "relation": "landmark_country",
+   "seed": 1518392435,
+   "lang": {
+    "en": {
+     "subject": "India Gate",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "The country where India Gate is located is called",
+     "target": "India"
+    },
+    "es": {
+     "subject": "la Puerta de la India",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "El país donde está la Puerta de la India se llama",
+     "target": "India"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_071",
+   "relation": "landmark_country",
+   "seed": 1128995338,
+   "lang": {
+    "en": {
+     "subject": "the Qutub Minar",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "The country where the Qutub Minar is located is called",
+     "target": "India"
+    },
+    "es": {
+     "subject": "el Qutb Minar",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "El país donde está el Qutb Minar se llama",
+     "target": "India"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_072",
+   "relation": "landmark_country",
+   "seed": 1085470227,
+   "lang": {
+    "en": {
+     "subject": "the Gateway of India",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "The country where the Gateway of India is located is called",
+     "target": "India"
+    },
+    "es": {
+     "subject": "la Puerta de la India de Bombay",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "El país donde está la Puerta de la India de Bombay se llama",
+     "target": "India"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_074",
+   "relation": "landmark_country",
+   "seed": 1462595495,
+   "lang": {
+    "en": {
+     "subject": "the Ajanta Caves",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "The country where the Ajanta Caves is located is called",
+     "target": "India"
+    },
+    "es": {
+     "subject": "las cuevas de Ajanta",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "El país donde está las cuevas de Ajanta se llama",
+     "target": "India"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_075",
+   "relation": "landmark_country",
+   "seed": 565165378,
+   "lang": {
+    "en": {
+     "subject": "the Mahabodhi Temple",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "The country where the Mahabodhi Temple is located is called",
+     "target": "India"
+    },
+    "es": {
+     "subject": "el Templo Mahabodhi",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "El país donde está el Templo Mahabodhi se llama",
+     "target": "India"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_077",
+   "relation": "landmark_country",
+   "seed": 179953998,
+   "lang": {
+    "en": {
+     "subject": "the Fatehpur Sikri",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "The country where the Fatehpur Sikri is located is called",
+     "target": "India"
+    },
+    "es": {
+     "subject": "Fatehpur Sikri",
+     "object": "India",
+     "object_alts": [],
+     "prompt": "El país donde está Fatehpur Sikri se llama",
+     "target": "India"
+    }
+   }
+  },
+  {
+   "id": "landmark_country_079",
+   "relation": "landmark_country",
+   "seed": 1744124606,
+   "lang": {
+    "en": {
+     "subject": "the Pyramids of Giza",
+     "object": "Egypt",
+     "object_alts": [],
+     "prompt": "The country where the Pyramids of Giza is located is called",
+     "target": "Egypt"
+    },
+    "es": {
+     "subject": "las pirámides de Guiza",
+     "object": "Egipto",
+     "object_alts": [],
+     "prompt": "El país donde está las pirámides de Guiza se llama",
+     "target": "Egipto"
+    }
+   }
+  }
+ ]
+}
