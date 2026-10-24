@@ -31,6 +31,7 @@ INC = {"llama": "analysis/run_20261020_incontext_10200339_llama/summary.json", "
 CTL = "analysis/run_20261021_controls/results.json"
 CF = "analysis/run_20261024_confound_A12a/results.json"
 SD = "analysis/run_20261024_seeds_A13a_10240109/results.json"
+CV = "analysis/run_20261024_seeds_covariates_A13b/results.json"
 MAN = Path("results/manifest.json")
 
 
@@ -177,6 +178,11 @@ def claims() -> list[dict]:
                   (f"sd_{m}_{nm}_ceil_en", SD, [m, "S", nm, "enAB", "mean_D"]), (f"sd_{m}_{nm}_ceil_es", SD, [m, "S", nm, "esAB", "mean_D"])]
         for lg in ("en", "es"):
             c += [(f"sd_{m}_reg_{lg}_median_abs", SD, [m, "P4_regression", lg, "median_abs_diff"]), (f"sd_{m}_reg_{lg}_corr", SD, [m, "P4_regression", lg, "corr"])]
+    for m in ("llama", "gemma2"):  # A13b covariate model on independent-noise increments
+        for sub in ("informative", "all_non_IP"):
+            c += [(f"cv_{m}_{sub}_n", CV, [m, sub, "n"]), (f"cv_{m}_{sub}_pred", CV, [m, sub, "target_pred_D"]), (f"cv_{m}_{sub}_ci_lo", CV, [m, sub, "target_ci97.5", 0]),
+                  (f"cv_{m}_{sub}_ci_hi", CV, [m, sub, "target_ci97.5", 1]), (f"cv_{m}_{sub}_boot_lo", CV, [m, sub, "target_boot_ci97.5", 0]), (f"cv_{m}_{sub}_boot_hi", CV, [m, sub, "target_boot_ci97.5", 1]),
+                  (f"cv_{m}_{sub}_J0", CV, [m, sub, "n_J0"]), (f"cv_{m}_{sub}_verdict", CV, [m, sub, "verdict"])]
     return [{"id": i, "artifact": a, "key_path": k} for i, a, k in c]
 
 
