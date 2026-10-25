@@ -54,3 +54,8 @@
 ## 2026-10-25 Reference check
 - All 23 arXiv identifiers in the v2 draft were checked against the arXiv API (title, first author, year): all match. One correction: arXiv lists Grattafiori first for the Llama 3 paper (2407.21783), not Dubey; fixed in `paper/paper_v2_draft.md`. Added Dumas et al. (2411.08745), Zhang and Nanda (2309.16042), Heimersheim and Nanda (2404.15255) with in-text citations in section 2. Only title/author/abstract were checked, not every claim attributed to each paper.
 - `paper/paper.md` and `paper/latex/main.tex` are the older v1 text and still say Dubey; they are not updated (v2 is the working draft).
+
+## 2026-10-25 Reproducibility check
+- `./reproduce.sh cpu repro1` (new mode): A12a, A13a, A13b, E2 analysis and the A14 overlap reruns regenerate from saved traces with max abs difference 0 on 4,000+ numeric leaves (`code/compare_results.py`; log `analysis/_logs/repro_cpu1.log`; dirs `analysis/run_20261025_*_repro1`).
+- Clean clone of the GitHub repo: `./reproduce.sh verify` = 1059/1059 claims, `./reproduce.sh test` = 13 tests OK. The `cpu` mode and `full` still need `models/` (tokenizers/weights), which are not in git. `reproduce.sh` now quotes the python path (the first clone test failed on a path with spaces).
+- Software Heritage archive of the repo requested 2026-10-25 09:44 UTC (save request id 2575106, https://archive.softwareheritage.org/api/1/origin/save/2575106/) as an external timestamp for the pre-registration history; snapshot id to be recorded when it completes. This is not a substitute for a Zenodo/OSF DOI.

@@ -39,13 +39,15 @@ python code/knowledge_edit.py --tag p4edit              # P4
 python code/eval_transfer.py analysis/run_<date>_p4edit # P5 tables
 python code/make_manifest.py build                      # P6 claim manifest
 ./reproduce.sh verify                                   # checks the manifest against saved artifacts (passes)
+./reproduce.sh cpu                                      # re-runs A12a/A13a/A13b/E2/A14 analyses from saved traces and compares (CPU, minutes)
 # `./reproduce.sh full` re-runs P1-P5; only P1 was reproduced end to end (see docs/LOG.md, REPRODUCTION STATUS)
 ```
 
-## Headline results (Llama-3.2-3B-Instruct, n=66 facts for tracing, 10 for editing; details in `paper/paper.md`)
-- EN-ES MLP-profile overlap is above the shuffled-fact null (median cosine 0.748, z=6.06); EN-HI and ES-HI are not (z=0.39, 0.38).
-- English critical MLP layer is 0-5 (median 2), not the pre-registered 8-19.
-- Edit at the traced layer: EN success 9/10, transfer ratio ES 0.147, HI 0.002. Edit at layer 14: EN 10/10, ES 0.203, HI 0.244, median specificity loss 0.351. Perplexity ratio below 1.02 everywhere.
+## Headline results (v2: Llama-3.2-3B-Instruct 92 facts, Gemma-2-2B 58 facts for tracing; details in `paper/paper_v2_draft.md`)
+- EN-ES causal-profile alignment is above the shuffled-fact null in both models (MLP cosine z = 4.0 Llama, 4.8 Gemma; p = 0.0001 with 10,000 permutations). It survives independent noise per language (A13a) and, in Llama, control for name overlap and answer identity (A13b). Hindi overlap is weaker and mostly not significant after correction.
+- Cross-language subject interchange (E2, A13, English-Spanish, four relations): swapping the subject-token state between languages moves the answer about as much as a same-language swap (ratio 0.90-1.17, 95% lower bounds >= 0.85) in both models; pre-registered verdict SHARED. Caveat: per-fact tracing similarity does not predict interchange success in Llama (rho -0.04). Hindi not yet tested.
+- Edit transfer (10-30 facts per condition) depends on layer and model; Spanish transfer is partial and Hindi small. These samples are small and the edit results are descriptive.
+- Every number is in `results/manifest.json` (1059 claims, `./reproduce.sh verify`). `./reproduce.sh cpu` regenerates the follow-up analyses from the saved traces and reproduces the saved results exactly (needs the tokenizers in `models/`).
 
 ## Layout
 `code/` scripts · `data/` facts · `analysis/` write-once run dirs · `paper/` · `docs/` LOG, EXPERIMENT_LOG, HYPOTHESIS, NEXT
