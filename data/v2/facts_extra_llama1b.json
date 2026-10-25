@@ -1,0 +1,93 @@
+{
+ "version": 2,
+ "model": "meta-llama/Llama-3.2-1B-Instruct",
+ "summary": {
+  "n_candidates": 156,
+  "n_kept": 1,
+  "per_relation": {
+   "landmark_country": {
+    "n": 81,
+    "kept": 0,
+    "en_p0": 59,
+    "en_p1": 61,
+    "en_p2": 60,
+    "es_p0": 27,
+    "es_p1": 37,
+    "es_p2": 34,
+    "hi_p0": 2,
+    "hi_p1": 0,
+    "hi_p2": 0
+   },
+   "city_country": {
+    "n": 75,
+    "kept": 1,
+    "en_p0": 63,
+    "en_p1": 68,
+    "en_p2": 69,
+    "es_p0": 55,
+    "es_p1": 51,
+    "es_p2": 48,
+    "hi_p0": 1,
+    "hi_p1": 29,
+    "hi_p2": 6
+   }
+  }
+ },
+ "facts": [
+  {
+   "id": "city_country_023",
+   "relation": "city_country",
+   "seed": 1528336212,
+   "lang": {
+    "en": {
+     "subject": "Ahmedabad",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Ahmedabad is a city in the country of",
+      "Ahmedabad is in the country of",
+      "Ahmedabad is located in the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "India"
+    },
+    "es": {
+     "subject": "Ahmedabad",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Ahmedabad se encuentra en el país de",
+      "Ahmedabad está en el país de",
+      "El país donde está Ahmedabad es"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "India"
+    },
+    "hi": {
+     "subject": "अहमदाबाद",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "अहमदाबाद इस देश में है:",
+      "अहमदाबाद किस देश में है:",
+      "अहमदाबाद इस देश का शहर है:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "भारत"
+    }
+   }
+  }
+ ]
+}

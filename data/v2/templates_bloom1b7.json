@@ -1,0 +1,125 @@
+{
+ "model_used_for_selection": "bigscience/bloom-1b7",
+ "n_tune": 30,
+ "templates": {
+  "capital_of": {
+   "en": [
+    "The capital of {s} is the city of",
+    "The capital of {s} is",
+    "{S} has its capital in the city of"
+   ],
+   "es": [
+    "El gobierno de {s} tiene su sede en",
+    "La capital de {s} es la ciudad de",
+    "{S} tiene su capital en"
+   ],
+   "hi": [
+    "{s} की राजधानी",
+    "{s} देश की राजधानी",
+    "{s} की राजधानी शहर"
+   ]
+  },
+  "capital_country": {
+   "en": [
+    "{S} is the capital of the country of",
+    "{S} is the capital city of",
+    "{S} is the capital of"
+   ],
+   "es": [
+    "{S} es la ciudad capital de",
+    "{S} es la capital del país de",
+    "{S} es la capital de"
+   ],
+   "hi": [
+    "{s} इस देश की राजधानी है:",
+    "वह देश जिसकी राजधानी {s} है:",
+    "{s} राजधानी है इस देश की:"
+   ]
+  },
+  "landmark_city": {
+   "en": [
+    "{S} can be found in the city of",
+    "{S} stands in the city of",
+    "{S} is a famous landmark in the city of"
+   ],
+   "es": [
+    "{S} es un lugar famoso de la ciudad de",
+    "{S} se halla en la ciudad de",
+    "{S} está en la ciudad de"
+   ],
+   "hi": [
+    "{s} इस शहर में स्थित है:",
+    "{s} शहर में स्थित है, जिसका नाम",
+    "{s} स्थित है शहर"
+   ]
+  },
+  "invention_inventor": {
+   "en": [
+    "{S} was invented by",
+    "The person credited with inventing {s} is",
+    "The inventor of {s} is"
+   ],
+   "es": [
+    "La invención de {s} se atribuye a",
+    "El inventor de {s} fue",
+    "El inventor de {s} es"
+   ],
+   "hi": [
+    "{s} का आविष्कार इस व्यक्ति ने किया था:",
+    "{s} के आविष्कारक का नाम है:",
+    "{s} का आविष्कार करने वाले व्यक्ति का नाम"
+   ]
+  },
+  "event_year": {
+   "en": [
+    "{S} was in the year",
+    "{S} took place in the year",
+    "{S} occurred in the year"
+   ],
+   "es": [
+    "{S} tuvo lugar en el año",
+    "{S} sucedió en el año",
+    "{S} fue en el año"
+   ],
+   "hi": [
+    "{s} वर्ष",
+    "{s} सन्",
+    "{s} साल"
+   ]
+  },
+  "landmark_country": {
+   "en": [
+    "{S} can be found in the country of",
+    "{S} is located in the country of",
+    "{S} is in the country of"
+   ],
+   "es": [
+    "{S} se encuentra en el país de",
+    "{S} se halla en el país de",
+    "{S} está en el país de"
+   ],
+   "hi": [
+    "{s} इस देश में है:",
+    "{s} इस देश में स्थित है:",
+    "{s} जिस देश में स्थित है, उसका नाम"
+   ]
+  },
+  "city_country": {
+   "en": [
+    "{S} is located in the country of",
+    "{S} is a city in the country of",
+    "The country where {s} is located is"
+   ],
+   "es": [
+    "{S} es una ciudad del país de",
+    "El país donde está {s} es",
+    "{S} se encuentra en el país de"
+   ],
+   "hi": [
+    "{s} किस देश में है:",
+    "{s} इस देश में है:",
+    "{s} इस देश का शहर है:"
+   ]
+  }
+ }
+}
