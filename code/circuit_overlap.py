@@ -109,11 +109,14 @@ def analyse(arr: dict, fids: list[str], seed: int, strata: list[str] | None = No
 
 
 def main() -> None:
+    global N_PERM
     ap = argparse.ArgumentParser()
     ap.add_argument("run", help="trace run dir (all facts)")
     ap.add_argument("--tag", default="p3overlap")
     ap.add_argument("--seed", type=int, default=20261012)
+    ap.add_argument("--perm", type=int, default=N_PERM, help="permutations (default 1000 as pre-registered in A3; 10000 for the A14 rerun)")
     a = ap.parse_args()
+    N_PERM = a.perm
     runs = [Path(x) for x in a.run.split(",")]  # several trace runs (e.g. main + extra relations) are merged
     run = runs[0]
     arr, recs = {}, {}
