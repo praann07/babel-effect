@@ -1,0 +1,11 @@
+[2026-10-24 08:48:57] START e2_pilot_gemma2
+[2026-10-24 08:52:35] OK e2_pilot_gemma2
+[2026-10-24 08:52:35] START e2_full_llama
+[2026-10-24 11:51:35] STOPPED by user request at Llama 210/396 pairs; no results saved (effects.npz written only at end). Gemma full run not started.
+[2026-10-25 01:54:07] START e2_full_llama
+[2026-10-25 04:25:56] OK e2_full_llama
+[2026-10-25 04:25:56] START e2_full_gemma2
+[2026-10-25 07:27:32] OK e2_full_gemma2
+[2026-10-25 07:27:33] START e2_analysis
+[2026-10-25 07:29:42] OK e2_analysis
+[2026-10-25 07:29:42] e2 script finished

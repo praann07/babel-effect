@@ -1,0 +1,44 @@
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   3%|▎         | 9/288 [00:00<00:03, 72.95it/s]Loading weights:   6%|▌         | 17/288 [00:00<00:07, 35.88it/s]Loading weights:   8%|▊         | 22/288 [00:00<00:11, 23.72it/s]Loading weights:  10%|█         | 29/288 [00:00<00:08, 31.98it/s]Loading weights:  12%|█▏        | 34/288 [00:01<00:11, 22.70it/s]Loading weights:  14%|█▍        | 40/288 [00:01<00:10, 22.71it/s]Loading weights:  15%|█▍        | 43/288 [00:01<00:10, 22.64it/s]Loading weights:  16%|█▌        | 46/288 [00:01<00:11, 21.49it/s]Loading weights:  19%|█▉        | 54/288 [00:02<00:09, 25.57it/s]Loading weights:  20%|█▉        | 57/288 [00:02<00:11, 20.28it/s]Loading weights:  22%|██▏       | 63/288 [00:02<00:08, 26.30it/s]Loading weights:  23%|██▎       | 67/288 [00:02<00:11, 18.52it/s]Loading weights:  24%|██▍       | 70/288 [00:02<00:10, 19.92it/s]Loading weights:  26%|██▌       | 75/288 [00:03<00:11, 19.31it/s]Loading weights:  27%|██▋       | 78/288 [00:03<00:10, 19.32it/s]Loading weights:  29%|██▉       | 84/288 [00:03<00:07, 25.98it/s]Loading weights:  31%|███       | 88/288 [00:03<00:09, 20.46it/s]Loading weights:  32%|███▏      | 91/288 [00:03<00:10, 19.65it/s]Loading weights:  33%|███▎      | 96/288 [00:04<00:09, 20.16it/s]Loading weights:  34%|███▍      | 99/288 [00:04<00:11, 16.43it/s]Loading weights:  37%|███▋      | 106/288 [00:04<00:07, 24.04it/s]Loading weights:  38%|███▊      | 110/288 [00:04<00:08, 20.19it/s]Loading weights:  39%|███▉      | 113/288 [00:05<00:09, 18.74it/s]Loading weights:  41%|████▏     | 119/288 [00:05<00:08, 20.96it/s]Loading weights:  42%|████▏     | 122/288 [00:05<00:09, 17.28it/s]Loading weights:  44%|████▍     | 128/288 [00:05<00:06, 23.59it/s]Loading weights:  46%|████▌     | 132/288 [00:06<00:07, 19.84it/s]Loading weights:  47%|████▋     | 135/288 [00:06<00:08, 18.67it/s]Loading weights:  48%|████▊     | 139/288 [00:06<00:08, 18.00it/s]Loading weights:  50%|████▉     | 143/288 [00:06<00:09, 16.11it/s]Loading weights:  51%|█████     | 147/288 [00:06<00:07, 19.58it/s]Loading weights:  53%|█████▎    | 152/288 [00:07<00:07, 18.53it/s]Loading weights:  54%|█████▍    | 155/288 [00:07<00:07, 18.85it/s]Loading weights:  57%|█████▋    | 163/288 [00:07<00:07, 17.47it/s]Loading weights:  59%|█████▉    | 171/288 [00:07<00:04, 24.58it/s]Loading weights:  61%|██████    | 175/288 [00:08<00:04, 24.61it/s]Loading weights:  62%|██████▏   | 179/288 [00:08<00:05, 19.00it/s]Loading weights:  64%|██████▍   | 185/288 [00:08<00:05, 18.37it/s]Loading weights:  65%|██████▌   | 188/288 [00:08<00:05, 18.71it/s]Loading weights:  67%|██████▋   | 193/288 [00:09<00:04, 23.29it/s]Loading weights:  68%|██████▊   | 197/288 [00:09<00:03, 23.60it/s]Loading weights:  69%|██████▉   | 200/288 [00:09<00:05, 17.20it/s]Loading weights:  72%|███████▏  | 208/288 [00:09<00:03, 21.79it/s]Loading weights:  73%|███████▎  | 211/288 [00:10<00:04, 17.58it/s]Loading weights:  75%|███████▌  | 217/288 [00:10<00:03, 23.13it/s]Loading weights:  77%|███████▋  | 221/288 [00:10<00:03, 16.75it/s]Loading weights:  79%|███████▉  | 227/288 [00:10<00:02, 21.49it/s]Loading weights:  80%|████████  | 231/288 [00:11<00:03, 16.55it/s]Loading weights:  83%|████████▎ | 238/288 [00:11<00:02, 22.77it/s]Loading weights:  84%|████████▍ | 242/288 [00:11<00:02, 18.38it/s]Loading weights:  85%|████████▌ | 245/288 [00:11<00:02, 18.41it/s]Loading weights:  87%|████████▋ | 250/288 [00:11<00:01, 22.72it/s]Loading weights:  88%|████████▊ | 254/288 [00:12<00:02, 16.21it/s]Loading weights:  90%|████████▉ | 259/288 [00:12<00:01, 19.95it/s]Loading weights:  91%|█████████▏| 263/288 [00:12<00:01, 17.69it/s]Loading weights:  92%|█████████▏| 266/288 [00:13<00:01, 17.08it/s]Loading weights:  94%|█████████▍| 270/288 [00:13<00:00, 20.35it/s]Loading weights:  95%|█████████▌| 274/288 [00:13<00:00, 14.82it/s]Loading weights:  97%|█████████▋| 279/288 [00:13<00:00, 19.18it/s]Loading weights: 100%|██████████| 288/288 [00:13<00:00, 20.98it/s]
+{
+ "capital_country": {
+  "tune_n": 30,
+  "tune_en": 30,
+  "tune_es": 5,
+  "eval_n": 95,
+  "eval_both": 25,
+  "template_ok": false
+ },
+ "capital_of": {
+  "tune_n": 30,
+  "tune_en": 4,
+  "tune_es": 22,
+  "eval_n": 95,
+  "eval_both": 36,
+  "template_ok": false
+ },
+ "city_country": {
+  "tune_n": 30,
+  "tune_en": 16,
+  "tune_es": 18,
+  "eval_n": 45,
+  "eval_both": 27,
+  "template_ok": true
+ },
+ "landmark_city": {
+  "tune_n": 30,
+  "tune_en": 27,
+  "tune_es": 15,
+  "eval_n": 51,
+  "eval_both": 8,
+  "template_ok": true
+ },
+ "landmark_country": {
+  "tune_n": 30,
+  "tune_en": 24,
+  "tune_es": 12,
+  "eval_n": 51,
+  "eval_both": 16,
+  "template_ok": false
+ }
+}
+kept 35

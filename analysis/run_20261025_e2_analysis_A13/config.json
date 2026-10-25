@@ -1,0 +1,8 @@
+{
+ "llama_run": "analysis/run_20261025_e2full_A_llama",
+ "gemma_run": "analysis/run_20261025_e2full_A_gemma2",
+ "llama_seeds": "analysis/run_20261024_p3seeds_10240109_llama",
+ "gemma_seeds": "analysis/run_20261024_p3seeds_10240109_gemma2",
+ "tag": "e2_analysis_A13",
+ "amendment": "A13"
+}

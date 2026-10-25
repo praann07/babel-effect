@@ -1,0 +1,3 @@
+llama {'verdict': 'SURVIVES', 'D_ind_informative': 0.34649944277389827, 'ci97.5': [0.27089647058831967, 0.42428206431015003], 'ceiling_en': 0.8192143978424442, 'ceiling_es': 0.7934613803636681} {'P1_gemma_ind_includes_0_and_Delta_pos': False, 'P2_llama_ind_pos_and_below_0.239': False, 'P3_Dsh_ge_Dind_on_EQ': False, 'P4_regression_pass': True}
+gemma2 {'verdict': 'SURVIVES', 'D_ind_informative': 0.2568428999185562, 'ci97.5': [0.13006305415307484, 0.3810270247852727], 'ceiling_en': 0.5851687383651734, 'ceiling_es': 0.541004319190979} {'P1_gemma_ind_includes_0_and_Delta_pos': False, 'P2_llama_ind_pos_and_below_0.239': False, 'P3_Dsh_ge_Dind_on_EQ': True, 'P4_regression_pass': True}
+wrote analysis\run_20261024_seeds_A13a_10240109

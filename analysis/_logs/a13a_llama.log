@@ -1,0 +1,129 @@
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   2%|▏         | 4/254 [00:00<00:07, 31.80it/s]Loading weights:   3%|▎         | 8/254 [00:00<00:10, 22.40it/s]Loading weights:   4%|▍         | 11/254 [00:00<00:21, 11.52it/s]Loading weights:   6%|▋         | 16/254 [00:00<00:13, 18.23it/s]Loading weights:   9%|▉         | 23/254 [00:01<00:10, 22.34it/s]Loading weights:  10%|█         | 26/254 [00:01<00:12, 18.22it/s]Loading weights:  14%|█▍        | 36/254 [00:01<00:09, 23.23it/s]Loading weights:  16%|█▌        | 40/254 [00:01<00:09, 22.42it/s]Loading weights:  17%|█▋        | 43/254 [00:02<00:10, 20.37it/s]Loading weights:  18%|█▊        | 46/254 [00:02<00:10, 20.70it/s]Loading weights:  20%|█▉        | 50/254 [00:02<00:10, 18.59it/s]Loading weights:  20%|██        | 52/254 [00:02<00:11, 17.77it/s]Loading weights:  21%|██▏       | 54/254 [00:02<00:13, 15.01it/s]Loading weights:  22%|██▏       | 56/254 [00:03<00:13, 14.19it/s]Loading weights:  24%|██▍       | 62/254 [00:03<00:14, 13.65it/s]Loading weights:  25%|██▌       | 64/254 [00:03<00:14, 13.48it/s]Loading weights:  26%|██▌       | 66/254 [00:03<00:13, 14.04it/s]Loading weights:  27%|██▋       | 68/254 [00:04<00:17, 10.72it/s]Loading weights:  28%|██▊       | 72/254 [00:04<00:13, 13.78it/s]Loading weights:  29%|██▉       | 74/254 [00:04<00:13, 13.66it/s]Loading weights:  30%|██▉       | 76/254 [00:04<00:15, 11.63it/s]Loading weights:  32%|███▏      | 82/254 [00:04<00:11, 15.13it/s]Loading weights:  33%|███▎      | 84/254 [00:05<00:11, 14.52it/s]Loading weights:  35%|███▌      | 90/254 [00:05<00:09, 16.61it/s]Loading weights:  37%|███▋      | 93/254 [00:05<00:09, 17.08it/s]Loading weights:  38%|███▊      | 96/254 [00:05<00:09, 15.83it/s]Loading weights:  40%|███▉      | 101/254 [00:06<00:09, 15.73it/s]Loading weights:  41%|████      | 104/254 [00:06<00:10, 14.25it/s]Loading weights:  43%|████▎     | 109/254 [00:06<00:07, 19.38it/s]Loading weights:  44%|████▍     | 113/254 [00:06<00:06, 20.26it/s]Loading weights:  46%|████▌     | 116/254 [00:06<00:07, 18.90it/s]Loading weights:  47%|████▋     | 120/254 [00:07<00:06, 20.25it/s]Loading weights:  48%|████▊     | 123/254 [00:07<00:07, 16.93it/s]Loading weights: 100%|██████████| 254/254 [00:07<00:00, 34.70it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+1 / 126 capital_country_000
+2 / 126 capital_country_001
+3 / 126 capital_country_002
+4 / 126 capital_country_003
+5 / 126 capital_country_004
+6 / 126 capital_country_005
+7 / 126 capital_country_006
+8 / 126 capital_country_008
+9 / 126 capital_country_009
+10 / 126 capital_country_010
+11 / 126 capital_country_011
+12 / 126 capital_country_013
+13 / 126 capital_country_014
+14 / 126 capital_country_016
+15 / 126 capital_country_017
+16 / 126 capital_country_018
+17 / 126 capital_country_019
+18 / 126 capital_country_021
+19 / 126 capital_country_023
+20 / 126 capital_country_026
+21 / 126 capital_country_028
+22 / 126 capital_country_029
+23 / 126 capital_country_030
+24 / 126 capital_country_031
+25 / 126 capital_country_032
+26 / 126 capital_country_034
+27 / 126 capital_country_035
+28 / 126 capital_country_046
+29 / 126 capital_country_047
+30 / 126 capital_country_048
+31 / 126 capital_country_053
+32 / 126 capital_country_054
+33 / 126 capital_country_059
+34 / 126 capital_country_062
+35 / 126 capital_country_069
+36 / 126 capital_country_071
+37 / 126 capital_country_079
+38 / 126 capital_country_113
+39 / 126 capital_of_000
+40 / 126 capital_of_003
+41 / 126 capital_of_004
+42 / 126 capital_of_005
+43 / 126 capital_of_007
+44 / 126 capital_of_008
+45 / 126 capital_of_010
+46 / 126 capital_of_016
+47 / 126 capital_of_020
+48 / 126 capital_of_027
+49 / 126 capital_of_028
+50 / 126 capital_of_029
+51 / 126 capital_of_032
+52 / 126 capital_of_035
+53 / 126 capital_of_046
+54 / 126 capital_of_049
+55 / 126 capital_of_057
+56 / 126 capital_of_059
+57 / 126 capital_of_065
+58 / 126 capital_of_068
+59 / 126 capital_of_078
+60 / 126 capital_of_081
+61 / 126 capital_of_103
+62 / 126 capital_of_104
+63 / 126 capital_of_106
+64 / 126 capital_of_115
+65 / 126 city_country_000
+66 / 126 city_country_001
+67 / 126 city_country_002
+68 / 126 city_country_003
+69 / 126 city_country_004
+70 / 126 city_country_005
+71 / 126 city_country_009
+72 / 126 city_country_020
+73 / 126 city_country_021
+74 / 126 city_country_022
+75 / 126 city_country_027
+76 / 126 city_country_028
+77 / 126 city_country_029
+78 / 126 city_country_031
+79 / 126 city_country_043
+80 / 126 city_country_044
+81 / 126 city_country_045
+82 / 126 city_country_047
+83 / 126 city_country_048
+84 / 126 city_country_049
+85 / 126 city_country_050
+86 / 126 city_country_051
+87 / 126 city_country_054
+88 / 126 city_country_060
+89 / 126 city_country_061
+90 / 126 city_country_063
+91 / 126 city_country_065
+92 / 126 event_year_000
+93 / 126 event_year_002
+94 / 126 event_year_003
+95 / 126 event_year_007
+96 / 126 event_year_009
+97 / 126 event_year_010
+98 / 126 event_year_015
+99 / 126 event_year_018
+100 / 126 event_year_020
+101 / 126 event_year_021
+102 / 126 event_year_022
+103 / 126 event_year_023
+104 / 126 event_year_026
+105 / 126 event_year_028
+106 / 126 event_year_029
+107 / 126 event_year_030
+108 / 126 event_year_031
+109 / 126 event_year_032
+110 / 126 event_year_033
+111 / 126 event_year_034
+112 / 126 event_year_035
+113 / 126 event_year_036
+114 / 126 landmark_city_001
+115 / 126 landmark_city_003
+116 / 126 landmark_city_027
+117 / 126 landmark_city_038
+118 / 126 landmark_city_042
+119 / 126 landmark_city_046
+120 / 126 landmark_country_004
+121 / 126 landmark_country_010
+122 / 126 landmark_country_060
+123 / 126 landmark_country_070
+124 / 126 landmark_country_071
+125 / 126 landmark_country_072
+126 / 126 landmark_country_074
+peak VRAM GiB 7.5

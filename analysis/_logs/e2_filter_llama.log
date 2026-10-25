@@ -1,0 +1,44 @@
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   2%|▏         | 5/254 [00:00<00:12, 19.69it/s]Loading weights:   5%|▍         | 12/254 [00:00<00:09, 26.32it/s]Loading weights:   6%|▌         | 15/254 [00:00<00:08, 26.83it/s]Loading weights:   8%|▊         | 21/254 [00:00<00:06, 34.34it/s]Loading weights:  10%|▉         | 25/254 [00:00<00:08, 25.46it/s]Loading weights:  12%|█▏        | 30/254 [00:01<00:07, 30.44it/s]Loading weights:  13%|█▎        | 34/254 [00:01<00:07, 27.97it/s]Loading weights:  16%|█▌        | 41/254 [00:01<00:05, 35.72it/s]Loading weights:  18%|█▊        | 46/254 [00:01<00:05, 35.12it/s]Loading weights:  21%|██▏       | 54/254 [00:01<00:05, 35.70it/s]Loading weights:  24%|██▎       | 60/254 [00:01<00:04, 40.47it/s]Loading weights:  26%|██▌       | 65/254 [00:02<00:06, 30.68it/s]Loading weights:  30%|██▉       | 75/254 [00:02<00:04, 41.25it/s]Loading weights:  31%|███▏      | 80/254 [00:02<00:06, 25.79it/s]Loading weights:  34%|███▍      | 86/254 [00:02<00:05, 29.24it/s]Loading weights:  36%|███▌      | 91/254 [00:02<00:05, 29.55it/s]Loading weights:  37%|███▋      | 95/254 [00:03<00:07, 22.02it/s]Loading weights:  39%|███▊      | 98/254 [00:03<00:07, 19.95it/s]Loading weights:  41%|████▏     | 105/254 [00:03<00:05, 26.46it/s]Loading weights:  43%|████▎     | 109/254 [00:03<00:05, 24.55it/s]Loading weights:  44%|████▍     | 112/254 [00:04<00:07, 19.03it/s]Loading weights:  45%|████▌     | 115/254 [00:04<00:07, 18.97it/s]Loading weights:  46%|████▋     | 118/254 [00:04<00:09, 14.83it/s]Loading weights:  51%|█████     | 130/254 [00:04<00:05, 22.95it/s]Loading weights:  52%|█████▏    | 133/254 [00:05<00:05, 22.34it/s]Loading weights:  54%|█████▍    | 138/254 [00:05<00:05, 22.51it/s]Loading weights:  56%|█████▌    | 141/254 [00:05<00:05, 21.66it/s]Loading weights:  57%|█████▋    | 145/254 [00:05<00:04, 23.48it/s]Loading weights:  58%|█████▊    | 148/254 [00:05<00:04, 22.33it/s]Loading weights:  61%|██████    | 154/254 [00:05<00:03, 27.48it/s]Loading weights:  63%|██████▎   | 160/254 [00:06<00:03, 26.07it/s]Loading weights:  64%|██████▍   | 163/254 [00:06<00:03, 24.50it/s]Loading weights:  65%|██████▌   | 166/254 [00:06<00:05, 17.23it/s]Loading weights:  67%|██████▋   | 169/254 [00:06<00:04, 19.16it/s]Loading weights:  68%|██████▊   | 172/254 [00:07<00:06, 13.01it/s]Loading weights:  69%|██████▉   | 175/254 [00:07<00:05, 14.56it/s]Loading weights: 100%|██████████| 254/254 [00:07<00:00, 34.59it/s]
+{
+ "capital_country": {
+  "tune_n": 30,
+  "tune_en": 29,
+  "tune_es": 30,
+  "eval_n": 95,
+  "eval_both": 58,
+  "template_ok": true
+ },
+ "capital_of": {
+  "tune_n": 30,
+  "tune_en": 30,
+  "tune_es": 28,
+  "eval_n": 95,
+  "eval_both": 68,
+  "template_ok": true
+ },
+ "city_country": {
+  "tune_n": 30,
+  "tune_en": 26,
+  "tune_es": 24,
+  "eval_n": 45,
+  "eval_both": 36,
+  "template_ok": true
+ },
+ "landmark_city": {
+  "tune_n": 30,
+  "tune_en": 22,
+  "tune_es": 20,
+  "eval_n": 51,
+  "eval_both": 14,
+  "template_ok": true
+ },
+ "landmark_country": {
+  "tune_n": 30,
+  "tune_en": 26,
+  "tune_es": 20,
+  "eval_n": 51,
+  "eval_both": 22,
+  "template_ok": true
+ }
+}
+kept 198

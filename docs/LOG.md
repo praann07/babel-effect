@@ -79,3 +79,7 @@
 - Ran A12/A12a (CPU). The reviewer's premise that Llama has 46 identical-prefix facts is wrong: prefix-identical facts are rare (Llama 1, Gemma 4) because the ES templates are not subject-first. The equal-span effect is large and is the better lead for the noise artefact.
 - Registered A13a (independent-noise re-trace) and wrote code/trace_seeds.py; needs GPU, not run yet.
 - A13a run finished 03:12 (Llama 126 facts, Gemma 59, 16 draws each; about 1 h 50 min in total). G1 SURVIVES in both models. My predictions that shared noise inflated the alignment were wrong; shared noise matters only for Gemma equal-span facts. The earlier EQ vs OT gap with the original seed reflected single-draw noise. Next: covariates with the independent-noise profiles (name overlap, answer identity), then E2 (cross-language interchange), which needs its own pre-registration.
+
+- 2026-10-24 ~11:55: E2 full Llama run stopped by user at 210/396 pairs (laptop needed). Nothing saved (script writes only at end). Plan: add checkpoint/resume to code/interchange.py, rerun when GPU is free. Run dir analysis/*_e2full_llama is empty/incomplete and kept (write-once).
+
+- 2026-10-25: E2 finished overnight (Llama 01:54-04:26, Gemma 04:26-07:27, analysis 07:29). Verdict P2 SHARED in both models. Follow-up jobs (Gemma F7, Llama-1B pilot, BLOOM pilot) were skipped by the 06:00 cutoff because E2 ran longer than estimated. P6 fails for Llama (rho -0.04). Manifest now 1011 claims verified.

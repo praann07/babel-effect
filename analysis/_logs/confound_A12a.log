@@ -1,0 +1,4 @@
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+llama 126 {'IP': 1, 'EQ': 30, 'OT': 95} {'S1a_informative': 'present', 'S4a_target': 'present'} {'Q2_NC_all_D_less_than_raw_all_D': True, 'Q3_S1a_CI_includes_0': False, 'Q4_S4a_CI_includes_0': False, 'Q5_TE_corr_positive': True}
+gemma2 59 {'IP': 4, 'EQ': 20, 'OT': 35} {'S1a_informative': 'unresolved', 'S4a_target': 'unresolved'} {'Q2_NC_all_D_less_than_raw_all_D': False, 'Q3_S1a_CI_includes_0': True, 'Q4_S4a_CI_includes_0': True, 'Q5_TE_corr_positive': True}
+wrote analysis\run_20261024_confound_A12a

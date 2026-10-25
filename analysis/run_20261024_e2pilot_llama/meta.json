@@ -1,0 +1,158 @@
+{
+ "pairs": [
+  {
+   "target": "capital_country_030",
+   "source": "capital_country_090",
+   "direction": "en2es",
+   "relation": "capital_country",
+   "jaccard_source": 1.0
+  },
+  {
+   "target": "capital_country_030",
+   "source": "capital_country_090",
+   "direction": "es2en",
+   "relation": "capital_country",
+   "jaccard_source": 1.0
+  },
+  {
+   "target": "capital_country_030",
+   "source": "capital_country_074",
+   "direction": "en2es",
+   "relation": "capital_country",
+   "jaccard_source": 0.3333333333333333
+  },
+  {
+   "target": "capital_country_030",
+   "source": "capital_country_074",
+   "direction": "es2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.3333333333333333
+  },
+  {
+   "target": "capital_country_031",
+   "source": "capital_country_111",
+   "direction": "en2es",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_031",
+   "source": "capital_country_111",
+   "direction": "es2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_031",
+   "source": "capital_country_046",
+   "direction": "en2es",
+   "relation": "capital_country",
+   "jaccard_source": 1.0
+  },
+  {
+   "target": "capital_country_031",
+   "source": "capital_country_046",
+   "direction": "es2en",
+   "relation": "capital_country",
+   "jaccard_source": 1.0
+  },
+  {
+   "target": "capital_country_032",
+   "source": "capital_country_030",
+   "direction": "en2es",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_032",
+   "source": "capital_country_030",
+   "direction": "es2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_032",
+   "source": "capital_country_061",
+   "direction": "en2es",
+   "relation": "capital_country",
+   "jaccard_source": 1.0
+  },
+  {
+   "target": "capital_country_032",
+   "source": "capital_country_061",
+   "direction": "es2en",
+   "relation": "capital_country",
+   "jaccard_source": 1.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_037",
+   "direction": "en2es",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_037",
+   "direction": "es2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_074",
+   "direction": "en2es",
+   "relation": "capital_country",
+   "jaccard_source": 0.3333333333333333
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_074",
+   "direction": "es2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.3333333333333333
+  },
+  {
+   "target": "capital_country_035",
+   "source": "capital_country_122",
+   "direction": "en2es",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_035",
+   "source": "capital_country_122",
+   "direction": "es2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_035",
+   "source": "capital_country_060",
+   "direction": "en2es",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_035",
+   "source": "capital_country_060",
+   "direction": "es2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  }
+ ],
+ "conds": [
+  "same",
+  "cross",
+  "self",
+  "ctrl"
+ ],
+ "sites": [
+  "A",
+  "B"
+ ],
+ "n_layers": 28,
+ "seed": 20261024,
+ "n_facts": 198,
+ "pilot": 10
+}
