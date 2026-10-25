@@ -86,3 +86,7 @@
 
 ## 2026-10-25 (evening) GPU chain finished
 - Gemma F7 done (15:42). Llama-1B pilot kept 38 facts, BLOOM-1b7 pilot kept 34 (both < 50, full pipeline not run, A9/A10 rule). Results in docs/EXPERIMENT_LOG.md; manifest 1077 claims verified; paper_v2_draft section 4.5 updated, including a correction: the F7 "random" layer is the A9-selected layer (Llama 21, Gemma 3), not an independent random layer. GPU idle.
+
+## 2026-10-25 (night) Paper build + A15 registered
+- `paper/build_tex.py` updated (edit table now has the Gemma follow-up and labels the follow-up third layer "A9 layer"; new Table 4 for the interchange test read from `analysis/run_20261025_e2_analysis_A13/results.json`); rebuilt `paper/latex/main.pdf` (12 pages, no LaTeX errors) and copied to `paper/The_Babel_Effect_draft_v2.pdf`. Draft note now says only the Hindi interchange (A15) is unrun.
+- A15 (EN-HI interchange) registered and committed before any Hindi data (4492a3b); `code/interchange.py` and `code/e2_analysis.py` generalised to `--langs`; A13 results reproduced through the changed analysis code with max abs diff 0 (`analysis/run_20261025_e2_analysis_A13_regress`). GPU run (`scripts_night_e2h.sh`) waits for the laptop.
