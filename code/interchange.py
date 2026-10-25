@@ -109,18 +109,23 @@ def main() -> None:
     ap.add_argument("--unit-tests", action="store_true")
     ap.add_argument("--tag", default="e2")
     ap.add_argument("--seed", type=int, default=20261024)
+    ap.add_argument("--langs", default="en,es", help="A15: language pair (first = primary source language), e.g. en,hi")
+    ap.add_argument("--facts", default=None, help="facts file (default data/v2/e2_facts_<model>.json, or e2h_facts_<model>.json for en,hi)")
+    ap.add_argument("--max-pairs", type=int, default=0, help="A15: cap on the seeded pair list (0 = no cap)")
     a = ap.parse_args()
-    facts = json.loads(Path(f"data/v2/e2_facts_{a.model}.json").read_text(encoding="utf8"))["facts"]
+    l0, l1 = a.langs.split(",")
+    fpath = a.facts or (f"data/v2/e2_facts_{a.model}.json" if a.langs == "en,es" else f"data/v2/e2h_facts_{a.model}.json")
+    facts = json.loads(Path(fpath).read_text(encoding="utf8"))["facts"]
     model = load_model(a.model)
     tok = model.tokenizer
     rng = np.random.default_rng(a.seed)
     P = {}
     for f in facts:
         try:
-            P[(f["id"], "en")], P[(f["id"], "es")] = Prompt(model, f, "en"), Prompt(model, f, "es")
+            P[(f["id"], l0)], P[(f["id"], l1)] = Prompt(model, f, l0), Prompt(model, f, l1)
         except ValueError:
             continue
-    ok = sorted({k[0] for k in P if (k[0], "en") in P and (k[0], "es") in P})
+    ok = sorted({k[0] for k in P if (k[0], l0) in P and (k[0], l1) in P})
     facts = [f for f in facts if f["id"] in ok]
     byid = {f["id"]: f for f in facts}
     rel = {f["id"]: f["relation"] for f in facts}
@@ -130,16 +135,16 @@ def main() -> None:
         run.mkdir(parents=True, exist_ok=False)
     if a.unit_tests:
         tests = {}
-        t = P[(ok[0], "es")]
+        t = P[(ok[0], l1)]
         # identity: patching the target with its own clean activation must give Delta 0 (tolerance for bf16 batching)
-        other = P[(ok[1], "es")]
+        other = P[(ok[1], l1)]
         D, _ = pair_effect(model, t, t, t, t, other.a_ids, t.a_ids)
         tests["identity_max_abs_delta"] = float(np.abs(D[0]).max())
         # same-language swap at layers 0-2 on the first single-token-subject pairs of one relation
-        singles = [i for i in ok if len(P[(i, "es")].span) == 1 and rel[i] == rel[ok[0]]][:6]
+        singles = [i for i in ok if len(P[(i, l1)].span) == 1 and rel[i] == rel[ok[0]]][:6]
         big = []
         for i, j in zip(singles[:-1], singles[1:]):
-            tt, ss = P[(i, "es")], P[(j, "es")]
+            tt, ss = P[(i, l1)], P[(j, l1)]
             if tt.a_ids[0] == ss.a_ids[0]:
                 continue
             D, _ = pair_effect(model, tt, ss, ss, tt, ss.a_ids, tt.a_ids)
@@ -154,7 +159,7 @@ def main() -> None:
         rng.shuffle(pool)
         n = 0
         for s in pool:
-            for direction in ("en2es", "es2en"):
+            for direction in (f"{l0}2{l1}", f"{l1}2{l0}"):
                 lt = direction[-2:]
                 if P[(s["id"], lt)].a_ids[0] == P[(t["id"], lt)].a_ids[0]:
                     break
@@ -163,6 +168,8 @@ def main() -> None:
                 n += 1
                 if n == 2:
                     break
+    if a.max_pairs:
+        pairs = pairs[:a.max_pairs]
     if a.pilot:
         pairs = pairs[:a.pilot]
     meta, DD, FF, start = [], [], [], 0
@@ -173,14 +180,14 @@ def main() -> None:
     for n_, (ti, si) in enumerate(pairs):
         if n_ < start:
             continue
-        for direction in ("en2es", "es2en"):
-            sl, tl = direction[:2], direction[-2:]
+        for direction in (f"{l0}2{l1}", f"{l1}2{l0}"):
+            sl, tl = direction.split("2")
             T, S_tl, S_ol, T_ol = P[(ti, tl)], P[(si, tl)], P[(si, sl)], P[(ti, sl)]
             if S_tl.a_ids[0] == T.a_ids[0]:
                 continue
             D, F = pair_effect(model, T, S_tl, S_ol, T_ol, S_tl.a_ids, T.a_ids)
             DD.append(D); FF.append(F)
-            meta.append({"target": ti, "source": si, "direction": direction, "relation": rel[ti], "jaccard_source": jaccard0(tok, P[(si, "en")], P[(si, "es")])})
+            meta.append({"target": ti, "source": si, "direction": direction, "relation": rel[ti], "jaccard_source": jaccard0(tok, P[(si, l0)], P[(si, l1)])})
         if (n_ + 1) % 10 == 0:
             print(n_ + 1, "/", len(pairs), flush=True)
             np.savez_compressed(run / "partial_tmp.npz", delta=np.stack(DD), flip=np.stack(FF))
@@ -188,7 +195,7 @@ def main() -> None:
             (run / "partial_tmp.npz").replace(run / "partial.npz")
     np.savez_compressed(run / "effects.npz", delta=np.stack(DD), flip=np.stack(FF))
     (run / "meta.json").write_text(json.dumps({"pairs": meta, "conds": CONDS, "sites": SITES, "n_layers": model.cfg.n_layers, "seed": a.seed,
-                                               "n_facts": len(facts), "pilot": a.pilot}, indent=1))
+                                               "n_facts": len(facts), "pilot": a.pilot, "langs": [l0, l1], "facts_file": fpath, "max_pairs": a.max_pairs}, indent=1))
     print("done", len(meta), "peak VRAM GiB", round(torch.cuda.max_memory_allocated() / 2 ** 30, 2))
 
 
