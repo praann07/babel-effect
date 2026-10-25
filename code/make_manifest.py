@@ -139,11 +139,12 @@ def claims() -> list[dict]:
     for m, art in INC.items():  # in-context baseline
         for k in ("en_context/en", "en_context/es", "en_context/hi"):
             c += [(f"inc_{m}_{k}_dP", art, ["summary", k, "median_dP"]), (f"inc_{m}_{k}_success", art, ["summary", k, "success_rate"])]
-    f7 = "analysis/run_20261020_p4f7_llama/sweep_tables.json"  # 30-fact follow-up edits (Llama; Gemma not finished)
-    for cond in ("traced", "mid", "random"):
-        c += [(f"f7_llama_{cond}_n", f7, ["conditions", cond, "n"]), (f"f7_llama_{cond}_en_success", f7, ["conditions", cond, "en_success_rate"]),
-              (f"f7_llama_{cond}_transfer_es_med", f7, ["conditions", cond, "transfer_es", 0]), (f"f7_llama_{cond}_transfer_hi_med", f7, ["conditions", cond, "transfer_hi", 0]),
-              (f"f7_llama_{cond}_specificity_med", f7, ["conditions", cond, "specificity", 0]), (f"f7_llama_{cond}_ppl_med", f7, ["conditions", cond, "ppl_ratio", 0])]
+    for m7 in ("llama", "gemma2"):  # 30-fact follow-up edits (F7)
+        f7 = f"analysis/run_20261020_p4f7_{m7}/sweep_tables.json"
+        for cond in ("traced", "mid", "random"):
+            c += [(f"f7_{m7}_{cond}_n", f7, ["conditions", cond, "n"]), (f"f7_{m7}_{cond}_en_success", f7, ["conditions", cond, "en_success_rate"]),
+                  (f"f7_{m7}_{cond}_transfer_es_med", f7, ["conditions", cond, "transfer_es", 0]), (f"f7_{m7}_{cond}_transfer_hi_med", f7, ["conditions", cond, "transfer_hi", 0]),
+                  (f"f7_{m7}_{cond}_specificity_med", f7, ["conditions", cond, "specificity", 0]), (f"f7_{m7}_{cond}_ppl_med", f7, ["conditions", cond, "ppl_ratio", 0])]
     for m in ("llama", "gemma2"):  # A11 controls (section 4.6)
         c += [(f"ctl_{m}_n", CTL, [m, "n"]), (f"ctl_{m}_clusters", CTL, [m, "C3", "n_clusters"]),
               (f"ctl_{m}_ci_lo", CTL, [m, "C3", "cluster_boot_ci95", 0]), (f"ctl_{m}_ci_hi", CTL, [m, "C3", "cluster_boot_ci95", 1]),

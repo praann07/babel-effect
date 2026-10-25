@@ -1,0 +1,10 @@
+{
+ "model": "bigscience/bloom-1b7",
+ "candidates": "data/v2/facts_candidates_extra_bloom1b7.json",
+ "tag": "p1v2extra_bloom1b7",
+ "facts_out": "data/v2/facts_extra_bloom1b7.json",
+ "dtype": "bfloat16",
+ "n_new": 24,
+ "batch": 32,
+ "padding": "left"
+}

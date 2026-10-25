@@ -83,3 +83,6 @@
 - 2026-10-24 ~11:55: E2 full Llama run stopped by user at 210/396 pairs (laptop needed). Nothing saved (script writes only at end). Plan: add checkpoint/resume to code/interchange.py, rerun when GPU is free. Run dir analysis/*_e2full_llama is empty/incomplete and kept (write-once).
 
 - 2026-10-25: E2 finished overnight (Llama 01:54-04:26, Gemma 04:26-07:27, analysis 07:29). Verdict P2 SHARED in both models. Follow-up jobs (Gemma F7, Llama-1B pilot, BLOOM pilot) were skipped by the 06:00 cutoff because E2 ran longer than estimated. P6 fails for Llama (rho -0.04). Manifest now 1011 claims verified.
+
+## 2026-10-25 (evening) GPU chain finished
+- Gemma F7 done (15:42). Llama-1B pilot kept 38 facts, BLOOM-1b7 pilot kept 34 (both < 50, full pipeline not run, A9/A10 rule). Results in docs/EXPERIMENT_LOG.md; manifest 1077 claims verified; paper_v2_draft section 4.5 updated, including a correction: the F7 "random" layer is the A9-selected layer (Llama 21, Gemma 3), not an independent random layer. GPU idle.

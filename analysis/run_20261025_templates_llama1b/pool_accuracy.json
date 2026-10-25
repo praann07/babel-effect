@@ -1,0 +1,392 @@
+{
+ "capital_of/en": [
+  {
+   "template": "The capital of {s} is",
+   "acc": 1.0
+  },
+  {
+   "template": "The capital city of {s} is",
+   "acc": 1.0
+  },
+  {
+   "template": "{S}'s capital is",
+   "acc": 0.9666666666666667
+  },
+  {
+   "template": "{S} has its capital in the city of",
+   "acc": 1.0
+  },
+  {
+   "template": "The capital of {s} is the city of",
+   "acc": 1.0
+  },
+  {
+   "template": "The seat of government of {s} is in",
+   "acc": 1.0
+  }
+ ],
+ "capital_of/es": [
+  {
+   "template": "La capital de {s} es",
+   "acc": 0.6666666666666666
+  },
+  {
+   "template": "La ciudad capital de {s} es",
+   "acc": 0.23333333333333334
+  },
+  {
+   "template": "{S} tiene su capital en",
+   "acc": 0.7
+  },
+  {
+   "template": "{S} tiene como capital a",
+   "acc": 0.8
+  },
+  {
+   "template": "La capital de {s} es la ciudad de",
+   "acc": 0.8
+  },
+  {
+   "template": "El gobierno de {s} tiene su sede en",
+   "acc": 0.9
+  }
+ ],
+ "capital_of/hi": [
+  {
+   "template": "{s} की राजधानी",
+   "acc": 0.23333333333333334
+  },
+  {
+   "template": "{s} की राजधानी है",
+   "acc": 0.06666666666666667
+  },
+  {
+   "template": "{s} की राजधानी का नाम",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} देश की राजधानी",
+   "acc": 0.1
+  },
+  {
+   "template": "{s} की राजधानी शहर",
+   "acc": 0.03333333333333333
+  },
+  {
+   "template": "{s} की राजधानी वाला शहर",
+   "acc": 0.0
+  }
+ ],
+ "capital_country/en": [
+  {
+   "template": "{S} is the capital of",
+   "acc": 1.0
+  },
+  {
+   "template": "{S} is the capital city of",
+   "acc": 1.0
+  },
+  {
+   "template": "{S} is the capital of the country of",
+   "acc": 1.0
+  },
+  {
+   "template": "The country whose capital is {s} is",
+   "acc": 1.0
+  },
+  {
+   "template": "{S} serves as the capital of",
+   "acc": 1.0
+  },
+  {
+   "template": "The nation with {s} as its capital is",
+   "acc": 0.9666666666666667
+  }
+ ],
+ "capital_country/es": [
+  {
+   "template": "{S} es la capital de",
+   "acc": 0.8
+  },
+  {
+   "template": "{S} es la ciudad capital de",
+   "acc": 0.8666666666666667
+  },
+  {
+   "template": "El país cuya capital es {s} es",
+   "acc": 0.7666666666666667
+  },
+  {
+   "template": "{S} es la capital del país de",
+   "acc": 0.9333333333333333
+  },
+  {
+   "template": "{S} es la sede del gobierno de",
+   "acc": 0.6333333333333333
+  },
+  {
+   "template": "La nación que tiene a {s} como capital es",
+   "acc": 0.9
+  }
+ ],
+ "capital_country/hi": [
+  {
+   "template": "{s} इस देश की राजधानी है:",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} जिस देश की राजधानी है, उसका नाम",
+   "acc": 0.03333333333333333
+  },
+  {
+   "template": "{s} की राजधानी वाला देश",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} इस देश की राजधानी है,",
+   "acc": 0.0
+  },
+  {
+   "template": "वह देश जिसकी राजधानी {s} है:",
+   "acc": 0.43333333333333335
+  },
+  {
+   "template": "{s} राजधानी है इस देश की:",
+   "acc": 0.0
+  }
+ ],
+ "landmark_city/en": [
+  {
+   "template": "{S} is located in the city of",
+   "acc": 0.9666666666666667
+  },
+  {
+   "template": "{S} can be found in the city of",
+   "acc": 0.9666666666666667
+  },
+  {
+   "template": "{S} stands in the city of",
+   "acc": 0.9666666666666667
+  },
+  {
+   "template": "{S} is in the city of",
+   "acc": 0.9666666666666667
+  },
+  {
+   "template": "You can visit {s} in the city of",
+   "acc": 0.9666666666666667
+  },
+  {
+   "template": "{S} is a famous landmark in the city of",
+   "acc": 0.9666666666666667
+  }
+ ],
+ "landmark_city/es": [
+  {
+   "template": "{S} se encuentra en la ciudad de",
+   "acc": 0.6
+  },
+  {
+   "template": "{S} se halla en la ciudad de",
+   "acc": 0.6
+  },
+  {
+   "template": "{S} está en la ciudad de",
+   "acc": 0.6333333333333333
+  },
+  {
+   "template": "{S} se ubica en la ciudad de",
+   "acc": 0.6
+  },
+  {
+   "template": "Se puede visitar {s} en la ciudad de",
+   "acc": 0.7
+  },
+  {
+   "template": "{S} es un lugar famoso de la ciudad de",
+   "acc": 0.6
+  }
+ ],
+ "landmark_city/hi": [
+  {
+   "template": "{s} इस शहर में स्थित है:",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} शहर में स्थित है, जिसका नाम",
+   "acc": 0.06666666666666667
+  },
+  {
+   "template": "{s} स्थित है शहर",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} इस शहर में है:",
+   "acc": 0.06666666666666667
+  },
+  {
+   "template": "{s} मशहूर है शहर",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} यहाँ स्थित है:",
+   "acc": 0.0
+  }
+ ],
+ "invention_inventor/en": [
+  {
+   "template": "The inventor of {s} is",
+   "acc": 0.5333333333333333
+  },
+  {
+   "template": "{S} was invented by",
+   "acc": 0.6666666666666666
+  },
+  {
+   "template": "{S} was created by",
+   "acc": 0.6
+  },
+  {
+   "template": "The person who invented {s} is",
+   "acc": 0.4
+  },
+  {
+   "template": "The person credited with inventing {s} is",
+   "acc": 0.7666666666666667
+  },
+  {
+   "template": "{S} is credited to",
+   "acc": 0.3
+  }
+ ],
+ "invention_inventor/es": [
+  {
+   "template": "El inventor de {s} es",
+   "acc": 0.16666666666666666
+  },
+  {
+   "template": "El creador de {s} es",
+   "acc": 0.13333333333333333
+  },
+  {
+   "template": "La persona que inventó {s} es",
+   "acc": 0.23333333333333334
+  },
+  {
+   "template": "El inventor de {s} fue",
+   "acc": 0.03333333333333333
+  },
+  {
+   "template": "La invención de {s} se atribuye a",
+   "acc": 0.26666666666666666
+  },
+  {
+   "template": "Quien inventó {s} fue",
+   "acc": 0.23333333333333334
+  }
+ ],
+ "invention_inventor/hi": [
+  {
+   "template": "{s} का आविष्कार इस व्यक्ति ने किया था:",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} के आविष्कारक का नाम है:",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} का आविष्कार करने वाले व्यक्ति का नाम",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} का आविष्कारक",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} का आविष्कार किया था",
+   "acc": 0.0
+  },
+  {
+   "template": "{s} के आविष्कारक हैं",
+   "acc": 0.0
+  }
+ ],
+ "event_year/en": [
+  {
+   "template": "{S} took place in the year",
+   "acc": 1.0
+  },
+  {
+   "template": "{S} happened in",
+   "acc": 0.8333333333333334
+  },
+  {
+   "template": "{S} occurred in the year",
+   "acc": 1.0
+  },
+  {
+   "template": "The year of {s} was",
+   "acc": 1.0
+  },
+  {
+   "template": "{S} was in the year",
+   "acc": 1.0
+  },
+  {
+   "template": "{S} took place in",
+   "acc": 0.7333333333333333
+  }
+ ],
+ "event_year/es": [
+  {
+   "template": "{S} tuvo lugar en el año",
+   "acc": 0.9333333333333333
+  },
+  {
+   "template": "{S} ocurrió en",
+   "acc": 0.8
+  },
+  {
+   "template": "{S} sucedió en el año",
+   "acc": 0.9333333333333333
+  },
+  {
+   "template": "El año de {s} fue",
+   "acc": 0.5333333333333333
+  },
+  {
+   "template": "{S} fue en el año",
+   "acc": 0.9333333333333333
+  },
+  {
+   "template": "{S} tuvo lugar en",
+   "acc": 0.7333333333333333
+  }
+ ],
+ "event_year/hi": [
+  {
+   "template": "{s} सन्",
+   "acc": 0.43333333333333335
+  },
+  {
+   "template": "{s} वर्ष",
+   "acc": 0.23333333333333334
+  },
+  {
+   "template": "{s} साल",
+   "acc": 0.4
+  },
+  {
+   "template": "{s} का वर्ष",
+   "acc": 0.16666666666666666
+  },
+  {
+   "template": "{s} के वर्ष",
+   "acc": 0.1
+  },
+  {
+   "template": "{s} की तारीख़ का वर्ष",
+   "acc": 0.16666666666666666
+  }
+ ]
+}

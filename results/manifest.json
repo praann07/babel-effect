@@ -1,5 +1,5 @@
 {
- "n_claims": 1059,
+ "n_claims": 1077,
  "claims": [
   {
    "id": "n_candidates",
@@ -6178,6 +6178,198 @@
     0
    ],
    "value": 0.999582281012374
+  },
+  {
+   "id": "f7_gemma2_traced_n",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "n"
+   ],
+   "value": 20
+  },
+  {
+   "id": "f7_gemma2_traced_en_success",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "en_success_rate"
+   ],
+   "value": 0.8
+  },
+  {
+   "id": "f7_gemma2_traced_transfer_es_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "transfer_es",
+    0
+   ],
+   "value": 0.651610897628578
+  },
+  {
+   "id": "f7_gemma2_traced_transfer_hi_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "transfer_hi",
+    0
+   ],
+   "value": 0.09982098065535941
+  },
+  {
+   "id": "f7_gemma2_traced_specificity_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "specificity",
+    0
+   ],
+   "value": 0.08426087114610509
+  },
+  {
+   "id": "f7_gemma2_traced_ppl_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "traced",
+    "ppl_ratio",
+    0
+   ],
+   "value": 1.0002270854151485
+  },
+  {
+   "id": "f7_gemma2_mid_n",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "n"
+   ],
+   "value": 20
+  },
+  {
+   "id": "f7_gemma2_mid_en_success",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "en_success_rate"
+   ],
+   "value": 0.65
+  },
+  {
+   "id": "f7_gemma2_mid_transfer_es_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "transfer_es",
+    0
+   ],
+   "value": 0.4230434725977861
+  },
+  {
+   "id": "f7_gemma2_mid_transfer_hi_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "transfer_hi",
+    0
+   ],
+   "value": 0.19574315406983167
+  },
+  {
+   "id": "f7_gemma2_mid_specificity_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "specificity",
+    0
+   ],
+   "value": 0.077838465248247
+  },
+  {
+   "id": "f7_gemma2_mid_ppl_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "mid",
+    "ppl_ratio",
+    0
+   ],
+   "value": 1.0005319724765926
+  },
+  {
+   "id": "f7_gemma2_random_n",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "n"
+   ],
+   "value": 19
+  },
+  {
+   "id": "f7_gemma2_random_en_success",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "en_success_rate"
+   ],
+   "value": 0.8947368421052632
+  },
+  {
+   "id": "f7_gemma2_random_transfer_es_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "transfer_es",
+    0
+   ],
+   "value": 0.6552281433251446
+  },
+  {
+   "id": "f7_gemma2_random_transfer_hi_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "transfer_hi",
+    0
+   ],
+   "value": 0.000512470489749527
+  },
+  {
+   "id": "f7_gemma2_random_specificity_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "specificity",
+    0
+   ],
+   "value": 0.032007197093032014
+  },
+  {
+   "id": "f7_gemma2_random_ppl_med",
+   "artifact": "analysis/run_20261020_p4f7_gemma2/sweep_tables.json",
+   "key_path": [
+    "conditions",
+    "random",
+    "ppl_ratio",
+    0
+   ],
+   "value": 1.000382686780254
   },
   {
    "id": "ctl_llama_n",

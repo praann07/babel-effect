@@ -1,0 +1,36 @@
+[2026-10-25 14:48:09] START gemma2_f7
+[gemma2] F7 layer 3
+[2026-10-25 15:42:17] OK gemma2_f7
+[2026-10-25 15:42:57] START bloom1b7_select
+[2026-10-25 15:49:08] OK bloom1b7_select
+[2026-10-25 15:49:08] START bloom1b7_select_x
+[2026-10-25 15:52:14] OK bloom1b7_select_x
+[2026-10-25 15:52:14] START bloom1b7_build
+447 candidates: {'capital_of': 125, 'capital_country': 125, 'landmark_city': 81, 'invention_inventor': 40, 'event_year': 76, 'landmark_country': 0, 'city_country': 0}
+[2026-10-25 15:52:14] OK bloom1b7_build
+[2026-10-25 15:52:15] START bloom1b7_build_x
+156 candidates: {'landmark_country': 81, 'city_country': 75}
+[2026-10-25 15:52:15] OK bloom1b7_build_x
+[2026-10-25 15:52:15] START bloom1b7_filter
+[2026-10-25 16:00:12] OK bloom1b7_filter
+[2026-10-25 16:00:13] START bloom1b7_filter_x
+[2026-10-25 16:03:34] OK bloom1b7_filter_x
+[bloom1b7] pilot n_kept=34
+[bloom1b7] below 50: full pipeline NOT run (A9/A10 rule)
+[2026-10-25 16:03:35] START llama1b_select
+[2026-10-25 16:09:54] OK llama1b_select
+[2026-10-25 16:09:54] START llama1b_select_x
+[2026-10-25 16:12:50] OK llama1b_select_x
+[2026-10-25 16:12:50] START llama1b_build
+447 candidates: {'capital_of': 125, 'capital_country': 125, 'landmark_city': 81, 'invention_inventor': 40, 'event_year': 76, 'landmark_country': 0, 'city_country': 0}
+[2026-10-25 16:12:51] OK llama1b_build
+[2026-10-25 16:12:51] START llama1b_build_x
+156 candidates: {'landmark_country': 81, 'city_country': 75}
+[2026-10-25 16:12:51] OK llama1b_build_x
+[2026-10-25 16:12:51] START llama1b_filter
+[2026-10-25 16:21:34] OK llama1b_filter
+[2026-10-25 16:21:35] START llama1b_filter_x
+[2026-10-25 16:25:18] OK llama1b_filter_x
+[llama1b] pilot n_kept=38
+[llama1b] below 50: full pipeline NOT run (A9/A10 rule)
+ALL_DONE

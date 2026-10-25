@@ -2,7 +2,7 @@
 
 ## 2026-10-25 status
 - [x] A12/A12a confound analysis, A13a independent-noise re-trace, A13b covariates, A13 E2 interchange (verdict SHARED EN-ES, both models; docs/EXPERIMENT_LOG.md). Paper section 4.7 drafted.
-- [ ] GPU (needs laptop): E2 Hindi; E3 name-dissimilar facts (more relations); Gemma F7 edits; Llama-1B and BLOOM-1b7 pilots; E4 base vs instruct.
+- [ ] GPU (needs laptop): E2 Hindi; E3 name-dissimilar facts (more relations); E4 base vs instruct. (Gemma F7 done 2026-10-25; Llama-1B pilot kept 38 facts and BLOOM-1b7 pilot 34, both below the 50 needed, so no full run.)
 - [ ] CPU: related work + arXiv-verified citations; Llama in-context baseline anomaly (EN 0/10); main tables with 10,000 permutations; Fig. 4 buckets; reproduce script + clean-clone run; external pre-registration timestamp (Zenodo/OSF); full paper rewrite and abstract update.
 - [ ] Open science question: tracing increment does not predict interchange per fact in Llama (rho -0.04); explain or drop the link.
 
