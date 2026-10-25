@@ -1,5 +1,5 @@
 {
- "n_claims": 1011,
+ "n_claims": 1059,
  "claims": [
   {
    "id": "n_candidates",
@@ -11726,6 +11726,630 @@
     "P6_pass"
    ],
    "value": true
+  },
+  {
+   "id": "pk_llama_v2_en-es_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 4.005462169647217
+  },
+  {
+   "id": "pk_llama_v2_en-es_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "pk_llama_v2_en-es_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.6265448927879333
+  },
+  {
+   "id": "pk_llama_v2_en-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.467503786087036
+  },
+  {
+   "id": "pk_llama_v2_en-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.006999300069993001
+  },
+  {
+   "id": "pk_llama_v2_en-hi_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.509225070476532
+  },
+  {
+   "id": "pk_llama_v2_es-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.4065253734588623
+  },
+  {
+   "id": "pk_llama_v2_es-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.006099390060993901
+  },
+  {
+   "id": "pk_llama_v2_es-hi_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.42252233624458313
+  },
+  {
+   "id": "pk_gemma2_v2_en-es_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 4.817931175231934
+  },
+  {
+   "id": "pk_gemma2_v2_en-es_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "pk_gemma2_v2_en-es_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.4642083942890167
+  },
+  {
+   "id": "pk_gemma2_v2_en-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.059337615966797
+  },
+  {
+   "id": "pk_gemma2_v2_en-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.0163983601639836
+  },
+  {
+   "id": "pk_gemma2_v2_en-hi_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.22629019618034363
+  },
+  {
+   "id": "pk_gemma2_v2_es-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.06848247349262238
+  },
+  {
+   "id": "pk_gemma2_v2_es-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.5001499850014999
+  },
+  {
+   "id": "pk_gemma2_v2_es-hi_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.1372923105955124
+  },
+  {
+   "id": "pk_llama_all_en-es_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 5.134533882141113
+  },
+  {
+   "id": "pk_llama_all_en-es_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "pk_llama_all_en-es_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.6417125463485718
+  },
+  {
+   "id": "pk_llama_all_strat_en-es_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 4.364674091339111
+  },
+  {
+   "id": "pk_llama_all_strat_en-es_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "pk_llama_all_en-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.904406785964966
+  },
+  {
+   "id": "pk_llama_all_en-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.0018998100189981002
+  },
+  {
+   "id": "pk_llama_all_en-hi_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.4999834895133972
+  },
+  {
+   "id": "pk_llama_all_strat_en-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.6120011806488037
+  },
+  {
+   "id": "pk_llama_all_strat_en-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.008599140085991401
+  },
+  {
+   "id": "pk_llama_all_es-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.52473783493042
+  },
+  {
+   "id": "pk_llama_all_es-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.005099490050994901
+  },
+  {
+   "id": "pk_llama_all_es-hi_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.41313278675079346
+  },
+  {
+   "id": "pk_llama_all_strat_es-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.9777297973632812
+  },
+  {
+   "id": "pk_llama_all_strat_es-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.0160983901609839
+  },
+  {
+   "id": "pk_gemma2_all_en-es_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 3.958915948867798
+  },
+  {
+   "id": "pk_gemma2_all_en-es_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 9.999000099990002e-05
+  },
+  {
+   "id": "pk_gemma2_all_en-es_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.4355236887931824
+  },
+  {
+   "id": "pk_gemma2_all_strat_en-es_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 3.255730152130127
+  },
+  {
+   "id": "pk_gemma2_all_strat_en-es_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-es",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.0005999400059994001
+  },
+  {
+   "id": "pk_gemma2_all_en-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 2.0363657474517822
+  },
+  {
+   "id": "pk_gemma2_all_en-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.019498050194980503
+  },
+  {
+   "id": "pk_gemma2_all_en-hi_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.22208569943904877
+  },
+  {
+   "id": "pk_gemma2_all_strat_en-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 1.6665834188461304
+  },
+  {
+   "id": "pk_gemma2_all_strat_en-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "en-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.043695630436956304
+  },
+  {
+   "id": "pk_gemma2_all_es-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": 0.049780670553445816
+  },
+  {
+   "id": "pk_gemma2_all_es-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.5062493750624938
+  },
+  {
+   "id": "pk_gemma2_all_es-hi_observed_median",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "observed_median"
+   ],
+   "value": 0.13227973878383636
+  },
+  {
+   "id": "pk_gemma2_all_strat_es-hi_z",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "z"
+   ],
+   "value": -0.43255653977394104
+  },
+  {
+   "id": "pk_gemma2_all_strat_es-hi_p_one_sided",
+   "artifact": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json",
+   "key_path": [
+    "sets",
+    "primary_valid_stratified_by_relation",
+    "pairs",
+    "es-hi",
+    "mlp_cosine",
+    "p_one_sided"
+   ],
+   "value": 0.6882311768823117
   }
  ]
 }

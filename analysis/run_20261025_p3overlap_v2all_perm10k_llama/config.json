@@ -1,0 +1,15 @@
+{
+ "source_run": "analysis/run_20261015_p3trace_v2_llama,analysis/run_20261019_p3extra_10191057_llama",
+ "seed": 20261012,
+ "sets": {
+  "primary_valid": 126,
+  "all_kept": 127,
+  "valid_no_copyable": 104,
+  "valid_capital_country": 38,
+  "valid_capital_of": 26,
+  "valid_city_country": 27,
+  "valid_event_year": 22,
+  "valid_landmark_city": 6,
+  "valid_landmark_country": 7
+ }
+}

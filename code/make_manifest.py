@@ -36,6 +36,10 @@ E2 = "analysis/run_20261025_e2_analysis_A13/results.json"
 MAN = Path("results/manifest.json")
 
 
+PK = {"llama_v2": "analysis/run_20261025_p3overlap_v2_perm10k_llama/results.json", "gemma2_v2": "analysis/run_20261025_p3overlap_v2_perm10k_gemma2/results.json",
+      "llama_all": "analysis/run_20261025_p3overlap_v2all_perm10k_llama/results.json", "gemma2_all": "analysis/run_20261025_p3overlap_v2all_perm10k_gemma2/results.json"}
+
+
 def claims() -> list[dict]:
     c: list[tuple[str, str, list]] = []
     c += [("n_candidates", P1, ["n_candidates"]), ("n_kept_p1", P1, ["n_kept"])]
@@ -196,6 +200,13 @@ def claims() -> list[dict]:
         c += [(f"e2_{m}_J0", E2, [m, "en2es", "covariate_model", "pred_ratio_at_J0"]), (f"e2_{m}_J1", E2, [m, "en2es", "covariate_model", "pred_ratio_at_J1"]),
               (f"e2_{m}_P5", E2, [m, "en2es", "covariate_model", "P5_lexical"]), (f"e2_{m}_P6_rho", E2, [m, "en2es", "P6_validity", "spearman"]),
               (f"e2_{m}_P6_n", E2, [m, "en2es", "P6_validity", "n_facts"]), (f"e2_{m}_P6_pass", E2, [m, "en2es", "P6_validity", "P6_pass"])]
+    for tag, art in PK.items():  # A14: overlap rerun with 10,000 permutations
+        for pr in ("en-es", "en-hi", "es-hi"):
+            for st in ("z", "p_one_sided", "observed_median"):
+                c.append((f"pk_{tag}_{pr}_{st}", art, ["sets", "primary_valid", "pairs", pr, "mlp_cosine", st]))
+            if tag.endswith("_all"):
+                for st in ("z", "p_one_sided"):
+                    c.append((f"pk_{tag}_strat_{pr}_{st}", art, ["sets", "primary_valid_stratified_by_relation", "pairs", pr, "mlp_cosine", st]))
     return [{"id": i, "artifact": a, "key_path": k} for i, a, k in c]
 
 

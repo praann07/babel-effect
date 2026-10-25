@@ -46,3 +46,7 @@
 - Question: is the English 0/10 (F3, `analysis/run_20261020_incontext_10200339_llama`) a bug? Method: greedy generation (10 tokens, bf16, CPU, HF generate) for the first 6 edit facts, English and Spanish, with and without the context sentence (`code/incontext_diag.py`, output `analysis/run_20261025_incontext_diag_llama/generations.txt`). Descriptive, n=6, not in the manifest.
 - Finding: with the context, English generations restate the original answer and reject the new one ("France, not Denmark", "actually Paris, not Warsaw"); Spanish generations repeat the new object. No code error found: the success rule only counts the new object as the answer. Reading: the instruct model corrects a counterfactual sentence that the question repeats verbatim.
 - Consequence: the English figure is a prompt-design effect; reported as such in paper section 4.5. A fix (different context wording) would need a new GPU run; not done.
+
+## 2026-10-25 Overlap rerun with 10,000 permutations (A14/A14a)
+- `code/circuit_overlap.py --perm 10000` (new flag, default 1000), same traces and seed; four runs `analysis/run_20261025_p3overlap_{v2,v2all}_perm10k_{llama,gemma2}`; CPU, about 1 minute each.
+- EN-ES MLP cosine: Llama 4.22 to 4.01 (v2, n=92), Gemma 4.81 to 4.82 (n=58), p = 0.0001; all verdicts unchanged. Manifest 1059 claims verified.
