@@ -1,0 +1,71 @@
+{
+ "n_candidates": 447,
+ "n_kept": 28,
+ "per_relation": {
+  "capital_of": {
+   "n": 125,
+   "kept": 12,
+   "en_p0": 108,
+   "en_p1": 100,
+   "en_p2": 89,
+   "es_p0": 81,
+   "es_p1": 75,
+   "es_p2": 73,
+   "hi_p0": 21,
+   "hi_p1": 20,
+   "hi_p2": 8
+  },
+  "capital_country": {
+   "n": 125,
+   "kept": 2,
+   "en_p0": 104,
+   "en_p1": 107,
+   "en_p2": 104,
+   "es_p0": 80,
+   "es_p1": 88,
+   "es_p2": 85,
+   "hi_p0": 7,
+   "hi_p1": 3,
+   "hi_p2": 4
+  },
+  "landmark_city": {
+   "n": 81,
+   "kept": 1,
+   "en_p0": 46,
+   "en_p1": 46,
+   "en_p2": 52,
+   "es_p0": 48,
+   "es_p1": 50,
+   "es_p2": 48,
+   "hi_p0": 2,
+   "hi_p1": 2,
+   "hi_p2": 0
+  },
+  "invention_inventor": {
+   "n": 40,
+   "kept": 0,
+   "en_p0": 7,
+   "en_p1": 7,
+   "en_p2": 4,
+   "es_p0": 7,
+   "es_p1": 7,
+   "es_p2": 5,
+   "hi_p0": 0,
+   "hi_p1": 0,
+   "hi_p2": 0
+  },
+  "event_year": {
+   "n": 76,
+   "kept": 13,
+   "en_p0": 52,
+   "en_p1": 53,
+   "en_p2": 51,
+   "es_p0": 56,
+   "es_p1": 56,
+   "es_p2": 57,
+   "hi_p0": 15,
+   "hi_p1": 15,
+   "hi_p2": 12
+  }
+ }
+}

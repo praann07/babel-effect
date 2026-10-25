@@ -3,3 +3,6 @@
 [07:29:58] skip scripts_run_bloom.sh (too late)
 [2026-10-25 07:29:58] after_e2 finished
 [2026-10-25 07:40:59] HARD STOP
+[2026-10-25 14:48:07] START scripts_run_queue2.sh
+[2026-10-25 16:25:18] END scripts_run_queue2.sh rc=0
+[2026-10-25 16:25:18] START scripts_run_llama1b.sh
