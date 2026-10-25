@@ -1,0 +1,3 @@
+llama {'en2es': (142, 'P2 SHARED', True), 'es2en': (142, 'P2 SHARED', True)}
+gemma2 {'en2es': (162, 'P2 SHARED', True), 'es2en': (162, 'P2 SHARED', True)}
+wrote analysis\run_20261025_e2_analysis_A13

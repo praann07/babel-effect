@@ -1,0 +1,42 @@
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   3%|▎         | 7/254 [00:00<00:09, 27.34it/s]Loading weights:   5%|▌         | 13/254 [00:00<00:07, 33.53it/s]Loading weights:   7%|▋         | 17/254 [00:00<00:08, 26.58it/s]Loading weights:   8%|▊         | 20/254 [00:01<00:16, 13.83it/s]Loading weights:   9%|▊         | 22/254 [00:01<00:19, 11.79it/s]Loading weights:  10%|▉         | 25/254 [00:01<00:18, 12.39it/s]Loading weights:  11%|█▏        | 29/254 [00:01<00:13, 16.37it/s]Loading weights:  13%|█▎        | 32/254 [00:01<00:13, 16.31it/s]Loading weights:  16%|█▌        | 40/254 [00:02<00:08, 26.09it/s]Loading weights:  18%|█▊        | 46/254 [00:02<00:08, 24.14it/s]Loading weights:  20%|█▉        | 50/254 [00:02<00:08, 24.63it/s]Loading weights:  21%|██        | 53/254 [00:02<00:10, 18.98it/s]Loading weights:  22%|██▏       | 56/254 [00:03<00:13, 15.10it/s]Loading weights:  26%|██▌       | 65/254 [00:03<00:08, 23.51it/s]Loading weights:  27%|██▋       | 68/254 [00:03<00:07, 23.29it/s]Loading weights:  28%|██▊       | 71/254 [00:03<00:08, 22.47it/s]Loading weights:  29%|██▉       | 74/254 [00:03<00:08, 22.18it/s]Loading weights:  30%|███       | 77/254 [00:04<00:16, 10.65it/s]Loading weights:  31%|███       | 79/254 [00:04<00:15, 11.13it/s]Loading weights:  32%|███▏      | 81/254 [00:04<00:15, 11.11it/s]Loading weights:  33%|███▎      | 84/254 [00:05<00:17,  9.51it/s]Loading weights:  34%|███▍      | 86/254 [00:05<00:17,  9.41it/s]Loading weights:  37%|███▋      | 94/254 [00:05<00:09, 16.36it/s]Loading weights:  38%|███▊      | 96/254 [00:05<00:11, 13.36it/s]Loading weights:  39%|███▊      | 98/254 [00:05<00:11, 13.57it/s]Loading weights:  39%|███▉      | 100/254 [00:06<00:16,  9.47it/s]Loading weights:  41%|████▏     | 105/254 [00:06<00:10, 13.79it/s]Loading weights:  42%|████▏     | 107/254 [00:07<00:15,  9.27it/s]Loading weights:  43%|████▎     | 110/254 [00:07<00:12, 11.66it/s]Loading weights:  44%|████▍     | 112/254 [00:07<00:11, 11.87it/s]Loading weights:  46%|████▋     | 118/254 [00:07<00:09, 14.72it/s]Loading weights:  48%|████▊     | 122/254 [00:07<00:07, 17.47it/s]Loading weights:  49%|████▉     | 125/254 [00:08<00:11, 11.07it/s]Loading weights:  52%|█████▏    | 131/254 [00:08<00:08, 14.68it/s]Loading weights:  52%|█████▏    | 133/254 [00:08<00:09, 12.76it/s]Loading weights:  56%|█████▌    | 141/254 [00:09<00:06, 16.33it/s]Loading weights:  59%|█████▉    | 151/254 [00:09<00:04, 23.09it/s]Loading weights:  61%|██████    | 154/254 [00:09<00:06, 15.20it/s]Loading weights:  61%|██████▏   | 156/254 [00:10<00:07, 13.74it/s]Loading weights: 100%|██████████| 254/254 [00:10<00:00, 24.95it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+10 / 396
+20 / 396
+30 / 396
+40 / 396
+50 / 396
+60 / 396
+70 / 396
+80 / 396
+90 / 396
+100 / 396
+110 / 396
+120 / 396
+130 / 396
+140 / 396
+150 / 396
+160 / 396
+170 / 396
+180 / 396
+190 / 396
+200 / 396
+210 / 396
+220 / 396
+230 / 396
+240 / 396
+250 / 396
+260 / 396
+270 / 396
+280 / 396
+290 / 396
+300 / 396
+310 / 396
+320 / 396
+330 / 396
+340 / 396
+350 / 396
+360 / 396
+370 / 396
+380 / 396
+390 / 396
+done 792 peak VRAM GiB 7.69

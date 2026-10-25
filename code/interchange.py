@@ -125,7 +125,9 @@ def main() -> None:
     byid = {f["id"]: f for f in facts}
     rel = {f["id"]: f["relation"] for f in facts}
     run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}_{a.model}"
-    run.mkdir(parents=True, exist_ok=False)
+    resuming = (run / "partial.npz").exists() and not (run / "effects.npz").exists()  # resume an interrupted run of the same tag
+    if not resuming:
+        run.mkdir(parents=True, exist_ok=False)
     if a.unit_tests:
         tests = {}
         t = P[(ok[0], "es")]
@@ -163,8 +165,14 @@ def main() -> None:
                     break
     if a.pilot:
         pairs = pairs[:a.pilot]
-    meta, DD, FF = [], [], []
+    meta, DD, FF, start = [], [], [], 0
+    if resuming:
+        z, pm = np.load(run / "partial.npz"), json.loads((run / "partial_meta.json").read_text())
+        DD, FF, meta, start = list(z["delta"]), list(z["flip"]), pm["pairs"], pm["n_done"]
+        print("resuming from pair", start, flush=True)
     for n_, (ti, si) in enumerate(pairs):
+        if n_ < start:
+            continue
         for direction in ("en2es", "es2en"):
             sl, tl = direction[:2], direction[-2:]
             T, S_tl, S_ol, T_ol = P[(ti, tl)], P[(si, tl)], P[(si, sl)], P[(ti, sl)]
@@ -175,6 +183,9 @@ def main() -> None:
             meta.append({"target": ti, "source": si, "direction": direction, "relation": rel[ti], "jaccard_source": jaccard0(tok, P[(si, "en")], P[(si, "es")])})
         if (n_ + 1) % 10 == 0:
             print(n_ + 1, "/", len(pairs), flush=True)
+            np.savez_compressed(run / "partial_tmp.npz", delta=np.stack(DD), flip=np.stack(FF))
+            (run / "partial_meta.json").write_text(json.dumps({"pairs": meta, "n_done": n_ + 1}))
+            (run / "partial_tmp.npz").replace(run / "partial.npz")
     np.savez_compressed(run / "effects.npz", delta=np.stack(DD), flip=np.stack(FF))
     (run / "meta.json").write_text(json.dumps({"pairs": meta, "conds": CONDS, "sites": SITES, "n_layers": model.cfg.n_layers, "seed": a.seed,
                                                "n_facts": len(facts), "pilot": a.pilot}, indent=1))
