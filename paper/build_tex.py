@@ -17,6 +17,8 @@ MD = (PAPER / "paper_v2_draft.md").read_text(encoding="utf8")
 OVA = {"Llama-3.2-3B": "analysis/run_20261019_p3overlap_v2all_10191057/results.json", "Gemma-2-2B": "analysis/run_20261020_p3overlap_v2all_10200339/results.json"}
 SW = {"Llama-3.2-3B": "analysis/run_20261015_p4sweep_llama/sweep_tables.json", "Gemma-2-2B": "analysis/run_20261019_p4sweep_gemma2/sweep_tables.json"}
 F7 = "analysis/run_20261020_p4f7_llama/sweep_tables.json"
+F7G = "analysis/run_20261020_p4f7_gemma2/sweep_tables.json"
+E2 = "analysis/run_20261025_e2_analysis_A13/results.json"
 FIGS = {  # section heading prefix -> [(file, width, caption)]
     "4.1": [("fig1_profiles.pdf", 0.95, "Median normalised MLP indirect effect per layer at each language's last subject token (band: interquartile range), for Llama-3.2-3B (left) and Gemma-2-2B (right)."),
             ("fig2_overlap.pdf", 0.95, "MLP-profile cosine between languages: observed median with 95\\% bootstrap CI (dots) and mean of the shuffled-fact permutation null (bars).")],
@@ -68,14 +70,29 @@ def table_edit() -> str:
         v = t["conditions"][c][k]
         return v[i] if i is not None else v
     rows = []
-    for lab, art in list(SW.items()) + [("Llama-3.2-3B, follow-up", F7)]:
+    for lab, art in list(SW.items()) + [("Llama-3.2-3B, follow-up", F7), ("Gemma-2-2B, follow-up", F7G)]:
         t = rd(art)
         for c in ("traced", "mid", "random"):
-            rows.append(f"{lab} & {c} & {g(t, c, 'n')} & {g(t, c, 'en_success_rate'):.2f} & {g(t, c, 'transfer_es', 0):.3g} & {g(t, c, 'transfer_hi', 0):.3g} & {g(t, c, 'specificity', 0):.3g} \\\\")
+            rows.append(f"{lab} & {dict(random='A9 layer').get(c, c) if 'follow-up' in lab else c} & {g(t, c, 'n')} & {g(t, c, 'en_success_rate'):.2f} & {g(t, c, 'transfer_es', 0):.3g} & {g(t, c, 'transfer_hi', 0):.3g} & {g(t, c, 'specificity', 0):.3g} \\\\")
         rows.append("\\addlinespace")
     return ("\\begin{table}[t]\\centering\\small\\begin{tabular}{llrcccc}\\toprule\nmodel & layer & $n$ & EN success & ES transfer & HI transfer & specificity \\\\\\midrule\n" + "\n".join(rows[:-1]) +
-            "\n\\bottomrule\\end{tabular}\\caption{Edit conditions: the fact's English traced layer, $L/2$ and a random layer (medians; transfer = $\\Delta P_{L2}/\\Delta P_{EN}$; specificity = maximum absolute probability change over 20 unrelated facts). "
-            "The first two blocks are the 10-fact sweeps; the last block is the 20-fact Llama follow-up. Gemma's follow-up did not finish.}\\label{tab:edit}\\end{table}\n")
+            "\n\\bottomrule\\end{tabular}\\caption{Edit conditions: the fact's English traced layer, $L/2$ and a third layer (medians; in the 10-fact sweeps this is a randomly drawn layer, in the follow-ups it is the layer chosen by the A9 rule: 21 for Llama, 3 for Gemma; transfer = $\\Delta P_{L2}/\\Delta P_{EN}$; specificity = maximum absolute probability change over 20 unrelated facts). "
+            "The first two blocks are the 10-fact sweeps; the last two are the 19-20-fact follow-ups.}\\label{tab:edit}\\end{table}\n")
+
+
+def table_e2() -> str:
+    j = rd(E2)
+    rows = []
+    for m, lab in (("llama", "Llama-3.2-3B"), ("gemma2", "Gemma-2-2B")):
+        for d, dl in (("en2es", r"EN$\to$ES"), ("es2en", r"ES$\to$EN")):
+            A = j[m][d]["site_A"]; c = A["confirmatory"]; f = A["flip_at_lstar_confirmatory"]
+            rows.append(f"{lab} & {dl} & {c['n_pairs']} & {A['gate']['l_star']} & {f['same']:.2f} & {f['cross']:.2f} & {c['I']:.2f} [{c['ci95'][0]:.2f}, {c['ci95'][1]:.2f}] & {A['verdict'].split()[1]} \\\\")
+        rows.append(r"\addlinespace")
+    head = r"\begin{table}[t]\centering\small\begin{tabular}{llrcccll}\toprule" + "\n" + r"model & direction & pairs & $l^*$ & flip same & flip cross & $I$ [95\% CI] & verdict \\\midrule" + "\n"
+    cap = ("\n" + r"\bottomrule\end{tabular}\caption{Interchange test (site A, confirmatory pairs whose source subject shares no token piece across languages). "
+           r"$I$ = cross-language effect divided by same-language effect, summed over the layers where the same-language effect is at least half its maximum; "
+           r"CI by bootstrap over source entities. Verdict by the pre-registered rule (lower bound $\geq 0.7$: shared).}\label{tab:e2}\end{table}" + "\n")
+    return head + "\n".join(rows[:-1]) + cap
 
 
 def figs(prefix: str) -> str:
@@ -125,6 +142,8 @@ def main() -> None:
             tex.append(table_main() + figs("4.1") + table_overlap())
         elif num == "4.4":
             tex.append(figs("4.4") + table_edit())
+        elif num == "4.7":
+            tex.append(table_e2())
         elif num in FIGS:
             tex.append(figs(num))
     doc = r"""\documentclass[11pt]{article}

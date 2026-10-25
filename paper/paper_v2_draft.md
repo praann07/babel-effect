@@ -1,6 +1,6 @@
 # The Babel Effect: Cross-Lingual Causal Profiles of Factual Recall in Two Small Language Models
 
-*Draft v2 (work in progress; Section 4.7 added 2026-10-25). Not yet run: Hindi interchange, Gemma's 20 follow-up edits and the BLOOM-1b7 and Llama-3.2-1B pilots (A10). Every number is read from `results/manifest.json` or from a logged run (see `docs/LOG.md`). Hypotheses were pre-registered in `docs/HYPOTHESIS.md` (amendments A1-A13c).*
+*Draft v2 (work in progress; Section 4.7 added 2026-10-25). Not yet run: Hindi interchange (pre-registered as A15). The BLOOM-1b7 and Llama-3.2-1B pilots kept too few facts (34 and 38 < 50) to run (A10). Every number is read from `results/manifest.json` or from a logged run (see `docs/LOG.md`). Hypotheses were pre-registered in `docs/HYPOTHESIS.md` (amendments A1-A13c).*
 
 ## Abstract
 
