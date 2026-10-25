@@ -1,0 +1,13 @@
+{
+ "source_run": "analysis/run_20261015_p3trace_v2_llama",
+ "seed": 20261012,
+ "sets": {
+  "primary_valid": 92,
+  "all_kept": 93,
+  "valid_no_copyable": 70,
+  "valid_capital_country": 38,
+  "valid_capital_of": 26,
+  "valid_event_year": 22,
+  "valid_landmark_city": 6
+ }
+}
