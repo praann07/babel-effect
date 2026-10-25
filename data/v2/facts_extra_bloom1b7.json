@@ -1,0 +1,368 @@
+{
+ "version": 2,
+ "model": "bigscience/bloom-1b7",
+ "summary": {
+  "n_candidates": 156,
+  "n_kept": 6,
+  "per_relation": {
+   "landmark_country": {
+    "n": 81,
+    "kept": 1,
+    "en_p0": 35,
+    "en_p1": 45,
+    "en_p2": 39,
+    "es_p0": 22,
+    "es_p1": 34,
+    "es_p2": 26,
+    "hi_p0": 6,
+    "hi_p1": 8,
+    "hi_p2": 18
+   },
+   "city_country": {
+    "n": 75,
+    "kept": 5,
+    "en_p0": 55,
+    "en_p1": 60,
+    "en_p2": 46,
+    "es_p0": 59,
+    "es_p1": 45,
+    "es_p2": 49,
+    "hi_p0": 17,
+    "hi_p1": 6,
+    "hi_p2": 7
+   }
+  }
+ },
+ "facts": [
+  {
+   "id": "landmark_country_006",
+   "relation": "landmark_country",
+   "seed": 1803212600,
+   "lang": {
+    "en": {
+     "subject": "the Brandenburg Gate",
+     "object": "Germany",
+     "object_alts": [],
+     "prompts": [
+      "The Brandenburg Gate can be found in the country of",
+      "The Brandenburg Gate is located in the country of",
+      "The Brandenburg Gate is in the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Germany"
+    },
+    "es": {
+     "subject": "la Puerta de Brandeburgo",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompts": [
+      "La Puerta de Brandeburgo se encuentra en el país de",
+      "La Puerta de Brandeburgo se halla en el país de",
+      "La Puerta de Brandeburgo está en el país de"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "Alemania"
+    },
+    "hi": {
+     "subject": "ब्रांडेनबर्ग गेट",
+     "object": "जर्मनी",
+     "object_alts": [],
+     "prompts": [
+      "ब्रांडेनबर्ग गेट इस देश में है:",
+      "ब्रांडेनबर्ग गेट इस देश में स्थित है:",
+      "ब्रांडेनबर्ग गेट जिस देश में स्थित है, उसका नाम"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "जर्मनी"
+    }
+   }
+  },
+  {
+   "id": "city_country_009",
+   "relation": "city_country",
+   "seed": 1826182996,
+   "lang": {
+    "en": {
+     "subject": "Venice",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "Venice is located in the country of",
+      "Venice is a city in the country of",
+      "The country where Venice is located is"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Italy"
+    },
+    "es": {
+     "subject": "Venecia",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "Venecia es una ciudad del país de",
+      "El país donde está Venecia es",
+      "Venecia se encuentra en el país de"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "Italia"
+    },
+    "hi": {
+     "subject": "वेनिस",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "वेनिस किस देश में है:",
+      "वेनिस इस देश में है:",
+      "वेनिस इस देश का शहर है:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "इटली"
+    }
+   }
+  },
+  {
+   "id": "city_country_023",
+   "relation": "city_country",
+   "seed": 1528336212,
+   "lang": {
+    "en": {
+     "subject": "Ahmedabad",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Ahmedabad is located in the country of",
+      "Ahmedabad is a city in the country of",
+      "The country where Ahmedabad is located is"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "India"
+    },
+    "es": {
+     "subject": "Ahmedabad",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Ahmedabad es una ciudad del país de",
+      "El país donde está Ahmedabad es",
+      "Ahmedabad se encuentra en el país de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "India"
+    },
+    "hi": {
+     "subject": "अहमदाबाद",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "अहमदाबाद किस देश में है:",
+      "अहमदाबाद इस देश में है:",
+      "अहमदाबाद इस देश का शहर है:"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "भारत"
+    }
+   }
+  },
+  {
+   "id": "city_country_045",
+   "relation": "city_country",
+   "seed": 734995139,
+   "lang": {
+    "en": {
+     "subject": "Shanghai",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Shanghai is located in the country of",
+      "Shanghai is a city in the country of",
+      "The country where Shanghai is located is"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "China"
+    },
+    "es": {
+     "subject": "Shanghái",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Shanghái es una ciudad del país de",
+      "El país donde está Shanghái es",
+      "Shanghái se encuentra en el país de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "China"
+    },
+    "hi": {
+     "subject": "शंघाई",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "शंघाई किस देश में है:",
+      "शंघाई इस देश में है:",
+      "शंघाई इस देश का शहर है:"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "चीन"
+    }
+   }
+  },
+  {
+   "id": "city_country_047",
+   "relation": "city_country",
+   "seed": 9725991,
+   "lang": {
+    "en": {
+     "subject": "Shenzhen",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Shenzhen is located in the country of",
+      "Shenzhen is a city in the country of",
+      "The country where Shenzhen is located is"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "China"
+    },
+    "es": {
+     "subject": "Shenzhen",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Shenzhen es una ciudad del país de",
+      "El país donde está Shenzhen es",
+      "Shenzhen se encuentra en el país de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "China"
+    },
+    "hi": {
+     "subject": "शेनझेन",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "शेनझेन किस देश में है:",
+      "शेनझेन इस देश में है:",
+      "शेनझेन इस देश का शहर है:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "चीन"
+    }
+   }
+  },
+  {
+   "id": "city_country_054",
+   "relation": "city_country",
+   "seed": 1480100747,
+   "lang": {
+    "en": {
+     "subject": "Lahore",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompts": [
+      "Lahore is located in the country of",
+      "Lahore is a city in the country of",
+      "The country where Lahore is located is"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Pakistan"
+    },
+    "es": {
+     "subject": "Lahore",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompts": [
+      "Lahore es una ciudad del país de",
+      "El país donde está Lahore es",
+      "Lahore se encuentra en el país de"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "Pakistán"
+    },
+    "hi": {
+     "subject": "लाहौर",
+     "object": "पाकिस्तान",
+     "object_alts": [],
+     "prompts": [
+      "लाहौर किस देश में है:",
+      "लाहौर इस देश में है:",
+      "लाहौर इस देश का शहर है:"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "पाकिस्तान"
+    }
+   }
+  }
+ ]
+}

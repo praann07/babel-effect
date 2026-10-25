@@ -1,0 +1,5778 @@
+{
+ "version": 2,
+ "note": "A9 extra non-copyable relations",
+ "facts": [
+  {
+   "id": "landmark_country_000",
+   "relation": "landmark_country",
+   "seed": 1873414090,
+   "lang": {
+    "en": {
+     "subject": "the Eiffel Tower",
+     "object": "France",
+     "object_alts": [],
+     "prompts": [
+      "The Eiffel Tower can be found in the country of",
+      "The Eiffel Tower is located in the country of",
+      "The Eiffel Tower is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Torre Eiffel",
+     "object": "Francia",
+     "object_alts": [],
+     "prompts": [
+      "La Torre Eiffel se encuentra en el país de",
+      "La Torre Eiffel se halla en el país de",
+      "La Torre Eiffel está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "एफ़िल टॉवर",
+     "object": "फ्रांस",
+     "object_alts": [],
+     "prompts": [
+      "एफ़िल टॉवर इस देश में है:",
+      "एफ़िल टॉवर इस देश में स्थित है:",
+      "एफ़िल टॉवर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_001",
+   "relation": "landmark_country",
+   "seed": 1536877636,
+   "lang": {
+    "en": {
+     "subject": "the Colosseum",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "The Colosseum can be found in the country of",
+      "The Colosseum is located in the country of",
+      "The Colosseum is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Coliseo",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "El Coliseo se encuentra en el país de",
+      "El Coliseo se halla en el país de",
+      "El Coliseo está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "कोलोसियम",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "कोलोसियम इस देश में है:",
+      "कोलोसियम इस देश में स्थित है:",
+      "कोलोसियम जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_002",
+   "relation": "landmark_country",
+   "seed": 376167508,
+   "lang": {
+    "en": {
+     "subject": "Big Ben",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "Big Ben can be found in the country of",
+      "Big Ben is located in the country of",
+      "Big Ben is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Big Ben",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "El Big Ben se encuentra en el país de",
+      "El Big Ben se halla en el país de",
+      "El Big Ben está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "बिग बेन",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "बिग बेन इस देश में है:",
+      "बिग बेन इस देश में स्थित है:",
+      "बिग बेन जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_003",
+   "relation": "landmark_country",
+   "seed": 987375370,
+   "lang": {
+    "en": {
+     "subject": "the Statue of Liberty",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "The Statue of Liberty can be found in the country of",
+      "The Statue of Liberty is located in the country of",
+      "The Statue of Liberty is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Estatua de la Libertad",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "La Estatua de la Libertad se encuentra en el país de",
+      "La Estatua de la Libertad se halla en el país de",
+      "La Estatua de la Libertad está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "स्टैच्यू ऑफ़ लिबर्टी",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "स्टैच्यू ऑफ़ लिबर्टी इस देश में है:",
+      "स्टैच्यू ऑफ़ लिबर्टी इस देश में स्थित है:",
+      "स्टैच्यू ऑफ़ लिबर्टी जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_004",
+   "relation": "landmark_country",
+   "seed": 860549176,
+   "lang": {
+    "en": {
+     "subject": "the Taj Mahal",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Taj Mahal can be found in the country of",
+      "The Taj Mahal is located in the country of",
+      "The Taj Mahal is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Taj Mahal",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Taj Mahal se encuentra en el país de",
+      "El Taj Mahal se halla en el país de",
+      "El Taj Mahal está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ताज महल",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "ताज महल इस देश में है:",
+      "ताज महल इस देश में स्थित है:",
+      "ताज महल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_005",
+   "relation": "landmark_country",
+   "seed": 1543320296,
+   "lang": {
+    "en": {
+     "subject": "the Sagrada Familia",
+     "object": "Spain",
+     "object_alts": [],
+     "prompts": [
+      "The Sagrada Familia can be found in the country of",
+      "The Sagrada Familia is located in the country of",
+      "The Sagrada Familia is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Sagrada Familia",
+     "object": "España",
+     "object_alts": [],
+     "prompts": [
+      "La Sagrada Familia se encuentra en el país de",
+      "La Sagrada Familia se halla en el país de",
+      "La Sagrada Familia está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "सग्रादा फ़ैमिलिया",
+     "object": "स्पेन",
+     "object_alts": [],
+     "prompts": [
+      "सग्रादा फ़ैमिलिया इस देश में है:",
+      "सग्रादा फ़ैमिलिया इस देश में स्थित है:",
+      "सग्रादा फ़ैमिलिया जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_006",
+   "relation": "landmark_country",
+   "seed": 1803212600,
+   "lang": {
+    "en": {
+     "subject": "the Brandenburg Gate",
+     "object": "Germany",
+     "object_alts": [],
+     "prompts": [
+      "The Brandenburg Gate can be found in the country of",
+      "The Brandenburg Gate is located in the country of",
+      "The Brandenburg Gate is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Puerta de Brandeburgo",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompts": [
+      "La Puerta de Brandeburgo se encuentra en el país de",
+      "La Puerta de Brandeburgo se halla en el país de",
+      "La Puerta de Brandeburgo está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ब्रांडेनबर्ग गेट",
+     "object": "जर्मनी",
+     "object_alts": [],
+     "prompts": [
+      "ब्रांडेनबर्ग गेट इस देश में है:",
+      "ब्रांडेनबर्ग गेट इस देश में स्थित है:",
+      "ब्रांडेनबर्ग गेट जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_007",
+   "relation": "landmark_country",
+   "seed": 700167506,
+   "lang": {
+    "en": {
+     "subject": "the Acropolis",
+     "object": "Greece",
+     "object_alts": [],
+     "prompts": [
+      "The Acropolis can be found in the country of",
+      "The Acropolis is located in the country of",
+      "The Acropolis is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Acrópolis",
+     "object": "Grecia",
+     "object_alts": [],
+     "prompts": [
+      "La Acrópolis se encuentra en el país de",
+      "La Acrópolis se halla en el país de",
+      "La Acrópolis está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "एक्रोपोलिस",
+     "object": "ग्रीस",
+     "object_alts": [],
+     "prompts": [
+      "एक्रोपोलिस इस देश में है:",
+      "एक्रोपोलिस इस देश में स्थित है:",
+      "एक्रोपोलिस जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_008",
+   "relation": "landmark_country",
+   "seed": 234250191,
+   "lang": {
+    "en": {
+     "subject": "the Red Fort",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Red Fort can be found in the country of",
+      "The Red Fort is located in the country of",
+      "The Red Fort is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Fuerte Rojo",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Fuerte Rojo se encuentra en el país de",
+      "El Fuerte Rojo se halla en el país de",
+      "El Fuerte Rojo está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "लाल क़िला",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "लाल क़िला इस देश में है:",
+      "लाल क़िला इस देश में स्थित है:",
+      "लाल क़िला जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_009",
+   "relation": "landmark_country",
+   "seed": 1244162010,
+   "lang": {
+    "en": {
+     "subject": "the Sydney Opera House",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "The Sydney Opera House can be found in the country of",
+      "The Sydney Opera House is located in the country of",
+      "The Sydney Opera House is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Ópera de Sídney",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "La Ópera de Sídney se encuentra en el país de",
+      "La Ópera de Sídney se halla en el país de",
+      "La Ópera de Sídney está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "सिडनी ओपेरा हाउस",
+     "object": "ऑस्ट्रेलिया",
+     "object_alts": [],
+     "prompts": [
+      "सिडनी ओपेरा हाउस इस देश में है:",
+      "सिडनी ओपेरा हाउस इस देश में स्थित है:",
+      "सिडनी ओपेरा हाउस जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_010",
+   "relation": "landmark_country",
+   "seed": 821460811,
+   "lang": {
+    "en": {
+     "subject": "the Burj Khalifa",
+     "object": "the United Arab Emirates",
+     "object_alts": [],
+     "prompts": [
+      "The Burj Khalifa can be found in the country of",
+      "The Burj Khalifa is located in the country of",
+      "The Burj Khalifa is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Burj Khalifa",
+     "object": "los Emiratos Árabes Unidos",
+     "object_alts": [],
+     "prompts": [
+      "El Burj Khalifa se encuentra en el país de",
+      "El Burj Khalifa se halla en el país de",
+      "El Burj Khalifa está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "बुर्ज ख़लीफ़ा",
+     "object": "संयुक्त अरब अमीरात",
+     "object_alts": [],
+     "prompts": [
+      "बुर्ज ख़लीफ़ा इस देश में है:",
+      "बुर्ज ख़लीफ़ा इस देश में स्थित है:",
+      "बुर्ज ख़लीफ़ा जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_011",
+   "relation": "landmark_country",
+   "seed": 289366337,
+   "lang": {
+    "en": {
+     "subject": "the Kremlin",
+     "object": "Russia",
+     "object_alts": [],
+     "prompts": [
+      "The Kremlin can be found in the country of",
+      "The Kremlin is located in the country of",
+      "The Kremlin is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Kremlin",
+     "object": "Rusia",
+     "object_alts": [],
+     "prompts": [
+      "El Kremlin se encuentra en el país de",
+      "El Kremlin se halla en el país de",
+      "El Kremlin está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "क्रेमलिन",
+     "object": "रूस",
+     "object_alts": [],
+     "prompts": [
+      "क्रेमलिन इस देश में है:",
+      "क्रेमलिन इस देश में स्थित है:",
+      "क्रेमलिन जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_012",
+   "relation": "landmark_country",
+   "seed": 772387100,
+   "lang": {
+    "en": {
+     "subject": "the Louvre",
+     "object": "France",
+     "object_alts": [],
+     "prompts": [
+      "The Louvre can be found in the country of",
+      "The Louvre is located in the country of",
+      "The Louvre is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Louvre",
+     "object": "Francia",
+     "object_alts": [],
+     "prompts": [
+      "El Louvre se encuentra en el país de",
+      "El Louvre se halla en el país de",
+      "El Louvre está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "लूव्र",
+     "object": "फ्रांस",
+     "object_alts": [],
+     "prompts": [
+      "लूव्र इस देश में है:",
+      "लूव्र इस देश में स्थित है:",
+      "लूव्र जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_013",
+   "relation": "landmark_country",
+   "seed": 1718369006,
+   "lang": {
+    "en": {
+     "subject": "the Leaning Tower",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "The Leaning Tower can be found in the country of",
+      "The Leaning Tower is located in the country of",
+      "The Leaning Tower is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Torre inclinada",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "La Torre inclinada se encuentra en el país de",
+      "La Torre inclinada se halla en el país de",
+      "La Torre inclinada está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "पीसा की मीनार",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "पीसा की मीनार इस देश में है:",
+      "पीसा की मीनार इस देश में स्थित है:",
+      "पीसा की मीनार जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_014",
+   "relation": "landmark_country",
+   "seed": 2134751301,
+   "lang": {
+    "en": {
+     "subject": "the Charminar",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Charminar can be found in the country of",
+      "The Charminar is located in the country of",
+      "The Charminar is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Charminar",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Charminar se encuentra en el país de",
+      "El Charminar se halla en el país de",
+      "El Charminar está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "चारमीनार",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "चारमीनार इस देश में है:",
+      "चारमीनार इस देश में स्थित है:",
+      "चारमीनार जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_015",
+   "relation": "landmark_country",
+   "seed": 894040498,
+   "lang": {
+    "en": {
+     "subject": "the Hagia Sophia",
+     "object": "Turkey",
+     "object_alts": [],
+     "prompts": [
+      "The Hagia Sophia can be found in the country of",
+      "The Hagia Sophia is located in the country of",
+      "The Hagia Sophia is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "Santa Sofía",
+     "object": "Turquía",
+     "object_alts": [],
+     "prompts": [
+      "Santa Sofía se encuentra en el país de",
+      "Santa Sofía se halla en el país de",
+      "Santa Sofía está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "हागिया सोफ़िया",
+     "object": "तुर्की",
+     "object_alts": [],
+     "prompts": [
+      "हागिया सोफ़िया इस देश में है:",
+      "हागिया सोफ़िया इस देश में स्थित है:",
+      "हागिया सोफ़िया जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_016",
+   "relation": "landmark_country",
+   "seed": 522903124,
+   "lang": {
+    "en": {
+     "subject": "the Alhambra",
+     "object": "Spain",
+     "object_alts": [],
+     "prompts": [
+      "The Alhambra can be found in the country of",
+      "The Alhambra is located in the country of",
+      "The Alhambra is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Alhambra",
+     "object": "España",
+     "object_alts": [],
+     "prompts": [
+      "La Alhambra se encuentra en el país de",
+      "La Alhambra se halla en el país de",
+      "La Alhambra está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "अलहम्ब्रा",
+     "object": "स्पेन",
+     "object_alts": [],
+     "prompts": [
+      "अलहम्ब्रा इस देश में है:",
+      "अलहम्ब्रा इस देश में स्थित है:",
+      "अलहम्ब्रा जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_017",
+   "relation": "landmark_country",
+   "seed": 357062461,
+   "lang": {
+    "en": {
+     "subject": "the Prado Museum",
+     "object": "Spain",
+     "object_alts": [],
+     "prompts": [
+      "The Prado Museum can be found in the country of",
+      "The Prado Museum is located in the country of",
+      "The Prado Museum is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Museo del Prado",
+     "object": "España",
+     "object_alts": [],
+     "prompts": [
+      "El Museo del Prado se encuentra en el país de",
+      "El Museo del Prado se halla en el país de",
+      "El Museo del Prado está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "प्राडो संग्रहालय",
+     "object": "स्पेन",
+     "object_alts": [],
+     "prompts": [
+      "प्राडो संग्रहालय इस देश में है:",
+      "प्राडो संग्रहालय इस देश में स्थित है:",
+      "प्राडो संग्रहालय जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_018",
+   "relation": "landmark_country",
+   "seed": 525735216,
+   "lang": {
+    "en": {
+     "subject": "Christ the Redeemer",
+     "object": "Brazil",
+     "object_alts": [],
+     "prompts": [
+      "Christ the Redeemer can be found in the country of",
+      "Christ the Redeemer is located in the country of",
+      "Christ the Redeemer is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Cristo Redentor",
+     "object": "Brasil",
+     "object_alts": [],
+     "prompts": [
+      "El Cristo Redentor se encuentra en el país de",
+      "El Cristo Redentor se halla en el país de",
+      "El Cristo Redentor está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "क्राइस्ट द रिडीमर",
+     "object": "ब्राज़ील",
+     "object_alts": [],
+     "prompts": [
+      "क्राइस्ट द रिडीमर इस देश में है:",
+      "क्राइस्ट द रिडीमर इस देश में स्थित है:",
+      "क्राइस्ट द रिडीमर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_019",
+   "relation": "landmark_country",
+   "seed": 1621521089,
+   "lang": {
+    "en": {
+     "subject": "the Space Needle",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "The Space Needle can be found in the country of",
+      "The Space Needle is located in the country of",
+      "The Space Needle is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Space Needle",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "La Space Needle se encuentra en el país de",
+      "La Space Needle se halla en el país de",
+      "La Space Needle está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "स्पेस नीडल",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "स्पेस नीडल इस देश में है:",
+      "स्पेस नीडल इस देश में स्थित है:",
+      "स्पेस नीडल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_020",
+   "relation": "landmark_country",
+   "seed": 287676652,
+   "lang": {
+    "en": {
+     "subject": "the Golden Gate Bridge",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "The Golden Gate Bridge can be found in the country of",
+      "The Golden Gate Bridge is located in the country of",
+      "The Golden Gate Bridge is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Puente Golden Gate",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "El Puente Golden Gate se encuentra en el país de",
+      "El Puente Golden Gate se halla en el país de",
+      "El Puente Golden Gate está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "गोल्डन गेट ब्रिज",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "गोल्डन गेट ब्रिज इस देश में है:",
+      "गोल्डन गेट ब्रिज इस देश में स्थित है:",
+      "गोल्डन गेट ब्रिज जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_021",
+   "relation": "landmark_country",
+   "seed": 1720399266,
+   "lang": {
+    "en": {
+     "subject": "the CN Tower",
+     "object": "Canada",
+     "object_alts": [],
+     "prompts": [
+      "The CN Tower can be found in the country of",
+      "The CN Tower is located in the country of",
+      "The CN Tower is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Torre CN",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompts": [
+      "La Torre CN se encuentra en el país de",
+      "La Torre CN se halla en el país de",
+      "La Torre CN está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "सीएन टावर",
+     "object": "कनाडा",
+     "object_alts": [],
+     "prompts": [
+      "सीएन टावर इस देश में है:",
+      "सीएन टावर इस देश में स्थित है:",
+      "सीएन टावर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_022",
+   "relation": "landmark_country",
+   "seed": 333323629,
+   "lang": {
+    "en": {
+     "subject": "the Petronas Towers",
+     "object": "Malaysia",
+     "object_alts": [],
+     "prompts": [
+      "The Petronas Towers can be found in the country of",
+      "The Petronas Towers is located in the country of",
+      "The Petronas Towers is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "las Torres Petronas",
+     "object": "Malasia",
+     "object_alts": [],
+     "prompts": [
+      "Las Torres Petronas se encuentra en el país de",
+      "Las Torres Petronas se halla en el país de",
+      "Las Torres Petronas está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "पेट्रोनास टावर्स",
+     "object": "मलेशिया",
+     "object_alts": [],
+     "prompts": [
+      "पेट्रोनास टावर्स इस देश में है:",
+      "पेट्रोनास टावर्स इस देश में स्थित है:",
+      "पेट्रोनास टावर्स जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_023",
+   "relation": "landmark_country",
+   "seed": 1676658895,
+   "lang": {
+    "en": {
+     "subject": "the Forbidden City",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "The Forbidden City can be found in the country of",
+      "The Forbidden City is located in the country of",
+      "The Forbidden City is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Ciudad Prohibida",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "La Ciudad Prohibida se encuentra en el país de",
+      "La Ciudad Prohibida se halla en el país de",
+      "La Ciudad Prohibida está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "निषिद्ध नगर",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "निषिद्ध नगर इस देश में है:",
+      "निषिद्ध नगर इस देश में स्थित है:",
+      "निषिद्ध नगर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_024",
+   "relation": "landmark_country",
+   "seed": 1323528044,
+   "lang": {
+    "en": {
+     "subject": "the Atomium",
+     "object": "Belgium",
+     "object_alts": [],
+     "prompts": [
+      "The Atomium can be found in the country of",
+      "The Atomium is located in the country of",
+      "The Atomium is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Atomium",
+     "object": "Bélgica",
+     "object_alts": [],
+     "prompts": [
+      "El Atomium se encuentra en el país de",
+      "El Atomium se halla en el país de",
+      "El Atomium está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "एटोमियम",
+     "object": "बेल्जियम",
+     "object_alts": [],
+     "prompts": [
+      "एटोमियम इस देश में है:",
+      "एटोमियम इस देश में स्थित है:",
+      "एटोमियम जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_025",
+   "relation": "landmark_country",
+   "seed": 226871763,
+   "lang": {
+    "en": {
+     "subject": "the Hermitage Museum",
+     "object": "Russia",
+     "object_alts": [],
+     "prompts": [
+      "The Hermitage Museum can be found in the country of",
+      "The Hermitage Museum is located in the country of",
+      "The Hermitage Museum is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Museo del Hermitage",
+     "object": "Rusia",
+     "object_alts": [],
+     "prompts": [
+      "El Museo del Hermitage se encuentra en el país de",
+      "El Museo del Hermitage se halla en el país de",
+      "El Museo del Hermitage está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "हर्मिटेज संग्रहालय",
+     "object": "रूस",
+     "object_alts": [],
+     "prompts": [
+      "हर्मिटेज संग्रहालय इस देश में है:",
+      "हर्मिटेज संग्रहालय इस देश में स्थित है:",
+      "हर्मिटेज संग्रहालय जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_026",
+   "relation": "landmark_country",
+   "seed": 1788983451,
+   "lang": {
+    "en": {
+     "subject": "the Charles Bridge",
+     "object": "the Czech Republic",
+     "object_alts": [],
+     "prompts": [
+      "The Charles Bridge can be found in the country of",
+      "The Charles Bridge is located in the country of",
+      "The Charles Bridge is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Puente de Carlos",
+     "object": "la República Checa",
+     "object_alts": [],
+     "prompts": [
+      "El Puente de Carlos se encuentra en el país de",
+      "El Puente de Carlos se halla en el país de",
+      "El Puente de Carlos está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "चार्ल्स ब्रिज",
+     "object": "चेक गणराज्य",
+     "object_alts": [],
+     "prompts": [
+      "चार्ल्स ब्रिज इस देश में है:",
+      "चार्ल्स ब्रिज इस देश में स्थित है:",
+      "चार्ल्स ब्रिज जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_027",
+   "relation": "landmark_country",
+   "seed": 1203421360,
+   "lang": {
+    "en": {
+     "subject": "Edinburgh Castle",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "Edinburgh Castle can be found in the country of",
+      "Edinburgh Castle is located in the country of",
+      "Edinburgh Castle is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Castillo de Edimburgo",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "El Castillo de Edimburgo se encuentra en el país de",
+      "El Castillo de Edimburgo se halla en el país de",
+      "El Castillo de Edimburgo está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "एडिनबरा कैसल",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "एडिनबरा कैसल इस देश में है:",
+      "एडिनबरा कैसल इस देश में स्थित है:",
+      "एडिनबरा कैसल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_028",
+   "relation": "landmark_country",
+   "seed": 250403090,
+   "lang": {
+    "en": {
+     "subject": "the Trevi Fountain",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "The Trevi Fountain can be found in the country of",
+      "The Trevi Fountain is located in the country of",
+      "The Trevi Fountain is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Fontana de Trevi",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "La Fontana de Trevi se encuentra en el país de",
+      "La Fontana de Trevi se halla en el país de",
+      "La Fontana de Trevi está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ट्रेवी फ़ाउंटेन",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "ट्रेवी फ़ाउंटेन इस देश में है:",
+      "ट्रेवी फ़ाउंटेन इस देश में स्थित है:",
+      "ट्रेवी फ़ाउंटेन जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_029",
+   "relation": "landmark_country",
+   "seed": 582912067,
+   "lang": {
+    "en": {
+     "subject": "the Rialto Bridge",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "The Rialto Bridge can be found in the country of",
+      "The Rialto Bridge is located in the country of",
+      "The Rialto Bridge is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Puente de Rialto",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "El Puente de Rialto se encuentra en el país de",
+      "El Puente de Rialto se halla en el país de",
+      "El Puente de Rialto está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "रियाल्टो पुल",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "रियाल्टो पुल इस देश में है:",
+      "रियाल्टो पुल इस देश में स्थित है:",
+      "रियाल्टो पुल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_030",
+   "relation": "landmark_country",
+   "seed": 1732072846,
+   "lang": {
+    "en": {
+     "subject": "Westminster Abbey",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "Westminster Abbey can be found in the country of",
+      "Westminster Abbey is located in the country of",
+      "Westminster Abbey is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Abadía de Westminster",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "La Abadía de Westminster se encuentra en el país de",
+      "La Abadía de Westminster se halla en el país de",
+      "La Abadía de Westminster está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "वेस्टमिंस्टर एबे",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "वेस्टमिंस्टर एबे इस देश में है:",
+      "वेस्टमिंस्टर एबे इस देश में स्थित है:",
+      "वेस्टमिंस्टर एबे जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_031",
+   "relation": "landmark_country",
+   "seed": 1213725690,
+   "lang": {
+    "en": {
+     "subject": "Tower Bridge",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "Tower Bridge can be found in the country of",
+      "Tower Bridge is located in the country of",
+      "Tower Bridge is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Tower Bridge",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "El Tower Bridge se encuentra en el país de",
+      "El Tower Bridge se halla en el país de",
+      "El Tower Bridge está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "टावर ब्रिज",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "टावर ब्रिज इस देश में है:",
+      "टावर ब्रिज इस देश में स्थित है:",
+      "टावर ब्रिज जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_032",
+   "relation": "landmark_country",
+   "seed": 1883122917,
+   "lang": {
+    "en": {
+     "subject": "Times Square",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "Times Square can be found in the country of",
+      "Times Square is located in the country of",
+      "Times Square is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "Times Square",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "Times Square se encuentra en el país de",
+      "Times Square se halla en el país de",
+      "Times Square está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "टाइम्स स्क्वायर",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "टाइम्स स्क्वायर इस देश में है:",
+      "टाइम्स स्क्वायर इस देश में स्थित है:",
+      "टाइम्स स्क्वायर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_033",
+   "relation": "landmark_country",
+   "seed": 1331698105,
+   "lang": {
+    "en": {
+     "subject": "the Hollywood Sign",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "The Hollywood Sign can be found in the country of",
+      "The Hollywood Sign is located in the country of",
+      "The Hollywood Sign is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Cartel de Hollywood",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "El Cartel de Hollywood se encuentra en el país de",
+      "El Cartel de Hollywood se halla en el país de",
+      "El Cartel de Hollywood está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "हॉलीवुड साइन",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "हॉलीवुड साइन इस देश में है:",
+      "हॉलीवुड साइन इस देश में स्थित है:",
+      "हॉलीवुड साइन जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_034",
+   "relation": "landmark_country",
+   "seed": 1900596456,
+   "lang": {
+    "en": {
+     "subject": "the Golden Temple",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Golden Temple can be found in the country of",
+      "The Golden Temple is located in the country of",
+      "The Golden Temple is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Templo Dorado",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Templo Dorado se encuentra en el país de",
+      "El Templo Dorado se halla en el país de",
+      "El Templo Dorado está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "स्वर्ण मंदिर",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "स्वर्ण मंदिर इस देश में है:",
+      "स्वर्ण मंदिर इस देश में स्थित है:",
+      "स्वर्ण मंदिर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_035",
+   "relation": "landmark_country",
+   "seed": 212468579,
+   "lang": {
+    "en": {
+     "subject": "the Hawa Mahal",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Hawa Mahal can be found in the country of",
+      "The Hawa Mahal is located in the country of",
+      "The Hawa Mahal is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Hawa Mahal",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Hawa Mahal se encuentra en el país de",
+      "El Hawa Mahal se halla en el país de",
+      "El Hawa Mahal está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "हवा महल",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "हवा महल इस देश में है:",
+      "हवा महल इस देश में स्थित है:",
+      "हवा महल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_036",
+   "relation": "landmark_country",
+   "seed": 481236408,
+   "lang": {
+    "en": {
+     "subject": "the Victoria Memorial",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Victoria Memorial can be found in the country of",
+      "The Victoria Memorial is located in the country of",
+      "The Victoria Memorial is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Memorial Victoria",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Memorial Victoria se encuentra en el país de",
+      "El Memorial Victoria se halla en el país de",
+      "El Memorial Victoria está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "विक्टोरिया मेमोरियल",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "विक्टोरिया मेमोरियल इस देश में है:",
+      "विक्टोरिया मेमोरियल इस देश में स्थित है:",
+      "विक्टोरिया मेमोरियल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_037",
+   "relation": "landmark_country",
+   "seed": 260630834,
+   "lang": {
+    "en": {
+     "subject": "the Meenakshi Temple",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Meenakshi Temple can be found in the country of",
+      "The Meenakshi Temple is located in the country of",
+      "The Meenakshi Temple is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Templo de Meenakshi",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Templo de Meenakshi se encuentra en el país de",
+      "El Templo de Meenakshi se halla en el país de",
+      "El Templo de Meenakshi está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मीनाक्षी मंदिर",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "मीनाक्षी मंदिर इस देश में है:",
+      "मीनाक्षी मंदिर इस देश में स्थित है:",
+      "मीनाक्षी मंदिर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_038",
+   "relation": "landmark_country",
+   "seed": 2141196120,
+   "lang": {
+    "en": {
+     "subject": "the Mysore Palace",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Mysore Palace can be found in the country of",
+      "The Mysore Palace is located in the country of",
+      "The Mysore Palace is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Palacio de Mysore",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Palacio de Mysore se encuentra en el país de",
+      "El Palacio de Mysore se halla en el país de",
+      "El Palacio de Mysore está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मैसूर पैलेस",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "मैसूर पैलेस इस देश में है:",
+      "मैसूर पैलेस इस देश में स्थित है:",
+      "मैसूर पैलेस जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_039",
+   "relation": "landmark_country",
+   "seed": 1423290794,
+   "lang": {
+    "en": {
+     "subject": "the Pantheon",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "The Pantheon can be found in the country of",
+      "The Pantheon is located in the country of",
+      "The Pantheon is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Panteón",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "El Panteón se encuentra en el país de",
+      "El Panteón se halla en el país de",
+      "El Panteón está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "पैन्थियन",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "पैन्थियन इस देश में है:",
+      "पैन्थियन इस देश में स्थित है:",
+      "पैन्थियन जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_040",
+   "relation": "landmark_country",
+   "seed": 1248409775,
+   "lang": {
+    "en": {
+     "subject": "the Vatican Museums",
+     "object": "Vatican City",
+     "object_alts": [],
+     "prompts": [
+      "The Vatican Museums can be found in the country of",
+      "The Vatican Museums is located in the country of",
+      "The Vatican Museums is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "los Museos Vaticanos",
+     "object": "la Ciudad del Vaticano",
+     "object_alts": [],
+     "prompts": [
+      "Los Museos Vaticanos se encuentra en el país de",
+      "Los Museos Vaticanos se halla en el país de",
+      "Los Museos Vaticanos está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "वेटिकन संग्रहालय",
+     "object": "वेटिकन सिटी",
+     "object_alts": [],
+     "prompts": [
+      "वेटिकन संग्रहालय इस देश में है:",
+      "वेटिकन संग्रहालय इस देश में स्थित है:",
+      "वेटिकन संग्रहालय जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_041",
+   "relation": "landmark_country",
+   "seed": 980797993,
+   "lang": {
+    "en": {
+     "subject": "the Blue Mosque",
+     "object": "Turkey",
+     "object_alts": [],
+     "prompts": [
+      "The Blue Mosque can be found in the country of",
+      "The Blue Mosque is located in the country of",
+      "The Blue Mosque is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Mezquita Azul",
+     "object": "Turquía",
+     "object_alts": [],
+     "prompts": [
+      "La Mezquita Azul se encuentra en el país de",
+      "La Mezquita Azul se halla en el país de",
+      "La Mezquita Azul está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ब्लू मस्जिद",
+     "object": "तुर्की",
+     "object_alts": [],
+     "prompts": [
+      "ब्लू मस्जिद इस देश में है:",
+      "ब्लू मस्जिद इस देश में स्थित है:",
+      "ब्लू मस्जिद जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_042",
+   "relation": "landmark_country",
+   "seed": 1329300767,
+   "lang": {
+    "en": {
+     "subject": "the Cologne Cathedral",
+     "object": "Germany",
+     "object_alts": [],
+     "prompts": [
+      "The Cologne Cathedral can be found in the country of",
+      "The Cologne Cathedral is located in the country of",
+      "The Cologne Cathedral is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Catedral de Colonia",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompts": [
+      "La Catedral de Colonia se encuentra en el país de",
+      "La Catedral de Colonia se halla en el país de",
+      "La Catedral de Colonia está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "कोलोन कैथेड्रल",
+     "object": "जर्मनी",
+     "object_alts": [],
+     "prompts": [
+      "कोलोन कैथेड्रल इस देश में है:",
+      "कोलोन कैथेड्रल इस देश में स्थित है:",
+      "कोलोन कैथेड्रल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_043",
+   "relation": "landmark_country",
+   "seed": 170944811,
+   "lang": {
+    "en": {
+     "subject": "the Neuschwanstein Castle",
+     "object": "Germany",
+     "object_alts": [],
+     "prompts": [
+      "The Neuschwanstein Castle can be found in the country of",
+      "The Neuschwanstein Castle is located in the country of",
+      "The Neuschwanstein Castle is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Castillo de Neuschwanstein",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompts": [
+      "El Castillo de Neuschwanstein se encuentra en el país de",
+      "El Castillo de Neuschwanstein se halla en el país de",
+      "El Castillo de Neuschwanstein está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "न्यूशवांस्टाइन कैसल",
+     "object": "जर्मनी",
+     "object_alts": [],
+     "prompts": [
+      "न्यूशवांस्टाइन कैसल इस देश में है:",
+      "न्यूशवांस्टाइन कैसल इस देश में स्थित है:",
+      "न्यूशवांस्टाइन कैसल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_044",
+   "relation": "landmark_country",
+   "seed": 1885706495,
+   "lang": {
+    "en": {
+     "subject": "the Reichstag",
+     "object": "Germany",
+     "object_alts": [],
+     "prompts": [
+      "The Reichstag can be found in the country of",
+      "The Reichstag is located in the country of",
+      "The Reichstag is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Reichstag",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompts": [
+      "El Reichstag se encuentra en el país de",
+      "El Reichstag se halla en el país de",
+      "El Reichstag está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "राइखस्टाग",
+     "object": "जर्मनी",
+     "object_alts": [],
+     "prompts": [
+      "राइखस्टाग इस देश में है:",
+      "राइखस्टाग इस देश में स्थित है:",
+      "राइखस्टाग जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_045",
+   "relation": "landmark_country",
+   "seed": 1585455932,
+   "lang": {
+    "en": {
+     "subject": "the Parthenon",
+     "object": "Greece",
+     "object_alts": [],
+     "prompts": [
+      "The Parthenon can be found in the country of",
+      "The Parthenon is located in the country of",
+      "The Parthenon is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Partenón",
+     "object": "Grecia",
+     "object_alts": [],
+     "prompts": [
+      "El Partenón se encuentra en el país de",
+      "El Partenón se halla en el país de",
+      "El Partenón está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "पार्थेनन",
+     "object": "ग्रीस",
+     "object_alts": [],
+     "prompts": [
+      "पार्थेनन इस देश में है:",
+      "पार्थेनन इस देश में स्थित है:",
+      "पार्थेनन जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_046",
+   "relation": "landmark_country",
+   "seed": 1324044145,
+   "lang": {
+    "en": {
+     "subject": "Buckingham Palace",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "Buckingham Palace can be found in the country of",
+      "Buckingham Palace is located in the country of",
+      "Buckingham Palace is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Palacio de Buckingham",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "El Palacio de Buckingham se encuentra en el país de",
+      "El Palacio de Buckingham se halla en el país de",
+      "El Palacio de Buckingham está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "बकिंघम पैलेस",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "बकिंघम पैलेस इस देश में है:",
+      "बकिंघम पैलेस इस देश में स्थित है:",
+      "बकिंघम पैलेस जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_047",
+   "relation": "landmark_country",
+   "seed": 600830104,
+   "lang": {
+    "en": {
+     "subject": "the Tower of London",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "The Tower of London can be found in the country of",
+      "The Tower of London is located in the country of",
+      "The Tower of London is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Torre de Londres",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "La Torre de Londres se encuentra en el país de",
+      "La Torre de Londres se halla en el país de",
+      "La Torre de Londres está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "टॉवर ऑफ़ लंदन",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "टॉवर ऑफ़ लंदन इस देश में है:",
+      "टॉवर ऑफ़ लंदन इस देश में स्थित है:",
+      "टॉवर ऑफ़ लंदन जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_048",
+   "relation": "landmark_country",
+   "seed": 205147762,
+   "lang": {
+    "en": {
+     "subject": "the London Eye",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "The London Eye can be found in the country of",
+      "The London Eye is located in the country of",
+      "The London Eye is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el London Eye",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "El London Eye se encuentra en el país de",
+      "El London Eye se halla en el país de",
+      "El London Eye está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "लंदन आई",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "लंदन आई इस देश में है:",
+      "लंदन आई इस देश में स्थित है:",
+      "लंदन आई जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_049",
+   "relation": "landmark_country",
+   "seed": 1450552405,
+   "lang": {
+    "en": {
+     "subject": "the Arc de Triomphe",
+     "object": "France",
+     "object_alts": [],
+     "prompts": [
+      "The Arc de Triomphe can be found in the country of",
+      "The Arc de Triomphe is located in the country of",
+      "The Arc de Triomphe is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Arco del Triunfo",
+     "object": "Francia",
+     "object_alts": [],
+     "prompts": [
+      "El Arco del Triunfo se encuentra en el país de",
+      "El Arco del Triunfo se halla en el país de",
+      "El Arco del Triunfo está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "आर्क डी ट्रायम्फ",
+     "object": "फ्रांस",
+     "object_alts": [],
+     "prompts": [
+      "आर्क डी ट्रायम्फ इस देश में है:",
+      "आर्क डी ट्रायम्फ इस देश में स्थित है:",
+      "आर्क डी ट्रायम्फ जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_050",
+   "relation": "landmark_country",
+   "seed": 1139718551,
+   "lang": {
+    "en": {
+     "subject": "Notre-Dame Cathedral",
+     "object": "France",
+     "object_alts": [],
+     "prompts": [
+      "Notre-Dame Cathedral can be found in the country of",
+      "Notre-Dame Cathedral is located in the country of",
+      "Notre-Dame Cathedral is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Catedral de Notre Dame",
+     "object": "Francia",
+     "object_alts": [],
+     "prompts": [
+      "La Catedral de Notre Dame se encuentra en el país de",
+      "La Catedral de Notre Dame se halla en el país de",
+      "La Catedral de Notre Dame está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "नोट्र-डेम कैथेड्रल",
+     "object": "फ्रांस",
+     "object_alts": [],
+     "prompts": [
+      "नोट्र-डेम कैथेड्रल इस देश में है:",
+      "नोट्र-डेम कैथेड्रल इस देश में स्थित है:",
+      "नोट्र-डेम कैथेड्रल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_051",
+   "relation": "landmark_country",
+   "seed": 1087286006,
+   "lang": {
+    "en": {
+     "subject": "the Palace of Versailles",
+     "object": "France",
+     "object_alts": [],
+     "prompts": [
+      "The Palace of Versailles can be found in the country of",
+      "The Palace of Versailles is located in the country of",
+      "The Palace of Versailles is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Palacio de Versalles",
+     "object": "Francia",
+     "object_alts": [],
+     "prompts": [
+      "El Palacio de Versalles se encuentra en el país de",
+      "El Palacio de Versalles se halla en el país de",
+      "El Palacio de Versalles está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "वर्साय का महल",
+     "object": "फ्रांस",
+     "object_alts": [],
+     "prompts": [
+      "वर्साय का महल इस देश में है:",
+      "वर्साय का महल इस देश में स्थित है:",
+      "वर्साय का महल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_052",
+   "relation": "landmark_country",
+   "seed": 1007607151,
+   "lang": {
+    "en": {
+     "subject": "the Park Güell",
+     "object": "Spain",
+     "object_alts": [],
+     "prompts": [
+      "The Park Güell can be found in the country of",
+      "The Park Güell is located in the country of",
+      "The Park Güell is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Parque Güell",
+     "object": "España",
+     "object_alts": [],
+     "prompts": [
+      "El Parque Güell se encuentra en el país de",
+      "El Parque Güell se halla en el país de",
+      "El Parque Güell está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "पार्क ग्वेल",
+     "object": "स्पेन",
+     "object_alts": [],
+     "prompts": [
+      "पार्क ग्वेल इस देश में है:",
+      "पार्क ग्वेल इस देश में स्थित है:",
+      "पार्क ग्वेल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_053",
+   "relation": "landmark_country",
+   "seed": 1182387645,
+   "lang": {
+    "en": {
+     "subject": "the Royal Palace",
+     "object": "Spain",
+     "object_alts": [],
+     "prompts": [
+      "The Royal Palace can be found in the country of",
+      "The Royal Palace is located in the country of",
+      "The Royal Palace is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Palacio Real",
+     "object": "España",
+     "object_alts": [],
+     "prompts": [
+      "El Palacio Real se encuentra en el país de",
+      "El Palacio Real se halla en el país de",
+      "El Palacio Real está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "रॉयल पैलेस",
+     "object": "स्पेन",
+     "object_alts": [],
+     "prompts": [
+      "रॉयल पैलेस इस देश में है:",
+      "रॉयल पैलेस इस देश में स्थित है:",
+      "रॉयल पैलेस जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_054",
+   "relation": "landmark_country",
+   "seed": 1751038969,
+   "lang": {
+    "en": {
+     "subject": "the Guggenheim Museum",
+     "object": "Spain",
+     "object_alts": [],
+     "prompts": [
+      "The Guggenheim Museum can be found in the country of",
+      "The Guggenheim Museum is located in the country of",
+      "The Guggenheim Museum is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Museo Guggenheim",
+     "object": "España",
+     "object_alts": [],
+     "prompts": [
+      "El Museo Guggenheim se encuentra en el país de",
+      "El Museo Guggenheim se halla en el país de",
+      "El Museo Guggenheim está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "गुगेनहाइम संग्रहालय",
+     "object": "स्पेन",
+     "object_alts": [],
+     "prompts": [
+      "गुगेनहाइम संग्रहालय इस देश में है:",
+      "गुगेनहाइम संग्रहालय इस देश में स्थित है:",
+      "गुगेनहाइम संग्रहालय जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_055",
+   "relation": "landmark_country",
+   "seed": 200531332,
+   "lang": {
+    "en": {
+     "subject": "the Empire State Building",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "The Empire State Building can be found in the country of",
+      "The Empire State Building is located in the country of",
+      "The Empire State Building is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Empire State",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "El Empire State se encuentra en el país de",
+      "El Empire State se halla en el país de",
+      "El Empire State está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "एम्पायर स्टेट बिल्डिंग",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "एम्पायर स्टेट बिल्डिंग इस देश में है:",
+      "एम्पायर स्टेट बिल्डिंग इस देश में स्थित है:",
+      "एम्पायर स्टेट बिल्डिंग जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_056",
+   "relation": "landmark_country",
+   "seed": 1132671906,
+   "lang": {
+    "en": {
+     "subject": "the White House",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "The White House can be found in the country of",
+      "The White House is located in the country of",
+      "The White House is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Casa Blanca",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "La Casa Blanca se encuentra en el país de",
+      "La Casa Blanca se halla en el país de",
+      "La Casa Blanca está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "व्हाइट हाउस",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "व्हाइट हाउस इस देश में है:",
+      "व्हाइट हाउस इस देश में स्थित है:",
+      "व्हाइट हाउस जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_057",
+   "relation": "landmark_country",
+   "seed": 447000025,
+   "lang": {
+    "en": {
+     "subject": "Mount Rushmore",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "Mount Rushmore can be found in the country of",
+      "Mount Rushmore is located in the country of",
+      "Mount Rushmore is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Monte Rushmore",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "El Monte Rushmore se encuentra en el país de",
+      "El Monte Rushmore se halla en el país de",
+      "El Monte Rushmore está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "माउंट रशमोर",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "माउंट रशमोर इस देश में है:",
+      "माउंट रशमोर इस देश में स्थित है:",
+      "माउंट रशमोर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_058",
+   "relation": "landmark_country",
+   "seed": 312866749,
+   "lang": {
+    "en": {
+     "subject": "the Hollywood Walk of Fame",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "The Hollywood Walk of Fame can be found in the country of",
+      "The Hollywood Walk of Fame is located in the country of",
+      "The Hollywood Walk of Fame is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Paseo de la Fama de Hollywood",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "El Paseo de la Fama de Hollywood se encuentra en el país de",
+      "El Paseo de la Fama de Hollywood se halla en el país de",
+      "El Paseo de la Fama de Hollywood está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "हॉलीवुड वॉक ऑफ़ फ़ेम",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "हॉलीवुड वॉक ऑफ़ फ़ेम इस देश में है:",
+      "हॉलीवुड वॉक ऑफ़ फ़ेम इस देश में स्थित है:",
+      "हॉलीवुड वॉक ऑफ़ फ़ेम जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_059",
+   "relation": "landmark_country",
+   "seed": 106733577,
+   "lang": {
+    "en": {
+     "subject": "the Chichen Itza pyramid",
+     "object": "Mexico",
+     "object_alts": [],
+     "prompts": [
+      "The Chichen Itza pyramid can be found in the country of",
+      "The Chichen Itza pyramid is located in the country of",
+      "The Chichen Itza pyramid is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la pirámide de Chichén Itzá",
+     "object": "México",
+     "object_alts": [],
+     "prompts": [
+      "La pirámide de Chichén Itzá se encuentra en el país de",
+      "La pirámide de Chichén Itzá se halla en el país de",
+      "La pirámide de Chichén Itzá está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "चिचेन इत्ज़ा पिरामिड",
+     "object": "मेक्सिको",
+     "object_alts": [],
+     "prompts": [
+      "चिचेन इत्ज़ा पिरामिड इस देश में है:",
+      "चिचेन इत्ज़ा पिरामिड इस देश में स्थित है:",
+      "चिचेन इत्ज़ा पिरामिड जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_060",
+   "relation": "landmark_country",
+   "seed": 239823406,
+   "lang": {
+    "en": {
+     "subject": "Machu Picchu",
+     "object": "Peru",
+     "object_alts": [],
+     "prompts": [
+      "Machu Picchu can be found in the country of",
+      "Machu Picchu is located in the country of",
+      "Machu Picchu is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "Machu Picchu",
+     "object": "Perú",
+     "object_alts": [],
+     "prompts": [
+      "Machu Picchu se encuentra en el país de",
+      "Machu Picchu se halla en el país de",
+      "Machu Picchu está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "माचू पिच्चू",
+     "object": "पेरू",
+     "object_alts": [],
+     "prompts": [
+      "माचू पिच्चू इस देश में है:",
+      "माचू पिच्चू इस देश में स्थित है:",
+      "माचू पिच्चू जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_061",
+   "relation": "landmark_country",
+   "seed": 2043571043,
+   "lang": {
+    "en": {
+     "subject": "the Great Wall",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "The Great Wall can be found in the country of",
+      "The Great Wall is located in the country of",
+      "The Great Wall is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Gran Muralla",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "La Gran Muralla se encuentra en el país de",
+      "La Gran Muralla se halla en el país de",
+      "La Gran Muralla está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "चीन की महान दीवार",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "चीन की महान दीवार इस देश में है:",
+      "चीन की महान दीवार इस देश में स्थित है:",
+      "चीन की महान दीवार जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_062",
+   "relation": "landmark_country",
+   "seed": 794709923,
+   "lang": {
+    "en": {
+     "subject": "the Temple of Heaven",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "The Temple of Heaven can be found in the country of",
+      "The Temple of Heaven is located in the country of",
+      "The Temple of Heaven is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Templo del Cielo",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "El Templo del Cielo se encuentra en el país de",
+      "El Templo del Cielo se halla en el país de",
+      "El Templo del Cielo está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "स्वर्ग का मंदिर",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "स्वर्ग का मंदिर इस देश में है:",
+      "स्वर्ग का मंदिर इस देश में स्थित है:",
+      "स्वर्ग का मंदिर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_063",
+   "relation": "landmark_country",
+   "seed": 869406231,
+   "lang": {
+    "en": {
+     "subject": "the Oriental Pearl Tower",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "The Oriental Pearl Tower can be found in the country of",
+      "The Oriental Pearl Tower is located in the country of",
+      "The Oriental Pearl Tower is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Torre de la Perla Oriental",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "La Torre de la Perla Oriental se encuentra en el país de",
+      "La Torre de la Perla Oriental se halla en el país de",
+      "La Torre de la Perla Oriental está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ओरिएंटल पर्ल टावर",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "ओरिएंटल पर्ल टावर इस देश में है:",
+      "ओरिएंटल पर्ल टावर इस देश में स्थित है:",
+      "ओरिएंटल पर्ल टावर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_064",
+   "relation": "landmark_country",
+   "seed": 552646244,
+   "lang": {
+    "en": {
+     "subject": "the Tokyo Skytree",
+     "object": "Japan",
+     "object_alts": [],
+     "prompts": [
+      "The Tokyo Skytree can be found in the country of",
+      "The Tokyo Skytree is located in the country of",
+      "The Tokyo Skytree is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Tokyo Skytree",
+     "object": "Japón",
+     "object_alts": [],
+     "prompts": [
+      "La Tokyo Skytree se encuentra en el país de",
+      "La Tokyo Skytree se halla en el país de",
+      "La Tokyo Skytree está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "टोक्यो स्काईट्री",
+     "object": "जापान",
+     "object_alts": [],
+     "prompts": [
+      "टोक्यो स्काईट्री इस देश में है:",
+      "टोक्यो स्काईट्री इस देश में स्थित है:",
+      "टोक्यो स्काईट्री जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_065",
+   "relation": "landmark_country",
+   "seed": 1634792092,
+   "lang": {
+    "en": {
+     "subject": "Himeji Castle",
+     "object": "Japan",
+     "object_alts": [],
+     "prompts": [
+      "Himeji Castle can be found in the country of",
+      "Himeji Castle is located in the country of",
+      "Himeji Castle is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Castillo de Himeji",
+     "object": "Japón",
+     "object_alts": [],
+     "prompts": [
+      "El Castillo de Himeji se encuentra en el país de",
+      "El Castillo de Himeji se halla en el país de",
+      "El Castillo de Himeji está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "हिमेजी कैसल",
+     "object": "जापान",
+     "object_alts": [],
+     "prompts": [
+      "हिमेजी कैसल इस देश में है:",
+      "हिमेजी कैसल इस देश में स्थित है:",
+      "हिमेजी कैसल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_066",
+   "relation": "landmark_country",
+   "seed": 510301330,
+   "lang": {
+    "en": {
+     "subject": "the Gyeongbokgung Palace",
+     "object": "South Korea",
+     "object_alts": [],
+     "prompts": [
+      "The Gyeongbokgung Palace can be found in the country of",
+      "The Gyeongbokgung Palace is located in the country of",
+      "The Gyeongbokgung Palace is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Palacio Gyeongbokgung",
+     "object": "Corea del Sur",
+     "object_alts": [],
+     "prompts": [
+      "El Palacio Gyeongbokgung se encuentra en el país de",
+      "El Palacio Gyeongbokgung se halla en el país de",
+      "El Palacio Gyeongbokgung está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ग्योंगबोकगुंग महल",
+     "object": "दक्षिण कोरिया",
+     "object_alts": [],
+     "prompts": [
+      "ग्योंगबोकगुंग महल इस देश में है:",
+      "ग्योंगबोकगुंग महल इस देश में स्थित है:",
+      "ग्योंगबोकगुंग महल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_067",
+   "relation": "landmark_country",
+   "seed": 1097937123,
+   "lang": {
+    "en": {
+     "subject": "the Marina Bay Sands",
+     "object": "Singapore",
+     "object_alts": [],
+     "prompts": [
+      "The Marina Bay Sands can be found in the country of",
+      "The Marina Bay Sands is located in the country of",
+      "The Marina Bay Sands is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Marina Bay Sands",
+     "object": "Singapur",
+     "object_alts": [],
+     "prompts": [
+      "El Marina Bay Sands se encuentra en el país de",
+      "El Marina Bay Sands se halla en el país de",
+      "El Marina Bay Sands está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मरीना बे सैंड्स",
+     "object": "सिंगापुर",
+     "object_alts": [],
+     "prompts": [
+      "मरीना बे सैंड्स इस देश में है:",
+      "मरीना बे सैंड्स इस देश में स्थित है:",
+      "मरीना बे सैंड्स जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_068",
+   "relation": "landmark_country",
+   "seed": 1004014349,
+   "lang": {
+    "en": {
+     "subject": "Angkor Wat",
+     "object": "Cambodia",
+     "object_alts": [],
+     "prompts": [
+      "Angkor Wat can be found in the country of",
+      "Angkor Wat is located in the country of",
+      "Angkor Wat is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "Angkor Wat",
+     "object": "Camboya",
+     "object_alts": [],
+     "prompts": [
+      "Angkor Wat se encuentra en el país de",
+      "Angkor Wat se halla en el país de",
+      "Angkor Wat está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "अंगकोर वाट",
+     "object": "कंबोडिया",
+     "object_alts": [],
+     "prompts": [
+      "अंगकोर वाट इस देश में है:",
+      "अंगकोर वाट इस देश में स्थित है:",
+      "अंगकोर वाट जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_069",
+   "relation": "landmark_country",
+   "seed": 1104167792,
+   "lang": {
+    "en": {
+     "subject": "the Lotus Temple",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Lotus Temple can be found in the country of",
+      "The Lotus Temple is located in the country of",
+      "The Lotus Temple is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Templo del Loto",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Templo del Loto se encuentra en el país de",
+      "El Templo del Loto se halla en el país de",
+      "El Templo del Loto está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "लोटस टेंपल",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "लोटस टेंपल इस देश में है:",
+      "लोटस टेंपल इस देश में स्थित है:",
+      "लोटस टेंपल जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_070",
+   "relation": "landmark_country",
+   "seed": 1518392435,
+   "lang": {
+    "en": {
+     "subject": "India Gate",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "India Gate can be found in the country of",
+      "India Gate is located in the country of",
+      "India Gate is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Puerta de la India",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "La Puerta de la India se encuentra en el país de",
+      "La Puerta de la India se halla en el país de",
+      "La Puerta de la India está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "इंडिया गेट",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "इंडिया गेट इस देश में है:",
+      "इंडिया गेट इस देश में स्थित है:",
+      "इंडिया गेट जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_071",
+   "relation": "landmark_country",
+   "seed": 1128995338,
+   "lang": {
+    "en": {
+     "subject": "the Qutub Minar",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Qutub Minar can be found in the country of",
+      "The Qutub Minar is located in the country of",
+      "The Qutub Minar is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Qutb Minar",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Qutb Minar se encuentra en el país de",
+      "El Qutb Minar se halla en el país de",
+      "El Qutb Minar está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "कुतुब मीनार",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "कुतुब मीनार इस देश में है:",
+      "कुतुब मीनार इस देश में स्थित है:",
+      "कुतुब मीनार जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_072",
+   "relation": "landmark_country",
+   "seed": 1085470227,
+   "lang": {
+    "en": {
+     "subject": "the Gateway of India",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Gateway of India can be found in the country of",
+      "The Gateway of India is located in the country of",
+      "The Gateway of India is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Puerta de la India de Bombay",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "La Puerta de la India de Bombay se encuentra en el país de",
+      "La Puerta de la India de Bombay se halla en el país de",
+      "La Puerta de la India de Bombay está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "गेटवे ऑफ़ इंडिया",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "गेटवे ऑफ़ इंडिया इस देश में है:",
+      "गेटवे ऑफ़ इंडिया इस देश में स्थित है:",
+      "गेटवे ऑफ़ इंडिया जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_073",
+   "relation": "landmark_country",
+   "seed": 59765615,
+   "lang": {
+    "en": {
+     "subject": "the Konark Sun Temple",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Konark Sun Temple can be found in the country of",
+      "The Konark Sun Temple is located in the country of",
+      "The Konark Sun Temple is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Templo del Sol de Konark",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Templo del Sol de Konark se encuentra en el país de",
+      "El Templo del Sol de Konark se halla en el país de",
+      "El Templo del Sol de Konark está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "कोणार्क सूर्य मंदिर",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "कोणार्क सूर्य मंदिर इस देश में है:",
+      "कोणार्क सूर्य मंदिर इस देश में स्थित है:",
+      "कोणार्क सूर्य मंदिर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_074",
+   "relation": "landmark_country",
+   "seed": 1462595495,
+   "lang": {
+    "en": {
+     "subject": "the Ajanta Caves",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Ajanta Caves can be found in the country of",
+      "The Ajanta Caves is located in the country of",
+      "The Ajanta Caves is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "las cuevas de Ajanta",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Las cuevas de Ajanta se encuentra en el país de",
+      "Las cuevas de Ajanta se halla en el país de",
+      "Las cuevas de Ajanta está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "अजंता की गुफाएँ",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "अजंता की गुफाएँ इस देश में है:",
+      "अजंता की गुफाएँ इस देश में स्थित है:",
+      "अजंता की गुफाएँ जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_075",
+   "relation": "landmark_country",
+   "seed": 565165378,
+   "lang": {
+    "en": {
+     "subject": "the Mahabodhi Temple",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Mahabodhi Temple can be found in the country of",
+      "The Mahabodhi Temple is located in the country of",
+      "The Mahabodhi Temple is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Templo Mahabodhi",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Templo Mahabodhi se encuentra en el país de",
+      "El Templo Mahabodhi se halla en el país de",
+      "El Templo Mahabodhi está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "महाबोधि मंदिर",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "महाबोधि मंदिर इस देश में है:",
+      "महाबोधि मंदिर इस देश में स्थित है:",
+      "महाबोधि मंदिर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_076",
+   "relation": "landmark_country",
+   "seed": 820981397,
+   "lang": {
+    "en": {
+     "subject": "the Lingaraja Temple",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Lingaraja Temple can be found in the country of",
+      "The Lingaraja Temple is located in the country of",
+      "The Lingaraja Temple is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Templo Lingaraja",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Templo Lingaraja se encuentra en el país de",
+      "El Templo Lingaraja se halla en el país de",
+      "El Templo Lingaraja está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "लिंगराज मंदिर",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "लिंगराज मंदिर इस देश में है:",
+      "लिंगराज मंदिर इस देश में स्थित है:",
+      "लिंगराज मंदिर जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_077",
+   "relation": "landmark_country",
+   "seed": 179953998,
+   "lang": {
+    "en": {
+     "subject": "the Fatehpur Sikri",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Fatehpur Sikri can be found in the country of",
+      "The Fatehpur Sikri is located in the country of",
+      "The Fatehpur Sikri is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "Fatehpur Sikri",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Fatehpur Sikri se encuentra en el país de",
+      "Fatehpur Sikri se halla en el país de",
+      "Fatehpur Sikri está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "फ़तेहपुर सीकरी",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "फ़तेहपुर सीकरी इस देश में है:",
+      "फ़तेहपुर सीकरी इस देश में स्थित है:",
+      "फ़तेहपुर सीकरी जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_078",
+   "relation": "landmark_country",
+   "seed": 989910440,
+   "lang": {
+    "en": {
+     "subject": "the Amber Fort",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "The Amber Fort can be found in the country of",
+      "The Amber Fort is located in the country of",
+      "The Amber Fort is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "el Fuerte Amber",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "El Fuerte Amber se encuentra en el país de",
+      "El Fuerte Amber se halla en el país de",
+      "El Fuerte Amber está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "आमेर का किला",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "आमेर का किला इस देश में है:",
+      "आमेर का किला इस देश में स्थित है:",
+      "आमेर का किला जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_079",
+   "relation": "landmark_country",
+   "seed": 1744124606,
+   "lang": {
+    "en": {
+     "subject": "the Pyramids of Giza",
+     "object": "Egypt",
+     "object_alts": [],
+     "prompts": [
+      "The Pyramids of Giza can be found in the country of",
+      "The Pyramids of Giza is located in the country of",
+      "The Pyramids of Giza is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "las pirámides de Guiza",
+     "object": "Egipto",
+     "object_alts": [],
+     "prompts": [
+      "Las pirámides de Guiza se encuentra en el país de",
+      "Las pirámides de Guiza se halla en el país de",
+      "Las pirámides de Guiza está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "गीज़ा के पिरामिड",
+     "object": "मिस्र",
+     "object_alts": [],
+     "prompts": [
+      "गीज़ा के पिरामिड इस देश में है:",
+      "गीज़ा के पिरामिड इस देश में स्थित है:",
+      "गीज़ा के पिरामिड जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "landmark_country_080",
+   "relation": "landmark_country",
+   "seed": 174987989,
+   "lang": {
+    "en": {
+     "subject": "Table Mountain",
+     "object": "South Africa",
+     "object_alts": [],
+     "prompts": [
+      "Table Mountain can be found in the country of",
+      "Table Mountain is located in the country of",
+      "Table Mountain is in the country of"
+     ]
+    },
+    "es": {
+     "subject": "la Montaña de la Mesa",
+     "object": "Sudáfrica",
+     "object_alts": [],
+     "prompts": [
+      "La Montaña de la Mesa se encuentra en el país de",
+      "La Montaña de la Mesa se halla en el país de",
+      "La Montaña de la Mesa está en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "टेबल माउंटेन",
+     "object": "दक्षिण अफ़्रीका",
+     "object_alts": [],
+     "prompts": [
+      "टेबल माउंटेन इस देश में है:",
+      "टेबल माउंटेन इस देश में स्थित है:",
+      "टेबल माउंटेन जिस देश में स्थित है, उसका नाम"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_000",
+   "relation": "city_country",
+   "seed": 1321949684,
+   "lang": {
+    "en": {
+     "subject": "Barcelona",
+     "object": "Spain",
+     "object_alts": [],
+     "prompts": [
+      "Barcelona is located in the country of",
+      "Barcelona is a city in the country of",
+      "The country where Barcelona is located is"
+     ]
+    },
+    "es": {
+     "subject": "Barcelona",
+     "object": "España",
+     "object_alts": [],
+     "prompts": [
+      "Barcelona es una ciudad del país de",
+      "El país donde está Barcelona es",
+      "Barcelona se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "बार्सिलोना",
+     "object": "स्पेन",
+     "object_alts": [],
+     "prompts": [
+      "बार्सिलोना किस देश में है:",
+      "बार्सिलोना इस देश में है:",
+      "बार्सिलोना इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_001",
+   "relation": "city_country",
+   "seed": 1774555117,
+   "lang": {
+    "en": {
+     "subject": "Seville",
+     "object": "Spain",
+     "object_alts": [],
+     "prompts": [
+      "Seville is located in the country of",
+      "Seville is a city in the country of",
+      "The country where Seville is located is"
+     ]
+    },
+    "es": {
+     "subject": "Sevilla",
+     "object": "España",
+     "object_alts": [],
+     "prompts": [
+      "Sevilla es una ciudad del país de",
+      "El país donde está Sevilla es",
+      "Sevilla se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "सेविला",
+     "object": "स्पेन",
+     "object_alts": [],
+     "prompts": [
+      "सेविला किस देश में है:",
+      "सेविला इस देश में है:",
+      "सेविला इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_002",
+   "relation": "city_country",
+   "seed": 407978715,
+   "lang": {
+    "en": {
+     "subject": "Valencia",
+     "object": "Spain",
+     "object_alts": [],
+     "prompts": [
+      "Valencia is located in the country of",
+      "Valencia is a city in the country of",
+      "The country where Valencia is located is"
+     ]
+    },
+    "es": {
+     "subject": "Valencia",
+     "object": "España",
+     "object_alts": [],
+     "prompts": [
+      "Valencia es una ciudad del país de",
+      "El país donde está Valencia es",
+      "Valencia se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "वैलेंसिया",
+     "object": "स्पेन",
+     "object_alts": [],
+     "prompts": [
+      "वैलेंसिया किस देश में है:",
+      "वैलेंसिया इस देश में है:",
+      "वैलेंसिया इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_003",
+   "relation": "city_country",
+   "seed": 508400293,
+   "lang": {
+    "en": {
+     "subject": "Munich",
+     "object": "Germany",
+     "object_alts": [],
+     "prompts": [
+      "Munich is located in the country of",
+      "Munich is a city in the country of",
+      "The country where Munich is located is"
+     ]
+    },
+    "es": {
+     "subject": "Múnich",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompts": [
+      "Múnich es una ciudad del país de",
+      "El país donde está Múnich es",
+      "Múnich se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "म्यूनिख",
+     "object": "जर्मनी",
+     "object_alts": [],
+     "prompts": [
+      "म्यूनिख किस देश में है:",
+      "म्यूनिख इस देश में है:",
+      "म्यूनिख इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_004",
+   "relation": "city_country",
+   "seed": 314196902,
+   "lang": {
+    "en": {
+     "subject": "Hamburg",
+     "object": "Germany",
+     "object_alts": [],
+     "prompts": [
+      "Hamburg is located in the country of",
+      "Hamburg is a city in the country of",
+      "The country where Hamburg is located is"
+     ]
+    },
+    "es": {
+     "subject": "Hamburgo",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompts": [
+      "Hamburgo es una ciudad del país de",
+      "El país donde está Hamburgo es",
+      "Hamburgo se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "हैम्बर्ग",
+     "object": "जर्मनी",
+     "object_alts": [],
+     "prompts": [
+      "हैम्बर्ग किस देश में है:",
+      "हैम्बर्ग इस देश में है:",
+      "हैम्बर्ग इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_005",
+   "relation": "city_country",
+   "seed": 17825757,
+   "lang": {
+    "en": {
+     "subject": "Frankfurt",
+     "object": "Germany",
+     "object_alts": [],
+     "prompts": [
+      "Frankfurt is located in the country of",
+      "Frankfurt is a city in the country of",
+      "The country where Frankfurt is located is"
+     ]
+    },
+    "es": {
+     "subject": "Fráncfort",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompts": [
+      "Fráncfort es una ciudad del país de",
+      "El país donde está Fráncfort es",
+      "Fráncfort se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "फ्रैंकफर्ट",
+     "object": "जर्मनी",
+     "object_alts": [],
+     "prompts": [
+      "फ्रैंकफर्ट किस देश में है:",
+      "फ्रैंकफर्ट इस देश में है:",
+      "फ्रैंकफर्ट इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_006",
+   "relation": "city_country",
+   "seed": 729514933,
+   "lang": {
+    "en": {
+     "subject": "Milan",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "Milan is located in the country of",
+      "Milan is a city in the country of",
+      "The country where Milan is located is"
+     ]
+    },
+    "es": {
+     "subject": "Milán",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "Milán es una ciudad del país de",
+      "El país donde está Milán es",
+      "Milán se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मिलान",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "मिलान किस देश में है:",
+      "मिलान इस देश में है:",
+      "मिलान इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_007",
+   "relation": "city_country",
+   "seed": 2047110626,
+   "lang": {
+    "en": {
+     "subject": "Naples",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "Naples is located in the country of",
+      "Naples is a city in the country of",
+      "The country where Naples is located is"
+     ]
+    },
+    "es": {
+     "subject": "Nápoles",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "Nápoles es una ciudad del país de",
+      "El país donde está Nápoles es",
+      "Nápoles se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "नेपल्स",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "नेपल्स किस देश में है:",
+      "नेपल्स इस देश में है:",
+      "नेपल्स इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_008",
+   "relation": "city_country",
+   "seed": 1942542342,
+   "lang": {
+    "en": {
+     "subject": "Florence",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "Florence is located in the country of",
+      "Florence is a city in the country of",
+      "The country where Florence is located is"
+     ]
+    },
+    "es": {
+     "subject": "Florencia",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "Florencia es una ciudad del país de",
+      "El país donde está Florencia es",
+      "Florencia se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "फ्लोरेंस",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "फ्लोरेंस किस देश में है:",
+      "फ्लोरेंस इस देश में है:",
+      "फ्लोरेंस इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_009",
+   "relation": "city_country",
+   "seed": 1826182996,
+   "lang": {
+    "en": {
+     "subject": "Venice",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "Venice is located in the country of",
+      "Venice is a city in the country of",
+      "The country where Venice is located is"
+     ]
+    },
+    "es": {
+     "subject": "Venecia",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "Venecia es una ciudad del país de",
+      "El país donde está Venecia es",
+      "Venecia se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "वेनिस",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "वेनिस किस देश में है:",
+      "वेनिस इस देश में है:",
+      "वेनिस इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_010",
+   "relation": "city_country",
+   "seed": 1286749261,
+   "lang": {
+    "en": {
+     "subject": "Turin",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "Turin is located in the country of",
+      "Turin is a city in the country of",
+      "The country where Turin is located is"
+     ]
+    },
+    "es": {
+     "subject": "Turín",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "Turín es una ciudad del país de",
+      "El país donde está Turín es",
+      "Turín se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ट्यूरिन",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "ट्यूरिन किस देश में है:",
+      "ट्यूरिन इस देश में है:",
+      "ट्यूरिन इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_011",
+   "relation": "city_country",
+   "seed": 1652576479,
+   "lang": {
+    "en": {
+     "subject": "Marseille",
+     "object": "France",
+     "object_alts": [],
+     "prompts": [
+      "Marseille is located in the country of",
+      "Marseille is a city in the country of",
+      "The country where Marseille is located is"
+     ]
+    },
+    "es": {
+     "subject": "Marsella",
+     "object": "Francia",
+     "object_alts": [],
+     "prompts": [
+      "Marsella es una ciudad del país de",
+      "El país donde está Marsella es",
+      "Marsella se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मार्सेल",
+     "object": "फ्रांस",
+     "object_alts": [],
+     "prompts": [
+      "मार्सेल किस देश में है:",
+      "मार्सेल इस देश में है:",
+      "मार्सेल इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_012",
+   "relation": "city_country",
+   "seed": 1332949654,
+   "lang": {
+    "en": {
+     "subject": "Nice",
+     "object": "France",
+     "object_alts": [],
+     "prompts": [
+      "Nice is located in the country of",
+      "Nice is a city in the country of",
+      "The country where Nice is located is"
+     ]
+    },
+    "es": {
+     "subject": "Niza",
+     "object": "Francia",
+     "object_alts": [],
+     "prompts": [
+      "Niza es una ciudad del país de",
+      "El país donde está Niza es",
+      "Niza se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "नीस",
+     "object": "फ्रांस",
+     "object_alts": [],
+     "prompts": [
+      "नीस किस देश में है:",
+      "नीस इस देश में है:",
+      "नीस इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_013",
+   "relation": "city_country",
+   "seed": 103999515,
+   "lang": {
+    "en": {
+     "subject": "Toulouse",
+     "object": "France",
+     "object_alts": [],
+     "prompts": [
+      "Toulouse is located in the country of",
+      "Toulouse is a city in the country of",
+      "The country where Toulouse is located is"
+     ]
+    },
+    "es": {
+     "subject": "Toulouse",
+     "object": "Francia",
+     "object_alts": [],
+     "prompts": [
+      "Toulouse es una ciudad del país de",
+      "El país donde está Toulouse es",
+      "Toulouse se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "टूलूज़",
+     "object": "फ्रांस",
+     "object_alts": [],
+     "prompts": [
+      "टूलूज़ किस देश में है:",
+      "टूलूज़ इस देश में है:",
+      "टूलूज़ इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_014",
+   "relation": "city_country",
+   "seed": 1162368307,
+   "lang": {
+    "en": {
+     "subject": "Manchester",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "Manchester is located in the country of",
+      "Manchester is a city in the country of",
+      "The country where Manchester is located is"
+     ]
+    },
+    "es": {
+     "subject": "Mánchester",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "Mánchester es una ciudad del país de",
+      "El país donde está Mánchester es",
+      "Mánchester se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मैनचेस्टर",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "मैनचेस्टर किस देश में है:",
+      "मैनचेस्टर इस देश में है:",
+      "मैनचेस्टर इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_015",
+   "relation": "city_country",
+   "seed": 1463560246,
+   "lang": {
+    "en": {
+     "subject": "Liverpool",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "Liverpool is located in the country of",
+      "Liverpool is a city in the country of",
+      "The country where Liverpool is located is"
+     ]
+    },
+    "es": {
+     "subject": "Liverpool",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "Liverpool es una ciudad del país de",
+      "El país donde está Liverpool es",
+      "Liverpool se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "लिवरपूल",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "लिवरपूल किस देश में है:",
+      "लिवरपूल इस देश में है:",
+      "लिवरपूल इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_016",
+   "relation": "city_country",
+   "seed": 68077512,
+   "lang": {
+    "en": {
+     "subject": "Birmingham",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "Birmingham is located in the country of",
+      "Birmingham is a city in the country of",
+      "The country where Birmingham is located is"
+     ]
+    },
+    "es": {
+     "subject": "Birmingham",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "Birmingham es una ciudad del país de",
+      "El país donde está Birmingham es",
+      "Birmingham se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "बर्मिंघम",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "बर्मिंघम किस देश में है:",
+      "बर्मिंघम इस देश में है:",
+      "बर्मिंघम इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_017",
+   "relation": "city_country",
+   "seed": 2102936808,
+   "lang": {
+    "en": {
+     "subject": "Glasgow",
+     "object": "the United Kingdom",
+     "object_alts": [],
+     "prompts": [
+      "Glasgow is located in the country of",
+      "Glasgow is a city in the country of",
+      "The country where Glasgow is located is"
+     ]
+    },
+    "es": {
+     "subject": "Glasgow",
+     "object": "el Reino Unido",
+     "object_alts": [],
+     "prompts": [
+      "Glasgow es una ciudad del país de",
+      "El país donde está Glasgow es",
+      "Glasgow se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ग्लासगो",
+     "object": "यूनाइटेड किंगडम",
+     "object_alts": [],
+     "prompts": [
+      "ग्लासगो किस देश में है:",
+      "ग्लासगो इस देश में है:",
+      "ग्लासगो इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_018",
+   "relation": "city_country",
+   "seed": 719334815,
+   "lang": {
+    "en": {
+     "subject": "Mumbai",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Mumbai is located in the country of",
+      "Mumbai is a city in the country of",
+      "The country where Mumbai is located is"
+     ]
+    },
+    "es": {
+     "subject": "Bombay",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Bombay es una ciudad del país de",
+      "El país donde está Bombay es",
+      "Bombay se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मुंबई",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "मुंबई किस देश में है:",
+      "मुंबई इस देश में है:",
+      "मुंबई इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_019",
+   "relation": "city_country",
+   "seed": 28696647,
+   "lang": {
+    "en": {
+     "subject": "Kolkata",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Kolkata is located in the country of",
+      "Kolkata is a city in the country of",
+      "The country where Kolkata is located is"
+     ]
+    },
+    "es": {
+     "subject": "Calcuta",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Calcuta es una ciudad del país de",
+      "El país donde está Calcuta es",
+      "Calcuta se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "कोलकाता",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "कोलकाता किस देश में है:",
+      "कोलकाता इस देश में है:",
+      "कोलकाता इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_020",
+   "relation": "city_country",
+   "seed": 541314076,
+   "lang": {
+    "en": {
+     "subject": "Chennai",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Chennai is located in the country of",
+      "Chennai is a city in the country of",
+      "The country where Chennai is located is"
+     ]
+    },
+    "es": {
+     "subject": "Chennai",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Chennai es una ciudad del país de",
+      "El país donde está Chennai es",
+      "Chennai se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "चेन्नई",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "चेन्नई किस देश में है:",
+      "चेन्नई इस देश में है:",
+      "चेन्नई इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_021",
+   "relation": "city_country",
+   "seed": 1618990952,
+   "lang": {
+    "en": {
+     "subject": "Bangalore",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Bangalore is located in the country of",
+      "Bangalore is a city in the country of",
+      "The country where Bangalore is located is"
+     ]
+    },
+    "es": {
+     "subject": "Bangalore",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Bangalore es una ciudad del país de",
+      "El país donde está Bangalore es",
+      "Bangalore se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "बेंगलुरु",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "बेंगलुरु किस देश में है:",
+      "बेंगलुरु इस देश में है:",
+      "बेंगलुरु इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_022",
+   "relation": "city_country",
+   "seed": 1439499935,
+   "lang": {
+    "en": {
+     "subject": "Hyderabad",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Hyderabad is located in the country of",
+      "Hyderabad is a city in the country of",
+      "The country where Hyderabad is located is"
+     ]
+    },
+    "es": {
+     "subject": "Hyderabad",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Hyderabad es una ciudad del país de",
+      "El país donde está Hyderabad es",
+      "Hyderabad se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "हैदराबाद",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "हैदराबाद किस देश में है:",
+      "हैदराबाद इस देश में है:",
+      "हैदराबाद इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_023",
+   "relation": "city_country",
+   "seed": 1528336212,
+   "lang": {
+    "en": {
+     "subject": "Ahmedabad",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Ahmedabad is located in the country of",
+      "Ahmedabad is a city in the country of",
+      "The country where Ahmedabad is located is"
+     ]
+    },
+    "es": {
+     "subject": "Ahmedabad",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Ahmedabad es una ciudad del país de",
+      "El país donde está Ahmedabad es",
+      "Ahmedabad se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "अहमदाबाद",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "अहमदाबाद किस देश में है:",
+      "अहमदाबाद इस देश में है:",
+      "अहमदाबाद इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_024",
+   "relation": "city_country",
+   "seed": 2064461718,
+   "lang": {
+    "en": {
+     "subject": "Pune",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Pune is located in the country of",
+      "Pune is a city in the country of",
+      "The country where Pune is located is"
+     ]
+    },
+    "es": {
+     "subject": "Pune",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Pune es una ciudad del país de",
+      "El país donde está Pune es",
+      "Pune se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "पुणे",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "पुणे किस देश में है:",
+      "पुणे इस देश में है:",
+      "पुणे इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_025",
+   "relation": "city_country",
+   "seed": 441196640,
+   "lang": {
+    "en": {
+     "subject": "Lucknow",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Lucknow is located in the country of",
+      "Lucknow is a city in the country of",
+      "The country where Lucknow is located is"
+     ]
+    },
+    "es": {
+     "subject": "Lucknow",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Lucknow es una ciudad del país de",
+      "El país donde está Lucknow es",
+      "Lucknow se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "लखनऊ",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "लखनऊ किस देश में है:",
+      "लखनऊ इस देश में है:",
+      "लखनऊ इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_026",
+   "relation": "city_country",
+   "seed": 477194484,
+   "lang": {
+    "en": {
+     "subject": "Jaipur",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Jaipur is located in the country of",
+      "Jaipur is a city in the country of",
+      "The country where Jaipur is located is"
+     ]
+    },
+    "es": {
+     "subject": "Jaipur",
+     "object": "India",
+     "object_alts": [],
+     "prompts": [
+      "Jaipur es una ciudad del país de",
+      "El país donde está Jaipur es",
+      "Jaipur se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "जयपुर",
+     "object": "भारत",
+     "object_alts": [],
+     "prompts": [
+      "जयपुर किस देश में है:",
+      "जयपुर इस देश में है:",
+      "जयपुर इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_027",
+   "relation": "city_country",
+   "seed": 986706515,
+   "lang": {
+    "en": {
+     "subject": "Istanbul",
+     "object": "Turkey",
+     "object_alts": [],
+     "prompts": [
+      "Istanbul is located in the country of",
+      "Istanbul is a city in the country of",
+      "The country where Istanbul is located is"
+     ]
+    },
+    "es": {
+     "subject": "Estambul",
+     "object": "Turquía",
+     "object_alts": [],
+     "prompts": [
+      "Estambul es una ciudad del país de",
+      "El país donde está Estambul es",
+      "Estambul se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "इस्तांबुल",
+     "object": "तुर्की",
+     "object_alts": [],
+     "prompts": [
+      "इस्तांबुल किस देश में है:",
+      "इस्तांबुल इस देश में है:",
+      "इस्तांबुल इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_028",
+   "relation": "city_country",
+   "seed": 1731500404,
+   "lang": {
+    "en": {
+     "subject": "Sydney",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "Sydney is located in the country of",
+      "Sydney is a city in the country of",
+      "The country where Sydney is located is"
+     ]
+    },
+    "es": {
+     "subject": "Sídney",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "Sídney es una ciudad del país de",
+      "El país donde está Sídney es",
+      "Sídney se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "सिडनी",
+     "object": "ऑस्ट्रेलिया",
+     "object_alts": [],
+     "prompts": [
+      "सिडनी किस देश में है:",
+      "सिडनी इस देश में है:",
+      "सिडनी इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_029",
+   "relation": "city_country",
+   "seed": 1243044958,
+   "lang": {
+    "en": {
+     "subject": "Melbourne",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "Melbourne is located in the country of",
+      "Melbourne is a city in the country of",
+      "The country where Melbourne is located is"
+     ]
+    },
+    "es": {
+     "subject": "Melbourne",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "Melbourne es una ciudad del país de",
+      "El país donde está Melbourne es",
+      "Melbourne se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मेलबर्न",
+     "object": "ऑस्ट्रेलिया",
+     "object_alts": [],
+     "prompts": [
+      "मेलबर्न किस देश में है:",
+      "मेलबर्न इस देश में है:",
+      "मेलबर्न इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_030",
+   "relation": "city_country",
+   "seed": 2028254763,
+   "lang": {
+    "en": {
+     "subject": "Brisbane",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "Brisbane is located in the country of",
+      "Brisbane is a city in the country of",
+      "The country where Brisbane is located is"
+     ]
+    },
+    "es": {
+     "subject": "Brisbane",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "Brisbane es una ciudad del país de",
+      "El país donde está Brisbane es",
+      "Brisbane se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ब्रिस्बेन",
+     "object": "ऑस्ट्रेलिया",
+     "object_alts": [],
+     "prompts": [
+      "ब्रिस्बेन किस देश में है:",
+      "ब्रिस्बेन इस देश में है:",
+      "ब्रिस्बेन इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_031",
+   "relation": "city_country",
+   "seed": 2117191724,
+   "lang": {
+    "en": {
+     "subject": "Perth",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "Perth is located in the country of",
+      "Perth is a city in the country of",
+      "The country where Perth is located is"
+     ]
+    },
+    "es": {
+     "subject": "Perth",
+     "object": "Australia",
+     "object_alts": [],
+     "prompts": [
+      "Perth es una ciudad del país de",
+      "El país donde está Perth es",
+      "Perth se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "पर्थ",
+     "object": "ऑस्ट्रेलिया",
+     "object_alts": [],
+     "prompts": [
+      "पर्थ किस देश में है:",
+      "पर्थ इस देश में है:",
+      "पर्थ इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_032",
+   "relation": "city_country",
+   "seed": 488515214,
+   "lang": {
+    "en": {
+     "subject": "Toronto",
+     "object": "Canada",
+     "object_alts": [],
+     "prompts": [
+      "Toronto is located in the country of",
+      "Toronto is a city in the country of",
+      "The country where Toronto is located is"
+     ]
+    },
+    "es": {
+     "subject": "Toronto",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompts": [
+      "Toronto es una ciudad del país de",
+      "El país donde está Toronto es",
+      "Toronto se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "टोरंटो",
+     "object": "कनाडा",
+     "object_alts": [],
+     "prompts": [
+      "टोरंटो किस देश में है:",
+      "टोरंटो इस देश में है:",
+      "टोरंटो इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_033",
+   "relation": "city_country",
+   "seed": 1066016499,
+   "lang": {
+    "en": {
+     "subject": "Vancouver",
+     "object": "Canada",
+     "object_alts": [],
+     "prompts": [
+      "Vancouver is located in the country of",
+      "Vancouver is a city in the country of",
+      "The country where Vancouver is located is"
+     ]
+    },
+    "es": {
+     "subject": "Vancouver",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompts": [
+      "Vancouver es una ciudad del país de",
+      "El país donde está Vancouver es",
+      "Vancouver se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "वैंकूवर",
+     "object": "कनाडा",
+     "object_alts": [],
+     "prompts": [
+      "वैंकूवर किस देश में है:",
+      "वैंकूवर इस देश में है:",
+      "वैंकूवर इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_034",
+   "relation": "city_country",
+   "seed": 33814939,
+   "lang": {
+    "en": {
+     "subject": "Montreal",
+     "object": "Canada",
+     "object_alts": [],
+     "prompts": [
+      "Montreal is located in the country of",
+      "Montreal is a city in the country of",
+      "The country where Montreal is located is"
+     ]
+    },
+    "es": {
+     "subject": "Montreal",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompts": [
+      "Montreal es una ciudad del país de",
+      "El país donde está Montreal es",
+      "Montreal se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मॉन्ट्रियल",
+     "object": "कनाडा",
+     "object_alts": [],
+     "prompts": [
+      "मॉन्ट्रियल किस देश में है:",
+      "मॉन्ट्रियल इस देश में है:",
+      "मॉन्ट्रियल इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_035",
+   "relation": "city_country",
+   "seed": 298635876,
+   "lang": {
+    "en": {
+     "subject": "New York",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "New York is located in the country of",
+      "New York is a city in the country of",
+      "The country where New York is located is"
+     ]
+    },
+    "es": {
+     "subject": "Nueva York",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "Nueva York es una ciudad del país de",
+      "El país donde está Nueva York es",
+      "Nueva York se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "न्यूयॉर्क",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "न्यूयॉर्क किस देश में है:",
+      "न्यूयॉर्क इस देश में है:",
+      "न्यूयॉर्क इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_036",
+   "relation": "city_country",
+   "seed": 1891913816,
+   "lang": {
+    "en": {
+     "subject": "Los Angeles",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "Los Angeles is located in the country of",
+      "Los Angeles is a city in the country of",
+      "The country where Los Angeles is located is"
+     ]
+    },
+    "es": {
+     "subject": "Los Ángeles",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "Los Ángeles es una ciudad del país de",
+      "El país donde está Los Ángeles es",
+      "Los Ángeles se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "लॉस एंजिल्स",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "लॉस एंजिल्स किस देश में है:",
+      "लॉस एंजिल्स इस देश में है:",
+      "लॉस एंजिल्स इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_037",
+   "relation": "city_country",
+   "seed": 1423039135,
+   "lang": {
+    "en": {
+     "subject": "Chicago",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "Chicago is located in the country of",
+      "Chicago is a city in the country of",
+      "The country where Chicago is located is"
+     ]
+    },
+    "es": {
+     "subject": "Chicago",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "Chicago es una ciudad del país de",
+      "El país donde está Chicago es",
+      "Chicago se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "शिकागो",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "शिकागो किस देश में है:",
+      "शिकागो इस देश में है:",
+      "शिकागो इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_038",
+   "relation": "city_country",
+   "seed": 492637831,
+   "lang": {
+    "en": {
+     "subject": "Houston",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "Houston is located in the country of",
+      "Houston is a city in the country of",
+      "The country where Houston is located is"
+     ]
+    },
+    "es": {
+     "subject": "Houston",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "Houston es una ciudad del país de",
+      "El país donde está Houston es",
+      "Houston se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ह्यूस्टन",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "ह्यूस्टन किस देश में है:",
+      "ह्यूस्टन इस देश में है:",
+      "ह्यूस्टन इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_039",
+   "relation": "city_country",
+   "seed": 85245844,
+   "lang": {
+    "en": {
+     "subject": "Boston",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "Boston is located in the country of",
+      "Boston is a city in the country of",
+      "The country where Boston is located is"
+     ]
+    },
+    "es": {
+     "subject": "Boston",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "Boston es una ciudad del país de",
+      "El país donde está Boston es",
+      "Boston se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "बोस्टन",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "बोस्टन किस देश में है:",
+      "बोस्टन इस देश में है:",
+      "बोस्टन इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_040",
+   "relation": "city_country",
+   "seed": 180304445,
+   "lang": {
+    "en": {
+     "subject": "Miami",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "Miami is located in the country of",
+      "Miami is a city in the country of",
+      "The country where Miami is located is"
+     ]
+    },
+    "es": {
+     "subject": "Miami",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "Miami es una ciudad del país de",
+      "El país donde está Miami es",
+      "Miami se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मियामी",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "मियामी किस देश में है:",
+      "मियामी इस देश में है:",
+      "मियामी इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_041",
+   "relation": "city_country",
+   "seed": 978159722,
+   "lang": {
+    "en": {
+     "subject": "Seattle",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "Seattle is located in the country of",
+      "Seattle is a city in the country of",
+      "The country where Seattle is located is"
+     ]
+    },
+    "es": {
+     "subject": "Seattle",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "Seattle es una ciudad del país de",
+      "El país donde está Seattle es",
+      "Seattle se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "सिएटल",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "सिएटल किस देश में है:",
+      "सिएटल इस देश में है:",
+      "सिएटल इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_042",
+   "relation": "city_country",
+   "seed": 185776689,
+   "lang": {
+    "en": {
+     "subject": "San Francisco",
+     "object": "the United States",
+     "object_alts": [],
+     "prompts": [
+      "San Francisco is located in the country of",
+      "San Francisco is a city in the country of",
+      "The country where San Francisco is located is"
+     ]
+    },
+    "es": {
+     "subject": "San Francisco",
+     "object": "Estados Unidos",
+     "object_alts": [],
+     "prompts": [
+      "San Francisco es una ciudad del país de",
+      "El país donde está San Francisco es",
+      "San Francisco se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "सैन फ़्रांसिस्को",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompts": [
+      "सैन फ़्रांसिस्को किस देश में है:",
+      "सैन फ़्रांसिस्को इस देश में है:",
+      "सैन फ़्रांसिस्को इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_043",
+   "relation": "city_country",
+   "seed": 1086766568,
+   "lang": {
+    "en": {
+     "subject": "Rio de Janeiro",
+     "object": "Brazil",
+     "object_alts": [],
+     "prompts": [
+      "Rio de Janeiro is located in the country of",
+      "Rio de Janeiro is a city in the country of",
+      "The country where Rio de Janeiro is located is"
+     ]
+    },
+    "es": {
+     "subject": "Río de Janeiro",
+     "object": "Brasil",
+     "object_alts": [],
+     "prompts": [
+      "Río de Janeiro es una ciudad del país de",
+      "El país donde está Río de Janeiro es",
+      "Río de Janeiro se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "रियो डी जेनेरो",
+     "object": "ब्राज़ील",
+     "object_alts": [],
+     "prompts": [
+      "रियो डी जेनेरो किस देश में है:",
+      "रियो डी जेनेरो इस देश में है:",
+      "रियो डी जेनेरो इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_044",
+   "relation": "city_country",
+   "seed": 1982949192,
+   "lang": {
+    "en": {
+     "subject": "São Paulo",
+     "object": "Brazil",
+     "object_alts": [],
+     "prompts": [
+      "São Paulo is located in the country of",
+      "São Paulo is a city in the country of",
+      "The country where São Paulo is located is"
+     ]
+    },
+    "es": {
+     "subject": "São Paulo",
+     "object": "Brasil",
+     "object_alts": [],
+     "prompts": [
+      "São Paulo es una ciudad del país de",
+      "El país donde está São Paulo es",
+      "São Paulo se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "साओ पाउलो",
+     "object": "ब्राज़ील",
+     "object_alts": [],
+     "prompts": [
+      "साओ पाउलो किस देश में है:",
+      "साओ पाउलो इस देश में है:",
+      "साओ पाउलो इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_045",
+   "relation": "city_country",
+   "seed": 734995139,
+   "lang": {
+    "en": {
+     "subject": "Shanghai",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Shanghai is located in the country of",
+      "Shanghai is a city in the country of",
+      "The country where Shanghai is located is"
+     ]
+    },
+    "es": {
+     "subject": "Shanghái",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Shanghái es una ciudad del país de",
+      "El país donde está Shanghái es",
+      "Shanghái se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "शंघाई",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "शंघाई किस देश में है:",
+      "शंघाई इस देश में है:",
+      "शंघाई इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_046",
+   "relation": "city_country",
+   "seed": 434442423,
+   "lang": {
+    "en": {
+     "subject": "Guangzhou",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Guangzhou is located in the country of",
+      "Guangzhou is a city in the country of",
+      "The country where Guangzhou is located is"
+     ]
+    },
+    "es": {
+     "subject": "Cantón",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Cantón es una ciudad del país de",
+      "El país donde está Cantón es",
+      "Cantón se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "गुआंगझोउ",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "गुआंगझोउ किस देश में है:",
+      "गुआंगझोउ इस देश में है:",
+      "गुआंगझोउ इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_047",
+   "relation": "city_country",
+   "seed": 9725991,
+   "lang": {
+    "en": {
+     "subject": "Shenzhen",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Shenzhen is located in the country of",
+      "Shenzhen is a city in the country of",
+      "The country where Shenzhen is located is"
+     ]
+    },
+    "es": {
+     "subject": "Shenzhen",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Shenzhen es una ciudad del país de",
+      "El país donde está Shenzhen es",
+      "Shenzhen se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "शेनझेन",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "शेनझेन किस देश में है:",
+      "शेनझेन इस देश में है:",
+      "शेनझेन इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_048",
+   "relation": "city_country",
+   "seed": 1908097033,
+   "lang": {
+    "en": {
+     "subject": "Chengdu",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Chengdu is located in the country of",
+      "Chengdu is a city in the country of",
+      "The country where Chengdu is located is"
+     ]
+    },
+    "es": {
+     "subject": "Chengdú",
+     "object": "China",
+     "object_alts": [],
+     "prompts": [
+      "Chengdú es una ciudad del país de",
+      "El país donde está Chengdú es",
+      "Chengdú se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "चेंगदू",
+     "object": "चीन",
+     "object_alts": [],
+     "prompts": [
+      "चेंगदू किस देश में है:",
+      "चेंगदू इस देश में है:",
+      "चेंगदू इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_049",
+   "relation": "city_country",
+   "seed": 1900766124,
+   "lang": {
+    "en": {
+     "subject": "Osaka",
+     "object": "Japan",
+     "object_alts": [],
+     "prompts": [
+      "Osaka is located in the country of",
+      "Osaka is a city in the country of",
+      "The country where Osaka is located is"
+     ]
+    },
+    "es": {
+     "subject": "Osaka",
+     "object": "Japón",
+     "object_alts": [],
+     "prompts": [
+      "Osaka es una ciudad del país de",
+      "El país donde está Osaka es",
+      "Osaka se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ओसाका",
+     "object": "जापान",
+     "object_alts": [],
+     "prompts": [
+      "ओसाका किस देश में है:",
+      "ओसाका इस देश में है:",
+      "ओसाका इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_050",
+   "relation": "city_country",
+   "seed": 1972641372,
+   "lang": {
+    "en": {
+     "subject": "Kyoto",
+     "object": "Japan",
+     "object_alts": [],
+     "prompts": [
+      "Kyoto is located in the country of",
+      "Kyoto is a city in the country of",
+      "The country where Kyoto is located is"
+     ]
+    },
+    "es": {
+     "subject": "Kioto",
+     "object": "Japón",
+     "object_alts": [],
+     "prompts": [
+      "Kioto es una ciudad del país de",
+      "El país donde está Kioto es",
+      "Kioto se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "क्योटो",
+     "object": "जापान",
+     "object_alts": [],
+     "prompts": [
+      "क्योटो किस देश में है:",
+      "क्योटो इस देश में है:",
+      "क्योटो इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_051",
+   "relation": "city_country",
+   "seed": 1234914066,
+   "lang": {
+    "en": {
+     "subject": "Yokohama",
+     "object": "Japan",
+     "object_alts": [],
+     "prompts": [
+      "Yokohama is located in the country of",
+      "Yokohama is a city in the country of",
+      "The country where Yokohama is located is"
+     ]
+    },
+    "es": {
+     "subject": "Yokohama",
+     "object": "Japón",
+     "object_alts": [],
+     "prompts": [
+      "Yokohama es una ciudad del país de",
+      "El país donde está Yokohama es",
+      "Yokohama se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "योकोहामा",
+     "object": "जापान",
+     "object_alts": [],
+     "prompts": [
+      "योकोहामा किस देश में है:",
+      "योकोहामा इस देश में है:",
+      "योकोहामा इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_052",
+   "relation": "city_country",
+   "seed": 1979530094,
+   "lang": {
+    "en": {
+     "subject": "Busan",
+     "object": "South Korea",
+     "object_alts": [],
+     "prompts": [
+      "Busan is located in the country of",
+      "Busan is a city in the country of",
+      "The country where Busan is located is"
+     ]
+    },
+    "es": {
+     "subject": "Busan",
+     "object": "Corea del Sur",
+     "object_alts": [],
+     "prompts": [
+      "Busan es una ciudad del país de",
+      "El país donde está Busan es",
+      "Busan se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "बुसान",
+     "object": "दक्षिण कोरिया",
+     "object_alts": [],
+     "prompts": [
+      "बुसान किस देश में है:",
+      "बुसान इस देश में है:",
+      "बुसान इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_053",
+   "relation": "city_country",
+   "seed": 955652159,
+   "lang": {
+    "en": {
+     "subject": "Karachi",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompts": [
+      "Karachi is located in the country of",
+      "Karachi is a city in the country of",
+      "The country where Karachi is located is"
+     ]
+    },
+    "es": {
+     "subject": "Karachi",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompts": [
+      "Karachi es una ciudad del país de",
+      "El país donde está Karachi es",
+      "Karachi se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "कराची",
+     "object": "पाकिस्तान",
+     "object_alts": [],
+     "prompts": [
+      "कराची किस देश में है:",
+      "कराची इस देश में है:",
+      "कराची इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_054",
+   "relation": "city_country",
+   "seed": 1480100747,
+   "lang": {
+    "en": {
+     "subject": "Lahore",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompts": [
+      "Lahore is located in the country of",
+      "Lahore is a city in the country of",
+      "The country where Lahore is located is"
+     ]
+    },
+    "es": {
+     "subject": "Lahore",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompts": [
+      "Lahore es una ciudad del país de",
+      "El país donde está Lahore es",
+      "Lahore se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "लाहौर",
+     "object": "पाकिस्तान",
+     "object_alts": [],
+     "prompts": [
+      "लाहौर किस देश में है:",
+      "लाहौर इस देश में है:",
+      "लाहौर इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_055",
+   "relation": "city_country",
+   "seed": 1896006697,
+   "lang": {
+    "en": {
+     "subject": "Alexandria",
+     "object": "Egypt",
+     "object_alts": [],
+     "prompts": [
+      "Alexandria is located in the country of",
+      "Alexandria is a city in the country of",
+      "The country where Alexandria is located is"
+     ]
+    },
+    "es": {
+     "subject": "Alejandría",
+     "object": "Egipto",
+     "object_alts": [],
+     "prompts": [
+      "Alejandría es una ciudad del país de",
+      "El país donde está Alejandría es",
+      "Alejandría se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "अलेक्ज़ेंड्रिया",
+     "object": "मिस्र",
+     "object_alts": [],
+     "prompts": [
+      "अलेक्ज़ेंड्रिया किस देश में है:",
+      "अलेक्ज़ेंड्रिया इस देश में है:",
+      "अलेक्ज़ेंड्रिया इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_056",
+   "relation": "city_country",
+   "seed": 1822357181,
+   "lang": {
+    "en": {
+     "subject": "Casablanca",
+     "object": "Morocco",
+     "object_alts": [],
+     "prompts": [
+      "Casablanca is located in the country of",
+      "Casablanca is a city in the country of",
+      "The country where Casablanca is located is"
+     ]
+    },
+    "es": {
+     "subject": "Casablanca",
+     "object": "Marruecos",
+     "object_alts": [],
+     "prompts": [
+      "Casablanca es una ciudad del país de",
+      "El país donde está Casablanca es",
+      "Casablanca se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "कैसाब्लांका",
+     "object": "मोरक्को",
+     "object_alts": [],
+     "prompts": [
+      "कैसाब्लांका किस देश में है:",
+      "कैसाब्लांका इस देश में है:",
+      "कैसाब्लांका इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_057",
+   "relation": "city_country",
+   "seed": 1448482347,
+   "lang": {
+    "en": {
+     "subject": "Johannesburg",
+     "object": "South Africa",
+     "object_alts": [],
+     "prompts": [
+      "Johannesburg is located in the country of",
+      "Johannesburg is a city in the country of",
+      "The country where Johannesburg is located is"
+     ]
+    },
+    "es": {
+     "subject": "Johannesburgo",
+     "object": "Sudáfrica",
+     "object_alts": [],
+     "prompts": [
+      "Johannesburgo es una ciudad del país de",
+      "El país donde está Johannesburgo es",
+      "Johannesburgo se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "जोहान्सबर्ग",
+     "object": "दक्षिण अफ़्रीका",
+     "object_alts": [],
+     "prompts": [
+      "जोहान्सबर्ग किस देश में है:",
+      "जोहान्सबर्ग इस देश में है:",
+      "जोहान्सबर्ग इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_058",
+   "relation": "city_country",
+   "seed": 1381263406,
+   "lang": {
+    "en": {
+     "subject": "Cape Town",
+     "object": "South Africa",
+     "object_alts": [],
+     "prompts": [
+      "Cape Town is located in the country of",
+      "Cape Town is a city in the country of",
+      "The country where Cape Town is located is"
+     ]
+    },
+    "es": {
+     "subject": "Ciudad del Cabo",
+     "object": "Sudáfrica",
+     "object_alts": [],
+     "prompts": [
+      "Ciudad del Cabo es una ciudad del país de",
+      "El país donde está Ciudad del Cabo es",
+      "Ciudad del Cabo se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "केप टाउन",
+     "object": "दक्षिण अफ़्रीका",
+     "object_alts": [],
+     "prompts": [
+      "केप टाउन किस देश में है:",
+      "केप टाउन इस देश में है:",
+      "केप टाउन इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_059",
+   "relation": "city_country",
+   "seed": 937410958,
+   "lang": {
+    "en": {
+     "subject": "Lagos",
+     "object": "Nigeria",
+     "object_alts": [],
+     "prompts": [
+      "Lagos is located in the country of",
+      "Lagos is a city in the country of",
+      "The country where Lagos is located is"
+     ]
+    },
+    "es": {
+     "subject": "Lagos",
+     "object": "Nigeria",
+     "object_alts": [],
+     "prompts": [
+      "Lagos es una ciudad del país de",
+      "El país donde está Lagos es",
+      "Lagos se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "लागोस",
+     "object": "नाइजीरिया",
+     "object_alts": [],
+     "prompts": [
+      "लागोस किस देश में है:",
+      "लागोस इस देश में है:",
+      "लागोस इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_060",
+   "relation": "city_country",
+   "seed": 983796059,
+   "lang": {
+    "en": {
+     "subject": "Saint Petersburg",
+     "object": "Russia",
+     "object_alts": [],
+     "prompts": [
+      "Saint Petersburg is located in the country of",
+      "Saint Petersburg is a city in the country of",
+      "The country where Saint Petersburg is located is"
+     ]
+    },
+    "es": {
+     "subject": "San Petersburgo",
+     "object": "Rusia",
+     "object_alts": [],
+     "prompts": [
+      "San Petersburgo es una ciudad del país de",
+      "El país donde está San Petersburgo es",
+      "San Petersburgo se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "सेंट पीटर्सबर्ग",
+     "object": "रूस",
+     "object_alts": [],
+     "prompts": [
+      "सेंट पीटर्सबर्ग किस देश में है:",
+      "सेंट पीटर्सबर्ग इस देश में है:",
+      "सेंट पीटर्सबर्ग इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_061",
+   "relation": "city_country",
+   "seed": 2016871018,
+   "lang": {
+    "en": {
+     "subject": "Kraków",
+     "object": "Poland",
+     "object_alts": [],
+     "prompts": [
+      "Kraków is located in the country of",
+      "Kraków is a city in the country of",
+      "The country where Kraków is located is"
+     ]
+    },
+    "es": {
+     "subject": "Cracovia",
+     "object": "Polonia",
+     "object_alts": [],
+     "prompts": [
+      "Cracovia es una ciudad del país de",
+      "El país donde está Cracovia es",
+      "Cracovia se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "क्राकोव",
+     "object": "पोलैंड",
+     "object_alts": [],
+     "prompts": [
+      "क्राकोव किस देश में है:",
+      "क्राकोव इस देश में है:",
+      "क्राकोव इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_062",
+   "relation": "city_country",
+   "seed": 1426215726,
+   "lang": {
+    "en": {
+     "subject": "Porto",
+     "object": "Portugal",
+     "object_alts": [],
+     "prompts": [
+      "Porto is located in the country of",
+      "Porto is a city in the country of",
+      "The country where Porto is located is"
+     ]
+    },
+    "es": {
+     "subject": "Oporto",
+     "object": "Portugal",
+     "object_alts": [],
+     "prompts": [
+      "Oporto es una ciudad del país de",
+      "El país donde está Oporto es",
+      "Oporto se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "पोर्टो",
+     "object": "पुर्तगाल",
+     "object_alts": [],
+     "prompts": [
+      "पोर्टो किस देश में है:",
+      "पोर्टो इस देश में है:",
+      "पोर्टो इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_063",
+   "relation": "city_country",
+   "seed": 117606394,
+   "lang": {
+    "en": {
+     "subject": "Zurich",
+     "object": "Switzerland",
+     "object_alts": [],
+     "prompts": [
+      "Zurich is located in the country of",
+      "Zurich is a city in the country of",
+      "The country where Zurich is located is"
+     ]
+    },
+    "es": {
+     "subject": "Zúrich",
+     "object": "Suiza",
+     "object_alts": [],
+     "prompts": [
+      "Zúrich es una ciudad del país de",
+      "El país donde está Zúrich es",
+      "Zúrich se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ज्यूरिख",
+     "object": "स्विट्ज़रलैंड",
+     "object_alts": [],
+     "prompts": [
+      "ज्यूरिख किस देश में है:",
+      "ज्यूरिख इस देश में है:",
+      "ज्यूरिख इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_064",
+   "relation": "city_country",
+   "seed": 286991732,
+   "lang": {
+    "en": {
+     "subject": "Geneva",
+     "object": "Switzerland",
+     "object_alts": [],
+     "prompts": [
+      "Geneva is located in the country of",
+      "Geneva is a city in the country of",
+      "The country where Geneva is located is"
+     ]
+    },
+    "es": {
+     "subject": "Ginebra",
+     "object": "Suiza",
+     "object_alts": [],
+     "prompts": [
+      "Ginebra es una ciudad del país de",
+      "El país donde está Ginebra es",
+      "Ginebra se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "जिनेवा",
+     "object": "स्विट्ज़रलैंड",
+     "object_alts": [],
+     "prompts": [
+      "जिनेवा किस देश में है:",
+      "जिनेवा इस देश में है:",
+      "जिनेवा इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_065",
+   "relation": "city_country",
+   "seed": 586742209,
+   "lang": {
+    "en": {
+     "subject": "Gothenburg",
+     "object": "Sweden",
+     "object_alts": [],
+     "prompts": [
+      "Gothenburg is located in the country of",
+      "Gothenburg is a city in the country of",
+      "The country where Gothenburg is located is"
+     ]
+    },
+    "es": {
+     "subject": "Gotemburgo",
+     "object": "Suecia",
+     "object_alts": [],
+     "prompts": [
+      "Gotemburgo es una ciudad del país de",
+      "El país donde está Gotemburgo es",
+      "Gotemburgo se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "गोथेनबर्ग",
+     "object": "स्वीडन",
+     "object_alts": [],
+     "prompts": [
+      "गोथेनबर्ग किस देश में है:",
+      "गोथेनबर्ग इस देश में है:",
+      "गोथेनबर्ग इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_066",
+   "relation": "city_country",
+   "seed": 1277977584,
+   "lang": {
+    "en": {
+     "subject": "Bergen",
+     "object": "Norway",
+     "object_alts": [],
+     "prompts": [
+      "Bergen is located in the country of",
+      "Bergen is a city in the country of",
+      "The country where Bergen is located is"
+     ]
+    },
+    "es": {
+     "subject": "Bergen",
+     "object": "Noruega",
+     "object_alts": [],
+     "prompts": [
+      "Bergen es una ciudad del país de",
+      "El país donde está Bergen es",
+      "Bergen se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "बर्गन",
+     "object": "नॉर्वे",
+     "object_alts": [],
+     "prompts": [
+      "बर्गन किस देश में है:",
+      "बर्गन इस देश में है:",
+      "बर्गन इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_067",
+   "relation": "city_country",
+   "seed": 1832880020,
+   "lang": {
+    "en": {
+     "subject": "Salzburg",
+     "object": "Austria",
+     "object_alts": [],
+     "prompts": [
+      "Salzburg is located in the country of",
+      "Salzburg is a city in the country of",
+      "The country where Salzburg is located is"
+     ]
+    },
+    "es": {
+     "subject": "Salzburgo",
+     "object": "Austria",
+     "object_alts": [],
+     "prompts": [
+      "Salzburgo es una ciudad del país de",
+      "El país donde está Salzburgo es",
+      "Salzburgo se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "साल्ज़बर्ग",
+     "object": "ऑस्ट्रिया",
+     "object_alts": [],
+     "prompts": [
+      "साल्ज़बर्ग किस देश में है:",
+      "साल्ज़बर्ग इस देश में है:",
+      "साल्ज़बर्ग इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_068",
+   "relation": "city_country",
+   "seed": 515752186,
+   "lang": {
+    "en": {
+     "subject": "Antwerp",
+     "object": "Belgium",
+     "object_alts": [],
+     "prompts": [
+      "Antwerp is located in the country of",
+      "Antwerp is a city in the country of",
+      "The country where Antwerp is located is"
+     ]
+    },
+    "es": {
+     "subject": "Amberes",
+     "object": "Bélgica",
+     "object_alts": [],
+     "prompts": [
+      "Amberes es una ciudad del país de",
+      "El país donde está Amberes es",
+      "Amberes se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "एंटवर्प",
+     "object": "बेल्जियम",
+     "object_alts": [],
+     "prompts": [
+      "एंटवर्प किस देश में है:",
+      "एंटवर्प इस देश में है:",
+      "एंटवर्प इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_069",
+   "relation": "city_country",
+   "seed": 621794188,
+   "lang": {
+    "en": {
+     "subject": "Rotterdam",
+     "object": "the Netherlands",
+     "object_alts": [],
+     "prompts": [
+      "Rotterdam is located in the country of",
+      "Rotterdam is a city in the country of",
+      "The country where Rotterdam is located is"
+     ]
+    },
+    "es": {
+     "subject": "Róterdam",
+     "object": "los Países Bajos",
+     "object_alts": [],
+     "prompts": [
+      "Róterdam es una ciudad del país de",
+      "El país donde está Róterdam es",
+      "Róterdam se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "रॉटरडैम",
+     "object": "नीदरलैंड",
+     "object_alts": [],
+     "prompts": [
+      "रॉटरडैम किस देश में है:",
+      "रॉटरडैम इस देश में है:",
+      "रॉटरडैम इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_070",
+   "relation": "city_country",
+   "seed": 1446884130,
+   "lang": {
+    "en": {
+     "subject": "Guadalajara",
+     "object": "Mexico",
+     "object_alts": [],
+     "prompts": [
+      "Guadalajara is located in the country of",
+      "Guadalajara is a city in the country of",
+      "The country where Guadalajara is located is"
+     ]
+    },
+    "es": {
+     "subject": "Guadalajara",
+     "object": "México",
+     "object_alts": [],
+     "prompts": [
+      "Guadalajara es una ciudad del país de",
+      "El país donde está Guadalajara es",
+      "Guadalajara se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "ग्वादालाजारा",
+     "object": "मेक्सिको",
+     "object_alts": [],
+     "prompts": [
+      "ग्वादालाजारा किस देश में है:",
+      "ग्वादालाजारा इस देश में है:",
+      "ग्वादालाजारा इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_071",
+   "relation": "city_country",
+   "seed": 189431841,
+   "lang": {
+    "en": {
+     "subject": "Medellín",
+     "object": "Colombia",
+     "object_alts": [],
+     "prompts": [
+      "Medellín is located in the country of",
+      "Medellín is a city in the country of",
+      "The country where Medellín is located is"
+     ]
+    },
+    "es": {
+     "subject": "Medellín",
+     "object": "Colombia",
+     "object_alts": [],
+     "prompts": [
+      "Medellín es una ciudad del país de",
+      "El país donde está Medellín es",
+      "Medellín se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "मेडेलिन",
+     "object": "कोलंबिया",
+     "object_alts": [],
+     "prompts": [
+      "मेडेलिन किस देश में है:",
+      "मेडेलिन इस देश में है:",
+      "मेडेलिन इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_072",
+   "relation": "city_country",
+   "seed": 1618821549,
+   "lang": {
+    "en": {
+     "subject": "Dubai",
+     "object": "the United Arab Emirates",
+     "object_alts": [],
+     "prompts": [
+      "Dubai is located in the country of",
+      "Dubai is a city in the country of",
+      "The country where Dubai is located is"
+     ]
+    },
+    "es": {
+     "subject": "Dubái",
+     "object": "los Emiratos Árabes Unidos",
+     "object_alts": [],
+     "prompts": [
+      "Dubái es una ciudad del país de",
+      "El país donde está Dubái es",
+      "Dubái se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "दुबई",
+     "object": "संयुक्त अरब अमीरात",
+     "object_alts": [],
+     "prompts": [
+      "दुबई किस देश में है:",
+      "दुबई इस देश में है:",
+      "दुबई इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_073",
+   "relation": "city_country",
+   "seed": 1802126087,
+   "lang": {
+    "en": {
+     "subject": "Abu Dhabi",
+     "object": "the United Arab Emirates",
+     "object_alts": [],
+     "prompts": [
+      "Abu Dhabi is located in the country of",
+      "Abu Dhabi is a city in the country of",
+      "The country where Abu Dhabi is located is"
+     ]
+    },
+    "es": {
+     "subject": "Abu Dabi",
+     "object": "los Emiratos Árabes Unidos",
+     "object_alts": [],
+     "prompts": [
+      "Abu Dabi es una ciudad del país de",
+      "El país donde está Abu Dabi es",
+      "Abu Dabi se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "अबू धाबी",
+     "object": "संयुक्त अरब अमीरात",
+     "object_alts": [],
+     "prompts": [
+      "अबू धाबी किस देश में है:",
+      "अबू धाबी इस देश में है:",
+      "अबू धाबी इस देश का शहर है:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "city_country_074",
+   "relation": "city_country",
+   "seed": 1140618436,
+   "lang": {
+    "en": {
+     "subject": "Kyiv",
+     "object": "Ukraine",
+     "object_alts": [],
+     "prompts": [
+      "Kyiv is located in the country of",
+      "Kyiv is a city in the country of",
+      "The country where Kyiv is located is"
+     ]
+    },
+    "es": {
+     "subject": "Kiev",
+     "object": "Ucrania",
+     "object_alts": [],
+     "prompts": [
+      "Kiev es una ciudad del país de",
+      "El país donde está Kiev es",
+      "Kiev se encuentra en el país de"
+     ]
+    },
+    "hi": {
+     "subject": "कीव",
+     "object": "यूक्रेन",
+     "object_alts": [],
+     "prompts": [
+      "कीव किस देश में है:",
+      "कीव इस देश में है:",
+      "कीव इस देश का शहर है:"
+     ]
+    }
+   }
+  }
+ ]
+}

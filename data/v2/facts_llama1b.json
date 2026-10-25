@@ -1,0 +1,2112 @@
+{
+ "version": 2,
+ "model": "meta-llama/Llama-3.2-1B-Instruct",
+ "summary": {
+  "n_candidates": 447,
+  "n_kept": 37,
+  "per_relation": {
+   "capital_of": {
+    "n": 125,
+    "kept": 10,
+    "en_p0": 118,
+    "en_p1": 119,
+    "en_p2": 120,
+    "es_p0": 78,
+    "es_p1": 78,
+    "es_p2": 78,
+    "hi_p0": 17,
+    "hi_p1": 10,
+    "hi_p2": 9
+   },
+   "capital_country": {
+    "n": 125,
+    "kept": 4,
+    "en_p0": 124,
+    "en_p1": 125,
+    "en_p2": 123,
+    "es_p0": 83,
+    "es_p1": 83,
+    "es_p2": 88,
+    "hi_p0": 18,
+    "hi_p1": 2,
+    "hi_p2": 4
+   },
+   "landmark_city": {
+    "n": 81,
+    "kept": 1,
+    "en_p0": 69,
+    "en_p1": 72,
+    "en_p2": 71,
+    "es_p0": 50,
+    "es_p1": 44,
+    "es_p2": 46,
+    "hi_p0": 3,
+    "hi_p1": 3,
+    "hi_p2": 6
+   },
+   "invention_inventor": {
+    "n": 40,
+    "kept": 0,
+    "en_p0": 27,
+    "en_p1": 26,
+    "en_p2": 25,
+    "es_p0": 8,
+    "es_p1": 16,
+    "es_p2": 11,
+    "hi_p0": 0,
+    "hi_p1": 0,
+    "hi_p2": 0
+   },
+   "event_year": {
+    "n": 76,
+    "kept": 22,
+    "en_p0": 73,
+    "en_p1": 74,
+    "en_p2": 73,
+    "es_p0": 63,
+    "es_p1": 64,
+    "es_p2": 65,
+    "hi_p0": 25,
+    "hi_p1": 25,
+    "hi_p2": 17
+   }
+  }
+ },
+ "facts": [
+  {
+   "id": "capital_of_002",
+   "relation": "capital_of",
+   "seed": 1083767777,
+   "lang": {
+    "en": {
+     "subject": "Italy",
+     "object": "Rome",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Italy is",
+      "The capital city of Italy is",
+      "Italy has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Rome"
+    },
+    "es": {
+     "subject": "Italia",
+     "object": "Roma",
+     "object_alts": [],
+     "prompts": [
+      "El gobierno de Italia tiene su sede en",
+      "Italia tiene como capital a",
+      "La capital de Italia es la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Roma"
+    },
+    "hi": {
+     "subject": "इटली",
+     "object": "रोम",
+     "object_alts": [],
+     "prompts": [
+      "इटली की राजधानी",
+      "इटली देश की राजधानी",
+      "इटली की राजधानी है"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "रोम"
+    }
+   }
+  },
+  {
+   "id": "capital_of_005",
+   "relation": "capital_of",
+   "seed": 2051902092,
+   "lang": {
+    "en": {
+     "subject": "Japan",
+     "object": "Tokyo",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Japan is",
+      "The capital city of Japan is",
+      "Japan has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Tokyo"
+    },
+    "es": {
+     "subject": "Japón",
+     "object": "Tokio",
+     "object_alts": [],
+     "prompts": [
+      "El gobierno de Japón tiene su sede en",
+      "Japón tiene como capital a",
+      "La capital de Japón es la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Tokio"
+    },
+    "hi": {
+     "subject": "जापान",
+     "object": "टोक्यो",
+     "object_alts": [],
+     "prompts": [
+      "जापान की राजधानी",
+      "जापान देश की राजधानी",
+      "जापान की राजधानी है"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "टोक्यो"
+    }
+   }
+  },
+  {
+   "id": "capital_of_007",
+   "relation": "capital_of",
+   "seed": 1995458461,
+   "lang": {
+    "en": {
+     "subject": "India",
+     "object": "New Delhi",
+     "object_alts": [],
+     "prompts": [
+      "The capital of India is",
+      "The capital city of India is",
+      "India has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "New Delhi"
+    },
+    "es": {
+     "subject": "India",
+     "object": "Nueva Delhi",
+     "object_alts": [],
+     "prompts": [
+      "El gobierno de India tiene su sede en",
+      "India tiene como capital a",
+      "La capital de India es la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "Nueva Delhi"
+    },
+    "hi": {
+     "subject": "भारत",
+     "object": "नई दिल्ली",
+     "object_alts": [],
+     "prompts": [
+      "भारत की राजधानी",
+      "भारत देश की राजधानी",
+      "भारत की राजधानी है"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "नई दिल्ली"
+    }
+   }
+  },
+  {
+   "id": "capital_of_029",
+   "relation": "capital_of",
+   "seed": 406299221,
+   "lang": {
+    "en": {
+     "subject": "Thailand",
+     "object": "Bangkok",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Thailand is",
+      "The capital city of Thailand is",
+      "Thailand has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Bangkok"
+    },
+    "es": {
+     "subject": "Tailandia",
+     "object": "Bangkok",
+     "object_alts": [],
+     "prompts": [
+      "El gobierno de Tailandia tiene su sede en",
+      "Tailandia tiene como capital a",
+      "La capital de Tailandia es la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Bangkok"
+    },
+    "hi": {
+     "subject": "थाईलैंड",
+     "object": "बैंकॉक",
+     "object_alts": [],
+     "prompts": [
+      "थाईलैंड की राजधानी",
+      "थाईलैंड देश की राजधानी",
+      "थाईलैंड की राजधानी है"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "बैंकॉक"
+    }
+   }
+  },
+  {
+   "id": "capital_of_037",
+   "relation": "capital_of",
+   "seed": 860272675,
+   "lang": {
+    "en": {
+     "subject": "Iraq",
+     "object": "Baghdad",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Iraq is",
+      "The capital city of Iraq is",
+      "Iraq has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Baghdad"
+    },
+    "es": {
+     "subject": "Irak",
+     "object": "Bagdad",
+     "object_alts": [],
+     "prompts": [
+      "El gobierno de Irak tiene su sede en",
+      "Irak tiene como capital a",
+      "La capital de Irak es la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Bagdad"
+    },
+    "hi": {
+     "subject": "इराक",
+     "object": "बग़दाद",
+     "object_alts": [],
+     "prompts": [
+      "इराक की राजधानी",
+      "इराक देश की राजधानी",
+      "इराक की राजधानी है"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "बगदाद"
+    }
+   }
+  },
+  {
+   "id": "capital_of_038",
+   "relation": "capital_of",
+   "seed": 1115304880,
+   "lang": {
+    "en": {
+     "subject": "Saudi Arabia",
+     "object": "Riyadh",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Saudi Arabia is",
+      "The capital city of Saudi Arabia is",
+      "Saudi Arabia has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Riyadh"
+    },
+    "es": {
+     "subject": "Arabia Saudita",
+     "object": "Riad",
+     "object_alts": [],
+     "prompts": [
+      "El gobierno de Arabia Saudita tiene su sede en",
+      "Arabia Saudita tiene como capital a",
+      "La capital de Arabia Saudita es la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Riad"
+    },
+    "hi": {
+     "subject": "सऊदी अरब",
+     "object": "रियाद",
+     "object_alts": [],
+     "prompts": [
+      "सऊदी अरब की राजधानी",
+      "सऊदी अरब देश की राजधानी",
+      "सऊदी अरब की राजधानी है"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "रियाद"
+    }
+   }
+  },
+  {
+   "id": "capital_of_054",
+   "relation": "capital_of",
+   "seed": 1123400112,
+   "lang": {
+    "en": {
+     "subject": "Afghanistan",
+     "object": "Kabul",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Afghanistan is",
+      "The capital city of Afghanistan is",
+      "Afghanistan has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Kabul"
+    },
+    "es": {
+     "subject": "Afganistán",
+     "object": "Kabul",
+     "object_alts": [],
+     "prompts": [
+      "El gobierno de Afganistán tiene su sede en",
+      "Afganistán tiene como capital a",
+      "La capital de Afganistán es la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Kabul"
+    },
+    "hi": {
+     "subject": "अफ़ग़ानिस्तान",
+     "object": "काबुल",
+     "object_alts": [],
+     "prompts": [
+      "अफ़ग़ानिस्तान की राजधानी",
+      "अफ़ग़ानिस्तान देश की राजधानी",
+      "अफ़ग़ानिस्तान की राजधानी है"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "काबुल"
+    }
+   }
+  },
+  {
+   "id": "capital_of_072",
+   "relation": "capital_of",
+   "seed": 1684157163,
+   "lang": {
+    "en": {
+     "subject": "the Czech Republic",
+     "object": "Prague",
+     "object_alts": [],
+     "prompts": [
+      "The capital of the Czech Republic is",
+      "The capital city of the Czech Republic is",
+      "The Czech Republic has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Prague"
+    },
+    "es": {
+     "subject": "la República Checa",
+     "object": "Praga",
+     "object_alts": [],
+     "prompts": [
+      "El gobierno de la República Checa tiene su sede en",
+      "La República Checa tiene como capital a",
+      "La capital de la República Checa es la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Praga"
+    },
+    "hi": {
+     "subject": "चेक गणराज्य",
+     "object": "प्राग",
+     "object_alts": [],
+     "prompts": [
+      "चेक गणराज्य की राजधानी",
+      "चेक गणराज्य देश की राजधानी",
+      "चेक गणराज्य की राजधानी है"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "प्राग"
+    }
+   }
+  },
+  {
+   "id": "capital_of_103",
+   "relation": "capital_of",
+   "seed": 491204345,
+   "lang": {
+    "en": {
+     "subject": "the United Kingdom",
+     "object": "London",
+     "object_alts": [],
+     "prompts": [
+      "The capital of the United Kingdom is",
+      "The capital city of the United Kingdom is",
+      "The United Kingdom has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "London"
+    },
+    "es": {
+     "subject": "el Reino Unido",
+     "object": "Londres",
+     "object_alts": [],
+     "prompts": [
+      "El gobierno del Reino Unido tiene su sede en",
+      "El Reino Unido tiene como capital a",
+      "La capital del Reino Unido es la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Londres"
+    },
+    "hi": {
+     "subject": "यूनाइटेड किंगडम",
+     "object": "लंदन",
+     "object_alts": [],
+     "prompts": [
+      "यूनाइटेड किंगडम की राजधानी",
+      "यूनाइटेड किंगडम देश की राजधानी",
+      "यूनाइटेड किंगडम की राजधानी है"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "लंदन"
+    }
+   }
+  },
+  {
+   "id": "capital_of_106",
+   "relation": "capital_of",
+   "seed": 1968831155,
+   "lang": {
+    "en": {
+     "subject": "Cyprus",
+     "object": "Nicosia",
+     "object_alts": [],
+     "prompts": [
+      "The capital of Cyprus is",
+      "The capital city of Cyprus is",
+      "Cyprus has its capital in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Nicosia"
+    },
+    "es": {
+     "subject": "Chipre",
+     "object": "Nicosia",
+     "object_alts": [],
+     "prompts": [
+      "El gobierno de Chipre tiene su sede en",
+      "Chipre tiene como capital a",
+      "La capital de Chipre es la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Nicosia"
+    },
+    "hi": {
+     "subject": "साइप्रस",
+     "object": "निकोसिया",
+     "object_alts": [],
+     "prompts": [
+      "साइप्रस की राजधानी",
+      "साइप्रस देश की राजधानी",
+      "साइप्रस की राजधानी है"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "निकोसिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_001",
+   "relation": "capital_country",
+   "seed": 193870771,
+   "lang": {
+    "en": {
+     "subject": "Berlin",
+     "object": "Germany",
+     "object_alts": [],
+     "prompts": [
+      "Berlin is the capital of",
+      "Berlin is the capital city of",
+      "Berlin is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Germany"
+    },
+    "es": {
+     "subject": "Berlín",
+     "object": "Alemania",
+     "object_alts": [],
+     "prompts": [
+      "Berlín es la capital del país de",
+      "La nación que tiene a Berlín como capital es",
+      "Berlín es la ciudad capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Alemania"
+    },
+    "hi": {
+     "subject": "बर्लिन",
+     "object": "जर्मनी",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी बर्लिन है:",
+      "बर्लिन जिस देश की राजधानी है, उसका नाम",
+      "बर्लिन इस देश की राजधानी है:"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "जर्मनी"
+    }
+   }
+  },
+  {
+   "id": "capital_country_002",
+   "relation": "capital_country",
+   "seed": 1082944870,
+   "lang": {
+    "en": {
+     "subject": "Rome",
+     "object": "Italy",
+     "object_alts": [],
+     "prompts": [
+      "Rome is the capital of",
+      "Rome is the capital city of",
+      "Rome is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Italy"
+    },
+    "es": {
+     "subject": "Roma",
+     "object": "Italia",
+     "object_alts": [],
+     "prompts": [
+      "Roma es la capital del país de",
+      "La nación que tiene a Roma como capital es",
+      "Roma es la ciudad capital de"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "Italia"
+    },
+    "hi": {
+     "subject": "रोम",
+     "object": "इटली",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी रोम है:",
+      "रोम जिस देश की राजधानी है, उसका नाम",
+      "रोम इस देश की राजधानी है:"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "इटली"
+    }
+   }
+  },
+  {
+   "id": "capital_country_046",
+   "relation": "capital_country",
+   "seed": 2007525055,
+   "lang": {
+    "en": {
+     "subject": "Budapest",
+     "object": "Hungary",
+     "object_alts": [],
+     "prompts": [
+      "Budapest is the capital of",
+      "Budapest is the capital city of",
+      "Budapest is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Hungary"
+    },
+    "es": {
+     "subject": "Budapest",
+     "object": "Hungría",
+     "object_alts": [],
+     "prompts": [
+      "Budapest es la capital del país de",
+      "La nación que tiene a Budapest como capital es",
+      "Budapest es la ciudad capital de"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "Hungría"
+    },
+    "hi": {
+     "subject": "बुडापेस्ट",
+     "object": "हंगरी",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी बुडापेस्ट है:",
+      "बुडापेस्ट जिस देश की राजधानी है, उसका नाम",
+      "बुडापेस्ट इस देश की राजधानी है:"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "हंगरी"
+    }
+   }
+  },
+  {
+   "id": "capital_country_102",
+   "relation": "capital_country",
+   "seed": 532687999,
+   "lang": {
+    "en": {
+     "subject": "Amsterdam",
+     "object": "the Netherlands",
+     "object_alts": [],
+     "prompts": [
+      "Amsterdam is the capital of",
+      "Amsterdam is the capital city of",
+      "Amsterdam is the capital of the country of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "the Netherlands"
+    },
+    "es": {
+     "subject": "Ámsterdam",
+     "object": "los Países Bajos",
+     "object_alts": [],
+     "prompts": [
+      "Ámsterdam es la capital del país de",
+      "La nación que tiene a Ámsterdam como capital es",
+      "Ámsterdam es la ciudad capital de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "los Países Bajos"
+    },
+    "hi": {
+     "subject": "एम्स्टर्डम",
+     "object": "नीदरलैंड",
+     "object_alts": [],
+     "prompts": [
+      "वह देश जिसकी राजधानी एम्स्टर्डम है:",
+      "एम्स्टर्डम जिस देश की राजधानी है, उसका नाम",
+      "एम्स्टर्डम इस देश की राजधानी है:"
+     ],
+     "correct": [
+      true,
+      false,
+      true
+     ],
+     "target": "नीदरलैंड"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_009",
+   "relation": "landmark_city",
+   "seed": 1078781260,
+   "lang": {
+    "en": {
+     "subject": "the Sydney Opera House",
+     "object": "Sydney",
+     "object_alts": [],
+     "prompts": [
+      "The Sydney Opera House is located in the city of",
+      "The Sydney Opera House can be found in the city of",
+      "The Sydney Opera House stands in the city of"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Sydney"
+    },
+    "es": {
+     "subject": "la Ópera de Sídney",
+     "object": "Sídney",
+     "object_alts": [],
+     "prompts": [
+      "Se puede visitar la Ópera de Sídney en la ciudad de",
+      "La Ópera de Sídney está en la ciudad de",
+      "La Ópera de Sídney se encuentra en la ciudad de"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "Sídney"
+    },
+    "hi": {
+     "subject": "सिडनी ओपेरा हाउस",
+     "object": "सिडनी",
+     "object_alts": [],
+     "prompts": [
+      "सिडनी ओपेरा हाउस शहर में स्थित है, जिसका नाम",
+      "सिडनी ओपेरा हाउस इस शहर में है:",
+      "सिडनी ओपेरा हाउस इस शहर में स्थित है:"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "सिडनी"
+    }
+   }
+  },
+  {
+   "id": "event_year_002",
+   "relation": "event_year",
+   "seed": 2016336418,
+   "lang": {
+    "en": {
+     "subject": "the fall of Constantinople",
+     "object": "1453",
+     "object_alts": [],
+     "prompts": [
+      "The fall of Constantinople took place in the year",
+      "The fall of Constantinople occurred in the year",
+      "The year of the fall of Constantinople was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1453"
+    },
+    "es": {
+     "subject": "la caída de Constantinopla",
+     "object": "1453",
+     "object_alts": [],
+     "prompts": [
+      "La caída de Constantinopla tuvo lugar en el año",
+      "La caída de Constantinopla sucedió en el año",
+      "La caída de Constantinopla fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1453"
+    },
+    "hi": {
+     "subject": "कॉन्स्टेंटिनोपल का पतन",
+     "object": "1453",
+     "object_alts": [],
+     "prompts": [
+      "कॉन्स्टेंटिनोपल का पतन सन्",
+      "कॉन्स्टेंटिनोपल का पतन साल",
+      "कॉन्स्टेंटिनोपल का पतन वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1453"
+    }
+   }
+  },
+  {
+   "id": "event_year_007",
+   "relation": "event_year",
+   "seed": 1550522985,
+   "lang": {
+    "en": {
+     "subject": "the Great Fire of London",
+     "object": "1666",
+     "object_alts": [],
+     "prompts": [
+      "The Great Fire of London took place in the year",
+      "The Great Fire of London occurred in the year",
+      "The year of the Great Fire of London was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1666"
+    },
+    "es": {
+     "subject": "el Gran Incendio de Londres",
+     "object": "1666",
+     "object_alts": [],
+     "prompts": [
+      "El Gran Incendio de Londres tuvo lugar en el año",
+      "El Gran Incendio de Londres sucedió en el año",
+      "El Gran Incendio de Londres fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1666"
+    },
+    "hi": {
+     "subject": "लंदन की महान आग",
+     "object": "1666",
+     "object_alts": [],
+     "prompts": [
+      "लंदन की महान आग सन्",
+      "लंदन की महान आग साल",
+      "लंदन की महान आग वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1666"
+    }
+   }
+  },
+  {
+   "id": "event_year_009",
+   "relation": "event_year",
+   "seed": 1763185119,
+   "lang": {
+    "en": {
+     "subject": "the American Declaration of Independence",
+     "object": "1776",
+     "object_alts": [],
+     "prompts": [
+      "The American Declaration of Independence took place in the year",
+      "The American Declaration of Independence occurred in the year",
+      "The year of the American Declaration of Independence was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1776"
+    },
+    "es": {
+     "subject": "la Declaración de Independencia de Estados Unidos",
+     "object": "1776",
+     "object_alts": [],
+     "prompts": [
+      "La Declaración de Independencia de Estados Unidos tuvo lugar en el año",
+      "La Declaración de Independencia de Estados Unidos sucedió en el año",
+      "La Declaración de Independencia de Estados Unidos fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1776"
+    },
+    "hi": {
+     "subject": "अमेरिकी स्वतंत्रता की घोषणा",
+     "object": "1776",
+     "object_alts": [],
+     "prompts": [
+      "अमेरिकी स्वतंत्रता की घोषणा सन्",
+      "अमेरिकी स्वतंत्रता की घोषणा साल",
+      "अमेरिकी स्वतंत्रता की घोषणा वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1776"
+    }
+   }
+  },
+  {
+   "id": "event_year_014",
+   "relation": "event_year",
+   "seed": 1197445308,
+   "lang": {
+    "en": {
+     "subject": "the Indian Rebellion",
+     "object": "1857",
+     "object_alts": [],
+     "prompts": [
+      "The Indian Rebellion took place in the year",
+      "The Indian Rebellion occurred in the year",
+      "The year of the Indian Rebellion was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1857"
+    },
+    "es": {
+     "subject": "la rebelión de los cipayos",
+     "object": "1857",
+     "object_alts": [],
+     "prompts": [
+      "La rebelión de los cipayos tuvo lugar en el año",
+      "La rebelión de los cipayos sucedió en el año",
+      "La rebelión de los cipayos fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1857"
+    },
+    "hi": {
+     "subject": "1857 का भारतीय विद्रोह",
+     "object": "1857",
+     "object_alts": [],
+     "prompts": [
+      "1857 का भारतीय विद्रोह सन्",
+      "1857 का भारतीय विद्रोह साल",
+      "1857 का भारतीय विद्रोह वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1857"
+    }
+   }
+  },
+  {
+   "id": "event_year_020",
+   "relation": "event_year",
+   "seed": 2129083339,
+   "lang": {
+    "en": {
+     "subject": "the sinking of the Titanic",
+     "object": "1912",
+     "object_alts": [],
+     "prompts": [
+      "The sinking of the Titanic took place in the year",
+      "The sinking of the Titanic occurred in the year",
+      "The year of the sinking of the Titanic was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1912"
+    },
+    "es": {
+     "subject": "el hundimiento del Titanic",
+     "object": "1912",
+     "object_alts": [],
+     "prompts": [
+      "El hundimiento del Titanic tuvo lugar en el año",
+      "El hundimiento del Titanic sucedió en el año",
+      "El hundimiento del Titanic fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1912"
+    },
+    "hi": {
+     "subject": "टाइटैनिक का डूबना",
+     "object": "1912",
+     "object_alts": [],
+     "prompts": [
+      "टाइटैनिक का डूबना सन्",
+      "टाइटैनिक का डूबना साल",
+      "टाइटैनिक का डूबना वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1912"
+    }
+   }
+  },
+  {
+   "id": "event_year_021",
+   "relation": "event_year",
+   "seed": 987794369,
+   "lang": {
+    "en": {
+     "subject": "the start of the First World War",
+     "object": "1914",
+     "object_alts": [],
+     "prompts": [
+      "The start of the First World War took place in the year",
+      "The start of the First World War occurred in the year",
+      "The year of the start of the First World War was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1914"
+    },
+    "es": {
+     "subject": "el inicio de la Primera Guerra Mundial",
+     "object": "1914",
+     "object_alts": [],
+     "prompts": [
+      "El inicio de la Primera Guerra Mundial tuvo lugar en el año",
+      "El inicio de la Primera Guerra Mundial sucedió en el año",
+      "El inicio de la Primera Guerra Mundial fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1914"
+    },
+    "hi": {
+     "subject": "प्रथम विश्व युद्ध की शुरुआत",
+     "object": "1914",
+     "object_alts": [],
+     "prompts": [
+      "प्रथम विश्व युद्ध की शुरुआत सन्",
+      "प्रथम विश्व युद्ध की शुरुआत साल",
+      "प्रथम विश्व युद्ध की शुरुआत वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1914"
+    }
+   }
+  },
+  {
+   "id": "event_year_022",
+   "relation": "event_year",
+   "seed": 1474963884,
+   "lang": {
+    "en": {
+     "subject": "the Russian Revolution",
+     "object": "1917",
+     "object_alts": [],
+     "prompts": [
+      "The Russian Revolution took place in the year",
+      "The Russian Revolution occurred in the year",
+      "The year of the Russian Revolution was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1917"
+    },
+    "es": {
+     "subject": "la Revolución rusa",
+     "object": "1917",
+     "object_alts": [],
+     "prompts": [
+      "La Revolución rusa tuvo lugar en el año",
+      "La Revolución rusa sucedió en el año",
+      "La Revolución rusa fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1917"
+    },
+    "hi": {
+     "subject": "रूसी क्रांति",
+     "object": "1917",
+     "object_alts": [],
+     "prompts": [
+      "रूसी क्रांति सन्",
+      "रूसी क्रांति साल",
+      "रूसी क्रांति वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1917"
+    }
+   }
+  },
+  {
+   "id": "event_year_026",
+   "relation": "event_year",
+   "seed": 1736982372,
+   "lang": {
+    "en": {
+     "subject": "the start of the Second World War",
+     "object": "1939",
+     "object_alts": [],
+     "prompts": [
+      "The start of the Second World War took place in the year",
+      "The start of the Second World War occurred in the year",
+      "The year of the start of the Second World War was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1939"
+    },
+    "es": {
+     "subject": "el inicio de la Segunda Guerra Mundial",
+     "object": "1939",
+     "object_alts": [],
+     "prompts": [
+      "El inicio de la Segunda Guerra Mundial tuvo lugar en el año",
+      "El inicio de la Segunda Guerra Mundial sucedió en el año",
+      "El inicio de la Segunda Guerra Mundial fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1939"
+    },
+    "hi": {
+     "subject": "द्वितीय विश्व युद्ध की शुरुआत",
+     "object": "1939",
+     "object_alts": [],
+     "prompts": [
+      "द्वितीय विश्व युद्ध की शुरुआत सन्",
+      "द्वितीय विश्व युद्ध की शुरुआत साल",
+      "द्वितीय विश्व युद्ध की शुरुआत वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1939"
+    }
+   }
+  },
+  {
+   "id": "event_year_027",
+   "relation": "event_year",
+   "seed": 183104916,
+   "lang": {
+    "en": {
+     "subject": "the independence of India",
+     "object": "1947",
+     "object_alts": [],
+     "prompts": [
+      "The independence of India took place in the year",
+      "The independence of India occurred in the year",
+      "The year of the independence of India was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1947"
+    },
+    "es": {
+     "subject": "la independencia de la India",
+     "object": "1947",
+     "object_alts": [],
+     "prompts": [
+      "La independencia de la India tuvo lugar en el año",
+      "La independencia de la India sucedió en el año",
+      "La independencia de la India fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1947"
+    },
+    "hi": {
+     "subject": "भारत की स्वतंत्रता",
+     "object": "1947",
+     "object_alts": [],
+     "prompts": [
+      "भारत की स्वतंत्रता सन्",
+      "भारत की स्वतंत्रता साल",
+      "भारत की स्वतंत्रता वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1947"
+    }
+   }
+  },
+  {
+   "id": "event_year_028",
+   "relation": "event_year",
+   "seed": 994230574,
+   "lang": {
+    "en": {
+     "subject": "the assassination of Mahatma Gandhi",
+     "object": "1948",
+     "object_alts": [],
+     "prompts": [
+      "The assassination of Mahatma Gandhi took place in the year",
+      "The assassination of Mahatma Gandhi occurred in the year",
+      "The year of the assassination of Mahatma Gandhi was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1948"
+    },
+    "es": {
+     "subject": "el asesinato de Mahatma Gandhi",
+     "object": "1948",
+     "object_alts": [],
+     "prompts": [
+      "El asesinato de Mahatma Gandhi tuvo lugar en el año",
+      "El asesinato de Mahatma Gandhi sucedió en el año",
+      "El asesinato de Mahatma Gandhi fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1948"
+    },
+    "hi": {
+     "subject": "महात्मा गांधी की हत्या",
+     "object": "1948",
+     "object_alts": [],
+     "prompts": [
+      "महात्मा गांधी की हत्या सन्",
+      "महात्मा गांधी की हत्या साल",
+      "महात्मा गांधी की हत्या वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1948"
+    }
+   }
+  },
+  {
+   "id": "event_year_029",
+   "relation": "event_year",
+   "seed": 1061676437,
+   "lang": {
+    "en": {
+     "subject": "the first human spaceflight by Yuri Gagarin",
+     "object": "1961",
+     "object_alts": [],
+     "prompts": [
+      "The first human spaceflight by Yuri Gagarin took place in the year",
+      "The first human spaceflight by Yuri Gagarin occurred in the year",
+      "The year of the first human spaceflight by Yuri Gagarin was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1961"
+    },
+    "es": {
+     "subject": "el primer vuelo espacial tripulado de Yuri Gagarin",
+     "object": "1961",
+     "object_alts": [],
+     "prompts": [
+      "El primer vuelo espacial tripulado de Yuri Gagarin tuvo lugar en el año",
+      "El primer vuelo espacial tripulado de Yuri Gagarin sucedió en el año",
+      "El primer vuelo espacial tripulado de Yuri Gagarin fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1961"
+    },
+    "hi": {
+     "subject": "यूरी गगारिन की पहली मानव अंतरिक्ष उड़ान",
+     "object": "1961",
+     "object_alts": [],
+     "prompts": [
+      "यूरी गगारिन की पहली मानव अंतरिक्ष उड़ान सन्",
+      "यूरी गगारिन की पहली मानव अंतरिक्ष उड़ान साल",
+      "यूरी गगारिन की पहली मानव अंतरिक्ष उड़ान वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1961"
+    }
+   }
+  },
+  {
+   "id": "event_year_030",
+   "relation": "event_year",
+   "seed": 1126440212,
+   "lang": {
+    "en": {
+     "subject": "the assassination of John F. Kennedy",
+     "object": "1963",
+     "object_alts": [],
+     "prompts": [
+      "The assassination of John F. Kennedy took place in the year",
+      "The assassination of John F. Kennedy occurred in the year",
+      "The year of the assassination of John F. Kennedy was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1963"
+    },
+    "es": {
+     "subject": "el asesinato de John F. Kennedy",
+     "object": "1963",
+     "object_alts": [],
+     "prompts": [
+      "El asesinato de John F. Kennedy tuvo lugar en el año",
+      "El asesinato de John F. Kennedy sucedió en el año",
+      "El asesinato de John F. Kennedy fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1963"
+    },
+    "hi": {
+     "subject": "जॉन एफ़. कैनेडी की हत्या",
+     "object": "1963",
+     "object_alts": [],
+     "prompts": [
+      "जॉन एफ़. कैनेडी की हत्या सन्",
+      "जॉन एफ़. कैनेडी की हत्या साल",
+      "जॉन एफ़. कैनेडी की हत्या वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1963"
+    }
+   }
+  },
+  {
+   "id": "event_year_034",
+   "relation": "event_year",
+   "seed": 720989375,
+   "lang": {
+    "en": {
+     "subject": "the dissolution of the Soviet Union",
+     "object": "1991",
+     "object_alts": [],
+     "prompts": [
+      "The dissolution of the Soviet Union took place in the year",
+      "The dissolution of the Soviet Union occurred in the year",
+      "The year of the dissolution of the Soviet Union was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1991"
+    },
+    "es": {
+     "subject": "la disolución de la Unión Soviética",
+     "object": "1991",
+     "object_alts": [],
+     "prompts": [
+      "La disolución de la Unión Soviética tuvo lugar en el año",
+      "La disolución de la Unión Soviética sucedió en el año",
+      "La disolución de la Unión Soviética fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1991"
+    },
+    "hi": {
+     "subject": "सोवियत संघ का विघटन",
+     "object": "1991",
+     "object_alts": [],
+     "prompts": [
+      "सोवियत संघ का विघटन सन्",
+      "सोवियत संघ का विघटन साल",
+      "सोवियत संघ का विघटन वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1991"
+    }
+   }
+  },
+  {
+   "id": "event_year_046",
+   "relation": "event_year",
+   "seed": 1977250273,
+   "lang": {
+    "en": {
+     "subject": "the coronation of Napoleon as emperor",
+     "object": "1804",
+     "object_alts": [],
+     "prompts": [
+      "The coronation of Napoleon as emperor took place in the year",
+      "The coronation of Napoleon as emperor occurred in the year",
+      "The year of the coronation of Napoleon as emperor was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1804"
+    },
+    "es": {
+     "subject": "la coronación de Napoleón como emperador",
+     "object": "1804",
+     "object_alts": [],
+     "prompts": [
+      "La coronación de Napoleón como emperador tuvo lugar en el año",
+      "La coronación de Napoleón como emperador sucedió en el año",
+      "La coronación de Napoleón como emperador fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1804"
+    },
+    "hi": {
+     "subject": "नेपोलियन का सम्राट के रूप में राज्याभिषेक",
+     "object": "1804",
+     "object_alts": [],
+     "prompts": [
+      "नेपोलियन का सम्राट के रूप में राज्याभिषेक सन्",
+      "नेपोलियन का सम्राट के रूप में राज्याभिषेक साल",
+      "नेपोलियन का सम्राट के रूप में राज्याभिषेक वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1804"
+    }
+   }
+  },
+  {
+   "id": "event_year_048",
+   "relation": "event_year",
+   "seed": 1383600587,
+   "lang": {
+    "en": {
+     "subject": "the start of the Greek War of Independence",
+     "object": "1821",
+     "object_alts": [],
+     "prompts": [
+      "The start of the Greek War of Independence took place in the year",
+      "The start of the Greek War of Independence occurred in the year",
+      "The year of the start of the Greek War of Independence was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1821"
+    },
+    "es": {
+     "subject": "el inicio de la guerra de independencia de Grecia",
+     "object": "1821",
+     "object_alts": [],
+     "prompts": [
+      "El inicio de la guerra de independencia de Grecia tuvo lugar en el año",
+      "El inicio de la guerra de independencia de Grecia sucedió en el año",
+      "El inicio de la guerra de independencia de Grecia fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1821"
+    },
+    "hi": {
+     "subject": "यूनानी स्वतंत्रता संग्राम की शुरुआत",
+     "object": "1821",
+     "object_alts": [],
+     "prompts": [
+      "यूनानी स्वतंत्रता संग्राम की शुरुआत सन्",
+      "यूनानी स्वतंत्रता संग्राम की शुरुआत साल",
+      "यूनानी स्वतंत्रता संग्राम की शुरुआत वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1821"
+    }
+   }
+  },
+  {
+   "id": "event_year_051",
+   "relation": "event_year",
+   "seed": 47854735,
+   "lang": {
+    "en": {
+     "subject": "the Revolutions of 1848",
+     "object": "1848",
+     "object_alts": [],
+     "prompts": [
+      "The Revolutions of 1848 took place in the year",
+      "The Revolutions of 1848 occurred in the year",
+      "The year of the Revolutions of 1848 was"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1848"
+    },
+    "es": {
+     "subject": "las revoluciones de 1848",
+     "object": "1848",
+     "object_alts": [],
+     "prompts": [
+      "Las revoluciones de 1848 tuvo lugar en el año",
+      "Las revoluciones de 1848 sucedió en el año",
+      "Las revoluciones de 1848 fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1848"
+    },
+    "hi": {
+     "subject": "1848 की क्रांतियाँ",
+     "object": "1848",
+     "object_alts": [],
+     "prompts": [
+      "1848 की क्रांतियाँ सन्",
+      "1848 की क्रांतियाँ साल",
+      "1848 की क्रांतियाँ वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1848"
+    }
+   }
+  },
+  {
+   "id": "event_year_060",
+   "relation": "event_year",
+   "seed": 2075798732,
+   "lang": {
+    "en": {
+     "subject": "the San Francisco earthquake",
+     "object": "1906",
+     "object_alts": [],
+     "prompts": [
+      "The San Francisco earthquake took place in the year",
+      "The San Francisco earthquake occurred in the year",
+      "The year of the San Francisco earthquake was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1906"
+    },
+    "es": {
+     "subject": "el terremoto de San Francisco",
+     "object": "1906",
+     "object_alts": [],
+     "prompts": [
+      "El terremoto de San Francisco tuvo lugar en el año",
+      "El terremoto de San Francisco sucedió en el año",
+      "El terremoto de San Francisco fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1906"
+    },
+    "hi": {
+     "subject": "सैन फ़्रांसिस्को भूकंप",
+     "object": "1906",
+     "object_alts": [],
+     "prompts": [
+      "सैन फ़्रांसिस्को भूकंप सन्",
+      "सैन फ़्रांसिस्को भूकंप साल",
+      "सैन फ़्रांसिस्को भूकंप वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1906"
+    }
+   }
+  },
+  {
+   "id": "event_year_061",
+   "relation": "event_year",
+   "seed": 1386939481,
+   "lang": {
+    "en": {
+     "subject": "the start of the Mexican Revolution",
+     "object": "1910",
+     "object_alts": [],
+     "prompts": [
+      "The start of the Mexican Revolution took place in the year",
+      "The start of the Mexican Revolution occurred in the year",
+      "The year of the start of the Mexican Revolution was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1910"
+    },
+    "es": {
+     "subject": "el inicio de la Revolución mexicana",
+     "object": "1910",
+     "object_alts": [],
+     "prompts": [
+      "El inicio de la Revolución mexicana tuvo lugar en el año",
+      "El inicio de la Revolución mexicana sucedió en el año",
+      "El inicio de la Revolución mexicana fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1910"
+    },
+    "hi": {
+     "subject": "मैक्सिकन क्रांति की शुरुआत",
+     "object": "1910",
+     "object_alts": [],
+     "prompts": [
+      "मैक्सिकन क्रांति की शुरुआत सन्",
+      "मैक्सिकन क्रांति की शुरुआत साल",
+      "मैक्सिकन क्रांति की शुरुआत वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1910"
+    }
+   }
+  },
+  {
+   "id": "event_year_062",
+   "relation": "event_year",
+   "seed": 355688582,
+   "lang": {
+    "en": {
+     "subject": "the start of the Spanish flu pandemic",
+     "object": "1918",
+     "object_alts": [],
+     "prompts": [
+      "The start of the Spanish flu pandemic took place in the year",
+      "The start of the Spanish flu pandemic occurred in the year",
+      "The year of the start of the Spanish flu pandemic was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1918"
+    },
+    "es": {
+     "subject": "el inicio de la pandemia de gripe española",
+     "object": "1918",
+     "object_alts": [],
+     "prompts": [
+      "El inicio de la pandemia de gripe española tuvo lugar en el año",
+      "El inicio de la pandemia de gripe española sucedió en el año",
+      "El inicio de la pandemia de gripe española fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1918"
+    },
+    "hi": {
+     "subject": "स्पेनिश फ़्लू महामारी की शुरुआत",
+     "object": "1918",
+     "object_alts": [],
+     "prompts": [
+      "स्पेनिश फ़्लू महामारी की शुरुआत सन्",
+      "स्पेनिश फ़्लू महामारी की शुरुआत साल",
+      "स्पेनिश फ़्लू महामारी की शुरुआत वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1918"
+    }
+   }
+  },
+  {
+   "id": "event_year_063",
+   "relation": "event_year",
+   "seed": 393761285,
+   "lang": {
+    "en": {
+     "subject": "the start of the Spanish Civil War",
+     "object": "1936",
+     "object_alts": [],
+     "prompts": [
+      "The start of the Spanish Civil War took place in the year",
+      "The start of the Spanish Civil War occurred in the year",
+      "The year of the start of the Spanish Civil War was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1936"
+    },
+    "es": {
+     "subject": "el inicio de la guerra civil española",
+     "object": "1936",
+     "object_alts": [],
+     "prompts": [
+      "El inicio de la guerra civil española tuvo lugar en el año",
+      "El inicio de la guerra civil española sucedió en el año",
+      "El inicio de la guerra civil española fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1936"
+    },
+    "hi": {
+     "subject": "स्पेनी गृहयुद्ध की शुरुआत",
+     "object": "1936",
+     "object_alts": [],
+     "prompts": [
+      "स्पेनी गृहयुद्ध की शुरुआत सन्",
+      "स्पेनी गृहयुद्ध की शुरुआत साल",
+      "स्पेनी गृहयुद्ध की शुरुआत वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      false
+     ],
+     "target": "1936"
+    }
+   }
+  },
+  {
+   "id": "event_year_065",
+   "relation": "event_year",
+   "seed": 1186771873,
+   "lang": {
+    "en": {
+     "subject": "the start of the Korean War",
+     "object": "1950",
+     "object_alts": [],
+     "prompts": [
+      "The start of the Korean War took place in the year",
+      "The start of the Korean War occurred in the year",
+      "The year of the start of the Korean War was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1950"
+    },
+    "es": {
+     "subject": "el inicio de la guerra de Corea",
+     "object": "1950",
+     "object_alts": [],
+     "prompts": [
+      "El inicio de la guerra de Corea tuvo lugar en el año",
+      "El inicio de la guerra de Corea sucedió en el año",
+      "El inicio de la guerra de Corea fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1950"
+    },
+    "hi": {
+     "subject": "कोरियाई युद्ध की शुरुआत",
+     "object": "1950",
+     "object_alts": [],
+     "prompts": [
+      "कोरियाई युद्ध की शुरुआत सन्",
+      "कोरियाई युद्ध की शुरुआत साल",
+      "कोरियाई युद्ध की शुरुआत वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1950"
+    }
+   }
+  },
+  {
+   "id": "event_year_070",
+   "relation": "event_year",
+   "seed": 1811896334,
+   "lang": {
+    "en": {
+     "subject": "the Iranian Revolution",
+     "object": "1979",
+     "object_alts": [],
+     "prompts": [
+      "The Iranian Revolution took place in the year",
+      "The Iranian Revolution occurred in the year",
+      "The year of the Iranian Revolution was"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1979"
+    },
+    "es": {
+     "subject": "la Revolución iraní",
+     "object": "1979",
+     "object_alts": [],
+     "prompts": [
+      "La Revolución iraní tuvo lugar en el año",
+      "La Revolución iraní sucedió en el año",
+      "La Revolución iraní fue en el año"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1979"
+    },
+    "hi": {
+     "subject": "ईरानी क्रांति",
+     "object": "1979",
+     "object_alts": [],
+     "prompts": [
+      "ईरानी क्रांति सन्",
+      "ईरानी क्रांति साल",
+      "ईरानी क्रांति वर्ष"
+     ],
+     "correct": [
+      true,
+      true,
+      true
+     ],
+     "target": "1979"
+    }
+   }
+  }
+ ]
+}
