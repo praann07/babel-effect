@@ -65,22 +65,27 @@ def main() -> None:
     ap.add_argument("--llama-run", required=True); ap.add_argument("--gemma-run", required=True)
     ap.add_argument("--llama-seeds", default="analysis/run_20261024_p3seeds_10240109_llama"); ap.add_argument("--gemma-seeds", default="analysis/run_20261024_p3seeds_10240109_gemma2")
     ap.add_argument("--tag", default="e2_analysis")
+    ap.add_argument("--langs", default="en,es", help="A15: language pair, e.g. en,hi (P5/P6 are skipped for pairs other than en,es)")
+    ap.add_argument("--models", default="llama,gemma2")
     a = ap.parse_args()
+    l0, l1 = a.langs.split(",")
+    DIRS = (f"{l0}2{l1}", f"{l1}2{l0}")
+    ES = a.langs == "en,es"
     from transformers import AutoTokenizer
     out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"; out.mkdir(parents=True, exist_ok=False)
     res: dict = {}
-    for m, run, sruns in (("llama", a.llama_run, a.llama_seeds), ("gemma2", a.gemma_run, a.gemma_seeds)):
+    for m, run, sruns in [x for x in (("llama", a.llama_run, a.llama_seeds), ("gemma2", a.gemma_run, a.gemma_seeds)) if x[0] in a.models.split(",")]:
         rng = np.random.default_rng(SEED)
         D, F, pairs, meta = load_run(run)
-        facts = {f["id"]: f for f in json.loads(Path(f"data/v2/e2_facts_{m}.json").read_text(encoding="utf8"))["facts"]}
+        facts = {f["id"]: f for f in json.loads(Path(meta.get("facts_file", f"data/v2/e2_facts_{m}.json")).read_text(encoding="utf8"))["facts"]}
         tok = AutoTokenizer.from_pretrained(TOK_DIR[m])
         spandiff = {}
         for sid in {p["source"] for p in pairs}:
             L = facts[sid]["lang"]
-            n = {lg: len(subject_span(tok, L[lg]["prompt"], L[lg]["subject"])[1]) for lg in ("en", "es")}
-            spandiff[sid] = abs(n["en"] - n["es"])
+            n = {lg: len(subject_span(tok, L[lg]["prompt"], L[lg]["subject"])[1]) for lg in (l0, l1)}
+            spandiff[sid] = abs(n[l0] - n[l1])
         o: dict = {"n_pair_directions": len(pairs), "n_facts": len(facts), "run": run}
-        for direction in ("en2es", "es2en"):
+        for direction in DIRS:
             sel = np.array([p["direction"] == direction for p in pairs])
             Dd, Fd = D[sel], F[sel]
             pd_ = [p for p, k in zip(pairs, sel) if k]
@@ -101,7 +106,7 @@ def main() -> None:
                 if conf.sum() >= 5:
                     r["flip_at_lstar_confirmatory"] = {c: float(Fd[conf][:, ci, si, g["l_star"]].mean()) for c, ci in COND.items()}
                 od[f"site_{site}"] = r
-            if direction == "en2es":  # covariate model (site A), per-pair ratio
+            if direction == DIRS[0] and ES:  # covariate model (site A), per-pair ratio
                 band = np.array(od["site_A"]["gate"]["band_layers"])
                 num, den = Dd[:, COND["cross"], 0][:, band].mean(1), Dd[:, COND["same"], 0][:, band].mean(1)
                 ok = den > 0.5
@@ -135,7 +140,7 @@ def main() -> None:
                     od["P6_validity"] = {"n_facts": len(common), "note": "too few facts in common"}
             o[direction] = od
         res[m] = o
-        print(m, {d: (o[d]["n_confirmatory"], o[d]["site_A"].get("verdict"), o[d]["site_A"]["gate"]["gate_P1"]) for d in ("en2es", "es2en")})
+        print(m, {d: (o[d]["n_confirmatory"], o[d]["site_A"].get("verdict"), o[d]["site_A"]["gate"]["gate_P1"]) for d in DIRS})
     (out / "results.json").write_text(json.dumps(res, indent=1, default=float), encoding="utf8")
     (out / "config.json").write_text(json.dumps(vars(a) | {"amendment": "A13"}, indent=1), encoding="utf8")
     print("wrote", out)
