@@ -50,3 +50,7 @@
 ## 2026-10-25 Overlap rerun with 10,000 permutations (A14/A14a)
 - `code/circuit_overlap.py --perm 10000` (new flag, default 1000), same traces and seed; four runs `analysis/run_20261025_p3overlap_{v2,v2all}_perm10k_{llama,gemma2}`; CPU, about 1 minute each.
 - EN-ES MLP cosine: Llama 4.22 to 4.01 (v2, n=92), Gemma 4.81 to 4.82 (n=58), p = 0.0001; all verdicts unchanged. Manifest 1059 claims verified.
+
+## 2026-10-25 Reference check
+- All 23 arXiv identifiers in the v2 draft were checked against the arXiv API (title, first author, year): all match. One correction: arXiv lists Grattafiori first for the Llama 3 paper (2407.21783), not Dubey; fixed in `paper/paper_v2_draft.md`. Added Dumas et al. (2411.08745), Zhang and Nanda (2309.16042), Heimersheim and Nanda (2404.15255) with in-text citations in section 2. Only title/author/abstract were checked, not every claim attributed to each paper.
+- `paper/paper.md` and `paper/latex/main.tex` are the older v1 text and still say Dubey; they are not updated (v2 is the working draft).
