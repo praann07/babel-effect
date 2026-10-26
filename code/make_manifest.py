@@ -34,6 +34,8 @@ SD = "analysis/run_20261024_seeds_A13a_10240109/results.json"
 CV = "analysis/run_20261024_seeds_covariates_A13b/results.json"
 E2 = "analysis/run_20261025_e2_analysis_A13/results.json"
 E2H = "analysis/run_20261026_e2h_analysis_A15/results.json"
+E2H2 = "analysis/run_20261026_e2h2_analysis_A16/results.json"
+E2H2O = "analysis/run_20261026_e2h2_outside_A15/results.json"
 MAN = Path("results/manifest.json")
 
 
@@ -211,6 +213,17 @@ def claims() -> list[dict]:
                 c += [(f"e2h_{m}_{d}_{st}_I", E2H, b + ["confirmatory", "I"]), (f"e2h_{m}_{d}_{st}_ci95_lo", E2H, b + ["confirmatory", "ci95", 0]), (f"e2h_{m}_{d}_{st}_ci95_hi", E2H, b + ["confirmatory", "ci95", 1]),
                       (f"e2h_{m}_{d}_{st}_verdict", E2H, b + ["verdict"]), (f"e2h_{m}_{d}_{st}_P1", E2H, b + ["gate", "gate_P1"]), (f"e2h_{m}_{d}_{st}_flip_same", E2H, b + ["flip_at_lstar_confirmatory", "same"]),
                       (f"e2h_{m}_{d}_{st}_flip_cross", E2H, b + ["flip_at_lstar_confirmatory", "cross"]), (f"e2h_{m}_{d}_{st}_same_lstar", E2H, b + ["gate", "mean_same_at_lstar"])]
+    for m in ("llama", "gemma2"):  # A16 Hindi->English interchange, larger fact set
+        c += [(f"e2h2_{m}_n_facts", E2H2, [m, "n_facts"]), (f"e2h2_{m}_n_pair_dirs", E2H2, [m, "n_pair_directions"]), (f"e2h2_{m}_n_src", E2H2, [m, "hi2en", "site_A", "confirmatory", "n_source_entities"]),
+              (f"e2h2_{m}_n_pairs", E2H2, [m, "hi2en", "site_A", "confirmatory", "n_pairs"]), (f"e2h2_{m}_floor_ok", E2H2, [m, "hi2en", "site_A", "floor_25_sources_ok"]),
+              (f"e2h2out_{m}_I", E2H2O, [m, "I"]), (f"e2h2out_{m}_ci95_lo", E2H2O, [m, "ci95", 0]), (f"e2h2out_{m}_ci95_hi", E2H2O, [m, "ci95", 1]), (f"e2h2out_{m}_n_src", E2H2O, [m, "n_source_entities"]),
+              (f"e2h2out_{m}_diff", E2H2O, [m, "abs_diff_from_full"])]
+        for st in ("A", "B"):
+            b = [m, "hi2en", f"site_{st}"]
+            c += [(f"e2h2_{m}_{st}_I", E2H2, b + ["confirmatory", "I"]), (f"e2h2_{m}_{st}_ci95_lo", E2H2, b + ["confirmatory", "ci95", 0]), (f"e2h2_{m}_{st}_ci95_hi", E2H2, b + ["confirmatory", "ci95", 1]),
+                  (f"e2h2_{m}_{st}_verdict", E2H2, b + ["verdict"]), (f"e2h2_{m}_{st}_P1", E2H2, b + ["gate", "gate_P1"]), (f"e2h2_{m}_{st}_lstar", E2H2, b + ["gate", "l_star"]),
+                  (f"e2h2_{m}_{st}_flip_same", E2H2, b + ["flip_at_lstar_confirmatory", "same"]), (f"e2h2_{m}_{st}_flip_cross", E2H2, b + ["flip_at_lstar_confirmatory", "cross"]),
+                  (f"e2h2_{m}_{st}_same_lstar", E2H2, b + ["gate", "mean_same_at_lstar"])]
     for tag, art in PK.items():  # A14: overlap rerun with 10,000 permutations
         for pr in ("en-es", "en-hi", "es-hi"):
             for st in ("z", "p_one_sided", "observed_median"):

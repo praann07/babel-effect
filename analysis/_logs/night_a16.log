@@ -1,0 +1,11 @@
+[2026-10-26 12:21:09] START a16_filter_llama
+[2026-10-26 12:27:26] OK a16_filter_llama
+[2026-10-26 12:27:26] START a16_filter_gemma2
+[2026-10-26 12:34:25] OK a16_filter_gemma2
+[2026-10-26 12:34:25] START a16_full_llama
+[2026-10-26 13:19:49] OK a16_full_llama
+[2026-10-26 13:19:49] START a16_full_gemma2
+[2026-10-26 14:03:15] OK a16_full_gemma2
+[2026-10-26 14:03:16] START a16_analysis
+[2026-10-26 14:04:11] OK a16_analysis
+[2026-10-26 14:04:11] a16 script finished

@@ -1,0 +1,3 @@
+llama {'hi2en': (254, 'P4 PARTIAL', True)}
+gemma2 {'hi2en': (209, 'P2 SHARED', True)}
+wrote analysis\run_20261026_e2h2_analysis_A16

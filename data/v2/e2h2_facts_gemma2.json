@@ -1,0 +1,1251 @@
+{
+ "model": "google/gemma-2-2b",
+ "templates": {
+  "en": {
+   "capital_of": "The capital city of {s} is called",
+   "capital_country": "The country whose capital is {s} is",
+   "landmark_city": "The city where {s} is located is called",
+   "landmark_country": "The country where {s} is located is called",
+   "city_country": "You can visit {s} in the country of"
+  },
+  "hi": {
+   "capital_of": "प्रश्न: {s} देश की राजधानी का नाम क्या है?\nउत्तर:",
+   "capital_country": "वह देश जिसकी राजधानी {s} है, उसका नाम है",
+   "landmark_city": "वह शहर जहाँ {s} स्थित है, उसका नाम है",
+   "landmark_country": "वह देश जहाँ {s} स्थित है, उसका नाम है",
+   "city_country": "प्रश्न: वह कौन सा देश है जहाँ {s} स्थित है?\nउत्तर:"
+  }
+ },
+ "hi_candidate_accuracy": {
+  "capital_of": {
+   "यह सर्वविदित है कि {s} की राजधानी है": 0.03333333333333333,
+   "{s} देश की राजधानी का नाम है": 0.23333333333333334,
+   "प्रश्न: {s} की राजधानी क्या है?\nउत्तर:": 0.26666666666666666,
+   "प्रश्न: {s} देश की राजधानी का नाम क्या है?\nउत्तर:": 0.3333333333333333
+  },
+  "capital_country": {
+   "वह देश जिसकी राजधानी {s} है, उसका नाम है": 0.6333333333333333,
+   "जिस देश की राजधानी {s} है, वह देश है": 0.36666666666666664,
+   "प्रश्न: वह कौन सा देश है जिसकी राजधानी {s} है?\nउत्तर:": 0.6,
+   "प्रश्न: {s} किस देश की राजधानी है?\nउत्तर:": 0.23333333333333334
+  },
+  "landmark_city": {
+   "वह शहर जहाँ {s} स्थित है, उसका नाम है": 0.16666666666666666,
+   "{s} जिस शहर में स्थित है, वह शहर है": 0.0,
+   "प्रश्न: {s} किस शहर में स्थित है?\nउत्तर:": 0.13333333333333333,
+   "प्रश्न: वह कौन सा शहर है जहाँ {s} स्थित है?\nउत्तर:": 0.13333333333333333
+  },
+  "landmark_country": {
+   "वह देश जहाँ {s} स्थित है, उसका नाम है": 0.2,
+   "{s} जिस देश में स्थित है, वह देश है": 0.0,
+   "प्रश्न: {s} किस देश में स्थित है?\nउत्तर:": 0.03333333333333333,
+   "प्रश्न: वह कौन सा देश है जहाँ {s} स्थित है?\nउत्तर:": 0.13333333333333333
+  },
+  "city_country": {
+   "वह देश जहाँ {s} स्थित है, उसका नाम है": 0.36666666666666664,
+   "{s} जिस देश में स्थित है, वह देश है": 0.03333333333333333,
+   "प्रश्न: {s} किस देश में स्थित है?\nउत्तर:": 0.13333333333333333,
+   "प्रश्न: वह कौन सा देश है जहाँ {s} स्थित है?\nउत्तर:": 0.6
+  }
+ },
+ "summary": {
+  "capital_country": {
+   "tune_n": 30,
+   "tune_en": 30,
+   "tune_hi": 19,
+   "eval_n": 95,
+   "eval_both": 16,
+   "template_ok": true
+  },
+  "capital_of": {
+   "tune_n": 30,
+   "tune_en": 27,
+   "tune_hi": 10,
+   "eval_n": 95,
+   "eval_both": 9,
+   "template_ok": true
+  },
+  "city_country": {
+   "tune_n": 30,
+   "tune_en": 25,
+   "tune_hi": 18,
+   "eval_n": 45,
+   "eval_both": 20,
+   "template_ok": true
+  },
+  "landmark_city": {
+   "tune_n": 30,
+   "tune_en": 29,
+   "tune_hi": 5,
+   "eval_n": 51,
+   "eval_both": 10,
+   "template_ok": true
+  },
+  "landmark_country": {
+   "tune_n": 30,
+   "tune_en": 25,
+   "tune_hi": 5,
+   "eval_n": 51,
+   "eval_both": 4,
+   "template_ok": false
+  }
+ },
+ "n_kept": 55,
+ "facts": [
+  {
+   "id": "capital_country_031",
+   "relation": "capital_country",
+   "seed": 1994942283,
+   "lang": {
+    "en": {
+     "subject": "Jakarta",
+     "object": "Indonesia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Jakarta is",
+     "target": "Indonesia"
+    },
+    "hi": {
+     "subject": "जकार्ता",
+     "object": "इंडोनेशिया",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी जकार्ता है, उसका नाम है",
+     "target": "इंडोनेशिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_032",
+   "relation": "capital_country",
+   "seed": 1238983075,
+   "lang": {
+    "en": {
+     "subject": "Islamabad",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "The country whose capital is Islamabad is",
+     "target": "Pakistan"
+    },
+    "hi": {
+     "subject": "इस्लामाबाद",
+     "object": "पाकिस्तान",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी इस्लामाबाद है, उसका नाम है",
+     "target": "पाकिस्तान"
+    }
+   }
+  },
+  {
+   "id": "capital_country_033",
+   "relation": "capital_country",
+   "seed": 494443854,
+   "lang": {
+    "en": {
+     "subject": "Dhaka",
+     "object": "Bangladesh",
+     "object_alts": [],
+     "prompt": "The country whose capital is Dhaka is",
+     "target": "Bangladesh"
+    },
+    "hi": {
+     "subject": "ढाका",
+     "object": "बांग्लादेश",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी ढाका है, उसका नाम है",
+     "target": "बांग्लादेश"
+    }
+   }
+  },
+  {
+   "id": "capital_country_034",
+   "relation": "capital_country",
+   "seed": 2002346541,
+   "lang": {
+    "en": {
+     "subject": "Kathmandu",
+     "object": "Nepal",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kathmandu is",
+     "target": "Nepal"
+    },
+    "hi": {
+     "subject": "काठमांडू",
+     "object": "नेपाल",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी काठमांडू है, उसका नाम है",
+     "target": "नेपाल"
+    }
+   }
+  },
+  {
+   "id": "capital_country_035",
+   "relation": "capital_country",
+   "seed": 886381430,
+   "lang": {
+    "en": {
+     "subject": "Colombo",
+     "object": "Sri Lanka",
+     "object_alts": [],
+     "prompt": "The country whose capital is Colombo is",
+     "target": "Sri Lanka"
+    },
+    "hi": {
+     "subject": "कोलंबो",
+     "object": "श्रीलंका",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी कोलंबो है, उसका नाम है",
+     "target": "श्रीलंका"
+    }
+   }
+  },
+  {
+   "id": "capital_country_037",
+   "relation": "capital_country",
+   "seed": 1793875441,
+   "lang": {
+    "en": {
+     "subject": "Baghdad",
+     "object": "Iraq",
+     "object_alts": [],
+     "prompt": "The country whose capital is Baghdad is",
+     "target": "Iraq"
+    },
+    "hi": {
+     "subject": "बग़दाद",
+     "object": "इराक",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी बग़दाद है, उसका नाम है",
+     "target": "इराक"
+    }
+   }
+  },
+  {
+   "id": "capital_country_038",
+   "relation": "capital_country",
+   "seed": 4427812,
+   "lang": {
+    "en": {
+     "subject": "Riyadh",
+     "object": "Saudi Arabia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Riyadh is",
+     "target": "Saudi Arabia"
+    },
+    "hi": {
+     "subject": "रियाद",
+     "object": "सऊदी अरब",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी रियाद है, उसका नाम है",
+     "target": "सऊदी अरब"
+    }
+   }
+  },
+  {
+   "id": "capital_country_046",
+   "relation": "capital_country",
+   "seed": 2007525055,
+   "lang": {
+    "en": {
+     "subject": "Budapest",
+     "object": "Hungary",
+     "object_alts": [],
+     "prompt": "The country whose capital is Budapest is",
+     "target": "Hungary"
+    },
+    "hi": {
+     "subject": "बुडापेस्ट",
+     "object": "हंगरी",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी बुडापेस्ट है, उसका नाम है",
+     "target": "हंगरी"
+    }
+   }
+  },
+  {
+   "id": "capital_country_048",
+   "relation": "capital_country",
+   "seed": 998437727,
+   "lang": {
+    "en": {
+     "subject": "Kyiv",
+     "object": "Ukraine",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kyiv is",
+     "target": "Ukraine"
+    },
+    "hi": {
+     "subject": "कीव",
+     "object": "यूक्रेन",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी कीव है, उसका नाम है",
+     "target": "यूक्रेन"
+    }
+   }
+  },
+  {
+   "id": "capital_country_050",
+   "relation": "capital_country",
+   "seed": 1546960182,
+   "lang": {
+    "en": {
+     "subject": "Belgrade",
+     "object": "Serbia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Belgrade is",
+     "target": "Serbia"
+    },
+    "hi": {
+     "subject": "बेलग्रेड",
+     "object": "सर्बिया",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी बेलग्रेड है, उसका नाम है",
+     "target": "सर्बिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_056",
+   "relation": "capital_country",
+   "seed": 1784820928,
+   "lang": {
+    "en": {
+     "subject": "Seoul",
+     "object": "South Korea",
+     "object_alts": [],
+     "prompt": "The country whose capital is Seoul is",
+     "target": "South Korea"
+    },
+    "hi": {
+     "subject": "सियोल",
+     "object": "दक्षिण कोरिया",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी सियोल है, उसका नाम है",
+     "target": "दक्षिण कोरिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_065",
+   "relation": "capital_country",
+   "seed": 1136062718,
+   "lang": {
+    "en": {
+     "subject": "Wellington",
+     "object": "New Zealand",
+     "object_alts": [],
+     "prompt": "The country whose capital is Wellington is",
+     "target": "New Zealand"
+    },
+    "hi": {
+     "subject": "वेलिंगटन",
+     "object": "न्यूज़ीलैंड",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी वेलिंगटन है, उसका नाम है",
+     "target": "न्यूजीलैंड"
+    }
+   }
+  },
+  {
+   "id": "capital_country_069",
+   "relation": "capital_country",
+   "seed": 958323099,
+   "lang": {
+    "en": {
+     "subject": "Panama City",
+     "object": "Panama",
+     "object_alts": [],
+     "prompt": "The country whose capital is Panama City is",
+     "target": "Panama"
+    },
+    "hi": {
+     "subject": "पनामा सिटी",
+     "object": "पनामा",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी पनामा सिटी है, उसका नाम है",
+     "target": "पनामा"
+    }
+   }
+  },
+  {
+   "id": "capital_country_085",
+   "relation": "capital_country",
+   "seed": 1556497973,
+   "lang": {
+    "en": {
+     "subject": "Kuala Lumpur",
+     "object": "Malaysia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kuala Lumpur is",
+     "target": "Malaysia"
+    },
+    "hi": {
+     "subject": "कुआलालंपुर",
+     "object": "मलेशिया",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी कुआलालंपुर है, उसका नाम है",
+     "target": "मलेशिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_102",
+   "relation": "capital_country",
+   "seed": 532687999,
+   "lang": {
+    "en": {
+     "subject": "Amsterdam",
+     "object": "the Netherlands",
+     "object_alts": [],
+     "prompt": "The country whose capital is Amsterdam is",
+     "target": "the Netherlands"
+    },
+    "hi": {
+     "subject": "एम्स्टर्डम",
+     "object": "नीदरलैंड",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी एम्स्टर्डम है, उसका नाम है",
+     "target": "नीदरलैंड"
+    }
+   }
+  },
+  {
+   "id": "capital_country_118",
+   "relation": "capital_country",
+   "seed": 1091982399,
+   "lang": {
+    "en": {
+     "subject": "Malé",
+     "object": "the Maldives",
+     "object_alts": [],
+     "prompt": "The country whose capital is Malé is",
+     "target": "the Maldives"
+    },
+    "hi": {
+     "subject": "माले",
+     "object": "मालदीव",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी माले है, उसका नाम है",
+     "target": "मालदीव"
+    }
+   }
+  },
+  {
+   "id": "capital_of_033",
+   "relation": "capital_of",
+   "seed": 1356252871,
+   "lang": {
+    "en": {
+     "subject": "Bangladesh",
+     "object": "Dhaka",
+     "object_alts": [],
+     "prompt": "The capital city of Bangladesh is called",
+     "target": "Dhaka"
+    },
+    "hi": {
+     "subject": "बांग्लादेश",
+     "object": "ढाका",
+     "object_alts": [],
+     "prompt": "प्रश्न: बांग्लादेश देश की राजधानी का नाम क्या है?\nउत्तर:",
+     "target": "ढाका"
+    }
+   }
+  },
+  {
+   "id": "capital_of_046",
+   "relation": "capital_of",
+   "seed": 184532903,
+   "lang": {
+    "en": {
+     "subject": "Hungary",
+     "object": "Budapest",
+     "object_alts": [],
+     "prompt": "The capital city of Hungary is called",
+     "target": "Budapest"
+    },
+    "hi": {
+     "subject": "हंगरी",
+     "object": "बुडापेस्ट",
+     "object_alts": [],
+     "prompt": "प्रश्न: हंगरी देश की राजधानी का नाम क्या है?\nउत्तर:",
+     "target": "बुडापेस्ट"
+    }
+   }
+  },
+  {
+   "id": "capital_of_050",
+   "relation": "capital_of",
+   "seed": 474588998,
+   "lang": {
+    "en": {
+     "subject": "Serbia",
+     "object": "Belgrade",
+     "object_alts": [],
+     "prompt": "The capital city of Serbia is called",
+     "target": "Belgrade"
+    },
+    "hi": {
+     "subject": "सर्बिया",
+     "object": "बेलग्रेड",
+     "object_alts": [],
+     "prompt": "प्रश्न: सर्बिया देश की राजधानी का नाम क्या है?\nउत्तर:",
+     "target": "बेलग्रेड"
+    }
+   }
+  },
+  {
+   "id": "capital_of_051",
+   "relation": "capital_of",
+   "seed": 922838153,
+   "lang": {
+    "en": {
+     "subject": "Croatia",
+     "object": "Zagreb",
+     "object_alts": [],
+     "prompt": "The capital city of Croatia is called",
+     "target": "Zagreb"
+    },
+    "hi": {
+     "subject": "क्रोएशिया",
+     "object": "ज़ाग्रेब",
+     "object_alts": [],
+     "prompt": "प्रश्न: क्रोएशिया देश की राजधानी का नाम क्या है?\nउत्तर:",
+     "target": "ज़ाग्रेब"
+    }
+   }
+  },
+  {
+   "id": "capital_of_082",
+   "relation": "capital_of",
+   "seed": 1217732641,
+   "lang": {
+    "en": {
+     "subject": "Kazakhstan",
+     "object": "Astana",
+     "object_alts": [],
+     "prompt": "The capital city of Kazakhstan is called",
+     "target": "Astana"
+    },
+    "hi": {
+     "subject": "कज़ाख़स्तान",
+     "object": "अस्ताना",
+     "object_alts": [],
+     "prompt": "प्रश्न: कज़ाख़स्तान देश की राजधानी का नाम क्या है?\nउत्तर:",
+     "target": "अस्ताना"
+    }
+   }
+  },
+  {
+   "id": "capital_of_083",
+   "relation": "capital_of",
+   "seed": 647466904,
+   "lang": {
+    "en": {
+     "subject": "Uzbekistan",
+     "object": "Tashkent",
+     "object_alts": [],
+     "prompt": "The capital city of Uzbekistan is called",
+     "target": "Tashkent"
+    },
+    "hi": {
+     "subject": "उज़्बेकिस्तान",
+     "object": "ताशकंद",
+     "object_alts": [],
+     "prompt": "प्रश्न: उज़्बेकिस्तान देश की राजधानी का नाम क्या है?\nउत्तर:",
+     "target": "ताशकंद"
+    }
+   }
+  },
+  {
+   "id": "capital_of_088",
+   "relation": "capital_of",
+   "seed": 315310585,
+   "lang": {
+    "en": {
+     "subject": "North Korea",
+     "object": "Pyongyang",
+     "object_alts": [],
+     "prompt": "The capital city of North Korea is called",
+     "target": "Pyongyang"
+    },
+    "hi": {
+     "subject": "उत्तर कोरिया",
+     "object": "प्योंगयांग",
+     "object_alts": [],
+     "prompt": "प्रश्न: उत्तर कोरिया देश की राजधानी का नाम क्या है?\nउत्तर:",
+     "target": "प्योंगयांग"
+    }
+   }
+  },
+  {
+   "id": "capital_of_102",
+   "relation": "capital_of",
+   "seed": 507702553,
+   "lang": {
+    "en": {
+     "subject": "the Netherlands",
+     "object": "Amsterdam",
+     "object_alts": [],
+     "prompt": "The capital city of the Netherlands is called",
+     "target": "Amsterdam"
+    },
+    "hi": {
+     "subject": "नीदरलैंड",
+     "object": "एम्स्टर्डम",
+     "object_alts": [],
+     "prompt": "प्रश्न: नीदरलैंड देश की राजधानी का नाम क्या है?\nउत्तर:",
+     "target": "एम्स्टर्डम"
+    }
+   }
+  },
+  {
+   "id": "capital_of_103",
+   "relation": "capital_of",
+   "seed": 491204345,
+   "lang": {
+    "en": {
+     "subject": "the United Kingdom",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The capital city of the United Kingdom is called",
+     "target": "London"
+    },
+    "hi": {
+     "subject": "यूनाइटेड किंगडम",
+     "object": "लंदन",
+     "object_alts": [],
+     "prompt": "प्रश्न: यूनाइटेड किंगडम देश की राजधानी का नाम क्या है?\nउत्तर:",
+     "target": "लंदन"
+    }
+   }
+  },
+  {
+   "id": "city_country_030",
+   "relation": "city_country",
+   "seed": 2028254763,
+   "lang": {
+    "en": {
+     "subject": "Brisbane",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "You can visit Brisbane in the country of",
+     "target": "Australia"
+    },
+    "hi": {
+     "subject": "ब्रिस्बेन",
+     "object": "ऑस्ट्रेलिया",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ ब्रिस्बेन स्थित है?\nउत्तर:",
+     "target": "ऑस्ट्रेलिया"
+    }
+   }
+  },
+  {
+   "id": "city_country_031",
+   "relation": "city_country",
+   "seed": 2117191724,
+   "lang": {
+    "en": {
+     "subject": "Perth",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "You can visit Perth in the country of",
+     "target": "Australia"
+    },
+    "hi": {
+     "subject": "पर्थ",
+     "object": "ऑस्ट्रेलिया",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ पर्थ स्थित है?\nउत्तर:",
+     "target": "ऑस्ट्रेलिया"
+    }
+   }
+  },
+  {
+   "id": "city_country_032",
+   "relation": "city_country",
+   "seed": 488515214,
+   "lang": {
+    "en": {
+     "subject": "Toronto",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "You can visit Toronto in the country of",
+     "target": "Canada"
+    },
+    "hi": {
+     "subject": "टोरंटो",
+     "object": "कनाडा",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ टोरंटो स्थित है?\nउत्तर:",
+     "target": "कनाडा"
+    }
+   }
+  },
+  {
+   "id": "city_country_033",
+   "relation": "city_country",
+   "seed": 1066016499,
+   "lang": {
+    "en": {
+     "subject": "Vancouver",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "You can visit Vancouver in the country of",
+     "target": "Canada"
+    },
+    "hi": {
+     "subject": "वैंकूवर",
+     "object": "कनाडा",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ वैंकूवर स्थित है?\nउत्तर:",
+     "target": "कनाडा"
+    }
+   }
+  },
+  {
+   "id": "city_country_034",
+   "relation": "city_country",
+   "seed": 33814939,
+   "lang": {
+    "en": {
+     "subject": "Montreal",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "You can visit Montreal in the country of",
+     "target": "Canada"
+    },
+    "hi": {
+     "subject": "मॉन्ट्रियल",
+     "object": "कनाडा",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ मॉन्ट्रियल स्थित है?\nउत्तर:",
+     "target": "कनाडा"
+    }
+   }
+  },
+  {
+   "id": "city_country_042",
+   "relation": "city_country",
+   "seed": 185776689,
+   "lang": {
+    "en": {
+     "subject": "San Francisco",
+     "object": "the United States",
+     "object_alts": [],
+     "prompt": "You can visit San Francisco in the country of",
+     "target": "the United States"
+    },
+    "hi": {
+     "subject": "सैन फ़्रांसिस्को",
+     "object": "संयुक्त राज्य अमेरिका",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ सैन फ़्रांसिस्को स्थित है?\nउत्तर:",
+     "target": "संयुक्त राज्य अमेरिका"
+    }
+   }
+  },
+  {
+   "id": "city_country_043",
+   "relation": "city_country",
+   "seed": 1086766568,
+   "lang": {
+    "en": {
+     "subject": "Rio de Janeiro",
+     "object": "Brazil",
+     "object_alts": [],
+     "prompt": "You can visit Rio de Janeiro in the country of",
+     "target": "Brazil"
+    },
+    "hi": {
+     "subject": "रियो डी जेनेरो",
+     "object": "ब्राज़ील",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ रियो डी जेनेरो स्थित है?\nउत्तर:",
+     "target": "ब्राजील"
+    }
+   }
+  },
+  {
+   "id": "city_country_045",
+   "relation": "city_country",
+   "seed": 734995139,
+   "lang": {
+    "en": {
+     "subject": "Shanghai",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "You can visit Shanghai in the country of",
+     "target": "China"
+    },
+    "hi": {
+     "subject": "शंघाई",
+     "object": "चीन",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ शंघाई स्थित है?\nउत्तर:",
+     "target": "चीन"
+    }
+   }
+  },
+  {
+   "id": "city_country_046",
+   "relation": "city_country",
+   "seed": 434442423,
+   "lang": {
+    "en": {
+     "subject": "Guangzhou",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "You can visit Guangzhou in the country of",
+     "target": "China"
+    },
+    "hi": {
+     "subject": "गुआंगझोउ",
+     "object": "चीन",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ गुआंगझोउ स्थित है?\nउत्तर:",
+     "target": "चीन"
+    }
+   }
+  },
+  {
+   "id": "city_country_047",
+   "relation": "city_country",
+   "seed": 9725991,
+   "lang": {
+    "en": {
+     "subject": "Shenzhen",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "You can visit Shenzhen in the country of",
+     "target": "China"
+    },
+    "hi": {
+     "subject": "शेनझेन",
+     "object": "चीन",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ शेनझेन स्थित है?\nउत्तर:",
+     "target": "चीन"
+    }
+   }
+  },
+  {
+   "id": "city_country_049",
+   "relation": "city_country",
+   "seed": 1900766124,
+   "lang": {
+    "en": {
+     "subject": "Osaka",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "You can visit Osaka in the country of",
+     "target": "Japan"
+    },
+    "hi": {
+     "subject": "ओसाका",
+     "object": "जापान",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ ओसाका स्थित है?\nउत्तर:",
+     "target": "जापान"
+    }
+   }
+  },
+  {
+   "id": "city_country_050",
+   "relation": "city_country",
+   "seed": 1972641372,
+   "lang": {
+    "en": {
+     "subject": "Kyoto",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "You can visit Kyoto in the country of",
+     "target": "Japan"
+    },
+    "hi": {
+     "subject": "क्योटो",
+     "object": "जापान",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ क्योटो स्थित है?\nउत्तर:",
+     "target": "जापान"
+    }
+   }
+  },
+  {
+   "id": "city_country_051",
+   "relation": "city_country",
+   "seed": 1234914066,
+   "lang": {
+    "en": {
+     "subject": "Yokohama",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "You can visit Yokohama in the country of",
+     "target": "Japan"
+    },
+    "hi": {
+     "subject": "योकोहामा",
+     "object": "जापान",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ योकोहामा स्थित है?\nउत्तर:",
+     "target": "जापान"
+    }
+   }
+  },
+  {
+   "id": "city_country_053",
+   "relation": "city_country",
+   "seed": 955652159,
+   "lang": {
+    "en": {
+     "subject": "Karachi",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "You can visit Karachi in the country of",
+     "target": "Pakistan"
+    },
+    "hi": {
+     "subject": "कराची",
+     "object": "पाकिस्तान",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ कराची स्थित है?\nउत्तर:",
+     "target": "पाकिस्तान"
+    }
+   }
+  },
+  {
+   "id": "city_country_054",
+   "relation": "city_country",
+   "seed": 1480100747,
+   "lang": {
+    "en": {
+     "subject": "Lahore",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "You can visit Lahore in the country of",
+     "target": "Pakistan"
+    },
+    "hi": {
+     "subject": "लाहौर",
+     "object": "पाकिस्तान",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ लाहौर स्थित है?\nउत्तर:",
+     "target": "पाकिस्तान"
+    }
+   }
+  },
+  {
+   "id": "city_country_057",
+   "relation": "city_country",
+   "seed": 1448482347,
+   "lang": {
+    "en": {
+     "subject": "Johannesburg",
+     "object": "South Africa",
+     "object_alts": [],
+     "prompt": "You can visit Johannesburg in the country of",
+     "target": "South Africa"
+    },
+    "hi": {
+     "subject": "जोहान्सबर्ग",
+     "object": "दक्षिण अफ़्रीका",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ जोहान्सबर्ग स्थित है?\nउत्तर:",
+     "target": "दक्षिण अफ्रीका"
+    }
+   }
+  },
+  {
+   "id": "city_country_058",
+   "relation": "city_country",
+   "seed": 1381263406,
+   "lang": {
+    "en": {
+     "subject": "Cape Town",
+     "object": "South Africa",
+     "object_alts": [],
+     "prompt": "You can visit Cape Town in the country of",
+     "target": "South Africa"
+    },
+    "hi": {
+     "subject": "केप टाउन",
+     "object": "दक्षिण अफ़्रीका",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ केप टाउन स्थित है?\nउत्तर:",
+     "target": "दक्षिण अफ्रीका"
+    }
+   }
+  },
+  {
+   "id": "city_country_060",
+   "relation": "city_country",
+   "seed": 983796059,
+   "lang": {
+    "en": {
+     "subject": "Saint Petersburg",
+     "object": "Russia",
+     "object_alts": [],
+     "prompt": "You can visit Saint Petersburg in the country of",
+     "target": "Russia"
+    },
+    "hi": {
+     "subject": "सेंट पीटर्सबर्ग",
+     "object": "रूस",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ सेंट पीटर्सबर्ग स्थित है?\nउत्तर:",
+     "target": "रूस"
+    }
+   }
+  },
+  {
+   "id": "city_country_064",
+   "relation": "city_country",
+   "seed": 286991732,
+   "lang": {
+    "en": {
+     "subject": "Geneva",
+     "object": "Switzerland",
+     "object_alts": [],
+     "prompt": "You can visit Geneva in the country of",
+     "target": "Switzerland"
+    },
+    "hi": {
+     "subject": "जिनेवा",
+     "object": "स्विट्ज़रलैंड",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ जिनेवा स्थित है?\nउत्तर:",
+     "target": "स्विट्जरलैंड"
+    }
+   }
+  },
+  {
+   "id": "city_country_074",
+   "relation": "city_country",
+   "seed": 1140618436,
+   "lang": {
+    "en": {
+     "subject": "Kyiv",
+     "object": "Ukraine",
+     "object_alts": [],
+     "prompt": "You can visit Kyiv in the country of",
+     "target": "Ukraine"
+    },
+    "hi": {
+     "subject": "कीव",
+     "object": "यूक्रेन",
+     "object_alts": [],
+     "prompt": "प्रश्न: वह कौन सा देश है जहाँ कीव स्थित है?\nउत्तर:",
+     "target": "यूक्रेन"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_032",
+   "relation": "landmark_city",
+   "seed": 240782083,
+   "lang": {
+    "en": {
+     "subject": "Times Square",
+     "object": "New York",
+     "object_alts": [],
+     "prompt": "The city where Times Square is located is called",
+     "target": "New York"
+    },
+    "hi": {
+     "subject": "टाइम्स स्क्वायर",
+     "object": "न्यूयॉर्क",
+     "object_alts": [],
+     "prompt": "वह शहर जहाँ टाइम्स स्क्वायर स्थित है, उसका नाम है",
+     "target": "न्यूयॉर्क"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_033",
+   "relation": "landmark_city",
+   "seed": 439674167,
+   "lang": {
+    "en": {
+     "subject": "the Hollywood Sign",
+     "object": "Los Angeles",
+     "object_alts": [],
+     "prompt": "The city where the Hollywood Sign is located is called",
+     "target": "Los Angeles"
+    },
+    "hi": {
+     "subject": "हॉलीवुड साइन",
+     "object": "लॉस एंजिल्स",
+     "object_alts": [],
+     "prompt": "वह शहर जहाँ हॉलीवुड साइन स्थित है, उसका नाम है",
+     "target": "लॉस एंजिल्स"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_038",
+   "relation": "landmark_city",
+   "seed": 1172465201,
+   "lang": {
+    "en": {
+     "subject": "the Mysore Palace",
+     "object": "Mysore",
+     "object_alts": [],
+     "prompt": "The city where the Mysore Palace is located is called",
+     "target": "Mysore"
+    },
+    "hi": {
+     "subject": "मैसूर पैलेस",
+     "object": "मैसूर",
+     "object_alts": [],
+     "prompt": "वह शहर जहाँ मैसूर पैलेस स्थित है, उसका नाम है",
+     "target": "मैसूर"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_042",
+   "relation": "landmark_city",
+   "seed": 993745706,
+   "lang": {
+    "en": {
+     "subject": "the Cologne Cathedral",
+     "object": "Cologne",
+     "object_alts": [],
+     "prompt": "The city where the Cologne Cathedral is located is called",
+     "target": "Cologne"
+    },
+    "hi": {
+     "subject": "कोलोन कैथेड्रल",
+     "object": "कोलोन",
+     "object_alts": [],
+     "prompt": "वह शहर जहाँ कोलोन कैथेड्रल स्थित है, उसका नाम है",
+     "target": "कोलोन"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_046",
+   "relation": "landmark_city",
+   "seed": 780310317,
+   "lang": {
+    "en": {
+     "subject": "Buckingham Palace",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The city where Buckingham Palace is located is called",
+     "target": "London"
+    },
+    "hi": {
+     "subject": "बकिंघम पैलेस",
+     "object": "लंदन",
+     "object_alts": [],
+     "prompt": "वह शहर जहाँ बकिंघम पैलेस स्थित है, उसका नाम है",
+     "target": "लंदन"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_047",
+   "relation": "landmark_city",
+   "seed": 1489957892,
+   "lang": {
+    "en": {
+     "subject": "the Tower of London",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The city where the Tower of London is located is called",
+     "target": "London"
+    },
+    "hi": {
+     "subject": "टॉवर ऑफ़ लंदन",
+     "object": "लंदन",
+     "object_alts": [],
+     "prompt": "वह शहर जहाँ टॉवर ऑफ़ लंदन स्थित है, उसका नाम है",
+     "target": "लंदन"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_048",
+   "relation": "landmark_city",
+   "seed": 1076562805,
+   "lang": {
+    "en": {
+     "subject": "the London Eye",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The city where the London Eye is located is called",
+     "target": "London"
+    },
+    "hi": {
+     "subject": "लंदन आई",
+     "object": "लंदन",
+     "object_alts": [],
+     "prompt": "वह शहर जहाँ लंदन आई स्थित है, उसका नाम है",
+     "target": "लंदन"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_050",
+   "relation": "landmark_city",
+   "seed": 701107441,
+   "lang": {
+    "en": {
+     "subject": "Notre-Dame Cathedral",
+     "object": "Paris",
+     "object_alts": [],
+     "prompt": "The city where Notre-Dame Cathedral is located is called",
+     "target": "Paris"
+    },
+    "hi": {
+     "subject": "नोट्र-डेम कैथेड्रल",
+     "object": "पेरिस",
+     "object_alts": [],
+     "prompt": "वह शहर जहाँ नोट्र-डेम कैथेड्रल स्थित है, उसका नाम है",
+     "target": "पेरिस"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_051",
+   "relation": "landmark_city",
+   "seed": 1176721099,
+   "lang": {
+    "en": {
+     "subject": "the Palace of Versailles",
+     "object": "Versailles",
+     "object_alts": [],
+     "prompt": "The city where the Palace of Versailles is located is called",
+     "target": "Versailles"
+    },
+    "hi": {
+     "subject": "वर्साय का महल",
+     "object": "वर्साय",
+     "object_alts": [],
+     "prompt": "वह शहर जहाँ वर्साय का महल स्थित है, उसका नाम है",
+     "target": "वर्साय"
+    }
+   }
+  },
+  {
+   "id": "landmark_city_058",
+   "relation": "landmark_city",
+   "seed": 449418411,
+   "lang": {
+    "en": {
+     "subject": "the Hollywood Walk of Fame",
+     "object": "Los Angeles",
+     "object_alts": [],
+     "prompt": "The city where the Hollywood Walk of Fame is located is called",
+     "target": "Los Angeles"
+    },
+    "hi": {
+     "subject": "हॉलीवुड वॉक ऑफ़ फ़ेम",
+     "object": "लॉस एंजिल्स",
+     "object_alts": [],
+     "prompt": "वह शहर जहाँ हॉलीवुड वॉक ऑफ़ फ़ेम स्थित है, उसका नाम है",
+     "target": "लॉस एंजिल्स"
+    }
+   }
+  }
+ ]
+}
