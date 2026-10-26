@@ -1,0 +1,9 @@
+llama {'en2hi': (50, 'P2 SHARED', False), 'hi2en': (50, 'P4 PARTIAL', True)}
+gemma2 {'en2hi': (22, 'P2 SHARED', False), 'hi2en': (22, 'P4 PARTIAL', True)}
+wrote analysis\run_20261026_e2h_analysis_A15_regress
+ect\code\e2_analysis.py", line 75, in main
+    out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"; out.mkdir(parents=True, exist_ok=False)
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'analysis\\run_20261026_e2h_analysis_A15_regress'

@@ -111,9 +111,13 @@ def main() -> None:
     ap.add_argument("--seed", type=int, default=20261024)
     ap.add_argument("--langs", default="en,es", help="A15: language pair (first = primary source language), e.g. en,hi")
     ap.add_argument("--facts", default=None, help="facts file (default data/v2/e2_facts_<model>.json, or e2h_facts_<model>.json for en,hi)")
+    ap.add_argument("--directions", default=None, help="A16: comma list of directions to run (default both), e.g. hi2en")
+    ap.add_argument("--k-src", type=int, default=2, help="A16: sources per target (A13/A15 used 2)")
+    ap.add_argument("--shuffle-pairs", action="store_true", help="A16: shuffle the seeded pair list before the cap so relations are mixed")
     ap.add_argument("--max-pairs", type=int, default=0, help="A15: cap on the seeded pair list (0 = no cap)")
     a = ap.parse_args()
     l0, l1 = a.langs.split(",")
+    RUN_DIRS = [d for d in (f"{l0}2{l1}", f"{l1}2{l0}") if a.directions is None or d in a.directions.split(",")]
     fpath = a.facts or (f"data/v2/e2_facts_{a.model}.json" if a.langs == "en,es" else f"data/v2/e2h_facts_{a.model}.json")
     facts = json.loads(Path(fpath).read_text(encoding="utf8"))["facts"]
     model = load_model(a.model)
@@ -159,15 +163,17 @@ def main() -> None:
         rng.shuffle(pool)
         n = 0
         for s in pool:
-            for direction in (f"{l0}2{l1}", f"{l1}2{l0}"):
+            for direction in RUN_DIRS:
                 lt = direction[-2:]
                 if P[(s["id"], lt)].a_ids[0] == P[(t["id"], lt)].a_ids[0]:
                     break
             else:
                 pairs.append((t["id"], s["id"]))
                 n += 1
-                if n == 2:
+                if n == a.k_src:
                     break
+    if a.shuffle_pairs:
+        rng.shuffle(pairs)
     if a.max_pairs:
         pairs = pairs[:a.max_pairs]
     if a.pilot:
@@ -180,7 +186,7 @@ def main() -> None:
     for n_, (ti, si) in enumerate(pairs):
         if n_ < start:
             continue
-        for direction in (f"{l0}2{l1}", f"{l1}2{l0}"):
+        for direction in RUN_DIRS:
             sl, tl = direction.split("2")
             T, S_tl, S_ol, T_ol = P[(ti, tl)], P[(si, tl)], P[(si, sl)], P[(ti, sl)]
             if S_tl.a_ids[0] == T.a_ids[0]:
@@ -195,7 +201,7 @@ def main() -> None:
             (run / "partial_tmp.npz").replace(run / "partial.npz")
     np.savez_compressed(run / "effects.npz", delta=np.stack(DD), flip=np.stack(FF))
     (run / "meta.json").write_text(json.dumps({"pairs": meta, "conds": CONDS, "sites": SITES, "n_layers": model.cfg.n_layers, "seed": a.seed,
-                                               "n_facts": len(facts), "pilot": a.pilot, "langs": [l0, l1], "facts_file": fpath, "max_pairs": a.max_pairs}, indent=1))
+                                               "n_facts": len(facts), "pilot": a.pilot, "langs": [l0, l1], "facts_file": fpath, "max_pairs": a.max_pairs, "directions": RUN_DIRS, "shuffle_pairs": a.shuffle_pairs, "k_src": a.k_src}, indent=1))
     print("done", len(meta), "peak VRAM GiB", round(torch.cuda.max_memory_allocated() / 2 ** 30, 2))
 
 

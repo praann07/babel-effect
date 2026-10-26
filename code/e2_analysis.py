@@ -85,7 +85,7 @@ def main() -> None:
             n = {lg: len(subject_span(tok, L[lg]["prompt"], L[lg]["subject"])[1]) for lg in (l0, l1)}
             spandiff[sid] = abs(n[l0] - n[l1])
         o: dict = {"n_pair_directions": len(pairs), "n_facts": len(facts), "run": run}
-        for direction in DIRS:
+        for direction in [d for d in DIRS if any(p["direction"] == d for p in pairs)]:
             sel = np.array([p["direction"] == direction for p in pairs])
             Dd, Fd = D[sel], F[sel]
             pd_ = [p for p, k in zip(pairs, sel) if k]
@@ -105,6 +105,11 @@ def main() -> None:
                 r["mean_delta_by_layer_confirmatory"] = {c: Dc[:, ci, si].mean(0).round(3).tolist() for c, ci in COND.items()}
                 if conf.sum() >= 5:
                     r["flip_at_lstar_confirmatory"] = {c: float(Fd[conf][:, ci, si, g["l_star"]].mean()) for c, ci in COND.items()}
+                if conf.sum() >= 5:  # A16 descriptive extras: floor, interpretability of the ratio, per-relation ratio
+                    r["floor_25_sources_ok"] = bool(r["confirmatory"]["n_source_entities"] >= 25)
+                    r["ratio_interpretable_cross_flip_ge_0.2"] = bool(r["flip_at_lstar_confirmatory"]["cross"] >= 0.2)
+                    relc = np.array([p["relation"] for p, k in zip(pd_, conf) if k]); Dcf, srcc = Dd[conf], src[conf]
+                    r["by_relation_descriptive"] = {rl: ratio_ci(Dcf[relc == rl], srcc[relc == rl], band, si, np.random.default_rng(1), n_boot=500) for rl in sorted(set(relc)) if (relc == rl).sum() >= 5}
                 od[f"site_{site}"] = r
             if direction == DIRS[0] and ES:  # covariate model (site A), per-pair ratio
                 band = np.array(od["site_A"]["gate"]["band_layers"])
@@ -140,7 +145,7 @@ def main() -> None:
                     od["P6_validity"] = {"n_facts": len(common), "note": "too few facts in common"}
             o[direction] = od
         res[m] = o
-        print(m, {d: (o[d]["n_confirmatory"], o[d]["site_A"].get("verdict"), o[d]["site_A"]["gate"]["gate_P1"]) for d in DIRS})
+        print(m, {d: (o[d]["n_confirmatory"], o[d]["site_A"].get("verdict"), o[d]["site_A"]["gate"]["gate_P1"]) for d in DIRS if d in o})
     (out / "results.json").write_text(json.dumps(res, indent=1, default=float), encoding="utf8")
     (out / "config.json").write_text(json.dumps(vars(a) | {"amendment": "A13"}, indent=1), encoding="utf8")
     print("wrote", out)

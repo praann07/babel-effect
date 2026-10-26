@@ -25,30 +25,40 @@ HI_CANDS = {  # fixed in docs/HYPOTHESIS.md A15 before this was run
     "landmark_country": ["वह देश जहाँ {s} स्थित है, उसका नाम है", "{s} जिस देश में स्थित है, वह देश है"],
 }
 HI_CANDS["city_country"] = HI_CANDS["landmark_country"]
+HI_CANDS16 = {  # fixed in docs/HYPOTHESIS.md A16 before this was run: the two A15 candidates plus two question/answer-format candidates
+    r: HI_CANDS[r] + q for r, q in {
+        "capital_of": ["प्रश्न: {s} की राजधानी क्या है?\nउत्तर:", "प्रश्न: {s} देश की राजधानी का नाम क्या है?\nउत्तर:"],
+        "capital_country": ["प्रश्न: वह कौन सा देश है जिसकी राजधानी {s} है?\nउत्तर:", "प्रश्न: {s} किस देश की राजधानी है?\nउत्तर:"],
+        "landmark_city": ["प्रश्न: {s} किस शहर में स्थित है?\nउत्तर:", "प्रश्न: वह कौन सा शहर है जहाँ {s} स्थित है?\nउत्तर:"],
+        "landmark_country": ["प्रश्न: {s} किस देश में स्थित है?\nउत्तर:", "प्रश्न: वह कौन सा देश है जहाँ {s} स्थित है?\nउत्तर:"],
+        "city_country": ["प्रश्न: {s} किस देश में स्थित है?\nउत्तर:", "प्रश्न: वह कौन सा देश है जहाँ {s} स्थित है?\nउत्तर:"]}.items()}
+MIN_KEPT16 = 8
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True, choices=["llama", "gemma2"])
     ap.add_argument("--tag", default="e2hfilter")
+    ap.add_argument("--a16", action="store_true", help="A16: Q/A-format candidates, no 50% relation threshold, relations need >= 8 kept facts; writes e2h2_facts_<model>.json")
     a = ap.parse_args()
     spec = MODELS[a.model]
     run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}_{a.model}"
     run.mkdir(parents=True, exist_ok=False)
     en_t = {r: v[0] for r, v in json.loads(Path(f"data/v2/e2_facts_{a.model}.json").read_text(encoding="utf8"))["templates"].items()}
-    cands = [f for p in POOLS[a.model] for f in json.loads(Path(p).read_text(encoding="utf8"))["facts"] if f["relation"] in HI_CANDS]
+    HC = HI_CANDS16 if a.a16 else HI_CANDS
+    cands = [f for p in POOLS[a.model] for f in json.loads(Path(p).read_text(encoding="utf8"))["facts"] if f["relation"] in HC]
     cands.sort(key=lambda f: (f["relation"], f["id"]))
     tok = AutoTokenizer.from_pretrained(spec["dir"]); tok.padding_side = "left"; tok.pad_token = tok.pad_token or tok.eos_token
     model = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=torch.bfloat16, attn_implementation="eager").to("cuda").eval()
     hi_t, sel = {}, {}
-    for r in HI_CANDS:
+    for r in HC:
         fs = [f for f in cands if f["relation"] == r][:N_TUNE]
         accs = []
-        for tp in HI_CANDS[r]:
+        for tp in HC[r]:
             g = generate(model, tok, [tp.format(s=f["lang"]["hi"]["subject"]) for f in fs])
             accs.append(sum(strict_match(x, [f["lang"]["hi"]["object"], *f["lang"]["hi"]["object_alts"]]) is not None for x, f in zip(g, fs)) / len(fs))
         best = max(range(len(accs)), key=lambda i: (accs[i], -i))
-        hi_t[r] = HI_CANDS[r][best]; sel[r] = dict(zip(HI_CANDS[r], accs))
+        hi_t[r] = HC[r][best]; sel[r] = dict(zip(HC[r], accs))
         print(r, sel[r], "->", hi_t[r], flush=True)
     prompts = {(f["id"], lg): (en_t[f["relation"]] if lg == "en" else hi_t[f["relation"]]).format(s=f["lang"][lg]["subject"]) for f in cands for lg in ("en", "hi")}
     keys = list(prompts)
@@ -73,10 +83,10 @@ def main() -> None:
             t["eval_both"] += 1
             kept.append({"id": f["id"], "relation": r, "seed": f["seed"], "lang": rec})
     for r, t in table.items():
-        t["template_ok"] = bool(t["tune_n"] and t["tune_en"] / t["tune_n"] >= 0.5 and t["tune_hi"] / t["tune_n"] >= 0.5)
+        t["template_ok"] = bool(t["eval_both"] >= MIN_KEPT16) if a.a16 else bool(t["tune_n"] and t["tune_en"] / t["tune_n"] >= 0.5 and t["tune_hi"] / t["tune_n"] >= 0.5)
     kept = [f for f in kept if table[f["relation"]]["template_ok"]]
     out = {"model": spec["tl_name"], "templates": {"en": en_t, "hi": hi_t}, "hi_candidate_accuracy": sel, "summary": table, "n_kept": len(kept), "facts": kept}
-    Path(f"data/v2/e2h_facts_{a.model}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf8")
+    Path(f"data/v2/{'e2h2' if a.a16 else 'e2h'}_facts_{a.model}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf8")
     (run / "accuracy.json").write_text(json.dumps(table, indent=1))
     print(json.dumps(table, indent=1)); print("kept", len(kept))
 
