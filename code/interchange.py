@@ -20,6 +20,7 @@ from common import load_model, subject_span
 
 CONDS = ("same", "cross", "self", "ctrl")
 SITES = ("A", "B")
+SPAN_MODE = "last"  # A18: last (A13-A16 behaviour), end (end-aligned span), bcast (broadcast last-token state over the span)
 
 
 class Prompt:
@@ -38,6 +39,7 @@ class Prompt:
         with torch.no_grad():
             _, cache = model.run_with_cache(toks, names_filter=lambda n: n in names)
         self.res = {k: torch.stack([cache[n][0, p] for n in names]) for k, p in self.pos.items()}  # [L, d]
+        self.res_span = torch.stack([cache[n][0, list(self.span)] for n in names])  # [L, n_span, d] (A18 span-wise patching)
         del cache
 
 
@@ -86,6 +88,27 @@ def pair_effect(model, T: Prompt, S_tl: Prompt, S_ol: Prompt, T_ol: Prompt, a_s:
     D = np.zeros((4, 2, model.cfg.n_layers), np.float32)
     F = np.zeros((4, 2, model.cfg.n_layers), bool)
     for si, site in enumerate(SITES):
+        if SPAN_MODE != "last":  # A18: span-wise patching at site A only
+            if site != "A":
+                continue
+            nt = len(T.span)
+            for ci, cond in enumerate(CONDS):
+                srcs = {"same": S_tl, "cross": S_ol, "self": T_ol, "ctrl": S_ol}[cond]
+                ns = len(srcs.span)
+                if SPAN_MODE == "end":
+                    k = min(nt, ns)
+                    tpos = list(T.span[-k:])
+                    vec = srcs.res_span[:, -k:, :]
+                else:  # bcast: every target subject position gets the source's last-subject-token state
+                    tpos = list(T.span)
+                    vec = srcs.res_span[:, -1:, :].expand(-1, nt, -1)
+                if cond == "ctrl":  # token before the other-language source subject, broadcast over the same target positions
+                    vec = S_ol.res["pre"][:, None, :].expand(-1, len(tpos), -1)
+                ls, ms = score(model, T, a_s, vec, tpos)
+                lt, _ = score(model, T, a_t, vec, tpos)
+                D[ci, si] = (ls - lt) - d0
+                F[ci, si] = ms
+            continue
         for ci, cond in enumerate(CONDS):
             if cond == "same":
                 src, pos = S_tl.res[site], T.pos[site]
@@ -115,7 +138,10 @@ def main() -> None:
     ap.add_argument("--k-src", type=int, default=2, help="A16: sources per target (A13/A15 used 2)")
     ap.add_argument("--shuffle-pairs", action="store_true", help="A16: shuffle the seeded pair list before the cap so relations are mixed")
     ap.add_argument("--max-pairs", type=int, default=0, help="A15: cap on the seeded pair list (0 = no cap)")
+    ap.add_argument("--span", default="last", choices=["last", "end", "bcast"], help="A18: patch only the last subject token (default), the end-aligned subject span, or broadcast the last-token state over the span")
     a = ap.parse_args()
+    global SPAN_MODE
+    SPAN_MODE = a.span
     l0, l1 = a.langs.split(",")
     RUN_DIRS = [d for d in (f"{l0}2{l1}", f"{l1}2{l0}") if a.directions is None or d in a.directions.split(",")]
     fpath = a.facts or (f"data/v2/e2_facts_{a.model}.json" if a.langs == "en,es" else f"data/v2/e2h_facts_{a.model}.json")
@@ -201,7 +227,7 @@ def main() -> None:
             (run / "partial_tmp.npz").replace(run / "partial.npz")
     np.savez_compressed(run / "effects.npz", delta=np.stack(DD), flip=np.stack(FF))
     (run / "meta.json").write_text(json.dumps({"pairs": meta, "conds": CONDS, "sites": SITES, "n_layers": model.cfg.n_layers, "seed": a.seed,
-                                               "n_facts": len(facts), "pilot": a.pilot, "langs": [l0, l1], "facts_file": fpath, "max_pairs": a.max_pairs, "directions": RUN_DIRS, "shuffle_pairs": a.shuffle_pairs, "k_src": a.k_src}, indent=1))
+                                               "n_facts": len(facts), "pilot": a.pilot, "langs": [l0, l1], "facts_file": fpath, "max_pairs": a.max_pairs, "directions": RUN_DIRS, "shuffle_pairs": a.shuffle_pairs, "k_src": a.k_src, "span_mode": a.span}, indent=1))
     print("done", len(meta), "peak VRAM GiB", round(torch.cuda.max_memory_allocated() / 2 ** 30, 2))
 
 
