@@ -242,6 +242,14 @@ def claims() -> list[dict]:
             for st in ("z", "p_one_sided", "observed_median"):
                 c.append((f"a17_{m}_ov_{pr}_{st}", f"analysis/run_20261026_p3overlap_v2_perm10k_A17_{m}/results.json", ["sets", "primary_valid", "pairs", pr, "mlp_cosine", st]))
         c.append((f"a17_{m}_ov_n", f"analysis/run_20261026_p3overlap_v2_perm10k_A17_{m}/results.json", ["sets", "primary_valid", "n_facts"]))
+    CL = "analysis/run_20261026_cluster_A17b/results.json"
+    for m in ("llama", "gemma2"):  # A17b: bootstrap-clustering sensitivity of the interchange ratio
+        for nm in ("A13_en2es", "A13_es2en", "A16_hi2en"):
+            for lk in ("plain", "leakfree"):
+                k = [f"{m}|{nm}|{lk}"]; i = f"a17b_{m}_{nm}_{lk}"
+                c += [(i + "_I", CL, k + ["I"]), (i + "_n", CL, k + ["n_pairs"]), (i + "_robust", CL, k + ["labels_robust"])]
+                for cl in "STCW":
+                    c += [(f"{i}_{cl}_lo", CL, k + [cl, "ci95", 0]), (f"{i}_{cl}_hi", CL, k + [cl, "ci95", 1]), (f"{i}_{cl}_label", CL, k + [cl, "label"])]
     for tag, art in PK.items():  # A14: overlap rerun with 10,000 permutations
         for pr in ("en-es", "en-hi", "es-hi"):
             for st in ("z", "p_one_sided", "observed_median"):
