@@ -1,0 +1,422 @@
+{
+ "model": "google/gemma-2-2b",
+ "templates": {
+  "en": {
+   "capital_of": "The capital city of {s} is called",
+   "capital_country": "The country whose capital is {s} is",
+   "landmark_city": "The city where {s} is located is called",
+   "landmark_country": "The country where {s} is located is called",
+   "city_country": "You can visit {s} in the country of"
+  },
+  "hi": {
+   "capital_of": "{s} देश की राजधानी का नाम है",
+   "capital_country": "वह देश जिसकी राजधानी {s} है, उसका नाम है",
+   "landmark_city": "वह शहर जहाँ {s} स्थित है, उसका नाम है",
+   "landmark_country": "वह देश जहाँ {s} स्थित है, उसका नाम है",
+   "city_country": "वह देश जहाँ {s} स्थित है, उसका नाम है"
+  }
+ },
+ "hi_candidate_accuracy": {
+  "capital_of": {
+   "यह सर्वविदित है कि {s} की राजधानी है": 0.03333333333333333,
+   "{s} देश की राजधानी का नाम है": 0.23333333333333334
+  },
+  "capital_country": {
+   "वह देश जिसकी राजधानी {s} है, उसका नाम है": 0.6333333333333333,
+   "जिस देश की राजधानी {s} है, वह देश है": 0.36666666666666664
+  },
+  "landmark_city": {
+   "वह शहर जहाँ {s} स्थित है, उसका नाम है": 0.16666666666666666,
+   "{s} जिस शहर में स्थित है, वह शहर है": 0.0
+  },
+  "landmark_country": {
+   "वह देश जहाँ {s} स्थित है, उसका नाम है": 0.2,
+   "{s} जिस देश में स्थित है, वह देश है": 0.0
+  },
+  "city_country": {
+   "वह देश जहाँ {s} स्थित है, उसका नाम है": 0.36666666666666664,
+   "{s} जिस देश में स्थित है, वह देश है": 0.03333333333333333
+  }
+ },
+ "summary": {
+  "capital_country": {
+   "tune_n": 30,
+   "tune_en": 30,
+   "tune_hi": 19,
+   "eval_n": 95,
+   "eval_both": 16,
+   "template_ok": true
+  },
+  "capital_of": {
+   "tune_n": 30,
+   "tune_en": 27,
+   "tune_hi": 7,
+   "eval_n": 95,
+   "eval_both": 9,
+   "template_ok": false
+  },
+  "city_country": {
+   "tune_n": 30,
+   "tune_en": 25,
+   "tune_hi": 11,
+   "eval_n": 45,
+   "eval_both": 21,
+   "template_ok": false
+  },
+  "landmark_city": {
+   "tune_n": 30,
+   "tune_en": 29,
+   "tune_hi": 5,
+   "eval_n": 51,
+   "eval_both": 10,
+   "template_ok": false
+  },
+  "landmark_country": {
+   "tune_n": 30,
+   "tune_en": 25,
+   "tune_hi": 5,
+   "eval_n": 51,
+   "eval_both": 4,
+   "template_ok": false
+  }
+ },
+ "n_kept": 16,
+ "facts": [
+  {
+   "id": "capital_country_031",
+   "relation": "capital_country",
+   "seed": 1994942283,
+   "lang": {
+    "en": {
+     "subject": "Jakarta",
+     "object": "Indonesia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Jakarta is",
+     "target": "Indonesia"
+    },
+    "hi": {
+     "subject": "जकार्ता",
+     "object": "इंडोनेशिया",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी जकार्ता है, उसका नाम है",
+     "target": "इंडोनेशिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_032",
+   "relation": "capital_country",
+   "seed": 1238983075,
+   "lang": {
+    "en": {
+     "subject": "Islamabad",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "The country whose capital is Islamabad is",
+     "target": "Pakistan"
+    },
+    "hi": {
+     "subject": "इस्लामाबाद",
+     "object": "पाकिस्तान",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी इस्लामाबाद है, उसका नाम है",
+     "target": "पाकिस्तान"
+    }
+   }
+  },
+  {
+   "id": "capital_country_033",
+   "relation": "capital_country",
+   "seed": 494443854,
+   "lang": {
+    "en": {
+     "subject": "Dhaka",
+     "object": "Bangladesh",
+     "object_alts": [],
+     "prompt": "The country whose capital is Dhaka is",
+     "target": "Bangladesh"
+    },
+    "hi": {
+     "subject": "ढाका",
+     "object": "बांग्लादेश",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी ढाका है, उसका नाम है",
+     "target": "बांग्लादेश"
+    }
+   }
+  },
+  {
+   "id": "capital_country_034",
+   "relation": "capital_country",
+   "seed": 2002346541,
+   "lang": {
+    "en": {
+     "subject": "Kathmandu",
+     "object": "Nepal",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kathmandu is",
+     "target": "Nepal"
+    },
+    "hi": {
+     "subject": "काठमांडू",
+     "object": "नेपाल",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी काठमांडू है, उसका नाम है",
+     "target": "नेपाल"
+    }
+   }
+  },
+  {
+   "id": "capital_country_035",
+   "relation": "capital_country",
+   "seed": 886381430,
+   "lang": {
+    "en": {
+     "subject": "Colombo",
+     "object": "Sri Lanka",
+     "object_alts": [],
+     "prompt": "The country whose capital is Colombo is",
+     "target": "Sri Lanka"
+    },
+    "hi": {
+     "subject": "कोलंबो",
+     "object": "श्रीलंका",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी कोलंबो है, उसका नाम है",
+     "target": "श्रीलंका"
+    }
+   }
+  },
+  {
+   "id": "capital_country_037",
+   "relation": "capital_country",
+   "seed": 1793875441,
+   "lang": {
+    "en": {
+     "subject": "Baghdad",
+     "object": "Iraq",
+     "object_alts": [],
+     "prompt": "The country whose capital is Baghdad is",
+     "target": "Iraq"
+    },
+    "hi": {
+     "subject": "बग़दाद",
+     "object": "इराक",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी बग़दाद है, उसका नाम है",
+     "target": "इराक"
+    }
+   }
+  },
+  {
+   "id": "capital_country_038",
+   "relation": "capital_country",
+   "seed": 4427812,
+   "lang": {
+    "en": {
+     "subject": "Riyadh",
+     "object": "Saudi Arabia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Riyadh is",
+     "target": "Saudi Arabia"
+    },
+    "hi": {
+     "subject": "रियाद",
+     "object": "सऊदी अरब",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी रियाद है, उसका नाम है",
+     "target": "सऊदी अरब"
+    }
+   }
+  },
+  {
+   "id": "capital_country_046",
+   "relation": "capital_country",
+   "seed": 2007525055,
+   "lang": {
+    "en": {
+     "subject": "Budapest",
+     "object": "Hungary",
+     "object_alts": [],
+     "prompt": "The country whose capital is Budapest is",
+     "target": "Hungary"
+    },
+    "hi": {
+     "subject": "बुडापेस्ट",
+     "object": "हंगरी",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी बुडापेस्ट है, उसका नाम है",
+     "target": "हंगरी"
+    }
+   }
+  },
+  {
+   "id": "capital_country_048",
+   "relation": "capital_country",
+   "seed": 998437727,
+   "lang": {
+    "en": {
+     "subject": "Kyiv",
+     "object": "Ukraine",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kyiv is",
+     "target": "Ukraine"
+    },
+    "hi": {
+     "subject": "कीव",
+     "object": "यूक्रेन",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी कीव है, उसका नाम है",
+     "target": "यूक्रेन"
+    }
+   }
+  },
+  {
+   "id": "capital_country_050",
+   "relation": "capital_country",
+   "seed": 1546960182,
+   "lang": {
+    "en": {
+     "subject": "Belgrade",
+     "object": "Serbia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Belgrade is",
+     "target": "Serbia"
+    },
+    "hi": {
+     "subject": "बेलग्रेड",
+     "object": "सर्बिया",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी बेलग्रेड है, उसका नाम है",
+     "target": "सर्बिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_056",
+   "relation": "capital_country",
+   "seed": 1784820928,
+   "lang": {
+    "en": {
+     "subject": "Seoul",
+     "object": "South Korea",
+     "object_alts": [],
+     "prompt": "The country whose capital is Seoul is",
+     "target": "South Korea"
+    },
+    "hi": {
+     "subject": "सियोल",
+     "object": "दक्षिण कोरिया",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी सियोल है, उसका नाम है",
+     "target": "दक्षिण कोरिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_065",
+   "relation": "capital_country",
+   "seed": 1136062718,
+   "lang": {
+    "en": {
+     "subject": "Wellington",
+     "object": "New Zealand",
+     "object_alts": [],
+     "prompt": "The country whose capital is Wellington is",
+     "target": "New Zealand"
+    },
+    "hi": {
+     "subject": "वेलिंगटन",
+     "object": "न्यूज़ीलैंड",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी वेलिंगटन है, उसका नाम है",
+     "target": "न्यूजीलैंड"
+    }
+   }
+  },
+  {
+   "id": "capital_country_069",
+   "relation": "capital_country",
+   "seed": 958323099,
+   "lang": {
+    "en": {
+     "subject": "Panama City",
+     "object": "Panama",
+     "object_alts": [],
+     "prompt": "The country whose capital is Panama City is",
+     "target": "Panama"
+    },
+    "hi": {
+     "subject": "पनामा सिटी",
+     "object": "पनामा",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी पनामा सिटी है, उसका नाम है",
+     "target": "पनामा"
+    }
+   }
+  },
+  {
+   "id": "capital_country_085",
+   "relation": "capital_country",
+   "seed": 1556497973,
+   "lang": {
+    "en": {
+     "subject": "Kuala Lumpur",
+     "object": "Malaysia",
+     "object_alts": [],
+     "prompt": "The country whose capital is Kuala Lumpur is",
+     "target": "Malaysia"
+    },
+    "hi": {
+     "subject": "कुआलालंपुर",
+     "object": "मलेशिया",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी कुआलालंपुर है, उसका नाम है",
+     "target": "मलेशिया"
+    }
+   }
+  },
+  {
+   "id": "capital_country_102",
+   "relation": "capital_country",
+   "seed": 532687999,
+   "lang": {
+    "en": {
+     "subject": "Amsterdam",
+     "object": "the Netherlands",
+     "object_alts": [],
+     "prompt": "The country whose capital is Amsterdam is",
+     "target": "the Netherlands"
+    },
+    "hi": {
+     "subject": "एम्स्टर्डम",
+     "object": "नीदरलैंड",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी एम्स्टर्डम है, उसका नाम है",
+     "target": "नीदरलैंड"
+    }
+   }
+  },
+  {
+   "id": "capital_country_118",
+   "relation": "capital_country",
+   "seed": 1091982399,
+   "lang": {
+    "en": {
+     "subject": "Malé",
+     "object": "the Maldives",
+     "object_alts": [],
+     "prompt": "The country whose capital is Malé is",
+     "target": "the Maldives"
+    },
+    "hi": {
+     "subject": "माले",
+     "object": "मालदीव",
+     "object_alts": [],
+     "prompt": "वह देश जिसकी राजधानी माले है, उसका नाम है",
+     "target": "मालदीव"
+    }
+   }
+  }
+ ]
+}

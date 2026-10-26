@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.13)  25 OCT 2026 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.9.13)  26 OCT 2026 07:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -694,19 +694,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 
 [6 <./figures/fig4_layer_hist.pdf> <./figures/fig3_hindi.pdf>] [7 <./figures/fi
-g5_sweep_llama.png>] [8 <./figures/fig6_sweep_gemma2.png>] [9] [10]
-Underfull \hbox (badness 1163) in paragraph at lines 172--173
+g5_sweep_llama.png>] [8 <./figures/fig6_sweep_gemma2.png>] [9] [10] [11]
+Underfull \hbox (badness 1163) in paragraph at lines 174--175
 []\T1/ptm/m/n/10 (+20) Geva et al. (2023). Dis-sect-ing Re-call of Fac-tual As-
 so-ci-a-tions in Auto-Regressive Lan-guage Mod-els.
  []
 
-[11]
-Underfull \hbox (badness 5288) in paragraph at lines 179--180
+
+Underfull \hbox (badness 5288) in paragraph at lines 181--182
 []\T1/ptm/m/n/10 (+20) Zhang et al. (2024). Mul-ti-lin-gual Knowl-edge Edit-ing
  with Language-Agnostic Fac-tual Neu-rons.
  []
 
-[12] (main.aux)
+[12] [13] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -715,13 +715,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0D00B31A948E7B9DB6944C81E796C17C;3003.
  ) 
 Here is how much of TeX's memory you used:
- 14899 strings out of 467871
- 236645 string characters out of 5414952
+ 14900 strings out of 467871
+ 236652 string characters out of 5414952
  691976 words of memory out of 5000000
  43160 multiletter control sequences out of 15000+600000
  703033 words of font info for 365 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,2160b,612s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,9n,79p,2160b,614s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Som Praneeth\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi6
 00\ectt1095.pk><C:/Users/Som Praneeth/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmmi10.pfb><C:/Users/Som Praneeth/AppData/Local/Programs/Mi
@@ -732,9 +732,9 @@ om Praneeth/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/
 Users/Som Praneeth/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
 fb><C:/Users/Som Praneeth/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/u
 tmri8a.pfb>
-Output written on main.pdf (12 pages, 631291 bytes).
+Output written on main.pdf (13 pages, 632598 bytes).
 PDF statistics:
- 498 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
+ 503 PDF objects out of 1000 (max. 8388607)
+ 66 named destinations out of 1000 (max. 500000)
  80535 words of extra memory for PDF output out of 89155 (max. 10000000)
 

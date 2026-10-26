@@ -1,6 +1,6 @@
 # The Babel Effect: Cross-Lingual Causal Profiles of Factual Recall in Two Small Language Models
 
-*Draft v2 (work in progress; Section 4.7 added 2026-10-25). Not yet run: Hindi interchange (pre-registered as A15). The BLOOM-1b7 and Llama-3.2-1B pilots kept too few facts (34 and 38 < 50) to run (A10). Every number is read from `results/manifest.json` or from a logged run (see `docs/LOG.md`). Hypotheses were pre-registered in `docs/HYPOTHESIS.md` (amendments A1-A13c).*
+*Draft v2 (work in progress; Section 4.7 added 2026-10-25). The Hindi interchange (A15) was run but is underpowered (Section 4.7). The BLOOM-1b7 and Llama-3.2-1B pilots kept too few facts (34 and 38 < 50) to run (A10). Every number is read from `results/manifest.json` or from a logged run (see `docs/LOG.md`). Hypotheses were pre-registered in `docs/HYPOTHESIS.md` (amendments A1-A13c).*
 
 ## Abstract
 
@@ -101,6 +101,8 @@ At site A the ratio is Llama EN-to-ES 1.17 [1.09, 1.28] and ES-to-EN 0.90 [0.86,
 
 *Caveats.* Four relations (capital of country, capital country, city country, landmark city), English and Spanish only, and the identity check differs from zero by up to 0.119 nats (bf16 batch numerics). The tracing increments above do not predict interchange success per fact: the Spearman correlation is -0.04 in Llama (n = 40, p = 0.83), so the pre-registered metric-validity check fails there; in Gemma it is 0.23 on only 9 facts. Tracing similarity and interchange therefore support the same conclusion for these relations without being shown to measure the same quantity.
 
+*Hindi interchange (A15, underpowered).* We repeated the test with Hindi in place of Spanish. Hindi recall limited the fact set to 30 Llama facts (all capital-of) and 16 Gemma facts (all capital-country), giving 23 and 12 source entities, below the pre-registered floor of 25, so we make no claim. In the pre-registered primary direction (English source into a Hindi prompt) the same-language ceiling is too weak (answer flips in 12% of Llama and 36% of Gemma cases against the required 60%), so the gate fails in both models. In the reverse direction the gate passes (flip 0.80 and 0.82) and the site-A ratio is 0.74 [0.67, 0.81] in Llama and 0.74 [0.69, 0.82] in Gemma, with cross-language flip rates of 0.26 and 0.45; by the rule this is PARTIAL, but we report it as descriptive only. The Hindi question therefore stays open.
+
 ## 5. Discussion
 
 *What the evidence supports.* In both models the English and Spanish causal profiles of the same fact are aligned beyond a shuffled-fact null, and the alignment survives a relation-stratified null, rewording of the question (H8), and, in Llama, restriction to answers that are not copyable across languages. This is consistent with partly shared lookup for these two languages, but the lexical control (Section 4.6) shows that in Llama the alignment is concentrated in facts whose English and Spanish subject names are similar. Hindi is weaker: its overlap with English is above the pooled null in Llama (z = 2.90 on 126 facts) but not significant after the stratified null with Bonferroni correction (z = 2.67, p = 0.012), and depends on how many tokens the Hindi subject takes.
@@ -111,7 +113,7 @@ At site A the ratio is Llama EN-to-ES 1.17 [1.09, 1.28] and ES-to-EN 0.90 [0.86,
 
 *Cost of mid-layer edits.* In Llama, edits at L//2 have higher median transfer than edits at the traced layer (Spanish 0.78 against 0.70, Hindi 0.105 against 0.005; the intervals overlap) but a much higher median specificity loss (0.57 against 0.06 on 20 facts); any transfer gain is therefore not free.
 
-*Scope.* Two model families, hand-written facts, interchange on four relations and English-Spanish only (Hindi untested), 10 to 30 edit facts per condition and a small Gemma non-copyable sample limit generality. The BLOOM-1b7 and Llama-3.2-1B pilots (A10), which test whether the weak Hindi result is a tokenisation effect, had not run when this draft was written.
+*Scope.* Two model families, hand-written facts, interchange on four relations and English-Spanish only (the Hindi interchange was underpowered, so Hindi remains untested), 10 to 30 edit facts per condition and a small Gemma non-copyable sample limit generality. The BLOOM-1b7 and Llama-3.2-1B pilots (A10), which test whether the weak Hindi result is a tokenisation effect, had not run when this draft was written.
 
 ## 6. Deviations from the pre-registration
 

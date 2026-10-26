@@ -1,0 +1,3 @@
+llama {'en2hi': (50, 'P2 SHARED', False), 'hi2en': (50, 'P4 PARTIAL', True)}
+gemma2 {'en2hi': (22, 'P2 SHARED', False), 'hi2en': (22, 'P4 PARTIAL', True)}
+wrote analysis\run_20261026_e2h_analysis_A15

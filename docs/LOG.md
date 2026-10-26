@@ -90,3 +90,6 @@
 ## 2026-10-25 (night) Paper build + A15 registered
 - `paper/build_tex.py` updated (edit table now has the Gemma follow-up and labels the follow-up third layer "A9 layer"; new Table 4 for the interchange test read from `analysis/run_20261025_e2_analysis_A13/results.json`); rebuilt `paper/latex/main.pdf` (12 pages, no LaTeX errors) and copied to `paper/The_Babel_Effect_draft_v2.pdf`. Draft note now says only the Hindi interchange (A15) is unrun.
 - A15 (EN-HI interchange) registered and committed before any Hindi data (4492a3b); `code/interchange.py` and `code/e2_analysis.py` generalised to `--langs`; A13 results reproduced through the changed analysis code with max abs diff 0 (`analysis/run_20261025_e2_analysis_A13_regress`). GPU run (`scripts_night_e2h.sh`) waits for the laptop.
+
+## 2026-10-26 A15 Hindi interchange run (02:09-02:54, GPU, user-lent laptop)
+Ran `scripts_night_e2h.sh`: filters, full runs (Llama 22 min, Gemma 15 min), analysis. Result: underpowered (23 / 12 source entities < floor 25); EN->HI gate failed in both models; HI->EN site A PARTIAL (I about 0.74), descriptive only. Manifest 1153 claims verified (`e2h_*` keys). Details in `docs/EXPERIMENT_LOG.md`.
