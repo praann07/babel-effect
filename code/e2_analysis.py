@@ -67,6 +67,7 @@ def main() -> None:
     ap.add_argument("--tag", default="e2_analysis")
     ap.add_argument("--langs", default="en,es", help="A15: language pair, e.g. en,hi (P5/P6 are skipped for pairs other than en,es)")
     ap.add_argument("--models", default="llama,gemma2")
+    ap.add_argument("--sites", default="A,B", help="A18: sites to analyse (span-wise runs only have site A)")
     ap.add_argument("--exclude-leak", action="store_true", help="A17: drop pairs whose target or source fact has the answer inside the subject")
     a = ap.parse_args()
     leak: set = set()
@@ -102,6 +103,8 @@ def main() -> None:
             conf = np.array([p["jaccard_source"] == 0 for p in pd_])
             od: dict = {"n_all": int(sel.sum()), "n_confirmatory": int(conf.sum())}
             for si, site in enumerate(("A", "B")):
+                if site not in a.sites.split(","):
+                    continue
                 g = band_and_gate(Dd, Fd, si)
                 band = np.array(g["band_layers"])
                 r = {"gate": g, "confirmatory": ratio_ci(Dd[conf], src[conf], band, si, rng) if conf.sum() >= 5 else None, "all_pairs": ratio_ci(Dd, src, band, si, rng)}
