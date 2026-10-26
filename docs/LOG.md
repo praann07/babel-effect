@@ -93,3 +93,6 @@
 
 ## 2026-10-26 A15 Hindi interchange run (02:09-02:54, GPU, user-lent laptop)
 Ran `scripts_night_e2h.sh`: filters, full runs (Llama 22 min, Gemma 15 min), analysis. Result: underpowered (23 / 12 source entities < floor 25); EN->HI gate failed in both models; HI->EN site A PARTIAL (I about 0.74), descriptive only. Manifest 1153 claims verified (`e2h_*` keys). Details in `docs/EXPERIMENT_LOG.md`.
+
+## 2026-10-26 A16 run (12:21-14:04, GPU, user-lent laptop)
+`scripts_night_a16.sh` ran in 1h43: Hindi->English interchange on 66 (Llama) / 55 (Gemma) facts, 66 / 54 source entities (floor met). Site A: Llama I 0.74 [0.69, 0.78] PARTIAL; Gemma 0.76 [0.71, 0.81] SHARED (lower bound 0.71). Outside-A15 check within 0.02. Manifest 1209 claims verified. Details in `docs/EXPERIMENT_LOG.md`.
