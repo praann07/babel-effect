@@ -13,6 +13,7 @@ from confound_overlap import SEED, DELTA, center, cluster_boot_mean, cosm, group
 from controls_overlap import SETS, clusters
 
 SEEDRUN = {"llama": None, "gemma2": None}  # set by --llama-run / --gemma-run
+EXCLUDE: set = set()  # A17: fact ids dropped from every analysis that goes through meta() (answer-in-subject leakage)
 
 
 def meta(m: str):
@@ -25,7 +26,7 @@ def meta(m: str):
     for f in (f1, f2):
         for x in json.loads(Path(f).read_text(encoding="utf8"))["facts"]:
             facts[x["id"]] = {lg: x["lang"][lg] for lg in ("en", "es", "hi")} | {"relation": x["relation"]}
-    ids = sorted({f for f, _ in recs if all((f, lg) in recs and is_valid(recs[(f, lg)]) for lg in ("en", "es", "hi"))})
+    ids = sorted({f for f, _ in recs if f not in EXCLUDE and all((f, lg) in recs and is_valid(recs[(f, lg)]) for lg in ("en", "es", "hi"))})
     rel = np.array([facts[i]["relation"] for i in ids])
     cnt = {r: int((rel == r).sum()) for r in set(rel)}
     strata = np.array([r if cnt[r] >= 10 else "other" for r in rel])
@@ -43,12 +44,17 @@ def nc(P: np.ndarray, strata: np.ndarray) -> np.ndarray:
 
 
 def main() -> None:
+    global EXCLUDE
     ap = argparse.ArgumentParser()
     ap.add_argument("--llama-run", required=True)
     ap.add_argument("--gemma-run", required=True)
     ap.add_argument("--perm", type=int, default=10000)
     ap.add_argument("--tag", default="seeds_A13a")
+    ap.add_argument("--exclude-leak", action="store_true", help="A17: drop answer-in-subject facts")
     a = ap.parse_args()
+    if a.exclude_leak:
+        from leakage import leaky_ids
+        EXCLUDE = leaky_ids()
     B = a.perm
     out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"
     out.mkdir(parents=True, exist_ok=False)

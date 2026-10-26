@@ -115,6 +115,7 @@ def main() -> None:
     ap.add_argument("--tag", default="p3overlap")
     ap.add_argument("--seed", type=int, default=20261012)
     ap.add_argument("--perm", type=int, default=N_PERM, help="permutations (default 1000 as pre-registered in A3; 10000 for the A14 rerun)")
+    ap.add_argument("--exclude-leak", action="store_true", help="A17: drop answer-in-subject facts")
     a = ap.parse_args()
     N_PERM = a.perm
     runs = [Path(x) for x in a.run.split(",")]  # several trace runs (e.g. main + extra relations) are merged
@@ -125,6 +126,9 @@ def main() -> None:
         arr |= a_
         recs |= c_
     facts = sorted({f for f, _ in recs})
+    if a.exclude_leak:
+        from leakage import leaky_ids
+        facts = [f for f in facts if f not in leaky_ids()]
     rel = {f: recs[(f, "en")]["relation"] for f in facts}
     valid = [f for f in facts if all(is_valid(recs[(f, lg)]) for lg in LANGS)]
     sets = {"primary_valid": valid, "all_kept": facts,
