@@ -63,7 +63,12 @@ def fit(D, cov, strata, cl, mask, rng):
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--llama-run", required=True); ap.add_argument("--gemma-run", required=True); ap.add_argument("--tag", default="seeds_covariates_A13b")
+    ap.add_argument("--exclude-leak", action="store_true", help="A17: drop answer-in-subject facts")
     a = ap.parse_args()
+    if a.exclude_leak:
+        import seeds_analysis
+        from leakage import leaky_ids
+        seeds_analysis.EXCLUDE = leaky_ids()
     from transformers import AutoTokenizer
     out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"; out.mkdir(parents=True, exist_ok=False)
     res = {}

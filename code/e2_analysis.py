@@ -67,7 +67,13 @@ def main() -> None:
     ap.add_argument("--tag", default="e2_analysis")
     ap.add_argument("--langs", default="en,es", help="A15: language pair, e.g. en,hi (P5/P6 are skipped for pairs other than en,es)")
     ap.add_argument("--models", default="llama,gemma2")
+    ap.add_argument("--exclude-leak", action="store_true", help="A17: drop pairs whose target or source fact has the answer inside the subject")
     a = ap.parse_args()
+    leak: set = set()
+    if a.exclude_leak:
+        import seeds_analysis
+        from leakage import leaky_ids
+        leak = seeds_analysis.EXCLUDE = leaky_ids()
     l0, l1 = a.langs.split(",")
     DIRS = (f"{l0}2{l1}", f"{l1}2{l0}")
     ES = a.langs == "en,es"
@@ -77,6 +83,9 @@ def main() -> None:
     for m, run, sruns in [x for x in (("llama", a.llama_run, a.llama_seeds), ("gemma2", a.gemma_run, a.gemma_seeds)) if x[0] in a.models.split(",")]:
         rng = np.random.default_rng(SEED)
         D, F, pairs, meta = load_run(run)
+        if leak:
+            kp = np.array([p["target"] not in leak and p["source"] not in leak for p in pairs])
+            D, F, pairs = D[kp], F[kp], [p for p, k in zip(pairs, kp) if k]
         facts = {f["id"]: f for f in json.loads(Path(meta.get("facts_file", f"data/v2/e2_facts_{m}.json")).read_text(encoding="utf8"))["facts"]}
         tok = AutoTokenizer.from_pretrained(TOK_DIR[m])
         spandiff = {}
@@ -98,6 +107,7 @@ def main() -> None:
                 r = {"gate": g, "confirmatory": ratio_ci(Dd[conf], src[conf], band, si, rng) if conf.sum() >= 5 else None, "all_pairs": ratio_ci(Dd, src, band, si, rng)}
                 if r["confirmatory"]:
                     r["verdict"] = verdict(r["confirmatory"])
+                    r["lower95_ge_threshold"] = {str(t): bool(r["confirmatory"]["ci95"][0] >= t) for t in (0.6, 0.65, 0.7, 0.75)}  # A17 threshold sensitivity
                     r["confirmatory"]["n_source_entities"] = int(len(np.unique(src[conf])))
                 Dc = Dd[conf] if conf.sum() >= 5 else Dd
                 same_l, cross_l = Dc[:, COND["same"], si].mean(0), Dc[:, COND["cross"], si].mean(0)
