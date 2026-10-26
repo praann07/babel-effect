@@ -1,0 +1,13 @@
+llama A13_en2es plain n=142 I=1.169 {'S': (1.094, 1.272, 'SHA'), 'T': (1.109, 1.241, 'SHA'), 'C': (1.018, 1.247, 'SHA'), 'W': (1.07, 1.329, 'SHA')} ROBUST
+llama A13_en2es leakfree n=132 I=1.173 {'S': (1.091, 1.282, 'SHA'), 'T': (1.11, 1.252, 'SHA'), 'C': (1.017, 1.254, 'SHA'), 'W': (1.07, 1.35, 'SHA')} ROBUST
+llama A13_es2en plain n=142 I=0.901 {'S': (0.855, 0.943, 'SHA'), 'T': (0.872, 0.928, 'SHA'), 'C': (0.83, 0.977, 'SHA'), 'W': (0.84, 0.957, 'SHA')} ROBUST
+llama A13_es2en leakfree n=132 I=0.905 {'S': (0.858, 0.951, 'SHA'), 'T': (0.875, 0.934, 'SHA'), 'C': (0.851, 0.982, 'SHA'), 'W': (0.839, 0.961, 'SHA')} ROBUST
+llama A16_hi2en plain n=254 I=0.741 {'S': (0.698, 0.783, 'PAR'), 'T': (0.712, 0.767, 'SHA'), 'C': (0.723, 0.796, 'SHA'), 'W': (0.684, 0.792, 'PAR')} NOT-ROBUST
+llama A16_hi2en leakfree n=247 I=0.741 {'S': (0.698, 0.784, 'PAR'), 'T': (0.711, 0.769, 'SHA'), 'C': (0.723, 0.796, 'SHA'), 'W': (0.685, 0.796, 'PAR')} NOT-ROBUST
+gemma2 A13_en2es plain n=162 I=1.068 {'S': (1.031, 1.115, 'SHA'), 'T': (1.04, 1.098, 'SHA'), 'C': (1.036, 1.111, 'SHA'), 'W': (1.017, 1.134, 'SHA')} ROBUST
+gemma2 A13_en2es leakfree n=151 I=1.074 {'S': (1.037, 1.118, 'SHA'), 'T': (1.047, 1.104, 'SHA'), 'C': (1.041, 1.116, 'SHA'), 'W': (1.027, 1.144, 'SHA')} ROBUST
+gemma2 A13_es2en plain n=162 I=0.938 {'S': (0.906, 0.968, 'SHA'), 'T': (0.916, 0.961, 'SHA'), 'C': (0.904, 0.955, 'SHA'), 'W': (0.894, 0.979, 'SHA')} ROBUST
+gemma2 A13_es2en leakfree n=151 I=0.932 {'S': (0.904, 0.959, 'SHA'), 'T': (0.912, 0.952, 'SHA'), 'C': (0.908, 0.946, 'SHA'), 'W': (0.889, 0.969, 'SHA')} ROBUST
+gemma2 A16_hi2en plain n=209 I=0.763 {'S': (0.715, 0.808, 'SHA'), 'T': (0.729, 0.793, 'SHA'), 'C': (0.623, 0.844, 'PAR'), 'W': (0.698, 0.82, 'PAR')} NOT-ROBUST
+gemma2 A16_hi2en leakfree n=171 I=0.804 {'S': (0.761, 0.844, 'SHA'), 'T': (0.782, 0.825, 'SHA'), 'C': (0.732, 0.856, 'SHA'), 'W': (0.753, 0.851, 'SHA')} ROBUST
+wrote analysis\run_20261026_cluster_A17b

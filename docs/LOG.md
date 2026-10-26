@@ -98,3 +98,4 @@ Ran `scripts_night_e2h.sh`: filters, full runs (Llama 22 min, Gemma 15 min), ana
 `scripts_night_a16.sh` ran in 1h43: Hindi->English interchange on 66 (Llama) / 55 (Gemma) facts, 66 / 54 source entities (floor met). Site A: Llama I 0.74 [0.69, 0.78] PARTIAL; Gemma 0.76 [0.71, 0.81] SHARED (lower bound 0.71). Outside-A15 check within 0.02. Manifest 1209 claims verified. Details in `docs/EXPERIMENT_LOG.md`.
 
 - 2026-10-26 A17 leakage-excluded re-analysis done: no verdict changed (details `docs/EXPERIMENT_LOG.md`); manifest 1289 verified.
+- 2026-10-26 A17b clustering sensitivity: EN-ES SHARED under all clusterings; Hindi->English labels not clustering-robust (report as estimate ~0.74-0.80). Manifest 1469.
