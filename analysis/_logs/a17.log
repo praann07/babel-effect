@@ -1,0 +1,15 @@
+llama {'verdict': 'SURVIVES', 'D_ind_informative': 0.3656463880680109, 'ci97.5': [0.28957911775969636, 0.44751499721984545], 'ceiling_en': 0.824149132088611, 'ceiling_es': 0.7962333194519344} {'P1_gemma_ind_includes_0_and_Delta_pos': False, 'P2_llama_ind_pos_and_below_0.239': False, 'P3_Dsh_ge_Dind_on_EQ': False, 'P4_regression_pass': True}
+gemma2 {'verdict': 'SURVIVES', 'D_ind_informative': 0.3430239458878835, 'ci97.5': [0.23308619630360417, 0.46322187887839034], 'ceiling_en': 0.5261386275291443, 'ceiling_es': 0.4940099706252416} {'P1_gemma_ind_includes_0_and_Delta_pos': False, 'P2_llama_ind_pos_and_below_0.239': False, 'P3_Dsh_ge_Dind_on_EQ': True, 'P4_regression_pass': True}
+wrote analysis\run_20261026_seeds_A13a_A17
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+llama informative 95 0.294 [0.18, 0.408] present J0 53 NR0 65
+llama all_non_IP 117 0.315 [0.2, 0.43] present J0 63 NR0 87
+gemma2 informative 15 0.244 [-0.188, 0.676] unresolved J0 15 NR0 9
+gemma2 all_non_IP 44 0.34 [0.117, 0.563] present J0 32 NR0 27
+llama {'en2es': (132, 'P2 SHARED', True), 'es2en': (132, 'P2 SHARED', True)}
+gemma2 {'en2es': (151, 'P2 SHARED', True), 'es2en': (151, 'P2 SHARED', True)}
+wrote analysis\run_20261026_e2_analysis_A13_A17
+llama {'hi2en': (247, 'P4 PARTIAL', True)}
+gemma2 {'hi2en': (171, 'P2 SHARED', True)}
+wrote analysis\run_20261026_e2h2_analysis_A16_A17
+A17 CPU done

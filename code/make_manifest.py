@@ -224,6 +224,24 @@ def claims() -> list[dict]:
                   (f"e2h2_{m}_{st}_verdict", E2H2, b + ["verdict"]), (f"e2h2_{m}_{st}_P1", E2H2, b + ["gate", "gate_P1"]), (f"e2h2_{m}_{st}_lstar", E2H2, b + ["gate", "l_star"]),
                   (f"e2h2_{m}_{st}_flip_same", E2H2, b + ["flip_at_lstar_confirmatory", "same"]), (f"e2h2_{m}_{st}_flip_cross", E2H2, b + ["flip_at_lstar_confirmatory", "cross"]),
                   (f"e2h2_{m}_{st}_same_lstar", E2H2, b + ["gate", "mean_same_at_lstar"])]
+    A17 = {"seeds": "analysis/run_20261026_seeds_A13a_A17/results.json", "cov": "analysis/run_20261026_seeds_covariates_A13b_A17/results.json",
+           "e2": "analysis/run_20261026_e2_analysis_A13_A17/results.json", "e2h": "analysis/run_20261026_e2h2_analysis_A16_A17/results.json"}
+    for m in ("llama", "gemma2"):  # A17: answer-in-subject leakage excluded
+        c += [(f"a17_{m}_g1_verdict", A17["seeds"], [m, "G1", "verdict"]), (f"a17_{m}_g1_D", A17["seeds"], [m, "G1", "D_ind_informative"]), (f"a17_{m}_g1_ci_lo", A17["seeds"], [m, "G1", "ci97.5", 0]),
+              (f"a17_{m}_g1_ci_hi", A17["seeds"], [m, "G1", "ci97.5", 1]), (f"a17_{m}_n", A17["seeds"], [m, "n"])]
+        for st in ("informative", "all_non_IP"):
+            c += [(f"a17_{m}_a13b_{st}_n", A17["cov"], [m, st, "n"]), (f"a17_{m}_a13b_{st}_pred", A17["cov"], [m, st, "target_pred_D"]), (f"a17_{m}_a13b_{st}_lo", A17["cov"], [m, st, "target_ci97.5", 0]),
+                  (f"a17_{m}_a13b_{st}_hi", A17["cov"], [m, st, "target_ci97.5", 1]), (f"a17_{m}_a13b_{st}_verdict", A17["cov"], [m, st, "verdict"])]
+        for d, key in (("en2es", "e2"), ("es2en", "e2"), ("hi2en", "e2h")):
+            if key == "e2" and d == "hi2en" or key == "e2h" and d != "hi2en":
+                continue
+            b = [m, d, "site_A"]
+            c += [(f"a17_{m}_{d}_I", A17[key], b + ["confirmatory", "I"]), (f"a17_{m}_{d}_ci95_lo", A17[key], b + ["confirmatory", "ci95", 0]), (f"a17_{m}_{d}_ci95_hi", A17[key], b + ["confirmatory", "ci95", 1]),
+                  (f"a17_{m}_{d}_n_src", A17[key], b + ["confirmatory", "n_source_entities"]), (f"a17_{m}_{d}_verdict", A17[key], b + ["verdict"])]
+        for pr in ("en-es", "en-hi", "es-hi"):
+            for st in ("z", "p_one_sided", "observed_median"):
+                c.append((f"a17_{m}_ov_{pr}_{st}", f"analysis/run_20261026_p3overlap_v2_perm10k_A17_{m}/results.json", ["sets", "primary_valid", "pairs", pr, "mlp_cosine", st]))
+        c.append((f"a17_{m}_ov_n", f"analysis/run_20261026_p3overlap_v2_perm10k_A17_{m}/results.json", ["sets", "primary_valid", "n_facts"]))
     for tag, art in PK.items():  # A14: overlap rerun with 10,000 permutations
         for pr in ("en-es", "en-hi", "es-hi"):
             for st in ("z", "p_one_sided", "observed_median"):
