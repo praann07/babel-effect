@@ -1,0 +1,10 @@
+{
+ "llama_run": "analysis/run_20261026_e2hfull_A_llama",
+ "gemma_run": "analysis/run_20261026_e2hfull_A_gemma2",
+ "llama_seeds": "analysis/run_20261024_p3seeds_10240109_llama",
+ "gemma_seeds": "analysis/run_20261024_p3seeds_10240109_gemma2",
+ "tag": "e2h_analysis_A15",
+ "langs": "en,hi",
+ "models": "llama,gemma2",
+ "amendment": "A13"
+}

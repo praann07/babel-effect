@@ -1,0 +1,49 @@
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   7%|▋         | 20/288 [00:00<00:04, 57.68it/s]Loading weights:   9%|▉         | 26/288 [00:00<00:05, 46.61it/s]Loading weights:  11%|█         | 31/288 [00:00<00:08, 29.56it/s]Loading weights:  13%|█▎        | 37/288 [00:00<00:07, 33.66it/s]Loading weights:  14%|█▍        | 41/288 [00:01<00:10, 22.90it/s]Loading weights:  18%|█▊        | 51/288 [00:01<00:06, 34.30it/s]Loading weights:  19%|█▉        | 56/288 [00:01<00:09, 25.49it/s]Loading weights:  22%|██▏       | 62/288 [00:01<00:07, 30.31it/s]Loading weights:  23%|██▎       | 67/288 [00:02<00:09, 22.44it/s]Loading weights:  25%|██▌       | 73/288 [00:02<00:08, 26.79it/s]Loading weights:  27%|██▋       | 77/288 [00:02<00:12, 17.57it/s]Loading weights:  28%|██▊       | 82/288 [00:03<00:09, 21.19it/s]Loading weights:  30%|███       | 87/288 [00:03<00:13, 15.17it/s]Loading weights:  33%|███▎      | 95/288 [00:03<00:08, 22.16it/s]Loading weights:  34%|███▍      | 99/288 [00:04<00:11, 16.86it/s]Loading weights:  36%|███▌      | 103/288 [00:04<00:09, 18.81it/s]Loading weights:  38%|███▊      | 108/288 [00:04<00:09, 18.18it/s]Loading weights:  39%|███▊      | 111/288 [00:04<00:09, 18.96it/s]Loading weights:  41%|████      | 117/288 [00:04<00:07, 24.06it/s]Loading weights:  42%|████▏     | 121/288 [00:05<00:09, 17.43it/s]Loading weights:  43%|████▎     | 125/288 [00:05<00:08, 19.33it/s]Loading weights:  45%|████▌     | 131/288 [00:05<00:06, 23.16it/s]Loading weights:  47%|████▋     | 134/288 [00:05<00:08, 18.19it/s]Loading weights:  48%|████▊     | 137/288 [00:06<00:07, 19.18it/s]Loading weights:  49%|████▉     | 142/288 [00:06<00:09, 14.86it/s]Loading weights:  51%|█████     | 147/288 [00:06<00:07, 18.63it/s]Loading weights:  53%|█████▎    | 153/288 [00:07<00:08, 16.65it/s]Loading weights:  55%|█████▍    | 157/288 [00:07<00:06, 19.06it/s]Loading weights:  57%|█████▋    | 163/288 [00:07<00:05, 22.46it/s]Loading weights:  58%|█████▊    | 166/288 [00:07<00:06, 17.84it/s]Loading weights:  59%|█████▉    | 171/288 [00:07<00:05, 21.93it/s]Loading weights:  60%|██████    | 174/288 [00:07<00:05, 21.99it/s]Loading weights:  61%|██████▏   | 177/288 [00:08<00:06, 16.87it/s]Loading weights:  64%|██████▎   | 183/288 [00:08<00:04, 23.18it/s]Loading weights:  65%|██████▍   | 187/288 [00:08<00:05, 19.64it/s]Loading weights:  66%|██████▌   | 190/288 [00:08<00:05, 19.23it/s]Loading weights:  67%|██████▋   | 193/288 [00:08<00:04, 20.16it/s]Loading weights:  68%|██████▊   | 196/288 [00:09<00:06, 13.36it/s]Loading weights:  70%|██████▉   | 201/288 [00:09<00:04, 17.76it/s]Loading weights:  72%|███████▏  | 208/288 [00:09<00:04, 17.26it/s]Loading weights:  75%|███████▌  | 216/288 [00:10<00:02, 24.35it/s]Loading weights:  76%|███████▋  | 220/288 [00:10<00:03, 18.31it/s]Loading weights:  78%|███████▊  | 224/288 [00:10<00:03, 20.83it/s]Loading weights:  80%|███████▉  | 230/288 [00:10<00:03, 18.32it/s]Loading weights:  82%|████████▏ | 237/288 [00:11<00:02, 25.07it/s]Loading weights:  84%|████████▎ | 241/288 [00:11<00:02, 18.74it/s]Loading weights:  86%|████████▋ | 249/288 [00:11<00:01, 26.83it/s]Loading weights:  88%|████████▊ | 254/288 [00:11<00:01, 21.40it/s]Loading weights:  90%|████████▉ | 258/288 [00:12<00:01, 22.93it/s]Loading weights:  91%|█████████▏| 263/288 [00:12<00:00, 25.86it/s]Loading weights:  93%|█████████▎| 267/288 [00:12<00:01, 20.09it/s]Loading weights:  95%|█████████▌| 274/288 [00:12<00:00, 20.47it/s]Loading weights:  96%|█████████▌| 277/288 [00:13<00:00, 19.86it/s]Loading weights:  99%|█████████▉| 285/288 [00:13<00:00, 28.78it/s]Loading weights: 100%|██████████| 288/288 [00:13<00:00, 21.92it/s]
+capital_of {'यह सर्वविदित है कि {s} की राजधानी है': 0.03333333333333333, '{s} देश की राजधानी का नाम है': 0.23333333333333334} -> {s} देश की राजधानी का नाम है
+capital_country {'वह देश जिसकी राजधानी {s} है, उसका नाम है': 0.6333333333333333, 'जिस देश की राजधानी {s} है, वह देश है': 0.36666666666666664} -> वह देश जिसकी राजधानी {s} है, उसका नाम है
+landmark_city {'वह शहर जहाँ {s} स्थित है, उसका नाम है': 0.16666666666666666, '{s} जिस शहर में स्थित है, वह शहर है': 0.0} -> वह शहर जहाँ {s} स्थित है, उसका नाम है
+landmark_country {'वह देश जहाँ {s} स्थित है, उसका नाम है': 0.2, '{s} जिस देश में स्थित है, वह देश है': 0.0} -> वह देश जहाँ {s} स्थित है, उसका नाम है
+city_country {'वह देश जहाँ {s} स्थित है, उसका नाम है': 0.36666666666666664, '{s} जिस देश में स्थित है, वह देश है': 0.03333333333333333} -> वह देश जहाँ {s} स्थित है, उसका नाम है
+{
+ "capital_country": {
+  "tune_n": 30,
+  "tune_en": 30,
+  "tune_hi": 19,
+  "eval_n": 95,
+  "eval_both": 16,
+  "template_ok": true
+ },
+ "capital_of": {
+  "tune_n": 30,
+  "tune_en": 27,
+  "tune_hi": 7,
+  "eval_n": 95,
+  "eval_both": 9,
+  "template_ok": false
+ },
+ "city_country": {
+  "tune_n": 30,
+  "tune_en": 25,
+  "tune_hi": 11,
+  "eval_n": 45,
+  "eval_both": 21,
+  "template_ok": false
+ },
+ "landmark_city": {
+  "tune_n": 30,
+  "tune_en": 29,
+  "tune_hi": 5,
+  "eval_n": 51,
+  "eval_both": 10,
+  "template_ok": false
+ },
+ "landmark_country": {
+  "tune_n": 30,
+  "tune_en": 25,
+  "tune_hi": 5,
+  "eval_n": 51,
+  "eval_both": 4,
+  "template_ok": false
+ }
+}
+kept 16

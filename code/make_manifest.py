@@ -33,6 +33,7 @@ CF = "analysis/run_20261024_confound_A12a/results.json"
 SD = "analysis/run_20261024_seeds_A13a_10240109/results.json"
 CV = "analysis/run_20261024_seeds_covariates_A13b/results.json"
 E2 = "analysis/run_20261025_e2_analysis_A13/results.json"
+E2H = "analysis/run_20261026_e2h_analysis_A15/results.json"
 MAN = Path("results/manifest.json")
 
 
@@ -201,6 +202,15 @@ def claims() -> list[dict]:
         c += [(f"e2_{m}_J0", E2, [m, "en2es", "covariate_model", "pred_ratio_at_J0"]), (f"e2_{m}_J1", E2, [m, "en2es", "covariate_model", "pred_ratio_at_J1"]),
               (f"e2_{m}_P5", E2, [m, "en2es", "covariate_model", "P5_lexical"]), (f"e2_{m}_P6_rho", E2, [m, "en2es", "P6_validity", "spearman"]),
               (f"e2_{m}_P6_n", E2, [m, "en2es", "P6_validity", "n_facts"]), (f"e2_{m}_P6_pass", E2, [m, "en2es", "P6_validity", "P6_pass"])]
+    for m in ("llama", "gemma2"):  # A15 Hindi interchange
+        c += [(f"e2h_{m}_n_facts", E2H, [m, "n_facts"]), (f"e2h_{m}_n_pair_dirs", E2H, [m, "n_pair_directions"])]
+        for d in ("en2hi", "hi2en"):
+            c += [(f"e2h_{m}_{d}_n_pairs", E2H, [m, d, "site_A", "confirmatory", "n_pairs"]), (f"e2h_{m}_{d}_n_src", E2H, [m, d, "site_A", "confirmatory", "n_source_entities"])]
+            for st in ("A", "B"):
+                b = [m, d, f"site_{st}"]
+                c += [(f"e2h_{m}_{d}_{st}_I", E2H, b + ["confirmatory", "I"]), (f"e2h_{m}_{d}_{st}_ci95_lo", E2H, b + ["confirmatory", "ci95", 0]), (f"e2h_{m}_{d}_{st}_ci95_hi", E2H, b + ["confirmatory", "ci95", 1]),
+                      (f"e2h_{m}_{d}_{st}_verdict", E2H, b + ["verdict"]), (f"e2h_{m}_{d}_{st}_P1", E2H, b + ["gate", "gate_P1"]), (f"e2h_{m}_{d}_{st}_flip_same", E2H, b + ["flip_at_lstar_confirmatory", "same"]),
+                      (f"e2h_{m}_{d}_{st}_flip_cross", E2H, b + ["flip_at_lstar_confirmatory", "cross"]), (f"e2h_{m}_{d}_{st}_same_lstar", E2H, b + ["gate", "mean_same_at_lstar"])]
     for tag, art in PK.items():  # A14: overlap rerun with 10,000 permutations
         for pr in ("en-es", "en-hi", "es-hi"):
             for st in ("z", "p_one_sided", "observed_median"):

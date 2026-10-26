@@ -1,0 +1,11 @@
+[2026-10-26 02:09:24] START e2h_filter_llama
+[2026-10-26 02:11:31] OK e2h_filter_llama
+[2026-10-26 02:11:31] START e2h_filter_gemma2
+[2026-10-26 02:16:24] OK e2h_filter_gemma2
+[2026-10-26 02:16:24] START e2h_full_llama
+[2026-10-26 02:38:28] OK e2h_full_llama
+[2026-10-26 02:38:28] START e2h_full_gemma2
+[2026-10-26 02:53:09] OK e2h_full_gemma2
+[2026-10-26 02:53:09] START e2h_analysis
+[2026-10-26 02:53:53] OK e2h_analysis
+[2026-10-26 02:53:53] e2h script finished

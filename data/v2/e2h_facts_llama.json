@@ -1,0 +1,716 @@
+{
+ "model": "meta-llama/Llama-3.2-3B-Instruct",
+ "templates": {
+  "en": {
+   "capital_of": "The capital of {s} is",
+   "capital_country": "The country whose capital is {s} is",
+   "landmark_city": "The city where {s} is located is",
+   "landmark_country": "The country where {s} is located is",
+   "city_country": "The country where {s} is located is"
+  },
+  "hi": {
+   "capital_of": "यह सर्वविदित है कि {s} की राजधानी है",
+   "capital_country": "जिस देश की राजधानी {s} है, वह देश है",
+   "landmark_city": "वह शहर जहाँ {s} स्थित है, उसका नाम है",
+   "landmark_country": "वह देश जहाँ {s} स्थित है, उसका नाम है",
+   "city_country": "वह देश जहाँ {s} स्थित है, उसका नाम है"
+  }
+ },
+ "hi_candidate_accuracy": {
+  "capital_of": {
+   "यह सर्वविदित है कि {s} की राजधानी है": 0.6666666666666666,
+   "{s} देश की राजधानी का नाम है": 0.0
+  },
+  "capital_country": {
+   "वह देश जिसकी राजधानी {s} है, उसका नाम है": 0.0,
+   "जिस देश की राजधानी {s} है, वह देश है": 0.1
+  },
+  "landmark_city": {
+   "वह शहर जहाँ {s} स्थित है, उसका नाम है": 0.3,
+   "{s} जिस शहर में स्थित है, वह शहर है": 0.0
+  },
+  "landmark_country": {
+   "वह देश जहाँ {s} स्थित है, उसका नाम है": 0.13333333333333333,
+   "{s} जिस देश में स्थित है, वह देश है": 0.0
+  },
+  "city_country": {
+   "वह देश जहाँ {s} स्थित है, उसका नाम है": 0.4,
+   "{s} जिस देश में स्थित है, वह देश है": 0.0
+  }
+ },
+ "summary": {
+  "capital_country": {
+   "tune_n": 30,
+   "tune_en": 29,
+   "tune_hi": 3,
+   "eval_n": 95,
+   "eval_both": 3,
+   "template_ok": false
+  },
+  "capital_of": {
+   "tune_n": 30,
+   "tune_en": 30,
+   "tune_hi": 19,
+   "eval_n": 95,
+   "eval_both": 30,
+   "template_ok": true
+  },
+  "city_country": {
+   "tune_n": 30,
+   "tune_en": 26,
+   "tune_hi": 12,
+   "eval_n": 45,
+   "eval_both": 15,
+   "template_ok": false
+  },
+  "landmark_city": {
+   "tune_n": 30,
+   "tune_en": 22,
+   "tune_hi": 9,
+   "eval_n": 51,
+   "eval_both": 6,
+   "template_ok": false
+  },
+  "landmark_country": {
+   "tune_n": 30,
+   "tune_en": 26,
+   "tune_hi": 4,
+   "eval_n": 51,
+   "eval_both": 3,
+   "template_ok": false
+  }
+ },
+ "n_kept": 30,
+ "facts": [
+  {
+   "id": "capital_of_030",
+   "relation": "capital_of",
+   "seed": 2058133602,
+   "lang": {
+    "en": {
+     "subject": "Vietnam",
+     "object": "Hanoi",
+     "object_alts": [],
+     "prompt": "The capital of Vietnam is",
+     "target": "Hanoi"
+    },
+    "hi": {
+     "subject": "वियतनाम",
+     "object": "हनोई",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि वियतनाम की राजधानी है",
+     "target": "हनोई"
+    }
+   }
+  },
+  {
+   "id": "capital_of_032",
+   "relation": "capital_of",
+   "seed": 504611287,
+   "lang": {
+    "en": {
+     "subject": "Pakistan",
+     "object": "Islamabad",
+     "object_alts": [],
+     "prompt": "The capital of Pakistan is",
+     "target": "Islamabad"
+    },
+    "hi": {
+     "subject": "पाकिस्तान",
+     "object": "इस्लामाबाद",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि पाकिस्तान की राजधानी है",
+     "target": "इस्लामाबाद"
+    }
+   }
+  },
+  {
+   "id": "capital_of_034",
+   "relation": "capital_of",
+   "seed": 479044277,
+   "lang": {
+    "en": {
+     "subject": "Nepal",
+     "object": "Kathmandu",
+     "object_alts": [],
+     "prompt": "The capital of Nepal is",
+     "target": "Kathmandu"
+    },
+    "hi": {
+     "subject": "नेपाल",
+     "object": "काठमांडू",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि नेपाल की राजधानी है",
+     "target": "काठमांडू"
+    }
+   }
+  },
+  {
+   "id": "capital_of_035",
+   "relation": "capital_of",
+   "seed": 91056139,
+   "lang": {
+    "en": {
+     "subject": "Sri Lanka",
+     "object": "Colombo",
+     "object_alts": [],
+     "prompt": "The capital of Sri Lanka is",
+     "target": "Colombo"
+    },
+    "hi": {
+     "subject": "श्रीलंका",
+     "object": "कोलंबो",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि श्रीलंका की राजधानी है",
+     "target": "कोलंबो"
+    }
+   }
+  },
+  {
+   "id": "capital_of_037",
+   "relation": "capital_of",
+   "seed": 860272675,
+   "lang": {
+    "en": {
+     "subject": "Iraq",
+     "object": "Baghdad",
+     "object_alts": [],
+     "prompt": "The capital of Iraq is",
+     "target": "Baghdad"
+    },
+    "hi": {
+     "subject": "इराक",
+     "object": "बग़दाद",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि इराक की राजधानी है",
+     "target": "बगदाद"
+    }
+   }
+  },
+  {
+   "id": "capital_of_038",
+   "relation": "capital_of",
+   "seed": 1115304880,
+   "lang": {
+    "en": {
+     "subject": "Saudi Arabia",
+     "object": "Riyadh",
+     "object_alts": [],
+     "prompt": "The capital of Saudi Arabia is",
+     "target": "Riyadh"
+    },
+    "hi": {
+     "subject": "सऊदी अरब",
+     "object": "रियाद",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि सऊदी अरब की राजधानी है",
+     "target": "रियाद"
+    }
+   }
+  },
+  {
+   "id": "capital_of_042",
+   "relation": "capital_of",
+   "seed": 428967276,
+   "lang": {
+    "en": {
+     "subject": "Morocco",
+     "object": "Rabat",
+     "object_alts": [],
+     "prompt": "The capital of Morocco is",
+     "target": "Rabat"
+    },
+    "hi": {
+     "subject": "मोरक्को",
+     "object": "रबात",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि मोरक्को की राजधानी है",
+     "target": "रबात"
+    }
+   }
+  },
+  {
+   "id": "capital_of_044",
+   "relation": "capital_of",
+   "seed": 726403575,
+   "lang": {
+    "en": {
+     "subject": "South Africa",
+     "object": "Pretoria",
+     "object_alts": [],
+     "prompt": "The capital of South Africa is",
+     "target": "Pretoria"
+    },
+    "hi": {
+     "subject": "दक्षिण अफ़्रीका",
+     "object": "प्रिटोरिया",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि दक्षिण अफ़्रीका की राजधानी है",
+     "target": "प्रिटोरिया"
+    }
+   }
+  },
+  {
+   "id": "capital_of_046",
+   "relation": "capital_of",
+   "seed": 184532903,
+   "lang": {
+    "en": {
+     "subject": "Hungary",
+     "object": "Budapest",
+     "object_alts": [],
+     "prompt": "The capital of Hungary is",
+     "target": "Budapest"
+    },
+    "hi": {
+     "subject": "हंगरी",
+     "object": "बुडापेस्ट",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि हंगरी की राजधानी है",
+     "target": "बुडापेस्ट"
+    }
+   }
+  },
+  {
+   "id": "capital_of_049",
+   "relation": "capital_of",
+   "seed": 905248288,
+   "lang": {
+    "en": {
+     "subject": "Bulgaria",
+     "object": "Sofia",
+     "object_alts": [],
+     "prompt": "The capital of Bulgaria is",
+     "target": "Sofia"
+    },
+    "hi": {
+     "subject": "बुल्गारिया",
+     "object": "सोफिया",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि बुल्गारिया की राजधानी है",
+     "target": "सोफिया"
+    }
+   }
+  },
+  {
+   "id": "capital_of_050",
+   "relation": "capital_of",
+   "seed": 474588998,
+   "lang": {
+    "en": {
+     "subject": "Serbia",
+     "object": "Belgrade",
+     "object_alts": [],
+     "prompt": "The capital of Serbia is",
+     "target": "Belgrade"
+    },
+    "hi": {
+     "subject": "सर्बिया",
+     "object": "बेलग्रेड",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि सर्बिया की राजधानी है",
+     "target": "बेलग्रेड"
+    }
+   }
+  },
+  {
+   "id": "capital_of_056",
+   "relation": "capital_of",
+   "seed": 1893950898,
+   "lang": {
+    "en": {
+     "subject": "South Korea",
+     "object": "Seoul",
+     "object_alts": [],
+     "prompt": "The capital of South Korea is",
+     "target": "Seoul"
+    },
+    "hi": {
+     "subject": "दक्षिण कोरिया",
+     "object": "सियोल",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि दक्षिण कोरिया की राजधानी है",
+     "target": "सियोल"
+    }
+   }
+  },
+  {
+   "id": "capital_of_057",
+   "relation": "capital_of",
+   "seed": 1996972697,
+   "lang": {
+    "en": {
+     "subject": "Jordan",
+     "object": "Amman",
+     "object_alts": [],
+     "prompt": "The capital of Jordan is",
+     "target": "Amman"
+    },
+    "hi": {
+     "subject": "जॉर्डन",
+     "object": "अम्मान",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि जॉर्डन की राजधानी है",
+     "target": "अम्मान"
+    }
+   }
+  },
+  {
+   "id": "capital_of_065",
+   "relation": "capital_of",
+   "seed": 1284684985,
+   "lang": {
+    "en": {
+     "subject": "New Zealand",
+     "object": "Wellington",
+     "object_alts": [],
+     "prompt": "The capital of New Zealand is",
+     "target": "Wellington"
+    },
+    "hi": {
+     "subject": "न्यूज़ीलैंड",
+     "object": "वेलिंगटन",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि न्यूज़ीलैंड की राजधानी है",
+     "target": "वेलिंगटन"
+    }
+   }
+  },
+  {
+   "id": "capital_of_068",
+   "relation": "capital_of",
+   "seed": 446884394,
+   "lang": {
+    "en": {
+     "subject": "Costa Rica",
+     "object": "San José",
+     "object_alts": [],
+     "prompt": "The capital of Costa Rica is",
+     "target": "San José"
+    },
+    "hi": {
+     "subject": "कोस्टा रिका",
+     "object": "सैन जोस",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि कोस्टा रिका की राजधानी है",
+     "target": "सैन जोस"
+    }
+   }
+  },
+  {
+   "id": "capital_of_072",
+   "relation": "capital_of",
+   "seed": 1684157163,
+   "lang": {
+    "en": {
+     "subject": "the Czech Republic",
+     "object": "Prague",
+     "object_alts": [],
+     "prompt": "The capital of the Czech Republic is",
+     "target": "Prague"
+    },
+    "hi": {
+     "subject": "चेक गणराज्य",
+     "object": "प्राग",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि चेक गणराज्य की राजधानी है",
+     "target": "प्राग"
+    }
+   }
+  },
+  {
+   "id": "capital_of_078",
+   "relation": "capital_of",
+   "seed": 77739844,
+   "lang": {
+    "en": {
+     "subject": "Belarus",
+     "object": "Minsk",
+     "object_alts": [],
+     "prompt": "The capital of Belarus is",
+     "target": "Minsk"
+    },
+    "hi": {
+     "subject": "बेलारूस",
+     "object": "मिन्स्क",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि बेलारूस की राजधानी है",
+     "target": "मिन्स्क"
+    }
+   }
+  },
+  {
+   "id": "capital_of_081",
+   "relation": "capital_of",
+   "seed": 289834539,
+   "lang": {
+    "en": {
+     "subject": "Azerbaijan",
+     "object": "Baku",
+     "object_alts": [],
+     "prompt": "The capital of Azerbaijan is",
+     "target": "Baku"
+    },
+    "hi": {
+     "subject": "अज़रबैजान",
+     "object": "बाकू",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि अज़रबैजान की राजधानी है",
+     "target": "बाकू"
+    }
+   }
+  },
+  {
+   "id": "capital_of_083",
+   "relation": "capital_of",
+   "seed": 647466904,
+   "lang": {
+    "en": {
+     "subject": "Uzbekistan",
+     "object": "Tashkent",
+     "object_alts": [],
+     "prompt": "The capital of Uzbekistan is",
+     "target": "Tashkent"
+    },
+    "hi": {
+     "subject": "उज़्बेकिस्तान",
+     "object": "ताशकंद",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि उज़्बेकिस्तान की राजधानी है",
+     "target": "ताशकंद"
+    }
+   }
+  },
+  {
+   "id": "capital_of_088",
+   "relation": "capital_of",
+   "seed": 315310585,
+   "lang": {
+    "en": {
+     "subject": "North Korea",
+     "object": "Pyongyang",
+     "object_alts": [],
+     "prompt": "The capital of North Korea is",
+     "target": "Pyongyang"
+    },
+    "hi": {
+     "subject": "उत्तर कोरिया",
+     "object": "प्योंगयांग",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि उत्तर कोरिया की राजधानी है",
+     "target": "प्योंगयांग"
+    }
+   }
+  },
+  {
+   "id": "capital_of_089",
+   "relation": "capital_of",
+   "seed": 1010521618,
+   "lang": {
+    "en": {
+     "subject": "Bhutan",
+     "object": "Thimphu",
+     "object_alts": [],
+     "prompt": "The capital of Bhutan is",
+     "target": "Thimphu"
+    },
+    "hi": {
+     "subject": "भूटान",
+     "object": "थिम्पू",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि भूटान की राजधानी है",
+     "target": "थिम्पू"
+    }
+   }
+  },
+  {
+   "id": "capital_of_090",
+   "relation": "capital_of",
+   "seed": 1542062471,
+   "lang": {
+    "en": {
+     "subject": "Tanzania",
+     "object": "Dodoma",
+     "object_alts": [],
+     "prompt": "The capital of Tanzania is",
+     "target": "Dodoma"
+    },
+    "hi": {
+     "subject": "तंज़ानिया",
+     "object": "डोडोमा",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि तंज़ानिया की राजधानी है",
+     "target": "डोडोमा"
+    }
+   }
+  },
+  {
+   "id": "capital_of_093",
+   "relation": "capital_of",
+   "seed": 1225116724,
+   "lang": {
+    "en": {
+     "subject": "Zambia",
+     "object": "Lusaka",
+     "object_alts": [],
+     "prompt": "The capital of Zambia is",
+     "target": "Lusaka"
+    },
+    "hi": {
+     "subject": "ज़ाम्बिया",
+     "object": "लुसाका",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि ज़ाम्बिया की राजधानी है",
+     "target": "लुसाका"
+    }
+   }
+  },
+  {
+   "id": "capital_of_101",
+   "relation": "capital_of",
+   "seed": 1837764820,
+   "lang": {
+    "en": {
+     "subject": "Qatar",
+     "object": "Doha",
+     "object_alts": [],
+     "prompt": "The capital of Qatar is",
+     "target": "Doha"
+    },
+    "hi": {
+     "subject": "क़तर",
+     "object": "दोहा",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि क़तर की राजधानी है",
+     "target": "दोहा"
+    }
+   }
+  },
+  {
+   "id": "capital_of_103",
+   "relation": "capital_of",
+   "seed": 491204345,
+   "lang": {
+    "en": {
+     "subject": "the United Kingdom",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The capital of the United Kingdom is",
+     "target": "London"
+    },
+    "hi": {
+     "subject": "यूनाइटेड किंगडम",
+     "object": "लंदन",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि यूनाइटेड किंगडम की राजधानी है",
+     "target": "लंदन"
+    }
+   }
+  },
+  {
+   "id": "capital_of_104",
+   "relation": "capital_of",
+   "seed": 713316774,
+   "lang": {
+    "en": {
+     "subject": "Albania",
+     "object": "Tirana",
+     "object_alts": [],
+     "prompt": "The capital of Albania is",
+     "target": "Tirana"
+    },
+    "hi": {
+     "subject": "अल्बानिया",
+     "object": "तिराना",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि अल्बानिया की राजधानी है",
+     "target": "तिराना"
+    }
+   }
+  },
+  {
+   "id": "capital_of_106",
+   "relation": "capital_of",
+   "seed": 1968831155,
+   "lang": {
+    "en": {
+     "subject": "Cyprus",
+     "object": "Nicosia",
+     "object_alts": [],
+     "prompt": "The capital of Cyprus is",
+     "target": "Nicosia"
+    },
+    "hi": {
+     "subject": "साइप्रस",
+     "object": "निकोसिया",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि साइप्रस की राजधानी है",
+     "target": "निकोसिया"
+    }
+   }
+  },
+  {
+   "id": "capital_of_113",
+   "relation": "capital_of",
+   "seed": 1955745670,
+   "lang": {
+    "en": {
+     "subject": "Somalia",
+     "object": "Mogadishu",
+     "object_alts": [],
+     "prompt": "The capital of Somalia is",
+     "target": "Mogadishu"
+    },
+    "hi": {
+     "subject": "सोमालिया",
+     "object": "मोगादिशु",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि सोमालिया की राजधानी है",
+     "target": "मोगादिशु"
+    }
+   }
+  },
+  {
+   "id": "capital_of_115",
+   "relation": "capital_of",
+   "seed": 1009208647,
+   "lang": {
+    "en": {
+     "subject": "Namibia",
+     "object": "Windhoek",
+     "object_alts": [],
+     "prompt": "The capital of Namibia is",
+     "target": "Windhoek"
+    },
+    "hi": {
+     "subject": "नामीबिया",
+     "object": "विंडहोक",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि नामीबिया की राजधानी है",
+     "target": "विंडहोक"
+    }
+   }
+  },
+  {
+   "id": "capital_of_121",
+   "relation": "capital_of",
+   "seed": 773973288,
+   "lang": {
+    "en": {
+     "subject": "Kyrgyzstan",
+     "object": "Bishkek",
+     "object_alts": [],
+     "prompt": "The capital of Kyrgyzstan is",
+     "target": "Bishkek"
+    },
+    "hi": {
+     "subject": "किर्गिस्तान",
+     "object": "बिश्केक",
+     "object_alts": [],
+     "prompt": "यह सर्वविदित है कि किर्गिस्तान की राजधानी है",
+     "target": "बिश्केक"
+    }
+   }
+  }
+ ]
+}
