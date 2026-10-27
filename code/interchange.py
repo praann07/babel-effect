@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import time
 from pathlib import Path
 
 import numpy as np
@@ -224,7 +225,14 @@ def main() -> None:
             print(n_ + 1, "/", len(pairs), flush=True)
             np.savez_compressed(run / "partial_tmp.npz", delta=np.stack(DD), flip=np.stack(FF))
             (run / "partial_meta.json").write_text(json.dumps({"pairs": meta, "n_done": n_ + 1}))
-            (run / "partial_tmp.npz").replace(run / "partial.npz")
+            for _try in range(20):  # Windows: the rename can fail while another process (indexer, antivirus) holds partial.npz
+                try:
+                    (run / "partial_tmp.npz").replace(run / "partial.npz")
+                    break
+                except PermissionError:
+                    time.sleep(0.5)
+            else:
+                print("warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)", flush=True)
     np.savez_compressed(run / "effects.npz", delta=np.stack(DD), flip=np.stack(FF))
     (run / "meta.json").write_text(json.dumps({"pairs": meta, "conds": CONDS, "sites": SITES, "n_layers": model.cfg.n_layers, "seed": a.seed,
                                                "n_facts": len(facts), "pilot": a.pilot, "langs": [l0, l1], "facts_file": fpath, "max_pairs": a.max_pairs, "directions": RUN_DIRS, "shuffle_pairs": a.shuffle_pairs, "k_src": a.k_src, "span_mode": a.span}, indent=1))

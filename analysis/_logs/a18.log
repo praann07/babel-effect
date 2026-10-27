@@ -1,0 +1,212 @@
+[20:28] .venv/Scripts/python code/interchange.py --model llama --langs en,hi --facts data/v2/e2h2_facts_llama.json --span end --directions en2hi,hi2en --k-src 4 --shuffle-pairs --max-pairs 200 --tag e2h3end_A
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   4%|▎         | 9/254 [00:00<00:03, 66.50it/s]Loading weights:   6%|▋         | 16/254 [00:00<00:09, 24.35it/s]Loading weights:   8%|▊         | 20/254 [00:00<00:08, 26.10it/s]Loading weights:  10%|▉         | 25/254 [00:00<00:07, 29.61it/s]Loading weights:  11%|█▏        | 29/254 [00:01<00:08, 25.70it/s]Loading weights:  14%|█▍        | 36/254 [00:01<00:06, 31.92it/s]Loading weights:  16%|█▌        | 40/254 [00:01<00:07, 28.15it/s]Loading weights:  17%|█▋        | 44/254 [00:01<00:07, 29.55it/s]Loading weights:  19%|█▉        | 48/254 [00:01<00:08, 24.98it/s]Loading weights:  20%|██        | 51/254 [00:01<00:09, 20.74it/s]Loading weights:  22%|██▏       | 56/254 [00:02<00:10, 19.34it/s]Loading weights:  24%|██▍       | 61/254 [00:02<00:10, 17.59it/s]Loading weights:  25%|██▍       | 63/254 [00:02<00:11, 16.17it/s]Loading weights:  26%|██▋       | 67/254 [00:02<00:09, 19.47it/s]Loading weights:  30%|██▉       | 75/254 [00:03<00:07, 23.41it/s]Loading weights:  31%|███       | 78/254 [00:03<00:08, 20.55it/s]Loading weights:  32%|███▏      | 81/254 [00:03<00:08, 20.21it/s]Loading weights:  33%|███▎      | 84/254 [00:03<00:10, 16.10it/s]Loading weights:  35%|███▌      | 90/254 [00:04<00:12, 13.60it/s]Loading weights:  38%|███▊      | 97/254 [00:04<00:08, 19.22it/s]Loading weights:  39%|███▉      | 100/254 [00:04<00:07, 19.40it/s]Loading weights:  42%|████▏     | 106/254 [00:04<00:07, 19.46it/s]Loading weights:  45%|████▌     | 115/254 [00:05<00:06, 21.68it/s]Loading weights:  46%|████▋     | 118/254 [00:05<00:06, 22.33it/s]Loading weights:  48%|████▊     | 121/254 [00:05<00:08, 15.33it/s]Loading weights:  48%|████▊     | 123/254 [00:06<00:10, 12.26it/s]Loading weights:  49%|████▉     | 125/254 [00:06<00:09, 13.17it/s]Loading weights:  50%|█████     | 128/254 [00:06<00:10, 11.60it/s]Loading weights:  52%|█████▏    | 133/254 [00:07<00:10, 11.80it/s]Loading weights:  54%|█████▍    | 137/254 [00:07<00:08, 13.76it/s]Loading weights:  55%|█████▌    | 140/254 [00:07<00:07, 15.45it/s]Loading weights: 100%|██████████| 254/254 [00:07<00:00, 34.29it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+10 / 200
+20 / 200
+30 / 200
+40 / 200
+50 / 200
+60 / 200
+70 / 200
+80 / 200
+90 / 200
+100 / 200
+110 / 200
+120 / 200
+130 / 200
+140 / 200
+150 / 200
+160 / 200
+170 / 200
+180 / 200
+190 / 200
+200 / 200
+done 400 peak VRAM GiB 7.64
+[21:14] exit 0
+[21:14] .venv/Scripts/python code/interchange.py --model llama --langs en,hi --facts data/v2/e2h2_facts_llama.json --span bcast --directions en2hi --k-src 4 --shuffle-pairs --max-pairs 200 --tag e2h3bcast_A
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   2%|▏         | 4/254 [00:00<00:36,  6.83it/s]Loading weights:   2%|▏         | 6/254 [00:00<00:37,  6.69it/s]Loading weights:   3%|▎         | 7/254 [00:01<00:51,  4.84it/s]Loading weights:   3%|▎         | 8/254 [00:01<00:47,  5.17it/s]Loading weights:   4%|▎         | 9/254 [00:01<00:43,  5.60it/s]Loading weights:   4%|▍         | 10/254 [00:01<00:50,  4.85it/s]Loading weights:   5%|▍         | 12/254 [00:02<00:50,  4.83it/s]Loading weights:   6%|▌         | 14/254 [00:02<00:36,  6.56it/s]Loading weights:   6%|▌         | 15/254 [00:02<00:35,  6.69it/s]Loading weights:   6%|▋         | 16/254 [00:02<00:42,  5.55it/s]Loading weights:   7%|▋         | 18/254 [00:03<00:38,  6.21it/s]Loading weights:   8%|▊         | 20/254 [00:03<00:36,  6.34it/s]Loading weights:   8%|▊         | 21/254 [00:04<00:59,  3.89it/s]Loading weights:   9%|▉         | 23/254 [00:04<00:48,  4.75it/s]Loading weights:   9%|▉         | 24/254 [00:04<00:45,  5.04it/s]Loading weights:  10%|▉         | 25/254 [00:04<00:42,  5.36it/s]Loading weights:  10%|█         | 26/254 [00:04<00:39,  5.75it/s]Loading weights:  11%|█         | 27/254 [00:05<01:12,  3.14it/s]Loading weights:  11%|█         | 28/254 [00:05<01:15,  2.98it/s]Loading weights:  12%|█▏        | 30/254 [00:06<01:00,  3.72it/s]Loading weights:  12%|█▏        | 31/254 [00:06<00:54,  4.10it/s]Loading weights:  13%|█▎        | 34/254 [00:06<00:31,  7.01it/s]Loading weights:  14%|█▍        | 36/254 [00:06<00:37,  5.85it/s]Loading weights:  17%|█▋        | 43/254 [00:07<00:16, 13.06it/s]Loading weights:  18%|█▊        | 46/254 [00:07<00:20, 10.14it/s]Loading weights:  19%|█▉        | 48/254 [00:08<00:28,  7.11it/s]Loading weights:  20%|█▉        | 50/254 [00:08<00:35,  5.74it/s]Loading weights:  20%|██        | 52/254 [00:09<00:33,  6.09it/s]Loading weights:  21%|██        | 53/254 [00:09<00:38,  5.28it/s]Loading weights:  23%|██▎       | 58/254 [00:09<00:21,  9.14it/s]Loading weights:  24%|██▎       | 60/254 [00:09<00:23,  8.37it/s]Loading weights:  24%|██▍       | 62/254 [00:10<00:22,  8.43it/s]Loading weights:  25%|██▌       | 64/254 [00:11<00:44,  4.27it/s]Loading weights:  26%|██▌       | 65/254 [00:11<00:45,  4.11it/s]Loading weights:  26%|██▌       | 66/254 [00:11<00:53,  3.53it/s]Loading weights:  26%|██▋       | 67/254 [00:12<01:05,  2.86it/s]Loading weights:  27%|██▋       | 68/254 [00:13<01:29,  2.08it/s]Loading weights:  27%|██▋       | 69/254 [00:13<01:20,  2.29it/s]Loading weights:  28%|██▊       | 70/254 [00:13<01:04,  2.83it/s]Loading weights: 100%|██████████| 254/254 [00:13<00:00, 18.24it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+10 / 200
+20 / 200
+30 / 200
+40 / 200
+50 / 200
+60 / 200
+70 / 200
+80 / 200
+90 / 200
+100 / 200
+110 / 200
+120 / 200
+130 / 200
+140 / 200
+150 / 200
+160 / 200
+170 / 200
+180 / 200
+190 / 200
+200 / 200
+done 200 peak VRAM GiB 7.64
+[21:41] exit 0
+[21:41] .venv/Scripts/python code/interchange.py --model gemma2 --langs en,hi --facts data/v2/e2h2_facts_gemma2.json --span end --directions en2hi,hi2en --k-src 4 --shuffle-pairs --max-pairs 200 --tag e2h3end_A
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   4%|▍         | 11/288 [00:00<00:10, 26.71it/s]Loading weights:   9%|▉         | 26/288 [00:00<00:05, 48.31it/s]Loading weights:  11%|█         | 32/288 [00:01<00:11, 22.78it/s]Loading weights:  13%|█▎        | 38/288 [00:01<00:10, 23.86it/s]Loading weights:  15%|█▍        | 43/288 [00:01<00:12, 18.95it/s]Loading weights:  16%|█▌        | 46/288 [00:02<00:14, 16.99it/s]Loading weights:  17%|█▋        | 49/288 [00:02<00:14, 16.92it/s]Loading weights:  18%|█▊        | 53/288 [00:02<00:13, 17.15it/s]Loading weights:  19%|█▉        | 55/288 [00:03<00:20, 11.30it/s]Loading weights:  20%|██        | 58/288 [00:03<00:18, 12.38it/s]Loading weights:  21%|██        | 60/288 [00:03<00:25,  8.85it/s]Loading weights:  22%|██▏       | 62/288 [00:03<00:25,  8.98it/s]Loading weights:  24%|██▍       | 69/288 [00:04<00:13, 16.13it/s]Loading weights:  26%|██▌       | 74/288 [00:04<00:13, 15.33it/s]Loading weights:  27%|██▋       | 77/288 [00:04<00:18, 11.57it/s]Loading weights:  27%|██▋       | 79/288 [00:05<00:19, 10.76it/s]Loading weights:  30%|██▉       | 86/288 [00:05<00:17, 11.68it/s]Loading weights:  31%|███       | 89/288 [00:05<00:17, 11.55it/s]Loading weights:  32%|███▏      | 92/288 [00:06<00:15, 12.63it/s]Loading weights:  33%|███▎      | 94/288 [00:06<00:14, 13.42it/s]Loading weights:  34%|███▎      | 97/288 [00:06<00:20,  9.50it/s]Loading weights:  35%|███▍      | 100/288 [00:07<00:19,  9.78it/s]Loading weights:  35%|███▌      | 102/288 [00:07<00:18,  9.92it/s]Loading weights:  36%|███▌      | 104/288 [00:07<00:28,  6.46it/s]Loading weights:  39%|███▊      | 111/288 [00:08<00:17, 10.12it/s]Loading weights:  40%|███▉      | 115/288 [00:08<00:14, 12.19it/s]Loading weights:  42%|████▏     | 120/288 [00:09<00:19,  8.55it/s]Loading weights:  44%|████▍     | 126/288 [00:09<00:13, 12.26it/s]Loading weights:  45%|████▌     | 131/288 [00:09<00:12, 12.50it/s]Loading weights:  46%|████▌     | 133/288 [00:10<00:17,  8.99it/s]Loading weights:  47%|████▋     | 136/288 [00:10<00:15,  9.80it/s]Loading weights:  49%|████▉     | 141/288 [00:10<00:13, 11.29it/s]Loading weights:  50%|████▉     | 143/288 [00:11<00:13, 10.58it/s]Loading weights:  50%|█████     | 145/288 [00:11<00:15,  9.52it/s]Loading weights:  51%|█████     | 147/288 [00:12<00:23,  6.05it/s]Loading weights:  53%|█████▎    | 154/288 [00:12<00:13,  9.93it/s]Loading weights:  55%|█████▍    | 157/288 [00:12<00:12, 10.50it/s]Loading weights:  57%|█████▋    | 164/288 [00:13<00:13,  9.49it/s]Loading weights:  59%|█████▊    | 169/288 [00:13<00:10, 10.93it/s]Loading weights:  60%|██████    | 173/288 [00:14<00:09, 11.58it/s]Loading weights:  61%|██████    | 175/288 [00:14<00:10, 10.66it/s]Loading weights:  61%|██████▏   | 177/288 [00:14<00:11,  9.47it/s]Loading weights:  62%|██████▏   | 179/288 [00:14<00:10, 10.17it/s]Loading weights:  63%|██████▎   | 181/288 [00:15<00:09, 11.46it/s]Loading weights:  64%|██████▎   | 183/288 [00:15<00:17,  5.91it/s]Loading weights:  66%|██████▌   | 190/288 [00:16<00:08, 11.09it/s]Loading weights:  67%|██████▋   | 194/288 [00:16<00:06, 14.17it/s]Loading weights:  68%|██████▊   | 197/288 [00:16<00:06, 13.12it/s]Loading weights:  69%|██████▉   | 200/288 [00:17<00:09,  9.02it/s]Loading weights:  70%|███████   | 202/288 [00:17<00:08,  9.96it/s]Loading weights:  71%|███████   | 204/288 [00:17<00:07, 11.15it/s]Loading weights:  72%|███████▏  | 206/288 [00:17<00:08,  9.62it/s]Loading weights:  72%|███████▏  | 208/288 [00:17<00:08,  8.89it/s]Loading weights:  73%|███████▎  | 210/288 [00:18<00:10,  7.26it/s]Loading weights:  74%|███████▍  | 213/288 [00:18<00:08,  8.76it/s]Loading weights:  76%|███████▌  | 219/288 [00:19<00:09,  7.08it/s]Loading weights:  79%|███████▉  | 227/288 [00:19<00:05, 12.03it/s]Loading weights:  80%|███████▉  | 230/288 [00:20<00:07,  7.75it/s]Loading weights:  81%|████████▏ | 234/288 [00:20<00:05,  9.22it/s]Loading weights:  84%|████████▎ | 241/288 [00:21<00:04,  9.95it/s]Loading weights:  84%|████████▍ | 243/288 [00:21<00:05,  8.52it/s]Loading weights:  86%|████████▋ | 249/288 [00:21<00:03, 12.28it/s]Loading weights:  88%|████████▊ | 252/288 [00:22<00:03, 11.67it/s]Loading weights:  88%|████████▊ | 254/288 [00:22<00:04,  8.16it/s]Loading weights:  89%|████████▉ | 257/288 [00:23<00:03,  8.84it/s]Loading weights:  91%|█████████ | 262/288 [00:24<00:03,  7.19it/s]Loading weights:  93%|█████████▎| 267/288 [00:24<00:02, 10.35it/s]Loading weights:  94%|█████████▍| 270/288 [00:24<00:02,  8.91it/s]Loading weights:  95%|█████████▌| 274/288 [00:24<00:01,  9.84it/s]Loading weights:  96%|█████████▌| 276/288 [00:25<00:01,  8.70it/s]Loading weights:  97%|█████████▋| 280/288 [00:25<00:00, 10.68it/s]Loading weights: 100%|██████████| 288/288 [00:25<00:00, 11.27it/s]
+Loaded pretrained model google/gemma-2-2b into HookedTransformer
+10 / 200
+20 / 200
+30 / 200
+[21:52] STOPPED by user request (power); resume = rerun scripts_a18.sh (finished steps must be skipped, see note)
+[22:22] .venv/Scripts/python code/interchange.py --model gemma2 --langs en,hi --facts data/v2/e2h2_facts_gemma2.json --span end --directions en2hi,hi2en --k-src 4 --shuffle-pairs --max-pairs 200 --tag e2h3end_A
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<02:04,  2.31it/s]Loading weights:   3%|▎         | 10/288 [00:00<00:21, 13.00it/s]Loading weights:   6%|▌         | 17/288 [00:01<00:13, 20.16it/s]Loading weights:   7%|▋         | 21/288 [00:01<00:18, 14.23it/s]Loading weights:   9%|▊         | 25/288 [00:01<00:15, 16.78it/s]Loading weights:  11%|█         | 32/288 [00:02<00:17, 14.32it/s]Loading weights:  13%|█▎        | 38/288 [00:02<00:13, 18.56it/s]Loading weights:  15%|█▍        | 42/288 [00:02<00:14, 17.11it/s]Loading weights:  16%|█▌        | 45/288 [00:02<00:16, 14.69it/s]Loading weights:  16%|█▋        | 47/288 [00:03<00:16, 14.33it/s]Loading weights:  19%|█▉        | 54/288 [00:03<00:14, 15.71it/s]Loading weights:  19%|█▉        | 56/288 [00:03<00:15, 14.67it/s]Loading weights:  21%|██        | 60/288 [00:03<00:14, 15.69it/s]Loading weights:  22%|██▏       | 64/288 [00:04<00:13, 16.38it/s]Loading weights:  23%|██▎       | 66/288 [00:04<00:15, 14.70it/s]Loading weights:  24%|██▎       | 68/288 [00:04<00:16, 13.15it/s]Loading weights:  24%|██▍       | 70/288 [00:04<00:15, 14.05it/s]Loading weights:  26%|██▋       | 76/288 [00:04<00:12, 16.97it/s]Loading weights:  27%|██▋       | 78/288 [00:05<00:15, 13.15it/s]Loading weights:  28%|██▊       | 80/288 [00:05<00:16, 12.66it/s]Loading weights:  30%|██▉       | 85/288 [00:05<00:13, 15.36it/s]Loading weights:  30%|███       | 87/288 [00:05<00:13, 14.90it/s]Loading weights:  31%|███       | 89/288 [00:06<00:15, 12.68it/s]Loading weights:  32%|███▏      | 93/288 [00:06<00:12, 15.78it/s]Loading weights:  34%|███▎      | 97/288 [00:06<00:14, 13.29it/s]Loading weights:  35%|███▍      | 100/288 [00:06<00:14, 13.19it/s]Loading weights:  36%|███▌      | 104/288 [00:07<00:11, 15.39it/s]Loading weights:  38%|███▊      | 109/288 [00:07<00:14, 12.37it/s]Loading weights:  39%|███▉      | 113/288 [00:07<00:11, 15.56it/s]Loading weights:  41%|████      | 117/288 [00:07<00:08, 19.06it/s]Loading weights:  42%|████▏     | 120/288 [00:07<00:09, 17.73it/s]Loading weights:  43%|████▎     | 123/288 [00:08<00:12, 12.93it/s]Loading weights:  44%|████▍     | 127/288 [00:08<00:09, 16.24it/s]Loading weights:  45%|████▌     | 131/288 [00:09<00:13, 11.35it/s]Loading weights:  48%|████▊     | 138/288 [00:09<00:09, 16.64it/s]Loading weights:  49%|████▉     | 141/288 [00:09<00:09, 15.67it/s]Loading weights:  50%|█████     | 144/288 [00:09<00:11, 12.07it/s]Loading weights:  51%|█████     | 147/288 [00:10<00:10, 13.62it/s]Loading weights:  53%|█████▎    | 153/288 [00:10<00:07, 18.45it/s]Loading weights:  54%|█████▍    | 156/288 [00:10<00:09, 13.92it/s]Loading weights:  55%|█████▍    | 158/288 [00:10<00:09, 14.28it/s]Loading weights:  57%|█████▋    | 163/288 [00:10<00:07, 16.17it/s]Loading weights:  57%|█████▋    | 165/288 [00:11<00:10, 11.26it/s]Loading weights:  59%|█████▉    | 170/288 [00:11<00:08, 14.53it/s]Loading weights:  60%|██████    | 174/288 [00:11<00:07, 15.78it/s]Loading weights:  61%|██████    | 176/288 [00:12<00:09, 11.72it/s]Loading weights:  63%|██████▎   | 182/288 [00:12<00:06, 16.46it/s]Loading weights:  64%|██████▍   | 185/288 [00:12<00:07, 12.97it/s]Loading weights:  65%|██████▌   | 188/288 [00:12<00:07, 13.81it/s]Loading weights:  67%|██████▋   | 193/288 [00:12<00:05, 18.95it/s]Loading weights:  68%|██████▊   | 197/288 [00:13<00:07, 12.25it/s]Loading weights:  70%|███████   | 203/288 [00:13<00:04, 17.09it/s]Loading weights:  72%|███████▏  | 208/288 [00:14<00:06, 12.14it/s]Loading weights:  75%|███████▍  | 215/288 [00:14<00:04, 17.77it/s]Loading weights:  76%|███████▌  | 219/288 [00:14<00:04, 17.03it/s]Loading weights:  77%|███████▋  | 222/288 [00:15<00:05, 12.29it/s]Loading weights:  80%|███████▉  | 229/288 [00:15<00:03, 15.15it/s]Loading weights:  81%|████████  | 232/288 [00:15<00:04, 12.58it/s]Loading weights:  82%|████████▏ | 237/288 [00:16<00:03, 16.13it/s]Loading weights:  84%|████████▎ | 241/288 [00:16<00:03, 13.38it/s]Loading weights:  84%|████████▍ | 243/288 [00:16<00:03, 12.52it/s]Loading weights:  86%|████████▌ | 247/288 [00:16<00:02, 15.56it/s]Loading weights:  87%|████████▋ | 251/288 [00:17<00:02, 15.57it/s]Loading weights:  88%|████████▊ | 253/288 [00:17<00:03, 10.87it/s]Loading weights:  90%|█████████ | 260/288 [00:17<00:01, 16.98it/s]Loading weights:  91%|█████████▏| 263/288 [00:17<00:01, 15.71it/s]Loading weights:  92%|█████████▏| 266/288 [00:18<00:01, 11.76it/s]Loading weights:  93%|█████████▎| 268/288 [00:18<00:01, 11.91it/s]Loading weights:  94%|█████████▍| 271/288 [00:18<00:01, 11.55it/s]Loading weights:  95%|█████████▌| 275/288 [00:19<00:01, 10.20it/s]Loading weights:  97%|█████████▋| 280/288 [00:19<00:00, 14.10it/s]Loading weights: 100%|██████████| 288/288 [00:19<00:00, 14.73it/s]
+Loaded pretrained model google/gemma-2-2b into HookedTransformer
+resuming from pair 30
+40 / 200
+Traceback (most recent call last):
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\interchange.py", line 235, in <module>
+    main()
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\interchange.py", line 227, in main
+    (run / "partial_tmp.npz").replace(run / "partial.npz")
+  File "C:\Users\Som Praneeth\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1376, in replace
+    os.replace(self, target)
+PermissionError: [WinError 5] Access is denied: 'analysis\\run_20261026_e2h3end_A_gemma2\\partial_tmp.npz' -> 'analysis\\run_20261026_e2h3end_A_gemma2\\partial.npz'
+[22:26] exit 0
+[22:26] .venv/Scripts/python code/interchange.py --model gemma2 --langs en,hi --facts data/v2/e2h2_facts_gemma2.json --span bcast --directions en2hi --k-src 4 --shuffle-pairs --max-pairs 200 --tag e2h3bcast_A
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   4%|▍         | 11/288 [00:00<00:05, 53.09it/s]Loading weights:   6%|▌         | 17/288 [00:00<00:05, 53.39it/s]Loading weights:   8%|▊         | 23/288 [00:00<00:11, 22.95it/s]Loading weights:   9%|▉         | 27/288 [00:00<00:10, 25.33it/s]Loading weights:  11%|█         | 32/288 [00:01<00:14, 18.21it/s]Loading weights:  12%|█▎        | 36/288 [00:01<00:12, 19.59it/s]Loading weights:  14%|█▎        | 39/288 [00:01<00:13, 18.78it/s]Loading weights:  15%|█▌        | 44/288 [00:02<00:13, 18.16it/s]Loading weights:  17%|█▋        | 49/288 [00:02<00:10, 22.82it/s]Loading weights:  18%|█▊        | 52/288 [00:02<00:14, 16.44it/s]Loading weights:  19%|█▉        | 55/288 [00:02<00:14, 16.21it/s]Loading weights:  20%|██        | 58/288 [00:02<00:12, 17.88it/s]Loading weights:  22%|██▏       | 64/288 [00:03<00:10, 20.69it/s]Loading weights:  23%|██▎       | 67/288 [00:03<00:13, 16.30it/s]Loading weights:  25%|██▍       | 71/288 [00:03<00:11, 18.88it/s]Loading weights:  26%|██▌       | 74/288 [00:03<00:11, 18.13it/s]Loading weights:  27%|██▋       | 77/288 [00:03<00:10, 19.28it/s]Loading weights:  28%|██▊       | 80/288 [00:03<00:11, 17.66it/s]Loading weights:  28%|██▊       | 82/288 [00:04<00:11, 17.86it/s]Loading weights:  30%|███       | 87/288 [00:04<00:13, 14.54it/s]Loading weights:  33%|███▎      | 94/288 [00:04<00:08, 22.07it/s]Loading weights:  34%|███▎      | 97/288 [00:05<00:12, 15.51it/s]Loading weights:  35%|███▍      | 100/288 [00:05<00:12, 15.62it/s]Loading weights:  36%|███▌      | 103/288 [00:05<00:11, 16.38it/s]Loading weights:  38%|███▊      | 108/288 [00:05<00:09, 18.51it/s]Loading weights:  39%|███▊      | 111/288 [00:06<00:13, 13.31it/s]Loading weights:  40%|███▉      | 114/288 [00:06<00:13, 12.66it/s]Loading weights:  42%|████▏     | 121/288 [00:06<00:11, 14.85it/s]Loading weights:  44%|████▍     | 126/288 [00:06<00:09, 17.47it/s]Loading weights:  45%|████▌     | 131/288 [00:07<00:09, 16.27it/s]Loading weights:  46%|████▌     | 133/288 [00:07<00:09, 15.63it/s]Loading weights:  48%|████▊     | 137/288 [00:07<00:08, 18.57it/s]Loading weights:  49%|████▉     | 141/288 [00:07<00:09, 15.04it/s]Loading weights:  50%|█████     | 144/288 [00:08<00:09, 14.88it/s]Loading weights:  51%|█████     | 146/288 [00:08<00:09, 14.97it/s]Loading weights:  53%|█████▎    | 152/288 [00:08<00:07, 18.83it/s]Loading weights:  53%|█████▎    | 154/288 [00:08<00:07, 17.04it/s]Loading weights:  54%|█████▍    | 156/288 [00:08<00:09, 13.62it/s]Loading weights:  55%|█████▍    | 158/288 [00:09<00:11, 11.16it/s]Loading weights:  57%|█████▋    | 163/288 [00:09<00:09, 12.74it/s]Loading weights:  59%|█████▉    | 170/288 [00:09<00:05, 19.86it/s]Loading weights:  60%|██████    | 173/288 [00:09<00:06, 18.10it/s]Loading weights:  61%|██████    | 176/288 [00:09<00:06, 17.86it/s]Loading weights:  62%|██████▏   | 179/288 [00:10<00:06, 16.80it/s]Loading weights:  63%|██████▎   | 181/288 [00:10<00:06, 16.40it/s]Loading weights:  65%|██████▍   | 186/288 [00:10<00:06, 15.23it/s]Loading weights:  65%|██████▌   | 188/288 [00:10<00:07, 13.84it/s]Loading weights:  67%|██████▋   | 192/288 [00:11<00:05, 16.13it/s]Loading weights:  67%|██████▋   | 194/288 [00:11<00:09, 10.07it/s]Loading weights:  70%|███████   | 203/288 [00:11<00:04, 19.79it/s]Loading weights:  72%|███████▏  | 207/288 [00:11<00:03, 22.48it/s]Loading weights:  73%|███████▎  | 211/288 [00:12<00:05, 13.93it/s]Loading weights:  74%|███████▍  | 214/288 [00:12<00:05, 14.74it/s]Loading weights:  75%|███████▌  | 217/288 [00:12<00:04, 15.01it/s]Loading weights:  76%|███████▋  | 220/288 [00:13<00:05, 11.78it/s]Loading weights:  78%|███████▊  | 225/288 [00:13<00:03, 15.93it/s]Loading weights:  80%|███████▉  | 229/288 [00:13<00:03, 16.27it/s]Loading weights:  81%|████████  | 232/288 [00:13<00:04, 11.65it/s]Loading weights:  82%|████████▏ | 237/288 [00:14<00:03, 15.82it/s]Loading weights:  83%|████████▎ | 240/288 [00:14<00:04, 11.28it/s]Loading weights:  85%|████████▌ | 245/288 [00:14<00:02, 14.76it/s]Loading weights:  87%|████████▋ | 250/288 [00:15<00:02, 16.01it/s]Loading weights:  88%|████████▊ | 253/288 [00:15<00:02, 14.64it/s]Loading weights:  89%|████████▊ | 255/288 [00:15<00:02, 12.58it/s]Loading weights:  90%|████████▉ | 258/288 [00:15<00:02, 14.39it/s]Loading weights:  91%|█████████ | 262/288 [00:15<00:01, 15.28it/s]Loading weights:  92%|█████████▏| 264/288 [00:16<00:02, 10.90it/s]Loading weights:  92%|█████████▏| 266/288 [00:16<00:01, 12.08it/s]Loading weights:  94%|█████████▍| 272/288 [00:16<00:01, 14.77it/s]Loading weights:  95%|█████████▌| 275/288 [00:17<00:01, 11.09it/s]Loading weights:  97%|█████████▋| 280/288 [00:17<00:00, 14.20it/s]Loading weights: 100%|██████████| 288/288 [00:17<00:00, 16.56it/s]
+Loaded pretrained model google/gemma-2-2b into HookedTransformer
+10 / 200
+20 / 200
+30 / 200
+40 / 200
+50 / 200
+60 / 200
+70 / 200
+80 / 200
+90 / 200
+100 / 200
+110 / 200
+120 / 200
+130 / 200
+140 / 200
+150 / 200
+160 / 200
+170 / 200
+180 / 200
+190 / 200
+200 / 200
+done 200 peak VRAM GiB 7.23
+[22:40] exit 0
+[22:40] .venv/Scripts/python code/e2_analysis.py --langs en,hi --sites A --llama-run analysis/run_20261026_e2h3end_A_llama --gemma-run analysis/run_20261026_e2h3end_A_gemma2 --tag e2h3end_analysis_A18
+llama {'en2hi': (190, 'P2 SHARED', True), 'hi2en': (190, 'P2 SHARED', True)}
+Traceback (most recent call last):
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\e2_analysis.py", line 168, in <module>
+    main()
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\e2_analysis.py", line 86, in main
+    D, F, pairs, meta = load_run(run)
+                        ^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\e2_analysis.py", line 19, in load_run
+    z = np.load(Path(run) / "effects.npz")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\numpy\lib\_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'analysis\\run_20261026_e2h3end_A_gemma2\\effects.npz'
+[22:40] exit 0
+[22:40] .venv/Scripts/python code/e2_analysis.py --langs en,hi --sites A --exclude-leak --llama-run analysis/run_20261026_e2h3end_A_llama --gemma-run analysis/run_20261026_e2h3end_A_gemma2 --tag e2h3end_analysis_A18_leakfree
+llama {'en2hi': (186, 'P2 SHARED', True), 'hi2en': (186, 'P2 SHARED', True)}
+Traceback (most recent call last):
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\e2_analysis.py", line 168, in <module>
+    main()
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\e2_analysis.py", line 86, in main
+    D, F, pairs, meta = load_run(run)
+                        ^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\e2_analysis.py", line 19, in load_run
+    z = np.load(Path(run) / "effects.npz")
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\.venv\Lib\site-packages\numpy\lib\_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'analysis\\run_20261026_e2h3end_A_gemma2\\effects.npz'
+[22:40] exit 0
+[22:40] .venv/Scripts/python code/e2_analysis.py --langs en,hi --sites A --llama-run analysis/run_20261026_e2h3bcast_A_llama --gemma-run analysis/run_20261026_e2h3bcast_A_gemma2 --tag e2h3bcast_analysis_A18
+llama {'en2hi': (190, 'P2 SHARED', False)}
+gemma2 {'en2hi': (186, 'P2 SHARED', True)}
+wrote analysis\run_20261026_e2h3bcast_analysis_A18
+[22:41] exit 0
+[22:41] .venv/Scripts/python code/e2_analysis.py --langs en,hi --sites A --exclude-leak --llama-run analysis/run_20261026_e2h3bcast_A_llama --gemma-run analysis/run_20261026_e2h3bcast_A_gemma2 --tag e2h3bcast_analysis_A18_leakfree
+llama {'en2hi': (186, 'P2 SHARED', False)}
+gemma2 {'en2hi': (151, 'P2 SHARED', True)}
+wrote analysis\run_20261026_e2h3bcast_analysis_A18_leakfree
+[22:41] exit 0
+a18 finished
+[22:42] .venv/Scripts/python code/interchange.py --model gemma2 --langs en,hi --facts data/v2/e2h2_facts_gemma2.json --span end --directions en2hi,hi2en --k-src 4 --shuffle-pairs --max-pairs 200 --tag e2h3end_A
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   6%|▋         | 18/288 [00:00<00:02, 127.32it/s]Loading weights:  11%|█         | 31/288 [00:00<00:08, 29.34it/s] Loading weights:  13%|█▎        | 38/288 [00:01<00:09, 25.01it/s]Loading weights:  15%|█▍        | 43/288 [00:01<00:11, 21.58it/s]Loading weights:  16%|█▋        | 47/288 [00:01<00:10, 22.25it/s]Loading weights:  17%|█▋        | 50/288 [00:01<00:10, 22.55it/s]Loading weights:  19%|█▉        | 54/288 [00:02<00:12, 19.23it/s]Loading weights:  20%|█▉        | 57/288 [00:02<00:12, 19.18it/s]Loading weights:  22%|██▏       | 62/288 [00:02<00:09, 24.01it/s]Loading weights:  23%|██▎       | 65/288 [00:02<00:10, 21.77it/s]Loading weights:  24%|██▎       | 68/288 [00:02<00:12, 17.47it/s]Loading weights:  25%|██▍       | 71/288 [00:03<00:16, 12.88it/s]Loading weights:  27%|██▋       | 78/288 [00:03<00:11, 18.53it/s]Loading weights:  30%|██▉       | 85/288 [00:03<00:08, 25.34it/s]Loading weights:  31%|███       | 89/288 [00:04<00:11, 17.13it/s]Loading weights:  33%|███▎      | 95/288 [00:04<00:08, 21.74it/s]Loading weights:  34%|███▍      | 99/288 [00:04<00:11, 16.47it/s]Loading weights:  36%|███▌      | 103/288 [00:04<00:10, 18.12it/s]Loading weights:  38%|███▊      | 109/288 [00:05<00:11, 15.78it/s]Loading weights:  40%|███▉      | 115/288 [00:05<00:08, 20.67it/s]Loading weights:  41%|████▏     | 119/288 [00:05<00:08, 19.05it/s]Loading weights:  42%|████▏     | 122/288 [00:06<00:11, 14.16it/s]Loading weights:  43%|████▎     | 125/288 [00:06<00:10, 14.95it/s]Loading weights:  45%|████▌     | 130/288 [00:06<00:09, 16.67it/s]Loading weights:  46%|████▌     | 133/288 [00:06<00:11, 13.53it/s]Loading weights:  48%|████▊     | 139/288 [00:06<00:07, 18.87it/s]Loading weights:  49%|████▉     | 142/288 [00:07<00:13, 10.62it/s]Loading weights:  51%|█████▏    | 148/288 [00:07<00:09, 15.36it/s]Loading weights:  53%|█████▎    | 152/288 [00:08<00:08, 15.67it/s][22:43] checkpoint repaired (partial.npz was stale vs partial_meta after rename PermissionError; copied partial_tmp.npz); rerun
+[22:43] .venv/Scripts/python code/interchange.py --model gemma2 --langs en,hi --facts data/v2/e2h2_facts_gemma2.json --span end --directions en2hi,hi2en --k-src 4 --shuffle-pairs --max-pairs 200 --tag e2h3end_A
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   7%|▋         | 19/288 [00:00<00:02, 100.42it/s]Loading weights:  10%|█         | 30/288 [00:00<00:05, 49.95it/s] Loading weights:  12%|█▎        | 36/288 [00:00<00:07, 32.36it/s]Loading weights:  14%|█▍        | 40/288 [00:01<00:09, 26.61it/s]Loading weights:  15%|█▌        | 44/288 [00:01<00:10, 23.45it/s]Loading weights:  17%|█▋        | 49/288 [00:01<00:09, 25.97it/s]Loading weights:  18%|█▊        | 53/288 [00:01<00:12, 18.51it/s]Loading weights:  23%|██▎       | 65/288 [00:02<00:08, 24.86it/s]Loading weights:  24%|██▎       | 68/288 [00:02<00:08, 25.18it/s]Loading weights:  26%|██▌       | 74/288 [00:02<00:08, 24.42it/s]Loading weights:  27%|██▋       | 77/288 [00:02<00:10, 19.79it/s]Loading weights:  29%|██▉       | 83/288 [00:03<00:08, 24.99it/s]Loading weights:  30%|███       | 87/288 [00:03<00:08, 22.93it/s]Loading weights:  31%|███▏      | 90/288 [00:03<00:09, 20.11it/s]Loading weights:  33%|███▎      | 96/288 [00:03<00:08, 23.45it/s]Loading weights:  34%|███▍      | 99/288 [00:03<00:09, 20.85it/s]Loading weights:  35%|███▌      | 102/288 [00:03<00:08, 22.01it/s]Loading weights:  37%|███▋      | 107/288 [00:04<00:07, 24.83it/s]Loading weights:  38%|███▊      | 110/288 [00:04<00:08, 20.29it/s]Loading weights:  41%|████      | 117/288 [00:04<00:07, 23.61it/s]Loading weights:  42%|████▏     | 120/288 [00:04<00:07, 21.29it/s]Loading weights:  44%|████▍     | 126/288 [00:04<00:06, 25.58it/s]Loading weights:  45%|████▍     | 129/288 [00:05<00:06, 26.18it/s]Loading weights:  46%|████▌     | 132/288 [00:05<00:07, 20.07it/s]Loading weights:  47%|████▋     | 136/288 [00:05<00:06, 22.20it/s]Loading weights:  49%|████▉     | 141/288 [00:05<00:05, 26.74it/s]Loading weights:  50%|█████     | 144/288 [00:05<00:07, 20.33it/s]Loading weights:  51%|█████     | 147/288 [00:06<00:06, 20.46it/s]Loading weights:  53%|█████▎    | 152/288 [00:06<00:08, 16.90it/s]Loading weights:  55%|█████▍    | 157/288 [00:06<00:06, 20.67it/s]Loading weights:  56%|█████▋    | 162/288 [00:06<00:07, 16.11it/s]Loading weights:  58%|█████▊    | 166/288 [00:07<00:06, 18.54it/s]Loading weights:  59%|█████▊    | 169/288 [00:07<00:06, 19.05it/s]Loading weights:  60%|█████▉    | 172/288 [00:07<00:08, 13.77it/s]Loading weights:  61%|██████    | 176/288 [00:07<00:07, 15.67it/s]Loading weights:  62%|██████▏   | 178/288 [00:07<00:07, 15.31it/s]Loading weights:  64%|██████▍   | 185/288 [00:08<00:07, 13.01it/s]Loading weights:  67%|██████▋   | 192/288 [00:08<00:05, 18.32it/s]Loading weights:  68%|██████▊   | 195/288 [00:09<00:06, 14.52it/s]Loading weights:  69%|██████▉   | 198/288 [00:09<00:06, 13.68it/s]Loading weights:  70%|██████▉   | 201/288 [00:09<00:05, 14.54it/s]Loading weights:  72%|███████▏  | 208/288 [00:10<00:05, 13.81it/s]Loading weights:  74%|███████▍  | 213/288 [00:10<00:04, 16.62it/s]Loading weights:  76%|███████▌  | 219/288 [00:10<00:03, 19.30it/s]Loading weights:  77%|███████▋  | 222/288 [00:10<00:04, 14.22it/s]Loading weights:  78%|███████▊  | 226/288 [00:11<00:03, 17.10it/s]Loading weights:  80%|███████▉  | 229/288 [00:11<00:03, 16.90it/s]Loading weights:  81%|████████  | 232/288 [00:11<00:04, 13.27it/s]Loading weights:  82%|████████▏ | 237/288 [00:11<00:03, 16.97it/s]Loading weights:  84%|████████▎ | 241/288 [00:12<00:03, 14.30it/s]Loading weights:  84%|████████▍ | 243/288 [00:12<00:03, 12.94it/s]Loading weights:  86%|████████▋ | 249/288 [00:12<00:02, 18.38it/s]Loading weights:  88%|████████▊ | 252/288 [00:12<00:02, 17.70it/s]Loading weights:  89%|████████▊ | 255/288 [00:13<00:02, 12.55it/s]Loading weights:  90%|████████▉ | 259/288 [00:13<00:01, 15.70it/s]Loading weights:  91%|█████████ | 262/288 [00:13<00:01, 15.73it/s]Loading weights:  92%|█████████▏| 264/288 [00:13<00:02, 11.60it/s]Loading weights:  93%|█████████▎| 269/288 [00:13<00:01, 15.80it/s]Loading weights:  95%|█████████▌| 274/288 [00:14<00:00, 15.64it/s]Loading weights:  96%|█████████▌| 276/288 [00:14<00:00, 13.90it/s]Loading weights:  98%|█████████▊| 282/288 [00:14<00:00, 19.49it/s]Loading weights: 100%|██████████| 288/288 [00:14<00:00, 19.66it/s]
+Loaded pretrained model google/gemma-2-2b into HookedTransformer
+resuming from pair 40
+50 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+60 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+70 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+80 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+90 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+100 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+110 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+120 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+130 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+140 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+150 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+160 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+170 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+180 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+190 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+200 / 200
+warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)
+done 400 peak VRAM GiB 7.23
+[23:05] exit 0
+[23:05] .venv/Scripts/python code/e2_analysis.py --langs en,hi --sites A --llama-run analysis/run_20261026_e2h3end_A_llama --gemma-run analysis/run_20261026_e2h3end_A_gemma2 --tag e2h3end_analysis_A18
+llama {'en2hi': (190, 'P2 SHARED', True), 'hi2en': (190, 'P2 SHARED', True)}
+gemma2 {'en2hi': (186, 'P2 SHARED', True), 'hi2en': (186, 'P2 SHARED', True)}
+wrote analysis\run_20261026_e2h3end_analysis_A18
+[23:06] exit 0
+[23:06] .venv/Scripts/python code/e2_analysis.py --langs en,hi --sites A --exclude-leak --llama-run analysis/run_20261026_e2h3end_A_llama --gemma-run analysis/run_20261026_e2h3end_A_gemma2 --tag e2h3end_analysis_A18_leakfree
+llama {'en2hi': (186, 'P2 SHARED', True), 'hi2en': (186, 'P2 SHARED', True)}
+gemma2 {'en2hi': (151, 'P2 SHARED', True), 'hi2en': (151, 'P2 SHARED', True)}
+wrote analysis\run_20261026_e2h3end_analysis_A18_leakfree
+[23:06] exit 0
+[23:06] .venv/Scripts/python code/e2_analysis.py --langs en,hi --sites A --llama-run analysis/run_20261026_e2h3bcast_A_llama --gemma-run analysis/run_20261026_e2h3bcast_A_gemma2 --tag e2h3bcast_analysis_A18
+Traceback (most recent call last):
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\e2_analysis.py", line 168, in <module>
+    main()
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\e2_analysis.py", line 82, in main
+    out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"; out.mkdir(parents=True, exist_ok=False)
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'analysis\\run_20261026_e2h3bcast_analysis_A18'
+[23:06] exit 0
+[23:06] .venv/Scripts/python code/e2_analysis.py --langs en,hi --sites A --exclude-leak --llama-run analysis/run_20261026_e2h3bcast_A_llama --gemma-run analysis/run_20261026_e2h3bcast_A_gemma2 --tag e2h3bcast_analysis_A18_leakfree
+Traceback (most recent call last):
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\e2_analysis.py", line 168, in <module>
+    main()
+  File "C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\code\e2_analysis.py", line 82, in main
+    out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"; out.mkdir(parents=True, exist_ok=False)
+                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Som Praneeth\AppData\Local\Programs\Python\Python312\Lib\pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileExistsError: [WinError 183] Cannot create a file when that file already exists: 'analysis\\run_20261026_e2h3bcast_analysis_A18_leakfree'
+[23:07] exit 0
+a18 finished
