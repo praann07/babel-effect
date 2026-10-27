@@ -1,0 +1,2831 @@
+{
+ "pairs": [
+  {
+   "target": "capital_country_049",
+   "source": "capital_country_122",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_049",
+   "source": "capital_country_122",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_044",
+   "source": "city_country_049",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_044",
+   "source": "city_country_049",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_031",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_031",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_122",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_122",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_031",
+   "source": "city_country_053",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_031",
+   "source": "city_country_053",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_088",
+   "source": "capital_of_046",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_088",
+   "source": "capital_of_046",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_088",
+   "source": "capital_of_089",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_088",
+   "source": "capital_of_089",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_049",
+   "source": "capital_of_057",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_049",
+   "source": "capital_of_057",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_063",
+   "source": "city_country_060",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_063",
+   "source": "city_country_060",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_044",
+   "source": "capital_of_089",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_044",
+   "source": "capital_of_089",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_113",
+   "source": "capital_of_090",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_113",
+   "source": "capital_of_090",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_034",
+   "source": "capital_of_032",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_034",
+   "source": "capital_of_032",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_101",
+   "source": "capital_country_089",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_101",
+   "source": "capital_country_089",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_085",
+   "source": "capital_country_078",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_085",
+   "source": "capital_country_078",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_089",
+   "source": "capital_country_101",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_089",
+   "source": "capital_country_101",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_062",
+   "source": "capital_country_122",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_062",
+   "source": "capital_country_122",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_093",
+   "source": "capital_country_053",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_093",
+   "source": "capital_country_053",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_104",
+   "source": "capital_of_101",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_104",
+   "source": "capital_of_101",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_113",
+   "source": "capital_of_106",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_113",
+   "source": "capital_of_106",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_089",
+   "source": "capital_country_093",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_089",
+   "source": "capital_country_093",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_101",
+   "source": "capital_of_089",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_101",
+   "source": "capital_of_089",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_052",
+   "source": "city_country_049",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_052",
+   "source": "city_country_049",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_056",
+   "source": "capital_of_089",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_056",
+   "source": "capital_of_089",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_101",
+   "source": "capital_of_034",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_101",
+   "source": "capital_of_034",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_078",
+   "source": "capital_country_122",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_078",
+   "source": "capital_country_122",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_083",
+   "source": "capital_of_113",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_083",
+   "source": "capital_of_113",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_052",
+   "source": "city_country_051",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_052",
+   "source": "city_country_051",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_101",
+   "source": "capital_of_068",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_101",
+   "source": "capital_of_068",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_035",
+   "source": "capital_of_032",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_035",
+   "source": "capital_of_032",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_058",
+   "source": "city_country_071",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_058",
+   "source": "city_country_071",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_104",
+   "source": "capital_of_090",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_104",
+   "source": "capital_of_090",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_085",
+   "source": "capital_country_053",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_085",
+   "source": "capital_country_053",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_066",
+   "source": "capital_country_034",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_066",
+   "source": "capital_country_034",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_038",
+   "source": "capital_country_034",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_038",
+   "source": "capital_country_034",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_049",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_049",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_071",
+   "source": "city_country_053",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_071",
+   "source": "city_country_053",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_093",
+   "source": "capital_of_089",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_093",
+   "source": "capital_of_089",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_056",
+   "source": "city_country_068",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_056",
+   "source": "city_country_068",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_046",
+   "source": "capital_country_096",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_046",
+   "source": "capital_country_096",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_122",
+   "source": "capital_country_101",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_122",
+   "source": "capital_country_101",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_047",
+   "source": "capital_country_069",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_047",
+   "source": "capital_country_069",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_066",
+   "source": "capital_country_085",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_066",
+   "source": "capital_country_085",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_101",
+   "source": "capital_country_059",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_101",
+   "source": "capital_country_059",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_081",
+   "source": "capital_of_088",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_081",
+   "source": "capital_of_088",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_030",
+   "source": "city_country_056",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_030",
+   "source": "city_country_056",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_065",
+   "source": "city_country_058",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_065",
+   "source": "city_country_058",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_047",
+   "source": "capital_country_059",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_047",
+   "source": "capital_country_059",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_031",
+   "source": "capital_country_078",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_031",
+   "source": "capital_country_078",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_068",
+   "source": "city_country_030",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_068",
+   "source": "city_country_030",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_050",
+   "source": "capital_of_106",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_050",
+   "source": "capital_of_106",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_122",
+   "source": "capital_country_085",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_122",
+   "source": "capital_country_085",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_057",
+   "source": "city_country_056",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_057",
+   "source": "city_country_056",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_096",
+   "source": "capital_country_066",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_096",
+   "source": "capital_country_066",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_057",
+   "source": "capital_of_104",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_057",
+   "source": "capital_of_104",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_072",
+   "source": "capital_of_081",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_072",
+   "source": "capital_of_081",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_047",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_034",
+   "source": "capital_country_047",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_065",
+   "source": "capital_of_035",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_065",
+   "source": "capital_of_035",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_096",
+   "source": "capital_country_101",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_096",
+   "source": "capital_country_101",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_068",
+   "source": "capital_of_035",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_068",
+   "source": "capital_of_035",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_096",
+   "source": "capital_country_053",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_096",
+   "source": "capital_country_053",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_038",
+   "source": "capital_country_069",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_038",
+   "source": "capital_country_069",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_047",
+   "source": "capital_country_034",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_047",
+   "source": "capital_country_034",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_089",
+   "source": "capital_country_096",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_089",
+   "source": "capital_country_096",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_072",
+   "source": "capital_of_034",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_072",
+   "source": "capital_of_034",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_120",
+   "source": "capital_country_078",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_120",
+   "source": "capital_country_078",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_068",
+   "source": "city_country_053",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_068",
+   "source": "city_country_053",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_053",
+   "source": "capital_country_120",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_053",
+   "source": "capital_country_120",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_089",
+   "source": "capital_country_034",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_089",
+   "source": "capital_country_034",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_038",
+   "source": "capital_country_089",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_038",
+   "source": "capital_country_089",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_044",
+   "source": "capital_country_093",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_044",
+   "source": "capital_country_093",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_051",
+   "source": "city_country_071",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_051",
+   "source": "city_country_071",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_089",
+   "source": "capital_of_034",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_089",
+   "source": "capital_of_034",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_068",
+   "source": "capital_of_088",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_068",
+   "source": "capital_of_088",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_049",
+   "source": "capital_country_044",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_049",
+   "source": "capital_country_044",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_069",
+   "source": "capital_country_093",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_069",
+   "source": "capital_country_093",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_038",
+   "source": "capital_of_088",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_038",
+   "source": "capital_of_088",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_062",
+   "source": "capital_country_047",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_062",
+   "source": "capital_country_047",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_046",
+   "source": "capital_country_047",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_046",
+   "source": "capital_country_047",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_056",
+   "source": "capital_of_101",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_056",
+   "source": "capital_of_101",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_034",
+   "source": "capital_of_103",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_034",
+   "source": "capital_of_103",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_030",
+   "source": "city_country_053",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_030",
+   "source": "city_country_053",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_085",
+   "source": "capital_country_089",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_085",
+   "source": "capital_country_089",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_089",
+   "source": "capital_of_072",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_089",
+   "source": "capital_of_072",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_104",
+   "source": "capital_of_037",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_104",
+   "source": "capital_of_037",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_038",
+   "source": "capital_of_106",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_038",
+   "source": "capital_of_106",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_049",
+   "source": "capital_country_120",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_049",
+   "source": "capital_country_120",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_093",
+   "source": "capital_of_050",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_093",
+   "source": "capital_of_050",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_103",
+   "source": "capital_of_115",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_103",
+   "source": "capital_of_115",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_121",
+   "source": "capital_of_057",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_121",
+   "source": "capital_of_057",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_042",
+   "source": "capital_of_044",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_042",
+   "source": "capital_of_044",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_035",
+   "source": "capital_of_083",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_035",
+   "source": "capital_of_083",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_071",
+   "source": "city_country_051",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_071",
+   "source": "city_country_051",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_120",
+   "source": "capital_country_044",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_120",
+   "source": "capital_country_044",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_057",
+   "source": "capital_of_072",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_057",
+   "source": "capital_of_072",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_115",
+   "source": "capital_of_037",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_115",
+   "source": "capital_of_037",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_057",
+   "source": "capital_of_044",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_057",
+   "source": "capital_of_044",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_042",
+   "source": "capital_of_101",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_042",
+   "source": "capital_of_101",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_051",
+   "source": "city_country_057",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_051",
+   "source": "city_country_057",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_046",
+   "source": "capital_of_115",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_046",
+   "source": "capital_of_115",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_050",
+   "source": "capital_of_049",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_050",
+   "source": "capital_of_049",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_069",
+   "source": "capital_country_046",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_069",
+   "source": "capital_country_046",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_103",
+   "source": "capital_of_057",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_103",
+   "source": "capital_of_057",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_044",
+   "source": "capital_of_093",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_044",
+   "source": "capital_of_093",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_093",
+   "source": "capital_country_066",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_093",
+   "source": "capital_country_066",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_032",
+   "source": "capital_of_081",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_032",
+   "source": "capital_of_081",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_031",
+   "source": "capital_country_093",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_031",
+   "source": "capital_country_093",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_051",
+   "source": "city_country_065",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_051",
+   "source": "city_country_065",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_120",
+   "source": "capital_country_066",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_120",
+   "source": "capital_country_066",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_122",
+   "source": "capital_country_047",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_122",
+   "source": "capital_country_047",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_053",
+   "source": "capital_country_089",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_053",
+   "source": "capital_country_089",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_065",
+   "source": "capital_of_081",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_065",
+   "source": "capital_of_081",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_032",
+   "source": "capital_of_042",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_032",
+   "source": "capital_of_042",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_032",
+   "source": "capital_of_093",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_032",
+   "source": "capital_of_093",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_047",
+   "source": "capital_country_046",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_047",
+   "source": "capital_country_046",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_103",
+   "source": "capital_of_030",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_103",
+   "source": "capital_of_030",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_058",
+   "source": "city_country_068",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_058",
+   "source": "city_country_068",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_106",
+   "source": "capital_of_050",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_106",
+   "source": "capital_of_050",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_113",
+   "source": "capital_of_103",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_113",
+   "source": "capital_of_103",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_106",
+   "source": "capital_of_115",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_106",
+   "source": "capital_of_115",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_106",
+   "source": "capital_of_030",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_106",
+   "source": "capital_of_030",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_030",
+   "source": "city_country_058",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_030",
+   "source": "city_country_058",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_078",
+   "source": "capital_of_050",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_078",
+   "source": "capital_of_050",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_089",
+   "source": "capital_of_044",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_089",
+   "source": "capital_of_044",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_068",
+   "source": "capital_of_065",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_068",
+   "source": "capital_of_065",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_071",
+   "source": "city_country_056",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_071",
+   "source": "city_country_056",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_046",
+   "source": "capital_country_085",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_046",
+   "source": "capital_country_085",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_106",
+   "source": "capital_of_093",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_106",
+   "source": "capital_of_093",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_060",
+   "source": "city_country_068",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_060",
+   "source": "city_country_068",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_049",
+   "source": "capital_of_038",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_049",
+   "source": "capital_of_038",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_053",
+   "source": "capital_country_078",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_053",
+   "source": "capital_country_078",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_068",
+   "source": "capital_of_038",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_068",
+   "source": "capital_of_038",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_081",
+   "source": "capital_of_083",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_081",
+   "source": "capital_of_083",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_090",
+   "source": "capital_of_115",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_090",
+   "source": "capital_of_115",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_093",
+   "source": "capital_of_037",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_093",
+   "source": "capital_of_037",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_057",
+   "source": "city_country_068",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_057",
+   "source": "city_country_068",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_030",
+   "source": "capital_of_038",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_030",
+   "source": "capital_of_038",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_101",
+   "source": "capital_country_046",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_101",
+   "source": "capital_country_046",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_115",
+   "source": "capital_of_032",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_115",
+   "source": "capital_of_032",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_088",
+   "source": "capital_of_050",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_088",
+   "source": "capital_of_050",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_078",
+   "source": "capital_of_090",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_078",
+   "source": "capital_of_090",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_081",
+   "source": "capital_of_049",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_081",
+   "source": "capital_of_049",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_052",
+   "source": "city_country_056",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_052",
+   "source": "city_country_056",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_058",
+   "source": "city_country_063",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_058",
+   "source": "city_country_063",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_060",
+   "source": "city_country_052",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_060",
+   "source": "city_country_052",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_085",
+   "source": "capital_country_101",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_085",
+   "source": "capital_country_101",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_049",
+   "source": "capital_of_104",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_049",
+   "source": "capital_of_104",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_093",
+   "source": "capital_country_122",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_093",
+   "source": "capital_country_122",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_031",
+   "source": "capital_country_044",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_031",
+   "source": "capital_country_044",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_066",
+   "source": "capital_country_044",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_066",
+   "source": "capital_country_044",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_057",
+   "source": "city_country_051",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_057",
+   "source": "city_country_051",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_046",
+   "source": "capital_of_042",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_046",
+   "source": "capital_of_042",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_030",
+   "source": "capital_of_037",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_030",
+   "source": "capital_of_037",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_068",
+   "source": "city_country_071",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_068",
+   "source": "city_country_071",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_059",
+   "source": "capital_country_078",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_059",
+   "source": "capital_country_078",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_113",
+   "source": "capital_of_088",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_113",
+   "source": "capital_of_088",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_120",
+   "source": "capital_country_053",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_120",
+   "source": "capital_country_053",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_044",
+   "source": "capital_country_047",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_044",
+   "source": "capital_country_047",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_121",
+   "source": "capital_of_072",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_121",
+   "source": "capital_of_072",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_052",
+   "source": "city_country_063",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_052",
+   "source": "city_country_063",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_046",
+   "source": "capital_of_113",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_046",
+   "source": "capital_of_113",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_065",
+   "source": "city_country_056",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_065",
+   "source": "city_country_056",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_044",
+   "source": "capital_of_104",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_044",
+   "source": "capital_of_104",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_035",
+   "source": "capital_of_093",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_035",
+   "source": "capital_of_093",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_068",
+   "source": "city_country_060",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_068",
+   "source": "city_country_060",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_058",
+   "source": "city_country_060",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_058",
+   "source": "city_country_060",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_071",
+   "source": "city_country_065",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_071",
+   "source": "city_country_065",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_053",
+   "source": "capital_country_096",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_053",
+   "source": "capital_country_096",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_037",
+   "source": "capital_of_030",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_037",
+   "source": "capital_of_030",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_078",
+   "source": "capital_of_101",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_078",
+   "source": "capital_of_101",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_050",
+   "source": "capital_of_104",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_050",
+   "source": "capital_of_104",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_053",
+   "source": "city_country_060",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_053",
+   "source": "city_country_060",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_089",
+   "source": "capital_of_115",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_089",
+   "source": "capital_of_115",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_038",
+   "source": "capital_country_085",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_038",
+   "source": "capital_country_085",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_059",
+   "source": "capital_country_085",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_059",
+   "source": "capital_country_085",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_090",
+   "source": "capital_of_038",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_090",
+   "source": "capital_of_038",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_035",
+   "source": "capital_of_113",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_035",
+   "source": "capital_of_113",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_065",
+   "source": "city_country_057",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_065",
+   "source": "city_country_057",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_030",
+   "source": "capital_of_104",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_030",
+   "source": "capital_of_104",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_065",
+   "source": "city_country_051",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_065",
+   "source": "city_country_051",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_062",
+   "source": "capital_country_085",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_062",
+   "source": "capital_country_085",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_121",
+   "source": "capital_of_078",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_121",
+   "source": "capital_of_078",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_115",
+   "source": "capital_of_038",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_115",
+   "source": "capital_of_038",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_049",
+   "source": "city_country_044",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_049",
+   "source": "city_country_044",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_032",
+   "source": "capital_of_057",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_032",
+   "source": "capital_of_057",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_048",
+   "source": "capital_country_093",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_048",
+   "source": "capital_country_093",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_044",
+   "source": "city_country_057",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_044",
+   "source": "city_country_057",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_093",
+   "source": "capital_country_046",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_093",
+   "source": "capital_country_046",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_049",
+   "source": "capital_country_031",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_049",
+   "source": "capital_country_031",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_031",
+   "source": "city_country_058",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_031",
+   "source": "city_country_058",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_101",
+   "source": "capital_of_121",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_101",
+   "source": "capital_of_121",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_088",
+   "source": "capital_of_121",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_088",
+   "source": "capital_of_121",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_115",
+   "source": "capital_of_093",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_115",
+   "source": "capital_of_093",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_049",
+   "source": "capital_of_089",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_049",
+   "source": "capital_of_089",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_122",
+   "source": "capital_country_078",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_122",
+   "source": "capital_country_078",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_053",
+   "source": "city_country_058",
+   "direction": "en2hi",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "city_country_053",
+   "source": "city_country_058",
+   "direction": "hi2en",
+   "relation": "city_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_048",
+   "source": "capital_country_122",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_048",
+   "source": "capital_country_122",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_030",
+   "source": "capital_of_032",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_030",
+   "source": "capital_of_032",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_048",
+   "source": "capital_country_053",
+   "direction": "en2hi",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_country_048",
+   "source": "capital_country_053",
+   "direction": "hi2en",
+   "relation": "capital_country",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_037",
+   "source": "capital_of_072",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_037",
+   "source": "capital_of_072",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_038",
+   "source": "capital_of_044",
+   "direction": "en2hi",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "capital_of_038",
+   "source": "capital_of_044",
+   "direction": "hi2en",
+   "relation": "capital_of",
+   "jaccard_source": 0.0
+  }
+ ],
+ "conds": [
+  "same",
+  "cross",
+  "self",
+  "ctrl"
+ ],
+ "sites": [
+  "A",
+  "B"
+ ],
+ "n_layers": 28,
+ "seed": 20261024,
+ "n_facts": 66,
+ "pilot": 0,
+ "langs": [
+  "en",
+  "hi"
+ ],
+ "facts_file": "data/v2/e2h2_facts_llama.json",
+ "max_pairs": 200,
+ "directions": [
+  "en2hi",
+  "hi2en"
+ ],
+ "shuffle_pairs": true,
+ "k_src": 4,
+ "span_mode": "end"
+}

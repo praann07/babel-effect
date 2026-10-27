@@ -99,3 +99,5 @@ Ran `scripts_night_e2h.sh`: filters, full runs (Llama 22 min, Gemma 15 min), ana
 
 - 2026-10-26 A17 leakage-excluded re-analysis done: no verdict changed (details `docs/EXPERIMENT_LOG.md`); manifest 1289 verified.
 - 2026-10-26 A17b clustering sensitivity: EN-ES SHARED under all clusterings; Hindi->English labels not clustering-robust (report as estimate ~0.74-0.80). Manifest 1469.
+
+- 2026-10-27 A18 EN<->HI span-wise interchange done: gate passes both directions; I 0.81-0.93 (Llama 0.86/0.87, Gemma 0.93/0.81), direction-symmetric, higher than the A16 last-token 0.74-0.76. Clustering sensitivity on A18 not yet run. Manifest 1565.
