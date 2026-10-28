@@ -6,9 +6,9 @@ PY=${PY:-.venv/Scripts/python}
 LOG=analysis/_logs/a19.log; DONE=analysis/_logs/a19.done; mkdir -p analysis/_logs; touch $DONE
 step() { local n=$1; shift; grep -qx "$n" $DONE && return 0; echo "[$(date +%F' '%H:%M)] START $n" >> $LOG
   if "$@" >> $LOG 2>&1; then echo "$n" >> $DONE; echo "[$(date +%F' '%H:%M)] OK $n" >> $LOG; else echo "[$(date +%F' '%H:%M)] FAIL $n" >> $LOG; exit 1; fi; }
-# GPU steps: 10 min rest after each one so the laptop cools; no new GPU step starts after 06:30 (window ends 07:30). Re-run the script to resume.
+# GPU steps: no new GPU step starts after 06:30 (window ends 07:30). Re-run the script to resume.
 gstep() { local h=$(date +%H%M); if [ "$h" -ge 0630 ] && [ "$h" -lt 1200 ]; then echo "[$(date +%F' '%H:%M)] past 06:30, not starting $1" >> $LOG; exit 0; fi
-  grep -qx "$1" $DONE && return 0; step "$@"; echo "[$(date +%F' '%H:%M)] resting 10 min" >> $LOG; sleep 600; }
+  grep -qx "$1" $DONE && return 0; step "$@"; }
 M=llama_base
 gstep filter_es $PY code/e2_filter.py --model $M --tag e2bfilter
 gstep filter_hi $PY code/e2_filter_hi.py --model $M --a16 --tag e2hbfilter
