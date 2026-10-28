@@ -21,7 +21,7 @@ from matching import norm as mnorm
 
 SEED = 20261023
 DELTA = 0.05
-TOK_DIR = {"llama": "models/llama-3.2-3b-instruct", "gemma2": "models/gemma-2-2b"}
+TOK_DIR = {"llama": "models/llama-3.2-3b-instruct", "llama_base": "models/llama-3.2-3b-base", "gemma2": "models/gemma-2-2b"}
 Z975 = 2.2414  # two-sided 97.5% interval (Bonferroni over the 2 primary quantities)
 
 

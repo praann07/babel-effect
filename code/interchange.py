@@ -128,7 +128,7 @@ def pair_effect(model, T: Prompt, S_tl: Prompt, S_ol: Prompt, T_ol: Prompt, a_s:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", required=True, choices=["llama", "gemma2"])
+    ap.add_argument("--model", required=True, choices=["llama", "llama_base", "gemma2"])
     ap.add_argument("--pilot", type=int, default=0, help="run only this many pairs (debug pilot, excluded from analysis)")
     ap.add_argument("--unit-tests", action="store_true")
     ap.add_argument("--tag", default="e2")

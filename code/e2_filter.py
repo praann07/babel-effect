@@ -35,13 +35,14 @@ CANDS = {  # A13c: candidate templates per relation and language (first = the A1
 }
 CANDS["city_country"] = CANDS["landmark_country"]
 POOLS = {"llama": ["data/v2/facts_candidates.json", "data/v2/facts_candidates_extra_llama.json"],
+         "llama_base": ["data/v2/facts_candidates.json", "data/v2/facts_candidates_extra_llama.json"],  # A19: same candidate pool as the instruct model
          "gemma2": ["data/v2/facts_candidates_gemma2.json", "data/v2/facts_candidates_extra_gemma2.json"]}
 N_TUNE = 30
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", required=True, choices=["llama", "gemma2"])
+    ap.add_argument("--model", required=True, choices=["llama", "llama_base", "gemma2"])
     ap.add_argument("--tag", default="e2filter")
     ap.add_argument("--select", action="store_true", help="A13c: select templates per relation/language on the tuning facts")
     a = ap.parse_args()

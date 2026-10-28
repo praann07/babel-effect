@@ -15,6 +15,11 @@ SEED = 20261026
 RUNS = {
     "A13_en2es": ("e2full_A", "en2es"), "A13_es2en": ("e2full_A", "es2en"), "A16_hi2en": ("e2h2full_A", "hi2en"),
 }
+SETS = {  # --set: which stored runs to analyse; output dir tag
+    "a17b": (RUNS, "A17b", ("llama", "gemma2")),
+    "a18b": ({"A18_en2hi": ("e2h3end_A", "en2hi"), "A18_hi2en": ("e2h3end_A", "hi2en")}, "A18b", ("llama", "gemma2")),
+    "a19b": ({"A19_en2es": ("e2b_A", "en2es"), "A19_es2en": ("e2b_A", "es2en"), "A19_en2hi": ("e2hb_A", "en2hi"), "A19_hi2en": ("e2hb_A", "hi2en")}, "A19b", ("llama_base",)),
+}
 
 
 def latest(tag: str, m: str) -> str:
@@ -46,11 +51,12 @@ def ci(draws):
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(); ap.add_argument("--n-boot", type=int, default=5000); a = ap.parse_args()
-    out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_cluster_A17b"; out.mkdir(parents=True, exist_ok=False)
+    ap = argparse.ArgumentParser(); ap.add_argument("--n-boot", type=int, default=5000); ap.add_argument("--set", default="a17b", choices=list(SETS)); a = ap.parse_args()
+    runs, ctag, models = SETS[a.set]
+    out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_cluster_{ctag}"; out.mkdir(parents=True, exist_ok=False)
     leak = leaky_ids(); res = {}
-    for m in ("llama", "gemma2"):
-        for name, (tag, direction) in RUNS.items():
+    for m in models:
+        for name, (tag, direction) in runs.items():
             run = latest(tag, m)
             D0, F0, pairs0, _ = load_run(run)
             for lk in (False, True):
