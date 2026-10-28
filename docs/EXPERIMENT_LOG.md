@@ -107,3 +107,6 @@
 - Not done: A17b clustering sensitivity on A18 labels. Per rule (ii) the SHARED label is therefore not yet a headline; lower bounds under the registered clustering are 0.76-0.90 in all cells.
 - Operational: Gemma `end` crashed on a Windows `PermissionError` at the checkpoint rename (partial.npz stale vs partial_meta.json). Repaired by copying `partial_tmp.npz` over `partial.npz`, added a 20x retry loop in `code/interchange.py`, resumed. Final `meta.json` has 400 pair-directions = 200 unique pairs x 2, no duplicates. First `end` analyses (run before Gemma finished) kept as `..._failed_nogemma`. Power cut: run stopped and resumed from checkpoints.
 - Manifest 1565 claims verified (`a18_*`).
+
+## 2026-10-28 | A18b clustering sensitivity of the span-wise EN<->HI ratio (CPU; same A17b method, `code/cluster_sensitivity.py --set a18b`)
+- `analysis/run_20261028_cluster_A18b/results.json`. All 8 cells (2 models x 2 directions x plain/leak-free): SHARED under S, T, C and W; labels clustering-robust. Lowest lower bound 0.703 (Gemma hi2en, C clustering, plain; thin), next 0.739 (W). Llama en2hi lower bounds 0.77-0.80. So the span-wise Hindi SHARED label can be used, with the Gemma hi2en plain 0.70 margin stated. Manifest 1565 + `a18b_*` verified.

@@ -37,7 +37,7 @@ MIN_KEPT16 = 8
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", required=True, choices=["llama", "gemma2"])
+    ap.add_argument("--model", required=True, choices=["llama", "llama_base", "gemma2"])
     ap.add_argument("--tag", default="e2hfilter")
     ap.add_argument("--a16", action="store_true", help="A16: Q/A-format candidates, no 50% relation threshold, relations need >= 8 kept facts; writes e2h2_facts_<model>.json")
     a = ap.parse_args()

@@ -62,11 +62,12 @@ def verdict(r: dict) -> str:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--llama-run", required=True); ap.add_argument("--gemma-run", required=True)
+    ap.add_argument("--llama-run", required=True); ap.add_argument("--gemma-run", default="")
     ap.add_argument("--llama-seeds", default="analysis/run_20261024_p3seeds_10240109_llama"); ap.add_argument("--gemma-seeds", default="analysis/run_20261024_p3seeds_10240109_gemma2")
     ap.add_argument("--tag", default="e2_analysis")
     ap.add_argument("--langs", default="en,es", help="A15: language pair, e.g. en,hi (P5/P6 are skipped for pairs other than en,es)")
     ap.add_argument("--models", default="llama,gemma2")
+    ap.add_argument("--llama-label", default="llama", help="A19: key of the Llama-slot model (llama_base for the base model); P6 needs A13a seeds, so it is skipped for non-default labels")
     ap.add_argument("--sites", default="A,B", help="A18: sites to analyse (span-wise runs only have site A)")
     ap.add_argument("--exclude-leak", action="store_true", help="A17: drop pairs whose target or source fact has the answer inside the subject")
     a = ap.parse_args()
@@ -81,7 +82,7 @@ def main() -> None:
     from transformers import AutoTokenizer
     out = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}"; out.mkdir(parents=True, exist_ok=False)
     res: dict = {}
-    for m, run, sruns in [x for x in (("llama", a.llama_run, a.llama_seeds), ("gemma2", a.gemma_run, a.gemma_seeds)) if x[0] in a.models.split(",")]:
+    for m, run, sruns in [x for x in ((a.llama_label, a.llama_run, a.llama_seeds), ("gemma2", a.gemma_run, a.gemma_seeds)) if x[0] in a.models.split(",")]:
         rng = np.random.default_rng(SEED)
         D, F, pairs, meta = load_run(run)
         if leak:
@@ -124,7 +125,7 @@ def main() -> None:
                     relc = np.array([p["relation"] for p, k in zip(pd_, conf) if k]); Dcf, srcc = Dd[conf], src[conf]
                     r["by_relation_descriptive"] = {rl: ratio_ci(Dcf[relc == rl], srcc[relc == rl], band, si, np.random.default_rng(1), n_boot=500) for rl in sorted(set(relc)) if (relc == rl).sum() >= 5}
                 od[f"site_{site}"] = r
-            if direction == DIRS[0] and ES:  # covariate model (site A), per-pair ratio
+            if direction == DIRS[0] and ES and a.llama_label == "llama":  # covariate model (site A), per-pair ratio
                 band = np.array(od["site_A"]["gate"]["band_layers"])
                 num, den = Dd[:, COND["cross"], 0][:, band].mean(1), Dd[:, COND["same"], 0][:, band].mean(1)
                 ok = den > 0.5
