@@ -2174,3 +2174,875 @@ At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
     + CategoryInfo          : NotSpecified: (:) [], MethodException
     + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
  
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
+Cannot convert argument "f", with value: "-2147483647", for "SetThreadExecutionState" to type "System.UInt32": "Cannot 
+convert value "-2147483647" to type "System.UInt32". Error: "Value was either too large or too small for a UInt32.""
+At C:\Users\Som Praneeth\Desktop\reasearch\babel-effect\keep_awake.ps1:4 char:42
++ ...  -Seconds 60; [W.K]::SetThreadExecutionState(0x80000001) | Out-Null }
++                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], MethodException
+    + FullyQualifiedErrorId : MethodArgumentConversionInvalidCastArgument
+ 
