@@ -3,6 +3,13 @@ Cross-lingual localization and editing of factual knowledge in small open-weight
 
 **Question.** Are stored facts held in language-specific circuits or a language-agnostic conceptual space? Plan: causal tracing in three languages, circuit-overlap statistics against a permutation null, a rank-1 ROME-style MLP edit in one language, and cross-lingual transfer / specificity / damage measurements.
 
+**Status:** v2 draft, in preparation (not peer reviewed). Hindi interchange is not yet tested. Paper draft: [`paper/The_Babel_Effect_draft_v2.pdf`](paper/The_Babel_Effect_draft_v2.pdf).
+
+## Result in one paragraph
+Facts in Llama-3.2-3B-Instruct and Gemma-2-2B are traced through similar MLP layers in English and Spanish (permutation test, 10,000 shuffles, p = 0.0001). Hindi overlap is weaker. Swapping the subject-token state between languages moves the answer about as much as a same-language swap (pre-registered verdict: SHARED). Edit-transfer samples are small, so those results are descriptive. Every number is in `results/manifest.json` and `./reproduce.sh verify` checks it.
+
+![Normalised MLP indirect effect by layer for EN, ES and HI, in Llama-3.2-3B (n=92) and Gemma-2-2B (n=58)](paper/figures/fig1_profiles.png)
+
 ## Constraints
 $0 API spend; local single GPU (<= 8 GB VRAM); open weights only.
 
