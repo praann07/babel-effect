@@ -67,6 +67,7 @@ class SchedulerTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         driver.WORK = Path(self.tmp.name)
+        driver.LAUNCH_GAP = 0.0
         (driver.WORK / "analysis" / "_logs").mkdir(parents=True)
 
     def tearDown(self):
@@ -87,6 +88,16 @@ class SchedulerTests(unittest.TestCase):
         st = {j.name: j.state for j in jobs}
         self.assertEqual(st, {"a": "done", "b": "done", "c": "failed", "d": "skipped", "e": "done"})
         self.assertEqual(done, {"a", "b", "e"})
+
+    def test_gpu_jobs_start_with_a_gap(self):
+        marks = Path(self.tmp.name)
+        code = f"import time,pathlib; pathlib.Path(r'{marks}', 'gNAME').write_text(str(time.time())); time.sleep(0.5)"
+        driver.LAUNCH_GAP = 1.5
+        jobs = [self.job("x", code.replace("NAME", "x")), self.job("y", code.replace("NAME", "y"))]
+        driver.run_jobs(jobs, [0, 1], dict(os.environ), set(), time.time() + 120, poll=0.05)
+        t = sorted(float(p.read_text()) for p in marks.glob("g[xy]"))
+        self.assertEqual(len(t), 2)
+        self.assertGreaterEqual(t[1] - t[0], 1.4)
 
     def test_both_gpus_busy_at_once_and_done_jobs_not_rerun(self):
         marks = Path(self.tmp.name)
@@ -157,6 +168,32 @@ class FormatTests(unittest.TestCase):
         self.assertTrue(all(r["finite"] for r in out["rows"]))
         self.assertEqual(len(out["grads"][0]), 16)
         self.assertGreater(sum(abs(v) for v in out["grads"][0]), 0)
+
+
+class SetupTests(unittest.TestCase):
+    def test_package_probe_runs_in_this_environment(self):
+        try:
+            import scipy  # noqa: F401  (Kaggle has it; the laptop venv may not)
+        except ImportError:
+            self.skipTest("scipy not installed here")
+        r = driver.sh([PY, "-c", driver.PROBE])
+        self.assertEqual(r.returncode, 0, r.stderr[-500:])
+        self.assertIn("transformer_lens 3.9.0", r.stdout)
+
+    def test_token_is_exported_for_jobs_and_missing_token_stops_early(self):
+        old = {k: os.environ.pop(k, None) for k in ("HF_TOKEN", "HUGGING_FACE_HUB_TOKEN")}
+        try:
+            with self.assertRaises(driver.Fatal) as cm:
+                driver.get_token()
+            self.assertIn("HF_TOKEN", str(cm.exception))
+            os.environ["HF_TOKEN"] = "dummy"
+            self.assertEqual(driver.get_token(), "dummy")
+            self.assertEqual(os.environ["HUGGING_FACE_HUB_TOKEN"], "dummy")
+        finally:
+            for k in ("HF_TOKEN", "HUGGING_FACE_HUB_TOKEN"):
+                os.environ.pop(k, None)
+                if old[k] is not None:
+                    os.environ[k] = old[k]
 
 
 class StepsTests(unittest.TestCase):

@@ -25,6 +25,7 @@ INPUT = Path(os.environ.get("KAGGLE_INPUT", "/kaggle/input"))
 OUT = WORK.parent  # /kaggle/working: what is here at the end is saved as the notebook output
 MODEL_ROOT = Path(os.environ.get("KAGGLE_MODELS", "/tmp/models"))
 PY = sys.executable
+LAUNCH_GAP = 45.0  # seconds between GPU job starts: two models loading at once can exceed the 29 GB of CPU memory
 PACKAGES = ["transformer-lens==3.9.0", "transformers==5.19.0", "accelerate==1.15.0", "jaxtyping", "einops", "fancy-einsum", "better-abc", "beartype"]
 HF = {"llama": ("meta-llama/Llama-3.2-3B-Instruct", "llama-3.2-3b-instruct"), "llama_base": ("meta-llama/Llama-3.2-3B", "llama-3.2-3b-base"),
       "gemma2": ("google/gemma-2-2b", "gemma-2-2b")}
@@ -91,22 +92,47 @@ def import_previous() -> set[str]:
     return done
 
 
+PROBE = ("import importlib.metadata as md, numpy, scipy, pandas, torch, transformers, transformer_lens; print('numpy', numpy.__version__, "
+         "'| scipy', scipy.__version__, '| torch', torch.__version__, '| transformers', transformers.__version__, "
+         "'| transformer_lens', md.version('transformer-lens'))")
+
+
 def install_packages() -> None:
-    probe = ("import numpy, scipy, pandas, torch, transformers, transformer_lens as t; print('numpy', numpy.__version__, '| scipy', scipy.__version__, "
-             "'| torch', torch.__version__, '| transformers', transformers.__version__, '| transformer_lens', t.__version__)")
-    p = sh([PY, "-c", probe])
+    p = sh([PY, "-c", PROBE])
     if p.returncode == 0 and "transformer_lens 3.9.0" in p.stdout:
         log("packages: " + p.stdout.strip())
         return
     for attempt in (1, 2):
         r = sh([PY, "-m", "pip", "install", "-q"] + PACKAGES)
         log(f"pip install attempt {attempt}: exit {r.returncode} {r.stderr[-300:].strip()}")
-        p = sh([PY, "-c", probe])
+        p = sh([PY, "-c", PROBE])
         if p.returncode == 0:
             log("packages: " + p.stdout.strip())
             return
         log("import check failed: " + p.stderr[-800:])
     raise Fatal("packages do not import after install (see the import check above)")
+
+
+def get_token() -> str:
+    """Both models are gated, and TransformerLens reads the hub config of the gated repo at load time, so every job needs the token."""
+    tok = os.environ.get("HF_TOKEN") or os.environ.get("HUGGING_FACE_HUB_TOKEN")
+    err = ""
+    for _ in range(3):
+        if tok:
+            break
+        try:
+            from kaggle_secrets import UserSecretsClient
+            tok = UserSecretsClient().get_secret("HF_TOKEN")
+        except ImportError:
+            err = "not running on Kaggle"
+            break
+        except Exception as e:  # the secrets service can fail for a moment
+            err = f"{type(e).__name__}: {str(e)[:200]}"
+            time.sleep(5)
+    if not tok:
+        raise Fatal(f"HF_TOKEN is not readable here ({err or 'not set'}). Both models are gated, so nothing can run without it: attach the HF_TOKEN secret to this notebook, then run again.")
+    os.environ["HF_TOKEN"] = os.environ["HUGGING_FACE_HUB_TOKEN"] = tok
+    return tok
 
 
 def gpu_list() -> list[dict]:
@@ -202,6 +228,8 @@ def decide_formats(models: list[str], gpus: list[dict]) -> dict:
         res: dict = {}
 
         def one(k: int, dt: str) -> None:
+            if k:
+                time.sleep(LAUNCH_GAP)  # not both model loads at the same moment (CPU memory)
             out = WORK / "analysis" / "_logs" / f"dtype_{m}_{dt}.json"
             env = dict(os.environ, PYTHONPATH="code", PYTHONIOENCODING="utf8", CUDA_VISIBLE_DEVICES=str(gpus[min(k, len(gpus) - 1)]["index"]), BABEL_DTYPE=dt)
             r = sh([PY, "kaggle/dtype_check.py", "--model", m, "--out", str(out)], env=env, cwd=WORK)
@@ -276,6 +304,7 @@ def run_jobs(jobs: list[Job], gpu_ids: list[int], env_base: dict, done: set[str]
             j.state = "done"
     running: dict = {}  # key: GPU index, or ("cpu", job name) for CPU jobs
     last_status = 0.0
+    last_start = [0.0]
     ready = lambda j: j.state == "pending" and all(d.state == "done" for d in jobs if d.name in j.deps)  # noqa: E731
     while True:
         for key, (job, proc, fh, t0) in list(running.items()):
@@ -320,6 +349,8 @@ def run_jobs(jobs: list[Job], gpu_ids: list[int], env_base: dict, done: set[str]
                 env["CUDA_VISIBLE_DEVICES"] = str(key)
             running[key] = (j, subprocess.Popen(cmd, cwd=WORK, env=env, stdout=fh, stderr=subprocess.STDOUT), fh, time.time())
             j.state = "running"
+            if j.gpu:
+                last_start[0] = time.time()
             log(f"START {j.name} on " + (f"GPU {key}" if j.gpu else "CPU"))
 
         for j in jobs:
@@ -327,7 +358,7 @@ def run_jobs(jobs: list[Job], gpu_ids: list[int], env_base: dict, done: set[str]
                 launch(j, ("cpu", j.name))
         for g in [g for g in gpu_ids if g not in running]:
             nxt = next((j for j in jobs if j.gpu and ready(j)), None)
-            if nxt is None:
+            if nxt is None or time.time() - last_start[0] < LAUNCH_GAP:
                 break
             launch(nxt, g)
         if not running and not any(ready(j) for j in jobs):
@@ -388,18 +419,12 @@ def main() -> int:
     missing = [p for p in plan.get("needs", []) if not (WORK / p).exists()]
     if missing:
         raise Fatal(f"missing inputs {missing}: attach the output of the previous step")
-    install_packages()
+    token = get_token()
     gpus = gpu_list()
     if not gpus:
         raise Fatal("no GPU visible: set the accelerator to GPU T4 x2")
+    install_packages()
     log("GPUs: " + ", ".join(f"{g['index']}={g['name']} {g['total_mib'] / 1024:.0f}GiB" for g in gpus))
-    token = os.environ.get("HF_TOKEN") or os.environ.get("HUGGING_FACE_HUB_TOKEN")
-    if not token:
-        try:
-            from kaggle_secrets import UserSecretsClient
-            token = UserSecretsClient().get_secret("HF_TOKEN")
-        except Exception:
-            token = None
     for m in plan["models"]:
         download_model(m, token)
     cache = WORK / ".cache"  # covariance matrices (~0.3 GB per layer) stay out of the saved output
