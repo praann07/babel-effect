@@ -17,7 +17,7 @@ import numpy as np
 import torch
 
 from causal_trace_v2 import SeqScorer, prompt_and_target
-from common import load_model, subject_span
+from common import DTYPE, load_model, subject_span
 
 CONDS = ("same", "cross", "self", "ctrl")
 SITES = ("A", "B")
@@ -140,6 +140,7 @@ def main() -> None:
     ap.add_argument("--shuffle-pairs", action="store_true", help="A16: shuffle the seeded pair list before the cap so relations are mixed")
     ap.add_argument("--max-pairs", type=int, default=0, help="A15: cap on the seeded pair list (0 = no cap)")
     ap.add_argument("--span", default="last", choices=["last", "end", "bcast"], help="A18: patch only the last subject token (default), the end-aligned subject span, or broadcast the last-token state over the span")
+    ap.add_argument("--shard", default="0/1", help="i/n: run every n-th pair starting at i (Kaggle: one shard per GPU; kaggle/merge_shards.py joins them). 0/1 = all pairs")
     a = ap.parse_args()
     global SPAN_MODE
     SPAN_MODE = a.span
@@ -205,6 +206,9 @@ def main() -> None:
         pairs = pairs[:a.max_pairs]
     if a.pilot:
         pairs = pairs[:a.pilot]
+    shard_i, shard_n = (int(x) for x in a.shard.split("/"))
+    assert 0 <= shard_i < shard_n, a.shard
+    pairs = pairs[shard_i::shard_n]  # sharding is applied last, so shards partition exactly the unsharded pair list
     meta, DD, FF, start = [], [], [], 0
     if resuming:
         z, pm = np.load(run / "partial.npz"), json.loads((run / "partial_meta.json").read_text())
@@ -235,7 +239,7 @@ def main() -> None:
                 print("warning: could not replace partial.npz; continuing (partial_tmp.npz holds the latest state)", flush=True)
     np.savez_compressed(run / "effects.npz", delta=np.stack(DD), flip=np.stack(FF))
     (run / "meta.json").write_text(json.dumps({"pairs": meta, "conds": CONDS, "sites": SITES, "n_layers": model.cfg.n_layers, "seed": a.seed,
-                                               "n_facts": len(facts), "pilot": a.pilot, "langs": [l0, l1], "facts_file": fpath, "max_pairs": a.max_pairs, "directions": RUN_DIRS, "shuffle_pairs": a.shuffle_pairs, "k_src": a.k_src, "span_mode": a.span}, indent=1))
+                                               "n_facts": len(facts), "pilot": a.pilot, "langs": [l0, l1], "facts_file": fpath, "max_pairs": a.max_pairs, "directions": RUN_DIRS, "shuffle_pairs": a.shuffle_pairs, "k_src": a.k_src, "span_mode": a.span, "dtype": str(DTYPE), "shard": a.shard}, indent=1))
     print("done", len(meta), "peak VRAM GiB", round(torch.cuda.max_memory_allocated() / 2 ** 30, 2))
 
 

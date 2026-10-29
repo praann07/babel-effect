@@ -13,7 +13,7 @@ from pathlib import Path
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from common import MODELS
+from common import DTYPE, MODELS
 from filter_facts_v2 import generate
 from matching import strict_match
 
@@ -66,7 +66,7 @@ def main() -> None:
     cands = [f for p in POOLS[a.model] for f in json.loads(Path(p).read_text(encoding="utf8"))["facts"] if f["relation"] in TEMPLATES]
     cands.sort(key=lambda f: (f["relation"], f["id"]))
     tok = AutoTokenizer.from_pretrained(spec["dir"]); tok.padding_side = "left"; tok.pad_token = tok.pad_token or tok.eos_token
-    model = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=torch.bfloat16, attn_implementation="eager").to("cuda").eval()
+    model = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=DTYPE, attn_implementation="eager").to("cuda").eval()
     if a.select:
         tmpl: dict = {}
         for r in TEMPLATES:

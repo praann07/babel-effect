@@ -8,6 +8,7 @@ import argparse
 import datetime as dt
 import json
 import math
+import os
 import random
 from pathlib import Path
 
@@ -53,7 +54,10 @@ def wiki_sentences(n: int = 100, seed: int = 0) -> list[str]:
 def covariance(model: HookedTransformer, layer: int, windows: list[list[int]]) -> torch.Tensor:
     path = Path(".cache") / (f"cov_L{layer}.pt" if MODEL_KEY == "llama" else f"cov_{MODEL_KEY}_L{layer}.pt")
     if path.exists():
-        return torch.load(path, weights_only=True)
+        try:
+            return torch.load(path, weights_only=True)
+        except Exception:  # another worker may have been mid-write on an older version of this file; recompute
+            pass
     d = model.cfg.d_mlp
     C = torch.zeros(d, d, device="cuda", dtype=torch.float32)
     n = 0
@@ -69,7 +73,9 @@ def covariance(model: HookedTransformer, layer: int, windows: list[list[int]]) -
         del cache, a
     C = (C / n).cpu()
     torch.cuda.empty_cache()
-    torch.save(C, path)
+    tmp = path.with_suffix(f".{os.getpid()}.tmp")  # atomic: parallel workers (Kaggle shards) never read a half-written file
+    torch.save(C, tmp)
+    os.replace(tmp, path)
     return C
 
 
