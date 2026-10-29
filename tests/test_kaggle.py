@@ -209,6 +209,7 @@ class LayoutTests(unittest.TestCase):
             bad = [x for x in names if x.startswith(("results/", "paper/", "docs/", "models/", "data/v2/facts_llama", "data/v2/facts_gemma"))
                    or x == "data/v2/facts_candidates.json" or "/run_" in x or x.endswith(".pyc") or ".ipynb" in x]
             self.assertEqual(bad, [])
+            self.assertEqual([x for x in names if "private" in Path(x).parts], [])  # private notebooks (token inside) never ship
             self.assertTrue((Path(t) / "analysis" / "_logs").is_dir())
 
 
