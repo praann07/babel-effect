@@ -87,8 +87,13 @@ def main() -> None:
     ap.add_argument("--model", required=True, choices=["llama", "gemma2"])
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--tag", default="p3seeds")
+    ap.add_argument("--main-run", default=None, help="main trace run dir (default: the laptop runs in controls_overlap.SETS); Kaggle reruns pass their own")
+    ap.add_argument("--extra-run", default=None, help="extra-facts trace run dir (with --main-run)")
     a = ap.parse_args()
     r1, r2, f1, f2 = SETS[a.model]
+    if a.main_run:
+        r1, r2 = a.main_run, a.extra_run
+        ORIG_CFG[a.model] = str(Path(a.main_run) / "config.json")
     recs = {}
     for r in (r1, r2):
         recs.update(load(Path(r))[1])
