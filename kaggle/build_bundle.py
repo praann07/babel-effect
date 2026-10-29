@@ -52,20 +52,46 @@ def code(s: str) -> dict:
 
 
 RUN = """
-import glob, os, subprocess, sys
+import os, subprocess, sys, zipfile
 STEP = "{step}"
 HOURS = 10.5  # jobs stop cleanly after this, then everything is packaged
-drv = sorted(glob.glob("/kaggle/input/**/kaggle/driver.py", recursive=True))
+INPUT = os.environ.get("BABEL_INPUT", "/kaggle/input")
+
+
+def find_driver():
+    # any folder under the input that holds the runner files, at any depth (Kaggle mounts datasets at varying paths)
+    for root, dirs, files in os.walk(INPUT, followlinks=True):
+        if {"driver.py", "steps.py", "dtype_check.py"} <= set(files):
+            return os.path.join(root, "driver.py")
+    for root, dirs, files in os.walk(INPUT, followlinks=True):  # the zip itself, not unpacked
+        if "babel_bundle.zip" in files:
+            zipfile.ZipFile(os.path.join(root, "babel_bundle.zip")).extractall("/tmp/babel_src")
+            return "/tmp/babel_src/kaggle/driver.py"
+    return None
+
+
+def show_input(depth=4):
+    for root, dirs, files in os.walk(INPUT, followlinks=True):
+        d = root[len(INPUT):].count(os.sep)
+        if d <= depth:
+            print("  " * d + (os.path.basename(root) or INPUT) + "/  (" + str(len(files)) + " files, " + str(len(dirs)) + " folders)" + ("  e.g. " + ", ".join(sorted(files)[:4]) if files else ""))
+        if d >= depth:
+            dirs[:] = []
+
+
+drv = find_driver()
 if not drv:
-    print("The babel-bundle dataset is not attached to this notebook.")
+    print("No kaggle/driver.py anywhere under " + INPUT + ". The attached dataset does not hold the new bundle (an older version is attached, or the new files were not added). What is attached:")
+    show_input()
 else:
+    print("runner found:", drv)
     env = dict(os.environ, BABEL_STEP=STEP, HOURS=str(HOURS), PYTHONUNBUFFERED="1")
     try:
         from kaggle_secrets import UserSecretsClient
         env["HF_TOKEN"] = UserSecretsClient().get_secret("HF_TOKEN")
     except Exception as e:
         print("HF_TOKEN secret not readable here (" + type(e).__name__ + "); the driver will try again itself.")
-    p = subprocess.Popen([sys.executable, drv[0]], env=env, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
+    p = subprocess.Popen([sys.executable, drv], env=env, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
     for line in p.stdout:
         print(line, end="")
     p.wait()
