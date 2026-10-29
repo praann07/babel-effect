@@ -212,6 +212,33 @@ class LayoutTests(unittest.TestCase):
             self.assertTrue((Path(t) / "analysis" / "_logs").is_dir())
 
 
+class SecretLabelTests(unittest.TestCase):
+    def test_other_spelling_of_the_label_is_found(self):
+        import types
+        calls = []
+
+        class Client:
+            def get_secret(self, label):
+                calls.append(label)
+                if label == "hf_token":
+                    return "tok123"
+                raise RuntimeError(f"No user secrets exist for kernel id 1 and label {label}.")
+
+        fake = types.ModuleType("kaggle_secrets")
+        fake.UserSecretsClient = Client
+        old = {k: os.environ.pop(k, None) for k in ("HF_TOKEN", "HUGGING_FACE_HUB_TOKEN")}
+        sys.modules["kaggle_secrets"] = fake
+        try:
+            self.assertEqual(driver.get_token(), "tok123")
+            self.assertEqual(calls, ["HF_TOKEN", "hf_token"])  # no waiting or retrying on a label that does not exist
+        finally:
+            del sys.modules["kaggle_secrets"]
+            for k in ("HF_TOKEN", "HUGGING_FACE_HUB_TOKEN"):
+                os.environ.pop(k, None)
+                if old[k] is not None:
+                    os.environ[k] = old[k]
+
+
 class StepsTests(unittest.TestCase):
     def test_every_step_is_well_formed(self):
         from steps import STEPS

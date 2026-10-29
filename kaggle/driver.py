@@ -119,24 +119,34 @@ def install_packages() -> None:
     raise Fatal("packages do not import after install (see the import check above)")
 
 
+SECRET_LABELS = ("HF_TOKEN", "hf_token", "HF_Token", "HUGGINGFACE_TOKEN", "HUGGING_FACE_HUB_TOKEN", "HUGGINGFACE_HUB_TOKEN", "HF-TOKEN", "HF_API_TOKEN")
+
+
 def get_token() -> str:
     """Both models are gated, and TransformerLens reads the hub config of the gated repo at load time, so every job needs the token."""
     tok = os.environ.get("HF_TOKEN") or os.environ.get("HUGGING_FACE_HUB_TOKEN")
     err = ""
-    for _ in range(3):
-        if tok:
-            break
+    if not tok:
         try:
             from kaggle_secrets import UserSecretsClient
-            tok = UserSecretsClient().get_secret("HF_TOKEN")
         except ImportError:
+            UserSecretsClient = None
             err = "not running on Kaggle"
-            break
-        except Exception as e:  # the secrets service can fail for a moment
-            err = f"{type(e).__name__}: {str(e)[:200]}"
-            time.sleep(5)
+        for label in SECRET_LABELS if UserSecretsClient else ():
+            for attempt in range(3):
+                try:
+                    tok = UserSecretsClient().get_secret(label)
+                    break
+                except Exception as e:
+                    err = f"{type(e).__name__}: {str(e)[:160]}"
+                    if "No user secrets exist" in str(e):  # this label is not attached to the notebook: try the next spelling
+                        break
+                    time.sleep(5)  # the secrets service can fail for a moment
+            if tok:
+                log(f"token read from the Kaggle secret labelled {label}")
+                break
     if not tok:
-        raise Fatal(f"HF_TOKEN is not readable here ({err or 'not set'}). Both models are gated, so nothing can run without it: attach the HF_TOKEN secret to this notebook, then run again.")
+        raise Fatal(f"no Hugging Face token readable here ({err or 'not set'}). Tried secret labels {', '.join(SECRET_LABELS)}. Both models are gated, so nothing can run without it: attach the secret to this notebook, then run again.")
     os.environ["HF_TOKEN"] = os.environ["HUGGING_FACE_HUB_TOKEN"] = tok
     return tok
 
