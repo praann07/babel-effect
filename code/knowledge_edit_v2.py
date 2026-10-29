@@ -136,6 +136,7 @@ def main() -> None:
     ap.add_argument("--tag", default="p4sweep")
     ap.add_argument("--skip-first", type=int, default=0, help="skip the first N edit facts (already done in an earlier run)")
     ap.add_argument("--add-traced", action="store_true", help="also edit each fact at its own EN traced layer and at L//2 (A9 F7 rule)")
+    ap.add_argument("--para", action="store_true", help="A21: also score the new answer under the other phrasings (prompts[1:]) of the same fact in every language")
     ap.add_argument("--resume", default=None, help="existing run dir to continue (crash recovery only)")
     a = ap.parse_args()
     ke.MODEL_KEY = a.model
@@ -177,6 +178,8 @@ def main() -> None:
         e_ids, e_span = subject_span(tok, f"{en['subject']} is", en["subject"])
         essence = (torch.tensor([e_ids], device="cuda"), e_span[-1])
         before = {lg: seq_logprob(model, f["lang"][lg]["prompts"][0], new["lang"][lg]["target"]) for lg in LANGS}
+        before_p = {(lg, j): seq_logprob(model, f["lang"][lg]["prompts"][j], new["lang"][lg]["target"])
+                    for lg in LANGS for j in range(1, len(f["lang"][lg]["prompts"]))} if a.para else {}
         f_layers = sorted(set(layers) | ({recs[(f["id"], "en")]["crit_mlp_layer"], n_layers // 2} if a.add_traced else set()))
         for layer in f_layers:
             if (f["id"], layer) in done:
@@ -198,6 +201,9 @@ def main() -> None:
                     row[lg] = {"logp_new_before": before[lg], "logp_new_after": lp_after,
                                "dP": math.exp(lp_after) - math.exp(before[lg]),
                                "success": strict_match(text, [tgt]) is not None, "gen": text}
+                if a.para:  # A21: the edit was fitted on prompts[0] (with prefixes) only; the other phrasings are unseen
+                    row["para"] = {f"{lg}{j}": {"dP": math.exp(seq_logprob(model, f["lang"][lg]["prompts"][j], new["lang"][lg]["target"])) - math.exp(before_p[(lg, j)])}
+                                   for (lg, j) in before_p}
                 spec_d = [abs(math.exp(seq_logprob(model, g["lang"]["en"]["prompts"][0], g["lang"]["en"]["target"])) - math.exp(base[g["id"]]))
                           for g in controls]
                 row["specificity_max_abs_dP"] = max(spec_d)
