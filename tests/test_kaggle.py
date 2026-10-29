@@ -196,6 +196,22 @@ class SetupTests(unittest.TestCase):
                     os.environ[k] = old[k]
 
 
+class LayoutTests(unittest.TestCase):
+    def test_inputs_only_from_the_repo_checkout(self):
+        repo = Path(__file__).resolve().parent.parent
+        with tempfile.TemporaryDirectory() as t:
+            n = driver.layout.assemble(repo, Path(t))
+            names = {p.relative_to(t).as_posix() for p in Path(t).rglob("*") if p.is_file()}
+            self.assertEqual(n, len(names))
+            for need in ("code/common.py", "kaggle/driver.py", "kaggle/steps.py", "data/v2/facts_candidates_seed.json",
+                         "data/v2/facts_candidates_extra.json", "data/v2/facts_candidates_a23.json"):
+                self.assertIn(need, names)
+            bad = [x for x in names if x.startswith(("results/", "paper/", "docs/", "models/", "data/v2/facts_llama", "data/v2/facts_gemma"))
+                   or x == "data/v2/facts_candidates.json" or "/run_" in x or x.endswith(".pyc") or ".ipynb" in x]
+            self.assertEqual(bad, [])
+            self.assertTrue((Path(t) / "analysis" / "_logs").is_dir())
+
+
 class StepsTests(unittest.TestCase):
     def test_every_step_is_well_formed(self):
         from steps import STEPS

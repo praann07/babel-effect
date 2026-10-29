@@ -17,6 +17,8 @@ import time
 import zipfile
 from pathlib import Path
 
+import layout
+
 T0 = time.time()
 HOURS = float(os.environ.get("HOURS", "10.5"))
 DEADLINE = T0 + HOURS * 3600
@@ -53,6 +55,10 @@ class Fatal(Exception):
 # ---------------------------------------------------------------- set-up
 def place_code() -> None:
     if (WORK / "code" / "common.py").exists():
+        return
+    src = os.environ.get("BABEL_SRC")  # the notebook fetched the repo from GitHub
+    if src:
+        log(f"code: {layout.assemble(Path(src), WORK)} files from GitHub commit {os.environ.get('BABEL_SRC_SHA', '?')}")
         return
     zips = glob.glob(str(INPUT / "**" / "babel_bundle.zip"), recursive=True)
     if zips:
@@ -133,6 +139,27 @@ def get_token() -> str:
         raise Fatal(f"HF_TOKEN is not readable here ({err or 'not set'}). Both models are gated, so nothing can run without it: attach the HF_TOKEN secret to this notebook, then run again.")
     os.environ["HF_TOKEN"] = os.environ["HUGGING_FACE_HUB_TOKEN"] = tok
     return tok
+
+
+WIKITEXT = {"train-00000-of-00001.parquet": 6357543, "test-00000-of-00001.parquet": 732610}  # byte sizes of the Hugging Face copy
+
+
+def fetch_wikitext(token: str) -> None:
+    """WikiText-2 (damage / perplexity text) is not in the repo; the Hugging Face copy is byte-identical to the laptop's (same sha256)."""
+    from huggingface_hub import hf_hub_download
+    root = WORK / "data" / "wikitext"
+    for f, size in WIKITEXT.items():
+        for attempt in range(1, 4):
+            try:
+                p = hf_hub_download("Salesforce/wikitext", f"wikitext-2-raw-v1/{f}", repo_type="dataset", local_dir=str(root), token=token)
+                if Path(p).stat().st_size != size:
+                    raise OSError(f"{f} has the wrong size")
+                break
+            except Exception as e:
+                log(f"wikitext {f} attempt {attempt} failed: {type(e).__name__}: {str(e)[:150]}")
+                if attempt == 3:
+                    raise Fatal(f"could not download WikiText-2 ({f})")
+                time.sleep(10 * attempt)
 
 
 def gpu_list() -> list[dict]:
@@ -395,7 +422,8 @@ def package(step: str, start_runs: set[str], start_data: dict[str, str], done: s
     if decisions_path().exists():
         shutil.copy2(decisions_path(), res / "dtype_decision.json")
     summary = {"step": step, "minutes": round((time.time() - T0) / 60, 1), "jobs": {j.name: j.state for j in jobs},
-               "number_format": load_decisions(), "notes": notes}
+               "number_format": load_decisions(), "notes": notes,
+               "code_version": os.environ.get("BABEL_SRC_SHA", "dataset")}
     (res / "RUN_SUMMARY.json").write_text(json.dumps(summary, indent=1), encoding="utf8")
     shutil.make_archive(str(OUT / "babel_new_results"), "zip", res)
     log("packaged: " + str(OUT / "babel_new_results.zip"))
@@ -425,6 +453,7 @@ def main() -> int:
         raise Fatal("no GPU visible: set the accelerator to GPU T4 x2")
     install_packages()
     log("GPUs: " + ", ".join(f"{g['index']}={g['name']} {g['total_mib'] / 1024:.0f}GiB" for g in gpus))
+    fetch_wikitext(token)
     for m in plan["models"]:
         download_model(m, token)
     cache = WORK / ".cache"  # covariance matrices (~0.3 GB per layer) stay out of the saved output
