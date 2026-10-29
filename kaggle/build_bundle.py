@@ -44,6 +44,7 @@ RUN = """
 import io, os, shutil, subprocess, sys, time, urllib.request, zipfile
 STEP = "{step}"
 HOURS = 10.5  # jobs stop cleanly after this, then everything is packaged
+HF_TOKEN_HERE = ""  # paste your Hugging Face token between the quotes (keep this notebook private); if empty, the Kaggle secret is used
 REPO, REF = "praann07/babel-effect", "main"  # REF may be a commit id to pin the code
 SRC = os.environ.get("BABEL_SRC_DIR", "/tmp/babel_src")
 INPUT = os.environ.get("BABEL_INPUT", "/kaggle/input")
@@ -89,11 +90,15 @@ else:
 if not drv:
     print("No code found: GitHub was unreachable (is Internet on for this notebook?) and no babel-bundle dataset is attached.")
 else:
-    try:
-        from kaggle_secrets import UserSecretsClient
-        env["HF_TOKEN"] = UserSecretsClient().get_secret("HF_TOKEN")
-    except Exception as e:
-        print("HF_TOKEN secret not readable here (" + type(e).__name__ + ": " + str(e)[:150] + "); the driver will try again itself.")
+    if HF_TOKEN_HERE.strip():
+        env["HF_TOKEN"] = HF_TOKEN_HERE.strip()
+        print("using the token pasted in this notebook")
+    else:
+        try:
+            from kaggle_secrets import UserSecretsClient
+            env["HF_TOKEN"] = UserSecretsClient().get_secret("HF_TOKEN")
+        except Exception as e:
+            print("HF_TOKEN secret not readable here (" + type(e).__name__ + "); the driver tries other labels next.")
     p = subprocess.Popen([sys.executable, drv], env=env, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
     for line in p.stdout:
         print(line, end="")
