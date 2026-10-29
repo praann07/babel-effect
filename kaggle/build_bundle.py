@@ -58,6 +58,22 @@ Set `STAGE` in the first code cell, then use **Save Version > Save & Run All** (
 STAGE = "first"   # "first" or "second"
 HOURS = 10.5      # each long run stops cleanly after this many hours so the session can save
 """),
+    md("""
+## 0. Install packages (must run FIRST, before anything imports numpy or torch)
+Only the few packages we need. Kaggle's own numpy, scipy, torch and pandas stay untouched.
+If you ever see a numpy error after this cell: Run > Restart session, then run the cells again from the top.
+"""),
+    code("""
+import subprocess, sys
+pip = [sys.executable, "-m", "pip", "install", "-q"]
+r = subprocess.run(pip + ["transformer-lens==3.9.0", "transformers==5.19.0", "accelerate==1.15.0",
+                          "jaxtyping", "einops", "fancy-einsum", "better-abc", "beartype"], capture_output=True, text=True)
+print("pip exit:", r.returncode); print(r.stderr[-1500:])
+chk = subprocess.run([sys.executable, "-c", "import numpy, scipy, torch, transformers, transformer_lens as t; "
+                      "print('numpy', numpy.__version__, '| scipy', scipy.__version__, '| torch', torch.__version__, "
+                      "'| transformers', transformers.__version__, '| transformer_lens', t.__version__)"], capture_output=True, text=True)
+print(chk.stdout, chk.stderr[-1500:])
+"""),
     md("## 1. GPU check"),
     code("""
 import subprocess, time, torch
@@ -89,15 +105,6 @@ print(sorted(glob.glob("analysis/run_*_p4a21_llama")), os.getcwd())
 START_DIRS = set(os.listdir("analysis"))  # to package only what is new
 """),
     md("## 3. Packages and the Llama weights (needs the Hugging Face token saved as a Kaggle secret named HF_TOKEN)"),
-    code("""
-import subprocess, sys
-pip = [sys.executable, "-m", "pip", "install", "-q"]
-r = subprocess.run(pip + ["-r", "requirements-kaggle.txt"], capture_output=True, text=True)
-if r.returncode:  # exact pins can clash with Kaggle's image: fall back to the packages that matter
-    print(r.stderr[-1500:])
-    subprocess.run(pip + ["transformer-lens==3.9.0", "transformers==5.19.0", "accelerate==1.15.0", "jaxtyping", "einops", "fancy-einsum", "better-abc", "beartype"], check=True)
-import transformer_lens, transformers; print(transformer_lens.__version__, transformers.__version__)
-"""),
     code("""
 from kaggle_secrets import UserSecretsClient
 from huggingface_hub import snapshot_download
