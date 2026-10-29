@@ -1,4 +1,4 @@
-"""The Kaggle rerun, one step per notebook. Each step is a plan: models to download, models whose number format must be checked,
+"""The Kaggle rerun, one notebook per model. Each step is a plan: models to download, models whose number format must be checked,
 files that must already exist, and jobs (command, model, dependencies, whether it needs a GPU).
 
 Command tokens expanded by kaggle/driver.py at launch time:
@@ -29,15 +29,22 @@ def _facts_chain(m: str, tpl: str, cands_out: str, events2: bool) -> list[dict]:
     ]
 
 
-STEPS = {
-    "s01_facts": {
-        "title": "Step 1: fact preparation (template choice, candidate facts, keep facts answered correctly in EN, ES and HI) for Llama-3.2-3B-Instruct and Gemma-2-2B",
-        "models": ["llama", "gemma2"],
-        "calibrate": ["llama", "gemma2"],
+def _notebook(title: str, m: str, tpl: str, cands: str, events2: bool) -> dict:
+    """One notebook = everything for one model, so notebooks need nothing from each other and can run side by side.
+    Later stages (tracing, swap tests, edits, ...) are appended to the same job list."""
+    return {
+        "title": title,
+        "models": [m],
+        "calibrate": [m],
         "needs": ["data/v2/facts_candidates_seed.json", "data/v2/facts_candidates_extra.json", "code/select_templates.py"],
-        "jobs": _facts_chain("llama", "data/v2/templates.json", "data/v2/facts_candidates.json", False)
-        + _facts_chain("gemma2", "data/v2/templates_gemma2.json", "data/v2/facts_candidates_gemma2.json", True),
-        "produces": ["data/v2/templates.json", "data/v2/templates_gemma2.json", "data/v2/facts_llama.json", "data/v2/facts_gemma2.json",
-                     "data/v2/facts_extra_llama.json", "data/v2/facts_extra_gemma2.json"],
-    },
+        "jobs": _facts_chain(m, tpl, cands, events2),
+        "produces": [tpl, f"data/v2/facts_{m}.json", f"data/v2/facts_extra_{m}.json"],
+    }
+
+
+STEPS = {
+    "babel_llama": _notebook("Llama-3.2-3B-Instruct: fact preparation (template choice, candidate facts, keep facts answered correctly in EN, ES and HI)",
+                             "llama", "data/v2/templates.json", "data/v2/facts_candidates.json", False),
+    "babel_gemma2": _notebook("Gemma-2-2B: fact preparation (template choice, candidate facts, keep facts answered correctly in EN, ES and HI)",
+                              "gemma2", "data/v2/templates_gemma2.json", "data/v2/facts_candidates_gemma2.json", True),
 }

@@ -111,11 +111,9 @@ print(json.dumps(json.load(open(f)), indent=1) if os.path.exists(f) else "no sum
 def build_notebooks() -> list[Path]:
     (OUT / "notebooks").mkdir(exist_ok=True)
     paths = []
-    order = list(STEPS)
-    for i, (sid, plan) in enumerate(STEPS.items()):
-        prev = order[i - 1] if i else None
-        inputs = "nothing attached (the code is fetched from GitHub)" if not prev else f"the output of the `{prev}` notebook (attach it as input)"
-        cells = [md(f"# {plan['title']}\nInputs: {inputs}. Output: `babel_new_results.zip` (also `results/`), which the next step takes as input."),
+    for sid, plan in STEPS.items():
+        cells = [md(f"# {plan['title']}\nInputs: none (the code is fetched from GitHub; the same `babel-bundle` dataset works as a fallback). "
+                    f"If the run stops at the time limit, run it again with its own output attached and it resumes. Output: `babel_new_results.zip`."),
                  code(RUN.replace("{step}", sid)), code(SUMMARY)]
         nb = {"cells": cells, "nbformat": 4, "nbformat_minor": 5,
               "metadata": {"kernelspec": {"display_name": "Python 3", "language": "python", "name": "python3"}, "language_info": {"name": "python"}}}
