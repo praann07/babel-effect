@@ -215,6 +215,33 @@ class LayoutTests(unittest.TestCase):
                                      "data/v2/facts_candidates_seed.json", "kaggle/driver.py", "kaggle/steps.py", "tests/test_x.py"])
             self.assertTrue((out / "analysis" / "_logs").is_dir())
 
+    def test_old_code_in_the_working_folder_is_replaced_but_results_are_kept(self):
+        """A second run in the same Kaggle session finds the first run's folder: new code must win, results must stay."""
+        with tempfile.TemporaryDirectory() as t1, tempfile.TemporaryDirectory() as t2:
+            repo, work = Path(t1), Path(t2)
+            for rel, txt in (("code/common.py", "new"), ("tests/test_x.py", "new"), ("kaggle/driver.py", "new"), ("data/v2/facts_candidates.json", "seed"),
+                             ("data/v2/facts_candidates_extra.json", "e"), ("data/v2/facts_candidates_a23.json", "a")):
+                (repo / rel).parent.mkdir(parents=True, exist_ok=True)
+                (repo / rel).write_text(txt)
+            for rel, txt in (("code/common.py", "old"), ("code/gone.py", "old"), ("tests/test_x.py", "old"), ("analysis/run_1/records.jsonl", "keep"),
+                             ("data/v2/facts_llama.json", "keep")):
+                (work / rel).parent.mkdir(parents=True, exist_ok=True)
+                (work / rel).write_text(txt)
+            old = (driver.WORK, os.environ.get("BABEL_SRC"))
+            driver.WORK, os.environ["BABEL_SRC"] = work, str(repo)
+            try:
+                driver.place_code()
+            finally:
+                driver.WORK = old[0]
+                os.environ.pop("BABEL_SRC", None)
+                if old[1] is not None:
+                    os.environ["BABEL_SRC"] = old[1]
+            self.assertEqual((work / "code" / "common.py").read_text(), "new")
+            self.assertEqual((work / "tests" / "test_x.py").read_text(), "new")
+            self.assertFalse((work / "code" / "gone.py").exists())
+            self.assertEqual((work / "analysis" / "run_1" / "records.jsonl").read_text(), "keep")
+            self.assertEqual((work / "data" / "v2" / "facts_llama.json").read_text(), "keep")
+
 
 class StepsTests(unittest.TestCase):
     def test_every_step_is_well_formed(self):
