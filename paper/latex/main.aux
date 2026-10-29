@@ -4,38 +4,39 @@
 \providecommand\HyField@AuxAddToCoFields[2]{}
 \@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {2}Related work}{2}{section.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Method}{3}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {4}Results}{3}{section.4}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Overlap against the null}{3}{subsection.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Where the fact is looked up}{3}{subsection.4.2}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Pre-registered overlap analysis: median MLP-profile cosine across facts, shuffled-fact null mean, and $z$ against the pooled and the within-relation null.}}{4}{table.caption.1}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{tab:main}{{1}{4}{Pre-registered overlap analysis: median MLP-profile cosine across facts, shuffled-fact null mean, and $z$ against the pooled and the within-relation null}{table.caption.1}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Median normalised MLP indirect effect per layer at each language's last subject token (band: interquartile range), for Llama-3.2-3B (left) and Gemma-2-2B (right).}}{4}{figure.caption.2}\protected@file@percent }
 \newlabel{fig:fig1}{{1}{4}{Median normalised MLP indirect effect per layer at each language's last subject token (band: interquartile range), for Llama-3.2-3B (left) and Gemma-2-2B (right)}{figure.caption.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Hindi tokenisation}{4}{subsection.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Edit transfer over layers}{4}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Where the fact is looked up}{4}{subsection.4.2}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces MLP-profile cosine between languages: observed median with 95\% bootstrap CI (dots) and mean of the shuffled-fact permutation null (bars).}}{5}{figure.caption.3}\protected@file@percent }
 \newlabel{fig:fig2}{{2}{5}{MLP-profile cosine between languages: observed median with 95\% bootstrap CI (dots) and mean of the shuffled-fact permutation null (bars)}{figure.caption.3}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Extended overlap (with the added relations). Median MLP-profile cosine (z against the shuffled-fact null). Stratified: permutations within relation. Gemma gained one fact, so its non-copyable set ($n=29$) is below the pre-registered 50.}}{5}{table.caption.4}\protected@file@percent }
 \newlabel{tab:ext}{{2}{5}{Extended overlap (with the added relations). Median MLP-profile cosine (z against the shuffled-fact null). Stratified: permutations within relation. Gemma gained one fact, so its non-copyable set ($n=29$) is below the pre-registered 50}{table.caption.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Robustness: phrasings (H8), non-copyable relations (F4), in-context baseline (F3), follow-up edits (F7)}{5}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Hindi tokenisation}{5}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Edit transfer over layers}{5}{subsection.4.4}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Distribution of the critical MLP layer (argmax of the profile) per language. Exploratory: Gemma shows modes at layers 4, 6 and 14.}}{6}{figure.caption.5}\protected@file@percent }
 \newlabel{fig:fig4}{{3}{6}{Distribution of the critical MLP layer (argmax of the profile) per language. Exploratory: Gemma shows modes at layers 4, 6 and 14}{figure.caption.5}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Canonical-phrasing accuracy by answer length in tokens, per language and model.}}{6}{figure.caption.6}\protected@file@percent }
 \newlabel{fig:fig3}{{4}{6}{Canonical-phrasing accuracy by answer length in tokens, per language and model}{figure.caption.6}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Llama-3.2-3B edit sweep (10 facts, every layer): English success, transfer ratio, specificity and perplexity ratio by layer.}}{7}{figure.caption.7}\protected@file@percent }
 \newlabel{fig:sw1}{{5}{7}{Llama-3.2-3B edit sweep (10 facts, every layer): English success, transfer ratio, specificity and perplexity ratio by layer}{figure.caption.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Robustness: phrasings (H8), non-copyable relations (F4), in-context baseline (F3), follow-up edits (F7)}{7}{subsection.4.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Gemma-2-2B edit sweep, same layout as Figure~\ref {fig:sw1}.}}{8}{figure.caption.8}\protected@file@percent }
 \newlabel{fig:sw2}{{6}{8}{Gemma-2-2B edit sweep, same layout as Figure~\ref {fig:sw1}}{figure.caption.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Controls added after review (A11)}{8}{subsection.4.6}\protected@file@percent }
 \@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Edit conditions: the fact's English traced layer, $L/2$ and a third layer (medians; in the 10-fact sweeps this is a randomly drawn layer, in the follow-ups it is the layer chosen by the A9 rule: 21 for Llama, 3 for Gemma; transfer = $\Delta P_{L2}/\Delta P_{EN}$; specificity = maximum absolute probability change over 20 unrelated facts). The first two blocks are the 10-fact sweeps; the last two are the 19-20-fact follow-ups.}}{9}{table.caption.9}\protected@file@percent }
 \newlabel{tab:edit}{{3}{9}{Edit conditions: the fact's English traced layer, $L/2$ and a third layer (medians; in the 10-fact sweeps this is a randomly drawn layer, in the follow-ups it is the layer chosen by the A9 rule: 21 for Llama, 3 for Gemma; transfer = $\Delta P_{L2}/\Delta P_{EN}$; specificity = maximum absolute probability change over 20 unrelated facts). The first two blocks are the 10-fact sweeps; the last two are the 19-20-fact follow-ups}{table.caption.9}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Is the alignment shared retrieval? Noise re-trace and interchange test (A12-A13)}{9}{subsection.4.7}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Interchange test (site A, confirmatory pairs whose source subject shares no token piece across languages). $I$ = cross-language effect divided by same-language effect, summed over the layers where the same-language effect is at least half its maximum; CI by bootstrap over source entities. Verdict by the pre-registered rule (lower bound $\geq 0.7$: shared).}}{10}{table.caption.10}\protected@file@percent }
-\newlabel{tab:e2}{{4}{10}{Interchange test (site A, confirmatory pairs whose source subject shares no token piece across languages). $I$ = cross-language effect divided by same-language effect, summed over the layers where the same-language effect is at least half its maximum; CI by bootstrap over source entities. Verdict by the pre-registered rule (lower bound $\geq 0.7$: shared)}{table.caption.10}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{10}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6}Deviations from the pre-registration}{11}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Controls added after review (A11)}{9}{subsection.4.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}Is the alignment shared retrieval? Noise re-trace and interchange test (A12-A13)}{10}{subsection.4.7}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Interchange test (site A, confirmatory pairs whose source subject shares no token piece across languages). $I$ = cross-language effect divided by same-language effect, summed over the layers where the same-language effect is at least half its maximum; CI by bootstrap over source entities. Verdict by the pre-registered rule (lower bound $\geq 0.7$: shared).}}{12}{table.caption.10}\protected@file@percent }
+\newlabel{tab:e2}{{4}{12}{Interchange test (site A, confirmatory pairs whose source subject shares no token piece across languages). $I$ = cross-language effect divided by same-language effect, summed over the layers where the same-language effect is at least half its maximum; CI by bootstrap over source entities. Verdict by the pre-registered rule (lower bound $\geq 0.7$: shared)}{table.caption.10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Discussion}{12}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Deviations from the pre-registration}{13}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Limitations}{13}{section.7}\protected@file@percent }
 \bibcite{r0}{1}
 \bibcite{r1}{2}
 \bibcite{r2}{3}
@@ -55,13 +56,14 @@
 \bibcite{r16}{17}
 \bibcite{r17}{18}
 \bibcite{r18}{19}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Limitations}{12}{section.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8}Reproducibility}{12}{section.8}\protected@file@percent }
 \bibcite{r19}{20}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Reproducibility}{14}{section.8}\protected@file@percent }
 \bibcite{r20}{21}
 \bibcite{r21}{22}
 \bibcite{r22}{23}
 \bibcite{r23}{24}
 \bibcite{r24}{25}
 \bibcite{r25}{26}
-\gdef \@abspage@last{13}
+\bibcite{r26}{27}
+\bibcite{r27}{28}
+\gdef \@abspage@last{15}

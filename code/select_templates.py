@@ -75,6 +75,11 @@ POOL["city_country"] = {
 }
 
 
+from build_facts_a23 import POOL_A23  # A23 non-geography relations (only used when selected via --relations / --cands)
+
+POOL.update(POOL_A23)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="llama", choices=list(MODELS))

@@ -38,17 +38,31 @@ POOLS = {"llama": ["data/v2/facts_candidates.json", "data/v2/facts_candidates_ex
          "llama_base": ["data/v2/facts_candidates.json", "data/v2/facts_candidates_extra_llama.json"],  # A19: same candidate pool as the instruct model
          "gemma2": ["data/v2/facts_candidates_gemma2.json", "data/v2/facts_candidates_extra_gemma2.json"]}
 N_TUNE = 30
+TEMPLATES_A23 = {  # fixed in docs/HYPOTHESIS.md A23 before this was run (the first template of POOL_A23; {S} = capitalised subject)
+    "official_language": ("The official language of {s} is", "La lengua oficial de {s} es"),
+    "currency": ("The currency of {s} is", "La moneda de {s} es"),
+    "profession": ("{S} was a famous", "{S} fue un famoso"),
+    "book_author": ("{S} was written by", "{S} fue escrito por"),
+}
+POOL_A23_FILE, N_TUNE_A23 = "data/v2/facts_candidates_a23.json", 8
 
 
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", required=True, choices=["llama", "llama_base", "gemma2"])
     ap.add_argument("--tag", default="e2filter")
+    ap.add_argument("--set", default="base", choices=["base", "a23"], help="A23: non-geography relations (fixed templates, 8 tuning facts per relation, writes e2a23_facts_<model>.json)")
     ap.add_argument("--select", action="store_true", help="A13c: select templates per relation/language on the tuning facts")
     a = ap.parse_args()
     spec = MODELS[a.model]
     run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}_{a.model}"
     run.mkdir(parents=True, exist_ok=False)
+    global N_TUNE
+    if a.set == "a23":
+        from build_facts_v2 import fmt
+        TEMPLATES.clear(); TEMPLATES.update(TEMPLATES_A23); POOLS[a.model] = [POOL_A23_FILE]; N_TUNE = N_TUNE_A23
+    else:
+        fmt = None
     cands = [f for p in POOLS[a.model] for f in json.loads(Path(p).read_text(encoding="utf8"))["facts"] if f["relation"] in TEMPLATES]
     cands.sort(key=lambda f: (f["relation"], f["id"]))
     tok = AutoTokenizer.from_pretrained(spec["dir"]); tok.padding_side = "left"; tok.pad_token = tok.pad_token or tok.eos_token
@@ -66,7 +80,8 @@ def main() -> None:
                 tmpl.setdefault(r, [None, None])[k] = CANDS[r][k][best]
                 print(r, lg, dict(zip(CANDS[r][k], accs)), "->", CANDS[r][k][best], flush=True)
         TEMPLATES.update({r: tuple(v) for r, v in tmpl.items()})
-    prompts = {(f["id"], lg): TEMPLATES[f["relation"]][k].format(s=f["lang"][lg]["subject"]) for f in cands for k, lg in enumerate(("en", "es"))}
+    fill = (lambda t, lg, s_: fmt(t, lg, s_)) if fmt else (lambda t, lg, s_: t.format(s=s_))
+    prompts = {(f["id"], lg): fill(TEMPLATES[f["relation"]][k], lg, f["lang"][lg]["subject"]) for f in cands for k, lg in enumerate(("en", "es"))}
     keys = list(prompts)
     gens = dict(zip(keys, generate(model, tok, [prompts[k] for k in keys])))
     (run / "generations.json").write_text(json.dumps({f"{k[0]}|{k[1]}": {"prompt": prompts[k], "gen": gens[k]} for k in keys}, ensure_ascii=False, indent=1), encoding="utf8")
@@ -92,7 +107,7 @@ def main() -> None:
         t["template_ok"] = bool(t["tune_n"] and t["tune_en"] / t["tune_n"] >= 0.5 and t["tune_es"] / t["tune_n"] >= 0.5)
     kept = [f for f in kept if table[f["relation"]]["template_ok"]]
     out = {"model": spec["tl_name"], "templates": TEMPLATES, "summary": table, "n_kept": len(kept), "facts": kept}
-    Path(f"data/v2/e2_facts_{a.model}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf8")
+    Path(f"data/v2/{'e2a23' if a.set == 'a23' else 'e2'}_facts_{a.model}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf8")
     (run / "accuracy.json").write_text(json.dumps(table, indent=1))
     print(json.dumps(table, indent=1)); print("kept", len(kept))
 

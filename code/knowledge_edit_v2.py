@@ -127,6 +127,35 @@ def optimise_delta_seq(model: HookedTransformer, ctxs: list, essence: tuple[torc
     return delta.detach(), first, last
 
 
+def joint_update(K: torch.Tensor, delta: torch.Tensor, C: torch.Tensor) -> torch.Tensor:
+    """A24: weight change dW [d_mlp, d_model] with dW^T k_j = delta for every column k_j of K [d_mlp, m]: dW = U G^-1 D, U = C^-1 K, G = K^T U, D = delta repeated.
+
+    With one key this is the ROME update of ke.apply_edit. Pure tensor maths (any device)."""
+    Cr = C + 1e-3 * C.diagonal().mean() * torch.eye(C.shape[0], device=C.device, dtype=C.dtype)
+    U = torch.linalg.solve(Cr, K)
+    G = K.T @ U
+    return U @ torch.linalg.solve(G, delta[None, :].expand(K.shape[1], -1))
+
+
+def apply_edit_joint(model: HookedTransformer, layer: int, keys: list[torch.Tensor], delta: torch.Tensor, C: torch.Tensor) -> torch.Tensor:
+    """Apply joint_update to the layer's MLP down-projection; returns the original weight for restoring."""
+    W = model.blocks[layer].mlp.W_out
+    orig = W.data.clone()
+    K = torch.stack(keys, 1)  # [d_mlp, m]
+    update = joint_update(K.cpu().float(), delta.cpu().float(), C.float()).cuda()
+    W.data = (W.data.float() + update).to(W.dtype)
+    return orig
+
+
+def key_for_mode(mode: str, kk: dict[str, torch.Tensor]) -> tuple[str, list[torch.Tensor]]:
+    """('mean' | 'joint' | 'en', keys) for a key mode: en, mean_enes, mean_all, joint_enes, joint_all."""
+    if mode == "en":
+        return "en", [kk["en"]]
+    kind, langs = mode.split("_")
+    ls = ["en", "es"] if langs == "enes" else ["en", "es", "hi"]
+    return kind, [kk[l] for l in ls]
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="llama", choices=list(MODELS))
@@ -137,6 +166,7 @@ def main() -> None:
     ap.add_argument("--skip-first", type=int, default=0, help="skip the first N edit facts (already done in an earlier run)")
     ap.add_argument("--add-traced", action="store_true", help="also edit each fact at its own EN traced layer and at L//2 (A9 F7 rule)")
     ap.add_argument("--para", action="store_true", help="A21: also score the new answer under the other phrasings (prompts[1:]) of the same fact in every language")
+    ap.add_argument("--key-modes", default="en", help="A24: comma list of en, mean_enes, mean_all, joint_enes, joint_all; the key(s) the rank-1/rank-m update is written at (default en = the earlier runs)")
     ap.add_argument("--resume", default=None, help="existing run dir to continue (crash recovery only)")
     a = ap.parse_args()
     ke.MODEL_KEY = a.model
@@ -149,9 +179,9 @@ def main() -> None:
 
     out = Path(a.resume) if a.resume else Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}_{a.model}"
     out.mkdir(parents=True, exist_ok=bool(a.resume))
-    done: set[tuple[str, int]] = set()
+    done: set[tuple[str, int, str]] = set()
     if a.resume and (out / "records.jsonl").exists():
-        done = {(r["fact"], r["layer"]) for r in map(json.loads, (out / "records.jsonl").read_text(encoding="utf8").splitlines())}
+        done = {(r["fact"], r["layer"], r.get("key_mode", "en")) for r in map(json.loads, (out / "records.jsonl").read_text(encoding="utf8").splitlines())}
 
     model = load_model(a.model)
     share_transposed_mlp_weights(model)
@@ -181,40 +211,50 @@ def main() -> None:
         before_p = {(lg, j): seq_logprob(model, f["lang"][lg]["prompts"][j], new["lang"][lg]["target"])
                     for lg in LANGS for j in range(1, len(f["lang"][lg]["prompts"]))} if a.para else {}
         f_layers = sorted(set(layers) | ({recs[(f["id"], "en")]["crit_mlp_layer"], n_layers // 2} if a.add_traced else set()))
+        modes = a.key_modes.split(",")
+        lang_ctxs = {lg: contexts(model, f["lang"][lg]["prompts"][0], f["lang"][lg]["subject"], new["lang"][lg]["target"]) for lg in LANGS} if modes != ["en"] else {}
         for layer in f_layers:
-            if (f["id"], layer) in done:
+            if all((f["id"], layer, m) in done for m in modes):
                 continue
             k, v0 = key_and_value(model, ctxs, layer)
             delta, ce_first, ce_last = optimise_delta_seq(model, ctxs, essence, layer, v0)
             C = ke.covariance(model, layer, windows)
-            orig = ke.apply_edit(model, layer, k, delta, C)
-            try:
-                row = {"fact": f["id"], "relation": f["relation"], "new_fact": new["id"], "layer": layer,
-                       "is_traced": layer == recs[(f["id"], "en")]["crit_mlp_layer"], "delta_norm_ratio": float(delta.norm() / v0.norm()),
-                       "ce_first": ce_first, "ce_last": ce_last}
-                for lg in LANGS:
-                    L = f["lang"][lg]
-                    tgt = new["lang"][lg]["target"]
-                    lp_after = seq_logprob(model, L["prompts"][0], tgt)
-                    n_gen = len(prompt_and_target(tok, L["prompts"][0], tgt)[1]) + 2
-                    text = greedy(model, L["prompts"][0], n_gen)
-                    row[lg] = {"logp_new_before": before[lg], "logp_new_after": lp_after,
-                               "dP": math.exp(lp_after) - math.exp(before[lg]),
-                               "success": strict_match(text, [tgt]) is not None, "gen": text}
-                if a.para:  # A21: the edit was fitted on prompts[0] (with prefixes) only; the other phrasings are unseen
-                    row["para"] = {f"{lg}{j}": {"dP": math.exp(seq_logprob(model, f["lang"][lg]["prompts"][j], new["lang"][lg]["target"])) - math.exp(before_p[(lg, j)])}
-                                   for (lg, j) in before_p}
-                spec_d = [abs(math.exp(seq_logprob(model, g["lang"]["en"]["prompts"][0], g["lang"]["en"]["target"])) - math.exp(base[g["id"]]))
-                          for g in controls]
-                row["specificity_max_abs_dP"] = max(spec_d)
-                row["ppl_ratio"] = ke.perplexity(model, sents) / ppl0
-            finally:
-                model.blocks[layer].mlp.W_out.data = orig
-            with open(out / "records.jsonl", "a", encoding="utf8") as fh:
-                fh.write(json.dumps(row, ensure_ascii=False) + "\n")
-            print(f"{f['id']} L{layer}: EN dP={row['en']['dP']:.3f} ok={row['en']['success']} ES dP={row['es']['dP']:.3f} "
-                  f"HI dP={row['hi']['dP']:.3f} spec={row['specificity_max_abs_dP']:.3f} ppl x{row['ppl_ratio']:.3f}", flush=True)
-            torch.cuda.empty_cache()
+            kk = {"en": k} | ({lg: key_and_value(model, lang_ctxs[lg], layer)[0] for lg in ("es", "hi")} if lang_ctxs else {})
+            for mode in modes:
+                if (f["id"], layer, mode) in done:
+                    continue
+                kind, keys = key_for_mode(mode, kk)
+                orig = apply_edit_joint(model, layer, keys, delta, C) if kind == "joint" else ke.apply_edit(model, layer, sum(keys) / len(keys), delta, C)
+                try:
+                    row = {"fact": f["id"], "relation": f["relation"], "new_fact": new["id"], "layer": layer,
+                           "is_traced": layer == recs[(f["id"], "en")]["crit_mlp_layer"], "delta_norm_ratio": float(delta.norm() / v0.norm()),
+                           "ce_first": ce_first, "ce_last": ce_last}
+                    if modes != ["en"]:
+                        row["key_mode"] = mode
+                        row["key_cos"] = {lg: float(F.cosine_similarity(kk["en"], kk[lg], dim=0)) for lg in ("es", "hi")}
+                    for lg in LANGS:
+                        L = f["lang"][lg]
+                        tgt = new["lang"][lg]["target"]
+                        lp_after = seq_logprob(model, L["prompts"][0], tgt)
+                        n_gen = len(prompt_and_target(tok, L["prompts"][0], tgt)[1]) + 2
+                        text = greedy(model, L["prompts"][0], n_gen)
+                        row[lg] = {"logp_new_before": before[lg], "logp_new_after": lp_after,
+                                   "dP": math.exp(lp_after) - math.exp(before[lg]),
+                                   "success": strict_match(text, [tgt]) is not None, "gen": text}
+                    if a.para:  # A21: the edit was fitted on prompts[0] (with prefixes) only; the other phrasings are unseen
+                        row["para"] = {f"{lg}{j}": {"dP": math.exp(seq_logprob(model, f["lang"][lg]["prompts"][j], new["lang"][lg]["target"])) - math.exp(before_p[(lg, j)])}
+                                       for (lg, j) in before_p}
+                    spec_d = [abs(math.exp(seq_logprob(model, g["lang"]["en"]["prompts"][0], g["lang"]["en"]["target"])) - math.exp(base[g["id"]]))
+                              for g in controls]
+                    row["specificity_max_abs_dP"] = max(spec_d)
+                    row["ppl_ratio"] = ke.perplexity(model, sents) / ppl0
+                finally:
+                    model.blocks[layer].mlp.W_out.data = orig
+                with open(out / "records.jsonl", "a", encoding="utf8") as fh:
+                    fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+                print(f"{f['id']} L{layer} {mode}: EN dP={row['en']['dP']:.3f} ok={row['en']['success']} ES dP={row['es']['dP']:.3f} "
+                      f"HI dP={row['hi']['dP']:.3f} spec={row['specificity_max_abs_dP']:.3f} ppl x{row['ppl_ratio']:.3f}", flush=True)
+                torch.cuda.empty_cache()
     print("peak VRAM GiB", round(torch.cuda.max_memory_allocated() / 2**30, 2))
 
 

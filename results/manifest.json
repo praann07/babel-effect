@@ -1,5 +1,5 @@
 {
- "n_claims": 1826,
+ "n_claims": 1941,
  "claims": [
   {
    "id": "n_candidates",
@@ -20236,6 +20236,1317 @@
     1
    ],
    "value": 0.033870244730904164
+  },
+  {
+   "id": "a22_llama_informative_all_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "all",
+    "n"
+   ],
+   "value": 103
+  },
+  {
+   "id": "a22_llama_informative_all_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.3474459442065902
+  },
+  {
+   "id": "a22_llama_informative_all_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "all",
+    "ci97.5",
+    0
+   ],
+   "value": 0.27052853281822
+  },
+  {
+   "id": "a22_llama_informative_all_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "all",
+    "ci97.5",
+    1
+   ],
+   "value": 0.42716146448046516
+  },
+  {
+   "id": "a22_llama_informative_all_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "all",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_llama_informative_J0_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "J0",
+    "n"
+   ],
+   "value": 54
+  },
+  {
+   "id": "a22_llama_informative_J0_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "J0",
+    "mean_D"
+   ],
+   "value": 0.3029231266291053
+  },
+  {
+   "id": "a22_llama_informative_J0_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "J0",
+    "ci97.5",
+    0
+   ],
+   "value": 0.1917576440173517
+  },
+  {
+   "id": "a22_llama_informative_J0_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "J0",
+    "ci97.5",
+    1
+   ],
+   "value": 0.42251136961866026
+  },
+  {
+   "id": "a22_llama_informative_J0_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "J0",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_llama_informative_Jpos_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "Jpos",
+    "n"
+   ],
+   "value": 49
+  },
+  {
+   "id": "a22_llama_informative_Jpos_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "Jpos",
+    "mean_D"
+   ],
+   "value": 0.39651190643483886
+  },
+  {
+   "id": "a22_llama_informative_Jpos_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "Jpos",
+    "ci97.5",
+    0
+   ],
+   "value": 0.290994697608021
+  },
+  {
+   "id": "a22_llama_informative_Jpos_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "Jpos",
+    "ci97.5",
+    1
+   ],
+   "value": 0.5052171017498909
+  },
+  {
+   "id": "a22_llama_informative_Jpos_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "Jpos",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_llama_all_non_IP_all_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "all",
+    "n"
+   ],
+   "value": 125
+  },
+  {
+   "id": "a22_llama_all_non_IP_all_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.36184246573597195
+  },
+  {
+   "id": "a22_llama_all_non_IP_all_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "all",
+    "ci97.5",
+    0
+   ],
+   "value": 0.2913240435163683
+  },
+  {
+   "id": "a22_llama_all_non_IP_all_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "all",
+    "ci97.5",
+    1
+   ],
+   "value": 0.4342726762208807
+  },
+  {
+   "id": "a22_llama_all_non_IP_all_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "all",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_llama_all_non_IP_J0_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "J0",
+    "n"
+   ],
+   "value": 64
+  },
+  {
+   "id": "a22_llama_all_non_IP_J0_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "J0",
+    "mean_D"
+   ],
+   "value": 0.31482221485930495
+  },
+  {
+   "id": "a22_llama_all_non_IP_J0_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "J0",
+    "ci97.5",
+    0
+   ],
+   "value": 0.20953828280066092
+  },
+  {
+   "id": "a22_llama_all_non_IP_J0_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "J0",
+    "ci97.5",
+    1
+   ],
+   "value": 0.41741186645607115
+  },
+  {
+   "id": "a22_llama_all_non_IP_J0_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "J0",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_llama_all_non_IP_Jpos_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "Jpos",
+    "n"
+   ],
+   "value": 61
+  },
+  {
+   "id": "a22_llama_all_non_IP_Jpos_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "Jpos",
+    "mean_D"
+   ],
+   "value": 0.41117518796722907
+  },
+  {
+   "id": "a22_llama_all_non_IP_Jpos_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "Jpos",
+    "ci97.5",
+    0
+   ],
+   "value": 0.30730969231430844
+  },
+  {
+   "id": "a22_llama_all_non_IP_Jpos_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "Jpos",
+    "ci97.5",
+    1
+   ],
+   "value": 0.5196631925155349
+  },
+  {
+   "id": "a22_llama_all_non_IP_Jpos_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "Jpos",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_gemma2_informative_all_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "all",
+    "n"
+   ],
+   "value": 25
+  },
+  {
+   "id": "a22_gemma2_informative_all_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.26120130002498626
+  },
+  {
+   "id": "a22_gemma2_informative_all_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "all",
+    "ci97.5",
+    0
+   ],
+   "value": 0.1314341162629903
+  },
+  {
+   "id": "a22_gemma2_informative_all_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "all",
+    "ci97.5",
+    1
+   ],
+   "value": 0.37619770337665653
+  },
+  {
+   "id": "a22_gemma2_informative_all_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "all",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_gemma2_informative_J0_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "J0",
+    "n"
+   ],
+   "value": 21
+  },
+  {
+   "id": "a22_gemma2_informative_J0_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "J0",
+    "mean_D"
+   ],
+   "value": 0.26396722807770684
+  },
+  {
+   "id": "a22_gemma2_informative_J0_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "J0",
+    "ci97.5",
+    0
+   ],
+   "value": 0.13930211326615377
+  },
+  {
+   "id": "a22_gemma2_informative_J0_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "J0",
+    "ci97.5",
+    1
+   ],
+   "value": 0.4022414796021686
+  },
+  {
+   "id": "a22_gemma2_informative_J0_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "J0",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_gemma2_informative_Jpos_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "Jpos",
+    "n"
+   ],
+   "value": 4
+  },
+  {
+   "id": "a22_gemma2_informative_Jpos_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "Jpos",
+    "mean_D"
+   ],
+   "value": 0.24668017774820328
+  },
+  {
+   "id": "a22_gemma2_informative_Jpos_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "Jpos",
+    "ci97.5",
+    0
+   ],
+   "value": -0.23559624701738358
+  },
+  {
+   "id": "a22_gemma2_informative_Jpos_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "Jpos",
+    "ci97.5",
+    1
+   ],
+   "value": 0.5906132757663727
+  },
+  {
+   "id": "a22_gemma2_informative_Jpos_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "Jpos",
+    "verdict"
+   ],
+   "value": "unresolved"
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_all_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "all",
+    "n"
+   ],
+   "value": 55
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_all_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.2808501883325252
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_all_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "all",
+    "ci97.5",
+    0
+   ],
+   "value": 0.19975582118875718
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_all_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "all",
+    "ci97.5",
+    1
+   ],
+   "value": 0.3708869545768181
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_all_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "all",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_J0_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "J0",
+    "n"
+   ],
+   "value": 38
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_J0_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "J0",
+    "mean_D"
+   ],
+   "value": 0.3167028662405516
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_J0_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "J0",
+    "ci97.5",
+    0
+   ],
+   "value": 0.22321888838248613
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_J0_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "J0",
+    "ci97.5",
+    1
+   ],
+   "value": 0.40795052387677333
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_J0_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "J0",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_Jpos_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "Jpos",
+    "n"
+   ],
+   "value": 17
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_Jpos_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "Jpos",
+    "mean_D"
+   ],
+   "value": 0.20070890830281904
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_Jpos_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "Jpos",
+    "ci97.5",
+    0
+   ],
+   "value": 0.021063951382358725
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_Jpos_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "Jpos",
+    "ci97.5",
+    1
+   ],
+   "value": 0.3713146714575808
+  },
+  {
+   "id": "a22_gemma2_all_non_IP_Jpos_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "Jpos",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_llama_informative_all_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "all",
+    "n"
+   ],
+   "value": 95
+  },
+  {
+   "id": "a22_lf_llama_informative_all_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.36784449607918135
+  },
+  {
+   "id": "a22_lf_llama_informative_all_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "all",
+    "ci97.5",
+    0
+   ],
+   "value": 0.291460862470602
+  },
+  {
+   "id": "a22_lf_llama_informative_all_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "all",
+    "ci97.5",
+    1
+   ],
+   "value": 0.44254693013119345
+  },
+  {
+   "id": "a22_lf_llama_informative_all_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "all",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_llama_informative_J0_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "J0",
+    "n"
+   ],
+   "value": 53
+  },
+  {
+   "id": "a22_lf_llama_informative_J0_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "J0",
+    "mean_D"
+   ],
+   "value": 0.3120374259943107
+  },
+  {
+   "id": "a22_lf_llama_informative_J0_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "J0",
+    "ci97.5",
+    0
+   ],
+   "value": 0.20181462980486436
+  },
+  {
+   "id": "a22_lf_llama_informative_J0_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "J0",
+    "ci97.5",
+    1
+   ],
+   "value": 0.44120331359439824
+  },
+  {
+   "id": "a22_lf_llama_informative_J0_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "J0",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_llama_informative_Jpos_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "Jpos",
+    "n"
+   ],
+   "value": 42
+  },
+  {
+   "id": "a22_lf_llama_informative_Jpos_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "Jpos",
+    "mean_D"
+   ],
+   "value": 0.4382677035672324
+  },
+  {
+   "id": "a22_lf_llama_informative_Jpos_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "Jpos",
+    "ci97.5",
+    0
+   ],
+   "value": 0.33630905639119935
+  },
+  {
+   "id": "a22_lf_llama_informative_Jpos_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "Jpos",
+    "ci97.5",
+    1
+   ],
+   "value": 0.5408718695112733
+  },
+  {
+   "id": "a22_lf_llama_informative_Jpos_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "informative",
+    "Jpos",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_all_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "all",
+    "n"
+   ],
+   "value": 117
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_all_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.37938977090212017
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_all_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "all",
+    "ci97.5",
+    0
+   ],
+   "value": 0.3083248604069527
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_all_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "all",
+    "ci97.5",
+    1
+   ],
+   "value": 0.45899295279545416
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_all_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "all",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_J0_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "J0",
+    "n"
+   ],
+   "value": 63
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_J0_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "J0",
+    "mean_D"
+   ],
+   "value": 0.3226786763481205
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_J0_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "J0",
+    "ci97.5",
+    0
+   ],
+   "value": 0.22766474581218238
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_J0_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "J0",
+    "ci97.5",
+    1
+   ],
+   "value": 0.42480967002813863
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_J0_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "J0",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_Jpos_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "Jpos",
+    "n"
+   ],
+   "value": 54
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_Jpos_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "Jpos",
+    "mean_D"
+   ],
+   "value": 0.44555271454845313
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_Jpos_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "Jpos",
+    "ci97.5",
+    0
+   ],
+   "value": 0.33900265483627473
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_Jpos_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "Jpos",
+    "ci97.5",
+    1
+   ],
+   "value": 0.5575103336547637
+  },
+  {
+   "id": "a22_lf_llama_all_non_IP_Jpos_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "llama",
+    "all_non_IP",
+    "Jpos",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_gemma2_informative_all_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "all",
+    "n"
+   ],
+   "value": 15
+  },
+  {
+   "id": "a22_lf_gemma2_informative_all_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.3488897365828355
+  },
+  {
+   "id": "a22_lf_gemma2_informative_all_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "all",
+    "ci97.5",
+    0
+   ],
+   "value": 0.23820131498879554
+  },
+  {
+   "id": "a22_lf_gemma2_informative_all_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "all",
+    "ci97.5",
+    1
+   ],
+   "value": 0.4695398559972932
+  },
+  {
+   "id": "a22_lf_gemma2_informative_all_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "all",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_gemma2_informative_J0_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "J0",
+    "n"
+   ],
+   "value": 15
+  },
+  {
+   "id": "a22_lf_gemma2_informative_J0_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "J0",
+    "mean_D"
+   ],
+   "value": 0.3488897365828355
+  },
+  {
+   "id": "a22_lf_gemma2_informative_J0_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "J0",
+    "ci97.5",
+    0
+   ],
+   "value": 0.23591613129441005
+  },
+  {
+   "id": "a22_lf_gemma2_informative_J0_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "J0",
+    "ci97.5",
+    1
+   ],
+   "value": 0.4706426216882992
+  },
+  {
+   "id": "a22_lf_gemma2_informative_J0_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "informative",
+    "J0",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_all_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "all",
+    "n"
+   ],
+   "value": 44
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_all_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "all",
+    "mean_D"
+   ],
+   "value": 0.30980213210833346
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_all_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "all",
+    "ci97.5",
+    0
+   ],
+   "value": 0.22400887739437417
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_all_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "all",
+    "ci97.5",
+    1
+   ],
+   "value": 0.39445502823056267
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_all_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "all",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_J0_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "J0",
+    "n"
+   ],
+   "value": 32
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_J0_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "J0",
+    "mean_D"
+   ],
+   "value": 0.3658203392988071
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_J0_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "J0",
+    "ci97.5",
+    0
+   ],
+   "value": 0.2782762788026552
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_J0_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "J0",
+    "ci97.5",
+    1
+   ],
+   "value": 0.45844516258686785
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_J0_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "J0",
+    "verdict"
+   ],
+   "value": "present"
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_Jpos_n",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "Jpos",
+    "n"
+   ],
+   "value": 12
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_Jpos_D",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "Jpos",
+    "mean_D"
+   ],
+   "value": 0.16042024626707038
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_Jpos_lo",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "Jpos",
+    "ci97.5",
+    0
+   ],
+   "value": -0.00839362074038945
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_Jpos_hi",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "Jpos",
+    "ci97.5",
+    1
+   ],
+   "value": 0.3366804092152355
+  },
+  {
+   "id": "a22_lf_gemma2_all_non_IP_Jpos_verdict",
+   "artifact": "analysis/run_20261029_split_indnoise_A22_leakfree/results.json",
+   "key_path": [
+    "gemma2",
+    "all_non_IP",
+    "Jpos",
+    "verdict"
+   ],
+   "value": "unresolved"
   },
   {
    "id": "pk_llama_v2_en-es_z",

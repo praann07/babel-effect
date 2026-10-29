@@ -1,0 +1,10 @@
+{
+ "exclude_leak": false,
+ "tag": "split_indnoise_A22",
+ "amendment": "A22",
+ "runs": {
+  "llama": "analysis/run_20261024_p3seeds_10240109_llama",
+  "gemma2": "analysis/run_20261024_p3seeds_10240109_gemma2"
+ },
+ "z": 2.2414
+}

@@ -1,0 +1,5999 @@
+{
+ "version": 2,
+ "note": "A23 non-geography candidates (unaudited)",
+ "facts": [
+  {
+   "id": "official_language_000",
+   "relation": "official_language",
+   "seed": 1498096925,
+   "lang": {
+    "en": {
+     "subject": "Japan",
+     "object": "Japanese",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Japan is",
+      "The main language spoken in Japan is",
+      "People in Japan speak"
+     ]
+    },
+    "es": {
+     "subject": "Japón",
+     "object": "japonés",
+     "object_alts": [
+      "el japonés"
+     ],
+     "prompts": [
+      "La lengua oficial de Japón es",
+      "El idioma oficial de Japón es",
+      "En Japón se habla"
+     ]
+    },
+    "hi": {
+     "subject": "जापान",
+     "object": "जापानी",
+     "object_alts": [],
+     "prompts": [
+      "जापान की आधिकारिक भाषा",
+      "जापान की राजभाषा",
+      "जापान में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_001",
+   "relation": "official_language",
+   "seed": 1959417170,
+   "lang": {
+    "en": {
+     "subject": "China",
+     "object": "Chinese",
+     "object_alts": [],
+     "prompts": [
+      "The official language of China is",
+      "The main language spoken in China is",
+      "People in China speak"
+     ]
+    },
+    "es": {
+     "subject": "China",
+     "object": "chino",
+     "object_alts": [
+      "el chino"
+     ],
+     "prompts": [
+      "La lengua oficial de China es",
+      "El idioma oficial de China es",
+      "En China se habla"
+     ]
+    },
+    "hi": {
+     "subject": "चीन",
+     "object": "चीनी",
+     "object_alts": [],
+     "prompts": [
+      "चीन की आधिकारिक भाषा",
+      "चीन की राजभाषा",
+      "चीन में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_002",
+   "relation": "official_language",
+   "seed": 1794281762,
+   "lang": {
+    "en": {
+     "subject": "Russia",
+     "object": "Russian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Russia is",
+      "The main language spoken in Russia is",
+      "People in Russia speak"
+     ]
+    },
+    "es": {
+     "subject": "Rusia",
+     "object": "ruso",
+     "object_alts": [
+      "el ruso"
+     ],
+     "prompts": [
+      "La lengua oficial de Rusia es",
+      "El idioma oficial de Rusia es",
+      "En Rusia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "रूस",
+     "object": "रूसी",
+     "object_alts": [],
+     "prompts": [
+      "रूस की आधिकारिक भाषा",
+      "रूस की राजभाषा",
+      "रूस में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_003",
+   "relation": "official_language",
+   "seed": 392747661,
+   "lang": {
+    "en": {
+     "subject": "Brazil",
+     "object": "Portuguese",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Brazil is",
+      "The main language spoken in Brazil is",
+      "People in Brazil speak"
+     ]
+    },
+    "es": {
+     "subject": "Brasil",
+     "object": "portugués",
+     "object_alts": [
+      "el portugués"
+     ],
+     "prompts": [
+      "La lengua oficial de Brasil es",
+      "El idioma oficial de Brasil es",
+      "En Brasil se habla"
+     ]
+    },
+    "hi": {
+     "subject": "ब्राज़ील",
+     "object": "पुर्तगाली",
+     "object_alts": [],
+     "prompts": [
+      "ब्राज़ील की आधिकारिक भाषा",
+      "ब्राज़ील की राजभाषा",
+      "ब्राज़ील में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_004",
+   "relation": "official_language",
+   "seed": 181396770,
+   "lang": {
+    "en": {
+     "subject": "Portugal",
+     "object": "Portuguese",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Portugal is",
+      "The main language spoken in Portugal is",
+      "People in Portugal speak"
+     ]
+    },
+    "es": {
+     "subject": "Portugal",
+     "object": "portugués",
+     "object_alts": [
+      "el portugués"
+     ],
+     "prompts": [
+      "La lengua oficial de Portugal es",
+      "El idioma oficial de Portugal es",
+      "En Portugal se habla"
+     ]
+    },
+    "hi": {
+     "subject": "पुर्तगाल",
+     "object": "पुर्तगाली",
+     "object_alts": [],
+     "prompts": [
+      "पुर्तगाल की आधिकारिक भाषा",
+      "पुर्तगाल की राजभाषा",
+      "पुर्तगाल में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_005",
+   "relation": "official_language",
+   "seed": 1870596140,
+   "lang": {
+    "en": {
+     "subject": "Argentina",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Argentina is",
+      "The main language spoken in Argentina is",
+      "People in Argentina speak"
+     ]
+    },
+    "es": {
+     "subject": "Argentina",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompts": [
+      "La lengua oficial de Argentina es",
+      "El idioma oficial de Argentina es",
+      "En Argentina se habla"
+     ]
+    },
+    "hi": {
+     "subject": "अर्जेंटीना",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompts": [
+      "अर्जेंटीना की आधिकारिक भाषा",
+      "अर्जेंटीना की राजभाषा",
+      "अर्जेंटीना में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_006",
+   "relation": "official_language",
+   "seed": 1337659047,
+   "lang": {
+    "en": {
+     "subject": "Mexico",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Mexico is",
+      "The main language spoken in Mexico is",
+      "People in Mexico speak"
+     ]
+    },
+    "es": {
+     "subject": "México",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompts": [
+      "La lengua oficial de México es",
+      "El idioma oficial de México es",
+      "En México se habla"
+     ]
+    },
+    "hi": {
+     "subject": "मेक्सिको",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompts": [
+      "मेक्सिको की आधिकारिक भाषा",
+      "मेक्सिको की राजभाषा",
+      "मेक्सिको में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_007",
+   "relation": "official_language",
+   "seed": 1441848400,
+   "lang": {
+    "en": {
+     "subject": "Spain",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Spain is",
+      "The main language spoken in Spain is",
+      "People in Spain speak"
+     ]
+    },
+    "es": {
+     "subject": "España",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompts": [
+      "La lengua oficial de España es",
+      "El idioma oficial de España es",
+      "En España se habla"
+     ]
+    },
+    "hi": {
+     "subject": "स्पेन",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompts": [
+      "स्पेन की आधिकारिक भाषा",
+      "स्पेन की राजभाषा",
+      "स्पेन में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_008",
+   "relation": "official_language",
+   "seed": 1847880700,
+   "lang": {
+    "en": {
+     "subject": "Chile",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Chile is",
+      "The main language spoken in Chile is",
+      "People in Chile speak"
+     ]
+    },
+    "es": {
+     "subject": "Chile",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompts": [
+      "La lengua oficial de Chile es",
+      "El idioma oficial de Chile es",
+      "En Chile se habla"
+     ]
+    },
+    "hi": {
+     "subject": "चिली",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompts": [
+      "चिली की आधिकारिक भाषा",
+      "चिली की राजभाषा",
+      "चिली में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_009",
+   "relation": "official_language",
+   "seed": 1665946233,
+   "lang": {
+    "en": {
+     "subject": "Colombia",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Colombia is",
+      "The main language spoken in Colombia is",
+      "People in Colombia speak"
+     ]
+    },
+    "es": {
+     "subject": "Colombia",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompts": [
+      "La lengua oficial de Colombia es",
+      "El idioma oficial de Colombia es",
+      "En Colombia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "कोलंबिया",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompts": [
+      "कोलंबिया की आधिकारिक भाषा",
+      "कोलंबिया की राजभाषा",
+      "कोलंबिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_010",
+   "relation": "official_language",
+   "seed": 1745606310,
+   "lang": {
+    "en": {
+     "subject": "Cuba",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Cuba is",
+      "The main language spoken in Cuba is",
+      "People in Cuba speak"
+     ]
+    },
+    "es": {
+     "subject": "Cuba",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompts": [
+      "La lengua oficial de Cuba es",
+      "El idioma oficial de Cuba es",
+      "En Cuba se habla"
+     ]
+    },
+    "hi": {
+     "subject": "क्यूबा",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompts": [
+      "क्यूबा की आधिकारिक भाषा",
+      "क्यूबा की राजभाषा",
+      "क्यूबा में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_011",
+   "relation": "official_language",
+   "seed": 841215198,
+   "lang": {
+    "en": {
+     "subject": "Venezuela",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Venezuela is",
+      "The main language spoken in Venezuela is",
+      "People in Venezuela speak"
+     ]
+    },
+    "es": {
+     "subject": "Venezuela",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompts": [
+      "La lengua oficial de Venezuela es",
+      "El idioma oficial de Venezuela es",
+      "En Venezuela se habla"
+     ]
+    },
+    "hi": {
+     "subject": "वेनेज़ुएला",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompts": [
+      "वेनेज़ुएला की आधिकारिक भाषा",
+      "वेनेज़ुएला की राजभाषा",
+      "वेनेज़ुएला में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_012",
+   "relation": "official_language",
+   "seed": 1079488814,
+   "lang": {
+    "en": {
+     "subject": "Uruguay",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Uruguay is",
+      "The main language spoken in Uruguay is",
+      "People in Uruguay speak"
+     ]
+    },
+    "es": {
+     "subject": "Uruguay",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompts": [
+      "La lengua oficial de Uruguay es",
+      "El idioma oficial de Uruguay es",
+      "En Uruguay se habla"
+     ]
+    },
+    "hi": {
+     "subject": "उरुग्वे",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompts": [
+      "उरुग्वे की आधिकारिक भाषा",
+      "उरुग्वे की राजभाषा",
+      "उरुग्वे में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_013",
+   "relation": "official_language",
+   "seed": 469802337,
+   "lang": {
+    "en": {
+     "subject": "Germany",
+     "object": "German",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Germany is",
+      "The main language spoken in Germany is",
+      "People in Germany speak"
+     ]
+    },
+    "es": {
+     "subject": "Alemania",
+     "object": "alemán",
+     "object_alts": [
+      "el alemán"
+     ],
+     "prompts": [
+      "La lengua oficial de Alemania es",
+      "El idioma oficial de Alemania es",
+      "En Alemania se habla"
+     ]
+    },
+    "hi": {
+     "subject": "जर्मनी",
+     "object": "जर्मन",
+     "object_alts": [],
+     "prompts": [
+      "जर्मनी की आधिकारिक भाषा",
+      "जर्मनी की राजभाषा",
+      "जर्मनी में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_014",
+   "relation": "official_language",
+   "seed": 449176735,
+   "lang": {
+    "en": {
+     "subject": "Austria",
+     "object": "German",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Austria is",
+      "The main language spoken in Austria is",
+      "People in Austria speak"
+     ]
+    },
+    "es": {
+     "subject": "Austria",
+     "object": "alemán",
+     "object_alts": [
+      "el alemán"
+     ],
+     "prompts": [
+      "La lengua oficial de Austria es",
+      "El idioma oficial de Austria es",
+      "En Austria se habla"
+     ]
+    },
+    "hi": {
+     "subject": "ऑस्ट्रिया",
+     "object": "जर्मन",
+     "object_alts": [],
+     "prompts": [
+      "ऑस्ट्रिया की आधिकारिक भाषा",
+      "ऑस्ट्रिया की राजभाषा",
+      "ऑस्ट्रिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_015",
+   "relation": "official_language",
+   "seed": 2091376223,
+   "lang": {
+    "en": {
+     "subject": "Italy",
+     "object": "Italian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Italy is",
+      "The main language spoken in Italy is",
+      "People in Italy speak"
+     ]
+    },
+    "es": {
+     "subject": "Italia",
+     "object": "italiano",
+     "object_alts": [
+      "el italiano"
+     ],
+     "prompts": [
+      "La lengua oficial de Italia es",
+      "El idioma oficial de Italia es",
+      "En Italia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "इटली",
+     "object": "इतालवी",
+     "object_alts": [],
+     "prompts": [
+      "इटली की आधिकारिक भाषा",
+      "इटली की राजभाषा",
+      "इटली में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_016",
+   "relation": "official_language",
+   "seed": 1172427566,
+   "lang": {
+    "en": {
+     "subject": "France",
+     "object": "French",
+     "object_alts": [],
+     "prompts": [
+      "The official language of France is",
+      "The main language spoken in France is",
+      "People in France speak"
+     ]
+    },
+    "es": {
+     "subject": "Francia",
+     "object": "francés",
+     "object_alts": [
+      "el francés"
+     ],
+     "prompts": [
+      "La lengua oficial de Francia es",
+      "El idioma oficial de Francia es",
+      "En Francia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "फ्रांस",
+     "object": "फ़्रेंच",
+     "object_alts": [],
+     "prompts": [
+      "फ्रांस की आधिकारिक भाषा",
+      "फ्रांस की राजभाषा",
+      "फ्रांस में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_017",
+   "relation": "official_language",
+   "seed": 458001995,
+   "lang": {
+    "en": {
+     "subject": "Greece",
+     "object": "Greek",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Greece is",
+      "The main language spoken in Greece is",
+      "People in Greece speak"
+     ]
+    },
+    "es": {
+     "subject": "Grecia",
+     "object": "griego",
+     "object_alts": [
+      "el griego"
+     ],
+     "prompts": [
+      "La lengua oficial de Grecia es",
+      "El idioma oficial de Grecia es",
+      "En Grecia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "ग्रीस",
+     "object": "यूनानी",
+     "object_alts": [],
+     "prompts": [
+      "ग्रीस की आधिकारिक भाषा",
+      "ग्रीस की राजभाषा",
+      "ग्रीस में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_018",
+   "relation": "official_language",
+   "seed": 57565559,
+   "lang": {
+    "en": {
+     "subject": "Turkey",
+     "object": "Turkish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Turkey is",
+      "The main language spoken in Turkey is",
+      "People in Turkey speak"
+     ]
+    },
+    "es": {
+     "subject": "Turquía",
+     "object": "turco",
+     "object_alts": [
+      "el turco"
+     ],
+     "prompts": [
+      "La lengua oficial de Turquía es",
+      "El idioma oficial de Turquía es",
+      "En Turquía se habla"
+     ]
+    },
+    "hi": {
+     "subject": "तुर्की",
+     "object": "तुर्की",
+     "object_alts": [],
+     "prompts": [
+      "तुर्की की आधिकारिक भाषा",
+      "तुर्की की राजभाषा",
+      "तुर्की में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_019",
+   "relation": "official_language",
+   "seed": 1874609501,
+   "lang": {
+    "en": {
+     "subject": "Sweden",
+     "object": "Swedish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Sweden is",
+      "The main language spoken in Sweden is",
+      "People in Sweden speak"
+     ]
+    },
+    "es": {
+     "subject": "Suecia",
+     "object": "sueco",
+     "object_alts": [
+      "el sueco"
+     ],
+     "prompts": [
+      "La lengua oficial de Suecia es",
+      "El idioma oficial de Suecia es",
+      "En Suecia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "स्वीडन",
+     "object": "स्वीडिश",
+     "object_alts": [],
+     "prompts": [
+      "स्वीडन की आधिकारिक भाषा",
+      "स्वीडन की राजभाषा",
+      "स्वीडन में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_020",
+   "relation": "official_language",
+   "seed": 1717609296,
+   "lang": {
+    "en": {
+     "subject": "Norway",
+     "object": "Norwegian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Norway is",
+      "The main language spoken in Norway is",
+      "People in Norway speak"
+     ]
+    },
+    "es": {
+     "subject": "Noruega",
+     "object": "noruego",
+     "object_alts": [
+      "el noruego"
+     ],
+     "prompts": [
+      "La lengua oficial de Noruega es",
+      "El idioma oficial de Noruega es",
+      "En Noruega se habla"
+     ]
+    },
+    "hi": {
+     "subject": "नॉर्वे",
+     "object": "नॉर्वेजियाई",
+     "object_alts": [],
+     "prompts": [
+      "नॉर्वे की आधिकारिक भाषा",
+      "नॉर्वे की राजभाषा",
+      "नॉर्वे में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_021",
+   "relation": "official_language",
+   "seed": 883610080,
+   "lang": {
+    "en": {
+     "subject": "Denmark",
+     "object": "Danish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Denmark is",
+      "The main language spoken in Denmark is",
+      "People in Denmark speak"
+     ]
+    },
+    "es": {
+     "subject": "Dinamarca",
+     "object": "danés",
+     "object_alts": [
+      "el danés"
+     ],
+     "prompts": [
+      "La lengua oficial de Dinamarca es",
+      "El idioma oficial de Dinamarca es",
+      "En Dinamarca se habla"
+     ]
+    },
+    "hi": {
+     "subject": "डेनमार्क",
+     "object": "डेनिश",
+     "object_alts": [],
+     "prompts": [
+      "डेनमार्क की आधिकारिक भाषा",
+      "डेनमार्क की राजभाषा",
+      "डेनमार्क में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_022",
+   "relation": "official_language",
+   "seed": 1060569089,
+   "lang": {
+    "en": {
+     "subject": "Poland",
+     "object": "Polish",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Poland is",
+      "The main language spoken in Poland is",
+      "People in Poland speak"
+     ]
+    },
+    "es": {
+     "subject": "Polonia",
+     "object": "polaco",
+     "object_alts": [
+      "el polaco"
+     ],
+     "prompts": [
+      "La lengua oficial de Polonia es",
+      "El idioma oficial de Polonia es",
+      "En Polonia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "पोलैंड",
+     "object": "पोलिश",
+     "object_alts": [],
+     "prompts": [
+      "पोलैंड की आधिकारिक भाषा",
+      "पोलैंड की राजभाषा",
+      "पोलैंड में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_023",
+   "relation": "official_language",
+   "seed": 1838943538,
+   "lang": {
+    "en": {
+     "subject": "the Netherlands",
+     "object": "Dutch",
+     "object_alts": [],
+     "prompts": [
+      "The official language of the Netherlands is",
+      "The main language spoken in the Netherlands is",
+      "People in the Netherlands speak"
+     ]
+    },
+    "es": {
+     "subject": "los Países Bajos",
+     "object": "neerlandés",
+     "object_alts": [
+      "el neerlandés"
+     ],
+     "prompts": [
+      "La lengua oficial de los Países Bajos es",
+      "El idioma oficial de los Países Bajos es",
+      "En los Países Bajos se habla"
+     ]
+    },
+    "hi": {
+     "subject": "नीदरलैंड",
+     "object": "डच",
+     "object_alts": [],
+     "prompts": [
+      "नीदरलैंड की आधिकारिक भाषा",
+      "नीदरलैंड की राजभाषा",
+      "नीदरलैंड में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_024",
+   "relation": "official_language",
+   "seed": 581117476,
+   "lang": {
+    "en": {
+     "subject": "Hungary",
+     "object": "Hungarian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Hungary is",
+      "The main language spoken in Hungary is",
+      "People in Hungary speak"
+     ]
+    },
+    "es": {
+     "subject": "Hungría",
+     "object": "húngaro",
+     "object_alts": [
+      "el húngaro"
+     ],
+     "prompts": [
+      "La lengua oficial de Hungría es",
+      "El idioma oficial de Hungría es",
+      "En Hungría se habla"
+     ]
+    },
+    "hi": {
+     "subject": "हंगरी",
+     "object": "हंगेरियाई",
+     "object_alts": [],
+     "prompts": [
+      "हंगरी की आधिकारिक भाषा",
+      "हंगरी की राजभाषा",
+      "हंगरी में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_025",
+   "relation": "official_language",
+   "seed": 1848067076,
+   "lang": {
+    "en": {
+     "subject": "Romania",
+     "object": "Romanian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Romania is",
+      "The main language spoken in Romania is",
+      "People in Romania speak"
+     ]
+    },
+    "es": {
+     "subject": "Rumania",
+     "object": "rumano",
+     "object_alts": [
+      "el rumano"
+     ],
+     "prompts": [
+      "La lengua oficial de Rumania es",
+      "El idioma oficial de Rumania es",
+      "En Rumania se habla"
+     ]
+    },
+    "hi": {
+     "subject": "रोमानिया",
+     "object": "रोमानियाई",
+     "object_alts": [],
+     "prompts": [
+      "रोमानिया की आधिकारिक भाषा",
+      "रोमानिया की राजभाषा",
+      "रोमानिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_026",
+   "relation": "official_language",
+   "seed": 1260178514,
+   "lang": {
+    "en": {
+     "subject": "Ukraine",
+     "object": "Ukrainian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Ukraine is",
+      "The main language spoken in Ukraine is",
+      "People in Ukraine speak"
+     ]
+    },
+    "es": {
+     "subject": "Ucrania",
+     "object": "ucraniano",
+     "object_alts": [
+      "el ucraniano"
+     ],
+     "prompts": [
+      "La lengua oficial de Ucrania es",
+      "El idioma oficial de Ucrania es",
+      "En Ucrania se habla"
+     ]
+    },
+    "hi": {
+     "subject": "यूक्रेन",
+     "object": "यूक्रेनी",
+     "object_alts": [],
+     "prompts": [
+      "यूक्रेन की आधिकारिक भाषा",
+      "यूक्रेन की राजभाषा",
+      "यूक्रेन में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_027",
+   "relation": "official_language",
+   "seed": 1404846479,
+   "lang": {
+    "en": {
+     "subject": "Bulgaria",
+     "object": "Bulgarian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Bulgaria is",
+      "The main language spoken in Bulgaria is",
+      "People in Bulgaria speak"
+     ]
+    },
+    "es": {
+     "subject": "Bulgaria",
+     "object": "búlgaro",
+     "object_alts": [
+      "el búlgaro"
+     ],
+     "prompts": [
+      "La lengua oficial de Bulgaria es",
+      "El idioma oficial de Bulgaria es",
+      "En Bulgaria se habla"
+     ]
+    },
+    "hi": {
+     "subject": "बुल्गारिया",
+     "object": "बुल्गारियाई",
+     "object_alts": [],
+     "prompts": [
+      "बुल्गारिया की आधिकारिक भाषा",
+      "बुल्गारिया की राजभाषा",
+      "बुल्गारिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_028",
+   "relation": "official_language",
+   "seed": 1063308356,
+   "lang": {
+    "en": {
+     "subject": "Croatia",
+     "object": "Croatian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Croatia is",
+      "The main language spoken in Croatia is",
+      "People in Croatia speak"
+     ]
+    },
+    "es": {
+     "subject": "Croacia",
+     "object": "croata",
+     "object_alts": [
+      "el croata"
+     ],
+     "prompts": [
+      "La lengua oficial de Croacia es",
+      "El idioma oficial de Croacia es",
+      "En Croacia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "क्रोएशिया",
+     "object": "क्रोएशियाई",
+     "object_alts": [],
+     "prompts": [
+      "क्रोएशिया की आधिकारिक भाषा",
+      "क्रोएशिया की राजभाषा",
+      "क्रोएशिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_029",
+   "relation": "official_language",
+   "seed": 469970616,
+   "lang": {
+    "en": {
+     "subject": "Serbia",
+     "object": "Serbian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Serbia is",
+      "The main language spoken in Serbia is",
+      "People in Serbia speak"
+     ]
+    },
+    "es": {
+     "subject": "Serbia",
+     "object": "serbio",
+     "object_alts": [
+      "el serbio"
+     ],
+     "prompts": [
+      "La lengua oficial de Serbia es",
+      "El idioma oficial de Serbia es",
+      "En Serbia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "सर्बिया",
+     "object": "सर्बियाई",
+     "object_alts": [],
+     "prompts": [
+      "सर्बिया की आधिकारिक भाषा",
+      "सर्बिया की राजभाषा",
+      "सर्बिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_030",
+   "relation": "official_language",
+   "seed": 209496274,
+   "lang": {
+    "en": {
+     "subject": "Iceland",
+     "object": "Icelandic",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Iceland is",
+      "The main language spoken in Iceland is",
+      "People in Iceland speak"
+     ]
+    },
+    "es": {
+     "subject": "Islandia",
+     "object": "islandés",
+     "object_alts": [
+      "el islandés"
+     ],
+     "prompts": [
+      "La lengua oficial de Islandia es",
+      "El idioma oficial de Islandia es",
+      "En Islandia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "आइसलैंड",
+     "object": "आइसलैंडिक",
+     "object_alts": [],
+     "prompts": [
+      "आइसलैंड की आधिकारिक भाषा",
+      "आइसलैंड की राजभाषा",
+      "आइसलैंड में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_031",
+   "relation": "official_language",
+   "seed": 1276226141,
+   "lang": {
+    "en": {
+     "subject": "Mongolia",
+     "object": "Mongolian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Mongolia is",
+      "The main language spoken in Mongolia is",
+      "People in Mongolia speak"
+     ]
+    },
+    "es": {
+     "subject": "Mongolia",
+     "object": "mongol",
+     "object_alts": [
+      "el mongol"
+     ],
+     "prompts": [
+      "La lengua oficial de Mongolia es",
+      "El idioma oficial de Mongolia es",
+      "En Mongolia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "मंगोलिया",
+     "object": "मंगोलियाई",
+     "object_alts": [],
+     "prompts": [
+      "मंगोलिया की आधिकारिक भाषा",
+      "मंगोलिया की राजभाषा",
+      "मंगोलिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_032",
+   "relation": "official_language",
+   "seed": 834144159,
+   "lang": {
+    "en": {
+     "subject": "South Korea",
+     "object": "Korean",
+     "object_alts": [],
+     "prompts": [
+      "The official language of South Korea is",
+      "The main language spoken in South Korea is",
+      "People in South Korea speak"
+     ]
+    },
+    "es": {
+     "subject": "Corea del Sur",
+     "object": "coreano",
+     "object_alts": [
+      "el coreano"
+     ],
+     "prompts": [
+      "La lengua oficial de Corea del Sur es",
+      "El idioma oficial de Corea del Sur es",
+      "En Corea del Sur se habla"
+     ]
+    },
+    "hi": {
+     "subject": "दक्षिण कोरिया",
+     "object": "कोरियाई",
+     "object_alts": [],
+     "prompts": [
+      "दक्षिण कोरिया की आधिकारिक भाषा",
+      "दक्षिण कोरिया की राजभाषा",
+      "दक्षिण कोरिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_033",
+   "relation": "official_language",
+   "seed": 1497389224,
+   "lang": {
+    "en": {
+     "subject": "Thailand",
+     "object": "Thai",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Thailand is",
+      "The main language spoken in Thailand is",
+      "People in Thailand speak"
+     ]
+    },
+    "es": {
+     "subject": "Tailandia",
+     "object": "tailandés",
+     "object_alts": [
+      "el tailandés"
+     ],
+     "prompts": [
+      "La lengua oficial de Tailandia es",
+      "El idioma oficial de Tailandia es",
+      "En Tailandia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "थाईलैंड",
+     "object": "थाई",
+     "object_alts": [],
+     "prompts": [
+      "थाईलैंड की आधिकारिक भाषा",
+      "थाईलैंड की राजभाषा",
+      "थाईलैंड में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_034",
+   "relation": "official_language",
+   "seed": 2048746959,
+   "lang": {
+    "en": {
+     "subject": "Vietnam",
+     "object": "Vietnamese",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Vietnam is",
+      "The main language spoken in Vietnam is",
+      "People in Vietnam speak"
+     ]
+    },
+    "es": {
+     "subject": "Vietnam",
+     "object": "vietnamita",
+     "object_alts": [
+      "el vietnamita"
+     ],
+     "prompts": [
+      "La lengua oficial de Vietnam es",
+      "El idioma oficial de Vietnam es",
+      "En Vietnam se habla"
+     ]
+    },
+    "hi": {
+     "subject": "वियतनाम",
+     "object": "वियतनामी",
+     "object_alts": [],
+     "prompts": [
+      "वियतनाम की आधिकारिक भाषा",
+      "वियतनाम की राजभाषा",
+      "वियतनाम में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_035",
+   "relation": "official_language",
+   "seed": 1223934980,
+   "lang": {
+    "en": {
+     "subject": "Iran",
+     "object": "Persian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Iran is",
+      "The main language spoken in Iran is",
+      "People in Iran speak"
+     ]
+    },
+    "es": {
+     "subject": "Irán",
+     "object": "persa",
+     "object_alts": [
+      "el persa"
+     ],
+     "prompts": [
+      "La lengua oficial de Irán es",
+      "El idioma oficial de Irán es",
+      "En Irán se habla"
+     ]
+    },
+    "hi": {
+     "subject": "ईरान",
+     "object": "फ़ारसी",
+     "object_alts": [],
+     "prompts": [
+      "ईरान की आधिकारिक भाषा",
+      "ईरान की राजभाषा",
+      "ईरान में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_036",
+   "relation": "official_language",
+   "seed": 1632970490,
+   "lang": {
+    "en": {
+     "subject": "Saudi Arabia",
+     "object": "Arabic",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Saudi Arabia is",
+      "The main language spoken in Saudi Arabia is",
+      "People in Saudi Arabia speak"
+     ]
+    },
+    "es": {
+     "subject": "Arabia Saudita",
+     "object": "árabe",
+     "object_alts": [
+      "el árabe"
+     ],
+     "prompts": [
+      "La lengua oficial de Arabia Saudita es",
+      "El idioma oficial de Arabia Saudita es",
+      "En Arabia Saudita se habla"
+     ]
+    },
+    "hi": {
+     "subject": "सऊदी अरब",
+     "object": "अरबी",
+     "object_alts": [],
+     "prompts": [
+      "सऊदी अरब की आधिकारिक भाषा",
+      "सऊदी अरब की राजभाषा",
+      "सऊदी अरब में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_037",
+   "relation": "official_language",
+   "seed": 1794712925,
+   "lang": {
+    "en": {
+     "subject": "Egypt",
+     "object": "Arabic",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Egypt is",
+      "The main language spoken in Egypt is",
+      "People in Egypt speak"
+     ]
+    },
+    "es": {
+     "subject": "Egipto",
+     "object": "árabe",
+     "object_alts": [
+      "el árabe"
+     ],
+     "prompts": [
+      "La lengua oficial de Egipto es",
+      "El idioma oficial de Egipto es",
+      "En Egipto se habla"
+     ]
+    },
+    "hi": {
+     "subject": "मिस्र",
+     "object": "अरबी",
+     "object_alts": [],
+     "prompts": [
+      "मिस्र की आधिकारिक भाषा",
+      "मिस्र की राजभाषा",
+      "मिस्र में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_038",
+   "relation": "official_language",
+   "seed": 2116925340,
+   "lang": {
+    "en": {
+     "subject": "Libya",
+     "object": "Arabic",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Libya is",
+      "The main language spoken in Libya is",
+      "People in Libya speak"
+     ]
+    },
+    "es": {
+     "subject": "Libia",
+     "object": "árabe",
+     "object_alts": [
+      "el árabe"
+     ],
+     "prompts": [
+      "La lengua oficial de Libia es",
+      "El idioma oficial de Libia es",
+      "En Libia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "लीबिया",
+     "object": "अरबी",
+     "object_alts": [],
+     "prompts": [
+      "लीबिया की आधिकारिक भाषा",
+      "लीबिया की राजभाषा",
+      "लीबिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_039",
+   "relation": "official_language",
+   "seed": 224852703,
+   "lang": {
+    "en": {
+     "subject": "Israel",
+     "object": "Hebrew",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Israel is",
+      "The main language spoken in Israel is",
+      "People in Israel speak"
+     ]
+    },
+    "es": {
+     "subject": "Israel",
+     "object": "hebreo",
+     "object_alts": [
+      "el hebreo"
+     ],
+     "prompts": [
+      "La lengua oficial de Israel es",
+      "El idioma oficial de Israel es",
+      "En Israel se habla"
+     ]
+    },
+    "hi": {
+     "subject": "इज़राइल",
+     "object": "हिब्रू",
+     "object_alts": [],
+     "prompts": [
+      "इज़राइल की आधिकारिक भाषा",
+      "इज़राइल की राजभाषा",
+      "इज़राइल में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_040",
+   "relation": "official_language",
+   "seed": 1861214709,
+   "lang": {
+    "en": {
+     "subject": "the Czech Republic",
+     "object": "Czech",
+     "object_alts": [],
+     "prompts": [
+      "The official language of the Czech Republic is",
+      "The main language spoken in the Czech Republic is",
+      "People in the Czech Republic speak"
+     ]
+    },
+    "es": {
+     "subject": "la República Checa",
+     "object": "checo",
+     "object_alts": [
+      "el checo"
+     ],
+     "prompts": [
+      "La lengua oficial de la República Checa es",
+      "El idioma oficial de la República Checa es",
+      "En la República Checa se habla"
+     ]
+    },
+    "hi": {
+     "subject": "चेक गणराज्य",
+     "object": "चेक",
+     "object_alts": [],
+     "prompts": [
+      "चेक गणराज्य की आधिकारिक भाषा",
+      "चेक गणराज्य की राजभाषा",
+      "चेक गणराज्य में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_041",
+   "relation": "official_language",
+   "seed": 565697381,
+   "lang": {
+    "en": {
+     "subject": "Slovakia",
+     "object": "Slovak",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Slovakia is",
+      "The main language spoken in Slovakia is",
+      "People in Slovakia speak"
+     ]
+    },
+    "es": {
+     "subject": "Eslovaquia",
+     "object": "eslovaco",
+     "object_alts": [
+      "el eslovaco"
+     ],
+     "prompts": [
+      "La lengua oficial de Eslovaquia es",
+      "El idioma oficial de Eslovaquia es",
+      "En Eslovaquia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "स्लोवाकिया",
+     "object": "स्लोवाक",
+     "object_alts": [],
+     "prompts": [
+      "स्लोवाकिया की आधिकारिक भाषा",
+      "स्लोवाकिया की राजभाषा",
+      "स्लोवाकिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_042",
+   "relation": "official_language",
+   "seed": 1343417664,
+   "lang": {
+    "en": {
+     "subject": "Slovenia",
+     "object": "Slovenian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Slovenia is",
+      "The main language spoken in Slovenia is",
+      "People in Slovenia speak"
+     ]
+    },
+    "es": {
+     "subject": "Eslovenia",
+     "object": "esloveno",
+     "object_alts": [
+      "el esloveno"
+     ],
+     "prompts": [
+      "La lengua oficial de Eslovenia es",
+      "El idioma oficial de Eslovenia es",
+      "En Eslovenia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "स्लोवेनिया",
+     "object": "स्लोवेनियाई",
+     "object_alts": [],
+     "prompts": [
+      "स्लोवेनिया की आधिकारिक भाषा",
+      "स्लोवेनिया की राजभाषा",
+      "स्लोवेनिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_043",
+   "relation": "official_language",
+   "seed": 829555227,
+   "lang": {
+    "en": {
+     "subject": "Estonia",
+     "object": "Estonian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Estonia is",
+      "The main language spoken in Estonia is",
+      "People in Estonia speak"
+     ]
+    },
+    "es": {
+     "subject": "Estonia",
+     "object": "estonio",
+     "object_alts": [
+      "el estonio"
+     ],
+     "prompts": [
+      "La lengua oficial de Estonia es",
+      "El idioma oficial de Estonia es",
+      "En Estonia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "एस्टोनिया",
+     "object": "एस्टोनियाई",
+     "object_alts": [],
+     "prompts": [
+      "एस्टोनिया की आधिकारिक भाषा",
+      "एस्टोनिया की राजभाषा",
+      "एस्टोनिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_044",
+   "relation": "official_language",
+   "seed": 1754364393,
+   "lang": {
+    "en": {
+     "subject": "Latvia",
+     "object": "Latvian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Latvia is",
+      "The main language spoken in Latvia is",
+      "People in Latvia speak"
+     ]
+    },
+    "es": {
+     "subject": "Letonia",
+     "object": "letón",
+     "object_alts": [
+      "el letón"
+     ],
+     "prompts": [
+      "La lengua oficial de Letonia es",
+      "El idioma oficial de Letonia es",
+      "En Letonia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "लातविया",
+     "object": "लातवियाई",
+     "object_alts": [],
+     "prompts": [
+      "लातविया की आधिकारिक भाषा",
+      "लातविया की राजभाषा",
+      "लातविया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_045",
+   "relation": "official_language",
+   "seed": 241008756,
+   "lang": {
+    "en": {
+     "subject": "Lithuania",
+     "object": "Lithuanian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Lithuania is",
+      "The main language spoken in Lithuania is",
+      "People in Lithuania speak"
+     ]
+    },
+    "es": {
+     "subject": "Lituania",
+     "object": "lituano",
+     "object_alts": [
+      "el lituano"
+     ],
+     "prompts": [
+      "La lengua oficial de Lituania es",
+      "El idioma oficial de Lituania es",
+      "En Lituania se habla"
+     ]
+    },
+    "hi": {
+     "subject": "लिथुआनिया",
+     "object": "लिथुआनियाई",
+     "object_alts": [],
+     "prompts": [
+      "लिथुआनिया की आधिकारिक भाषा",
+      "लिथुआनिया की राजभाषा",
+      "लिथुआनिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_046",
+   "relation": "official_language",
+   "seed": 2004632511,
+   "lang": {
+    "en": {
+     "subject": "Nepal",
+     "object": "Nepali",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Nepal is",
+      "The main language spoken in Nepal is",
+      "People in Nepal speak"
+     ]
+    },
+    "es": {
+     "subject": "Nepal",
+     "object": "nepalí",
+     "object_alts": [
+      "el nepalí"
+     ],
+     "prompts": [
+      "La lengua oficial de Nepal es",
+      "El idioma oficial de Nepal es",
+      "En Nepal se habla"
+     ]
+    },
+    "hi": {
+     "subject": "नेपाल",
+     "object": "नेपाली",
+     "object_alts": [],
+     "prompts": [
+      "नेपाल की आधिकारिक भाषा",
+      "नेपाल की राजभाषा",
+      "नेपाल में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_047",
+   "relation": "official_language",
+   "seed": 1906657826,
+   "lang": {
+    "en": {
+     "subject": "Bangladesh",
+     "object": "Bengali",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Bangladesh is",
+      "The main language spoken in Bangladesh is",
+      "People in Bangladesh speak"
+     ]
+    },
+    "es": {
+     "subject": "Bangladés",
+     "object": "bengalí",
+     "object_alts": [
+      "el bengalí"
+     ],
+     "prompts": [
+      "La lengua oficial de Bangladés es",
+      "El idioma oficial de Bangladés es",
+      "En Bangladés se habla"
+     ]
+    },
+    "hi": {
+     "subject": "बांग्लादेश",
+     "object": "बांग्ला",
+     "object_alts": [],
+     "prompts": [
+      "बांग्लादेश की आधिकारिक भाषा",
+      "बांग्लादेश की राजभाषा",
+      "बांग्लादेश में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_048",
+   "relation": "official_language",
+   "seed": 507630515,
+   "lang": {
+    "en": {
+     "subject": "Indonesia",
+     "object": "Indonesian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Indonesia is",
+      "The main language spoken in Indonesia is",
+      "People in Indonesia speak"
+     ]
+    },
+    "es": {
+     "subject": "Indonesia",
+     "object": "indonesio",
+     "object_alts": [
+      "el indonesio"
+     ],
+     "prompts": [
+      "La lengua oficial de Indonesia es",
+      "El idioma oficial de Indonesia es",
+      "En Indonesia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "इंडोनेशिया",
+     "object": "इंडोनेशियाई",
+     "object_alts": [],
+     "prompts": [
+      "इंडोनेशिया की आधिकारिक भाषा",
+      "इंडोनेशिया की राजभाषा",
+      "इंडोनेशिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_049",
+   "relation": "official_language",
+   "seed": 1999779231,
+   "lang": {
+    "en": {
+     "subject": "Albania",
+     "object": "Albanian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Albania is",
+      "The main language spoken in Albania is",
+      "People in Albania speak"
+     ]
+    },
+    "es": {
+     "subject": "Albania",
+     "object": "albanés",
+     "object_alts": [
+      "el albanés"
+     ],
+     "prompts": [
+      "La lengua oficial de Albania es",
+      "El idioma oficial de Albania es",
+      "En Albania se habla"
+     ]
+    },
+    "hi": {
+     "subject": "अल्बानिया",
+     "object": "अल्बानियाई",
+     "object_alts": [],
+     "prompts": [
+      "अल्बानिया की आधिकारिक भाषा",
+      "अल्बानिया की राजभाषा",
+      "अल्बानिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_050",
+   "relation": "official_language",
+   "seed": 409477573,
+   "lang": {
+    "en": {
+     "subject": "Georgia",
+     "object": "Georgian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Georgia is",
+      "The main language spoken in Georgia is",
+      "People in Georgia speak"
+     ]
+    },
+    "es": {
+     "subject": "Georgia",
+     "object": "georgiano",
+     "object_alts": [
+      "el georgiano"
+     ],
+     "prompts": [
+      "La lengua oficial de Georgia es",
+      "El idioma oficial de Georgia es",
+      "En Georgia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "जॉर्जिया",
+     "object": "जॉर्जियाई",
+     "object_alts": [],
+     "prompts": [
+      "जॉर्जिया की आधिकारिक भाषा",
+      "जॉर्जिया की राजभाषा",
+      "जॉर्जिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "official_language_051",
+   "relation": "official_language",
+   "seed": 1329285823,
+   "lang": {
+    "en": {
+     "subject": "Armenia",
+     "object": "Armenian",
+     "object_alts": [],
+     "prompts": [
+      "The official language of Armenia is",
+      "The main language spoken in Armenia is",
+      "People in Armenia speak"
+     ]
+    },
+    "es": {
+     "subject": "Armenia",
+     "object": "armenio",
+     "object_alts": [
+      "el armenio"
+     ],
+     "prompts": [
+      "La lengua oficial de Armenia es",
+      "El idioma oficial de Armenia es",
+      "En Armenia se habla"
+     ]
+    },
+    "hi": {
+     "subject": "आर्मेनिया",
+     "object": "अर्मेनियाई",
+     "object_alts": [],
+     "prompts": [
+      "आर्मेनिया की आधिकारिक भाषा",
+      "आर्मेनिया की राजभाषा",
+      "आर्मेनिया में बोली जाने वाली मुख्य भाषा"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_000",
+   "relation": "currency",
+   "seed": 1805087681,
+   "lang": {
+    "en": {
+     "subject": "Japan",
+     "object": "yen",
+     "object_alts": [
+      "the yen"
+     ],
+     "prompts": [
+      "The currency of Japan is",
+      "The official currency of Japan is",
+      "People in Japan pay with"
+     ]
+    },
+    "es": {
+     "subject": "Japón",
+     "object": "yen",
+     "object_alts": [
+      "el yen",
+      "la yen"
+     ],
+     "prompts": [
+      "La moneda de Japón es",
+      "La moneda oficial de Japón es",
+      "En Japón se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "जापान",
+     "object": "येन",
+     "object_alts": [],
+     "prompts": [
+      "जापान की मुद्रा",
+      "जापान की आधिकारिक मुद्रा",
+      "जापान में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_001",
+   "relation": "currency",
+   "seed": 2113902828,
+   "lang": {
+    "en": {
+     "subject": "China",
+     "object": "yuan",
+     "object_alts": [
+      "the yuan"
+     ],
+     "prompts": [
+      "The currency of China is",
+      "The official currency of China is",
+      "People in China pay with"
+     ]
+    },
+    "es": {
+     "subject": "China",
+     "object": "yuan",
+     "object_alts": [
+      "el yuan",
+      "la yuan"
+     ],
+     "prompts": [
+      "La moneda de China es",
+      "La moneda oficial de China es",
+      "En China se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "चीन",
+     "object": "युआन",
+     "object_alts": [],
+     "prompts": [
+      "चीन की मुद्रा",
+      "चीन की आधिकारिक मुद्रा",
+      "चीन में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_002",
+   "relation": "currency",
+   "seed": 1051707818,
+   "lang": {
+    "en": {
+     "subject": "India",
+     "object": "rupee",
+     "object_alts": [
+      "the rupee"
+     ],
+     "prompts": [
+      "The currency of India is",
+      "The official currency of India is",
+      "People in India pay with"
+     ]
+    },
+    "es": {
+     "subject": "India",
+     "object": "rupia",
+     "object_alts": [
+      "el rupia",
+      "la rupia"
+     ],
+     "prompts": [
+      "La moneda de India es",
+      "La moneda oficial de India es",
+      "En India se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "भारत",
+     "object": "रुपया",
+     "object_alts": [],
+     "prompts": [
+      "भारत की मुद्रा",
+      "भारत की आधिकारिक मुद्रा",
+      "भारत में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_003",
+   "relation": "currency",
+   "seed": 729181099,
+   "lang": {
+    "en": {
+     "subject": "Russia",
+     "object": "ruble",
+     "object_alts": [
+      "the ruble"
+     ],
+     "prompts": [
+      "The currency of Russia is",
+      "The official currency of Russia is",
+      "People in Russia pay with"
+     ]
+    },
+    "es": {
+     "subject": "Rusia",
+     "object": "rublo",
+     "object_alts": [
+      "el rublo",
+      "la rublo"
+     ],
+     "prompts": [
+      "La moneda de Rusia es",
+      "La moneda oficial de Rusia es",
+      "En Rusia se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "रूस",
+     "object": "रूबल",
+     "object_alts": [],
+     "prompts": [
+      "रूस की मुद्रा",
+      "रूस की आधिकारिक मुद्रा",
+      "रूस में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_004",
+   "relation": "currency",
+   "seed": 1655522692,
+   "lang": {
+    "en": {
+     "subject": "Mexico",
+     "object": "peso",
+     "object_alts": [
+      "the peso"
+     ],
+     "prompts": [
+      "The currency of Mexico is",
+      "The official currency of Mexico is",
+      "People in Mexico pay with"
+     ]
+    },
+    "es": {
+     "subject": "México",
+     "object": "peso",
+     "object_alts": [
+      "el peso",
+      "la peso"
+     ],
+     "prompts": [
+      "La moneda de México es",
+      "La moneda oficial de México es",
+      "En México se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "मेक्सिको",
+     "object": "पेसो",
+     "object_alts": [],
+     "prompts": [
+      "मेक्सिको की मुद्रा",
+      "मेक्सिको की आधिकारिक मुद्रा",
+      "मेक्सिको में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_005",
+   "relation": "currency",
+   "seed": 920414408,
+   "lang": {
+    "en": {
+     "subject": "Argentina",
+     "object": "peso",
+     "object_alts": [
+      "the peso"
+     ],
+     "prompts": [
+      "The currency of Argentina is",
+      "The official currency of Argentina is",
+      "People in Argentina pay with"
+     ]
+    },
+    "es": {
+     "subject": "Argentina",
+     "object": "peso",
+     "object_alts": [
+      "el peso",
+      "la peso"
+     ],
+     "prompts": [
+      "La moneda de Argentina es",
+      "La moneda oficial de Argentina es",
+      "En Argentina se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "अर्जेंटीना",
+     "object": "पेसो",
+     "object_alts": [],
+     "prompts": [
+      "अर्जेंटीना की मुद्रा",
+      "अर्जेंटीना की आधिकारिक मुद्रा",
+      "अर्जेंटीना में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_006",
+   "relation": "currency",
+   "seed": 2049171400,
+   "lang": {
+    "en": {
+     "subject": "Chile",
+     "object": "peso",
+     "object_alts": [
+      "the peso"
+     ],
+     "prompts": [
+      "The currency of Chile is",
+      "The official currency of Chile is",
+      "People in Chile pay with"
+     ]
+    },
+    "es": {
+     "subject": "Chile",
+     "object": "peso",
+     "object_alts": [
+      "el peso",
+      "la peso"
+     ],
+     "prompts": [
+      "La moneda de Chile es",
+      "La moneda oficial de Chile es",
+      "En Chile se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "चिली",
+     "object": "पेसो",
+     "object_alts": [],
+     "prompts": [
+      "चिली की मुद्रा",
+      "चिली की आधिकारिक मुद्रा",
+      "चिली में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_007",
+   "relation": "currency",
+   "seed": 1397358971,
+   "lang": {
+    "en": {
+     "subject": "Colombia",
+     "object": "peso",
+     "object_alts": [
+      "the peso"
+     ],
+     "prompts": [
+      "The currency of Colombia is",
+      "The official currency of Colombia is",
+      "People in Colombia pay with"
+     ]
+    },
+    "es": {
+     "subject": "Colombia",
+     "object": "peso",
+     "object_alts": [
+      "el peso",
+      "la peso"
+     ],
+     "prompts": [
+      "La moneda de Colombia es",
+      "La moneda oficial de Colombia es",
+      "En Colombia se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "कोलंबिया",
+     "object": "पेसो",
+     "object_alts": [],
+     "prompts": [
+      "कोलंबिया की मुद्रा",
+      "कोलंबिया की आधिकारिक मुद्रा",
+      "कोलंबिया में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_008",
+   "relation": "currency",
+   "seed": 2095936798,
+   "lang": {
+    "en": {
+     "subject": "Canada",
+     "object": "dollar",
+     "object_alts": [
+      "the dollar"
+     ],
+     "prompts": [
+      "The currency of Canada is",
+      "The official currency of Canada is",
+      "People in Canada pay with"
+     ]
+    },
+    "es": {
+     "subject": "Canadá",
+     "object": "dólar",
+     "object_alts": [
+      "el dólar",
+      "la dólar"
+     ],
+     "prompts": [
+      "La moneda de Canadá es",
+      "La moneda oficial de Canadá es",
+      "En Canadá se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "कनाडा",
+     "object": "डॉलर",
+     "object_alts": [],
+     "prompts": [
+      "कनाडा की मुद्रा",
+      "कनाडा की आधिकारिक मुद्रा",
+      "कनाडा में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_009",
+   "relation": "currency",
+   "seed": 1952878157,
+   "lang": {
+    "en": {
+     "subject": "Australia",
+     "object": "dollar",
+     "object_alts": [
+      "the dollar"
+     ],
+     "prompts": [
+      "The currency of Australia is",
+      "The official currency of Australia is",
+      "People in Australia pay with"
+     ]
+    },
+    "es": {
+     "subject": "Australia",
+     "object": "dólar",
+     "object_alts": [
+      "el dólar",
+      "la dólar"
+     ],
+     "prompts": [
+      "La moneda de Australia es",
+      "La moneda oficial de Australia es",
+      "En Australia se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "ऑस्ट्रेलिया",
+     "object": "डॉलर",
+     "object_alts": [],
+     "prompts": [
+      "ऑस्ट्रेलिया की मुद्रा",
+      "ऑस्ट्रेलिया की आधिकारिक मुद्रा",
+      "ऑस्ट्रेलिया में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_010",
+   "relation": "currency",
+   "seed": 1989286649,
+   "lang": {
+    "en": {
+     "subject": "New Zealand",
+     "object": "dollar",
+     "object_alts": [
+      "the dollar"
+     ],
+     "prompts": [
+      "The currency of New Zealand is",
+      "The official currency of New Zealand is",
+      "People in New Zealand pay with"
+     ]
+    },
+    "es": {
+     "subject": "Nueva Zelanda",
+     "object": "dólar",
+     "object_alts": [
+      "el dólar",
+      "la dólar"
+     ],
+     "prompts": [
+      "La moneda de Nueva Zelanda es",
+      "La moneda oficial de Nueva Zelanda es",
+      "En Nueva Zelanda se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "न्यूज़ीलैंड",
+     "object": "डॉलर",
+     "object_alts": [],
+     "prompts": [
+      "न्यूज़ीलैंड की मुद्रा",
+      "न्यूज़ीलैंड की आधिकारिक मुद्रा",
+      "न्यूज़ीलैंड में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_011",
+   "relation": "currency",
+   "seed": 1784980061,
+   "lang": {
+    "en": {
+     "subject": "the United States",
+     "object": "dollar",
+     "object_alts": [
+      "the dollar"
+     ],
+     "prompts": [
+      "The currency of the United States is",
+      "The official currency of the United States is",
+      "People in the United States pay with"
+     ]
+    },
+    "es": {
+     "subject": "Estados Unidos",
+     "object": "dólar",
+     "object_alts": [
+      "el dólar",
+      "la dólar"
+     ],
+     "prompts": [
+      "La moneda de Estados Unidos es",
+      "La moneda oficial de Estados Unidos es",
+      "En Estados Unidos se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "संयुक्त राज्य अमेरिका",
+     "object": "डॉलर",
+     "object_alts": [],
+     "prompts": [
+      "संयुक्त राज्य अमेरिका की मुद्रा",
+      "संयुक्त राज्य अमेरिका की आधिकारिक मुद्रा",
+      "संयुक्त राज्य अमेरिका में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_012",
+   "relation": "currency",
+   "seed": 1705104161,
+   "lang": {
+    "en": {
+     "subject": "the United Kingdom",
+     "object": "pound",
+     "object_alts": [
+      "the pound"
+     ],
+     "prompts": [
+      "The currency of the United Kingdom is",
+      "The official currency of the United Kingdom is",
+      "People in the United Kingdom pay with"
+     ]
+    },
+    "es": {
+     "subject": "el Reino Unido",
+     "object": "libra",
+     "object_alts": [
+      "el libra",
+      "la libra"
+     ],
+     "prompts": [
+      "La moneda del Reino Unido es",
+      "La moneda oficial del Reino Unido es",
+      "En el Reino Unido se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "यूनाइटेड किंगडम",
+     "object": "पाउंड",
+     "object_alts": [],
+     "prompts": [
+      "यूनाइटेड किंगडम की मुद्रा",
+      "यूनाइटेड किंगडम की आधिकारिक मुद्रा",
+      "यूनाइटेड किंगडम में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_013",
+   "relation": "currency",
+   "seed": 1929268370,
+   "lang": {
+    "en": {
+     "subject": "Switzerland",
+     "object": "franc",
+     "object_alts": [
+      "the franc"
+     ],
+     "prompts": [
+      "The currency of Switzerland is",
+      "The official currency of Switzerland is",
+      "People in Switzerland pay with"
+     ]
+    },
+    "es": {
+     "subject": "Suiza",
+     "object": "franco",
+     "object_alts": [
+      "el franco",
+      "la franco"
+     ],
+     "prompts": [
+      "La moneda de Suiza es",
+      "La moneda oficial de Suiza es",
+      "En Suiza se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "स्विट्ज़रलैंड",
+     "object": "फ़्रैंक",
+     "object_alts": [],
+     "prompts": [
+      "स्विट्ज़रलैंड की मुद्रा",
+      "स्विट्ज़रलैंड की आधिकारिक मुद्रा",
+      "स्विट्ज़रलैंड में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_014",
+   "relation": "currency",
+   "seed": 185470074,
+   "lang": {
+    "en": {
+     "subject": "Turkey",
+     "object": "lira",
+     "object_alts": [
+      "the lira"
+     ],
+     "prompts": [
+      "The currency of Turkey is",
+      "The official currency of Turkey is",
+      "People in Turkey pay with"
+     ]
+    },
+    "es": {
+     "subject": "Turquía",
+     "object": "lira",
+     "object_alts": [
+      "el lira",
+      "la lira"
+     ],
+     "prompts": [
+      "La moneda de Turquía es",
+      "La moneda oficial de Turquía es",
+      "En Turquía se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "तुर्की",
+     "object": "लीरा",
+     "object_alts": [],
+     "prompts": [
+      "तुर्की की मुद्रा",
+      "तुर्की की आधिकारिक मुद्रा",
+      "तुर्की में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_015",
+   "relation": "currency",
+   "seed": 965375659,
+   "lang": {
+    "en": {
+     "subject": "South Korea",
+     "object": "won",
+     "object_alts": [
+      "the won"
+     ],
+     "prompts": [
+      "The currency of South Korea is",
+      "The official currency of South Korea is",
+      "People in South Korea pay with"
+     ]
+    },
+    "es": {
+     "subject": "Corea del Sur",
+     "object": "won",
+     "object_alts": [
+      "el won",
+      "la won"
+     ],
+     "prompts": [
+      "La moneda de Corea del Sur es",
+      "La moneda oficial de Corea del Sur es",
+      "En Corea del Sur se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "दक्षिण कोरिया",
+     "object": "वॉन",
+     "object_alts": [],
+     "prompts": [
+      "दक्षिण कोरिया की मुद्रा",
+      "दक्षिण कोरिया की आधिकारिक मुद्रा",
+      "दक्षिण कोरिया में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_016",
+   "relation": "currency",
+   "seed": 322779066,
+   "lang": {
+    "en": {
+     "subject": "Vietnam",
+     "object": "dong",
+     "object_alts": [
+      "the dong"
+     ],
+     "prompts": [
+      "The currency of Vietnam is",
+      "The official currency of Vietnam is",
+      "People in Vietnam pay with"
+     ]
+    },
+    "es": {
+     "subject": "Vietnam",
+     "object": "dong",
+     "object_alts": [
+      "el dong",
+      "la dong"
+     ],
+     "prompts": [
+      "La moneda de Vietnam es",
+      "La moneda oficial de Vietnam es",
+      "En Vietnam se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "वियतनाम",
+     "object": "डोंग",
+     "object_alts": [],
+     "prompts": [
+      "वियतनाम की मुद्रा",
+      "वियतनाम की आधिकारिक मुद्रा",
+      "वियतनाम में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_017",
+   "relation": "currency",
+   "seed": 1687720559,
+   "lang": {
+    "en": {
+     "subject": "Bangladesh",
+     "object": "taka",
+     "object_alts": [
+      "the taka"
+     ],
+     "prompts": [
+      "The currency of Bangladesh is",
+      "The official currency of Bangladesh is",
+      "People in Bangladesh pay with"
+     ]
+    },
+    "es": {
+     "subject": "Bangladés",
+     "object": "taka",
+     "object_alts": [
+      "el taka",
+      "la taka"
+     ],
+     "prompts": [
+      "La moneda de Bangladés es",
+      "La moneda oficial de Bangladés es",
+      "En Bangladés se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "बांग्लादेश",
+     "object": "टका",
+     "object_alts": [],
+     "prompts": [
+      "बांग्लादेश की मुद्रा",
+      "बांग्लादेश की आधिकारिक मुद्रा",
+      "बांग्लादेश में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_018",
+   "relation": "currency",
+   "seed": 1426693023,
+   "lang": {
+    "en": {
+     "subject": "Saudi Arabia",
+     "object": "riyal",
+     "object_alts": [
+      "the riyal"
+     ],
+     "prompts": [
+      "The currency of Saudi Arabia is",
+      "The official currency of Saudi Arabia is",
+      "People in Saudi Arabia pay with"
+     ]
+    },
+    "es": {
+     "subject": "Arabia Saudita",
+     "object": "riyal",
+     "object_alts": [
+      "el riyal",
+      "la riyal"
+     ],
+     "prompts": [
+      "La moneda de Arabia Saudita es",
+      "La moneda oficial de Arabia Saudita es",
+      "En Arabia Saudita se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "सऊदी अरब",
+     "object": "रियाल",
+     "object_alts": [],
+     "prompts": [
+      "सऊदी अरब की मुद्रा",
+      "सऊदी अरब की आधिकारिक मुद्रा",
+      "सऊदी अरब में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_019",
+   "relation": "currency",
+   "seed": 617597377,
+   "lang": {
+    "en": {
+     "subject": "South Africa",
+     "object": "rand",
+     "object_alts": [
+      "the rand"
+     ],
+     "prompts": [
+      "The currency of South Africa is",
+      "The official currency of South Africa is",
+      "People in South Africa pay with"
+     ]
+    },
+    "es": {
+     "subject": "Sudáfrica",
+     "object": "rand",
+     "object_alts": [
+      "el rand",
+      "la rand"
+     ],
+     "prompts": [
+      "La moneda de Sudáfrica es",
+      "La moneda oficial de Sudáfrica es",
+      "En Sudáfrica se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "दक्षिण अफ़्रीका",
+     "object": "रैंड",
+     "object_alts": [],
+     "prompts": [
+      "दक्षिण अफ़्रीका की मुद्रा",
+      "दक्षिण अफ़्रीका की आधिकारिक मुद्रा",
+      "दक्षिण अफ़्रीका में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_020",
+   "relation": "currency",
+   "seed": 1866827931,
+   "lang": {
+    "en": {
+     "subject": "Nigeria",
+     "object": "naira",
+     "object_alts": [
+      "the naira"
+     ],
+     "prompts": [
+      "The currency of Nigeria is",
+      "The official currency of Nigeria is",
+      "People in Nigeria pay with"
+     ]
+    },
+    "es": {
+     "subject": "Nigeria",
+     "object": "naira",
+     "object_alts": [
+      "el naira",
+      "la naira"
+     ],
+     "prompts": [
+      "La moneda de Nigeria es",
+      "La moneda oficial de Nigeria es",
+      "En Nigeria se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "नाइजीरिया",
+     "object": "नाइरा",
+     "object_alts": [],
+     "prompts": [
+      "नाइजीरिया की मुद्रा",
+      "नाइजीरिया की आधिकारिक मुद्रा",
+      "नाइजीरिया में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_021",
+   "relation": "currency",
+   "seed": 1815328841,
+   "lang": {
+    "en": {
+     "subject": "Kenya",
+     "object": "shilling",
+     "object_alts": [
+      "the shilling"
+     ],
+     "prompts": [
+      "The currency of Kenya is",
+      "The official currency of Kenya is",
+      "People in Kenya pay with"
+     ]
+    },
+    "es": {
+     "subject": "Kenia",
+     "object": "chelín",
+     "object_alts": [
+      "el chelín",
+      "la chelín"
+     ],
+     "prompts": [
+      "La moneda de Kenia es",
+      "La moneda oficial de Kenia es",
+      "En Kenia se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "केन्या",
+     "object": "शिलिंग",
+     "object_alts": [],
+     "prompts": [
+      "केन्या की मुद्रा",
+      "केन्या की आधिकारिक मुद्रा",
+      "केन्या में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_022",
+   "relation": "currency",
+   "seed": 1575462401,
+   "lang": {
+    "en": {
+     "subject": "Germany",
+     "object": "euro",
+     "object_alts": [
+      "the euro"
+     ],
+     "prompts": [
+      "The currency of Germany is",
+      "The official currency of Germany is",
+      "People in Germany pay with"
+     ]
+    },
+    "es": {
+     "subject": "Alemania",
+     "object": "euro",
+     "object_alts": [
+      "el euro",
+      "la euro"
+     ],
+     "prompts": [
+      "La moneda de Alemania es",
+      "La moneda oficial de Alemania es",
+      "En Alemania se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "जर्मनी",
+     "object": "यूरो",
+     "object_alts": [],
+     "prompts": [
+      "जर्मनी की मुद्रा",
+      "जर्मनी की आधिकारिक मुद्रा",
+      "जर्मनी में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_023",
+   "relation": "currency",
+   "seed": 1594667924,
+   "lang": {
+    "en": {
+     "subject": "France",
+     "object": "euro",
+     "object_alts": [
+      "the euro"
+     ],
+     "prompts": [
+      "The currency of France is",
+      "The official currency of France is",
+      "People in France pay with"
+     ]
+    },
+    "es": {
+     "subject": "Francia",
+     "object": "euro",
+     "object_alts": [
+      "el euro",
+      "la euro"
+     ],
+     "prompts": [
+      "La moneda de Francia es",
+      "La moneda oficial de Francia es",
+      "En Francia se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "फ्रांस",
+     "object": "यूरो",
+     "object_alts": [],
+     "prompts": [
+      "फ्रांस की मुद्रा",
+      "फ्रांस की आधिकारिक मुद्रा",
+      "फ्रांस में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_024",
+   "relation": "currency",
+   "seed": 932676869,
+   "lang": {
+    "en": {
+     "subject": "Italy",
+     "object": "euro",
+     "object_alts": [
+      "the euro"
+     ],
+     "prompts": [
+      "The currency of Italy is",
+      "The official currency of Italy is",
+      "People in Italy pay with"
+     ]
+    },
+    "es": {
+     "subject": "Italia",
+     "object": "euro",
+     "object_alts": [
+      "el euro",
+      "la euro"
+     ],
+     "prompts": [
+      "La moneda de Italia es",
+      "La moneda oficial de Italia es",
+      "En Italia se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "इटली",
+     "object": "यूरो",
+     "object_alts": [],
+     "prompts": [
+      "इटली की मुद्रा",
+      "इटली की आधिकारिक मुद्रा",
+      "इटली में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_025",
+   "relation": "currency",
+   "seed": 1904065530,
+   "lang": {
+    "en": {
+     "subject": "Spain",
+     "object": "euro",
+     "object_alts": [
+      "the euro"
+     ],
+     "prompts": [
+      "The currency of Spain is",
+      "The official currency of Spain is",
+      "People in Spain pay with"
+     ]
+    },
+    "es": {
+     "subject": "España",
+     "object": "euro",
+     "object_alts": [
+      "el euro",
+      "la euro"
+     ],
+     "prompts": [
+      "La moneda de España es",
+      "La moneda oficial de España es",
+      "En España se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "स्पेन",
+     "object": "यूरो",
+     "object_alts": [],
+     "prompts": [
+      "स्पेन की मुद्रा",
+      "स्पेन की आधिकारिक मुद्रा",
+      "स्पेन में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_026",
+   "relation": "currency",
+   "seed": 73648725,
+   "lang": {
+    "en": {
+     "subject": "Greece",
+     "object": "euro",
+     "object_alts": [
+      "the euro"
+     ],
+     "prompts": [
+      "The currency of Greece is",
+      "The official currency of Greece is",
+      "People in Greece pay with"
+     ]
+    },
+    "es": {
+     "subject": "Grecia",
+     "object": "euro",
+     "object_alts": [
+      "el euro",
+      "la euro"
+     ],
+     "prompts": [
+      "La moneda de Grecia es",
+      "La moneda oficial de Grecia es",
+      "En Grecia se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "ग्रीस",
+     "object": "यूरो",
+     "object_alts": [],
+     "prompts": [
+      "ग्रीस की मुद्रा",
+      "ग्रीस की आधिकारिक मुद्रा",
+      "ग्रीस में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_027",
+   "relation": "currency",
+   "seed": 104977537,
+   "lang": {
+    "en": {
+     "subject": "Ireland",
+     "object": "euro",
+     "object_alts": [
+      "the euro"
+     ],
+     "prompts": [
+      "The currency of Ireland is",
+      "The official currency of Ireland is",
+      "People in Ireland pay with"
+     ]
+    },
+    "es": {
+     "subject": "Irlanda",
+     "object": "euro",
+     "object_alts": [
+      "el euro",
+      "la euro"
+     ],
+     "prompts": [
+      "La moneda de Irlanda es",
+      "La moneda oficial de Irlanda es",
+      "En Irlanda se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "आयरलैंड",
+     "object": "यूरो",
+     "object_alts": [],
+     "prompts": [
+      "आयरलैंड की मुद्रा",
+      "आयरलैंड की आधिकारिक मुद्रा",
+      "आयरलैंड में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_028",
+   "relation": "currency",
+   "seed": 1721315366,
+   "lang": {
+    "en": {
+     "subject": "Morocco",
+     "object": "dirham",
+     "object_alts": [
+      "the dirham"
+     ],
+     "prompts": [
+      "The currency of Morocco is",
+      "The official currency of Morocco is",
+      "People in Morocco pay with"
+     ]
+    },
+    "es": {
+     "subject": "Marruecos",
+     "object": "dírham",
+     "object_alts": [
+      "el dírham",
+      "la dírham"
+     ],
+     "prompts": [
+      "La moneda de Marruecos es",
+      "La moneda oficial de Marruecos es",
+      "En Marruecos se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "मोरक्को",
+     "object": "दिरहम",
+     "object_alts": [],
+     "prompts": [
+      "मोरक्को की मुद्रा",
+      "मोरक्को की आधिकारिक मुद्रा",
+      "मोरक्को में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_029",
+   "relation": "currency",
+   "seed": 1087380864,
+   "lang": {
+    "en": {
+     "subject": "the United Arab Emirates",
+     "object": "dirham",
+     "object_alts": [
+      "the dirham"
+     ],
+     "prompts": [
+      "The currency of the United Arab Emirates is",
+      "The official currency of the United Arab Emirates is",
+      "People in the United Arab Emirates pay with"
+     ]
+    },
+    "es": {
+     "subject": "los Emiratos Árabes Unidos",
+     "object": "dírham",
+     "object_alts": [
+      "el dírham",
+      "la dírham"
+     ],
+     "prompts": [
+      "La moneda de los Emiratos Árabes Unidos es",
+      "La moneda oficial de los Emiratos Árabes Unidos es",
+      "En los Emiratos Árabes Unidos se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "संयुक्त अरब अमीरात",
+     "object": "दिरहम",
+     "object_alts": [],
+     "prompts": [
+      "संयुक्त अरब अमीरात की मुद्रा",
+      "संयुक्त अरब अमीरात की आधिकारिक मुद्रा",
+      "संयुक्त अरब अमीरात में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "currency_030",
+   "relation": "currency",
+   "seed": 1212563995,
+   "lang": {
+    "en": {
+     "subject": "Jordan",
+     "object": "dinar",
+     "object_alts": [
+      "the dinar"
+     ],
+     "prompts": [
+      "The currency of Jordan is",
+      "The official currency of Jordan is",
+      "People in Jordan pay with"
+     ]
+    },
+    "es": {
+     "subject": "Jordania",
+     "object": "dinar",
+     "object_alts": [
+      "el dinar",
+      "la dinar"
+     ],
+     "prompts": [
+      "La moneda de Jordania es",
+      "La moneda oficial de Jordania es",
+      "En Jordania se paga con"
+     ]
+    },
+    "hi": {
+     "subject": "जॉर्डन",
+     "object": "दीनार",
+     "object_alts": [],
+     "prompts": [
+      "जॉर्डन की मुद्रा",
+      "जॉर्डन की आधिकारिक मुद्रा",
+      "जॉर्डन में पैसे इस नाम से चलते हैं:"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_000",
+   "relation": "profession",
+   "seed": 1869425095,
+   "lang": {
+    "en": {
+     "subject": "Albert Einstein",
+     "object": "physicist",
+     "object_alts": [],
+     "prompts": [
+      "Albert Einstein was a famous",
+      "Albert Einstein is best known as a",
+      "Albert Einstein worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Albert Einstein",
+     "object": "físico",
+     "object_alts": [],
+     "prompts": [
+      "Albert Einstein fue un famoso",
+      "Albert Einstein es conocido como",
+      "Albert Einstein trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "अल्बर्ट आइंस्टीन",
+     "object": "भौतिक विज्ञानी",
+     "object_alts": [
+      "भौतिकशास्त्री",
+      "भौतिकविद"
+     ],
+     "prompts": [
+      "अल्बर्ट आइंस्टीन एक प्रसिद्ध",
+      "अल्बर्ट आइंस्टीन एक मशहूर",
+      "अल्बर्ट आइंस्टीन पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_001",
+   "relation": "profession",
+   "seed": 1536939481,
+   "lang": {
+    "en": {
+     "subject": "Stephen Hawking",
+     "object": "physicist",
+     "object_alts": [],
+     "prompts": [
+      "Stephen Hawking was a famous",
+      "Stephen Hawking is best known as a",
+      "Stephen Hawking worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Stephen Hawking",
+     "object": "físico",
+     "object_alts": [],
+     "prompts": [
+      "Stephen Hawking fue un famoso",
+      "Stephen Hawking es conocido como",
+      "Stephen Hawking trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "स्टीफन हॉकिंग",
+     "object": "भौतिक विज्ञानी",
+     "object_alts": [
+      "भौतिकशास्त्री",
+      "भौतिकविद"
+     ],
+     "prompts": [
+      "स्टीफन हॉकिंग एक प्रसिद्ध",
+      "स्टीफन हॉकिंग एक मशहूर",
+      "स्टीफन हॉकिंग पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_002",
+   "relation": "profession",
+   "seed": 1199947175,
+   "lang": {
+    "en": {
+     "subject": "Pablo Picasso",
+     "object": "painter",
+     "object_alts": [],
+     "prompts": [
+      "Pablo Picasso was a famous",
+      "Pablo Picasso is best known as a",
+      "Pablo Picasso worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Pablo Picasso",
+     "object": "pintor",
+     "object_alts": [],
+     "prompts": [
+      "Pablo Picasso fue un famoso",
+      "Pablo Picasso es conocido como",
+      "Pablo Picasso trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "पाब्लो पिकासो",
+     "object": "चित्रकार",
+     "object_alts": [
+      "पेंटर"
+     ],
+     "prompts": [
+      "पाब्लो पिकासो एक प्रसिद्ध",
+      "पाब्लो पिकासो एक मशहूर",
+      "पाब्लो पिकासो पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_003",
+   "relation": "profession",
+   "seed": 1613522740,
+   "lang": {
+    "en": {
+     "subject": "Vincent van Gogh",
+     "object": "painter",
+     "object_alts": [],
+     "prompts": [
+      "Vincent van Gogh was a famous",
+      "Vincent van Gogh is best known as a",
+      "Vincent van Gogh worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Vincent van Gogh",
+     "object": "pintor",
+     "object_alts": [],
+     "prompts": [
+      "Vincent van Gogh fue un famoso",
+      "Vincent van Gogh es conocido como",
+      "Vincent van Gogh trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "विंसेंट वैन गॉग",
+     "object": "चित्रकार",
+     "object_alts": [
+      "पेंटर"
+     ],
+     "prompts": [
+      "विंसेंट वैन गॉग एक प्रसिद्ध",
+      "विंसेंट वैन गॉग एक मशहूर",
+      "विंसेंट वैन गॉग पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_004",
+   "relation": "profession",
+   "seed": 659414313,
+   "lang": {
+    "en": {
+     "subject": "Claude Monet",
+     "object": "painter",
+     "object_alts": [],
+     "prompts": [
+      "Claude Monet was a famous",
+      "Claude Monet is best known as a",
+      "Claude Monet worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Claude Monet",
+     "object": "pintor",
+     "object_alts": [],
+     "prompts": [
+      "Claude Monet fue un famoso",
+      "Claude Monet es conocido como",
+      "Claude Monet trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "क्लॉड मोने",
+     "object": "चित्रकार",
+     "object_alts": [
+      "पेंटर"
+     ],
+     "prompts": [
+      "क्लॉड मोने एक प्रसिद्ध",
+      "क्लॉड मोने एक मशहूर",
+      "क्लॉड मोने पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_005",
+   "relation": "profession",
+   "seed": 1512735116,
+   "lang": {
+    "en": {
+     "subject": "Salvador Dalí",
+     "object": "painter",
+     "object_alts": [],
+     "prompts": [
+      "Salvador Dalí was a famous",
+      "Salvador Dalí is best known as a",
+      "Salvador Dalí worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Salvador Dalí",
+     "object": "pintor",
+     "object_alts": [],
+     "prompts": [
+      "Salvador Dalí fue un famoso",
+      "Salvador Dalí es conocido como",
+      "Salvador Dalí trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "साल्वाडोर डाली",
+     "object": "चित्रकार",
+     "object_alts": [
+      "पेंटर"
+     ],
+     "prompts": [
+      "साल्वाडोर डाली एक प्रसिद्ध",
+      "साल्वाडोर डाली एक मशहूर",
+      "साल्वाडोर डाली पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_006",
+   "relation": "profession",
+   "seed": 1627540681,
+   "lang": {
+    "en": {
+     "subject": "Mozart",
+     "object": "composer",
+     "object_alts": [],
+     "prompts": [
+      "Mozart was a famous",
+      "Mozart is best known as a",
+      "Mozart worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Mozart",
+     "object": "compositor",
+     "object_alts": [],
+     "prompts": [
+      "Mozart fue un famoso",
+      "Mozart es conocido como",
+      "Mozart trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "मोज़ार्ट",
+     "object": "संगीतकार",
+     "object_alts": [],
+     "prompts": [
+      "मोज़ार्ट एक प्रसिद्ध",
+      "मोज़ार्ट एक मशहूर",
+      "मोज़ार्ट पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_007",
+   "relation": "profession",
+   "seed": 1390375481,
+   "lang": {
+    "en": {
+     "subject": "Beethoven",
+     "object": "composer",
+     "object_alts": [],
+     "prompts": [
+      "Beethoven was a famous",
+      "Beethoven is best known as a",
+      "Beethoven worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Beethoven",
+     "object": "compositor",
+     "object_alts": [],
+     "prompts": [
+      "Beethoven fue un famoso",
+      "Beethoven es conocido como",
+      "Beethoven trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "बीथोवन",
+     "object": "संगीतकार",
+     "object_alts": [],
+     "prompts": [
+      "बीथोवन एक प्रसिद्ध",
+      "बीथोवन एक मशहूर",
+      "बीथोवन पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_008",
+   "relation": "profession",
+   "seed": 1147422510,
+   "lang": {
+    "en": {
+     "subject": "Bach",
+     "object": "composer",
+     "object_alts": [],
+     "prompts": [
+      "Bach was a famous",
+      "Bach is best known as a",
+      "Bach worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Bach",
+     "object": "compositor",
+     "object_alts": [],
+     "prompts": [
+      "Bach fue un famoso",
+      "Bach es conocido como",
+      "Bach trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "बाख",
+     "object": "संगीतकार",
+     "object_alts": [],
+     "prompts": [
+      "बाख एक प्रसिद्ध",
+      "बाख एक मशहूर",
+      "बाख पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_009",
+   "relation": "profession",
+   "seed": 1238673936,
+   "lang": {
+    "en": {
+     "subject": "William Shakespeare",
+     "object": "playwright",
+     "object_alts": [],
+     "prompts": [
+      "William Shakespeare was a famous",
+      "William Shakespeare is best known as a",
+      "William Shakespeare worked as a"
+     ]
+    },
+    "es": {
+     "subject": "William Shakespeare",
+     "object": "dramaturgo",
+     "object_alts": [],
+     "prompts": [
+      "William Shakespeare fue un famoso",
+      "William Shakespeare es conocido como",
+      "William Shakespeare trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "विलियम शेक्सपियर",
+     "object": "नाटककार",
+     "object_alts": [],
+     "prompts": [
+      "विलियम शेक्सपियर एक प्रसिद्ध",
+      "विलियम शेक्सपियर एक मशहूर",
+      "विलियम शेक्सपियर पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_010",
+   "relation": "profession",
+   "seed": 771655037,
+   "lang": {
+    "en": {
+     "subject": "Charles Dickens",
+     "object": "novelist",
+     "object_alts": [],
+     "prompts": [
+      "Charles Dickens was a famous",
+      "Charles Dickens is best known as a",
+      "Charles Dickens worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Charles Dickens",
+     "object": "novelista",
+     "object_alts": [],
+     "prompts": [
+      "Charles Dickens fue un famoso",
+      "Charles Dickens es conocido como",
+      "Charles Dickens trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "चार्ल्स डिकेंस",
+     "object": "उपन्यासकार",
+     "object_alts": [],
+     "prompts": [
+      "चार्ल्स डिकेंस एक प्रसिद्ध",
+      "चार्ल्स डिकेंस एक मशहूर",
+      "चार्ल्स डिकेंस पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_011",
+   "relation": "profession",
+   "seed": 424615047,
+   "lang": {
+    "en": {
+     "subject": "Leo Tolstoy",
+     "object": "novelist",
+     "object_alts": [],
+     "prompts": [
+      "Leo Tolstoy was a famous",
+      "Leo Tolstoy is best known as a",
+      "Leo Tolstoy worked as a"
+     ]
+    },
+    "es": {
+     "subject": "León Tolstói",
+     "object": "novelista",
+     "object_alts": [],
+     "prompts": [
+      "León Tolstói fue un famoso",
+      "León Tolstói es conocido como",
+      "León Tolstói trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "लियो टॉल्स्टॉय",
+     "object": "उपन्यासकार",
+     "object_alts": [],
+     "prompts": [
+      "लियो टॉल्स्टॉय एक प्रसिद्ध",
+      "लियो टॉल्स्टॉय एक मशहूर",
+      "लियो टॉल्स्टॉय पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_012",
+   "relation": "profession",
+   "seed": 792275909,
+   "lang": {
+    "en": {
+     "subject": "Jane Austen",
+     "object": "novelist",
+     "object_alts": [],
+     "prompts": [
+      "Jane Austen was a famous",
+      "Jane Austen is best known as a",
+      "Jane Austen worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Jane Austen",
+     "object": "novelista",
+     "object_alts": [],
+     "prompts": [
+      "Jane Austen fue un famoso",
+      "Jane Austen es conocido como",
+      "Jane Austen trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "जेन ऑस्टिन",
+     "object": "उपन्यासकार",
+     "object_alts": [],
+     "prompts": [
+      "जेन ऑस्टिन एक प्रसिद्ध",
+      "जेन ऑस्टिन एक मशहूर",
+      "जेन ऑस्टिन पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_013",
+   "relation": "profession",
+   "seed": 17272029,
+   "lang": {
+    "en": {
+     "subject": "Rabindranath Tagore",
+     "object": "poet",
+     "object_alts": [],
+     "prompts": [
+      "Rabindranath Tagore was a famous",
+      "Rabindranath Tagore is best known as a",
+      "Rabindranath Tagore worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Rabindranath Tagore",
+     "object": "poeta",
+     "object_alts": [],
+     "prompts": [
+      "Rabindranath Tagore fue un famoso",
+      "Rabindranath Tagore es conocido como",
+      "Rabindranath Tagore trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "रवींद्रनाथ टैगोर",
+     "object": "कवि",
+     "object_alts": [],
+     "prompts": [
+      "रवींद्रनाथ टैगोर एक प्रसिद्ध",
+      "रवींद्रनाथ टैगोर एक मशहूर",
+      "रवींद्रनाथ टैगोर पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_014",
+   "relation": "profession",
+   "seed": 956036000,
+   "lang": {
+    "en": {
+     "subject": "Pablo Neruda",
+     "object": "poet",
+     "object_alts": [],
+     "prompts": [
+      "Pablo Neruda was a famous",
+      "Pablo Neruda is best known as a",
+      "Pablo Neruda worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Pablo Neruda",
+     "object": "poeta",
+     "object_alts": [],
+     "prompts": [
+      "Pablo Neruda fue un famoso",
+      "Pablo Neruda es conocido como",
+      "Pablo Neruda trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "पाब्लो नेरूदा",
+     "object": "कवि",
+     "object_alts": [],
+     "prompts": [
+      "पाब्लो नेरूदा एक प्रसिद्ध",
+      "पाब्लो नेरूदा एक मशहूर",
+      "पाब्लो नेरूदा पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_015",
+   "relation": "profession",
+   "seed": 352011171,
+   "lang": {
+    "en": {
+     "subject": "Lionel Messi",
+     "object": "footballer",
+     "object_alts": [],
+     "prompts": [
+      "Lionel Messi was a famous",
+      "Lionel Messi is best known as a",
+      "Lionel Messi worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Lionel Messi",
+     "object": "futbolista",
+     "object_alts": [],
+     "prompts": [
+      "Lionel Messi fue un famoso",
+      "Lionel Messi es conocido como",
+      "Lionel Messi trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "लियोनेल मेसी",
+     "object": "फुटबॉलर",
+     "object_alts": [
+      "फ़ुटबॉलर",
+      "फुटबॉल खिलाड़ी",
+      "फ़ुटबॉल खिलाड़ी"
+     ],
+     "prompts": [
+      "लियोनेल मेसी एक प्रसिद्ध",
+      "लियोनेल मेसी एक मशहूर",
+      "लियोनेल मेसी पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_016",
+   "relation": "profession",
+   "seed": 401021406,
+   "lang": {
+    "en": {
+     "subject": "Cristiano Ronaldo",
+     "object": "footballer",
+     "object_alts": [],
+     "prompts": [
+      "Cristiano Ronaldo was a famous",
+      "Cristiano Ronaldo is best known as a",
+      "Cristiano Ronaldo worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Cristiano Ronaldo",
+     "object": "futbolista",
+     "object_alts": [],
+     "prompts": [
+      "Cristiano Ronaldo fue un famoso",
+      "Cristiano Ronaldo es conocido como",
+      "Cristiano Ronaldo trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "क्रिस्टियानो रोनाल्डो",
+     "object": "फुटबॉलर",
+     "object_alts": [
+      "फ़ुटबॉलर",
+      "फुटबॉल खिलाड़ी",
+      "फ़ुटबॉल खिलाड़ी"
+     ],
+     "prompts": [
+      "क्रिस्टियानो रोनाल्डो एक प्रसिद्ध",
+      "क्रिस्टियानो रोनाल्डो एक मशहूर",
+      "क्रिस्टियानो रोनाल्डो पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_017",
+   "relation": "profession",
+   "seed": 1004862265,
+   "lang": {
+    "en": {
+     "subject": "Pelé",
+     "object": "footballer",
+     "object_alts": [],
+     "prompts": [
+      "Pelé was a famous",
+      "Pelé is best known as a",
+      "Pelé worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Pelé",
+     "object": "futbolista",
+     "object_alts": [],
+     "prompts": [
+      "Pelé fue un famoso",
+      "Pelé es conocido como",
+      "Pelé trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "पेले",
+     "object": "फुटबॉलर",
+     "object_alts": [
+      "फ़ुटबॉलर",
+      "फुटबॉल खिलाड़ी",
+      "फ़ुटबॉल खिलाड़ी"
+     ],
+     "prompts": [
+      "पेले एक प्रसिद्ध",
+      "पेले एक मशहूर",
+      "पेले पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_018",
+   "relation": "profession",
+   "seed": 1515528889,
+   "lang": {
+    "en": {
+     "subject": "Diego Maradona",
+     "object": "footballer",
+     "object_alts": [],
+     "prompts": [
+      "Diego Maradona was a famous",
+      "Diego Maradona is best known as a",
+      "Diego Maradona worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Diego Maradona",
+     "object": "futbolista",
+     "object_alts": [],
+     "prompts": [
+      "Diego Maradona fue un famoso",
+      "Diego Maradona es conocido como",
+      "Diego Maradona trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "डिएगो माराडोना",
+     "object": "फुटबॉलर",
+     "object_alts": [
+      "फ़ुटबॉलर",
+      "फुटबॉल खिलाड़ी",
+      "फ़ुटबॉल खिलाड़ी"
+     ],
+     "prompts": [
+      "डिएगो माराडोना एक प्रसिद्ध",
+      "डिएगो माराडोना एक मशहूर",
+      "डिएगो माराडोना पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_019",
+   "relation": "profession",
+   "seed": 27158586,
+   "lang": {
+    "en": {
+     "subject": "Sachin Tendulkar",
+     "object": "cricketer",
+     "object_alts": [],
+     "prompts": [
+      "Sachin Tendulkar was a famous",
+      "Sachin Tendulkar is best known as a",
+      "Sachin Tendulkar worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Sachin Tendulkar",
+     "object": "jugador de críquet",
+     "object_alts": [
+      "jugador de cricket",
+      "criquetista"
+     ],
+     "prompts": [
+      "Sachin Tendulkar fue un famoso",
+      "Sachin Tendulkar es conocido como",
+      "Sachin Tendulkar trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "सचिन तेंदुलकर",
+     "object": "क्रिकेटर",
+     "object_alts": [
+      "क्रिकेट खिलाड़ी"
+     ],
+     "prompts": [
+      "सचिन तेंदुलकर एक प्रसिद्ध",
+      "सचिन तेंदुलकर एक मशहूर",
+      "सचिन तेंदुलकर पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_020",
+   "relation": "profession",
+   "seed": 537416809,
+   "lang": {
+    "en": {
+     "subject": "Virat Kohli",
+     "object": "cricketer",
+     "object_alts": [],
+     "prompts": [
+      "Virat Kohli was a famous",
+      "Virat Kohli is best known as a",
+      "Virat Kohli worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Virat Kohli",
+     "object": "jugador de críquet",
+     "object_alts": [
+      "jugador de cricket",
+      "criquetista"
+     ],
+     "prompts": [
+      "Virat Kohli fue un famoso",
+      "Virat Kohli es conocido como",
+      "Virat Kohli trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "विराट कोहली",
+     "object": "क्रिकेटर",
+     "object_alts": [
+      "क्रिकेट खिलाड़ी"
+     ],
+     "prompts": [
+      "विराट कोहली एक प्रसिद्ध",
+      "विराट कोहली एक मशहूर",
+      "विराट कोहली पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_021",
+   "relation": "profession",
+   "seed": 1076457507,
+   "lang": {
+    "en": {
+     "subject": "Galileo Galilei",
+     "object": "astronomer",
+     "object_alts": [],
+     "prompts": [
+      "Galileo Galilei was a famous",
+      "Galileo Galilei is best known as a",
+      "Galileo Galilei worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Galileo Galilei",
+     "object": "astrónomo",
+     "object_alts": [],
+     "prompts": [
+      "Galileo Galilei fue un famoso",
+      "Galileo Galilei es conocido como",
+      "Galileo Galilei trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "गैलीलियो गैलिली",
+     "object": "खगोलशास्त्री",
+     "object_alts": [
+      "खगोलविद"
+     ],
+     "prompts": [
+      "गैलीलियो गैलिली एक प्रसिद्ध",
+      "गैलीलियो गैलिली एक मशहूर",
+      "गैलीलियो गैलिली पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_022",
+   "relation": "profession",
+   "seed": 1119639084,
+   "lang": {
+    "en": {
+     "subject": "Nicolaus Copernicus",
+     "object": "astronomer",
+     "object_alts": [],
+     "prompts": [
+      "Nicolaus Copernicus was a famous",
+      "Nicolaus Copernicus is best known as a",
+      "Nicolaus Copernicus worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Nicolás Copérnico",
+     "object": "astrónomo",
+     "object_alts": [],
+     "prompts": [
+      "Nicolás Copérnico fue un famoso",
+      "Nicolás Copérnico es conocido como",
+      "Nicolás Copérnico trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "निकोलस कॉपरनिकस",
+     "object": "खगोलशास्त्री",
+     "object_alts": [
+      "खगोलविद"
+     ],
+     "prompts": [
+      "निकोलस कॉपरनिकस एक प्रसिद्ध",
+      "निकोलस कॉपरनिकस एक मशहूर",
+      "निकोलस कॉपरनिकस पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_023",
+   "relation": "profession",
+   "seed": 463795389,
+   "lang": {
+    "en": {
+     "subject": "Pythagoras",
+     "object": "mathematician",
+     "object_alts": [],
+     "prompts": [
+      "Pythagoras was a famous",
+      "Pythagoras is best known as a",
+      "Pythagoras worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Pitágoras",
+     "object": "matemático",
+     "object_alts": [],
+     "prompts": [
+      "Pitágoras fue un famoso",
+      "Pitágoras es conocido como",
+      "Pitágoras trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "पाइथागोरस",
+     "object": "गणितज्ञ",
+     "object_alts": [],
+     "prompts": [
+      "पाइथागोरस एक प्रसिद्ध",
+      "पाइथागोरस एक मशहूर",
+      "पाइथागोरस पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_024",
+   "relation": "profession",
+   "seed": 1683610118,
+   "lang": {
+    "en": {
+     "subject": "Euclid",
+     "object": "mathematician",
+     "object_alts": [],
+     "prompts": [
+      "Euclid was a famous",
+      "Euclid is best known as a",
+      "Euclid worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Euclides",
+     "object": "matemático",
+     "object_alts": [],
+     "prompts": [
+      "Euclides fue un famoso",
+      "Euclides es conocido como",
+      "Euclides trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "यूक्लिड",
+     "object": "गणितज्ञ",
+     "object_alts": [],
+     "prompts": [
+      "यूक्लिड एक प्रसिद्ध",
+      "यूक्लिड एक मशहूर",
+      "यूक्लिड पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_025",
+   "relation": "profession",
+   "seed": 726171110,
+   "lang": {
+    "en": {
+     "subject": "Aristotle",
+     "object": "philosopher",
+     "object_alts": [],
+     "prompts": [
+      "Aristotle was a famous",
+      "Aristotle is best known as a",
+      "Aristotle worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Aristóteles",
+     "object": "filósofo",
+     "object_alts": [],
+     "prompts": [
+      "Aristóteles fue un famoso",
+      "Aristóteles es conocido como",
+      "Aristóteles trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "अरस्तू",
+     "object": "दार्शनिक",
+     "object_alts": [],
+     "prompts": [
+      "अरस्तू एक प्रसिद्ध",
+      "अरस्तू एक मशहूर",
+      "अरस्तू पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_026",
+   "relation": "profession",
+   "seed": 356429406,
+   "lang": {
+    "en": {
+     "subject": "Plato",
+     "object": "philosopher",
+     "object_alts": [],
+     "prompts": [
+      "Plato was a famous",
+      "Plato is best known as a",
+      "Plato worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Platón",
+     "object": "filósofo",
+     "object_alts": [],
+     "prompts": [
+      "Platón fue un famoso",
+      "Platón es conocido como",
+      "Platón trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "प्लेटो",
+     "object": "दार्शनिक",
+     "object_alts": [],
+     "prompts": [
+      "प्लेटो एक प्रसिद्ध",
+      "प्लेटो एक मशहूर",
+      "प्लेटो पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_027",
+   "relation": "profession",
+   "seed": 1678929129,
+   "lang": {
+    "en": {
+     "subject": "Socrates",
+     "object": "philosopher",
+     "object_alts": [],
+     "prompts": [
+      "Socrates was a famous",
+      "Socrates is best known as a",
+      "Socrates worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Sócrates",
+     "object": "filósofo",
+     "object_alts": [],
+     "prompts": [
+      "Sócrates fue un famoso",
+      "Sócrates es conocido como",
+      "Sócrates trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "सुकरात",
+     "object": "दार्शनिक",
+     "object_alts": [],
+     "prompts": [
+      "सुकरात एक प्रसिद्ध",
+      "सुकरात एक मशहूर",
+      "सुकरात पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_028",
+   "relation": "profession",
+   "seed": 1852078022,
+   "lang": {
+    "en": {
+     "subject": "Confucius",
+     "object": "philosopher",
+     "object_alts": [],
+     "prompts": [
+      "Confucius was a famous",
+      "Confucius is best known as a",
+      "Confucius worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Confucio",
+     "object": "filósofo",
+     "object_alts": [],
+     "prompts": [
+      "Confucio fue un famoso",
+      "Confucio es conocido como",
+      "Confucio trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "कन्फ्यूशियस",
+     "object": "दार्शनिक",
+     "object_alts": [],
+     "prompts": [
+      "कन्फ्यूशियस एक प्रसिद्ध",
+      "कन्फ्यूशियस एक मशहूर",
+      "कन्फ्यूशियस पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_029",
+   "relation": "profession",
+   "seed": 1349854863,
+   "lang": {
+    "en": {
+     "subject": "Immanuel Kant",
+     "object": "philosopher",
+     "object_alts": [],
+     "prompts": [
+      "Immanuel Kant was a famous",
+      "Immanuel Kant is best known as a",
+      "Immanuel Kant worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Immanuel Kant",
+     "object": "filósofo",
+     "object_alts": [],
+     "prompts": [
+      "Immanuel Kant fue un famoso",
+      "Immanuel Kant es conocido como",
+      "Immanuel Kant trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "इमैनुएल कांट",
+     "object": "दार्शनिक",
+     "object_alts": [],
+     "prompts": [
+      "इमैनुएल कांट एक प्रसिद्ध",
+      "इमैनुएल कांट एक मशहूर",
+      "इमैनुएल कांट पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_030",
+   "relation": "profession",
+   "seed": 412558618,
+   "lang": {
+    "en": {
+     "subject": "Adam Smith",
+     "object": "economist",
+     "object_alts": [],
+     "prompts": [
+      "Adam Smith was a famous",
+      "Adam Smith is best known as a",
+      "Adam Smith worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Adam Smith",
+     "object": "economista",
+     "object_alts": [],
+     "prompts": [
+      "Adam Smith fue un famoso",
+      "Adam Smith es conocido como",
+      "Adam Smith trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "एडम स्मिथ",
+     "object": "अर्थशास्त्री",
+     "object_alts": [],
+     "prompts": [
+      "एडम स्मिथ एक प्रसिद्ध",
+      "एडम स्मिथ एक मशहूर",
+      "एडम स्मिथ पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_031",
+   "relation": "profession",
+   "seed": 567105091,
+   "lang": {
+    "en": {
+     "subject": "Thomas Edison",
+     "object": "inventor",
+     "object_alts": [],
+     "prompts": [
+      "Thomas Edison was a famous",
+      "Thomas Edison is best known as a",
+      "Thomas Edison worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Thomas Edison",
+     "object": "inventor",
+     "object_alts": [],
+     "prompts": [
+      "Thomas Edison fue un famoso",
+      "Thomas Edison es conocido como",
+      "Thomas Edison trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "थॉमस एडिसन",
+     "object": "आविष्कारक",
+     "object_alts": [
+      "अविष्कारक",
+      "आविष्कारकर्ता"
+     ],
+     "prompts": [
+      "थॉमस एडिसन एक प्रसिद्ध",
+      "थॉमस एडिसन एक मशहूर",
+      "थॉमस एडिसन पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_032",
+   "relation": "profession",
+   "seed": 335747921,
+   "lang": {
+    "en": {
+     "subject": "Alexander Graham Bell",
+     "object": "inventor",
+     "object_alts": [],
+     "prompts": [
+      "Alexander Graham Bell was a famous",
+      "Alexander Graham Bell is best known as a",
+      "Alexander Graham Bell worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Alexander Graham Bell",
+     "object": "inventor",
+     "object_alts": [],
+     "prompts": [
+      "Alexander Graham Bell fue un famoso",
+      "Alexander Graham Bell es conocido como",
+      "Alexander Graham Bell trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "अलेक्जेंडर ग्राहम बेल",
+     "object": "आविष्कारक",
+     "object_alts": [
+      "अविष्कारक",
+      "आविष्कारकर्ता"
+     ],
+     "prompts": [
+      "अलेक्जेंडर ग्राहम बेल एक प्रसिद्ध",
+      "अलेक्जेंडर ग्राहम बेल एक मशहूर",
+      "अलेक्जेंडर ग्राहम बेल पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_033",
+   "relation": "profession",
+   "seed": 746410601,
+   "lang": {
+    "en": {
+     "subject": "Neil Armstrong",
+     "object": "astronaut",
+     "object_alts": [],
+     "prompts": [
+      "Neil Armstrong was a famous",
+      "Neil Armstrong is best known as a",
+      "Neil Armstrong worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Neil Armstrong",
+     "object": "astronauta",
+     "object_alts": [],
+     "prompts": [
+      "Neil Armstrong fue un famoso",
+      "Neil Armstrong es conocido como",
+      "Neil Armstrong trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "नील आर्मस्ट्रांग",
+     "object": "अंतरिक्ष यात्री",
+     "object_alts": [
+      "अंतरिक्षयात्री"
+     ],
+     "prompts": [
+      "नील आर्मस्ट्रांग एक प्रसिद्ध",
+      "नील आर्मस्ट्रांग एक मशहूर",
+      "नील आर्मस्ट्रांग पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_034",
+   "relation": "profession",
+   "seed": 1729287626,
+   "lang": {
+    "en": {
+     "subject": "Elvis Presley",
+     "object": "singer",
+     "object_alts": [],
+     "prompts": [
+      "Elvis Presley was a famous",
+      "Elvis Presley is best known as a",
+      "Elvis Presley worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Elvis Presley",
+     "object": "cantante",
+     "object_alts": [],
+     "prompts": [
+      "Elvis Presley fue un famoso",
+      "Elvis Presley es conocido como",
+      "Elvis Presley trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "एल्विस प्रेस्ली",
+     "object": "गायक",
+     "object_alts": [],
+     "prompts": [
+      "एल्विस प्रेस्ली एक प्रसिद्ध",
+      "एल्विस प्रेस्ली एक मशहूर",
+      "एल्विस प्रेस्ली पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_035",
+   "relation": "profession",
+   "seed": 1675888981,
+   "lang": {
+    "en": {
+     "subject": "Michael Jackson",
+     "object": "singer",
+     "object_alts": [],
+     "prompts": [
+      "Michael Jackson was a famous",
+      "Michael Jackson is best known as a",
+      "Michael Jackson worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Michael Jackson",
+     "object": "cantante",
+     "object_alts": [],
+     "prompts": [
+      "Michael Jackson fue un famoso",
+      "Michael Jackson es conocido como",
+      "Michael Jackson trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "माइकल जैक्सन",
+     "object": "गायक",
+     "object_alts": [],
+     "prompts": [
+      "माइकल जैक्सन एक प्रसिद्ध",
+      "माइकल जैक्सन एक मशहूर",
+      "माइकल जैक्सन पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_036",
+   "relation": "profession",
+   "seed": 1253951125,
+   "lang": {
+    "en": {
+     "subject": "Freddie Mercury",
+     "object": "singer",
+     "object_alts": [],
+     "prompts": [
+      "Freddie Mercury was a famous",
+      "Freddie Mercury is best known as a",
+      "Freddie Mercury worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Freddie Mercury",
+     "object": "cantante",
+     "object_alts": [],
+     "prompts": [
+      "Freddie Mercury fue un famoso",
+      "Freddie Mercury es conocido como",
+      "Freddie Mercury trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "फ्रेडी मर्करी",
+     "object": "गायक",
+     "object_alts": [],
+     "prompts": [
+      "फ्रेडी मर्करी एक प्रसिद्ध",
+      "फ्रेडी मर्करी एक मशहूर",
+      "फ्रेडी मर्करी पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "profession_037",
+   "relation": "profession",
+   "seed": 1880100966,
+   "lang": {
+    "en": {
+     "subject": "Lata Mangeshkar",
+     "object": "singer",
+     "object_alts": [],
+     "prompts": [
+      "Lata Mangeshkar was a famous",
+      "Lata Mangeshkar is best known as a",
+      "Lata Mangeshkar worked as a"
+     ]
+    },
+    "es": {
+     "subject": "Lata Mangeshkar",
+     "object": "cantante",
+     "object_alts": [],
+     "prompts": [
+      "Lata Mangeshkar fue un famoso",
+      "Lata Mangeshkar es conocido como",
+      "Lata Mangeshkar trabajó como"
+     ]
+    },
+    "hi": {
+     "subject": "लता मंगेशकर",
+     "object": "गायक",
+     "object_alts": [],
+     "prompts": [
+      "लता मंगेशकर एक प्रसिद्ध",
+      "लता मंगेशकर एक मशहूर",
+      "लता मंगेशकर पेशे से एक"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_000",
+   "relation": "book_author",
+   "seed": 12159419,
+   "lang": {
+    "en": {
+     "subject": "Hamlet",
+     "object": "William Shakespeare",
+     "object_alts": [
+      "Shakespeare"
+     ],
+     "prompts": [
+      "Hamlet was written by",
+      "The author of Hamlet is",
+      "Hamlet is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Hamlet",
+     "object": "William Shakespeare",
+     "object_alts": [
+      "Shakespeare"
+     ],
+     "prompts": [
+      "Hamlet fue escrito por",
+      "El autor de Hamlet es",
+      "Hamlet es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "हैमलेट",
+     "object": "विलियम शेक्सपियर",
+     "object_alts": [
+      "शेक्सपियर"
+     ],
+     "prompts": [
+      "हैमलेट को लिखा था",
+      "हैमलेट के लेखक",
+      "हैमलेट की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_001",
+   "relation": "book_author",
+   "seed": 1971036773,
+   "lang": {
+    "en": {
+     "subject": "Romeo and Juliet",
+     "object": "William Shakespeare",
+     "object_alts": [
+      "Shakespeare"
+     ],
+     "prompts": [
+      "Romeo and Juliet was written by",
+      "The author of Romeo and Juliet is",
+      "Romeo and Juliet is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Romeo y Julieta",
+     "object": "William Shakespeare",
+     "object_alts": [
+      "Shakespeare"
+     ],
+     "prompts": [
+      "Romeo y Julieta fue escrito por",
+      "El autor de Romeo y Julieta es",
+      "Romeo y Julieta es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "रोमियो और जूलियट",
+     "object": "विलियम शेक्सपियर",
+     "object_alts": [
+      "शेक्सपियर"
+     ],
+     "prompts": [
+      "रोमियो और जूलियट को लिखा था",
+      "रोमियो और जूलियट के लेखक",
+      "रोमियो और जूलियट की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_002",
+   "relation": "book_author",
+   "seed": 126604869,
+   "lang": {
+    "en": {
+     "subject": "Macbeth",
+     "object": "William Shakespeare",
+     "object_alts": [
+      "Shakespeare"
+     ],
+     "prompts": [
+      "Macbeth was written by",
+      "The author of Macbeth is",
+      "Macbeth is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Macbeth",
+     "object": "William Shakespeare",
+     "object_alts": [
+      "Shakespeare"
+     ],
+     "prompts": [
+      "Macbeth fue escrito por",
+      "El autor de Macbeth es",
+      "Macbeth es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "मैकबेथ",
+     "object": "विलियम शेक्सपियर",
+     "object_alts": [
+      "शेक्सपियर"
+     ],
+     "prompts": [
+      "मैकबेथ को लिखा था",
+      "मैकबेथ के लेखक",
+      "मैकबेथ की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_003",
+   "relation": "book_author",
+   "seed": 656497759,
+   "lang": {
+    "en": {
+     "subject": "Othello",
+     "object": "William Shakespeare",
+     "object_alts": [
+      "Shakespeare"
+     ],
+     "prompts": [
+      "Othello was written by",
+      "The author of Othello is",
+      "Othello is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Otelo",
+     "object": "William Shakespeare",
+     "object_alts": [
+      "Shakespeare"
+     ],
+     "prompts": [
+      "Otelo fue escrito por",
+      "El autor de Otelo es",
+      "Otelo es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "ओथेलो",
+     "object": "विलियम शेक्सपियर",
+     "object_alts": [
+      "शेक्सपियर"
+     ],
+     "prompts": [
+      "ओथेलो को लिखा था",
+      "ओथेलो के लेखक",
+      "ओथेलो की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_004",
+   "relation": "book_author",
+   "seed": 1596767016,
+   "lang": {
+    "en": {
+     "subject": "Pride and Prejudice",
+     "object": "Jane Austen",
+     "object_alts": [],
+     "prompts": [
+      "Pride and Prejudice was written by",
+      "The author of Pride and Prejudice is",
+      "Pride and Prejudice is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Orgullo y prejuicio",
+     "object": "Jane Austen",
+     "object_alts": [],
+     "prompts": [
+      "Orgullo y prejuicio fue escrito por",
+      "El autor de Orgullo y prejuicio es",
+      "Orgullo y prejuicio es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "प्राइड एंड प्रेजुडिस",
+     "object": "जेन ऑस्टिन",
+     "object_alts": [],
+     "prompts": [
+      "प्राइड एंड प्रेजुडिस को लिखा था",
+      "प्राइड एंड प्रेजुडिस के लेखक",
+      "प्राइड एंड प्रेजुडिस की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_005",
+   "relation": "book_author",
+   "seed": 29362688,
+   "lang": {
+    "en": {
+     "subject": "Oliver Twist",
+     "object": "Charles Dickens",
+     "object_alts": [
+      "Dickens"
+     ],
+     "prompts": [
+      "Oliver Twist was written by",
+      "The author of Oliver Twist is",
+      "Oliver Twist is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Oliver Twist",
+     "object": "Charles Dickens",
+     "object_alts": [
+      "Dickens"
+     ],
+     "prompts": [
+      "Oliver Twist fue escrito por",
+      "El autor de Oliver Twist es",
+      "Oliver Twist es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "ओलिवर ट्विस्ट",
+     "object": "चार्ल्स डिकेंस",
+     "object_alts": [
+      "डिकेंस"
+     ],
+     "prompts": [
+      "ओलिवर ट्विस्ट को लिखा था",
+      "ओलिवर ट्विस्ट के लेखक",
+      "ओलिवर ट्विस्ट की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_006",
+   "relation": "book_author",
+   "seed": 1212292941,
+   "lang": {
+    "en": {
+     "subject": "Great Expectations",
+     "object": "Charles Dickens",
+     "object_alts": [
+      "Dickens"
+     ],
+     "prompts": [
+      "Great Expectations was written by",
+      "The author of Great Expectations is",
+      "Great Expectations is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Grandes esperanzas",
+     "object": "Charles Dickens",
+     "object_alts": [
+      "Dickens"
+     ],
+     "prompts": [
+      "Grandes esperanzas fue escrito por",
+      "El autor de Grandes esperanzas es",
+      "Grandes esperanzas es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "ग्रेट एक्सपेक्टेशंस",
+     "object": "चार्ल्स डिकेंस",
+     "object_alts": [
+      "डिकेंस"
+     ],
+     "prompts": [
+      "ग्रेट एक्सपेक्टेशंस को लिखा था",
+      "ग्रेट एक्सपेक्टेशंस के लेखक",
+      "ग्रेट एक्सपेक्टेशंस की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_007",
+   "relation": "book_author",
+   "seed": 1658103938,
+   "lang": {
+    "en": {
+     "subject": "War and Peace",
+     "object": "Leo Tolstoy",
+     "object_alts": [
+      "Tolstoy"
+     ],
+     "prompts": [
+      "War and Peace was written by",
+      "The author of War and Peace is",
+      "War and Peace is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Guerra y paz",
+     "object": "León Tolstói",
+     "object_alts": [
+      "Tolstói",
+      "Tolstoi"
+     ],
+     "prompts": [
+      "Guerra y paz fue escrito por",
+      "El autor de Guerra y paz es",
+      "Guerra y paz es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "युद्ध और शांति",
+     "object": "लियो टॉल्स्टॉय",
+     "object_alts": [
+      "टॉल्स्टॉय"
+     ],
+     "prompts": [
+      "युद्ध और शांति को लिखा था",
+      "युद्ध और शांति के लेखक",
+      "युद्ध और शांति की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_008",
+   "relation": "book_author",
+   "seed": 1233483667,
+   "lang": {
+    "en": {
+     "subject": "Anna Karenina",
+     "object": "Leo Tolstoy",
+     "object_alts": [
+      "Tolstoy"
+     ],
+     "prompts": [
+      "Anna Karenina was written by",
+      "The author of Anna Karenina is",
+      "Anna Karenina is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Ana Karénina",
+     "object": "León Tolstói",
+     "object_alts": [
+      "Tolstói",
+      "Tolstoi"
+     ],
+     "prompts": [
+      "Ana Karénina fue escrito por",
+      "El autor de Ana Karénina es",
+      "Ana Karénina es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "अन्ना कारेनिना",
+     "object": "लियो टॉल्स्टॉय",
+     "object_alts": [
+      "टॉल्स्टॉय"
+     ],
+     "prompts": [
+      "अन्ना कारेनिना को लिखा था",
+      "अन्ना कारेनिना के लेखक",
+      "अन्ना कारेनिना की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_009",
+   "relation": "book_author",
+   "seed": 1007969542,
+   "lang": {
+    "en": {
+     "subject": "Crime and Punishment",
+     "object": "Fyodor Dostoevsky",
+     "object_alts": [
+      "Dostoevsky"
+     ],
+     "prompts": [
+      "Crime and Punishment was written by",
+      "The author of Crime and Punishment is",
+      "Crime and Punishment is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Crimen y castigo",
+     "object": "Fiódor Dostoyevski",
+     "object_alts": [
+      "Dostoyevski",
+      "Dostoievski"
+     ],
+     "prompts": [
+      "Crimen y castigo fue escrito por",
+      "El autor de Crimen y castigo es",
+      "Crimen y castigo es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "अपराध और दंड",
+     "object": "फ्योदोर दोस्तोयेव्स्की",
+     "object_alts": [
+      "दोस्तोयेव्स्की"
+     ],
+     "prompts": [
+      "अपराध और दंड को लिखा था",
+      "अपराध और दंड के लेखक",
+      "अपराध और दंड की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_010",
+   "relation": "book_author",
+   "seed": 185937700,
+   "lang": {
+    "en": {
+     "subject": "Les Misérables",
+     "object": "Victor Hugo",
+     "object_alts": [
+      "Hugo"
+     ],
+     "prompts": [
+      "Les Misérables was written by",
+      "The author of Les Misérables is",
+      "Les Misérables is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Los miserables",
+     "object": "Victor Hugo",
+     "object_alts": [
+      "Hugo"
+     ],
+     "prompts": [
+      "Los miserables fue escrito por",
+      "El autor de Los miserables es",
+      "Los miserables es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "ले मिजरेबल्स",
+     "object": "विक्टर ह्यूगो",
+     "object_alts": [
+      "ह्यूगो"
+     ],
+     "prompts": [
+      "ले मिजरेबल्स को लिखा था",
+      "ले मिजरेबल्स के लेखक",
+      "ले मिजरेबल्स की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_011",
+   "relation": "book_author",
+   "seed": 1994065953,
+   "lang": {
+    "en": {
+     "subject": "The Odyssey",
+     "object": "Homer",
+     "object_alts": [],
+     "prompts": [
+      "The Odyssey was written by",
+      "The author of The Odyssey is",
+      "The Odyssey is a book by"
+     ]
+    },
+    "es": {
+     "subject": "la Odisea",
+     "object": "Homero",
+     "object_alts": [],
+     "prompts": [
+      "La Odisea fue escrito por",
+      "El autor de la Odisea es",
+      "La Odisea es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "ओडिसी",
+     "object": "होमर",
+     "object_alts": [],
+     "prompts": [
+      "ओडिसी को लिखा था",
+      "ओडिसी के लेखक",
+      "ओडिसी की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_012",
+   "relation": "book_author",
+   "seed": 1599631146,
+   "lang": {
+    "en": {
+     "subject": "The Iliad",
+     "object": "Homer",
+     "object_alts": [],
+     "prompts": [
+      "The Iliad was written by",
+      "The author of The Iliad is",
+      "The Iliad is a book by"
+     ]
+    },
+    "es": {
+     "subject": "la Ilíada",
+     "object": "Homero",
+     "object_alts": [],
+     "prompts": [
+      "La Ilíada fue escrito por",
+      "El autor de la Ilíada es",
+      "La Ilíada es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "इलियड",
+     "object": "होमर",
+     "object_alts": [],
+     "prompts": [
+      "इलियड को लिखा था",
+      "इलियड के लेखक",
+      "इलियड की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_013",
+   "relation": "book_author",
+   "seed": 186249684,
+   "lang": {
+    "en": {
+     "subject": "The Divine Comedy",
+     "object": "Dante Alighieri",
+     "object_alts": [
+      "Dante"
+     ],
+     "prompts": [
+      "The Divine Comedy was written by",
+      "The author of The Divine Comedy is",
+      "The Divine Comedy is a book by"
+     ]
+    },
+    "es": {
+     "subject": "La divina comedia",
+     "object": "Dante Alighieri",
+     "object_alts": [
+      "Dante"
+     ],
+     "prompts": [
+      "La divina comedia fue escrito por",
+      "El autor de La divina comedia es",
+      "La divina comedia es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "द डिवाइन कॉमेडी",
+     "object": "दांते अलीघिएरी",
+     "object_alts": [
+      "दांते"
+     ],
+     "prompts": [
+      "द डिवाइन कॉमेडी को लिखा था",
+      "द डिवाइन कॉमेडी के लेखक",
+      "द डिवाइन कॉमेडी की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_014",
+   "relation": "book_author",
+   "seed": 577301020,
+   "lang": {
+    "en": {
+     "subject": "Faust",
+     "object": "Johann Wolfgang von Goethe",
+     "object_alts": [
+      "Goethe"
+     ],
+     "prompts": [
+      "Faust was written by",
+      "The author of Faust is",
+      "Faust is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Fausto",
+     "object": "Johann Wolfgang von Goethe",
+     "object_alts": [
+      "Goethe"
+     ],
+     "prompts": [
+      "Fausto fue escrito por",
+      "El autor de Fausto es",
+      "Fausto es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "फ़ॉस्ट",
+     "object": "गोएथे",
+     "object_alts": [
+      "गेटे",
+      "गोथे"
+     ],
+     "prompts": [
+      "फ़ॉस्ट को लिखा था",
+      "फ़ॉस्ट के लेखक",
+      "फ़ॉस्ट की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_015",
+   "relation": "book_author",
+   "seed": 203116978,
+   "lang": {
+    "en": {
+     "subject": "Frankenstein",
+     "object": "Mary Shelley",
+     "object_alts": [],
+     "prompts": [
+      "Frankenstein was written by",
+      "The author of Frankenstein is",
+      "Frankenstein is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Frankenstein",
+     "object": "Mary Shelley",
+     "object_alts": [],
+     "prompts": [
+      "Frankenstein fue escrito por",
+      "El autor de Frankenstein es",
+      "Frankenstein es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "फ्रैंकेनस्टाइन",
+     "object": "मैरी शेली",
+     "object_alts": [],
+     "prompts": [
+      "फ्रैंकेनस्टाइन को लिखा था",
+      "फ्रैंकेनस्टाइन के लेखक",
+      "फ्रैंकेनस्टाइन की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_016",
+   "relation": "book_author",
+   "seed": 703915277,
+   "lang": {
+    "en": {
+     "subject": "Dracula",
+     "object": "Bram Stoker",
+     "object_alts": [],
+     "prompts": [
+      "Dracula was written by",
+      "The author of Dracula is",
+      "Dracula is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Drácula",
+     "object": "Bram Stoker",
+     "object_alts": [],
+     "prompts": [
+      "Drácula fue escrito por",
+      "El autor de Drácula es",
+      "Drácula es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "ड्रैकुला",
+     "object": "ब्रैम स्टोकर",
+     "object_alts": [],
+     "prompts": [
+      "ड्रैकुला को लिखा था",
+      "ड्रैकुला के लेखक",
+      "ड्रैकुला की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_017",
+   "relation": "book_author",
+   "seed": 2118877839,
+   "lang": {
+    "en": {
+     "subject": "Animal Farm",
+     "object": "George Orwell",
+     "object_alts": [
+      "Orwell"
+     ],
+     "prompts": [
+      "Animal Farm was written by",
+      "The author of Animal Farm is",
+      "Animal Farm is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Rebelión en la granja",
+     "object": "George Orwell",
+     "object_alts": [
+      "Orwell"
+     ],
+     "prompts": [
+      "Rebelión en la granja fue escrito por",
+      "El autor de Rebelión en la granja es",
+      "Rebelión en la granja es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "एनिमल फार्म",
+     "object": "जॉर्ज ऑरवेल",
+     "object_alts": [
+      "ऑरवेल"
+     ],
+     "prompts": [
+      "एनिमल फार्म को लिखा था",
+      "एनिमल फार्म के लेखक",
+      "एनिमल फार्म की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_018",
+   "relation": "book_author",
+   "seed": 1324330278,
+   "lang": {
+    "en": {
+     "subject": "Moby-Dick",
+     "object": "Herman Melville",
+     "object_alts": [
+      "Melville"
+     ],
+     "prompts": [
+      "Moby-Dick was written by",
+      "The author of Moby-Dick is",
+      "Moby-Dick is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Moby Dick",
+     "object": "Herman Melville",
+     "object_alts": [
+      "Melville"
+     ],
+     "prompts": [
+      "Moby Dick fue escrito por",
+      "El autor de Moby Dick es",
+      "Moby Dick es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "मोबी डिक",
+     "object": "हरमन मेलविल",
+     "object_alts": [
+      "मेलविल"
+     ],
+     "prompts": [
+      "मोबी डिक को लिखा था",
+      "मोबी डिक के लेखक",
+      "मोबी डिक की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_019",
+   "relation": "book_author",
+   "seed": 1249188428,
+   "lang": {
+    "en": {
+     "subject": "The Great Gatsby",
+     "object": "F. Scott Fitzgerald",
+     "object_alts": [
+      "Fitzgerald"
+     ],
+     "prompts": [
+      "The Great Gatsby was written by",
+      "The author of The Great Gatsby is",
+      "The Great Gatsby is a book by"
+     ]
+    },
+    "es": {
+     "subject": "El gran Gatsby",
+     "object": "F. Scott Fitzgerald",
+     "object_alts": [
+      "Fitzgerald"
+     ],
+     "prompts": [
+      "El gran Gatsby fue escrito por",
+      "El autor de El gran Gatsby es",
+      "El gran Gatsby es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "द ग्रेट गैट्सबी",
+     "object": "एफ. स्कॉट फिट्ज़गेराल्ड",
+     "object_alts": [
+      "फिट्ज़गेराल्ड"
+     ],
+     "prompts": [
+      "द ग्रेट गैट्सबी को लिखा था",
+      "द ग्रेट गैट्सबी के लेखक",
+      "द ग्रेट गैट्सबी की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_020",
+   "relation": "book_author",
+   "seed": 736035266,
+   "lang": {
+    "en": {
+     "subject": "The Old Man and the Sea",
+     "object": "Ernest Hemingway",
+     "object_alts": [
+      "Hemingway"
+     ],
+     "prompts": [
+      "The Old Man and the Sea was written by",
+      "The author of The Old Man and the Sea is",
+      "The Old Man and the Sea is a book by"
+     ]
+    },
+    "es": {
+     "subject": "El viejo y el mar",
+     "object": "Ernest Hemingway",
+     "object_alts": [
+      "Hemingway"
+     ],
+     "prompts": [
+      "El viejo y el mar fue escrito por",
+      "El autor de El viejo y el mar es",
+      "El viejo y el mar es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "द ओल्ड मैन एंड द सी",
+     "object": "अर्नेस्ट हेमिंग्वे",
+     "object_alts": [
+      "हेमिंग्वे"
+     ],
+     "prompts": [
+      "द ओल्ड मैन एंड द सी को लिखा था",
+      "द ओल्ड मैन एंड द सी के लेखक",
+      "द ओल्ड मैन एंड द सी की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_021",
+   "relation": "book_author",
+   "seed": 754537352,
+   "lang": {
+    "en": {
+     "subject": "Alice's Adventures in Wonderland",
+     "object": "Lewis Carroll",
+     "object_alts": [
+      "Carroll"
+     ],
+     "prompts": [
+      "Alice's Adventures in Wonderland was written by",
+      "The author of Alice's Adventures in Wonderland is",
+      "Alice's Adventures in Wonderland is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Alicia en el país de las maravillas",
+     "object": "Lewis Carroll",
+     "object_alts": [
+      "Carroll"
+     ],
+     "prompts": [
+      "Alicia en el país de las maravillas fue escrito por",
+      "El autor de Alicia en el país de las maravillas es",
+      "Alicia en el país de las maravillas es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "एलिस इन वंडरलैंड",
+     "object": "लुईस कैरोल",
+     "object_alts": [
+      "कैरोल"
+     ],
+     "prompts": [
+      "एलिस इन वंडरलैंड को लिखा था",
+      "एलिस इन वंडरलैंड के लेखक",
+      "एलिस इन वंडरलैंड की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_022",
+   "relation": "book_author",
+   "seed": 588178808,
+   "lang": {
+    "en": {
+     "subject": "Gulliver's Travels",
+     "object": "Jonathan Swift",
+     "object_alts": [
+      "Swift"
+     ],
+     "prompts": [
+      "Gulliver's Travels was written by",
+      "The author of Gulliver's Travels is",
+      "Gulliver's Travels is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Los viajes de Gulliver",
+     "object": "Jonathan Swift",
+     "object_alts": [
+      "Swift"
+     ],
+     "prompts": [
+      "Los viajes de Gulliver fue escrito por",
+      "El autor de Los viajes de Gulliver es",
+      "Los viajes de Gulliver es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "गुलिवर्स ट्रैवल्स",
+     "object": "जोनाथन स्विफ्ट",
+     "object_alts": [
+      "स्विफ्ट"
+     ],
+     "prompts": [
+      "गुलिवर्स ट्रैवल्स को लिखा था",
+      "गुलिवर्स ट्रैवल्स के लेखक",
+      "गुलिवर्स ट्रैवल्स की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_023",
+   "relation": "book_author",
+   "seed": 259496996,
+   "lang": {
+    "en": {
+     "subject": "Robinson Crusoe",
+     "object": "Daniel Defoe",
+     "object_alts": [
+      "Defoe"
+     ],
+     "prompts": [
+      "Robinson Crusoe was written by",
+      "The author of Robinson Crusoe is",
+      "Robinson Crusoe is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Robinson Crusoe",
+     "object": "Daniel Defoe",
+     "object_alts": [
+      "Defoe"
+     ],
+     "prompts": [
+      "Robinson Crusoe fue escrito por",
+      "El autor de Robinson Crusoe es",
+      "Robinson Crusoe es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "रॉबिन्सन क्रूसो",
+     "object": "डेनियल डेफ़ो",
+     "object_alts": [
+      "डेफ़ो",
+      "डेफो"
+     ],
+     "prompts": [
+      "रॉबिन्सन क्रूसो को लिखा था",
+      "रॉबिन्सन क्रूसो के लेखक",
+      "रॉबिन्सन क्रूसो की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_024",
+   "relation": "book_author",
+   "seed": 246432269,
+   "lang": {
+    "en": {
+     "subject": "Gitanjali",
+     "object": "Rabindranath Tagore",
+     "object_alts": [
+      "Tagore"
+     ],
+     "prompts": [
+      "Gitanjali was written by",
+      "The author of Gitanjali is",
+      "Gitanjali is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Gitanjali",
+     "object": "Rabindranath Tagore",
+     "object_alts": [
+      "Tagore"
+     ],
+     "prompts": [
+      "Gitanjali fue escrito por",
+      "El autor de Gitanjali es",
+      "Gitanjali es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "गीतांजलि",
+     "object": "रवींद्रनाथ टैगोर",
+     "object_alts": [
+      "टैगोर"
+     ],
+     "prompts": [
+      "गीतांजलि को लिखा था",
+      "गीतांजलि के लेखक",
+      "गीतांजलि की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_025",
+   "relation": "book_author",
+   "seed": 581183820,
+   "lang": {
+    "en": {
+     "subject": "Godan",
+     "object": "Premchand",
+     "object_alts": [],
+     "prompts": [
+      "Godan was written by",
+      "The author of Godan is",
+      "Godan is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Godán",
+     "object": "Premchand",
+     "object_alts": [],
+     "prompts": [
+      "Godán fue escrito por",
+      "El autor de Godán es",
+      "Godán es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "गोदान",
+     "object": "प्रेमचंद",
+     "object_alts": [],
+     "prompts": [
+      "गोदान को लिखा था",
+      "गोदान के लेखक",
+      "गोदान की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_026",
+   "relation": "book_author",
+   "seed": 2061212960,
+   "lang": {
+    "en": {
+     "subject": "the Ramayana",
+     "object": "Valmiki",
+     "object_alts": [],
+     "prompts": [
+      "The Ramayana was written by",
+      "The author of the Ramayana is",
+      "The Ramayana is a book by"
+     ]
+    },
+    "es": {
+     "subject": "el Ramayana",
+     "object": "Valmiki",
+     "object_alts": [],
+     "prompts": [
+      "El Ramayana fue escrito por",
+      "El autor del Ramayana es",
+      "El Ramayana es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "रामायण",
+     "object": "वाल्मीकि",
+     "object_alts": [],
+     "prompts": [
+      "रामायण को लिखा था",
+      "रामायण के लेखक",
+      "रामायण की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_027",
+   "relation": "book_author",
+   "seed": 1138165971,
+   "lang": {
+    "en": {
+     "subject": "the Mahabharata",
+     "object": "Vyasa",
+     "object_alts": [],
+     "prompts": [
+      "The Mahabharata was written by",
+      "The author of the Mahabharata is",
+      "The Mahabharata is a book by"
+     ]
+    },
+    "es": {
+     "subject": "el Mahabharata",
+     "object": "Vyasa",
+     "object_alts": [],
+     "prompts": [
+      "El Mahabharata fue escrito por",
+      "El autor del Mahabharata es",
+      "El Mahabharata es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "महाभारत",
+     "object": "व्यास",
+     "object_alts": [],
+     "prompts": [
+      "महाभारत को लिखा था",
+      "महाभारत के लेखक",
+      "महाभारत की रचना की थी"
+     ]
+    }
+   }
+  },
+  {
+   "id": "book_author_028",
+   "relation": "book_author",
+   "seed": 300633400,
+   "lang": {
+    "en": {
+     "subject": "Don Quixote",
+     "object": "Miguel de Cervantes",
+     "object_alts": [
+      "Cervantes"
+     ],
+     "prompts": [
+      "Don Quixote was written by",
+      "The author of Don Quixote is",
+      "Don Quixote is a book by"
+     ]
+    },
+    "es": {
+     "subject": "Don Quijote de la Mancha",
+     "object": "Miguel de Cervantes",
+     "object_alts": [
+      "Cervantes"
+     ],
+     "prompts": [
+      "Don Quijote de la Mancha fue escrito por",
+      "El autor de Don Quijote de la Mancha es",
+      "Don Quijote de la Mancha es una obra de"
+     ]
+    },
+    "hi": {
+     "subject": "डॉन क्विक्सोट",
+     "object": "मिगेल दे सर्वांतेस",
+     "object_alts": [
+      "सर्वांतेस",
+      "सरवेंटीस"
+     ],
+     "prompts": [
+      "डॉन क्विक्सोट को लिखा था",
+      "डॉन क्विक्सोट के लेखक",
+      "डॉन क्विक्सोट की रचना की थी"
+     ]
+    }
+   }
+  }
+ ]
+}
