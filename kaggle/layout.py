@@ -11,7 +11,7 @@ TREES = ["code", "tests", "kaggle"]
 FILES = {"data/v2/facts_candidates.json": "data/v2/facts_candidates_seed.json",  # subjects/objects for template tuning only
          "data/v2/facts_candidates_extra.json": "data/v2/facts_candidates_extra.json",
          "data/v2/facts_candidates_a23.json": "data/v2/facts_candidates_a23.json"}
-SKIP_NAMES = {"__pycache__", "babel_bundle.zip", ".ipynb_checkpoints", "notebooks"}
+SKIP_NAMES = {"__pycache__", "babel_bundle.zip", ".ipynb_checkpoints", "notebooks", "private"}
 SKIP_SUFFIX = {".pyc", ".log"}
 
 

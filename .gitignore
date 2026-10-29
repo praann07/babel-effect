@@ -7,3 +7,6 @@ __pycache__/
 models/
 data/wikitext/
 kaggle/babel_bundle.zip
+
+# private Kaggle notebooks with a token inside: never commit
+kaggle/private/
