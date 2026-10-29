@@ -54,11 +54,14 @@ class Fatal(Exception):
 
 # ---------------------------------------------------------------- set-up
 def place_code() -> None:
-    if (WORK / "code" / "common.py").exists():
-        return
     src = os.environ.get("BABEL_SRC")  # the notebook fetched the repo from GitHub
     if src:
+        # always replace the code with the fetched commit: a working folder left by an earlier run in this session must not keep old code or tests
+        for d in layout.TREES:
+            shutil.rmtree(WORK / d, ignore_errors=True)
         log(f"code: {layout.assemble(Path(src), WORK)} files from GitHub commit {os.environ.get('BABEL_SRC_SHA', '?')}")
+        return
+    if (WORK / "code" / "common.py").exists():
         return
     zips = glob.glob(str(INPUT / "**" / "babel_bundle.zip"), recursive=True)
     if zips:
