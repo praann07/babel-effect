@@ -20,7 +20,7 @@ from transformer_lens import HookedTransformer
 
 import knowledge_edit as ke
 from causal_trace_v2 import prompt_and_target, select_edit_facts
-from common import LANGS, MODELS, load_facts, load_model, share_transposed_mlp_weights, subject_span
+from common import DTYPE, LANGS, MODELS, load_facts, load_model, share_transposed_mlp_weights, subject_span
 from matching import strict_match
 
 PREFIXES = ke.PREFIXES
@@ -168,6 +168,7 @@ def main() -> None:
     ap.add_argument("--para", action="store_true", help="A21: also score the new answer under the other phrasings (prompts[1:]) of the same fact in every language")
     ap.add_argument("--key-modes", default="en", help="A24: comma list of en, mean_enes, mean_all, joint_enes, joint_all; the key(s) the rank-1/rank-m update is written at (default en = the earlier runs)")
     ap.add_argument("--resume", default=None, help="existing run dir to continue (crash recovery only)")
+    ap.add_argument("--shard", default="0/1", help="i/n: edit only every n-th fact starting at i (Kaggle: one shard per GPU; kaggle/merge_shards.py joins them). 0/1 = all facts")
     a = ap.parse_args()
     ke.MODEL_KEY = a.model
     spec = MODELS[a.model]
@@ -176,6 +177,9 @@ def main() -> None:
             if r.get("phrasing") == 0 and "error" not in r}
     valid = [f for f in facts if all((f["id"], lg) in recs and recs[(f["id"], lg)]["collapsed"] for lg in LANGS)]
     edit_facts = select_edit_facts(valid, a.n_edit)[a.skip_first:]
+    shard_i, shard_n = (int(x) for x in a.shard.split("/"))
+    assert 0 <= shard_i < shard_n, a.shard
+    edit_facts = edit_facts[shard_i::shard_n]
 
     out = Path(a.resume) if a.resume else Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}_{a.model}"
     out.mkdir(parents=True, exist_ok=bool(a.resume))
@@ -195,7 +199,7 @@ def main() -> None:
     if not a.resume:
         (out / "config.json").write_text(json.dumps(vars(a) | {"model_name": spec["tl_name"], "n_layers": n_layers, "layers": layers,
                                                                  "edit_ids": [f["id"] for f in edit_facts], "ppl_before": ppl0,
-                                                                 "n_valid": len(valid), "steps": STEPS, "lr": LR, "kl": KL_FACTOR,
+                                                                 "n_valid": len(valid), "dtype": str(DTYPE), "steps": STEPS, "lr": LR, "kl": KL_FACTOR,
                                                                  "wd": WD, "clamp": CLAMP, "prefixes": PREFIXES}, indent=1))
     rng_all = {f["id"]: random.Random(f["seed"]) for f in edit_facts}
     for f in edit_facts:

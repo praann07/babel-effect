@@ -3,10 +3,15 @@ from __future__ import annotations
 
 import gc
 import json
+import os
 from pathlib import Path
 
 import torch
 from transformer_lens import HookedTransformer
+
+# Number format for the weights. The laptop runs use bfloat16 (the default). Kaggle T4s have no native bf16, so kaggle/driver.py may
+# set BABEL_DTYPE=float16 after its equivalence check (recorded in analysis/kaggle_dtype_decision.json and in every run config).
+DTYPE = getattr(torch, os.environ.get("BABEL_DTYPE", "bfloat16"))
 
 # key -> TransformerLens config name, local weight dir, facts file (facts are filtered per model)
 MODELS = {
@@ -21,8 +26,9 @@ MODEL_DIR = MODELS["llama"]["dir"]
 LANGS = ("en", "es", "hi")
 
 
-def load_model(key: str = "llama", dtype: torch.dtype = torch.bfloat16, device: str = "cuda") -> HookedTransformer:
+def load_model(key: str = "llama", dtype: torch.dtype | None = None, device: str = "cuda") -> HookedTransformer:
     from transformers import AutoModelForCausalLM, AutoTokenizer
+    dtype = dtype or DTYPE
     spec = MODELS[key]
     hf = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=dtype)
     tok = AutoTokenizer.from_pretrained(spec["dir"])
