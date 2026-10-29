@@ -14,7 +14,7 @@ from pathlib import Path
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
-from common import LANGS, MODELS
+from common import DTYPE, LANGS, MODELS
 from matching import lenient_match, strict_match
 
 N_NEW, BATCH = 24, 32
@@ -40,13 +40,13 @@ def main() -> None:
     spec = MODELS[a.model]
     run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag or 'p1v2_' + a.model}"
     run.mkdir(parents=True, exist_ok=False)  # write-once
-    (run / "config.json").write_text(json.dumps(vars(a) | {"model": spec["tl_name"], "dtype": "bfloat16", "n_new": N_NEW,
+    (run / "config.json").write_text(json.dumps(vars(a) | {"model": spec["tl_name"], "dtype": str(DTYPE), "n_new": N_NEW,
                                                           "batch": BATCH, "padding": "left"}, indent=1))
     cands = json.loads(Path(a.candidates).read_text(encoding="utf8"))["facts"]
     tok = AutoTokenizer.from_pretrained(spec["dir"])
     tok.padding_side = "left"
     tok.pad_token = tok.pad_token or tok.eos_token
-    model = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=torch.bfloat16, attn_implementation="eager").to("cuda").eval()
+    model = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=DTYPE, attn_implementation="eager").to("cuda").eval()
 
     jobs = [(f["id"], lg, k, p) for f in cands for lg in LANGS for k, p in enumerate(f["lang"][lg]["prompts"])]
     gens = generate(model, tok, [j[3] for j in jobs])

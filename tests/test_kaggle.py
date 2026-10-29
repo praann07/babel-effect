@@ -99,10 +99,78 @@ class SchedulerTests(unittest.TestCase):
         self.assertEqual(sorted(spans), ["gpu0", "gpu1"])
         self.assertLess(max(s for s, e in spans.values()), min(e for s, e in spans.values()))  # the two jobs overlapped in time
 
+    def test_cpu_jobs_run_beside_gpu_jobs_without_taking_a_gpu(self):
+        marks = Path(self.tmp.name)
+        code = (f"import time,pathlib; t=time.time(); time.sleep(1.0); "
+                f"pathlib.Path(r'{marks}', 'NAME').write_text(f'{{t}} {{time.time()}}')")
+        jobs = [self.job("g", code.replace("NAME", "g")), driver.Job("c", lambda a: [PY, "-c", code.replace("NAME", "c")], gpu=False)]
+        driver.run_jobs(jobs, [0], dict(os.environ), set(), time.time() + 120, poll=0.05)
+        spans = {p.name: [float(x) for x in p.read_text().split()] for p in marks.glob("[gc]")}
+        self.assertEqual(sorted(spans), ["c", "g"])
+        self.assertLess(max(s for s, e in spans.values()), min(e for s, e in spans.values()))
+
+    def test_expand_tokens_and_missing_input_fails_job_without_retries(self):
+        (driver.WORK / "analysis" / "run_20261030_kgtrace_llama").mkdir()
+        (driver.WORK / "analysis" / "run_20261031_kgtrace_llama").mkdir()
+        cmd = driver.expand(["{py}", "x.py", "--trace-run", "{run:kgtrace_llama}", "--tag", "{tag:kgedit}", "{resume:kgedit_llama}"], 2)
+        self.assertEqual(cmd[0], PY)
+        self.assertEqual(cmd[3], "analysis/run_20261031_kgtrace_llama")
+        self.assertTrue(cmd[5].startswith("kgeditr") and cmd[5].endswith("a2"))
+        self.assertEqual(len(cmd), 6)  # no unfinished edit folder: no --resume
+        d = driver.WORK / "analysis" / "run_20261031_kgedit_llama"
+        d.mkdir(); (d / "config.json").write_text("{}")
+        self.assertEqual(driver.expand(["{resume:kgedit_llama}"], 1), ["--resume", "analysis/run_20261031_kgedit_llama"])
+        jobs = [driver.Job("m", lambda a: driver.expand(["{py}", "-c", "pass", "{run:nothere}"], a))]
+        driver.run_jobs(jobs, [0], dict(os.environ), set(), time.time() + 60, poll=0.05)
+        self.assertEqual((jobs[0].state, jobs[0].attempts), ("failed", 0))
+
     def test_deadline_stops_jobs_and_leaves_them_pending(self):
         jobs = [self.job("slow", "import time; time.sleep(30)")]
         driver.run_jobs(jobs, [0], dict(os.environ), set(), time.time() + 0.5, poll=0.05)
         self.assertEqual(jobs[0].state, "pending")
+
+
+class FormatTests(unittest.TestCase):
+    @staticmethod
+    def res(tops, grads, secs, finite=True):
+        return {"rows": [{"top1": t, "finite": finite} for t in tops], "grads": grads, "seconds_3_passes": secs}
+
+    def test_fp16_accepted_only_when_faster_and_consistent(self):
+        g = [[1.0, 0.0], [0.0, 1.0]]
+        self.assertEqual(driver.compare_formats(self.res([1, 2], g, 10), self.res([1, 2], g, 2))[0], "float16")
+        self.assertEqual(driver.compare_formats(self.res([1, 2], g, 10), self.res([1, 2], g, 8))[0], "bfloat16")  # not 1.5x faster
+        self.assertEqual(driver.compare_formats(self.res([1, 2], g, 10), self.res([1, 3], g, 2))[0], "bfloat16")  # top-1 disagrees
+        self.assertEqual(driver.compare_formats(self.res([1, 2], g, 10), self.res([1, 2], [[0.0, 1.0], [1.0, 0.0]], 2))[0], "bfloat16")  # gradients differ
+        self.assertEqual(driver.compare_formats(self.res([1, 2], g, 10), self.res([1, 2], g, 2, finite=False))[0], "bfloat16")
+        self.assertEqual(driver.compare_formats(None, self.res([1, 2], g, 2))[0], "float16")
+        with self.assertRaises(driver.Fatal):
+            driver.compare_formats(None, None)
+
+    def test_dtype_check_on_a_tiny_model(self):
+        import torch
+        from transformer_lens import HookedTransformer, HookedTransformerConfig
+        import dtype_check
+        cfg = HookedTransformerConfig(n_layers=2, d_model=16, d_head=4, n_heads=4, d_mlp=32, d_vocab=50, n_ctx=16, act_fn="gelu", device="cpu")
+        model = HookedTransformer(cfg)
+        out = dtype_check.check(model, [torch.randint(0, 50, (1, 5)) for _ in range(3)], "cpu", passes=1)
+        self.assertEqual(len(out["rows"]), 3)
+        self.assertTrue(all(r["finite"] for r in out["rows"]))
+        self.assertEqual(len(out["grads"][0]), 16)
+        self.assertGreater(sum(abs(v) for v in out["grads"][0]), 0)
+
+
+class StepsTests(unittest.TestCase):
+    def test_every_step_is_well_formed(self):
+        from steps import STEPS
+        for sid, plan in STEPS.items():
+            names = [j["name"] for j in plan["jobs"]]
+            self.assertEqual(len(names), len(set(names)), sid)
+            for j in plan["jobs"]:
+                self.assertTrue(set(j.get("deps", [])) <= set(names), (sid, j["name"]))
+                self.assertIn(j["model"], driver.HF, (sid, j["name"]))
+                self.assertEqual(j["cmd"][0], "{py}")
+                self.assertTrue((Path(__file__).resolve().parent.parent / j["cmd"][1]).exists(), j["cmd"][1])
+            self.assertTrue(set(plan["calibrate"]) <= set(plan["models"]), sid)
 
 
 if __name__ == "__main__":

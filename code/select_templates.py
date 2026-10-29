@@ -13,7 +13,7 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from build_facts_v2 import fmt
-from common import LANGS, MODELS
+from common import DTYPE, LANGS, MODELS
 from filter_facts_v2 import generate
 from matching import strict_match
 
@@ -86,15 +86,16 @@ def main() -> None:
     ap.add_argument("--n-tune", type=int, default=30)
     ap.add_argument("--cands", default="data/v2/facts_candidates.json", help="candidate file (tuning facts come from here)")
     ap.add_argument("--relations", default=None, help="comma list; only these relations are selected and merged into the existing templates file")
+    ap.add_argument("--tag", default="templates", help="run folder tag (Kaggle passes a unique one so a retry never collides)")
     a = ap.parse_args()
     spec = MODELS[a.model]
-    run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_templates_{a.model}{'_extra' if a.relations else ''}"
+    run = Path("analysis") / f"run_{dt.date.today():%Y%m%d}_{a.tag}_{a.model}{'_extra' if a.relations else ''}"
     run.mkdir(parents=True, exist_ok=False)
     cands = json.loads(Path(a.cands).read_text(encoding="utf8"))["facts"]
     tok = AutoTokenizer.from_pretrained(spec["dir"])
     tok.padding_side = "left"
     tok.pad_token = tok.pad_token or tok.eos_token
-    model = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=torch.bfloat16, attn_implementation="eager").to("cuda").eval()
+    model = AutoModelForCausalLM.from_pretrained(spec["dir"], torch_dtype=DTYPE, attn_implementation="eager").to("cuda").eval()
 
     chosen, log = {}, {}
     only = set(a.relations.split(",")) if a.relations else None

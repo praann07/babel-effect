@@ -16,7 +16,7 @@ import numpy as np
 import torch
 from transformer_lens import HookedTransformer
 
-from common import LANGS, MODELS, load_facts, load_model, subject_span
+from common import DTYPE, LANGS, MODELS, load_facts, load_model, subject_span
 
 KINDS = ("resid", "mlp")
 ROW_CHUNK = 4
@@ -170,7 +170,7 @@ def main() -> None:
     model = load_model(a.model)
     n_layers = model.cfg.n_layers
     std = pooled_embedding_std(model, all_facts)
-    (run_dir / "config.json").write_text(json.dumps(vars(a) | {"model_name": MODELS[a.model]["tl_name"], "dtype": "bfloat16",
+    (run_dir / "config.json").write_text(json.dumps(vars(a) | {"model_name": MODELS[a.model]["tl_name"], "dtype": str(DTYPE),
                                                                "noise_mult": 3.0, "embed_std_pooled": std, "n_layers": n_layers,
                                                                "fact_ids": [f["id"] for f in facts]}, indent=1))
     records = []
