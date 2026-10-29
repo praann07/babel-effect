@@ -1,0 +1,3898 @@
+{
+ "capital_country_000|en": {
+  "prompt": "The country whose capital is Paris is",
+  "gen": " France. The country whose capital is Paris is France.\nThe country whose capital is Paris is France.\nThe country whose capital"
+ },
+ "capital_country_000|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी पेरिस है?\nउत्तर:",
+  "gen": " फ्रांस\nप्रश्न: वह कौन सा देश है जिसकी राजध"
+ },
+ "capital_country_001|en": {
+  "prompt": "The country whose capital is Berlin is",
+  "gen": " Germany.\nThe country whose capital is Berlin is Germany. The country whose capital is Berlin is Germany. The country whose capital"
+ },
+ "capital_country_001|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बर्लिन है?\nउत्तर:",
+  "gen": " जर्मनी की राजधानी बर्लिन है।\nप्रश्न: वह कौन सा"
+ },
+ "capital_country_002|en": {
+  "prompt": "The country whose capital is Rome is",
+  "gen": " Italy. The country is located in Southern Europe. The country is bordered by the Adriatic Sea, the Ionian Sea"
+ },
+ "capital_country_002|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी रोम है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी रोम है?\nउत्तर"
+ },
+ "capital_country_003|en": {
+  "prompt": "The country whose capital is Madrid is",
+  "gen": " Spain. The country is located in the Iberian Peninsula in southwestern Europe. Spain is bordered by Portugal to the west"
+ },
+ "capital_country_003|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मैड्रिड है?\nउत्तर:",
+  "gen": " स्पेन\nप्रश्न: वह कौन सा देश है जिसकी राजधान"
+ },
+ "capital_country_004|en": {
+  "prompt": "The country whose capital is Lisbon is",
+  "gen": " Portugal. The country is located in the western part of Europe. The country is bordered by Spain to the east, the"
+ },
+ "capital_country_004|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी लिस्बन है?\nउत्तर:",
+  "gen": " पुर्तगाल\nप्रश्न: वह कौन सा देश है जिसकी राज"
+ },
+ "capital_country_005|en": {
+  "prompt": "The country whose capital is Tokyo is",
+  "gen": " Japan.\nThe country whose capital is Tokyo is Japan. The country whose capital is Tokyo is Japan. The country whose capital"
+ },
+ "capital_country_005|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी टोक्यो है?\nउत्तर:",
+  "gen": " जापान\nप्रश्न: जापान का राष्ट्रीय ध्वज क्या"
+ },
+ "capital_country_006|en": {
+  "prompt": "The country whose capital is Beijing is",
+  "gen": " China.\nThe country whose capital is Beijing is China. The country whose capital is Beijing is China. The country whose capital"
+ },
+ "capital_country_006|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बीजिंग है?\nउत्तर:",
+  "gen": " चीन\nप्रश्न: वह कौन सा देश है जिसकी राजधानी"
+ },
+ "capital_country_007|en": {
+  "prompt": "The country whose capital is New Delhi is",
+  "gen": " India.\nThe country whose capital is New Delhi is India. The country whose capital is New Delhi is India. The country"
+ },
+ "capital_country_007|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी नई दिल्ली है?\nउत्तर:",
+  "gen": " भारत की राजधानी नई दिल्ली है।\nप्रश्न: भारत का"
+ },
+ "capital_country_008|en": {
+  "prompt": "The country whose capital is Moscow is",
+  "gen": " Russia. The country is located in Eastern Europe and Northern Asia. Russia is the largest country in the world. It is"
+ },
+ "capital_country_008|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मॉस्को है?\nउत्तर:",
+  "gen": " रूस है जिसकी राजधानी मॉस्को है।\nप्रश्न: वह क"
+ },
+ "capital_country_009|en": {
+  "prompt": "The country whose capital is Brasília is",
+  "gen": "\nA. Brazil\nB. Argentina\nC. Uruguay\nD. Paraguay\nAnswer: A"
+ },
+ "capital_country_009|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी ब्रासीलिया है?\nउत्तर:",
+  "gen": " ब्राजील\nप्रश्न: वह कौन सा देश है जिसकी राजध"
+ },
+ "capital_country_010|en": {
+  "prompt": "The country whose capital is Buenos Aires is",
+  "gen": " Argentina. The country is located in South America. The country is bordered by the Atlantic Ocean to the east, the South"
+ },
+ "capital_country_010|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी ब्यूनस आयर्स है?\nउत्तर:",
+  "gen": " अर्जेंटीना है जिसकी राजधानी ब्यूनस आयर्स ह"
+ },
+ "capital_country_011|en": {
+  "prompt": "The country whose capital is Mexico City is",
+  "gen": " Mexico.\nThe country whose capital is Mexico City is Mexico. The country whose capital is Mexico City is Mexico. The country"
+ },
+ "capital_country_011|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मेक्सिको सिटी है?\nउत्तर:",
+  "gen": " मेक्सिको सिटी मेक्सिको की राजधानी है।"
+ },
+ "capital_country_012|en": {
+  "prompt": "The country whose capital is Ottawa is",
+  "gen": " Canada.\nThe country whose capital is Ottawa is Canada. The country whose capital is Ottawa is Canada. The country whose capital"
+ },
+ "capital_country_012|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी ओटावा है?\nउत्तर:",
+  "gen": " कनाडा की राजधानी ओटावा है।\nप्रश्न: वह कौन स"
+ },
+ "capital_country_013|en": {
+  "prompt": "The country whose capital is Canberra is",
+  "gen": " Australia.\nThe country whose capital is Canberra is Australia. The country whose capital is Canberra is Australia. The country whose capital"
+ },
+ "capital_country_013|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी कैनबरा है?\nउत्तर:",
+  "gen": " ऑस्ट्रेलिया की राजधानी कैनबरा है।\nप्रश्न:"
+ },
+ "capital_country_014|en": {
+  "prompt": "The country whose capital is Athens is",
+  "gen": " Greece. The country is located in Southern Europe. The country is bordered by Albania, Bulgaria, and Turkey. The country"
+ },
+ "capital_country_014|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी एथेंस है?\nउत्तर:",
+  "gen": " ग्रीस है जिसकी राजधानी एथेंस है।\nप्रश्न: वह"
+ },
+ "capital_country_015|en": {
+  "prompt": "The country whose capital is Ankara is",
+  "gen": " Turkey. The country is located in the western part of Asia and the southern part of Europe. The country is bordered by"
+ },
+ "capital_country_015|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी अंकारा है?\nउत्तर:",
+  "gen": " तुर्की की राजधानी अंकारा है।\nप्रश्न: वह कौन"
+ },
+ "capital_country_016|en": {
+  "prompt": "The country whose capital is Stockholm is",
+  "gen": " Sweden. The country is located in Northern Europe. The country is bordered by Norway, Finland, and the Baltic Sea."
+ },
+ "capital_country_016|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी स्टॉकहोम है?\nउत्तर:",
+  "gen": " स्वीडन\nप्रश्न: स्वीडन का राष्ट्रीय प्रतीक क"
+ },
+ "capital_country_017|en": {
+  "prompt": "The country whose capital is Oslo is",
+  "gen": " Norway. The country is located in Northern Europe. The country is bordered by Sweden to the east, Finland to the north"
+ },
+ "capital_country_017|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी ओस्लो है?\nउत्तर:",
+  "gen": " नॉर्वे की राजधानी ओस्लो है।\nप्रश्न: वह कौन"
+ },
+ "capital_country_018|en": {
+  "prompt": "The country whose capital is Helsinki is",
+  "gen": " located in Northern Europe. It is the largest country in the European Union. Finland is a country of forests, lakes,"
+ },
+ "capital_country_018|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी हेलसिंकी है?\nउत्तर:",
+  "gen": " फिनलैंड\nप्रश्न: वह कौन सा देश है जिसकी राज"
+ },
+ "capital_country_019|en": {
+  "prompt": "The country whose capital is Copenhagen is",
+  "gen": " Denmark. Denmark is a country in Northern Europe. It is the southernmost of the Nordic countries. Denmark is the southern"
+ },
+ "capital_country_019|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी कोपेनहेगन है?\nउत्तर:",
+  "gen": " डेनमार्क\nप्रश्न: वह कौन सा देश है जिसकी राज"
+ },
+ "capital_country_020|en": {
+  "prompt": "The country whose capital is Warsaw is",
+  "gen": " Poland. The country is located in Central Europe. The country is bordered by Germany, the Czech Republic, Slovakia, Ukraine"
+ },
+ "capital_country_020|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी वारसॉ है?\nउत्तर:",
+  "gen": " पोलैंड\nप्रश्न: पोलैंड का राष्ट्रीय ध्वज क"
+ },
+ "capital_country_021|en": {
+  "prompt": "The country whose capital is Vienna is",
+  "gen": " Austria. It is a landlocked country in Central Europe. It is bordered by Germany, Czech Republic, Slovakia, Hungary"
+ },
+ "capital_country_021|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी वियना है?\nउत्तर:",
+  "gen": " ऑस्ट्रिया है जिसकी राजधानी वियना है।\nप्रश्न"
+ },
+ "capital_country_022|en": {
+  "prompt": "The country whose capital is Bern is",
+  "gen": " Switzerland. The country is a federal republic. The country is a member of the United Nations. The country is a member"
+ },
+ "capital_country_022|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बर्न है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी बर्न है?\nउत्तर:"
+ },
+ "capital_country_023|en": {
+  "prompt": "The country whose capital is Brussels is",
+  "gen": " Belgium. The country is located in Western Europe. The country is bordered by France, Germany, and the Netherlands. The"
+ },
+ "capital_country_023|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी ब्रसेल्स है?\nउत्तर:",
+  "gen": " बेल्जियम\nप्रश्न: वह कौन सा देश है जिसकी राजध"
+ },
+ "capital_country_024|en": {
+  "prompt": "The country whose capital is Dublin is",
+  "gen": " Ireland. The country is located in the north-west of Europe. The country is a member of the European Union. The"
+ },
+ "capital_country_024|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी डबलिन है?\nउत्तर:",
+  "gen": " आयरलैंड\nप्रश्न: वह कौन सा देश है जिसकी राजध"
+ },
+ "capital_country_025|en": {
+  "prompt": "The country whose capital is Lima is",
+  "gen": " located in South America. It is the world’s 16th largest country by area and the 12th most populous"
+ },
+ "capital_country_025|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी लीमा है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी लीमा है?\nउत"
+ },
+ "capital_country_026|en": {
+  "prompt": "The country whose capital is Santiago is",
+  "gen": " Chile. The country is located in South America. The country is bordered by the Pacific Ocean to the west, Peru to"
+ },
+ "capital_country_026|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी सैंटियागो है?\nउत्तर:",
+  "gen": " चिली है जिसकी राजधानी सैंटियागो है।\nप्रश्न"
+ },
+ "capital_country_027|en": {
+  "prompt": "The country whose capital is Bogotá is",
+  "gen": " Colombia. The country is located in South America. The country is bordered by the Caribbean Sea to the north, Venezuela to"
+ },
+ "capital_country_027|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बोगोटा है?\nउत्तर:",
+  "gen": " कोलंबिया की राजधानी बोगोटा है।\nप्रश्न: कोल"
+ },
+ "capital_country_028|en": {
+  "prompt": "The country whose capital is Caracas is",
+  "gen": " Venezuela. The country is located in South America. The country is bordered by the Caribbean Sea to the north, Colombia to"
+ },
+ "capital_country_028|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी काराकास है?\nउत्तर:",
+  "gen": " वेनेजुएला है जिसकी राजधानी काराकास है।\nप्रश"
+ },
+ "capital_country_029|en": {
+  "prompt": "The country whose capital is Bangkok is",
+  "gen": " Thailand. It is a Southeast Asian country with a population of 68 million people. It is a country with a tropical"
+ },
+ "capital_country_029|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बैंकॉक है?\nउत्तर:",
+  "gen": " थाईलैंड\nप्रश्न: वह कौन सा देश है जिसकी राज"
+ },
+ "capital_country_030|en": {
+  "prompt": "The country whose capital is Hanoi is",
+  "gen": " Vietnam. The country is located in Southeast Asia. The country is bordered by China to the north, Laos to the northwest"
+ },
+ "capital_country_030|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी हनोई है?\nउत्तर:",
+  "gen": " वियतनाम है।\nप्रश्न: वह कौन सा देश है जिसकी राज"
+ },
+ "capital_country_031|en": {
+  "prompt": "The country whose capital is Jakarta is",
+  "gen": " Indonesia. The country is located in Southeast Asia. The country is the largest archipelago in the world. The country"
+ },
+ "capital_country_031|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी जकार्ता है?\nउत्तर:",
+  "gen": " जकार्ता इंडोनेशिया की राजधानी है।"
+ },
+ "capital_country_032|en": {
+  "prompt": "The country whose capital is Islamabad is",
+  "gen": ":\nA. Pakistan\nB. India\nC. Bangladesh\nD. Nepal\nAnswer: A"
+ },
+ "capital_country_032|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी इस्लामाबाद है?\nउत्तर:",
+  "gen": " पाकिस्तान\nप्रश्न: पाकिस्तान का प्रधान मंत्री"
+ },
+ "capital_country_033|en": {
+  "prompt": "The country whose capital is Dhaka is",
+  "gen": "\nA. Bangladesh\nB. India\nC. Pakistan\nD. Nepal\nAnswer: A"
+ },
+ "capital_country_033|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी ढाका है?\nउत्तर:",
+  "gen": " ढाका बांग्लादेश की राजधानी है।\nप्रश्न: ढाक"
+ },
+ "capital_country_034|en": {
+  "prompt": "The country whose capital is Kathmandu is",
+  "gen": " located in the Himalayas. The country is a landlocked country and is bordered by China and India. The country is"
+ },
+ "capital_country_034|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी काठमांडू है?\nउत्तर:",
+  "gen": " नेपाल है जिसकी राजधानी काठमांडू है।\nप्रश्न"
+ },
+ "capital_country_035|en": {
+  "prompt": "The country whose capital is Colombo is",
+  "gen": "\nA. Sri Lanka\nB. India\nC. Bangladesh\nD. Nepal\nAnswer: A"
+ },
+ "capital_country_035|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी कोलंबो है?\nउत्तर:",
+  "gen": " श्रीलंका है जिसकी राजधानी कोलंबो है।\nप्रश्न"
+ },
+ "capital_country_036|en": {
+  "prompt": "The country whose capital is Tehran is",
+  "gen": " located in the Middle East. The country is bordered by Iraq, Turkey, Armenia, Azerbaijan, and Afghanistan. The country"
+ },
+ "capital_country_036|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी तेहरान है?\nउत्तर:",
+  "gen": " ईरान की राजधानी तेहरान है।\nप्रश्न: ईरान का"
+ },
+ "capital_country_037|en": {
+  "prompt": "The country whose capital is Baghdad is",
+  "gen": " Iraq.\nThe country whose capital is Baghdad is Iraq. The country whose capital is Baghdad is Iraq. The country whose capital"
+ },
+ "capital_country_037|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बग़दाद है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी बग़दाद है?"
+ },
+ "capital_country_038|en": {
+  "prompt": "The country whose capital is Riyadh is",
+  "gen": " located in the Middle East. The country is bordered by Saudi Arabia, Iraq, Kuwait, Jordan, Syria, and Turkey"
+ },
+ "capital_country_038|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी रियाद है?\nउत्तर:",
+  "gen": " सऊदी अरब की राजधानी रियाद है।\nप्रश्न: वह क"
+ },
+ "capital_country_039|en": {
+  "prompt": "The country whose capital is Nairobi is",
+  "gen": " Kenya.\nThe country whose capital is Nairobi is Kenya. The country whose capital is Nairobi is Kenya. The country whose capital"
+ },
+ "capital_country_039|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी नैरोबी है?\nउत्तर:",
+  "gen": " केन्या है जिसकी राजधानी नैरोबी है।\nप्रश्न:"
+ },
+ "capital_country_040|en": {
+  "prompt": "The country whose capital is Abuja is",
+  "gen": "\nA. Nigeria\nB. Ghana\nC. Kenya\nD. South Africa\nAnswer: A"
+ },
+ "capital_country_040|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी अबुजा है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी अबुजा है? उत्तर"
+ },
+ "capital_country_041|en": {
+  "prompt": "The country whose capital is Addis Ababa is",
+  "gen": "\nA. Ethiopia\nB. Kenya\nC. Tanzania\nD. Uganda\nAnswer: A"
+ },
+ "capital_country_041|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी अदीस अबाबा है?\nउत्तर:",
+  "gen": " वह देश इथियोपिया है।\nप्रश्न: वह कौन सा देश है"
+ },
+ "capital_country_042|en": {
+  "prompt": "The country whose capital is Rabat is",
+  "gen": " Morocco. The country is located in North Africa. The country is bordered by the Mediterranean Sea to the north, Algeria to"
+ },
+ "capital_country_042|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी रबात है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी रबात है?\nउत"
+ },
+ "capital_country_043|en": {
+  "prompt": "The country whose capital is Algiers is",
+  "gen": " Algeria.\nThe country whose capital is Algiers is Algeria. The country whose capital is Algiers is Algeria. The country"
+ },
+ "capital_country_043|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी अल्जीयर्स है?\nउत्तर:",
+  "gen": " स्पेन\nप्रश्न: वह कौन सा देश है जिसकी राजधान"
+ },
+ "capital_country_044|en": {
+  "prompt": "The country whose capital is Pretoria is",
+  "gen": "\nA. South Africa\nB. Botswana\nC. Lesotho\nD. Swaziland\nAnswer"
+ },
+ "capital_country_044|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी प्रिटोरिया है?\nउत्तर:",
+  "gen": " दक्षिण अफ्रीका की राजधानी प्रिटोरिया है।\nप्रश"
+ },
+ "capital_country_045|en": {
+  "prompt": "The country whose capital is Accra is",
+  "gen": "\nA. Ghana\nB. Nigeria\nC. Kenya\nD. Tanzania\nAnswer: A"
+ },
+ "capital_country_045|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी अक्रा है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी अक्रा है?\nउत"
+ },
+ "capital_country_046|en": {
+  "prompt": "The country whose capital is Budapest is",
+  "gen": " Hungary. It is a landlocked country in Central Europe. It is bordered by Austria to the north, Slovakia to the"
+ },
+ "capital_country_046|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बुडापेस्ट है?\nउत्तर:",
+  "gen": " हंगरी है जिसकी राजधानी बुडापेस्ट है।\nप्रश्न"
+ },
+ "capital_country_047|en": {
+  "prompt": "The country whose capital is Bucharest is",
+  "gen": " Romania. The country is located in the southeastern part of Europe. The country is bordered by the Black Sea to the east"
+ },
+ "capital_country_047|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बुखारेस्ट है?\nउत्तर:",
+  "gen": " रोमानिया है जिसकी राजधानी बुखारेस्ट है।\nप्रश"
+ },
+ "capital_country_048|en": {
+  "prompt": "The country whose capital is Kyiv is",
+  "gen": " Ukraine. The country is located in Eastern Europe. The country is bordered by Poland, Slovakia, Hungary, Romania, Mold"
+ },
+ "capital_country_048|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी कीव है?\nउत्तर:",
+  "gen": " वह कीव है जिसकी राजधानी कीव है जिसकी राजधान"
+ },
+ "capital_country_049|en": {
+  "prompt": "The country whose capital is Sofia is",
+  "gen": " located in the Balkan Peninsula. It is a member of the European Union and NATO. The country is a member of"
+ },
+ "capital_country_049|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी सोफिया है?\nउत्तर:",
+  "gen": " बुल्गारिया है जिसकी राजधानी सोफिया है।\nप्रश"
+ },
+ "capital_country_050|en": {
+  "prompt": "The country whose capital is Belgrade is",
+  "gen": " Serbia. The country is located in the Balkan Peninsula. The country is bordered by Hungary, Romania, Bulgaria, Macedonia"
+ },
+ "capital_country_050|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बेलग्रेड है?\nउत्तर:",
+  "gen": " सербिया है जिसकी राजधानी बेलग्रेड है।\nप्रश्न"
+ },
+ "capital_country_051|en": {
+  "prompt": "The country whose capital is Zagreb is",
+  "gen": " Croatia. The country is located in the Balkan Peninsula. The country is bordered by Slovenia, Hungary, Serbia, Bosnia"
+ },
+ "capital_country_051|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी ज़ाग्रेब है?\nउत्तर:",
+  "gen": " स्लोवेनिया है जिसकी राजधानी ज़ाग्रेब है।\nप"
+ },
+ "capital_country_052|en": {
+  "prompt": "The country whose capital is Reykjavik is",
+  "gen": " Iceland. It is a Nordic island country in the North Atlantic Ocean. It is located between the Norwegian Sea and the Greenland"
+ },
+ "capital_country_052|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी रेक्यावीक है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी रेक्यावीक है"
+ },
+ "capital_country_053|en": {
+  "prompt": "The country whose capital is Ulaanbaatar is",
+  "gen": "\nA. Mongolia\nB. China\nC. Russia\nD. Japan\nAnswer: A"
+ },
+ "capital_country_053|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी उलानबटार है?\nउत्तर:",
+  "gen": " मंगोलिया है।\nप्रश्न: मंगोलिया का प्रधान मंत्र"
+ },
+ "capital_country_054|en": {
+  "prompt": "The country whose capital is Kabul is",
+  "gen": "?\nA. Afghanistan\nB. Albania\nC. Algeria\nD. Angola\nAnswer: A"
+ },
+ "capital_country_054|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी काबुल है?\nउत्तर:",
+  "gen": " अफगानिस्तान\nप्रश्न: वह कौन सा देश है जिसकी र"
+ },
+ "capital_country_055|en": {
+  "prompt": "The country whose capital is Phnom Penh is",
+  "gen": " Cambodia. The country is located in Southeast Asia. The country is bordered by Thailand to the northwest, Laos to the northeast"
+ },
+ "capital_country_055|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी नोम पेन है?\nउत्तर:",
+  "gen": " सेंट विन्सेंट और ग्रेनेडाइन्स\nप्रश्न: सेंट व"
+ },
+ "capital_country_056|en": {
+  "prompt": "The country whose capital is Seoul is",
+  "gen": ":\nA. South Korea\nB. North Korea\nC. Japan\nD. China\nAnswer: A"
+ },
+ "capital_country_056|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी सियोल है?\nउत्तर:",
+  "gen": " दक्षिण कोरिया है।\nप्रश्न: वह कौन सा देश है जिसक"
+ },
+ "capital_country_057|en": {
+  "prompt": "The country whose capital is Amman is",
+  "gen": ":\nA. Jordan\nB. Iraq\nC. Syria\nD. Lebanon\nAnswer: A"
+ },
+ "capital_country_057|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी अम्मान है?\nउत्तर:",
+  "gen": " जॉर्डन है।\nप्रश्न: वह कौन सा देश है जिसकी राज"
+ },
+ "capital_country_058|en": {
+  "prompt": "The country whose capital is Beirut is",
+  "gen": " Lebanon. The country is located in the Middle East. The country is bordered by Syria, Israel, and the Mediterranean Sea"
+ },
+ "capital_country_058|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बेरूत है?\nउत्तर:",
+  "gen": " लेबनान है जिसकी राजधानी बेरूत है।\nप्रश्न: वह"
+ },
+ "capital_country_059|en": {
+  "prompt": "The country whose capital is Damascus is",
+  "gen": " Syria. The country is located in the Middle East. The country is bordered by Turkey, Iraq, Jordan, Israel,"
+ },
+ "capital_country_059|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी दमिश्क है?\nउत्तर:",
+  "gen": " सीरिया है जिसकी राजधानी दमिश्क है।\nप्रश्न:"
+ },
+ "capital_country_060|en": {
+  "prompt": "The country whose capital is Tripoli is",
+  "gen": "\nA. Libya\nB. Tunisia\nC. Algeria\nD. Egypt\nAnswer: A"
+ },
+ "capital_country_060|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी त्रिपोली है?\nउत्तर:",
+  "gen": " लीबिया की राजधानी त्रिपोली है।\nप्रश्न: वह क"
+ },
+ "capital_country_061|en": {
+  "prompt": "The country whose capital is Montevideo is",
+  "gen": " Uruguay. The country is located in South America. The country is bordered by the Atlantic Ocean to the east, Argentina to"
+ },
+ "capital_country_061|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मोंटेवीडियो है?\nउत्तर:",
+  "gen": " मोंटेवीडियो की राजधानी स्विट्जरलैंड का द"
+ },
+ "capital_country_062|en": {
+  "prompt": "The country whose capital is Quito is",
+  "gen": " Ecuador.\nThe country whose capital is Quito is Ecuador. The country whose capital is Quito is Ecuador. The country"
+ },
+ "capital_country_062|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी क्विटो है?\nउत्तर:",
+  "gen": " कोलंबिया की राजधानी क्विटो है।\nप्रश्न: कोल"
+ },
+ "capital_country_063|en": {
+  "prompt": "The country whose capital is Asunción is",
+  "gen": " Paraguay. The country is located in South America. The country is bordered by Argentina, Brazil, and Bolivia. The"
+ },
+ "capital_country_063|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी असुनसियोन है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी असुनसियोन है?"
+ },
+ "capital_country_064|en": {
+  "prompt": "The country whose capital is Kingston is",
+  "gen": " Jamaica. The country is located in the Caribbean region. The country is bordered by the Caribbean Sea to the south and the"
+ },
+ "capital_country_064|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी किंग्स्टन है?\nउत्तर:",
+  "gen": " जामैका है जिसकी राजधानी किंग्स्टन है।\nप्रश"
+ },
+ "capital_country_065|en": {
+  "prompt": "The country whose capital is Wellington is",
+  "gen": " New Zealand. It is a country in the southwestern Pacific Ocean. It consists of two main landmasses – the North"
+ },
+ "capital_country_065|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी वेलिंगटन है?\nउत्तर:",
+  "gen": " न्यूजीलैंड की राजधानी वेलिंगटन है।\nप्रश्न:"
+ },
+ "capital_country_066|en": {
+  "prompt": "The country whose capital is Havana is",
+  "gen": " Cuba. The country is located in the Caribbean Sea. The country is bordered by the Gulf of Mexico to the north and"
+ },
+ "capital_country_066|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी हवाना है?\nउत्तर:",
+  "gen": " क्यूबा है जिसकी राजधानी हवाना है।\nप्रश्न: क"
+ },
+ "capital_country_067|en": {
+  "prompt": "The country whose capital is Sucre is",
+  "gen": " Bolivia. The country is located in South America. The country is bordered by Brazil, Paraguay, Argentina, Chile,"
+ },
+ "capital_country_067|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी सुक्रे है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी सुक्रे है? उत"
+ },
+ "capital_country_068|en": {
+  "prompt": "The country whose capital is San José is",
+  "gen": " Costa Rica. The country is located in Central America. The country is bordered by Nicaragua to the north, the Pacific Ocean"
+ },
+ "capital_country_068|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी सैन जोस है?\nउत्तर:",
+  "gen": " सैन जोस, कैलिफोर्निया की राजधानी है।"
+ },
+ "capital_country_069|en": {
+  "prompt": "The country whose capital is Panama City is",
+  "gen": " Panama. The country is located in Central America. The country is bordered by Costa Rica to the west, Colombia to the"
+ },
+ "capital_country_069|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी पनामा सिटी है?\nउत्तर:",
+  "gen": " पनामा सिटी पनामा की राजधानी है।"
+ },
+ "capital_country_070|en": {
+  "prompt": "The country whose capital is Cairo is",
+  "gen": " Egypt.\nThe country whose capital is Cairo is Egypt. The country whose capital is Cairo is Egypt. The country whose capital"
+ },
+ "capital_country_070|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी काहिरा है?\nउत्तर:",
+  "gen": " वह काहिरा है जिसकी राजधानी काहिरा है जिसकी"
+ },
+ "capital_country_071|en": {
+  "prompt": "The country whose capital is Jerusalem is",
+  "gen": " Israel. The country whose capital is Jerusalem is Israel. The country whose capital is Jerusalem is Israel. The country whose capital"
+ },
+ "capital_country_071|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी यरुशलम है?\nउत्तर:",
+  "gen": " यहूदी राज्य है जिसकी राजधानी यरुशलम है। यह"
+ },
+ "capital_country_072|en": {
+  "prompt": "The country whose capital is Prague is",
+  "gen": " the Czech Republic. The Czech Republic is a country in Central Europe. It is bordered by Germany to the west, Austria"
+ },
+ "capital_country_072|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी प्राग है?\nउत्तर:",
+  "gen": " प्राग की राजधानी चेक गणराज्य है।\nप्रश्न: क"
+ },
+ "capital_country_073|en": {
+  "prompt": "The country whose capital is Bratislava is",
+  "gen": " Slovakia. The country is located in Central Europe. The country is bordered by Austria, Hungary, Poland, and Ukraine."
+ },
+ "capital_country_073|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी ब्रातिस्लावा है?\nउत्तर:",
+  "gen": " स्लोवाकिया है जिसकी राजधानी ब्रातिस्लावा ह"
+ },
+ "capital_country_074|en": {
+  "prompt": "The country whose capital is Ljubljana is",
+  "gen": " Slovenia. The country is located in the central part of the Balkan Peninsula. The country is bordered by Italy, Austria"
+ },
+ "capital_country_074|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी ल्यूब्लियाना है?\nउत्तर:",
+  "gen": " रोमानिया है जिसकी राजधानी ल्यूब्लियाना है।\n"
+ },
+ "capital_country_075|en": {
+  "prompt": "The country whose capital is Tallinn is",
+  "gen": " Estonia. The country is located in Northern Europe. Estonia is a member of the European Union and the North Atlantic Treaty Organization"
+ },
+ "capital_country_075|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी तेलिन है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी तेलिन है? उत्तर"
+ },
+ "capital_country_076|en": {
+  "prompt": "The country whose capital is Riga is",
+  "gen": " Latvia. The country is located in the Baltic region of Europe. The country is bordered by Estonia, Lithuania, Belarus,"
+ },
+ "capital_country_076|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी रीगा है?\nउत्तर:",
+  "gen": " लातविया (Latvia) की राजधानी रीगा है।\nप्रश्न"
+ },
+ "capital_country_077|en": {
+  "prompt": "The country whose capital is Vilnius is",
+  "gen": " Lithuania. The country is located in the Baltic region of Europe. The country is bordered by Latvia, Belarus, Poland,"
+ },
+ "capital_country_077|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी विनियस है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी विनियस है?\n"
+ },
+ "capital_country_078|en": {
+  "prompt": "The country whose capital is Minsk is",
+  "gen": "\nA. Belarus\nB. Russia\nC. Ukraine\nD. Poland\nAnswer: A"
+ },
+ "capital_country_078|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मिन्स्क है?\nउत्तर:",
+  "gen": " बेलारूस है जिसकी राजधानी मिन्स्क है।\nप्रश्न:"
+ },
+ "capital_country_079|en": {
+  "prompt": "The country whose capital is Tbilisi is",
+  "gen": " Georgia. The country is located in the Caucasus region. The country is bordered by Russia, Turkey, Armenia, Azerbaijan"
+ },
+ "capital_country_079|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी त्बिलिसी है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी त्बिलिसी है"
+ },
+ "capital_country_080|en": {
+  "prompt": "The country whose capital is Yerevan is",
+  "gen": " Armenia. Armenia is a country in the Caucasus region of Eurasia. It is bordered by Turkey to the west,"
+ },
+ "capital_country_080|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी येरेवन है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी येरेवन है?\n"
+ },
+ "capital_country_081|en": {
+  "prompt": "The country whose capital is Baku is",
+  "gen": "\nA. Azerbaijan\nB. Georgia\nC. Armenia\nD. Turkey\nAnswer: A"
+ },
+ "capital_country_081|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बाकू है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी बाकू है?\nउत"
+ },
+ "capital_country_082|en": {
+  "prompt": "The country whose capital is Astana is",
+  "gen": "\nA. Kazakhstan\nB. Kyrgyzstan\nC. Turkmenistan\nD. Uzbekistan\nAnswer:"
+ },
+ "capital_country_082|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी अस्ताना है?\nउत्तर:",
+  "gen": " तुर्की की राजधानी अस्ताना है।\nप्रश्न: वह कौन"
+ },
+ "capital_country_083|en": {
+  "prompt": "The country whose capital is Tashkent is",
+  "gen": "\nA. Uzbekistan\nB. Turkmenistan\nC. Kyrgyzstan\nD. Tajikistan\n"
+ },
+ "capital_country_083|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी ताशकंद है?\nउत्तर:",
+  "gen": " ताजिकिस्तान\nप्रश्न: वह कौन सा देश है जिसकी र"
+ },
+ "capital_country_084|en": {
+  "prompt": "The country whose capital is Naypyidaw is",
+  "gen": "\nA. Myanmar\nB. Thailand\nC. Cambodia\nD. Laos\nAnswer: A"
+ },
+ "capital_country_084|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी नेपीडॉ है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी नेपीडॉ है? उत"
+ },
+ "capital_country_085|en": {
+  "prompt": "The country whose capital is Kuala Lumpur is",
+  "gen": " Malaysia. The country is located in Southeast Asia. The country is bordered by Thailand, Indonesia, and the South China Sea"
+ },
+ "capital_country_085|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी कुआलालंपुर है?\nउत्तर:",
+  "gen": " मलेशिया है जिसकी राजधानी कुआलालंपुर है।\nप्रश"
+ },
+ "capital_country_086|en": {
+  "prompt": "The country whose capital is Manila is",
+  "gen": " located in Southeast Asia. It is the 12th most populous country in the world. The country is a member of"
+ },
+ "capital_country_086|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मनीला है?\nउत्तर:",
+  "gen": " फिलीपींस\nप्रश्न: वह कौन सा देश है जिसकी राज"
+ },
+ "capital_country_087|en": {
+  "prompt": "The country whose capital is Vientiane is",
+  "gen": "?\nA. Laos\nB. Cambodia\nC. Thailand\nD. Vietnam\nAnswer: A"
+ },
+ "capital_country_087|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी वियनतियाने है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी वियना है?\nव"
+ },
+ "capital_country_088|en": {
+  "prompt": "The country whose capital is Pyongyang is",
+  "gen": "\nA. North Korea\nB. South Korea\nC. Japan\nD. China\nAnswer: A"
+ },
+ "capital_country_088|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी प्योंगयांग है?\nउत्तर:",
+  "gen": " उत्तर: उत्तर: उत्तर: उत्तर: उत्तर: उत्तर: उत्तर: उत्तर:"
+ },
+ "capital_country_089|en": {
+  "prompt": "The country whose capital is Thimphu is",
+  "gen": "\nA. Bhutan\nB. Nepal\nC. India\nD. Bangladesh\nAnswer: A"
+ },
+ "capital_country_089|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी थिम्पू है?\nउत्तर:",
+  "gen": " भूटान है जिसकी राजधानी थिम्पू है।\nप्रश्न: भ"
+ },
+ "capital_country_090|en": {
+  "prompt": "The country whose capital is Dodoma is",
+  "gen": " Tanzania. The country is located in East Africa. The country is bordered by Kenya, Uganda, Rwanda, Burundi,"
+ },
+ "capital_country_090|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी डोडोमा है?\nउत्तर:",
+  "gen": " स्वाजीलैंड है जिसकी राजधानी डोडोमा है।\nप्रश"
+ },
+ "capital_country_091|en": {
+  "prompt": "The country whose capital is Kampala is",
+  "gen": "\nA. Uganda\nB. Kenya\nC. Tanzania\nD. Rwanda\nAnswer: A"
+ },
+ "capital_country_091|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी कंपाला है?\nउत्तर:",
+  "gen": " ग्वाटेमाला है।\nप्रश्न: ग्वाटेमाला का राष्ट्र"
+ },
+ "capital_country_092|en": {
+  "prompt": "The country whose capital is Harare is",
+  "gen": " Zimbabwe. The country is located in Southern Africa. The country is bordered by South Africa, Botswana, Zambia, Moz"
+ },
+ "capital_country_092|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी हरारे है?\nउत्तर:",
+  "gen": " दक्षिण अफ्रीका की राजधानी प्रिटोरिया है।\nप्रश"
+ },
+ "capital_country_093|en": {
+  "prompt": "The country whose capital is Lusaka is",
+  "gen": "\nA. Zambia\nB. Zimbabwe\nC. Botswana\nD. Malawi\nAnswer: A"
+ },
+ "capital_country_093|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी लुसाका है?\nउत्तर:",
+  "gen": " जिम्बाब्वे है।\nप्रश्न: जिम्बाब्वे का राष्ट्र"
+ },
+ "capital_country_094|en": {
+  "prompt": "The country whose capital is Luanda is",
+  "gen": "\nA. Angola\nB. Mozambique\nC. South Africa\nD. Namibia\nAnswer: A"
+ },
+ "capital_country_094|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी लुआंडा है?\nउत्तर:",
+  "gen": " कांगो रिपब्लिक\nप्रश्न: किस देश की राजधान"
+ },
+ "capital_country_095|en": {
+  "prompt": "The country whose capital is Dakar is",
+  "gen": " Senegal.\nThe country whose capital is Dakar is Senegal. Senegal is a country in West Africa. It"
+ },
+ "capital_country_095|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी डकार है?\nउत्तर:",
+  "gen": " फ्रांस है।\nप्रश्न: वह कौन सा देश है जिसकी राज"
+ },
+ "capital_country_096|en": {
+  "prompt": "The country whose capital is Khartoum is",
+  "gen": "\nA. Sudan\nB. Egypt\nC. Libya\nD. Ethiopia\nAnswer: A"
+ },
+ "capital_country_096|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी खार्तूम है?\nउत्तर:",
+  "gen": " सूडान है।\nप्रश्न: वह कौन सा देश है जिसकी राजध"
+ },
+ "capital_country_097|en": {
+  "prompt": "The country whose capital is Antananarivo is",
+  "gen": " Madagascar. The country is located in the Indian Ocean, off the coast of East Africa. The country is a republic with"
+ },
+ "capital_country_097|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी अंतानानारिवो है?\nउत्तर:",
+  "gen": " सीरिया की राजधानी अंतानानारिवो है।\nप्रश्न:"
+ },
+ "capital_country_098|en": {
+  "prompt": "The country whose capital is Maputo is",
+  "gen": "\nA. Mozambique\nB. Angola\nC. South Africa\nD. Zimbabwe\nAnswer: A"
+ },
+ "capital_country_098|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मापुतो है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी मापुतो है? उत"
+ },
+ "capital_country_099|en": {
+  "prompt": "The country whose capital is Sanaa is",
+  "gen": "\nA. Yemen\nB. Saudi Arabia\nC. Oman\nD. Qatar\nAnswer: A"
+ },
+ "capital_country_099|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी सना है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी सना है?\nउत्तर"
+ },
+ "capital_country_100|en": {
+  "prompt": "The country whose capital is Muscat is",
+  "gen": "?\nA. Oman\nB. Qatar\nC. Bahrain\nD. Kuwait\nAnswer: A"
+ },
+ "capital_country_100|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मस्कट है?\nउत्तर:",
+  "gen": " सऊदी अरब की राजधानी मस्कट है।\nप्रश्न: वह क"
+ },
+ "capital_country_101|en": {
+  "prompt": "The country whose capital is Doha is",
+  "gen": "\nA. Qatar\nB. Kuwait\nC. Bahrain\nD. Saudi Arabia\nAnswer: A"
+ },
+ "capital_country_101|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी दोहा है?\nउत्तर:",
+  "gen": " दोहा का देश कतर है।\nप्रश्न: किस देश की राजध"
+ },
+ "capital_country_102|en": {
+  "prompt": "The country whose capital is Amsterdam is",
+  "gen": " the Netherlands. The Netherlands is a country in Western Europe. It is the largest of the Benelux countries. The"
+ },
+ "capital_country_102|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी एम्स्टर्डम है?\nउत्तर:",
+  "gen": " नीदरलैंड्स\nप्रश्न: वह कौन सा देश है जिसकी र"
+ },
+ "capital_country_103|en": {
+  "prompt": "The country whose capital is London is",
+  "gen": " the United Kingdom. The United Kingdom is a country in Europe. It is made up of England, Scotland, Wales,"
+ },
+ "capital_country_103|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी लंदन है?\nउत्तर:",
+  "gen": " यूनाइटेड किंगडम (United Kingdom) की राजधानी लंदन ह"
+ },
+ "capital_country_104|en": {
+  "prompt": "The country whose capital is Tirana is",
+  "gen": " Albania. The country is located in the Balkan Peninsula. The country is bordered by Montenegro, Kosovo, Macedonia,"
+ },
+ "capital_country_104|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी तिराना है?\nउत्तर:",
+  "gen": " रोमानिया की राजधानी तिराना है।\nप्रश्न: वह क"
+ },
+ "capital_country_105|en": {
+  "prompt": "The country whose capital is Valletta is",
+  "gen": " Malta. The country is located in the Mediterranean Sea. The country is a member of the European Union. The country is"
+ },
+ "capital_country_105|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी वैलेटा है?\nउत्तर:",
+  "gen": " स्विट्जरलैंड\nप्रश्न: वह कौन सा देश है जिसकी"
+ },
+ "capital_country_106|en": {
+  "prompt": "The country whose capital is Nicosia is",
+  "gen": " Cyprus. The country is located in the Eastern Mediterranean. The country is a member of the European Union. The country is"
+ },
+ "capital_country_106|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी निकोसिया है?\nउत्तर:",
+  "gen": " क्यprus\nप्रश्न: क्या क्यprus का पूरा नाम है?\n"
+ },
+ "capital_country_107|en": {
+  "prompt": "The country whose capital is Chisinau is",
+  "gen": "\nA. Moldova\nB. Romania\nC. Ukraine\nD. Russia\nAnswer: A"
+ },
+ "capital_country_107|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी चिसिनाउ है?\nउत्तर:",
+  "gen": " वह चीन है जिसकी राजधानी चिसिनाउ है।\nप्रश्न: च"
+ },
+ "capital_country_108|en": {
+  "prompt": "The country whose capital is Tegucigalpa is",
+  "gen": "\nA. Honduras\nB. Guatemala\nC. Nicaragua\nD. El Salvador\nAnswer: A"
+ },
+ "capital_country_108|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी तेगुसिगाल्पा है?\nउत्तर:",
+  "gen": " स्वाजीलैंड है जिसकी राजधानी तेगुसिगाल्पा ह"
+ },
+ "capital_country_109|en": {
+  "prompt": "The country whose capital is Managua is",
+  "gen": " Nicaragua. The country is located in Central America. The country is bordered by Honduras to the north, Costa Rica to the"
+ },
+ "capital_country_109|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मानागुआ है?\nउत्तर:",
+  "gen": " मानागुआ कोलंबिया की राजधानी है।"
+ },
+ "capital_country_110|en": {
+  "prompt": "The country whose capital is Santo Domingo is",
+  "gen": "\nA. Haiti\nB. Cuba\nC. Dominican Republic\nD. Puerto Rico\nAnswer: C"
+ },
+ "capital_country_110|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी सैंटो डोमिंगो है?\nउत्तर:",
+  "gen": " हैती है।\nप्रश्न: वह कौन सा देश है जिसकी राजध"
+ },
+ "capital_country_111|en": {
+  "prompt": "The country whose capital is Port-au-Prince is",
+  "gen": " Haiti. The country is located in the Caribbean region. The country is bordered by the Dominican Republic to the east and the"
+ },
+ "capital_country_111|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी पोर्ट-औ-प्रिंस है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी पोर्ट-औ-प्र"
+ },
+ "capital_country_112|en": {
+  "prompt": "The country whose capital is Kigali is",
+  "gen": "\nA. Rwanda\nB. Burundi\nC. Uganda\nD. Tanzania\nAnswer: A"
+ },
+ "capital_country_112|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी किगाली है?\nउत्तर:",
+  "gen": " रूवांडा है जिसकी राजधानी किगाली है।\nप्रश"
+ },
+ "capital_country_113|en": {
+  "prompt": "The country whose capital is Mogadishu is",
+  "gen": "\nA. Somalia\nB. Kenya\nC. Ethiopia\nD. Tanzania\nAnswer: A"
+ },
+ "capital_country_113|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मोगादिशु है?\nउत्तर:",
+  "gen": " सोमालिया है जिसकी राजधानी मोगादिशु है।\nप्रश"
+ },
+ "capital_country_114|en": {
+  "prompt": "The country whose capital is Gaborone is",
+  "gen": "\nA. Botswana\nB. Lesotho\nC. Swaziland\nD. South Africa\nAnswer"
+ },
+ "capital_country_114|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी गैबोरोन है?\nउत्तर:",
+  "gen": " गैबोरोन की राजधानी लिब्रेविल है।\nप्रश्न: ग"
+ },
+ "capital_country_115|en": {
+  "prompt": "The country whose capital is Windhoek is",
+  "gen": "\nA. Namibia\nB. Botswana\nC. South Africa\nD. Lesotho\nAnswer:"
+ },
+ "capital_country_115|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी विंडहोक है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी विंडहोक है"
+ },
+ "capital_country_116|en": {
+  "prompt": "The country whose capital is Yaoundé is",
+  "gen": " Cameroon. Cameroon is a country in Central Africa. It is bordered by Nigeria to the west, Chad to the northeast,"
+ },
+ "capital_country_116|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी याउंडे है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी याउंडे है? उत"
+ },
+ "capital_country_117|en": {
+  "prompt": "The country whose capital is Manama is",
+  "gen": " Bahrain. The country is located in the Middle East. The country is a monarchy. The country is a member of the"
+ },
+ "capital_country_117|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी मनामा है?\nउत्तर:",
+  "gen": " सोलोमन द्वीपों की राजधानी मनामा है।"
+ },
+ "capital_country_118|en": {
+  "prompt": "The country whose capital is Malé is",
+  "gen": " a republic in the Indian Ocean, located in the southern part of the Maldives archipelago. The country is a"
+ },
+ "capital_country_118|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी माले है?\nउत्तर:",
+  "gen": " स्विट्जरलैंड\nप्रश्न: वह कौन सा देश है जिसकी"
+ },
+ "capital_country_119|en": {
+  "prompt": "The country whose capital is Suva is",
+  "gen": "\nA. Fiji\nB. Tonga\nC. Samoa\nD. Kiribati\nAnswer: A"
+ },
+ "capital_country_119|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी सुवा है?\nउत्तर:",
+  "gen": " वह कौन सा देश है जिसकी राजधानी सुवा है?\nउत"
+ },
+ "capital_country_120|en": {
+  "prompt": "The country whose capital is Dushanbe is",
+  "gen": "\nA. Tajikistan\nB. Uzbekistan\nC. Turkmenistan\nD. Kyrgyzstan\n"
+ },
+ "capital_country_120|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी दुशांबे है?\nउत्तर:",
+  "gen": " ताजिकिस्तान है जिसकी राजधानी दुशांबे है।\nप"
+ },
+ "capital_country_121|en": {
+  "prompt": "The country whose capital is Bishkek is",
+  "gen": "\nA. Kyrgyzstan\nB. Tajikistan\nC. Uzbekistan\nD. Turkmenistan\n"
+ },
+ "capital_country_121|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी बिश्केक है?\nउत्तर:",
+  "gen": " वह क्या देश है जिसकी राजधानी बिश्केक है?\nउत्तर"
+ },
+ "capital_country_122|en": {
+  "prompt": "The country whose capital is Ashgabat is",
+  "gen": "\nA. Turkmenistan\nB. Uzbekistan\nC. Kazakhstan\nD. Kyrgyzstan\nAnswer:"
+ },
+ "capital_country_122|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी अश्गाबात है?\nउत्तर:",
+  "gen": " तुर्कमेनिस्तान है जिसकी राजधानी अश्गाबात है।\n"
+ },
+ "capital_country_123|en": {
+  "prompt": "The country whose capital is Skopje is",
+  "gen": " Macedonia. The country is located in the Balkan Peninsula. The country is bordered by Serbia, Kosovo, Bulgaria, Greece"
+ },
+ "capital_country_123|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी स्कोप्जे है?\nउत्तर:",
+  "gen": " स्कोप्जे राजधानी है यूक्रेन के देश में स्थ"
+ },
+ "capital_country_124|en": {
+  "prompt": "The country whose capital is Podgorica is",
+  "gen": "\nA. Albania\nB. Bosnia and Herzegovina\nC. Montenegro\nD. Serbia\nAnswer:"
+ },
+ "capital_country_124|hi": {
+  "prompt": "प्रश्न: वह कौन सा देश है जिसकी राजधानी पोडगोरिका है?\nउत्तर:",
+  "gen": " स्लोवाकिया है।\nप्रश्न: वह कौन सा देश है जिसकी"
+ },
+ "capital_of_000|en": {
+  "prompt": "The capital of France is",
+  "gen": " Paris. It is the largest city in France and the capital of the Île-de-France region. The city of"
+ },
+ "capital_of_000|hi": {
+  "prompt": "यह सर्वविदित है कि फ्रांस की राजधानी है",
+  "gen": " पेरिस। यहाँ की संस्कृति और संस्कृति के लिए प"
+ },
+ "capital_of_001|en": {
+  "prompt": "The capital of Germany is",
+  "gen": " Berlin. It is the largest city in Germany and the capital of the state of Berlin. It is located in the north"
+ },
+ "capital_of_001|hi": {
+  "prompt": "यह सर्वविदित है कि जर्मनी की राजधानी है",
+  "gen": " बेर्लिन, जो कि यूरोप की सबसे बड़ी राजधानी ह"
+ },
+ "capital_of_002|en": {
+  "prompt": "The capital of Italy is",
+  "gen": " Rome. It is the capital of the Lazio region. It is the capital of the Lazio region. It is"
+ },
+ "capital_of_002|hi": {
+  "prompt": "यह सर्वविदित है कि इटली की राजधानी है",
+  "gen": " रोम, जो कि एक प्राचीन शहर है और इसके पास से कई प"
+ },
+ "capital_of_003|en": {
+  "prompt": "The capital of Spain is",
+  "gen": " Madrid. It is the largest city in Spain and the capital of the autonomous community of Madrid. The city has a population"
+ },
+ "capital_of_003|hi": {
+  "prompt": "यह सर्वविदित है कि स्पेन की राजधानी है",
+  "gen": " मैड्रिड, जो कि स्पेन का सबसे बड़ा शहर है। यहाँ"
+ },
+ "capital_of_004|en": {
+  "prompt": "The capital of Portugal is",
+  "gen": " Lisbon. It is the largest city in Portugal and the capital of the Lisbon District. It is located in the western part"
+ },
+ "capital_of_004|hi": {
+  "prompt": "यह सर्वविदित है कि पुर्तगाल की राजधानी है",
+  "gen": " लिस्बन, लेकिन यहाँ के लोगों को लिस्बन के बारे"
+ },
+ "capital_of_005|en": {
+  "prompt": "The capital of Japan is",
+  "gen": " Tokyo. It is the largest city in the world. It is also the capital of the Kanto region. Tokyo is"
+ },
+ "capital_of_005|hi": {
+  "prompt": "यह सर्वविदित है कि जापान की राजधानी है",
+  "gen": " टोक्यो और यहाँ का मौसम बहुत गर्म रहता है। लेकिन,"
+ },
+ "capital_of_006|en": {
+  "prompt": "The capital of China is",
+  "gen": " Beijing. It is the second largest city in China. It is the political, economic, cultural and educational center of China"
+ },
+ "capital_of_006|hi": {
+  "prompt": "यह सर्वविदित है कि चीन की राजधानी है",
+  "gen": " बीजिंग, जो कि एक प्राचीन शहर है और यहाँ की संस"
+ },
+ "capital_of_007|en": {
+  "prompt": "The capital of India is",
+  "gen": " New Delhi. It is the largest city in India. It is also the capital of the state of Delhi. It is"
+ },
+ "capital_of_007|hi": {
+  "prompt": "यह सर्वविदित है कि भारत की राजधानी है",
+  "gen": " दिल्ली और दिल्ली का सबसे बड़ा शहर है दिल्ली का"
+ },
+ "capital_of_008|en": {
+  "prompt": "The capital of Russia is",
+  "gen": " Moscow. It is the largest city in Europe and the most populous city in Europe. It is also the most populous city"
+ },
+ "capital_of_008|hi": {
+  "prompt": "यह सर्वविदित है कि रूस की राजधानी है",
+  "gen": " मॉस्को और यहाँ के लोगों को मॉस्को वाले कहा ज"
+ },
+ "capital_of_009|en": {
+  "prompt": "The capital of Brazil is",
+  "gen": " Brasilia. It is located in the center of the country. The city was built in the 1950s."
+ },
+ "capital_of_009|hi": {
+  "prompt": "यह सर्वविदित है कि ब्राज़ील की राजधानी है",
+  "gen": " ब्राज़ील की राजधानी ब्राज़ील की राजधानी"
+ },
+ "capital_of_010|en": {
+  "prompt": "The capital of Argentina is",
+  "gen": " Buenos Aires. It is the largest city in the country and the second largest in South America. It is located on the"
+ },
+ "capital_of_010|hi": {
+  "prompt": "यह सर्वविदित है कि अर्जेंटीना की राजधानी है",
+  "gen": " बूएनस आयर्स। यहाँ के लोगों को बूएनोस आय"
+ },
+ "capital_of_011|en": {
+  "prompt": "The capital of Mexico is",
+  "gen": " Mexico City, which is also the largest city in the country. It is located in the Valley of Mexico, which is"
+ },
+ "capital_of_011|hi": {
+  "prompt": "यह सर्वविदित है कि मेक्सिको की राजधानी है",
+  "gen": " मेक्सिको सिटी (Mexico City)। यहाँ के लोगों को मेक"
+ },
+ "capital_of_012|en": {
+  "prompt": "The capital of Canada is",
+  "gen": " Ottawa. It is the fourth largest city in Canada. It is located in the province of Ontario. The city is located"
+ },
+ "capital_of_012|hi": {
+  "prompt": "यह सर्वविदित है कि कनाडा की राजधानी है",
+  "gen": " ओटावा और यहाँ का मौसम बहुत सर्दा होता है। यहाँ"
+ },
+ "capital_of_013|en": {
+  "prompt": "The capital of Australia is",
+  "gen": " Canberra. It is located in the Australian Capital Territory. The city is located in the Australian Capital Territory. The city is"
+ },
+ "capital_of_013|hi": {
+  "prompt": "यह सर्वविदित है कि ऑस्ट्रेलिया की राजधानी है",
+  "gen": " कैनबरा और यहाँ का मौसम बहुत अच्छा होता है। यहाँ"
+ },
+ "capital_of_014|en": {
+  "prompt": "The capital of Greece is",
+  "gen": " Athens. It is the largest city in Greece and the capital of the region of Attica. Athens is a major economic"
+ },
+ "capital_of_014|hi": {
+  "prompt": "यह सर्वविदित है कि ग्रीस की राजधानी है",
+  "gen": " एथेंस। यहाँ के लोगों को एथेंसिया कहा जात"
+ },
+ "capital_of_015|en": {
+  "prompt": "The capital of Turkey is",
+  "gen": " Ankara. It is the second largest city in Turkey. Ankara is the seat of the Turkish government and the Turkish Parliament."
+ },
+ "capital_of_015|hi": {
+  "prompt": "यह सर्वविदित है कि तुर्की की राजधानी है",
+  "gen": " स्टैम्बुल। यहाँ के लोगों को स्टैम्बुली कहा ज"
+ },
+ "capital_of_016|en": {
+  "prompt": "The capital of Sweden is",
+  "gen": " Stockholm. It is the largest city in Sweden and the capital of the province of Stockholm. Stockholm is located on 14"
+ },
+ "capital_of_016|hi": {
+  "prompt": "यह सर्वविदित है कि स्वीडन की राजधानी है",
+  "gen": " स्टॉकहोम। यहाँ के लोगों को स्टॉकहोमिया कहा"
+ },
+ "capital_of_017|en": {
+  "prompt": "The capital of Norway is",
+  "gen": " Oslo. It is located in the south-east of the country. The city is located on the Oslofjord,"
+ },
+ "capital_of_017|hi": {
+  "prompt": "यह सर्वविदित है कि नॉर्वे की राजधानी है",
+  "gen": " ओस्लो. यहाँ के लोगों को नॉर्वे के लोगों क"
+ },
+ "capital_of_018|en": {
+  "prompt": "The capital of Finland is",
+  "gen": " Helsinki. It is the largest city in Finland. It is located in the southern part of the country. Helsinki is the"
+ },
+ "capital_of_018|hi": {
+  "prompt": "यह सर्वविदित है कि फ़िनलैंड की राजधानी है",
+  "gen": " हेलसिंकी और यहाँ के लोगों को हेल्सिन्की के"
+ },
+ "capital_of_019|en": {
+  "prompt": "The capital of Denmark is",
+  "gen": " Copenhagen. It is the largest city in Denmark and the capital of the region of Zealand. Copenhagen is the most populated city"
+ },
+ "capital_of_019|hi": {
+  "prompt": "यह सर्वविदित है कि डेनमार्क की राजधानी है",
+  "gen": " क्या?\nA. कोपेनहेगन\nB. कोलोन\nC. कोलोन"
+ },
+ "capital_of_020|en": {
+  "prompt": "The capital of Poland is",
+  "gen": " Warsaw. It is the largest city in Poland and the capital of the Masovian Voivodeship. It is"
+ },
+ "capital_of_020|hi": {
+  "prompt": "यह सर्वविदित है कि पोलैंड की राजधानी है",
+  "gen": " वारसॉ. यहाँ के लोगों को पोलिश कहा जाता है"
+ },
+ "capital_of_021|en": {
+  "prompt": "The capital of Austria is",
+  "gen": " Vienna. It is the largest city in Austria and the 9th largest city in the European Union. Vienna is the"
+ },
+ "capital_of_021|hi": {
+  "prompt": "यह सर्वविदित है कि ऑस्ट्रिया की राजधानी है",
+  "gen": " वियना और यहाँ के लोगों को वियना के लोग कहा जात"
+ },
+ "capital_of_022|en": {
+  "prompt": "The capital of Switzerland is",
+  "gen": " Bern. It is the largest city in Switzerland and the capital of the canton of Bern. It is located in the"
+ },
+ "capital_of_022|hi": {
+  "prompt": "यह सर्वविदित है कि स्विट्ज़रलैंड की राजधानी है",
+  "gen": " जेनेवा और यहाँ के लोगों को जेनेवा के लोग कहा"
+ },
+ "capital_of_023|en": {
+  "prompt": "The capital of Belgium is",
+  "gen": " Brussels. It is the largest city in Belgium and the capital of the Brussels-Capital Region. Brussels is located in"
+ },
+ "capital_of_023|hi": {
+  "prompt": "यह सर्वविदित है कि बेल्जियम की राजधानी है",
+  "gen": " ब्रुसेल्स। बेल्जियम के राजधानी के नाम से यह"
+ },
+ "capital_of_024|en": {
+  "prompt": "The capital of Ireland is",
+  "gen": " Dublin. It is the largest city in the country and the most populous city. It is located on the east coast of"
+ },
+ "capital_of_024|hi": {
+  "prompt": "यह सर्वविदित है कि आयरलैंड की राजधानी है",
+  "gen": " डब्लिन. यहाँ के लोगों को डब्लिनी कहा जाता"
+ },
+ "capital_of_025|en": {
+  "prompt": "The capital of Peru is",
+  "gen": " Lima. It is located on the Pacific coast, in the central part of the country. The city is the largest in"
+ },
+ "capital_of_025|hi": {
+  "prompt": "यह सर्वविदित है कि पेरू की राजधानी है",
+  "gen": " लिमा और यहाँ के लोगों को लिमेनोस कहा जाता है।"
+ },
+ "capital_of_026|en": {
+  "prompt": "The capital of Chile is",
+  "gen": " Santiago. It is the largest city in the country and the second largest in South America. It is located in the central"
+ },
+ "capital_of_026|hi": {
+  "prompt": "यह सर्वविदित है कि चिली की राजधानी है",
+  "gen": " सान्टियागो और यहाँ का मौसम बहुत गर्म होता है। ल"
+ },
+ "capital_of_027|en": {
+  "prompt": "The capital of Colombia is",
+  "gen": " Bogota. It is the largest city in the country and the capital of the department of Cundinamarca."
+ },
+ "capital_of_027|hi": {
+  "prompt": "यह सर्वविदित है कि कोलंबिया की राजधानी है",
+  "gen": " बोगोटा और यहाँ का मौसम बहुत गर्म होता है। इसलिए,"
+ },
+ "capital_of_028|en": {
+  "prompt": "The capital of Venezuela is",
+  "gen": " Caracas. It is located in the north of the country, on the Caribbean coast. The city is located on a"
+ },
+ "capital_of_028|hi": {
+  "prompt": "यह सर्वविदित है कि वेनेज़ुएला की राजधानी है",
+  "gen": " काराकास, जो कि वेनेज़ुएला का सबसे बड़ा शहर"
+ },
+ "capital_of_029|en": {
+  "prompt": "The capital of Thailand is",
+  "gen": " Bangkok. It is the largest city in Thailand and the most populous city in Southeast Asia. It is also the most populous"
+ },
+ "capital_of_029|hi": {
+  "prompt": "यह सर्वविदित है कि थाईलैंड की राजधानी है",
+  "gen": " बैंकॉक। यहाँ पर काफी सारी संस्कृतियाँ मिल जात"
+ },
+ "capital_of_030|en": {
+  "prompt": "The capital of Vietnam is",
+  "gen": " Hanoi. It is the second largest city in Vietnam. It is located in the north of the country. It is"
+ },
+ "capital_of_030|hi": {
+  "prompt": "यह सर्वविदित है कि वियतनाम की राजधानी है",
+  "gen": " हनोई. हनोई के पास से पूर्व में ही एक छोटा"
+ },
+ "capital_of_031|en": {
+  "prompt": "The capital of Indonesia is",
+  "gen": " Jakarta. It is the largest city in the country and the most populous city in Southeast Asia. Jakarta is the center of"
+ },
+ "capital_of_031|hi": {
+  "prompt": "यह सर्वविदित है कि इंडोनेशिया की राजधानी है",
+  "gen": " जकार्ता और यहाँ के लोगों को जकार्ता के लोग"
+ },
+ "capital_of_032|en": {
+  "prompt": "The capital of Pakistan is",
+  "gen": " Islamabad. It is the largest city of Pakistan. It is located in the north of the country. Islamabad is the capital"
+ },
+ "capital_of_032|hi": {
+  "prompt": "यह सर्वविदित है कि पाकिस्तान की राजधानी है",
+  "gen": " इस्लामाबाद। लेकिन इस्लामाबाद का असली नाम लाहौर"
+ },
+ "capital_of_033|en": {
+  "prompt": "The capital of Bangladesh is",
+  "gen": " Dhaka. The country is located in South Asia. It is bordered by India to the north, west and east,"
+ },
+ "capital_of_033|hi": {
+  "prompt": "यह सर्वविदित है कि बांग्लादेश की राजधानी है",
+  "gen": " ढाका और यहाँ का मौसम बहुत गर्म होता है। इस गर्मी"
+ },
+ "capital_of_034|en": {
+  "prompt": "The capital of Nepal is",
+  "gen": " Kathmandu. It is the largest city in Nepal and the cultural, economic and political center of the country. Kath"
+ },
+ "capital_of_034|hi": {
+  "prompt": "यह सर्वविदित है कि नेपाल की राजधानी है",
+  "gen": " काठमांडू। काठमांडू के पास से ही प्रसिद"
+ },
+ "capital_of_035|en": {
+  "prompt": "The capital of Sri Lanka is",
+  "gen": " Colombo. It is the largest city in the country and the main port. Colombo is a busy city with a"
+ },
+ "capital_of_035|hi": {
+  "prompt": "यह सर्वविदित है कि श्रीलंका की राजधानी है",
+  "gen": " कोलंबो. यहाँ के लोगों को कोलंबो के नाम से"
+ },
+ "capital_of_036|en": {
+  "prompt": "The capital of Iran is",
+  "gen": " Tehran. It is the largest city in Iran and the capital of Tehran Province. The city is home to 8."
+ },
+ "capital_of_036|hi": {
+  "prompt": "यह सर्वविदित है कि ईरान की राजधानी है",
+  "gen": " तेहरान। यहाँ के लोगों को तेहरानी कहा जाता है।"
+ },
+ "capital_of_037|en": {
+  "prompt": "The capital of Iraq is",
+  "gen": " Baghdad. It is located in the center of the country. The city is located on the Tigris River. The"
+ },
+ "capital_of_037|hi": {
+  "prompt": "यह सर्वविदित है कि इराक की राजधानी है",
+  "gen": " बगदाद, जो कि इराक का सबसे बड़ा शहर है। यहाँ क"
+ },
+ "capital_of_038|en": {
+  "prompt": "The capital of Saudi Arabia is",
+  "gen": " Riyadh. The city is located in the center of the country and is the largest city in the country. The city is"
+ },
+ "capital_of_038|hi": {
+  "prompt": "यह सर्वविदित है कि सऊदी अरब की राजधानी है",
+  "gen": " रियाद। यहाँ के लोगों को रियादी कहा जाता है।"
+ },
+ "capital_of_039|en": {
+  "prompt": "The capital of Kenya is",
+  "gen": " Nairobi. It is the largest city in Kenya and the capital of the province of Nairobi. It is located in the central"
+ },
+ "capital_of_039|hi": {
+  "prompt": "यह सर्वविदित है कि केन्या की राजधानी है",
+  "gen": " नैरोबी और यहाँ के लोगों का जीवन बहुत ही सस्ता"
+ },
+ "capital_of_040|en": {
+  "prompt": "The capital of Nigeria is",
+  "gen": " Abuja. The country is located in West Africa. Nigeria is the most populous country in Africa. The country is the"
+ },
+ "capital_of_040|hi": {
+  "prompt": "यह सर्वविदित है कि नाइजीरिया की राजधानी है",
+  "gen": " अबुजा और यहाँ का मौसम बहुत गर्म होता है। यहाँ के"
+ },
+ "capital_of_041|en": {
+  "prompt": "The capital of Ethiopia is",
+  "gen": " Addis Ababa. It is the largest city in Ethiopia and the second largest city in Africa. It is located in"
+ },
+ "capital_of_041|hi": {
+  "prompt": "यह सर्वविदित है कि इथियोपिया की राजधानी है",
+  "gen": " एडिस अबाबा जो कि एथियोपिया का सबसे बड़ा शहर है।"
+ },
+ "capital_of_042|en": {
+  "prompt": "The capital of Morocco is",
+  "gen": " Rabat. It is the largest city in the country. It is located on the Atlantic Ocean. It is the capital"
+ },
+ "capital_of_042|hi": {
+  "prompt": "यह सर्वविदित है कि मोरक्को की राजधानी है",
+  "gen": " रबात. यहाँ के लोगों को मोरक्को की राजधान"
+ },
+ "capital_of_043|en": {
+  "prompt": "The capital of Algeria is",
+  "gen": " Algiers. It is located on the Mediterranean coast. The city is the largest in Algeria and the largest in North Africa"
+ },
+ "capital_of_043|hi": {
+  "prompt": "यह सर्वविदित है कि अल्जीरिया की राजधानी है",
+  "gen": " अल्जीरिया की राजधानी अल्जीरिया की राजधानी"
+ },
+ "capital_of_044|en": {
+  "prompt": "The capital of South Africa is",
+  "gen": " Pretoria. It is the administrative capital of the country. The city is located in the north of the country. It"
+ },
+ "capital_of_044|hi": {
+  "prompt": "यह सर्वविदित है कि दक्षिण अफ़्रीका की राजधानी है",
+  "gen": " प्रिटोरिया और यहाँ का मौसम बहुत गर्म होता है। यह"
+ },
+ "capital_of_045|en": {
+  "prompt": "The capital of Ghana is",
+  "gen": " Accra. The country is located in West Africa. Ghana is a country of 29 million people. The official language"
+ },
+ "capital_of_045|hi": {
+  "prompt": "यह सर्वविदित है कि घाना की राजधानी है",
+  "gen": " अक्रा और यहाँ के लोग अक्रा के नाम से जाने जात"
+ },
+ "capital_of_046|en": {
+  "prompt": "The capital of Hungary is",
+  "gen": " Budapest. It is the largest city in Hungary and the 9th largest city in the European Union. It is located"
+ },
+ "capital_of_046|hi": {
+  "prompt": "यह सर्वविदित है कि हंगरी की राजधानी है",
+  "gen": " बुडापेस्ट. यहाँ के लोगों को बुडापेस्टी कहा ज"
+ },
+ "capital_of_047|en": {
+  "prompt": "The capital of Romania is",
+  "gen": " Bucharest. It is the largest city in Romania and the 6th largest city in the European Union. The city"
+ },
+ "capital_of_047|hi": {
+  "prompt": "यह सर्वविदित है कि रोमानिया की राजधानी है",
+  "gen": " बुखारेस्ट। यहाँ के लोगों को बुखारेस्टी के न"
+ },
+ "capital_of_048|en": {
+  "prompt": "The capital of Ukraine is",
+  "gen": " Kiev. It is the largest city in the country. It is located on the Dnieper River. It is the"
+ },
+ "capital_of_048|hi": {
+  "prompt": "यह सर्वविदित है कि यूक्रेन की राजधानी है",
+  "gen": " क्या?\nA. कीव\nB. क्रीमिया\nC. खार्किव\nD"
+ },
+ "capital_of_049|en": {
+  "prompt": "The capital of Bulgaria is",
+  "gen": " Sofia. It is the largest city in the country and the country’s political, cultural, and economic center. The city"
+ },
+ "capital_of_049|hi": {
+  "prompt": "यह सर्वविदित है कि बुल्गारिया की राजधानी है",
+  "gen": " सोफिया और यहाँ का मौसम बहुत गर्म होता है। इसलिए,"
+ },
+ "capital_of_050|en": {
+  "prompt": "The capital of Serbia is",
+  "gen": " Belgrade. It is the largest city in Serbia and the capital of the province of Serbia. It is located on the"
+ },
+ "capital_of_050|hi": {
+  "prompt": "यह सर्वविदित है कि सर्बिया की राजधानी है",
+  "gen": " बेलग्रेड, जो कि स्लोवेनिया के साथ सीमा पर"
+ },
+ "capital_of_051|en": {
+  "prompt": "The capital of Croatia is",
+  "gen": " Zagreb. It is the largest city in the country and the seat of the government. It is also the largest city"
+ },
+ "capital_of_051|hi": {
+  "prompt": "यह सर्वविदित है कि क्रोएशिया की राजधानी है",
+  "gen": " जाग्रेबेल्जा (Zagreb)। यहाँ के लोगों को क्र"
+ },
+ "capital_of_052|en": {
+  "prompt": "The capital of Iceland is",
+  "gen": " Reykjavik. It is the largest city in Iceland and is located on the south coast of the country. It"
+ },
+ "capital_of_052|hi": {
+  "prompt": "यह सर्वविदित है कि आइसलैंड की राजधानी है",
+  "gen": " रेक्याविक, जो कि एक छोटा सा शहर है जो कि एक"
+ },
+ "capital_of_053|en": {
+  "prompt": "The capital of Mongolia is",
+  "gen": " Ulaanbaatar. It is the largest city in Mongolia and the country’s political, economic, and cultural center"
+ },
+ "capital_of_053|hi": {
+  "prompt": "यह सर्वविदित है कि मंगोलिया की राजधानी है",
+  "gen": " उलान बातोर. यहाँ का मौसम बहुत ठंडा होता है"
+ },
+ "capital_of_054|en": {
+  "prompt": "The capital of Afghanistan is",
+  "gen": " Kabul. The country is located in the heart of Asia. It is bordered by Pakistan, Iran, Turkmenistan,"
+ },
+ "capital_of_054|hi": {
+  "prompt": "यह सर्वविदित है कि अफ़ग़ानिस्तान की राजधानी है",
+  "gen": " काबुल, जो कि पाकिस्तान के साथ सीमा पर स्थित"
+ },
+ "capital_of_055|en": {
+  "prompt": "The capital of Cambodia is",
+  "gen": " Phnom Penh. It is the largest city in the country and is located on the banks of the Mekong River"
+ },
+ "capital_of_055|hi": {
+  "prompt": "यह सर्वविदित है कि कंबोडिया की राजधानी है",
+  "gen": " पनोमपेन, जो कि कंबोडिया का सबसे बड़ा शहर है।"
+ },
+ "capital_of_056|en": {
+  "prompt": "The capital of South Korea is",
+  "gen": " Seoul. It is the largest city in South Korea and the capital of the Seoul Capital Area, which includes the surrounding In"
+ },
+ "capital_of_056|hi": {
+  "prompt": "यह सर्वविदित है कि दक्षिण कोरिया की राजधानी है",
+  "gen": " से से क्या है? क्या आप जानते हैं कि यह कौन"
+ },
+ "capital_of_057|en": {
+  "prompt": "The capital of Jordan is",
+  "gen": " Amman, which is located in the north of the country. The city is the largest in the country and is the"
+ },
+ "capital_of_057|hi": {
+  "prompt": "यह सर्वविदित है कि जॉर्डन की राजधानी है",
+  "gen": " अम्मान। यहाँ के लोगों को जॉर्डनिया के नाम स"
+ },
+ "capital_of_058|en": {
+  "prompt": "The capital of Lebanon is",
+  "gen": " Beirut. It is located on the Mediterranean Sea. It is the largest city in Lebanon. It is also the largest city"
+ },
+ "capital_of_058|hi": {
+  "prompt": "यह सर्वविदित है कि लेबनान की राजधानी है",
+  "gen": " बेय्रुत, जो कि लेबनान का सबसे बड़ा शहर है। यहाँ"
+ },
+ "capital_of_059|en": {
+  "prompt": "The capital of Syria is",
+  "gen": " Damascus. It is the oldest continuously inhabited city in the world. It is also the oldest continuously inhabited city in the world"
+ },
+ "capital_of_059|hi": {
+  "prompt": "यह सर्वविदित है कि सीरिया की राजधानी है",
+  "gen": " दमिश्क, जो कि सीरिया का सबसे बड़ा शहर है। यहाँ"
+ },
+ "capital_of_060|en": {
+  "prompt": "The capital of Libya is",
+  "gen": " Tripoli. The country is located in North Africa. The country is bordered by the Mediterranean Sea to the north, Algeria"
+ },
+ "capital_of_060|hi": {
+  "prompt": "यह सर्वविदित है कि लीबिया की राजधानी है",
+  "gen": " त्रिपोली है और यहाँ के लोगों को त्रिपोलिया क"
+ },
+ "capital_of_061|en": {
+  "prompt": "The capital of Uruguay is",
+  "gen": " Montevideo. It is the largest city in the country and the most populous. It is located on the eastern coast"
+ },
+ "capital_of_061|hi": {
+  "prompt": "यह सर्वविदित है कि उरुग्वे की राजधानी है",
+  "gen": " मонтेवीडियो और यहाँ का मौसम बहुत गर्म होता है। म"
+ },
+ "capital_of_062|en": {
+  "prompt": "The capital of Ecuador is",
+  "gen": " Quito. It is located in the Andes Mountains at an altitude of 2,850 meters (9,350"
+ },
+ "capital_of_062|hi": {
+  "prompt": "यह सर्वविदित है कि इक्वाडोर की राजधानी है",
+  "gen": " क्या?\nA. क्वितो\nB. क्विन्तो\nC. क्विन"
+ },
+ "capital_of_063|en": {
+  "prompt": "The capital of Paraguay is",
+  "gen": " Asunción. It is the largest city in the country and the capital of the department of the same name. The"
+ },
+ "capital_of_063|hi": {
+  "prompt": "यह सर्वविदित है कि पैराग्वे की राजधानी है",
+  "gen": " असुन्सियो. यहाँ के लोगों को पैराग्वे के लोग"
+ },
+ "capital_of_064|en": {
+  "prompt": "The capital of Jamaica is",
+  "gen": " Kingston. It is the largest city in the country and the second largest city in the Caribbean. Kingston is located on the"
+ },
+ "capital_of_064|hi": {
+  "prompt": "यह सर्वविदित है कि जमैका की राजधानी है",
+  "gen": " किंगस्टन, जो कि दुनिया के सबसे सुंदर शहरों"
+ },
+ "capital_of_065|en": {
+  "prompt": "The capital of New Zealand is",
+  "gen": " Wellington. It is located on the south coast of the North Island. The city is situated on the edge of the Cook"
+ },
+ "capital_of_065|hi": {
+  "prompt": "यह सर्वविदित है कि न्यूज़ीलैंड की राजधानी है",
+  "gen": " वेलिंगटन। यहाँ के लोगों को वेलिंगटन के नाम"
+ },
+ "capital_of_066|en": {
+  "prompt": "The capital of Cuba is",
+  "gen": " Havana. It is the largest city in Cuba and the second largest city in the Caribbean. It is located on the northern"
+ },
+ "capital_of_066|hi": {
+  "prompt": "यह सर्वविदित है कि क्यूबा की राजधानी है",
+  "gen": " हवाना और यहाँ का मौसम बहुत गर्म होता है। यहाँ क"
+ },
+ "capital_of_067|en": {
+  "prompt": "The capital of Bolivia is",
+  "gen": " La Paz, which is located in the highlands of the Andes Mountains. The city is located at an altitude of"
+ },
+ "capital_of_067|hi": {
+  "prompt": "यह सर्वविदित है कि बोलीविया की राजधानी है",
+  "gen": " ला पास. ला पास का नाम स्पेनिश भाषा में ला"
+ },
+ "capital_of_068|en": {
+  "prompt": "The capital of Costa Rica is",
+  "gen": " San Jose. It is the largest city in the country and the country’s economic, political, and cultural center. The"
+ },
+ "capital_of_068|hi": {
+  "prompt": "यह सर्वविदित है कि कोस्टा रिका की राजधानी है",
+  "gen": " सान जोसे. यहाँ के लोगों को सान जोसे के नाम"
+ },
+ "capital_of_069|en": {
+  "prompt": "The capital of Panama is",
+  "gen": " Panama City. It is the largest city in Panama and the largest city in Central America. Panama City is located on the"
+ },
+ "capital_of_069|hi": {
+  "prompt": "यह सर्वविदित है कि पनामा की राजधानी है",
+  "gen": " पनामा सिटी (Panama City)। यहाँ का मौसम बहुत गरम"
+ },
+ "capital_of_070|en": {
+  "prompt": "The capital of Egypt is",
+  "gen": " Cairo. The city is located in the north of the country. The city is located on the banks of the Nile River"
+ },
+ "capital_of_070|hi": {
+  "prompt": "यह सर्वविदित है कि मिस्र की राजधानी है",
+  "gen": " कैफ्रे. यहाँ के लोगों को कैफ्रे के नाम"
+ },
+ "capital_of_071|en": {
+  "prompt": "The capital of Israel is",
+  "gen": " Jerusalem. It is located in the center of the country, on the western slope of the Judean Mountains. The city"
+ },
+ "capital_of_071|hi": {
+  "prompt": "यह सर्वविदित है कि इज़राइल की राजधानी है",
+  "gen": " जेरूसलम, जो कि इस्राएल का प्रमुख शहर है। यहाँ"
+ },
+ "capital_of_072|en": {
+  "prompt": "The capital of the Czech Republic is",
+  "gen": " a city of contrasts. It is a city of great beauty, with a rich history and culture, and yet it is"
+ },
+ "capital_of_072|hi": {
+  "prompt": "यह सर्वविदित है कि चेक गणराज्य की राजधानी है",
+  "gen": " प्राग। यहाँ के लोगों को प्रागी कहा जाता है।"
+ },
+ "capital_of_073|en": {
+  "prompt": "The capital of Slovakia is",
+  "gen": " Bratislava. It is the largest city in Slovakia and the capital of the Bratislava Region. It is located"
+ },
+ "capital_of_073|hi": {
+  "prompt": "यह सर्वविदित है कि स्लोवाकिया की राजधानी है",
+  "gen": " ब्राटिस्लावा (Bratislava)। यहाँ के लोगों को स्ल"
+ },
+ "capital_of_074|en": {
+  "prompt": "The capital of Slovenia is",
+  "gen": " Ljubljana. It is the largest city in the country and the only one with a population of over "
+ },
+ "capital_of_074|hi": {
+  "prompt": "यह सर्वविदित है कि स्लोवेनिया की राजधानी है",
+  "gen": " ल्युब्लाना और यहाँ के लोगों को स्लोवेनिया के"
+ },
+ "capital_of_075|en": {
+  "prompt": "The capital of Estonia is",
+  "gen": " Tallinn. It is a city with a rich history and a vibrant culture. The city is home to many museums,"
+ },
+ "capital_of_075|hi": {
+  "prompt": "यह सर्वविदित है कि एस्टोनिया की राजधानी है",
+  "gen": " तालिन. यहाँ के लोगों को तालिनी कहा जाता है."
+ },
+ "capital_of_076|en": {
+  "prompt": "The capital of Latvia is",
+  "gen": " Riga. It is the largest city in the country and the third largest in the Baltic states. Riga is a"
+ },
+ "capital_of_076|hi": {
+  "prompt": "यह सर्वविदित है कि लातविया की राजधानी है",
+  "gen": " रिगा और यहाँ का प्रमुख पर्यटन स्थल है रिगा का क"
+ },
+ "capital_of_077|en": {
+  "prompt": "The capital of Lithuania is",
+  "gen": " Vilnius. It is the largest city in the country and the second largest in the Baltic states. The city is"
+ },
+ "capital_of_077|hi": {
+  "prompt": "यह सर्वविदित है कि लिथुआनिया की राजधानी है",
+  "gen": " विल्नियस, जो कि यूरोप की सबसे पुरानी शहरों म"
+ },
+ "capital_of_078|en": {
+  "prompt": "The capital of Belarus is",
+  "gen": " Minsk. It is the largest city in the country and the administrative, cultural, and economic center. Minsk is"
+ },
+ "capital_of_078|hi": {
+  "prompt": "यह सर्वविदित है कि बेलारूस की राजधानी है",
+  "gen": " मिन्स्क, जो कि यूरोप की सबसे बड़ी शहरों में से"
+ },
+ "capital_of_079|en": {
+  "prompt": "The capital of Georgia is",
+  "gen": " Tbilisi. The city is located on the banks of the Kura River. The city is located in the south"
+ },
+ "capital_of_079|hi": {
+  "prompt": "यह सर्वविदित है कि जॉर्जिया की राजधानी है",
+  "gen": " सावानाहा और यहाँ के लोगों को सावानाहा के लोग"
+ },
+ "capital_of_080|en": {
+  "prompt": "The capital of Armenia is",
+  "gen": " Yerevan. It is located in the central part of the country, on the banks of the Hrazdan River"
+ },
+ "capital_of_080|hi": {
+  "prompt": "यह सर्वविदित है कि आर्मेनिया की राजधानी है",
+  "gen": " येरवान। यहाँ के लोगों को येरवानी कहा जाता"
+ },
+ "capital_of_081|en": {
+  "prompt": "The capital of Azerbaijan is",
+  "gen": " Baku. It is located on the coast of the Caspian Sea. The city is the largest in the country"
+ },
+ "capital_of_081|hi": {
+  "prompt": "यह सर्वविदित है कि अज़रबैजान की राजधानी है",
+  "gen": " बाकू. यहाँ के लोगों को बाकूवी कहा जाता ह"
+ },
+ "capital_of_082|en": {
+  "prompt": "The capital of Kazakhstan is",
+  "gen": " Astana. It is the largest city in the country and the administrative center of the country. The city is located in"
+ },
+ "capital_of_082|hi": {
+  "prompt": "यह सर्वविदित है कि कज़ाख़स्तान की राजधानी है",
+  "gen": " अल्माती और यहाँ के लोगों को अल्माती लोग कहा जात"
+ },
+ "capital_of_083|en": {
+  "prompt": "The capital of Uzbekistan is",
+  "gen": " Tashkent. It is the largest city in the country and the center of the Tashkent Region."
+ },
+ "capital_of_083|hi": {
+  "prompt": "यह सर्वविदित है कि उज़्बेकिस्तान की राजधानी है",
+  "gen": " ताशकंद। यहाँ के लोगों को ताशकंदी कहा जाता"
+ },
+ "capital_of_084|en": {
+  "prompt": "The capital of Myanmar is",
+  "gen": " Nay Pyi Taw, but the country’s largest city is Yangon. Yangon is the former capital of Myanmar"
+ },
+ "capital_of_084|hi": {
+  "prompt": "यह सर्वविदित है कि म्यांमार की राजधानी है",
+  "gen": " यांगोन (यांगोन)। यहाँ के लोगों को यांगोन"
+ },
+ "capital_of_085|en": {
+  "prompt": "The capital of Malaysia is",
+  "gen": " Kuala Lumpur. It is the largest city in Malaysia. It is also the capital of the state of Selangor."
+ },
+ "capital_of_085|hi": {
+  "prompt": "यह सर्वविदित है कि मलेशिया की राजधानी है",
+  "gen": " क्या?\nA. कुआलालंपुर\nB. कुआला न्युमुर\n"
+ },
+ "capital_of_086|en": {
+  "prompt": "The capital of the Philippines is",
+  "gen": " Manila. It is the largest city in the country and the most populous city in the Philippines. It is also the most"
+ },
+ "capital_of_086|hi": {
+  "prompt": "यह सर्वविदित है कि फ़िलीपींस की राजधानी है",
+  "gen": " मैनिला और यहाँ का मौसम बहुत गर्म होता है। मैनिल"
+ },
+ "capital_of_087|en": {
+  "prompt": "The capital of Laos is",
+  "gen": " Vientiane. It is a small city with a population of about 200,000. It is located on the"
+ },
+ "capital_of_087|hi": {
+  "prompt": "यह सर्वविदित है कि लाओस की राजधानी है",
+  "gen": " वियतनाम के साथ सीमा पर स्थित है। यहाँ के लोगों"
+ },
+ "capital_of_088|en": {
+  "prompt": "The capital of North Korea is",
+  "gen": " Pyongyang. It is the largest city in the country and is located in the northwestern part of the country. The city"
+ },
+ "capital_of_088|hi": {
+  "prompt": "यह सर्वविदित है कि उत्तर कोरिया की राजधानी है",
+  "gen": " प्योंगयांग, जो कि पूर्वी एशिया के सबसे"
+ },
+ "capital_of_089|en": {
+  "prompt": "The capital of Bhutan is",
+  "gen": " Thimphu. It is the only capital city in the world that is not built on a plain. Thim"
+ },
+ "capital_of_089|hi": {
+  "prompt": "यह सर्वविदित है कि भूटान की राजधानी है",
+  "gen": " थिम्पू, जो कि भूटान का सबसे बड़ा शहर है। यहाँ क"
+ },
+ "capital_of_090|en": {
+  "prompt": "The capital of Tanzania is",
+  "gen": " Dar es Salaam. The city is located on the coast of the Indian Ocean and is the largest city in the country"
+ },
+ "capital_of_090|hi": {
+  "prompt": "यह सर्वविदित है कि तंज़ानिया की राजधानी है",
+  "gen": " डार-ए-सलाम, जो कि एक प्राचीन शहर है और यहाँ पर"
+ },
+ "capital_of_091|en": {
+  "prompt": "The capital of Uganda is",
+  "gen": " Kampala. It is the largest city in Uganda and the largest city in East Africa. It is located in the south"
+ },
+ "capital_of_091|hi": {
+  "prompt": "यह सर्वविदित है कि युगांडा की राजधानी है",
+  "gen": " केप टाउन, जो कि एक प्राचीन शहर है जो 1500 स"
+ },
+ "capital_of_092|en": {
+  "prompt": "The capital of Zimbabwe is",
+  "gen": " Harare. The country is located in Southern Africa. The country is bordered by South Africa, Botswana, Zambia,"
+ },
+ "capital_of_092|hi": {
+  "prompt": "यह सर्वविदित है कि ज़िम्बाब्वे की राजधानी है",
+  "gen": " हारारे और यहाँ का मौसम बहुत गर्म होता है। यहाँ क"
+ },
+ "capital_of_093|en": {
+  "prompt": "The capital of Zambia is",
+  "gen": " Lusaka. The country is located in Southern Africa. The country is bordered by the Democratic Republic of the Congo,"
+ },
+ "capital_of_093|hi": {
+  "prompt": "यह सर्वविदित है कि ज़ाम्बिया की राजधानी है",
+  "gen": " लुसाका और यहाँ का मौसम बहुत गर्म होता है। लेकिन"
+ },
+ "capital_of_094|en": {
+  "prompt": "The capital of Angola is",
+  "gen": " Luanda. It is the largest city in the country and the largest city in Africa. It is located on the coast"
+ },
+ "capital_of_094|hi": {
+  "prompt": "यह सर्वविदित है कि अंगोला की राजधानी है",
+  "gen": " लुइसा और यहाँ का मौसम बहुत गर्म होता है। लु�"
+ },
+ "capital_of_095|en": {
+  "prompt": "The capital of Senegal is",
+  "gen": " Dakar. It is the largest city in the country and the economic and cultural center. The city is located on the"
+ },
+ "capital_of_095|hi": {
+  "prompt": "यह सर्वविदित है कि सेनेगल की राजधानी है",
+  "gen": " दकार, जो कि एक प्रसिद्ध सांस्कृतिक और आर्थिक क"
+ },
+ "capital_of_096|en": {
+  "prompt": "The capital of Sudan is",
+  "gen": " Khartoum. The country is located in the northeast of Africa. The country is bordered by Egypt, Chad,"
+ },
+ "capital_of_096|hi": {
+  "prompt": "यह सर्वविदित है कि सूडान की राजधानी है",
+  "gen": " क्या?\nA. कार्तूम\nB. कार्तूम\nC. कार्तूम"
+ },
+ "capital_of_097|en": {
+  "prompt": "The capital of Madagascar is",
+  "gen": " Antananarivo. It is the largest city in Madagascar and the seat of the High Court of Madagascar. The city"
+ },
+ "capital_of_097|hi": {
+  "prompt": "यह सर्वविदित है कि मेडागास्कर की राजधानी है",
+  "gen": " अंटानानारिवो. यहाँ के लोगों को अंटानानारिवो"
+ },
+ "capital_of_098|en": {
+  "prompt": "The capital of Mozambique is",
+  "gen": " Maputo, which is also the largest city in the country. It is located on the Indian Ocean coast and is the"
+ },
+ "capital_of_098|hi": {
+  "prompt": "यह सर्वविदित है कि मोज़ाम्बिक की राजधानी है",
+  "gen": " लुसाका जो कि ज़िम्बाब्वे के पूर्वी भाग म"
+ },
+ "capital_of_099|en": {
+  "prompt": "The capital of Yemen is",
+  "gen": " Sana’a. The city is located in the highlands of the country, at an altitude of 2,200"
+ },
+ "capital_of_099|hi": {
+  "prompt": "यह सर्वविदित है कि यमन की राजधानी है",
+  "gen": " साना और यहाँ के लोगों को साना के लोग कहा जात"
+ },
+ "capital_of_100|en": {
+  "prompt": "The capital of Oman is",
+  "gen": " Muscat. It is a city of contrasts, with a modern skyline and a traditional Old Town. The city is located"
+ },
+ "capital_of_100|hi": {
+  "prompt": "यह सर्वविदित है कि ओमान की राजधानी है",
+  "gen": " मस्कत। यहाँ के लोग बहुत ही सुंदर होते हैं और यह"
+ },
+ "capital_of_101|en": {
+  "prompt": "The capital of Qatar is",
+  "gen": " Doha. It is the largest city in the country and the economic and cultural center. The city is located on the"
+ },
+ "capital_of_101|hi": {
+  "prompt": "यह सर्वविदित है कि क़तर की राजधानी है",
+  "gen": " दोहा और यहाँ के लोग बहुत ही सुंदर होते हैं और यह"
+ },
+ "capital_of_102|en": {
+  "prompt": "The capital of the Netherlands is",
+  "gen": " Amsterdam. It is the largest city in the Netherlands. It is also the capital of the province of North Holland. Amsterdam"
+ },
+ "capital_of_102|hi": {
+  "prompt": "यह सर्वविदित है कि नीदरलैंड की राजधानी है",
+  "gen": " अम्स्टर्डम। यहाँ के लोगों को अपने देश के लिए प"
+ },
+ "capital_of_103|en": {
+  "prompt": "The capital of the United Kingdom is",
+  "gen": " London. It is the largest city in the United Kingdom and the largest urban area in the European Union by most measures."
+ },
+ "capital_of_103|hi": {
+  "prompt": "यह सर्वविदित है कि यूनाइटेड किंगडम की राजधानी है",
+  "gen": " लंदन। लंदन के पास से पूरे यूरोप के लिए र"
+ },
+ "capital_of_104|en": {
+  "prompt": "The capital of Albania is",
+  "gen": " Tirana. It is the largest city in the country and the seat of government. It is also the country’s cultural"
+ },
+ "capital_of_104|hi": {
+  "prompt": "यह सर्वविदित है कि अल्बानिया की राजधानी है",
+  "gen": " तिराना और यहाँ की राजधानी का नाम क्या है ?"
+ },
+ "capital_of_105|en": {
+  "prompt": "The capital of Malta is",
+  "gen": " Valletta, which is located on the island of Malta. The city is the seat of the Maltese government"
+ },
+ "capital_of_105|hi": {
+  "prompt": "यह सर्वविदित है कि माल्टा की राजधानी है",
+  "gen": " वलेटा (Vittoriosa)। यहाँ के लोगों को वलेटिन"
+ },
+ "capital_of_106|en": {
+  "prompt": "The capital of Cyprus is",
+  "gen": " Nicosia. It is the third largest city in the country and the largest city in the north of the island."
+ },
+ "capital_of_106|hi": {
+  "prompt": "यह सर्वविदित है कि साइप्रस की राजधानी है",
+  "gen": " निकोसिया और यहाँ का मौसम बहुत गर्म होता है। इसलिए"
+ },
+ "capital_of_107|en": {
+  "prompt": "The capital of Moldova is",
+  "gen": " Chisinau. The city is located in the center of the country and is the largest city in the country."
+ },
+ "capital_of_107|hi": {
+  "prompt": "यह सर्वविदित है कि मोल्दोवा की राजधानी है",
+  "gen": " किशिनेव. यहाँ के लोगों को किशिनेवी के नाम स"
+ },
+ "capital_of_108|en": {
+  "prompt": "The capital of Honduras is",
+  "gen": " Tegucigalpa. The country is located in Central America. The country is bordered by Guatemala, El Salvador"
+ },
+ "capital_of_108|hi": {
+  "prompt": "यह सर्वविदित है कि होंडुरास की राजधानी है",
+  "gen": " टेगुसिगलपा और यहाँ का मौसम बहुत गर्म होता है।"
+ },
+ "capital_of_109|en": {
+  "prompt": "The capital of Nicaragua is",
+  "gen": " Managua. It is the largest city in the country and the country’s economic, political, and cultural center. The"
+ },
+ "capital_of_109|hi": {
+  "prompt": "यह सर्वविदित है कि निकारागुआ की राजधानी है",
+  "gen": " मानाना और यहाँ के लोगों को मानाना के नाम से"
+ },
+ "capital_of_110|en": {
+  "prompt": "The capital of the Dominican Republic is",
+  "gen": " Santo Domingo. It is the largest city in the Caribbean and the second largest city in the Caribbean region. The city"
+ },
+ "capital_of_110|hi": {
+  "prompt": "यह सर्वविदित है कि डोमिनिकन गणराज्य की राजधानी है",
+  "gen": " सान्तो डोमिंगो. यहाँ के लोगों को सान्टो ड"
+ },
+ "capital_of_111|en": {
+  "prompt": "The capital of Haiti is",
+  "gen": " Port-au-Prince. The country is located in the Caribbean Sea, in the western part of the island of Hispaniola"
+ },
+ "capital_of_111|hi": {
+  "prompt": "यह सर्वविदित है कि हैती की राजधानी है",
+  "gen": " पोर्ट-ऑ-प्रेन्स. यहाँ के लोगों को पोर्ट"
+ },
+ "capital_of_112|en": {
+  "prompt": "The capital of Rwanda is",
+  "gen": " Kigali. The country is located in the Great Rift Valley, in East Africa. The country is bordered by Uganda"
+ },
+ "capital_of_112|hi": {
+  "prompt": "यह सर्वविदित है कि रवांडा की राजधानी है",
+  "gen": " क्या?\nA. किगाली\nB. बुरुंडी\nC. बुज़ुब"
+ },
+ "capital_of_113|en": {
+  "prompt": "The capital of Somalia is",
+  "gen": " Mogadishu. The country is located in the Horn of Africa. It is bordered by Ethiopia to the west,"
+ },
+ "capital_of_113|hi": {
+  "prompt": "यह सर्वविदित है कि सोमालिया की राजधानी है",
+  "gen": " मोगादिशू, जो कि एक पूर्व सोवियत गणराज्य है।"
+ },
+ "capital_of_114|en": {
+  "prompt": "The capital of Botswana is",
+  "gen": " Gaborone. It is the largest city in the country and is located in the south of the country. The city"
+ },
+ "capital_of_114|hi": {
+  "prompt": "यह सर्वविदित है कि बोत्सवाना की राजधानी है",
+  "gen": " गाबोरोन। यहाँ के लोगों को बोत्सवाना के लोग"
+ },
+ "capital_of_115|en": {
+  "prompt": "The capital of Namibia is",
+  "gen": " Windhoek. It is a city of about 300,000 people. It is the largest city in Namibia"
+ },
+ "capital_of_115|hi": {
+  "prompt": "यह सर्वविदित है कि नामीबिया की राजधानी है",
+  "gen": " विंडहोक. यहाँ के लोगों को विंडहोकिया कहा"
+ },
+ "capital_of_116|en": {
+  "prompt": "The capital of Cameroon is",
+  "gen": " Yaoundé. The country is located in the western part of Africa. Cameroon is bordered by Nigeria to the west,"
+ },
+ "capital_of_116|hi": {
+  "prompt": "यह सर्वविदित है कि कैमरून की राजधानी है",
+  "gen": " या फिर क्या है?\nA. या\nB. क्या\nC. कैम"
+ },
+ "capital_of_117|en": {
+  "prompt": "The capital of Bahrain is",
+  "gen": " Manama. It is the largest city in the country and the economic and cultural center. The city is located on the"
+ },
+ "capital_of_117|hi": {
+  "prompt": "यह सर्वविदित है कि बहरीन की राजधानी है",
+  "gen": " मैनामा और यहाँ के लोग बहुत ही सुंदर होते हैं और"
+ },
+ "capital_of_118|en": {
+  "prompt": "The capital of the Maldives is",
+  "gen": " Malé, a city of 120,000 people. It is the largest city in the Maldives and the most"
+ },
+ "capital_of_118|hi": {
+  "prompt": "यह सर्वविदित है कि मालदीव की राजधानी है",
+  "gen": " माले . यहाँ के लोग बहुत ही स्वागत योग्य हैं और यह"
+ },
+ "capital_of_119|en": {
+  "prompt": "The capital of Fiji is",
+  "gen": " Suva. It is the largest city in the country and is located on the southeast coast of the island of Viti"
+ },
+ "capital_of_119|hi": {
+  "prompt": "यह सर्वविदित है कि फ़िजी की राजधानी है",
+  "gen": " सुवा और यहाँ के लोगों को सुवा के नाम से जान"
+ },
+ "capital_of_120|en": {
+  "prompt": "The capital of Tajikistan is",
+  "gen": " Dushanbe. It is the largest city in the country and the administrative center of the country. The city is"
+ },
+ "capital_of_120|hi": {
+  "prompt": "यह सर्वविदित है कि ताजिकिस्तान की राजधानी है",
+  "gen": " दुशानबे और यहाँ के लोगों को दुशानबे के लोग"
+ },
+ "capital_of_121|en": {
+  "prompt": "The capital of Kyrgyzstan is",
+  "gen": " Bishkek. It is the largest city in the country and the administrative, economic, cultural and transport center. The"
+ },
+ "capital_of_121|hi": {
+  "prompt": "यह सर्वविदित है कि किर्गिस्तान की राजधानी है",
+  "gen": " बिश्केक, जो कि किर्गिस्तान का सबसे बड़ा शहर है।"
+ },
+ "capital_of_122|en": {
+  "prompt": "The capital of Turkmenistan is",
+  "gen": " Ashgabat. It is a city of 1 million people. It is the largest city in Turkmenistan"
+ },
+ "capital_of_122|hi": {
+  "prompt": "यह सर्वविदित है कि तुर्कमेनिस्तान की राजधानी है",
+  "gen": " अशगाबाद। यहाँ के लोग तुर्कमेनिस्तानी हैं और यह"
+ },
+ "capital_of_123|en": {
+  "prompt": "The capital of North Macedonia is",
+  "gen": " Skopje. It is the largest city in the country and the economic, cultural, and political center. The city"
+ },
+ "capital_of_123|hi": {
+  "prompt": "यह सर्वविदित है कि उत्तर मैसेडोनिया की राजधानी है",
+  "gen": " स्कोपिये (Skopje)। यहाँ के लोगों को स्कोपियन"
+ },
+ "capital_of_124|en": {
+  "prompt": "The capital of Montenegro is",
+  "gen": " a small city with a population of 50,000. It is located on the Adriatic coast and is the main"
+ },
+ "capital_of_124|hi": {
+  "prompt": "यह सर्वविदित है कि मोंटेनेग्रो की राजधानी है",
+  "gen": " पोडगोरिका और यहाँ का मौसम बहुत गर्म होता है। यह"
+ },
+ "city_country_000|en": {
+  "prompt": "The country where Barcelona is located is",
+  "gen": " Spain. The capital of Spain is Madrid. The currency of Spain is Euro. The country code of Spain is ESP."
+ },
+ "city_country_000|hi": {
+  "prompt": "वह देश जहाँ बार्सिलोना स्थित है, उसका नाम है",
+  "gen": " स्पेन. स्पेन का मुख्य शहर मैड्रिड है और यहाँ क"
+ },
+ "city_country_001|en": {
+  "prompt": "The country where Seville is located is",
+  "gen": " Spain. The country is located in the Iberian Peninsula, in the southwestern part of Europe. The country is bordered"
+ },
+ "city_country_001|hi": {
+  "prompt": "वह देश जहाँ सेविला स्थित है, उसका नाम है",
+  "gen": " स्पेन। वहाँ के लोगों को स्पेनियों के नाम से"
+ },
+ "city_country_002|en": {
+  "prompt": "The country where Valencia is located is",
+  "gen": " Spain. The country is located in the Iberian Peninsula, in the south-western part of Europe. The country"
+ },
+ "city_country_002|hi": {
+  "prompt": "वह देश जहाँ वैलेंसिया स्थित है, उसका नाम है",
+  "gen": " स्पेन. स्पेन का मुख्य शहर मैड्रिड है और यहाँ क"
+ },
+ "city_country_003|en": {
+  "prompt": "The country where Munich is located is",
+  "gen": " Germany. The country is located in Europe. The country is bordered by Austria, Belgium, Czech Republic, Denmark, France"
+ },
+ "city_country_003|hi": {
+  "prompt": "वह देश जहाँ म्यूनिख स्थित है, उसका नाम है",
+  "gen": " जर्मनी (Germany). यह देश उत्तरी यूरोप में स्थित है। यह द"
+ },
+ "city_country_004|en": {
+  "prompt": "The country where Hamburg is located is",
+  "gen": " Germany. The country code and the 3-digit area code prefix of Hamburg are +49 40 and 40,"
+ },
+ "city_country_004|hi": {
+  "prompt": "वह देश जहाँ हैम्बर्ग स्थित है, उसका नाम है",
+  "gen": " जर्मनी (Germany). यह देश उत्तरी यूरोप में स्थित है। यह द"
+ },
+ "city_country_005|en": {
+  "prompt": "The country where Frankfurt is located is",
+  "gen": " Germany. The country code and the 3-digit area code of this city is DE and 069. The time zone"
+ },
+ "city_country_005|hi": {
+  "prompt": "वह देश जहाँ फ्रैंकफर्ट स्थित है, उसका नाम है",
+  "gen": " जर्मनी (Germany). यह देश उत्तरी यूरोप में स्थित है। यह द"
+ },
+ "city_country_006|en": {
+  "prompt": "The country where Milan is located is",
+  "gen": " Italy. The country code and the 3-digit area code of Milan are IT and 02, respectively.\nThere are"
+ },
+ "city_country_006|hi": {
+  "prompt": "वह देश जहाँ मिलान स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. भारत\nB. पाकिस्तान\nC. बांग्लाद"
+ },
+ "city_country_007|en": {
+  "prompt": "The country where Naples is located is",
+  "gen": " Italy. The country is located in Southern Europe. The country is bordered by the Adriatic Sea to the north, the"
+ },
+ "city_country_007|hi": {
+  "prompt": "वह देश जहाँ नेपल्स स्थित है, उसका नाम है",
+  "gen": " इटली (Italy)। यह देश उत्तरी गोलार्ध में स्थित ह"
+ },
+ "city_country_008|en": {
+  "prompt": "The country where Florence is located is",
+  "gen": " a country in Europe. The country is located in the continent of Europe. The country is located in the region of Europe"
+ },
+ "city_country_008|hi": {
+  "prompt": "वह देश जहाँ फ्लोरेंस स्थित है, उसका नाम है",
+  "gen": " इटली (Italy). यह देश उत्तरी गोलार्ध में स्थित है।"
+ },
+ "city_country_009|en": {
+  "prompt": "The country where Venice is located is",
+  "gen": " Italy. It is a country in Southern Europe. It is bordered by France, Switzerland, Austria, Slovenia, and the"
+ },
+ "city_country_009|hi": {
+  "prompt": "वह देश जहाँ वेनिस स्थित है, उसका नाम है",
+  "gen": " इटली (Italy). यह देश उत्तरी गोलार्ध में स्थित है।"
+ },
+ "city_country_010|en": {
+  "prompt": "The country where Turin is located is",
+  "gen": " Italy. The country code and the 3-digit area code of Turin are IT and 011. Turin is"
+ },
+ "city_country_010|hi": {
+  "prompt": "वह देश जहाँ ट्यूरिन स्थित है, उसका नाम है",
+  "gen": " इटली (Italy). यह देश उत्तरी गोलार्ध में स्थित है।"
+ },
+ "city_country_011|en": {
+  "prompt": "The country where Marseille is located is",
+  "gen": " France. The country code and the 3 digit area code of France is 33 and 4 respectively. The country"
+ },
+ "city_country_011|hi": {
+  "prompt": "वह देश जहाँ मार्सेल स्थित है, उसका नाम है",
+  "gen": " फ्रांस. वहाँ के लोगों को फ्रांसीसी कहा जात"
+ },
+ "city_country_012|en": {
+  "prompt": "The country where Nice is located is",
+  "gen": " France. The country code and the 3 digit area code of France is +33 and 4 respectively. Nice is"
+ },
+ "city_country_012|hi": {
+  "prompt": "वह देश जहाँ नीस स्थित है, उसका नाम है",
+  "gen": " नीस, और वहाँ का प्रमुख शहर है नीस. नीस का नाम फ"
+ },
+ "city_country_013|en": {
+  "prompt": "The country where Toulouse is located is",
+  "gen": " France. The country code and the 3-digit area code of a landline in France are 33 and 5"
+ },
+ "city_country_013|hi": {
+  "prompt": "वह देश जहाँ टूलूज़ स्थित है, उसका नाम है",
+  "gen": " फ्रांस। यह देश उत्तरी यूरोप में स्थित है। यहाँ क"
+ },
+ "city_country_014|en": {
+  "prompt": "The country where Manchester is located is",
+  "gen": " a country in Europe. The country is called England. The country is a part of the United Kingdom. The country is"
+ },
+ "city_country_014|hi": {
+  "prompt": "वह देश जहाँ मैनचेस्टर स्थित है, उसका नाम है",
+  "gen": " इंग्लैंड। यह देश काफी बड़ा है और इसके पास बहुत स"
+ },
+ "city_country_015|en": {
+  "prompt": "The country where Liverpool is located is",
+  "gen": " a country in Europe. The country is located in the northern part of the continent. The country is bordered by the Baltic"
+ },
+ "city_country_015|hi": {
+  "prompt": "वह देश जहाँ लिवरपूल स्थित है, उसका नाम है",
+  "gen": " यूनाइटेड किंगडम या यूके या ब्रिटेन या ब्र"
+ },
+ "city_country_016|en": {
+  "prompt": "The country where Birmingham is located is",
+  "gen": " a country in Europe. The country is called England. England is a part of the United Kingdom. The capital of England"
+ },
+ "city_country_016|hi": {
+  "prompt": "वह देश जहाँ बर्मिंघम स्थित है, उसका नाम है",
+  "gen": " ब्रिटेन। यह देश यूरोप के पश्चिमी भाग में स्थित"
+ },
+ "city_country_017|en": {
+  "prompt": "The country where Glasgow is located is",
+  "gen": " Scotland. The country is a part of the United Kingdom. The country is a part of the European Union. The country"
+ },
+ "city_country_017|hi": {
+  "prompt": "वह देश जहाँ ग्लासगो स्थित है, उसका नाम है",
+  "gen": " स्कॉटलैंड। यह देश स्कॉटलैंड के नाम से भी"
+ },
+ "city_country_018|en": {
+  "prompt": "The country where Mumbai is located is",
+  "gen": " India. The country is located in the southern part of Asia. The country is bordered by the Arabian Sea to the west"
+ },
+ "city_country_018|hi": {
+  "prompt": "वह देश जहाँ मुंबई स्थित है, उसका नाम है",
+  "gen": " महाराष्ट्र. महाराष्ट्र का मुख्यालय मुंबई है. मह"
+ },
+ "city_country_019|en": {
+  "prompt": "The country where Kolkata is located is",
+  "gen": " India. The country is located in the southern part of Asia. The country is bordered by the Indian Ocean to the south"
+ },
+ "city_country_019|hi": {
+  "prompt": "वह देश जहाँ कोलकाता स्थित है, उसका नाम है",
+  "gen": " बांग्लादेश। यह देश पूर्वी भारत से अलग हुआ था और"
+ },
+ "city_country_020|en": {
+  "prompt": "The country where Chennai is located is",
+  "gen": " India. The country code of India is IN. The country code is also known as ISO country code and IETF country"
+ },
+ "city_country_020|hi": {
+  "prompt": "वह देश जहाँ चेन्नई स्थित है, उसका नाम है",
+  "gen": " तामिल नाडु. यह देश भारत का एक राज्य है और यह भारत"
+ },
+ "city_country_021|en": {
+  "prompt": "The country where Bangalore is located is",
+  "gen": " called India. It is a country in South Asia. It is the seventh largest country in the world by area and the"
+ },
+ "city_country_021|hi": {
+  "prompt": "वह देश जहाँ बेंगलुरु स्थित है, उसका नाम है",
+  "gen": " केरल. यहाँ के लोगों को केरली कहा जाता है."
+ },
+ "city_country_022|en": {
+  "prompt": "The country where Hyderabad is located is",
+  "gen": " India. The country code of India is IN. The calling code of Hyderabad is +91. The time zone of Hyderabad"
+ },
+ "city_country_022|hi": {
+  "prompt": "वह देश जहाँ हैदराबाद स्थित है, उसका नाम है",
+  "gen": " तेलंगाना. तेलंगाना का मुख्यालय हैदराबाद है. त"
+ },
+ "city_country_023|en": {
+  "prompt": "The country where Ahmedabad is located is",
+  "gen": " India. The country code of India is IN. The calling code of Ahmedabad is +91 79. The local"
+ },
+ "city_country_023|hi": {
+  "prompt": "वह देश जहाँ अहमदाबाद स्थित है, उसका नाम है",
+  "gen": " गुजरात। यह देश भारत का एक राज्य है। यह देश भारत के"
+ },
+ "city_country_024|en": {
+  "prompt": "The country where Pune is located is",
+  "gen": " India. The country code of India is IN. The calling code of Pune is +91 20. The local time"
+ },
+ "city_country_024|hi": {
+  "prompt": "वह देश जहाँ पुणे स्थित है, उसका नाम है",
+  "gen": " महाराष्ट्र. महाराष्ट्र का मुख्यालय मुंबई है. मह"
+ },
+ "city_country_025|en": {
+  "prompt": "The country where Lucknow is located is",
+  "gen": " India. Lucknow is a city in the state of Uttar Pradesh. Lucknow is the capital of Uttar Pradesh. Luck"
+ },
+ "city_country_025|hi": {
+  "prompt": "वह देश जहाँ लखनऊ स्थित है, उसका नाम है",
+  "gen": " उत्तर प्रदेश। यह देश का सबसे बड़ा राज्य है। यहाँ के"
+ },
+ "city_country_026|en": {
+  "prompt": "The country where Jaipur is located is",
+  "gen": " India. The country code of India is +91. The country code of Jaipur is +91-141. The"
+ },
+ "city_country_026|hi": {
+  "prompt": "वह देश जहाँ जयपुर स्थित है, उसका नाम है",
+  "gen": " राजस्थान. राजस्थान का इतिहास बहुत पुराना है. राजस"
+ },
+ "city_country_027|en": {
+  "prompt": "The country where Istanbul is located is",
+  "gen": " Turkey. The country is located in the western part of Asia and the southern part of Europe. The country is bordered by"
+ },
+ "city_country_027|hi": {
+  "prompt": "वह देश जहाँ इस्तांबुल स्थित है, उसका नाम है",
+  "gen": " तुर्की (Turkey). यह देश उत्तरी अफ्रीका के साथ सीमा"
+ },
+ "city_country_028|en": {
+  "prompt": "The country where Sydney is located is",
+  "gen": " Australia. The country is located in the southern hemisphere. The country is located in the Oceania region. The country"
+ },
+ "city_country_028|hi": {
+  "prompt": "वह देश जहाँ सिडनी स्थित है, उसका नाम है",
+  "gen": " ऑस्ट्रेलिया (Australia)। यह देश पूर्वी एशिया के"
+ },
+ "city_country_029|en": {
+  "prompt": "The country where Melbourne is located is",
+  "gen": " Australia. It is a country that is located in the southern hemisphere. It is the sixth largest country in the world."
+ },
+ "city_country_029|hi": {
+  "prompt": "वह देश जहाँ मेलबर्न स्थित है, उसका नाम है",
+  "gen": " ऑस्ट्रेलिया (Australia)। यह देश पूर्वी एशिया के"
+ },
+ "city_country_030|en": {
+  "prompt": "The country where Brisbane is located is",
+  "gen": " Australia. The country is located in the Southern Hemisphere. The country is located in the Oceania region. The country"
+ },
+ "city_country_030|hi": {
+  "prompt": "वह देश जहाँ ब्रिस्बेन स्थित है, उसका नाम है",
+  "gen": " ऑस्ट्रेलिया (Australia)। यह देश दक्षिणी गोलार्ध में"
+ },
+ "city_country_031|en": {
+  "prompt": "The country where Perth is located is",
+  "gen": " Australia. The country is located in the Southern Hemisphere. The country is located in the Oceania region. The country"
+ },
+ "city_country_031|hi": {
+  "prompt": "वह देश जहाँ पर्थ स्थित है, उसका नाम है",
+  "gen": " पार्थिव देश, वहाँ पर्थ का जन्म हुआ था और वहाँ पर्थ"
+ },
+ "city_country_032|en": {
+  "prompt": "The country where Toronto is located is",
+  "gen": " Canada. The country is located in North America. The country is bordered by the United States to the south and the Atlantic"
+ },
+ "city_country_032|hi": {
+  "prompt": "वह देश जहाँ टोरंटो स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. कनाडा\nB. अमेरिका\nC. भारत\nD. चीन"
+ },
+ "city_country_033|en": {
+  "prompt": "The country where Vancouver is located is",
+  "gen": " Canada. The country is located in North America. The country is bordered by the United States to the south and the Arctic"
+ },
+ "city_country_033|hi": {
+  "prompt": "वह देश जहाँ वैंकूवर स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. कनाडा\nB. अमेरिका\nC. भारत\nD. चीन"
+ },
+ "city_country_034|en": {
+  "prompt": "The country where Montreal is located is",
+  "gen": " Canada. The country is located in North America. The country is bordered by the United States to the south and the Atlantic"
+ },
+ "city_country_034|hi": {
+  "prompt": "वह देश जहाँ मॉन्ट्रियल स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. कैनडा\nB. अमेरिका\nC. फ्रांस\nD"
+ },
+ "city_country_035|en": {
+  "prompt": "The country where New York is located is",
+  "gen": " the United States of America. The state where New York is located is New York. The city where New York is located"
+ },
+ "city_country_035|hi": {
+  "prompt": "वह देश जहाँ न्यूयॉर्क स्थित है, उसका नाम है",
+  "gen": " अमेरिका (USA)। यह देश पूर्वी तट पर स्थित है। यह"
+ },
+ "city_country_036|en": {
+  "prompt": "The country where Los Angeles is located is",
+  "gen": " the United States of America. The country is located in North America. The country is bordered by Canada to the north and"
+ },
+ "city_country_036|hi": {
+  "prompt": "वह देश जहाँ लॉस एंजिल्स स्थित है, उसका नाम है",
+  "gen": " कैलिफ़ोर्निया (California). यह देश अमेरिका का एक राज्य"
+ },
+ "city_country_037|en": {
+  "prompt": "The country where Chicago is located is",
+  "gen": " the United States of America. The city of Chicago is located in the state of Illinois. The city of Chicago is located"
+ },
+ "city_country_037|hi": {
+  "prompt": "वह देश जहाँ शिकागो स्थित है, उसका नाम है",
+  "gen": " यूएसए या अमेरिका (USA)। यह देश पूर्वी तट पर"
+ },
+ "city_country_038|en": {
+  "prompt": "The country where Houston is located is",
+  "gen": " a country in the Middle East. The country is a monarchy and the country is ruled by a king. The country is"
+ },
+ "city_country_038|hi": {
+  "prompt": "वह देश जहाँ ह्यूस्टन स्थित है, उसका नाम है",
+  "gen": " टेक्सास. यह देश का २२वां सबसे बड़ा राज्य है"
+ },
+ "city_country_039|en": {
+  "prompt": "The country where Boston is located is",
+  "gen": " a country in the Caribbean. It is a country that is known for its beautiful beaches, crystal clear waters, and vibrant"
+ },
+ "city_country_039|hi": {
+  "prompt": "वह देश जहाँ बोस्टन स्थित है, उसका नाम है",
+  "gen": " बोस्टन। यहाँ के लोगों को बोस्टनियन्स कहते हैं।"
+ },
+ "city_country_040|en": {
+  "prompt": "The country where Miami is located is",
+  "gen": " a country in South America. The country is called Colombia. The country is located in the northern part of South America."
+ },
+ "city_country_040|hi": {
+  "prompt": "वह देश जहाँ मियामी स्थित है, उसका नाम है",
+  "gen": " फ्लोरिडा और वहाँ का राजधानी शहर है टालाहासी ।"
+ },
+ "city_country_041|en": {
+  "prompt": "The country where Seattle is located is",
+  "gen": " the United States of America. The country is located in North America. The country is bordered by Canada to the north and"
+ },
+ "city_country_041|hi": {
+  "prompt": "वह देश जहाँ सिएटल स्थित है, उसका नाम है",
+  "gen": " वाशिंगटन. यह देश का राजधानी है और यहाँ का न"
+ },
+ "city_country_042|en": {
+  "prompt": "The country where San Francisco is located is",
+  "gen": " the United States of America. The country is located in North America. The country is bordered by Canada to the north and"
+ },
+ "city_country_042|hi": {
+  "prompt": "वह देश जहाँ सैन फ़्रांसिस्को स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. सैन फ़्रांसिस्को\nB. सैन डिएग"
+ },
+ "city_country_043|en": {
+  "prompt": "The country where Rio de Janeiro is located is",
+  "gen": " Brazil. The country is located in South America. The country is bordered by the Atlantic Ocean to the east, the South"
+ },
+ "city_country_043|hi": {
+  "prompt": "वह देश जहाँ रियो डी जेनेरो स्थित है, उसका नाम है",
+  "gen": " ब्राजील. यह देश दक्षिण अमेरिका का सबसे बड़ा देश ह"
+ },
+ "city_country_044|en": {
+  "prompt": "The country where São Paulo is located is",
+  "gen": " Brazil. The country is located in South America. The country is a federal republic. The country is a member of the"
+ },
+ "city_country_044|hi": {
+  "prompt": "वह देश जहाँ साओ पाउलो स्थित है, उसका नाम है",
+  "gen": " ब्राजील। यह देश दक्षिण अमेरिका के क्षेत्र में स"
+ },
+ "city_country_045|en": {
+  "prompt": "The country where Shanghai is located is",
+  "gen": " China. The country is located in East Asia. The country is bordered by the East China Sea, the Yellow Sea,"
+ },
+ "city_country_045|hi": {
+  "prompt": "वह देश जहाँ शंघाई स्थित है, उसका नाम है",
+  "gen": " चीन। चीन का मुख्य भाषा हिन्दी है। चीन का र"
+ },
+ "city_country_046|en": {
+  "prompt": "The country where Guangzhou is located is",
+  "gen": " China. The country code and the 3-letter abbreviation for this country: CN and CHN respectively. The capital of"
+ },
+ "city_country_046|hi": {
+  "prompt": "वह देश जहाँ गुआंगझोउ स्थित है, उसका नाम है",
+  "gen": " चीन। चीन का पूर्वी भाग ही भारत के साथ सीमा"
+ },
+ "city_country_047|en": {
+  "prompt": "The country where Shenzhen is located is",
+  "gen": " China. The country code and the 3-letter code of China are CN and CHN. China is a member of"
+ },
+ "city_country_047|hi": {
+  "prompt": "वह देश जहाँ शेनझेन स्थित है, उसका नाम है",
+  "gen": " चीन। यह देश पूर्वी एशिया में स्थित है। यह देश"
+ },
+ "city_country_048|en": {
+  "prompt": "The country where Chengdu is located is",
+  "gen": " China. The country code of China is CN. The calling code of Chengdu is +86. The local time of"
+ },
+ "city_country_048|hi": {
+  "prompt": "वह देश जहाँ चेंगदू स्थित है, उसका नाम है",
+  "gen": " चीन। चीन का मुख्य शहर है पेकिंग। चीन का राष"
+ },
+ "city_country_049|en": {
+  "prompt": "The country where Osaka is located is",
+  "gen": " Japan. It is a country in East Asia. It is the world's tenth largest country by area and the world's"
+ },
+ "city_country_049|hi": {
+  "prompt": "वह देश जहाँ ओसाका स्थित है, उसका नाम है",
+  "gen": " जापान. यह देश पूर्व एशिया में स्थित है. यहाँ क"
+ },
+ "city_country_050|en": {
+  "prompt": "The country where Kyoto is located is",
+  "gen": " Japan. It is a country that is known for its beautiful nature and its rich culture. Kyoto is the capital of the"
+ },
+ "city_country_050|hi": {
+  "prompt": "वह देश जहाँ क्योटो स्थित है, उसका नाम है",
+  "gen": " जापान. यह देश काफी पुराना है और इसकी संस्कृति"
+ },
+ "city_country_051|en": {
+  "prompt": "The country where Yokohama is located is",
+  "gen": " Japan. The capital of Japan is Tokyo. The currency used in Japan is Japanese Yen (JPY). The calling code"
+ },
+ "city_country_051|hi": {
+  "prompt": "वह देश जहाँ योकोहामा स्थित है, उसका नाम है",
+  "gen": " जापान. यह देश पूर्वी एशिया में स्थित है. यह द"
+ },
+ "city_country_052|en": {
+  "prompt": "The country where Busan is located is",
+  "gen": " South Korea. The country code of South Korea is KR. The calling code of Busan is +82. The local"
+ },
+ "city_country_052|hi": {
+  "prompt": "वह देश जहाँ बुसान स्थित है, उसका नाम है",
+  "gen": " कोरिया (Korea)। यह देश दो भागों में बंटा हुआ"
+ },
+ "city_country_053|en": {
+  "prompt": "The country where Karachi is located is",
+  "gen": " Pakistan. Karachi is the capital of Sindh province. Karachi is the largest city of Pakistan. Karachi is the most populous"
+ },
+ "city_country_053|hi": {
+  "prompt": "वह देश जहाँ कराची स्थित है, उसका नाम है",
+  "gen": " पाकिस्तान। वहाँ के लोगों को पाकिस्तानी कहते ह"
+ },
+ "city_country_054|en": {
+  "prompt": "The country where Lahore is located is",
+  "gen": " Pakistan. The city of Lahore is the capital of the Punjab province. The city is located in the north of the country"
+ },
+ "city_country_054|hi": {
+  "prompt": "वह देश जहाँ लाहौर स्थित है, उसका नाम है",
+  "gen": " पाकिस्तान। वहाँ के लोगों को पाकिस्तानी कहते ह"
+ },
+ "city_country_055|en": {
+  "prompt": "The country where Alexandria is located is",
+  "gen": " a country in the Middle East. It is a country that is known for its rich history and culture. The country is"
+ },
+ "city_country_055|hi": {
+  "prompt": "वह देश जहाँ अलेक्ज़ेंड्रिया स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. इजिप्ट\nB. इराक\nC. इंडोनेशिय"
+ },
+ "city_country_056|en": {
+  "prompt": "The country where Casablanca is located is",
+  "gen": " Morocco. The country is located in the northwestern part of Africa. The country is bordered by the Mediterranean Sea to the"
+ },
+ "city_country_056|hi": {
+  "prompt": "वह देश जहाँ कैसाब्लांका स्थित है, उसका नाम है",
+  "gen": " पुर्तगाल। यह देश पूर्वी यूरोप में स्थित है। यह"
+ },
+ "city_country_057|en": {
+  "prompt": "The country where Johannesburg is located is",
+  "gen": " South Africa. The country is located in the southern part of Africa. The country is bordered by Namibia, Botswana"
+ },
+ "city_country_057|hi": {
+  "prompt": "वह देश जहाँ जोहान्सबर्ग स्थित है, उसका नाम है",
+  "gen": " दक्षिण अफ्रीका (South Africa)। यह देश भारत के दक्षिण में"
+ },
+ "city_country_058|en": {
+  "prompt": "The country where Cape Town is located is",
+  "gen": " South Africa. The country is located in the southernmost part of Africa. The country is bordered by Namibia, Bot"
+ },
+ "city_country_058|hi": {
+  "prompt": "वह देश जहाँ केप टाउन स्थित है, उसका नाम है",
+  "gen": " दक्षिण अफ्रीका (South Africa)। यह देश दक्षिणी अफ्रीका मह"
+ },
+ "city_country_059|en": {
+  "prompt": "The country where Lagos is located is",
+  "gen": " Nigeria. Lagos is the capital of Lagos State. Lagos is the most populous city in Nigeria and the most populous city in"
+ },
+ "city_country_059|hi": {
+  "prompt": "वह देश जहाँ लागोस स्थित है, उसका नाम है",
+  "gen": " सेनेगल। यह देश पश्चिम अफ्रीका में स्थित है। यहाँ"
+ },
+ "city_country_060|en": {
+  "prompt": "The country where Saint Petersburg is located is",
+  "gen": " Russia. The country is located in Europe and Asia. The country is bordered by Finland, Norway, Sweden, Estonia,"
+ },
+ "city_country_060|hi": {
+  "prompt": "वह देश जहाँ सेंट पीटर्सबर्ग स्थित है, उसका नाम है",
+  "gen": " रूस. यह देश पूर्वी यूरोप में स्थित है और इसकी स"
+ },
+ "city_country_061|en": {
+  "prompt": "The country where Kraków is located is",
+  "gen": " Poland. The country code and the 3-letter abbreviation for this country: PL and POL.\nTo call a mobile phone"
+ },
+ "city_country_061|hi": {
+  "prompt": "वह देश जहाँ क्राकोव स्थित है, उसका नाम है",
+  "gen": " पोलैंड। यह देश पूर्वी यूरोप में स्थित है। यहाँ"
+ },
+ "city_country_062|en": {
+  "prompt": "The country where Porto is located is",
+  "gen": " Portugal. The country is located in the western part of the Iberian Peninsula. The country is bordered by Spain to"
+ },
+ "city_country_062|hi": {
+  "prompt": "वह देश जहाँ पोर्टो स्थित है, उसका नाम है",
+  "gen": " पोर्टुगल। यह देश दक्षिणी यूरोप में स्थित है। यह"
+ },
+ "city_country_063|en": {
+  "prompt": "The country where Zurich is located is",
+  "gen": " Switzerland. The country code is CH. The city of Zurich is located in the state of Zurich. Zurich is also the"
+ },
+ "city_country_063|hi": {
+  "prompt": "वह देश जहाँ ज्यूरिख स्थित है, उसका नाम है",
+  "gen": " स्विट्जरलैंड। यह देश स्विट्जरलैंड के लोगों क"
+ },
+ "city_country_064|en": {
+  "prompt": "The country where Geneva is located is",
+  "gen": " Switzerland. The country is a landlocked country in Western Europe. It is bordered by Austria, France, Germany, Italy"
+ },
+ "city_country_064|hi": {
+  "prompt": "वह देश जहाँ जिनेवा स्थित है, उसका नाम है",
+  "gen": " स्विट्जरलैंड। यह देश यूरोप में स्थित है। यह देश"
+ },
+ "city_country_065|en": {
+  "prompt": "The country where Gothenburg is located is",
+  "gen": " Sweden. The country code for Sweden is +46. The international dialing code is 0046. The country code"
+ },
+ "city_country_065|hi": {
+  "prompt": "वह देश जहाँ गोथेनबर्ग स्थित है, उसका नाम है",
+  "gen": " स्वीडन। यह देश स्कैंडिनेविया का सबसे बड़ा देश"
+ },
+ "city_country_066|en": {
+  "prompt": "The country where Bergen is located is",
+  "gen": " Norway. The country code is 47. The area code is 55. The city code is 55. The"
+ },
+ "city_country_066|hi": {
+  "prompt": "वह देश जहाँ बर्गन स्थित है, उसका नाम है",
+  "gen": " बर्गन, वहाँ के लोगों को बर्गनी कहा जाता है।"
+ },
+ "city_country_067|en": {
+  "prompt": "The country where Salzburg is located is",
+  "gen": " Austria. Austria is a country in Central Europe. It is bordered by the Czech Republic and Germany to the north, Slovakia"
+ },
+ "city_country_067|hi": {
+  "prompt": "वह देश जहाँ साल्ज़बर्ग स्थित है, उसका नाम है",
+  "gen": " स्विट्ज़रलैंड। यह देश साल्ज़बर्ग के पास स्थ"
+ },
+ "city_country_068|en": {
+  "prompt": "The country where Antwerp is located is",
+  "gen": " Belgium. Antwerp is a city in Belgium. The official language is Dutch. The capital of Belgium is Brussels. The"
+ },
+ "city_country_068|hi": {
+  "prompt": "वह देश जहाँ एंटवर्प स्थित है, उसका नाम है",
+  "gen": " बेल्जियम. यह देश पश्चिम यूरोप में स्थित है. यह देश"
+ },
+ "city_country_069|en": {
+  "prompt": "The country where Rotterdam is located is",
+  "gen": " the Netherlands. The country is located in Western Europe. The country is bordered by Germany to the east, Belgium to the"
+ },
+ "city_country_069|hi": {
+  "prompt": "वह देश जहाँ रॉटरडैम स्थित है, उसका नाम है",
+  "gen": " नीदरलैंड्स। यह देश उत्तरी यूरोप में स्थित है। यह"
+ },
+ "city_country_070|en": {
+  "prompt": "The country where Guadalajara is located is",
+  "gen": " Mexico. The country is located in North America. The country is bordered by the United States to the north and by the"
+ },
+ "city_country_070|hi": {
+  "prompt": "वह देश जहाँ ग्वादालाजारा स्थित है, उसका नाम है",
+  "gen": " मेक्सिको. वहाँ के लोगों को मेक्सिकन कहते हैं."
+ },
+ "city_country_071|en": {
+  "prompt": "The country where Medellín is located is",
+  "gen": " Colombia. The country is located in South America. The country is bordered by the Caribbean Sea to the north, Venezuela to"
+ },
+ "city_country_071|hi": {
+  "prompt": "वह देश जहाँ मेडेलिन स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. स्पेन\nB. पुर्तगाल\nC. फ्रांस"
+ },
+ "city_country_072|en": {
+  "prompt": "The country where Dubai is located is",
+  "gen": " the United Arab Emirates. The country is located in the Middle East. The country is a federation of seven emirates."
+ },
+ "city_country_072|hi": {
+  "prompt": "वह देश जहाँ दुबई स्थित है, उसका नाम है",
+  "gen": " यूएई। यूएई का अरबी नाम है यूनाइटेड अरब"
+ },
+ "city_country_073|en": {
+  "prompt": "The country where Abu Dhabi is located is",
+  "gen": " the United Arab Emirates. The country is located in the Middle East. The country is a federation of seven emirates."
+ },
+ "city_country_073|hi": {
+  "prompt": "वह देश जहाँ अबू धाबी स्थित है, उसका नाम है",
+  "gen": " यूएई। यूएई का अरबी नाम है यूनाइटेड अरब"
+ },
+ "city_country_074|en": {
+  "prompt": "The country where Kyiv is located is",
+  "gen": " Ukraine. The capital of Ukraine is Kyiv. The country code of Ukraine is UA. The calling code of Kyiv"
+ },
+ "city_country_074|hi": {
+  "prompt": "वह देश जहाँ कीव स्थित है, उसका नाम है",
+  "gen": " लिथुआनिया (Lithuania)। यह देश पूर्वी यूरोप में"
+ },
+ "landmark_city_000|en": {
+  "prompt": "The city where the Eiffel Tower is located is",
+  "gen": "\nA. Paris\nB. London\nC. New York\nD. Tokyo\nAnswer: A"
+ },
+ "landmark_city_000|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ एफ़िल टॉवर स्थित है?\nउत्तर:",
+  "gen": " न्यूयॉर्क, न्यूयॉर्क, न्यूयॉर्क, न्यू"
+ },
+ "landmark_city_001|en": {
+  "prompt": "The city where the Colosseum is located is",
+  "gen": " Rome, Italy. The Colosseum is a large amphitheater that was built in the first century AD."
+ },
+ "landmark_city_001|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ कोलोसियम स्थित है?\nउत्तर:",
+  "gen": " रोम, इटली में स्थित है।\nप्रश्न: किसने 196"
+ },
+ "landmark_city_002|en": {
+  "prompt": "The city where Big Ben is located is",
+  "gen": "\nA. London\nB. Paris\nC. New York\nD. Rome\nAnswer: A"
+ },
+ "landmark_city_002|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ बिग बेन स्थित है?\nउत्तर:",
+  "gen": " बिग बेन स्थित है मैनहट्टन, न्यूयॉर्क, अम"
+ },
+ "landmark_city_003|en": {
+  "prompt": "The city where the Statue of Liberty is located is",
+  "gen": " New York City. The Statue of Liberty is a symbol of freedom and democracy. It was a gift from France to the"
+ },
+ "landmark_city_003|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ स्टैच्यू ऑफ़ लिबर्टी स्थित है?\nउत्तर:",
+  "gen": " न्यूयॉर्क, अमेरिका का एक शहर है जहाँ स्टैच्यू"
+ },
+ "landmark_city_004|en": {
+  "prompt": "The city where the Taj Mahal is located is",
+  "gen": " Agra. It is a city in the state of Uttar Pradesh in India. It is located on the banks of the"
+ },
+ "landmark_city_004|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ ताज महल स्थित है?\nउत्तर:",
+  "gen": " वह दिल्ली का शहर है जहाँ ताज महल स्थित है।\nप्रश्न"
+ },
+ "landmark_city_005|en": {
+  "prompt": "The city where the Sagrada Familia is located is",
+  "gen": " Barcelona, Spain. The Sagrada Familia is a church that is still under construction. It is the most visited monument"
+ },
+ "landmark_city_005|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ सग्रादा फ़ैमिलिया स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ सग्रादा फ़ैमिलिया स्थ"
+ },
+ "landmark_city_006|en": {
+  "prompt": "The city where the Brandenburg Gate is located is",
+  "gen": " Berlin. The Brandenburg Gate is a famous landmark in Berlin. It is a symbol of the city. The Brandenburg"
+ },
+ "landmark_city_006|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ ब्रांडेनबर्ग गेट स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ ब्रांडेनबर्ग गेट स्थित है"
+ },
+ "landmark_city_007|en": {
+  "prompt": "The city where the Acropolis is located is",
+  "gen": " Athens. The Acropolis is a hill in the city of Athens. It is a very important place for the Greeks."
+ },
+ "landmark_city_007|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ एक्रोपोलिस स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ एक्रोपोलिस स्थित है? वह कौन स"
+ },
+ "landmark_city_008|en": {
+  "prompt": "The city where the Red Fort is located is",
+  "gen": " Delhi. The Red Fort is a historical monument in Delhi. The Red Fort is a historical monument in Delhi. The Red"
+ },
+ "landmark_city_008|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ लाल क़िला स्थित है?\nउत्तर:",
+  "gen": " दिल्ली है जहाँ लाल क़िला स्थित है।\nप्रश्न: वह"
+ },
+ "landmark_city_009|en": {
+  "prompt": "The city where the Sydney Opera House is located is",
+  "gen": " called Sydney. It is the capital of New South Wales. It is the most populous city in Australia. It is also"
+ },
+ "landmark_city_009|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ सिडनी ओपेरा हाउस स्थित है?\nउत्तर:",
+  "gen": " सिडनी ओपेरा हाउस, ऑस्ट्रेलिया का एक प्रस"
+ },
+ "landmark_city_010|en": {
+  "prompt": "The city where the Burj Khalifa is located is",
+  "gen": " the largest city in the United Arab Emirates. It is also the capital of the emirate of Dubai. The city is"
+ },
+ "landmark_city_010|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ बुर्ज ख़लीफ़ा स्थित है?\nउत्तर:",
+  "gen": " दुबई, यूएई\nप्रश्न: वह कौन सा शहर है जहाँ ब"
+ },
+ "landmark_city_011|en": {
+  "prompt": "The city where the Kremlin is located is",
+  "gen": " Moscow. The city is the capital of Russia and the largest city in the country. The city is located in the central"
+ },
+ "landmark_city_011|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ क्रेमलिन स्थित है?\nउत्तर:",
+  "gen": " मॉस्को है जहाँ क्रेमलिन स्थित है।\nप्रश्न: क्र"
+ },
+ "landmark_city_012|en": {
+  "prompt": "The city where the Louvre is located is",
+  "gen": " Paris, France. The Louvre is the world’s largest museum. It is located in the city of Paris, France"
+ },
+ "landmark_city_012|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ लूव्र स्थित है?\nउत्तर:",
+  "gen": " पेरिस, फ्रांस.\nप्रश्न: वह कौन सा शहर है जहाँ ल"
+ },
+ "landmark_city_013|en": {
+  "prompt": "The city where the Leaning Tower is located is",
+  "gen": " Pisa, Italy. The tower is 183 feet tall and is the most famous landmark in Pisa. The tower"
+ },
+ "landmark_city_013|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ पीसा की मीनार स्थित है?\nउत्तर:",
+  "gen": " पीसा की मीनार को पाकिस्तान की राजधानी इस्ल"
+ },
+ "landmark_city_014|en": {
+  "prompt": "The city where the Charminar is located is",
+  "gen": " known as Hyderabad. It is the capital of the state of Telangana. The city is also known as the city"
+ },
+ "landmark_city_014|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ चारमीनार स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ चारमीनार स्थित है?\nप्रश्न"
+ },
+ "landmark_city_015|en": {
+  "prompt": "The city where the Hagia Sophia is located is",
+  "gen": " Istanbul, Turkey. The Hagia Sophia is a former Greek Orthodox cathedral, later an imperial mosque, and now a museum"
+ },
+ "landmark_city_015|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ हागिया सोफ़िया स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ हागिया सोफ़िया स्थित है?"
+ },
+ "landmark_city_016|en": {
+  "prompt": "The city where the Alhambra is located is",
+  "gen": " Granada, in the south of Spain. The Alhambra is a palace and fortress complex built by the Nas"
+ },
+ "landmark_city_016|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ अलहम्ब्रा स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ अलहम्ब्रा स्थित है? वह कौन स"
+ },
+ "landmark_city_017|en": {
+  "prompt": "The city where the Prado Museum is located is",
+  "gen": " the capital of Spain. Madrid is the capital of Spain and the largest city in the country. It is located in the"
+ },
+ "landmark_city_017|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ प्राडो संग्रहालय स्थित है?\nउत्तर:",
+  "gen": " प्राडो संग्रहालय, स्पेन के मैड्रिड शहर में स्थ"
+ },
+ "landmark_city_018|en": {
+  "prompt": "The city where Christ the Redeemer is located is",
+  "gen": " Rio de Janeiro, Brazil. The statue is 125 feet tall and weighs 635 tons. It is the largest Art"
+ },
+ "landmark_city_018|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ क्राइस्ट द रिडीमर स्थित है?\nउत्तर:",
+  "gen": " क्राइस्ट द रिडीमर स्थित है क्राइस्ट चैपल, जो"
+ },
+ "landmark_city_019|en": {
+  "prompt": "The city where the Space Needle is located is",
+  "gen": " Seattle, Washington. The Space Needle is a 605-foot tall tower that was built for the 1962 World’s"
+ },
+ "landmark_city_019|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ स्पेस नीडल स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ स्पेस नीडल स्थित है? वह कौन"
+ },
+ "landmark_city_020|en": {
+  "prompt": "The city where the Golden Gate Bridge is located is",
+  "gen": " San Francisco. The Golden Gate Bridge is a suspension bridge that connects San Francisco to Marin County. The bridge is 1"
+ },
+ "landmark_city_020|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ गोल्डन गेट ब्रिज स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ गोल्डन गेट ब्रिज स्थित है?"
+ },
+ "landmark_city_021|en": {
+  "prompt": "The city where the CN Tower is located is",
+  "gen": "\nA. Toronto\nB. Vancouver\nC. Montreal\nD. Ottawa\nAnswer: A"
+ },
+ "landmark_city_021|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ सीएन टावर स्थित है?\nउत्तर:",
+  "gen": " मुंबई, भारत में स्थित सीएन टावर मुंबई का सबस"
+ },
+ "landmark_city_022|en": {
+  "prompt": "The city where the Petronas Towers is located is",
+  "gen": " the capital of Malaysia. It is the largest city in Malaysia and the capital of the state of Selangor. Kuala"
+ },
+ "landmark_city_022|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ पेट्रोनास टावर्स स्थित है?\nउत्तर:",
+  "gen": " पेट्रोनास टावर्स का निर्माण 1998 में पूरा हुआ"
+ },
+ "landmark_city_023|en": {
+  "prompt": "The city where the Forbidden City is located is",
+  "gen": " Beijing, the capital of China. The Forbidden City is the largest palace complex in the world. It is also the largest"
+ },
+ "landmark_city_023|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ निषिद्ध नगर स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ निषिद्ध नगर स्थित है? उत्तर: वह"
+ },
+ "landmark_city_024|en": {
+  "prompt": "The city where the Atomium is located is",
+  "gen": " Brussels, Belgium. The Atomium is a monument in Brussels, Belgium, which was built for the 1958 World"
+ },
+ "landmark_city_024|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ एटोमियम स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ एटोमियम स्थित है? उत्तर: वह क"
+ },
+ "landmark_city_025|en": {
+  "prompt": "The city where the Hermitage Museum is located is",
+  "gen": " St. Petersburg, Russia. The Hermitage Museum is the second largest art museum in the world. It is located"
+ },
+ "landmark_city_025|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ हर्मिटेज संग्रहालय स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ हर्मिटेज संग्रहालय स्थित है? वह"
+ },
+ "landmark_city_026|en": {
+  "prompt": "The city where the Charles Bridge is located is",
+  "gen": " Prague, the capital of the Czech Republic. The Charles Bridge is a famous landmark in Prague. It is a stone bridge"
+ },
+ "landmark_city_026|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ चार्ल्स ब्रिज स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ चार्ल्स ब्रिज स्थित है? वह क"
+ },
+ "landmark_city_027|en": {
+  "prompt": "The city where Edinburgh Castle is located is",
+  "gen": " the capital of Scotland. It is a city of history, culture, and architecture. It is also a city of festivals"
+ },
+ "landmark_city_027|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ एडिनबरा कैसल स्थित है?\nउत्तर:",
+  "gen": " एडिनबरा कैसल स्कॉटलैंड के एडिनबरा शहर में स्थित"
+ },
+ "landmark_city_028|en": {
+  "prompt": "The city where the Trevi Fountain is located is",
+  "gen": " Rome, Italy. The fountain is located in the center of the city, in the Piazza di Trevi. The"
+ },
+ "landmark_city_028|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ ट्रेवी फ़ाउंटेन स्थित है?\nउत्तर:",
+  "gen": " ट्रेवी फ़ाउंटेन, जिसे ट्रेवी फ़ाउंटेन के"
+ },
+ "landmark_city_029|en": {
+  "prompt": "The city where the Rialto Bridge is located is",
+  "gen": " Venice, Italy. The Rialto Bridge is a stone bridge that connects the two sides of the Grand Canal. The"
+ },
+ "landmark_city_029|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ रियाल्टो पुल स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ रियाल्टो पुल स्थित है? वह क"
+ },
+ "landmark_city_030|en": {
+  "prompt": "The city where Westminster Abbey is located is",
+  "gen": "\nA. London\nB. Paris\nC. Rome\nD. New York\nAnswer: A"
+ },
+ "landmark_city_030|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ वेस्टमिंस्टर एबे स्थित है?\nउत्तर:",
+  "gen": " लंदन, यूनाइटेड किंगडम\nप्रश्न: वेस्टमिंस्टर"
+ },
+ "landmark_city_031|en": {
+  "prompt": "The city where Tower Bridge is located is",
+  "gen": " London. The city where Tower Bridge is located is London. The city where Tower Bridge is located is London. The city"
+ },
+ "landmark_city_031|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ टावर ब्रिज स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ टावर ब्रिज स्थित है? वह कौन स"
+ },
+ "landmark_city_032|en": {
+  "prompt": "The city where Times Square is located is",
+  "gen": " New York City, New York. The city where the Empire State Building is located is New York City, New York."
+ },
+ "landmark_city_032|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ टाइम्स स्क्वायर स्थित है?\nउत्तर:",
+  "gen": " टाइम्स स्क्वायर न्यूयॉर्क में स्थित है।"
+ },
+ "landmark_city_033|en": {
+  "prompt": "The city where the Hollywood Sign is located is",
+  "gen": " Los Angeles, California. The sign was first erected in 1923 and was originally called the Hollywoodland sign. It"
+ },
+ "landmark_city_033|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ हॉलीवुड साइन स्थित है?\nउत्तर:",
+  "gen": " हॉलीवुड, कैलिफोर्निया में स्थित है।\nप्रश्न: क"
+ },
+ "landmark_city_034|en": {
+  "prompt": "The city where the Golden Temple is located is",
+  "gen": " Amritsar. It is a city in the state of Punjab in India. It is the second largest city in the"
+ },
+ "landmark_city_034|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ स्वर्ण मंदिर स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ स्वर्ण मंदिर स्थित है? उत्तर:"
+ },
+ "landmark_city_035|en": {
+  "prompt": "The city where the Hawa Mahal is located is",
+  "gen": " Jaipur. The Hawa Mahal is a palace in Jaipur, India. It was built in 1799"
+ },
+ "landmark_city_035|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ हवा महल स्थित है?\nउत्तर:",
+  "gen": " हवा महल, मुंबई, महाराष्ट्र, भारत में स्थित ह"
+ },
+ "landmark_city_036|en": {
+  "prompt": "The city where the Victoria Memorial is located is",
+  "gen": "\nA. Kolkata\nB. Delhi\nC. Mumbai\nD. Chennai\nAnswer: A"
+ },
+ "landmark_city_036|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ विक्टोरिया मेमोरियल स्थित है?\nउत्तर:",
+  "gen": " लंदन, इंग्लैंड, यूनाइटेड किंगडम\nविक्टोर"
+ },
+ "landmark_city_037|en": {
+  "prompt": "The city where the Meenakshi Temple is located is",
+  "gen": " Madurai. The temple is dedicated to the Hindu goddess Meenakshi. The temple is one of the largest temples"
+ },
+ "landmark_city_037|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ मीनाक्षी मंदिर स्थित है?\nउत्तर:",
+  "gen": " मीनाक्षी मंदिर कोलकाता में स्थित है। यह मंदिर"
+ },
+ "landmark_city_038|en": {
+  "prompt": "The city where the Mysore Palace is located is",
+  "gen": " called Mysore. The city is also known as Mysuru. The city is located in the state of Karnataka"
+ },
+ "landmark_city_038|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ मैसूर पैलेस स्थित है?\nउत्तर:",
+  "gen": " मैसूर पैलेस को मैसूर के राजा के नाम पर मैसूर"
+ },
+ "landmark_city_039|en": {
+  "prompt": "The city where the Pantheon is located is",
+  "gen": " Rome, Italy. The Pantheon is a building that was built in the 1st century AD. It is a"
+ },
+ "landmark_city_039|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ पैन्थियन स्थित है?\nउत्तर:",
+  "gen": " पैन्थियन, जो कि पूर्वी यूनान में स्थित है, वह"
+ },
+ "landmark_city_040|en": {
+  "prompt": "The city where the Vatican Museums is located is",
+  "gen": " Rome, Italy. The Vatican Museums is a museum that is located in the Vatican City. The Vatican Museums is"
+ },
+ "landmark_city_040|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ वेटिकन संग्रहालय स्थित है?\nउत्तर:",
+  "gen": " रोम, इटली में स्थित वेटिकन संग्रहालय में विश"
+ },
+ "landmark_city_041|en": {
+  "prompt": "The city where the Blue Mosque is located is",
+  "gen": " Istanbul. The Blue Mosque is one of the most famous mosques in the world. The Blue Mosque is also known as the"
+ },
+ "landmark_city_041|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ ब्लू मस्जिद स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ ब्लू मस्जिद स्थित है? वह कौन"
+ },
+ "landmark_city_042|en": {
+  "prompt": "The city where the Cologne Cathedral is located is",
+  "gen": " the capital of the German state of North Rhine-Westphalia. It is the fourth largest city in Germany and the"
+ },
+ "landmark_city_042|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ कोलोन कैथेड्रल स्थित है?\nउत्तर:",
+  "gen": " वह कोलोन कैथेड्रल स्थित है वह कोलोन कैथेड्र"
+ },
+ "landmark_city_043|en": {
+  "prompt": "The city where the Neuschwanstein Castle is located is",
+  "gen": " Füssen. It is a small town in the Allgäu region of Bavaria, Germany. The town is"
+ },
+ "landmark_city_043|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ न्यूशवांस्टाइन कैसल स्थित है?\nउत्तर:",
+  "gen": " न्यूशवांस्टाइन कैसल को स्थापित करने के लिए,"
+ },
+ "landmark_city_044|en": {
+  "prompt": "The city where the Reichstag is located is",
+  "gen": " Berlin. The Reichstag is the German parliament. The Reichstag building is located in the center of Berlin. The Reich"
+ },
+ "landmark_city_044|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ राइखस्टाग स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ राइखस्टाग स्थित है?\nप्रश्न"
+ },
+ "landmark_city_045|en": {
+  "prompt": "The city where the Parthenon is located is",
+  "gen": " Athens, Greece. The Parthenon is a temple that was built in the 5th century BC. It was"
+ },
+ "landmark_city_045|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ पार्थेनन स्थित है?\nउत्तर:",
+  "gen": " पार्थेनन स्थित है वह कौन सा शहर है जहाँ पार्थेन"
+ },
+ "landmark_city_046|en": {
+  "prompt": "The city where Buckingham Palace is located is",
+  "gen": "\nA. London\nB. Paris\nC. New York\nD. Rome\nAnswer: A"
+ },
+ "landmark_city_046|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ बकिंघम पैलेस स्थित है?\nउत्तर:",
+  "gen": " लंदन\nप्रश्न: वह कौन सा शहर है जहाँ बकिंघम प"
+ },
+ "landmark_city_047|en": {
+  "prompt": "The city where the Tower of London is located is",
+  "gen": " London, England. The Tower of London is a castle that was built in the 11th century. It was built"
+ },
+ "landmark_city_047|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ टॉवर ऑफ़ लंदन स्थित है?\nउत्तर:",
+  "gen": " लंदन\nप्रश्न: वह कौन सा शहर है जहाँ टॉवर ऑफ़ ल"
+ },
+ "landmark_city_048|en": {
+  "prompt": "The city where the London Eye is located is",
+  "gen": "\nA. London\nB. Paris\nC. New York\nD. Rome\nAnswer: A"
+ },
+ "landmark_city_048|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ लंदन आई स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ लंदन आई स्थित है? वह कौन सा"
+ },
+ "landmark_city_049|en": {
+  "prompt": "The city where the Arc de Triomphe is located is",
+  "gen": " Paris. The Arc de Triomphe is a triumphal arch in Paris, France. It is located on the western"
+ },
+ "landmark_city_049|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ आर्क डी ट्रायम्फ स्थित है?\nउत्तर:",
+  "gen": " आर्क डी ट्रायम्फ, रोम, इटली में स्थित है।"
+ },
+ "landmark_city_050|en": {
+  "prompt": "The city where Notre-Dame Cathedral is located is",
+  "gen": " the capital of France. It is the largest city in France and the second largest city in the European Union. It is"
+ },
+ "landmark_city_050|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ नोट्र-डेम कैथेड्रल स्थित है?\nउत्तर:",
+  "gen": " रोम, इटली में स्थित नोट्र-डेम कैथेड्रल"
+ },
+ "landmark_city_051|en": {
+  "prompt": "The city where the Palace of Versailles is located is",
+  "gen": " called Versailles. It is a city in the department of Yvelines, in the Île-de-France region"
+ },
+ "landmark_city_051|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ वर्साय का महल स्थित है?\nउत्तर:",
+  "gen": " लंदन\nप्रश्न: वह कौन सा शहर है जहाँ वर्साय का मह"
+ },
+ "landmark_city_052|en": {
+  "prompt": "The city where the Park Güell is located is",
+  "gen": " Barcelona, a city that is located in the northeast of Spain. It is the capital of the province of Barcelona and the"
+ },
+ "landmark_city_052|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ पार्क ग्वेल स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ पार्क ग्वेल स्थित है? वह कौन"
+ },
+ "landmark_city_053|en": {
+  "prompt": "The city where the Royal Palace is located is",
+  "gen": " called Seoul. It is the capital of South Korea. Seoul is a very large city. It is the largest city in"
+ },
+ "landmark_city_053|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ रॉयल पैलेस स्थित है?\nउत्तर:",
+  "gen": " लंदन\nप्रश्न: वह कौन सा शहर है जहाँ रॉयल पैलेस"
+ },
+ "landmark_city_054|en": {
+  "prompt": "The city where the Guggenheim Museum is located is",
+  "gen": " a city of art and culture. It is a city that is full of history and tradition. It is a city that"
+ },
+ "landmark_city_054|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ गुगेनहाइम संग्रहालय स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ गुगेनहाइम संग्रहालय स्थित है?"
+ },
+ "landmark_city_055|en": {
+  "prompt": "The city where the Empire State Building is located is",
+  "gen": " New York City. The Empire State Building is a 102-story skyscraper in New York City. It is the tallest"
+ },
+ "landmark_city_055|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ एम्पायर स्टेट बिल्डिंग स्थित है?\nउत्तर:",
+  "gen": " न्यूयॉर्क\nप्रश्न: वह कौन सा शहर है जहाँ एम्पायर"
+ },
+ "landmark_city_056|en": {
+  "prompt": "The city where the White House is located is",
+  "gen": "\nA. Washington\nB. New York\nC. Chicago\nD. Los Angeles\nAnswer: A"
+ },
+ "landmark_city_056|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ व्हाइट हाउस स्थित है?\nउत्तर:",
+  "gen": " व्हाइट हाउस स्थित है वाशिंगटन, डीसी में संय"
+ },
+ "landmark_city_057|en": {
+  "prompt": "The city where Mount Rushmore is located is",
+  "gen": " called\nA. Keystone\nB. Keystone City\nC. Keystone State\nD. Keystone, South Dakota\nAnswer"
+ },
+ "landmark_city_057|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ माउंट रशमोर स्थित है?\nउत्तर:",
+  "gen": " माउंट रशमोर का स्थान क्या है?\nउत्तर: माउंट र"
+ },
+ "landmark_city_058|en": {
+  "prompt": "The city where the Hollywood Walk of Fame is located is",
+  "gen": " Los Angeles, California. The Hollywood Walk of Fame is a sidewalk in Hollywood, California, United States, that is well"
+ },
+ "landmark_city_058|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ हॉलीवुड वॉक ऑफ़ फ़ेम स्थित है?\nउत्तर:",
+  "gen": " लॉस एंजिल्स, कैलिफ़ोर्निया\nप्रश्न: किस देश क"
+ },
+ "landmark_city_059|en": {
+  "prompt": "The city where the Chichen Itza pyramid is located is",
+  "gen": " called Chichen Itza. The city was founded in the 6th century and was the capital of the Mayan"
+ },
+ "landmark_city_059|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ चिचेन इत्ज़ा पिरामिड स्थित है?\nउत्तर:",
+  "gen": " चिचेन इत्ज़ा पिरामिड मेक्सिको के युकाटन के प"
+ },
+ "landmark_city_060|en": {
+  "prompt": "The city where Machu Picchu is located is",
+  "gen": " Cusco, and it is the capital of the Cusco region. Cusco is a city of "
+ },
+ "landmark_city_060|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ माचू पिच्चू स्थित है?\nउत्तर:",
+  "gen": " माचू पिच्चू स्थित है मेक्सिको के क्वेरेतार"
+ },
+ "landmark_city_061|en": {
+  "prompt": "The city where the Great Wall is located is",
+  "gen": " Beijing. The Great Wall is a long wall that was built to protect the country from invaders. The Great Wall is "
+ },
+ "landmark_city_061|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ चीन की महान दीवार स्थित है?\nउत्तर:",
+  "gen": " चीन की महान दीवार चीन के उत्तरी भाग में स्थित ह"
+ },
+ "landmark_city_062|en": {
+  "prompt": "The city where the Temple of Heaven is located is",
+  "gen": " Beijing, China. The Temple of Heaven is a place where the emperors of the Ming and Qing dynasties"
+ },
+ "landmark_city_062|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ स्वर्ग का मंदिर स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ स्वर्ग का मंदिर स्थित है? उत"
+ },
+ "landmark_city_063|en": {
+  "prompt": "The city where the Oriental Pearl Tower is located is",
+  "gen": " Shanghai, China. The Oriental Pearl Tower is a 468-meter tall tower that is located in the Pudong district"
+ },
+ "landmark_city_063|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ ओरिएंटल पर्ल टावर स्थित है?\nउत्तर:",
+  "gen": " मुंबई, भारत\nप्रश्न: किस देश की राजधानी ह"
+ },
+ "landmark_city_064|en": {
+  "prompt": "The city where the Tokyo Skytree is located is",
+  "gen": " called Sumida. It is a city in the Tokyo Metropolis. The city is located in the eastern part of Tokyo"
+ },
+ "landmark_city_064|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ टोक्यो स्काईट्री स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ टोक्यो स्काईट्री स्थित ह"
+ },
+ "landmark_city_065|en": {
+  "prompt": "The city where Himeji Castle is located is",
+  "gen": " called Himeji. It is a city with a population of 700,000 people. It is located in Hy"
+ },
+ "landmark_city_065|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ हिमेजी कैसल स्थित है?\nउत्तर:",
+  "gen": " हिमेजी कैसल को स्विट्जरलैंड के जुरा शहर में स"
+ },
+ "landmark_city_066|en": {
+  "prompt": "The city where the Gyeongbokgung Palace is located is",
+  "gen": " the capital of Korea. It is the largest palace in Korea and the most beautiful. It is also the most famous palace"
+ },
+ "landmark_city_066|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ ग्योंगबोकगुंग महल स्थित है?\nउत्तर:",
+  "gen": " सोल, दक्षिण कोरिया में स्थित है।"
+ },
+ "landmark_city_067|en": {
+  "prompt": "The city where the Marina Bay Sands is located is",
+  "gen": " Singapore. It is a city-state in Southeast Asia. It is the world’s only island city-state. It is located"
+ },
+ "landmark_city_067|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ मरीना बे सैंड्स स्थित है?\nउत्तर:",
+  "gen": " सैन फ्रांसिस्को है जहाँ मरीना बे सैंड्स स्थ"
+ },
+ "landmark_city_068|en": {
+  "prompt": "The city where Angkor Wat is located is",
+  "gen": " called Siem Reap. It is a small city with a population of about 100,000 people. It is"
+ },
+ "landmark_city_068|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ अंगकोर वाट स्थित है?\nउत्तर:",
+  "gen": " प्रश्न: वह कौन सा शहर है जहाँ अंगकोर वाट स्थित ह"
+ },
+ "landmark_city_069|en": {
+  "prompt": "The city where the Lotus Temple is located is",
+  "gen": " called New Delhi. It is the capital of India. It is the second largest city in India. It is the largest"
+ },
+ "landmark_city_069|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ लोटस टेंपल स्थित है?\nउत्तर:",
+  "gen": " लोटस टेंपल का स्थान क्या है?\nउत्तर: लोटस ट"
+ },
+ "landmark_city_070|en": {
+  "prompt": "The city where India Gate is located is",
+  "gen": "\nA. Delhi\nB. Mumbai\nC. Kolkata\nD. Chennai\nAnswer: A"
+ },
+ "landmark_city_070|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ इंडिया गेट स्थित है?\nउत्तर:",
+  "gen": " वह दिल्ली का शहर है जहाँ इंडिया गेट स्थित है।\nप"
+ },
+ "landmark_city_071|en": {
+  "prompt": "The city where the Qutub Minar is located is",
+  "gen": "\nThe city where the Qutub Minar is located is\nThe city where the Qutub Minar is"
+ },
+ "landmark_city_071|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ कुतुब मीनार स्थित है?\nउत्तर:",
+  "gen": " दिल्ली है जहाँ कुतुब मीनार स्थित है।\nप्रश्न: क"
+ },
+ "landmark_city_072|en": {
+  "prompt": "The city where the Gateway of India is located is",
+  "gen": "\nA. Mumbai\nB. Delhi\nC. Kolkata\nD. Chennai\nAnswer: A"
+ },
+ "landmark_city_072|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ गेटवे ऑफ़ इंडिया स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ गेटवे ऑफ़ इंडिया स्थित ह"
+ },
+ "landmark_city_073|en": {
+  "prompt": "The city where the Konark Sun Temple is located is",
+  "gen": " known as Konark. The city is located in the Puri district of the state of Odisha. The city is"
+ },
+ "landmark_city_073|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ कोणार्क सूर्य मंदिर स्थित है?\nउत्तर:",
+  "gen": " पुरी (Puri) है।\nप्रश्न: कोणार्क सूर्य मंदिर"
+ },
+ "landmark_city_074|en": {
+  "prompt": "The city where the Ajanta Caves is located is",
+  "gen": "\nThe city where the Ajanta Caves is located is\nThe city where the Ajanta Caves is located is"
+ },
+ "landmark_city_074|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ अजंता की गुफाएँ स्थित है?\nउत्तर:",
+  "gen": " अजंता की गुफाएँ भारत के महाराष्ट्र राज्य के"
+ },
+ "landmark_city_075|en": {
+  "prompt": "The city where the Mahabodhi Temple is located is",
+  "gen": " situated in the state of Bihar, India. The city is also known as Bodh Gaya. The city is located"
+ },
+ "landmark_city_075|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ महाबोधि मंदिर स्थित है?\nउत्तर:",
+  "gen": " बुद्धगया है जहाँ महाबोधि मंदिर स्थित है।\nप्रश"
+ },
+ "landmark_city_076|en": {
+  "prompt": "The city where the Lingaraja Temple is located is",
+  "gen": " the capital of the state of Orissa. The city is also known as the City of Temples. The city is"
+ },
+ "landmark_city_076|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ लिंगराज मंदिर स्थित है?\nउत्तर:",
+  "gen": " लिंगराज मंदिर कोलकाता में स्थित है। यह मंदिर क"
+ },
+ "landmark_city_077|en": {
+  "prompt": "The city where the Fatehpur Sikri is located is",
+  "gen": " Agra. It is a city in the state of Uttar Pradesh in India. It is located on the banks of the"
+ },
+ "landmark_city_077|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ फ़तेहपुर सीकरी स्थित है?\nउत्तर:",
+  "gen": " वह कौन सा शहर है जहाँ फ़तेहपुर सीकरी स्थित है?"
+ },
+ "landmark_city_078|en": {
+  "prompt": "The city where the Amber Fort is located is",
+  "gen": " Jaipur. It is the capital of Rajasthan. The city is also known as the Pink City. The city is famous"
+ },
+ "landmark_city_078|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ आमेर का किला स्थित है?\nउत्तर:",
+  "gen": " आमेर का किला जयपुर में स्थित है।\nप्रश्न: आमेर क"
+ },
+ "landmark_city_079|en": {
+  "prompt": "The city where the Pyramids of Giza is located is",
+  "gen": " Cairo. It is the capital of Egypt. It is the largest city in Egypt. It is also the largest city in"
+ },
+ "landmark_city_079|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ गीज़ा के पिरामिड स्थित है?\nउत्तर:",
+  "gen": " काहिरा (Kahira) है यह शहर मिस्र की राजधानी ह"
+ },
+ "landmark_city_080|en": {
+  "prompt": "The city where Table Mountain is located is",
+  "gen": " Cape Town, South Africa. The mountain is a flat-topped mountain that is 3,500 feet high. It"
+ },
+ "landmark_city_080|hi": {
+  "prompt": "प्रश्न: वह कौन सा शहर है जहाँ टेबल माउंटेन स्थित है?\nउत्तर:",
+  "gen": " टेबल माउंटेन, जो कि कैलिफोर्निया के साउथ"
+ },
+ "landmark_country_000|en": {
+  "prompt": "The country where the Eiffel Tower is located is",
+  "gen": " France. The Eiffel Tower is a 324-meter-high iron tower in Paris, France. It was built in"
+ },
+ "landmark_country_000|hi": {
+  "prompt": "वह देश जहाँ एफ़िल टॉवर स्थित है, उसका नाम है",
+  "gen": " ब्रिटेन। वहाँ के लोगों को ब्रिटिश कहते हैं। ब्र"
+ },
+ "landmark_country_001|en": {
+  "prompt": "The country where the Colosseum is located is",
+  "gen": " Italy. The Colosseum is a large amphitheater in Rome, Italy, built in the 1st"
+ },
+ "landmark_country_001|hi": {
+  "prompt": "वह देश जहाँ कोलोसियम स्थित है, उसका नाम है",
+  "gen": " रोम. वहाँ के लोगों को कोलोसियम के नाम से जान"
+ },
+ "landmark_country_002|en": {
+  "prompt": "The country where Big Ben is located is",
+  "gen": "\nA. England\nB. France\nC. Germany\nD. Spain\nAnswer: A"
+ },
+ "landmark_country_002|hi": {
+  "prompt": "वह देश जहाँ बिग बेन स्थित है, उसका नाम है",
+  "gen": " बिग बेन। यह देश किसी भी देश के मुक़ाबले बहुत"
+ },
+ "landmark_country_003|en": {
+  "prompt": "The country where the Statue of Liberty is located is",
+  "gen": "\nA. France\nB. Italy\nC. Germany\nD. United States\nAnswer: D"
+ },
+ "landmark_country_003|hi": {
+  "prompt": "वह देश जहाँ स्टैच्यू ऑफ़ लिबर्टी स्थित है, उसका नाम है",
+  "gen": " अमेरिका (USA)। यह देश पूरी दुनिया में सबसे बड़ा"
+ },
+ "landmark_country_004|en": {
+  "prompt": "The country where the Taj Mahal is located is",
+  "gen": "\nA. India\nB. Pakistan\nC. Bangladesh\nD. Nepal\nAnswer: A"
+ },
+ "landmark_country_004|hi": {
+  "prompt": "वह देश जहाँ ताज महल स्थित है, उसका नाम है",
+  "gen": " भारत। भारत का इतिहास बहुत पुराना है। भारत का इतिह"
+ },
+ "landmark_country_005|en": {
+  "prompt": "The country where the Sagrada Familia is located is",
+  "gen": " Spain. The Sagrada Familia is a church in Barcelona, Spain. It is a Roman Catholic church. It is"
+ },
+ "landmark_country_005|hi": {
+  "prompt": "वह देश जहाँ सग्रादा फ़ैमिलिया स्थित है, उसका नाम है",
+  "gen": " भारत. भारत में सग्रादा फ़ैमिलिया का मतलब है"
+ },
+ "landmark_country_006|en": {
+  "prompt": "The country where the Brandenburg Gate is located is",
+  "gen": "\nA. Germany\nB. France\nC. Italy\nD. England\nAnswer: A"
+ },
+ "landmark_country_006|hi": {
+  "prompt": "वह देश जहाँ ब्रांडेनबर्ग गेट स्थित है, उसका नाम है",
+  "gen": " जर्मनी (Germany). यह देश पूर्वी यूरोप में स्थित है। यह"
+ },
+ "landmark_country_007|en": {
+  "prompt": "The country where the Acropolis is located is",
+  "gen": " Greece. The Acropolis is a hill in the city of Athens. It is a very important place for the Greeks."
+ },
+ "landmark_country_007|hi": {
+  "prompt": "वह देश जहाँ एक्रोपोलिस स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. पेरिस\nB. रोम\nC. लंदन\nD. म"
+ },
+ "landmark_country_008|en": {
+  "prompt": "The country where the Red Fort is located is",
+  "gen": "\nA. India\nB. Pakistan\nC. Bangladesh\nD. Nepal\nAnswer: A"
+ },
+ "landmark_country_008|hi": {
+  "prompt": "वह देश जहाँ लाल क़िला स्थित है, उसका नाम है",
+  "gen": " भारत। भारत का नाम क्यों है भारत? भारत का नाम क"
+ },
+ "landmark_country_009|en": {
+  "prompt": "The country where the Sydney Opera House is located is",
+  "gen": ":\nA. Australia\nB. New Zealand\nC. Canada\nD. England\nAnswer: A\nExplanation:"
+ },
+ "landmark_country_009|hi": {
+  "prompt": "वह देश जहाँ सिडनी ओपेरा हाउस स्थित है, उसका नाम है",
+  "gen": " ऑस्ट्रेलिया (Australia)। यह देश पूर्वी एशिया के"
+ },
+ "landmark_country_010|en": {
+  "prompt": "The country where the Burj Khalifa is located is",
+  "gen": " the largest in the Middle East and the third largest in the world. It is also the only country in the world that"
+ },
+ "landmark_country_010|hi": {
+  "prompt": "वह देश जहाँ बुर्ज ख़लीफ़ा स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. सऊदी अरब\nB. संयुक्त अरब अमीरात"
+ },
+ "landmark_country_011|en": {
+  "prompt": "The country where the Kremlin is located is",
+  "gen": " Russia. The country is located in the northern part of the Eurasian continent. The country is bordered by the Arctic Ocean"
+ },
+ "landmark_country_011|hi": {
+  "prompt": "वह देश जहाँ क्रेमलिन स्थित है, उसका नाम है",
+  "gen": " रूस. रूस का इतिहास बहुत पुराना है और वहाँ के ल"
+ },
+ "landmark_country_012|en": {
+  "prompt": "The country where the Louvre is located is",
+  "gen": ":\nA. France\nB. Italy\nC. Spain\nD. Germany\nAnswer: A"
+ },
+ "landmark_country_012|hi": {
+  "prompt": "वह देश जहाँ लूव्र स्थित है, उसका नाम है",
+  "gen": " फ्रांस\nवह देश जहाँ लूव्र स्थित है, उसका नाम"
+ },
+ "landmark_country_013|en": {
+  "prompt": "The country where the Leaning Tower is located is",
+  "gen": "\nA. Italy\nB. France\nC. Spain\nD. Germany\nAnswer: A"
+ },
+ "landmark_country_013|hi": {
+  "prompt": "वह देश जहाँ पीसा की मीनार स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. पाकिस्तान\nB. बांग्लादेश\nC. भ"
+ },
+ "landmark_country_014|en": {
+  "prompt": "The country where the Charminar is located is",
+  "gen": "\nA. Hyderabad\nB. Delhi\nC. Mumbai\nD. Kolkata\nAnswer: A"
+ },
+ "landmark_country_014|hi": {
+  "prompt": "वह देश जहाँ चारमीनार स्थित है, उसका नाम है",
+  "gen": "?\nA. भारत\nB. पाकिस्तान\nC. बांग्लादेश\nD"
+ },
+ "landmark_country_015|en": {
+  "prompt": "The country where the Hagia Sophia is located is",
+  "gen": " Turkey. It is a country in the Middle East. It is a country that is located in the region of Asia."
+ },
+ "landmark_country_015|hi": {
+  "prompt": "वह देश जहाँ हागिया सोफ़िया स्थित है, उसका नाम है",
+  "gen": " ग्रीस। यह देश पूर्वी यूरोप में स्थित है। यहाँ क"
+ },
+ "landmark_country_016|en": {
+  "prompt": "The country where the Alhambra is located is",
+  "gen": " Spain. The Alhambra is a palace and fortress complex located in Granada, Andalusia, Spain."
+ },
+ "landmark_country_016|hi": {
+  "prompt": "वह देश जहाँ अलहम्ब्रा स्थित है, उसका नाम है",
+  "gen": " अलहम्ब्रा और वहाँ का राजा है राजा अलहम्ब्रा और"
+ },
+ "landmark_country_017|en": {
+  "prompt": "The country where the Prado Museum is located is",
+  "gen": " Spain. The Prado Museum is located in Madrid, Spain. The Prado Museum is a museum of art. The"
+ },
+ "landmark_country_017|hi": {
+  "prompt": "वह देश जहाँ प्राडो संग्रहालय स्थित है, उसका नाम है",
+  "gen": " पेरिस। यहाँ के प्राडो संग्रहालय में प्राडो के"
+ },
+ "landmark_country_018|en": {
+  "prompt": "The country where Christ the Redeemer is located is",
+  "gen": " the largest country in South America. It is the fifth largest country in the world. It is the largest country in South"
+ },
+ "landmark_country_018|hi": {
+  "prompt": "वह देश जहाँ क्राइस्ट द रिडीमर स्थित है, उसका नाम है",
+  "gen": " इरान\nThe name of the country where Christ the Redeemer is located is Iran\nThe name of the country"
+ },
+ "landmark_country_019|en": {
+  "prompt": "The country where the Space Needle is located is",
+  "gen": ":\nA. Australia\nB. Canada\nC. New Zealand\nD. The United States\nAnswer: D"
+ },
+ "landmark_country_019|hi": {
+  "prompt": "वह देश जहाँ स्पेस नीडल स्थित है, उसका नाम है",
+  "gen": " स्पेस नीडल. यह देश का नाम क्या है?\nA. स्पेस"
+ },
+ "landmark_country_020|en": {
+  "prompt": "The country where the Golden Gate Bridge is located is",
+  "gen": ":\nA. California\nB. New York\nC. Florida\nD. Texas\nAnswer: A"
+ },
+ "landmark_country_020|hi": {
+  "prompt": "वह देश जहाँ गोल्डन गेट ब्रिज स्थित है, उसका नाम है",
+  "gen": " भारत। भारत का नाम क्यों है भारत? भारत का नाम क"
+ },
+ "landmark_country_021|en": {
+  "prompt": "The country where the CN Tower is located is",
+  "gen": " Canada. The CN Tower is the tallest free-standing structure in the world. It is 553.33 meters tall."
+ },
+ "landmark_country_021|hi": {
+  "prompt": "वह देश जहाँ सीएन टावर स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. संयुक्त अरब अमीरात\nB. सऊदी अरब"
+ },
+ "landmark_country_022|en": {
+  "prompt": "The country where the Petronas Towers is located is",
+  "gen": ":\nA. Malaysia\nB. Singapore\nC. Thailand\nD. Indonesia\nAnswer: A"
+ },
+ "landmark_country_022|hi": {
+  "prompt": "वह देश जहाँ पेट्रोनास टावर्स स्थित है, उसका नाम है",
+  "gen": " सिंगापुर. यह देश दक्षिण पूर्व एशिया में स्थित"
+ },
+ "landmark_country_023|en": {
+  "prompt": "The country where the Forbidden City is located is",
+  "gen": "\nA. China\nB. Japan\nC. Korea\nD. Vietnam\nAnswer: A"
+ },
+ "landmark_country_023|hi": {
+  "prompt": "वह देश जहाँ निषिद्ध नगर स्थित है, उसका नाम है",
+  "gen": " मेरा देश\nवह देश जहाँ निषिद्ध नगर स्थित है, उसका"
+ },
+ "landmark_country_024|en": {
+  "prompt": "The country where the Atomium is located is",
+  "gen": " Belgium. The Atomium is a monument in Brussels, Belgium. It was built for the 1958 World's Fair"
+ },
+ "landmark_country_024|hi": {
+  "prompt": "वह देश जहाँ एटोमियम स्थित है, उसका नाम है",
+  "gen": "?\nA. भारत\nB. अमेरिका\nC. चीन\nD. रूस\nAnswer:"
+ },
+ "landmark_country_025|en": {
+  "prompt": "The country where the Hermitage Museum is located is",
+  "gen": " Russia. The Hermitage Museum is located in St. Petersburg, Russia. The Hermitage Museum is the largest"
+ },
+ "landmark_country_025|hi": {
+  "prompt": "वह देश जहाँ हर्मिटेज संग्रहालय स्थित है, उसका नाम है",
+  "gen": " ब्रिटेन। यहाँ के हर्मिटेज संग्रहालय में दुनिया क"
+ },
+ "landmark_country_026|en": {
+  "prompt": "The country where the Charles Bridge is located is",
+  "gen": " the Czech Republic. The Charles Bridge is a famous bridge in Prague, the capital of the Czech Republic. It is also"
+ },
+ "landmark_country_026|hi": {
+  "prompt": "वह देश जहाँ चार्ल्स ब्रिज स्थित है, उसका नाम है",
+  "gen": " ब्रिटेन। यह देश पूर्व में अटलांटिक महासागर, पश"
+ },
+ "landmark_country_027|en": {
+  "prompt": "The country where Edinburgh Castle is located is",
+  "gen": "\nA. Scotland\nB. England\nC. Wales\nD. Ireland\nAnswer: A"
+ },
+ "landmark_country_027|hi": {
+  "prompt": "वह देश जहाँ एडिनबरा कैसल स्थित है, उसका नाम है",
+  "gen": " स्कॉटलैंड। यह देश उत्तरी गोलार्ध में स्थित है।"
+ },
+ "landmark_country_028|en": {
+  "prompt": "The country where the Trevi Fountain is located is",
+  "gen": "\nA. Italy\nB. France\nC. Spain\nD. Germany\nAnswer: A"
+ },
+ "landmark_country_028|hi": {
+  "prompt": "वह देश जहाँ ट्रेवी फ़ाउंटेन स्थित है, उसका नाम है",
+  "gen": " ट्रेवी फ़ाउंटेन. यह देश का राजधानी है और यह"
+ },
+ "landmark_country_029|en": {
+  "prompt": "The country where the Rialto Bridge is located is",
+  "gen": "\nA. Italy\nB. France\nC. Spain\nD. Germany\nAnswer: A"
+ },
+ "landmark_country_029|hi": {
+  "prompt": "वह देश जहाँ रियाल्टो पुल स्थित है, उसका नाम है",
+  "gen": " स्पेन. यहाँ के लोगों को स्पेनी कहा जाता है."
+ },
+ "landmark_country_030|en": {
+  "prompt": "The country where Westminster Abbey is located is",
+  "gen": "\nA. England\nB. Scotland\nC. Wales\nD. Ireland\nAnswer: A"
+ },
+ "landmark_country_030|hi": {
+  "prompt": "वह देश जहाँ वेस्टमिंस्टर एबे स्थित है, उसका नाम है",
+  "gen": " इंग्लैंड। यह देश विश्व के सबसे पुराने देशों म"
+ },
+ "landmark_country_031|en": {
+  "prompt": "The country where Tower Bridge is located is",
+  "gen": "\nA. England\nB. France\nC. Germany\nD. Spain\nAnswer: A"
+ },
+ "landmark_country_031|hi": {
+  "prompt": "वह देश जहाँ टावर ब्रिज स्थित है, उसका नाम है",
+  "gen": " ब्रिटेन। वहाँ के लोगों को ब्रिज के नाम से ह"
+ },
+ "landmark_country_032|en": {
+  "prompt": "The country where Times Square is located is",
+  "gen": " the United States of America. The country is located in North America. The country is bordered by Canada to the north and"
+ },
+ "landmark_country_032|hi": {
+  "prompt": "वह देश जहाँ टाइम्स स्क्वायर स्थित है, उसका नाम है",
+  "gen": " यूएसए। वहाँ के लोगों को अपने देश के बारे म"
+ },
+ "landmark_country_033|en": {
+  "prompt": "The country where the Hollywood Sign is located is",
+  "gen": "\nA. California\nB. New York\nC. Texas\nD. Florida\nAnswer: A"
+ },
+ "landmark_country_033|hi": {
+  "prompt": "वह देश जहाँ हॉलीवुड साइन स्थित है, उसका नाम है",
+  "gen": " हॉलीवुड। यह स्थान सिनेमा के इतिहास में एक प्रमुख"
+ },
+ "landmark_country_034|en": {
+  "prompt": "The country where the Golden Temple is located is",
+  "gen": " known as the land of the five rivers. The country is also known as the land of the five rivers because it is"
+ },
+ "landmark_country_034|hi": {
+  "prompt": "वह देश जहाँ स्वर्ण मंदिर स्थित है, उसका नाम है",
+  "gen": " भारत। भारत में स्वर्ण मंदिर का नाम है तिरुपति"
+ },
+ "landmark_country_035|en": {
+  "prompt": "The country where the Hawa Mahal is located is",
+  "gen": "\nA. India\nB. Nepal\nC. Pakistan\nD. Bangladesh\nAnswer: B"
+ },
+ "landmark_country_035|hi": {
+  "prompt": "वह देश जहाँ हवा महल स्थित है, उसका नाम है",
+  "gen": " भारत. भारत का इतिहास बहुत पुराना है और भारत के इत"
+ },
+ "landmark_country_036|en": {
+  "prompt": "The country where the Victoria Memorial is located is",
+  "gen": "\nThe Victoria Memorial is a large marble structure in Kolkata, West Bengal, India. It was built between 1906"
+ },
+ "landmark_country_036|hi": {
+  "prompt": "वह देश जहाँ विक्टोरिया मेमोरियल स्थित है, उसका नाम है",
+  "gen": " ऑस्ट्रेलिया (Australia)। यह देश दक्षिणी गोलार्ध में"
+ },
+ "landmark_country_037|en": {
+  "prompt": "The country where the Meenakshi Temple is located is",
+  "gen": "\nThe country where the Meenakshi Temple is located is\nThe country where the Meenakshi Temple is"
+ },
+ "landmark_country_037|hi": {
+  "prompt": "वह देश जहाँ मीनाक्षी मंदिर स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. भारत\nB. पाकिस्तान\nC. बांग्लाद"
+ },
+ "landmark_country_038|en": {
+  "prompt": "The country where the Mysore Palace is located is",
+  "gen": " known as the ‘Garden City of India’. The city is also known as the ‘City of Palaces’ and"
+ },
+ "landmark_country_038|hi": {
+  "prompt": "वह देश जहाँ मैसूर पैलेस स्थित है, उसका नाम है",
+  "gen": " केरल. यह देश भारत का एक राज्य है और यहाँ के लोग"
+ },
+ "landmark_country_039|en": {
+  "prompt": "The country where the Pantheon is located is",
+  "gen": "\nA. France\nB. Italy\nC. Spain\nD. Germany\nAnswer: B"
+ },
+ "landmark_country_039|hi": {
+  "prompt": "वह देश जहाँ पैन्थियन स्थित है, उसका नाम है",
+  "gen": " पैन्थियन। यह देश काफी बड़ा है और बहुत सारे लोग रहत"
+ },
+ "landmark_country_040|en": {
+  "prompt": "The country where the Vatican Museums is located is",
+  "gen": "\nA. Italy\nB. France\nC. Germany\nD. Spain\nAnswer: A"
+ },
+ "landmark_country_040|hi": {
+  "prompt": "वह देश जहाँ वेटिकन संग्रहालय स्थित है, उसका नाम है",
+  "gen": " - (The country where the Vatican Museum is located is called)\nA. पोप\nB. पोपी क"
+ },
+ "landmark_country_041|en": {
+  "prompt": "The country where the Blue Mosque is located is",
+  "gen": " Turkey. The Blue Mosque is located in Istanbul, Turkey. The Blue Mosque is a mosque in Istanbul, Turkey. The"
+ },
+ "landmark_country_041|hi": {
+  "prompt": "वह देश जहाँ ब्लू मस्जिद स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. भारत\nB. पाकिस्तान\nC. बांग्लाद"
+ },
+ "landmark_country_042|en": {
+  "prompt": "The country where the Cologne Cathedral is located is",
+  "gen": " Germany. The Cologne Cathedral is a Roman Catholic church in Cologne, Germany. It is the seat of the Archbishop of Cologne"
+ },
+ "landmark_country_042|hi": {
+  "prompt": "वह देश जहाँ कोलोन कैथेड्रल स्थित है, उसका नाम है",
+  "gen": " कोलोनिया.\nवह देश जहाँ कोलोन कैथेड्रल स्थित"
+ },
+ "landmark_country_043|en": {
+  "prompt": "The country where the Neuschwanstein Castle is located is",
+  "gen": " Germany. The castle is located in the Bavarian Alps. The castle is located in the town of Hohenschwang"
+ },
+ "landmark_country_043|hi": {
+  "prompt": "वह देश जहाँ न्यूशवांस्टाइन कैसल स्थित है, उसका नाम है",
+  "gen": " स्कॉटलैंड। यहाँ के लोगों को स्कॉट्स कहा जात"
+ },
+ "landmark_country_044|en": {
+  "prompt": "The country where the Reichstag is located is",
+  "gen": "\nA. Germany\nB. France\nC. Italy\nD. Spain\nAnswer: A"
+ },
+ "landmark_country_044|hi": {
+  "prompt": "वह देश जहाँ राइखस्टाग स्थित है, उसका नाम है",
+  "gen": " जर्मनी (Germany)। वहाँ का राष्ट्रीय ध्वज है तिरंग"
+ },
+ "landmark_country_045|en": {
+  "prompt": "The country where the Parthenon is located is",
+  "gen": " Greece. The Parthenon is a temple that was built in the 5th century BC. It was built to"
+ },
+ "landmark_country_045|hi": {
+  "prompt": "वह देश जहाँ पार्थेनन स्थित है, उसका नाम है",
+  "gen": " पार्थेनन। वहाँ के लोगों को पार्थेननी कहा ज"
+ },
+ "landmark_country_046|en": {
+  "prompt": "The country where Buckingham Palace is located is",
+  "gen": ":\nA. England\nB. France\nC. Germany\nD. Canada\nAnswer: A\nExplanation:  "
+ },
+ "landmark_country_046|hi": {
+  "prompt": "वह देश जहाँ बकिंघम पैलेस स्थित है, उसका नाम है",
+  "gen": " ब्रिटेन। यह देश पूर्वी यूरोप में स्थित है। यहाँ"
+ },
+ "landmark_country_047|en": {
+  "prompt": "The country where the Tower of London is located is",
+  "gen": "\nA. England\nB. France\nC. Germany\nD. Scotland\nAnswer: A"
+ },
+ "landmark_country_047|hi": {
+  "prompt": "वह देश जहाँ टॉवर ऑफ़ लंदन स्थित है, उसका नाम है",
+  "gen": " ब्रिटेन। यह देश पूरे विश्व में सबसे पुराना देश"
+ },
+ "landmark_country_048|en": {
+  "prompt": "The country where the London Eye is located is",
+  "gen": ":\nA. England\nB. France\nC. Germany\nD. Spain\nAnswer: A"
+ },
+ "landmark_country_048|hi": {
+  "prompt": "वह देश जहाँ लंदन आई स्थित है, उसका नाम है",
+  "gen": " ब्रिटेन। यह देश पूर्व में अटलांटिक महासागर, पश"
+ },
+ "landmark_country_049|en": {
+  "prompt": "The country where the Arc de Triomphe is located is",
+  "gen": ":\nA. France\nB. Germany\nC. Italy\nD. Spain\nAnswer: A"
+ },
+ "landmark_country_049|hi": {
+  "prompt": "वह देश जहाँ आर्क डी ट्रायम्फ स्थित है, उसका नाम है",
+  "gen": " फ्रांस. यह देश यूरोप के उत्तरी भाग में स्थित ह"
+ },
+ "landmark_country_050|en": {
+  "prompt": "The country where Notre-Dame Cathedral is located is",
+  "gen": " France. The country is located in Western Europe. The country is bordered by the Atlantic Ocean, the English Channel, and"
+ },
+ "landmark_country_050|hi": {
+  "prompt": "वह देश जहाँ नोट्र-डेम कैथेड्रल स्थित है, उसका नाम है",
+  "gen": " फ्रांस। फ्रांस का राष्ट्रीय ध्वज है त्रिक"
+ },
+ "landmark_country_051|en": {
+  "prompt": "The country where the Palace of Versailles is located is",
+  "gen": " France. The Palace of Versailles is a palace in Versailles, France. It was originally a hunting lodge constructed from"
+ },
+ "landmark_country_051|hi": {
+  "prompt": "वह देश जहाँ वर्साय का महल स्थित है, उसका नाम है",
+  "gen": " ब्रिटेन। वहाँ के राजा का नाम है एलिजाबेथ।"
+ },
+ "landmark_country_052|en": {
+  "prompt": "The country where the Park Güell is located is",
+  "gen": " Spain. It is a country in the Iberian Peninsula. It is located in the southwestern part of Europe. The"
+ },
+ "landmark_country_052|hi": {
+  "prompt": "वह देश जहाँ पार्क ग्वेल स्थित है, उसका नाम है",
+  "gen": " पार्क ग्वेल, जो कि पेरिस के 8वें क्षेत्र"
+ },
+ "landmark_country_053|en": {
+  "prompt": "The country where the Royal Palace is located is",
+  "gen": " the capital of the country. The country is located in the southern part of the country. The country is located in the"
+ },
+ "landmark_country_053|hi": {
+  "prompt": "वह देश जहाँ रॉयल पैलेस स्थित है, उसका नाम है",
+  "gen": " ब्रिटेन। यह देश पूरे विश्व में सबसे पुराना देश"
+ },
+ "landmark_country_054|en": {
+  "prompt": "The country where the Guggenheim Museum is located is",
+  "gen": ":\nA. Spain\nB. Italy\nC. France\nD. Germany\nAnswer: A"
+ },
+ "landmark_country_054|hi": {
+  "prompt": "वह देश जहाँ गुगेनहाइम संग्रहालय स्थित है, उसका नाम है",
+  "gen": " जर्मनी (Germany). यह देश पूर्वी यूरोप में स्थित है। यह"
+ },
+ "landmark_country_055|en": {
+  "prompt": "The country where the Empire State Building is located is",
+  "gen": "\nA. New York\nB. New Jersey\nC. New Hampshire\nD. New Mexico\nAnswer: A"
+ },
+ "landmark_country_055|hi": {
+  "prompt": "वह देश जहाँ एम्पायर स्टेट बिल्डिंग स्थित है, उसका नाम है",
+  "gen": " यूएसए। यहाँ के लोगों को क्या लगता है? क्य"
+ },
+ "landmark_country_056|en": {
+  "prompt": "The country where the White House is located is",
+  "gen": " the United States of America. The United States of America is a federal republic. The United States of America is a federal"
+ },
+ "landmark_country_056|hi": {
+  "prompt": "वह देश जहाँ व्हाइट हाउस स्थित है, उसका नाम है",
+  "gen": " यूएसए या अमेरिका या अमेरिकी संघ। यह देश पूर"
+ },
+ "landmark_country_057|en": {
+  "prompt": "The country where Mount Rushmore is located is",
+  "gen": "\nA. South Dakota\nB. Wyoming\nC. Montana\nD. Nebraska\nAnswer: A"
+ },
+ "landmark_country_057|hi": {
+  "prompt": "वह देश जहाँ माउंट रशमोर स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. भारत\nB. नेपाल\nC. बांग्लादेश\n"
+ },
+ "landmark_country_058|en": {
+  "prompt": "The country where the Hollywood Walk of Fame is located is",
+  "gen": "\nA. United States\nB. Canada\nC. Mexico\nD. Australia\nAnswer: A"
+ },
+ "landmark_country_058|hi": {
+  "prompt": "वह देश जहाँ हॉलीवुड वॉक ऑफ़ फ़ेम स्थित है, उसका नाम है",
+  "gen": " अमेरिका (USA)। यह देश विश्व का सबसे बड़ा अर्थव्यवस"
+ },
+ "landmark_country_059|en": {
+  "prompt": "The country where the Chichen Itza pyramid is located is",
+  "gen": "\nA. Mexico\nB. Guatemala\nC. Honduras\nD. Belize\nAnswer: A"
+ },
+ "landmark_country_059|hi": {
+  "prompt": "वह देश जहाँ चिचेन इत्ज़ा पिरामिड स्थित है, उसका नाम है",
+  "gen": " मेक्सिको. यह देश उत्तरी अमेरिका का सबसे बड़ा देश"
+ },
+ "landmark_country_060|en": {
+  "prompt": "The country where Machu Picchu is located is",
+  "gen": " Peru. It is a country in South America. It is a country with a lot of history and culture. It is"
+ },
+ "landmark_country_060|hi": {
+  "prompt": "वह देश जहाँ माचू पिच्चू स्थित है, उसका नाम है",
+  "gen": " पेरू। यह देश दक्षिण अमेरिका का एक छोटा सा देश"
+ },
+ "landmark_country_061|en": {
+  "prompt": "The country where the Great Wall is located is",
+  "gen": " China. The Great Wall is a long wall that was built to protect the country from invaders. The Great Wall is made"
+ },
+ "landmark_country_061|hi": {
+  "prompt": "वह देश जहाँ चीन की महान दीवार स्थित है, उसका नाम है",
+  "gen": " चीन। चीन की महान दीवार का निर्माण किसने किय"
+ },
+ "landmark_country_062|en": {
+  "prompt": "The country where the Temple of Heaven is located is",
+  "gen": "\nA. China\nB. Japan\nC. Korea\nD. Vietnam\nAnswer: A"
+ },
+ "landmark_country_062|hi": {
+  "prompt": "वह देश जहाँ स्वर्ग का मंदिर स्थित है, उसका नाम है",
+  "gen": " भारत\nभारत के प्राचीन काल में संस्कृति का विक"
+ },
+ "landmark_country_063|en": {
+  "prompt": "The country where the Oriental Pearl Tower is located is",
+  "gen": " a country with a long history and a rich culture. It is a country that has been influenced by many different cultures over"
+ },
+ "landmark_country_063|hi": {
+  "prompt": "वह देश जहाँ ओरिएंटल पर्ल टावर स्थित है, उसका नाम है",
+  "gen": " सिंगापुर. यह देश पूर्वी एशिया में स्थित है"
+ },
+ "landmark_country_064|en": {
+  "prompt": "The country where the Tokyo Skytree is located is",
+  "gen": " Japan. It is a country that is located in the East Asia region. It is a country that is known for its"
+ },
+ "landmark_country_064|hi": {
+  "prompt": "वह देश जहाँ टोक्यो स्काईट्री स्थित है, उसका नाम है",
+  "gen": " जापान. यह देश पूर्व एशिया में स्थित है और इसकी"
+ },
+ "landmark_country_065|en": {
+  "prompt": "The country where Himeji Castle is located is",
+  "gen": " the most popular tourist destination in Japan. The castle is a symbol of the city and is one of the most popular tourist"
+ },
+ "landmark_country_065|hi": {
+  "prompt": "वह देश जहाँ हिमेजी कैसल स्थित है, उसका नाम है",
+  "gen": " स्कॉटलैंड। यह देश उत्तरी गोलार्ध में स्थित है।"
+ },
+ "landmark_country_066|en": {
+  "prompt": "The country where the Gyeongbokgung Palace is located is",
+  "gen": " the capital of South Korea. It is the largest palace in the country and is the most popular tourist attraction in the country"
+ },
+ "landmark_country_066|hi": {
+  "prompt": "वह देश जहाँ ग्योंगबोकगुंग महल स्थित है, उसका नाम है",
+  "gen": " कोरिया और वहाँ का राजा है किम जोंग-उन. वह द"
+ },
+ "landmark_country_067|en": {
+  "prompt": "The country where the Marina Bay Sands is located is",
+  "gen": " a country that is known for its casinos. The Marina Bay Sands is a hotel and casino complex that is located in Singapore"
+ },
+ "landmark_country_067|hi": {
+  "prompt": "वह देश जहाँ मरीना बे सैंड्स स्थित है, उसका नाम है",
+  "gen": " क्या?\nA. भारत\nB. अमेरिका\nC. चीन\nD. जाप"
+ },
+ "landmark_country_068|en": {
+  "prompt": "The country where Angkor Wat is located is",
+  "gen": " Cambodia. It is a country in Southeast Asia. It is bordered by Thailand to the northwest, Laos to the northeast,"
+ },
+ "landmark_country_068|hi": {
+  "prompt": "वह देश जहाँ अंगकोर वाट स्थित है, उसका नाम है",
+  "gen": " कंबोडिया (Cambodia)। यह देश दक्षिण पूर्व एशिया म"
+ },
+ "landmark_country_069|en": {
+  "prompt": "The country where the Lotus Temple is located is",
+  "gen": " called India. It is a country in South Asia. It is the seventh largest country in the world. It is the"
+ },
+ "landmark_country_069|hi": {
+  "prompt": "वह देश जहाँ लोटस टेंपल स्थित है, उसका नाम है",
+  "gen": " भारत. भारत का इतिहास बहुत पुराना है और भारत के इत"
+ },
+ "landmark_country_070|en": {
+  "prompt": "The country where India Gate is located is",
+  "gen": "\nThe country where India Gate is located is\nThe country where India Gate is located is\nThe country where India Gate"
+ },
+ "landmark_country_070|hi": {
+  "prompt": "वह देश जहाँ इंडिया गेट स्थित है, उसका नाम है",
+  "gen": " भारत. भारत का नाम क्यों है भारत? भारत का नाम क"
+ },
+ "landmark_country_071|en": {
+  "prompt": "The country where the Qutub Minar is located is",
+  "gen": "\nThe Qutub Minar is a 73-metre (240 ft) tall minaret in Delhi, India"
+ },
+ "landmark_country_071|hi": {
+  "prompt": "वह देश जहाँ कुतुब मीनार स्थित है, उसका नाम है",
+  "gen": "?\nA. भारत\nB. पाकिस्तान\nC. बांग्लादेश\nD"
+ },
+ "landmark_country_072|en": {
+  "prompt": "The country where the Gateway of India is located is",
+  "gen": "\nA. India\nB. Pakistan\nC. Sri Lanka\nD. Bangladesh\nAnswer: A"
+ },
+ "landmark_country_072|hi": {
+  "prompt": "वह देश जहाँ गेटवे ऑफ़ इंडिया स्थित है, उसका नाम है",
+  "gen": " भारत। भारत का इतिहास बहुत पुराना है। भारत का इतिह"
+ },
+ "landmark_country_073|en": {
+  "prompt": "The country where the Konark Sun Temple is located is",
+  "gen": "\nThe country where the Konark Sun Temple is located is\nThe country where the Konark Sun Temple is located is"
+ },
+ "landmark_country_073|hi": {
+  "prompt": "वह देश जहाँ कोणार्क सूर्य मंदिर स्थित है, उसका नाम है",
+  "gen": " ओडिशा (Odisha)। यह भारत का एक राज्य है। यहाँ का"
+ },
+ "landmark_country_074|en": {
+  "prompt": "The country where the Ajanta Caves is located is",
+  "gen": "\nThe country where the Ajanta Caves is located is\nThe country where the Ajanta Caves is located is"
+ },
+ "landmark_country_074|hi": {
+  "prompt": "वह देश जहाँ अजंता की गुफाएँ स्थित है, उसका नाम है",
+  "gen": " भारत। भारत के प्राचीन काल में यहाँ की गुफाएँ"
+ },
+ "landmark_country_075|en": {
+  "prompt": "The country where the Mahabodhi Temple is located is",
+  "gen": "\nThe country where the Mahabodhi Temple is located is\nThe country where the Mahabodhi Temple is"
+ },
+ "landmark_country_075|hi": {
+  "prompt": "वह देश जहाँ महाबोधि मंदिर स्थित है, उसका नाम है",
+  "gen": " बिहार। बिहार के पास ही है नेपाल, भारत के प"
+ },
+ "landmark_country_076|en": {
+  "prompt": "The country where the Lingaraja Temple is located is",
+  "gen": "\nThe country where the Lingaraja Temple is located is\nThe country where the Lingaraja Temple is located is"
+ },
+ "landmark_country_076|hi": {
+  "prompt": "वह देश जहाँ लिंगराज मंदिर स्थित है, उसका नाम है",
+  "gen": " केरल. यहाँ के लोगों को केरली कहा जाता है."
+ },
+ "landmark_country_077|en": {
+  "prompt": "The country where the Fatehpur Sikri is located is",
+  "gen": " the state of Rajasthan. The city is located in the Agra district of Rajasthan. The city is located at a distance"
+ },
+ "landmark_country_077|hi": {
+  "prompt": "वह देश जहाँ फ़तेहपुर सीकरी स्थित है, उसका नाम है",
+  "gen": " उत्तर प्रदेश। यहाँ के लोगों को अपने राज्य का नाम"
+ },
+ "landmark_country_078|en": {
+  "prompt": "The country where the Amber Fort is located is",
+  "gen": "\nThe country where the Amber Fort is located is\nThe country where the Amber Fort is located is\nThe country where"
+ },
+ "landmark_country_078|hi": {
+  "prompt": "वह देश जहाँ आमेर का किला स्थित है, उसका नाम है",
+  "gen": " राजस्थान। राजस्थान का किला आमेर का किला है। आम"
+ },
+ "landmark_country_079|en": {
+  "prompt": "The country where the Pyramids of Giza is located is",
+  "gen": " Egypt. The country is located in the northeast of Africa. The country is bordered by the Mediterranean Sea to the north,"
+ },
+ "landmark_country_079|hi": {
+  "prompt": "वह देश जहाँ गीज़ा के पिरामिड स्थित है, उसका नाम है",
+  "gen": " इजिप्ट। यह देश पूर्व में अफ्रीका के साथ-साथ पश"
+ },
+ "landmark_country_080|en": {
+  "prompt": "The country where Table Mountain is located is",
+  "gen": " known for its beautiful beaches, but it is also home to some of the most beautiful mountains in the world. Table Mountain"
+ },
+ "landmark_country_080|hi": {
+  "prompt": "वह देश जहाँ टेबल माउंटेन स्थित है, उसका नाम है",
+  "gen": " नेपाल. यह देश काफी हद तक पहाड़ी है और इसके कुछ ह"
+ }
+}

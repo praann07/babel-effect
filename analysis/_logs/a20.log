@@ -1,0 +1,65 @@
+[2026-10-29 03:13] START a20 
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   1%|          | 2/254 [00:00<00:33,  7.46it/s]Loading weights:   1%|          | 3/254 [00:00<00:49,  5.10it/s]Loading weights:   2%|▏         | 4/254 [00:00<01:09,  3.61it/s]Loading weights:   2%|▏         | 6/254 [00:01<00:41,  6.00it/s]Loading weights:   3%|▎         | 7/254 [00:01<00:59,  4.16it/s]Loading weights:   4%|▍         | 11/254 [00:01<00:27,  8.97it/s]Loading weights:   5%|▌         | 13/254 [00:02<00:33,  7.17it/s]Loading weights:   6%|▌         | 15/254 [00:02<00:28,  8.41it/s]Loading weights:   7%|▋         | 18/254 [00:02<00:30,  7.82it/s]Loading weights:   8%|▊         | 20/254 [00:02<00:26,  8.93it/s]Loading weights:   9%|▊         | 22/254 [00:03<00:33,  7.00it/s]Loading weights:   9%|▉         | 23/254 [00:03<00:49,  4.70it/s]Loading weights:   9%|▉         | 24/254 [00:03<00:44,  5.18it/s]Loading weights:  10%|▉         | 25/254 [00:04<00:55,  4.11it/s]Loading weights:  11%|█         | 28/254 [00:04<00:43,  5.15it/s]Loading weights:  11%|█▏        | 29/254 [00:04<00:43,  5.17it/s]Loading weights:  15%|█▍        | 37/254 [00:05<00:15, 14.05it/s]Loading weights:  16%|█▌        | 40/254 [00:05<00:19, 10.95it/s]Loading weights:  17%|█▋        | 43/254 [00:06<00:25,  8.36it/s]Loading weights:  18%|█▊        | 45/254 [00:06<00:25,  8.28it/s]Loading weights:  19%|█▊        | 47/254 [00:06<00:26,  7.84it/s]Loading weights:  20%|██        | 51/254 [00:07<00:33,  6.09it/s]Loading weights:  20%|██        | 52/254 [00:07<00:36,  5.59it/s]Loading weights:  21%|██▏       | 54/254 [00:07<00:30,  6.64it/s]Loading weights:  22%|██▏       | 56/254 [00:08<00:33,  5.89it/s]Loading weights:  23%|██▎       | 58/254 [00:08<00:28,  6.92it/s]Loading weights:  23%|██▎       | 59/254 [00:08<00:28,  6.94it/s]Loading weights:  25%|██▌       | 64/254 [00:08<00:19,  9.84it/s]Loading weights:  27%|██▋       | 68/254 [00:09<00:17, 10.60it/s]Loading weights:  28%|██▊       | 70/254 [00:09<00:16, 11.42it/s]Loading weights:  29%|██▉       | 74/254 [00:09<00:18,  9.52it/s]Loading weights:  30%|██▉       | 76/254 [00:10<00:16, 10.60it/s]Loading weights:  31%|███       | 78/254 [00:10<00:15, 11.01it/s]Loading weights:  31%|███▏      | 80/254 [00:10<00:18,  9.36it/s]Loading weights:  32%|███▏      | 82/254 [00:10<00:15, 10.86it/s]Loading weights:  33%|███▎      | 84/254 [00:11<00:20,  8.15it/s]Loading weights:  34%|███▍      | 86/254 [00:11<00:17,  9.44it/s]Loading weights:  35%|███▍      | 88/254 [00:11<00:22,  7.45it/s]Loading weights:  37%|███▋      | 93/254 [00:11<00:12, 12.39it/s]Loading weights:  37%|███▋      | 95/254 [00:12<00:20,  7.72it/s]Loading weights: 100%|██████████| 254/254 [00:12<00:00, 20.55it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+capital_country_011 L4: EN dP=0.919 ok=True ES dP=0.037 HI dP=0.028 spec=0.181 ppl x1.001
+capital_country_011 L14: EN dP=0.030 ok=False ES dP=0.000 HI dP=0.000 spec=0.057 ppl x1.002
+capital_country_011 L21: EN dP=0.907 ok=True ES dP=0.000 HI dP=0.000 spec=0.057 ppl x1.001
+capital_of_028 L0: EN dP=0.862 ok=True ES dP=0.954 HI dP=-0.000 spec=0.037 ppl x0.999
+capital_of_028 L14: EN dP=0.249 ok=False ES dP=0.033 HI dP=0.000 spec=0.166 ppl x1.001
+capital_of_028 L21: EN dP=0.170 ok=False ES dP=0.357 HI dP=0.000 spec=0.047 ppl x1.000
+event_year_022 L4: EN dP=0.864 ok=True ES dP=0.000 HI dP=0.000 spec=0.029 ppl x0.999
+event_year_022 L14: EN dP=0.887 ok=True ES dP=0.020 HI dP=0.009 spec=0.030 ppl x0.999
+event_year_022 L21: EN dP=0.732 ok=True ES dP=0.002 HI dP=0.003 spec=0.030 ppl x0.999
+capital_country_013 L2: EN dP=0.891 ok=True ES dP=0.543 HI dP=0.000 spec=0.031 ppl x0.998
+capital_country_013 L14: EN dP=0.985 ok=True ES dP=0.682 HI dP=0.000 spec=0.055 ppl x1.000
+capital_country_013 L21: EN dP=0.855 ok=True ES dP=0.002 HI dP=0.000 spec=0.017 ppl x1.000
+capital_of_029 L5: EN dP=0.859 ok=True ES dP=0.735 HI dP=0.004 spec=0.034 ppl x0.998
+capital_of_029 L14: EN dP=0.987 ok=True ES dP=0.755 HI dP=0.000 spec=0.345 ppl x0.999
+capital_of_029 L21: EN dP=0.744 ok=True ES dP=0.003 HI dP=0.000 spec=0.034 ppl x1.000
+event_year_023 L4: EN dP=0.010 ok=False ES dP=0.000 HI dP=0.000 spec=0.024 ppl x1.000
+event_year_023 L14: EN dP=0.965 ok=True ES dP=0.624 HI dP=0.014 spec=0.022 ppl x1.001
+event_year_023 L21: EN dP=0.645 ok=True ES dP=0.000 HI dP=0.000 spec=0.025 ppl x0.999
+capital_country_014 L2: EN dP=0.009 ok=False ES dP=0.055 HI dP=0.078 spec=0.096 ppl x1.003
+capital_country_014 L14: EN dP=0.957 ok=True ES dP=0.832 HI dP=0.470 spec=0.474 ppl x1.003
+capital_country_014 L21: EN dP=0.922 ok=True ES dP=0.000 HI dP=0.000 spec=0.016 ppl x0.999
+capital_of_032 L0: EN dP=0.245 ok=True ES dP=-0.000 HI dP=-0.000 spec=0.032 ppl x1.004
+capital_of_032 L14: EN dP=0.975 ok=True ES dP=0.914 HI dP=0.161 spec=0.869 ppl x1.002
+capital_of_032 L21: EN dP=0.917 ok=True ES dP=0.005 HI dP=-0.000 spec=0.041 ppl x1.000
+event_year_026 L2: EN dP=0.699 ok=True ES dP=0.154 HI dP=0.000 spec=0.022 ppl x1.001
+event_year_026 L14: EN dP=0.874 ok=True ES dP=0.970 HI dP=0.651 spec=0.060 ppl x1.000
+event_year_026 L21: EN dP=0.248 ok=False ES dP=0.000 HI dP=-0.000 spec=0.022 ppl x1.000
+capital_country_016 L6: EN dP=0.927 ok=True ES dP=0.708 HI dP=0.391 spec=0.891 ppl x1.000
+capital_country_016 L14: EN dP=0.989 ok=True ES dP=0.850 HI dP=0.449 spec=0.913 ppl x1.000
+capital_country_016 L21: EN dP=0.009 ok=False ES dP=0.000 HI dP=-0.000 spec=0.038 ppl x0.998
+capital_of_035 L2: EN dP=0.894 ok=True ES dP=0.790 HI dP=0.000 spec=0.027 ppl x0.999
+capital_of_035 L14: EN dP=0.970 ok=True ES dP=0.882 HI dP=0.231 spec=0.895 ppl x1.003
+capital_of_035 L21: EN dP=0.958 ok=True ES dP=0.000 HI dP=0.000 spec=0.140 ppl x1.001
+event_year_028 L5: EN dP=0.700 ok=True ES dP=0.662 HI dP=0.734 spec=0.017 ppl x1.000
+event_year_028 L14: EN dP=0.656 ok=True ES dP=0.694 HI dP=0.019 spec=0.032 ppl x1.000
+event_year_028 L21: EN dP=0.136 ok=False ES dP=0.096 HI dP=0.168 spec=0.022 ppl x1.000
+capital_country_017 L6: EN dP=0.981 ok=True ES dP=0.840 HI dP=0.783 spec=0.074 ppl x0.999
+capital_country_017 L14: EN dP=0.993 ok=True ES dP=0.684 HI dP=0.763 spec=0.683 ppl x0.998
+capital_country_017 L21: EN dP=0.945 ok=True ES dP=0.065 HI dP=0.046 spec=0.033 ppl x1.000
+capital_of_046 L0: EN dP=0.954 ok=True ES dP=0.000 HI dP=-0.000 spec=0.934 ppl x1.002
+capital_of_046 L14: EN dP=0.927 ok=True ES dP=0.670 HI dP=0.000 spec=0.833 ppl x1.001
+capital_of_046 L21: EN dP=0.978 ok=True ES dP=0.101 HI dP=0.002 spec=0.076 ppl x1.000
+event_year_029 L5: EN dP=0.661 ok=True ES dP=0.075 HI dP=0.000 spec=0.016 ppl x0.999
+event_year_029 L14: EN dP=0.477 ok=True ES dP=0.734 HI dP=0.722 spec=0.036 ppl x1.000
+event_year_029 L21: EN dP=0.691 ok=True ES dP=0.341 HI dP=0.062 spec=0.026 ppl x1.000
+capital_country_018 L2: EN dP=0.000 ok=False ES dP=0.034 HI dP=0.000 spec=0.020 ppl x1.000
+capital_country_018 L14: EN dP=0.983 ok=True ES dP=0.727 HI dP=0.425 spec=0.032 ppl x0.999
+capital_country_018 L21: EN dP=0.981 ok=True ES dP=0.000 HI dP=0.000 spec=0.021 ppl x1.000
+capital_of_049 L3: EN dP=0.961 ok=True ES dP=0.313 HI dP=0.080 spec=0.038 ppl x0.999
+capital_of_049 L14: EN dP=0.965 ok=True ES dP=0.001 HI dP=0.000 spec=0.114 ppl x1.000
+capital_of_049 L21: EN dP=0.294 ok=True ES dP=0.000 HI dP=-0.000 spec=0.031 ppl x1.000
+event_year_030 L0: EN dP=0.005 ok=False ES dP=0.004 HI dP=-0.000 spec=0.016 ppl x0.999
+event_year_030 L14: EN dP=0.525 ok=True ES dP=0.246 HI dP=0.001 spec=0.031 ppl x1.000
+event_year_030 L21: EN dP=0.878 ok=True ES dP=0.935 HI dP=0.046 spec=0.025 ppl x1.000
+capital_country_019 L0: EN dP=0.943 ok=True ES dP=0.903 HI dP=0.000 spec=0.024 ppl x0.999
+capital_country_019 L14: EN dP=0.991 ok=True ES dP=0.966 HI dP=0.770 spec=0.033 ppl x1.000
+capital_country_019 L21: EN dP=0.906 ok=True ES dP=0.001 HI dP=-0.000 spec=0.019 ppl x0.999
+capital_of_057 L2: EN dP=0.931 ok=True ES dP=0.089 HI dP=0.004 spec=0.028 ppl x0.998
+capital_of_057 L14: EN dP=0.559 ok=True ES dP=0.000 HI dP=-0.000 spec=0.124 ppl x1.000
+capital_of_057 L21: EN dP=0.607 ok=True ES dP=0.000 HI dP=0.000 spec=0.034 ppl x0.999
+peak VRAM GiB 7.58
+[2026-10-29 06:23] a20 exit 0

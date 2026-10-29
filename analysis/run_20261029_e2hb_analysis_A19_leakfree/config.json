@@ -1,0 +1,13 @@
+{
+ "llama_run": "analysis/run_20261029_e2hb_A_llama_base",
+ "gemma_run": "",
+ "llama_seeds": "analysis/run_20261024_p3seeds_10240109_llama",
+ "gemma_seeds": "analysis/run_20261024_p3seeds_10240109_gemma2",
+ "tag": "e2hb_analysis_A19_leakfree",
+ "langs": "en,hi",
+ "models": "llama_base",
+ "llama_label": "llama_base",
+ "sites": "A",
+ "exclude_leak": true,
+ "amendment": "A13"
+}
