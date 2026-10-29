@@ -90,7 +90,7 @@ else:
         from kaggle_secrets import UserSecretsClient
         env["HF_TOKEN"] = UserSecretsClient().get_secret("HF_TOKEN")
     except Exception as e:
-        print("HF_TOKEN secret not readable here (" + type(e).__name__ + "); the driver will try again itself.")
+        print("HF_TOKEN secret not readable here (" + type(e).__name__ + ": " + str(e)[:150] + "); the driver will try again itself.")
     p = subprocess.Popen([sys.executable, drv], env=env, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
     for line in p.stdout:
         print(line, end="")
