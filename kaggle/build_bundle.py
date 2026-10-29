@@ -17,29 +17,18 @@ OUT = ROOT / "kaggle"
 sys.path.insert(0, str(OUT))
 from steps import STEPS  # noqa: E402
 
-TREES = ["code", "tests", "kaggle", "data/wikitext"]
-FILES = {"data/v2/facts_candidates.json": "data/v2/facts_candidates_seed.json",  # subjects/objects for template tuning only
-         "data/v2/facts_candidates_extra.json": "data/v2/facts_candidates_extra.json",
-         "data/v2/facts_candidates_a23.json": "data/v2/facts_candidates_a23.json"}
-SKIP_NAMES = {"__pycache__", "babel_bundle.zip", ".ipynb_checkpoints", "notebooks"}
-SKIP_SUFFIX = {".pyc", ".log"}
+import layout  # noqa: E402
 
 
 def build_zip() -> Path:
+    """Optional: the notebooks fetch the code from GitHub themselves, so this dataset is only a fallback when GitHub is unreachable."""
     zpath = OUT / "babel_bundle.zip"
-    n = 0
+    members = layout.members(ROOT)
     with zipfile.ZipFile(zpath, "w", zipfile.ZIP_DEFLATED) as z:
-        for d in TREES:
-            for p in sorted((ROOT / d).rglob("*")):
-                if p.is_dir() or SKIP_NAMES & set(p.relative_to(ROOT).parts) or p.suffix in SKIP_SUFFIX:
-                    continue
-                z.write(p, p.relative_to(ROOT).as_posix())
-                n += 1
-        for src, dst in FILES.items():
-            z.write(ROOT / src, dst)
-            n += 1
+        for p, rel in members:
+            z.write(p, rel)
         z.writestr("analysis/_logs/.keep", "")
-    print(f"{zpath}  {zpath.stat().st_size / 1e6:.1f} MB  {n} files")
+    print(f"{zpath}  {zpath.stat().st_size / 1e6:.1f} MB  {len(members)} files")
     return zpath
 
 
@@ -52,40 +41,54 @@ def code(s: str) -> dict:
 
 
 RUN = """
-import os, subprocess, sys, zipfile
+import io, os, shutil, subprocess, sys, time, urllib.request, zipfile
 STEP = "{step}"
 HOURS = 10.5  # jobs stop cleanly after this, then everything is packaged
+REPO, REF = "praann07/babel-effect", "main"  # REF may be a commit id to pin the code
+SRC = os.environ.get("BABEL_SRC_DIR", "/tmp/babel_src")
 INPUT = os.environ.get("BABEL_INPUT", "/kaggle/input")
 
 
-def find_driver():
-    # any folder under the input that holds the runner files, at any depth (Kaggle mounts datasets at varying paths)
-    for root, dirs, files in os.walk(INPUT, followlinks=True):
-        if {"driver.py", "steps.py", "dtype_check.py"} <= set(files):
-            return os.path.join(root, "driver.py")
-    for root, dirs, files in os.walk(INPUT, followlinks=True):  # the zip itself, not unpacked
-        if "babel_bundle.zip" in files:
-            zipfile.ZipFile(os.path.join(root, "babel_bundle.zip")).extractall("/tmp/babel_src")
-            return "/tmp/babel_src/kaggle/driver.py"
+def from_github():
+    url = os.environ.get("BABEL_ZIP_URL") or "https://codeload.github.com/" + REPO + "/zip/" + REF
+    err = ""
+    for i in range(4):
+        try:
+            z = zipfile.ZipFile(io.BytesIO(urllib.request.urlopen(url, timeout=90).read()))
+            for d in (SRC, SRC + "_x"):
+                shutil.rmtree(d, ignore_errors=True)
+            z.extractall(SRC + "_x")
+            shutil.move(os.path.join(SRC + "_x", os.listdir(SRC + "_x")[0]), SRC)
+            return z.comment.decode() or REF  # GitHub stores the commit id in the zip comment
+        except Exception as e:
+            err = type(e).__name__ + ": " + str(e)[:150]
+            time.sleep(5 * (i + 1))
+    print("GitHub download failed (" + err + "); looking for the babel-bundle dataset instead.")
     return None
 
 
-def show_input(depth=4):
+def from_dataset():
     for root, dirs, files in os.walk(INPUT, followlinks=True):
-        d = root[len(INPUT):].count(os.sep)
-        if d <= depth:
-            print("  " * d + (os.path.basename(root) or INPUT) + "/  (" + str(len(files)) + " files, " + str(len(dirs)) + " folders)" + ("  e.g. " + ", ".join(sorted(files)[:4]) if files else ""))
-        if d >= depth:
-            dirs[:] = []
+        if {"driver.py", "steps.py", "dtype_check.py"} <= set(files):
+            return os.path.join(root, "driver.py")
+    for root, dirs, files in os.walk(INPUT, followlinks=True):
+        if "babel_bundle.zip" in files:
+            zipfile.ZipFile(os.path.join(root, "babel_bundle.zip")).extractall("/tmp/babel_zip")
+            return "/tmp/babel_zip/kaggle/driver.py"
+    return None
 
 
-drv = find_driver()
-if not drv:
-    print("No kaggle/driver.py anywhere under " + INPUT + ". The attached dataset does not hold the new bundle (an older version is attached, or the new files were not added). What is attached:")
-    show_input()
+env = dict(os.environ, BABEL_STEP=STEP, HOURS=str(HOURS), PYTHONUNBUFFERED="1")
+sha = from_github()
+if sha:
+    drv = os.path.join(SRC, "kaggle", "driver.py")
+    env.update(BABEL_SRC=SRC, BABEL_SRC_SHA=sha)
+    print("code from GitHub " + REPO + " @ " + sha)
 else:
-    print("runner found:", drv)
-    env = dict(os.environ, BABEL_STEP=STEP, HOURS=str(HOURS), PYTHONUNBUFFERED="1")
+    drv = from_dataset()
+if not drv:
+    print("No code found: GitHub was unreachable (is Internet on for this notebook?) and no babel-bundle dataset is attached.")
+else:
     try:
         from kaggle_secrets import UserSecretsClient
         env["HF_TOKEN"] = UserSecretsClient().get_secret("HF_TOKEN")
@@ -111,7 +114,7 @@ def build_notebooks() -> list[Path]:
     order = list(STEPS)
     for i, (sid, plan) in enumerate(STEPS.items()):
         prev = order[i - 1] if i else None
-        inputs = "the babel-bundle dataset" + (f" and the output of the `{prev}` notebook" if prev else " only")
+        inputs = "nothing attached (the code is fetched from GitHub)" if not prev else f"the output of the `{prev}` notebook (attach it as input)"
         cells = [md(f"# {plan['title']}\nInputs: {inputs}. Output: `babel_new_results.zip` (also `results/`), which the next step takes as input."),
                  code(RUN.replace("{step}", sid)), code(SUMMARY)]
         nb = {"cells": cells, "nbformat": 4, "nbformat_minor": 5,
