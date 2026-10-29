@@ -101,3 +101,10 @@ Ran `scripts_night_e2h.sh`: filters, full runs (Llama 22 min, Gemma 15 min), ana
 - 2026-10-26 A17b clustering sensitivity: EN-ES SHARED under all clusterings; Hindi->English labels not clustering-robust (report as estimate ~0.74-0.80). Manifest 1469.
 
 - 2026-10-27 A18 EN<->HI span-wise interchange done: gate passes both directions; I 0.81-0.93 (Llama 0.86/0.87, Gemma 0.93/0.81), direction-symmetric, higher than the A16 last-token 0.74-0.76. Clustering sensitivity on A18 not yet run. Manifest 1565.
+
+## 2026-10-29 CPU pass (no GPU used)
+- A22 (CPU, stored traces): Llama EN-ES increment present with and without shared subject pieces (0.303 [0.192, 0.423] n = 54 vs 0.397 [0.291, 0.505] n = 49). Replaces the A11 "name overlap explains it" reading for Llama; paper Section 4.6 revised. Manifest 1941 verified.
+- Paper: two citations added (2408.10646, 2507.09629, authors verified by the arXiv API), p-floor note, abstract/discussion/limitations updated (A19, A20, A22, native-speaker and benchmark limits), PDF rebuilt (`paper/The_Babel_Effect_draft_v2.pdf`).
+- Pre-registered A23 (non-geography relations) and A24 (shared-key edit). Code written and syntax/unit tested on CPU only: `code/build_facts_a23.py` (150 unaudited candidates), `--set a23` in `code/e2_filter.py` and `code/e2_filter_hi.py`, `--key-modes` and `joint_update` in `code/knowledge_edit_v2.py` (2 new unit tests pass, 15/15 total), `code/keymode_analysis.py`, `scripts_a23.sh`, `scripts_a24.sh`. Nothing run on a GPU. `code/select_templates.py` now also knows the A23 template pools (no change for old relations).
+- Native-speaker audit sheet: `data/audit/native_speaker_audit.csv` (362 facts used in any analysis) and `AUDIT_INSTRUCTIONS.md`, built by `code/make_audit_sheet.py`. Needs a Hindi and a Spanish checker.
+- `GOAL.md` added at the repo root (goal + 8-item plan).

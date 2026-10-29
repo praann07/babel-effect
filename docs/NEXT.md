@@ -1,4 +1,14 @@
-# NEXT (to-do list, updated 2026-10-25)
+# NEXT (to-do list, updated 2026-10-29)
+
+## 2026-10-29: plan to raise the level (see `GOAL.md`)
+Order: A21 -> A23 -> A24 (needs A21) -> bigger models (7-9B, 4-bit; needs a feasibility check and the user's decision on a free cloud GPU) -> more languages -> benchmark slice.
+- [x] CPU: paper repairs (A22 reconciliation, 2 citations, p-floor note, abstract/discussion/limitations, PDF rebuilt); A23/A24 pre-registered and coded; native-speaker audit sheet built.
+- [ ] GPU, needs the user's laptop window and "go": `./scripts_a21.sh` (about 3 h), `./scripts_a23.sh` (about 3-4 h), then `./scripts_a24.sh` (about 6 h, after A21).
+- [ ] Needs the user: a Hindi and a Spanish checker for `data/audit/native_speaker_audit.csv`; yes/no on a free cloud GPU for 7-9B; Zenodo/OSF timestamp.
+- [ ] CPU, after each run: manifest blocks (`a21_*`, `a23_*`, `a24_*`), paper paragraphs, rebuild PDF, refresh `..\evaluator_pack`.
+- [ ] CPU later: 2-3 more languages (candidate facts), a mLAMA/Bi-ZsRE slice builder, 4-bit feasibility test script.
+
+## Older list (2026-10-25)
 
 ## 2026-10-25 status
 - [x] A12/A12a confound analysis, A13a independent-noise re-trace, A13b covariates, A13 E2 interchange (verdict SHARED EN-ES, both models; docs/EXPERIMENT_LOG.md). Paper section 4.7 drafted.

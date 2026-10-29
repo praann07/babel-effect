@@ -286,6 +286,16 @@ def claims() -> list[dict]:
         c += [(f"a20_{cd}_n", EP, [cd, "n"]), (f"a20_{cd}_en_success", EP, [cd, "en_success"]), (f"a20_{cd}_ppl", EP, [cd, "ppl_ratio", "median"])]
         for k in ("es_transfer", "hi_transfer", "specificity"):
             c += [(f"a20_{cd}_{k}", EP, [cd, k, "median"]), (f"a20_{cd}_{k}_lo", EP, [cd, k, "ci95", 0]), (f"a20_{cd}_{k}_hi", EP, [cd, k, "ci95", 1])]
+    for lk, sfx in (("", ""), ("_leakfree", "_lf")):  # A22: increment split by subject-token overlap
+        art = f"analysis/run_20261029_split_indnoise_A22{lk}/results.json"
+        for m in ("llama", "gemma2"):
+            for st in ("informative", "all_non_IP"):
+                for h in ("all", "J0", "Jpos"):
+                    if (m, st, h, lk) == ("gemma2", "informative", "Jpos", "_leakfree"):
+                        continue  # no facts left
+                    i = f"a22{sfx}_{m}_{st}_{h}"
+                    c += [(i + "_n", art, [m, st, h, "n"]), (i + "_D", art, [m, st, h, "mean_D"]), (i + "_lo", art, [m, st, h, "ci97.5", 0]), (i + "_hi", art, [m, st, h, "ci97.5", 1]),
+                          (i + "_verdict", art, [m, st, h, "verdict"])]
     for tag, art in PK.items():  # A14: overlap rerun with 10,000 permutations
         for pr in ("en-es", "en-hi", "es-hi"):
             for st in ("z", "p_one_sided", "observed_median"):

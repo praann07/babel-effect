@@ -93,5 +93,32 @@ class StatTests(unittest.TestCase):
         self.assertIn("en-es", out["pairs"])
 
 
+
+class JointEditTests(unittest.TestCase):
+    """A24: the multi-key update satisfies dW^T k_j = delta for every key and reduces to the ROME update for one key."""
+
+    def setUp(self):
+        import torch
+        from knowledge_edit_v2 import joint_update
+        self.torch, self.joint_update = torch, joint_update
+        g = torch.Generator().manual_seed(0)
+        A = torch.randn(40, 40, generator=g, dtype=torch.float64)
+        self.C = A @ A.T / 40 + torch.eye(40, dtype=torch.float64)
+        self.K = torch.randn(40, 3, generator=g, dtype=torch.float64)
+        self.delta = torch.randn(16, generator=g, dtype=torch.float64)
+
+    def test_every_key_gets_delta(self):
+        dW = self.joint_update(self.K, self.delta, self.C)
+        for j in range(3):
+            self.assertTrue(self.torch.allclose(dW.T @ self.K[:, j], self.delta, atol=1e-8))
+
+    def test_one_key_equals_rome(self):
+        k = self.K[:, :1]
+        Cr = self.C + 1e-3 * self.C.diagonal().mean() * self.torch.eye(40, dtype=self.torch.float64)
+        u = self.torch.linalg.solve(Cr, k[:, 0])
+        rome = self.torch.outer(u, self.delta) / (u @ k[:, 0])
+        self.assertTrue(self.torch.allclose(self.joint_update(k, self.delta, self.C), rome, atol=1e-10))
+
+
 if __name__ == "__main__":
     unittest.main()
