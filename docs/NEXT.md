@@ -1,5 +1,14 @@
 # NEXT (to-do list, updated 2026-10-29)
 
+## 2026-10-29 (late): Kaggle rerun and the contribution
+Chosen contribution: mechanism + fix. Claim: the read-out is shared, but a rank-1 edit is keyed on a language-specific form of the subject; key similarity across languages predicts per-fact edit transfer; a key built from several languages closes the gap without training. Compare with ROME, MEMIT, in-context and one published multilingual editor (language-agnostic factual neurons 2406.16416 or MEMAT 2502.02173) on our controlled facts and a Bi-ZsRE/MzsRE slice. Plan B: diagnostic paper (likely Q2-Q3).
+- [x] Kaggle engine: per-model notebooks `kaggle/notebooks/babel_llama.ipynb`, `babel_gemma2.ipynb` (code from GitHub, no dataset to upload). Stage 1 (fact preparation) only; GPU parts untested until the first run.
+- [ ] User runs both; I compare kept facts with the laptop (Llama 93, Gemma 58) and read the timings.
+- [ ] Add the stages to the same notebooks: tracing, noise/phrasing, swap tests, edit sweep, in-context, paraphrase control, new relations, shared-key edit; then the Llama-base notebook.
+- [ ] Pre-register before running: the key-similarity test (per-fact rho between EN-ES/EN-HI key similarity at the edit layer and transfer), the baselines, the benchmark slice (check which languages MzsRE has).
+- [ ] Read in full: Fierro 2410.14387, Dumas 2411.08745, Ifergan 2408.10646, CLM-Bench 2601.17397, LU-LAFNs 2406.16416, MEMAT 2502.02173; update related work.
+- [ ] Needs the user: Hindi + Spanish checker, OSF/Zenodo timestamp, Kaggle weekly GPU quota.
+
 ## 2026-10-29: plan to raise the level (see `GOAL.md`)
 Order: A21 -> A23 -> A24 (needs A21) -> bigger models (7-9B, 4-bit; needs a feasibility check and the user's decision on a free cloud GPU) -> more languages -> benchmark slice.
 - [x] CPU: paper repairs (A22 reconciliation, 2 citations, p-floor note, abstract/discussion/limitations, PDF rebuilt); A23/A24 pre-registered and coded; native-speaker audit sheet built.
