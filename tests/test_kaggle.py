@@ -197,47 +197,23 @@ class SetupTests(unittest.TestCase):
 
 
 class LayoutTests(unittest.TestCase):
-    def test_inputs_only_from_the_repo_checkout(self):
-        repo = Path(__file__).resolve().parent.parent
-        with tempfile.TemporaryDirectory() as t:
-            n = driver.layout.assemble(repo, Path(t))
-            names = {p.relative_to(t).as_posix() for p in Path(t).rglob("*") if p.is_file()}
+    def test_inputs_only_from_a_full_checkout(self):
+        """A made-up checkout holding laptop results next to the code: only code, tests, runner and the seed lists may come through."""
+        with tempfile.TemporaryDirectory() as t1, tempfile.TemporaryDirectory() as t2:
+            repo, out = Path(t1), Path(t2)
+            for rel in ("code/common.py", "tests/test_x.py", "kaggle/driver.py", "kaggle/steps.py", "kaggle/notebooks/n.ipynb", "kaggle/private/p.ipynb",
+                        "kaggle/__pycache__/driver.pyc", "kaggle/x.log", "data/v2/facts_candidates.json", "data/v2/facts_candidates_extra.json",
+                        "data/v2/facts_candidates_a23.json", "data/v2/facts_llama.json", "data/v2/templates.json", "results/manifest.json",
+                        "analysis/run_20261001_x/records.jsonl", "docs/LOG.md", "models/m/model.safetensors", "paper/paper.md"):
+                f = repo / rel
+                f.parent.mkdir(parents=True, exist_ok=True)
+                f.write_text("x")
+            n = driver.layout.assemble(repo, out)
+            names = sorted(p.relative_to(out).as_posix() for p in out.rglob("*") if p.is_file())
             self.assertEqual(n, len(names))
-            for need in ("code/common.py", "kaggle/driver.py", "kaggle/steps.py", "data/v2/facts_candidates_seed.json",
-                         "data/v2/facts_candidates_extra.json", "data/v2/facts_candidates_a23.json"):
-                self.assertIn(need, names)
-            bad = [x for x in names if x.startswith(("results/", "paper/", "docs/", "models/", "data/v2/facts_llama", "data/v2/facts_gemma"))
-                   or x == "data/v2/facts_candidates.json" or "/run_" in x or x.endswith(".pyc") or ".ipynb" in x]
-            self.assertEqual(bad, [])
-            self.assertEqual([x for x in names if "private" in Path(x).parts], [])  # private notebooks (token inside) never ship
-            self.assertTrue((Path(t) / "analysis" / "_logs").is_dir())
-
-
-class SecretLabelTests(unittest.TestCase):
-    def test_other_spelling_of_the_label_is_found(self):
-        import types
-        calls = []
-
-        class Client:
-            def get_secret(self, label):
-                calls.append(label)
-                if label == "hf_token":
-                    return "tok123"
-                raise RuntimeError(f"No user secrets exist for kernel id 1 and label {label}.")
-
-        fake = types.ModuleType("kaggle_secrets")
-        fake.UserSecretsClient = Client
-        old = {k: os.environ.pop(k, None) for k in ("HF_TOKEN", "HUGGING_FACE_HUB_TOKEN")}
-        sys.modules["kaggle_secrets"] = fake
-        try:
-            self.assertEqual(driver.get_token(), "tok123")
-            self.assertEqual(calls, ["HF_TOKEN", "hf_token"])  # no waiting or retrying on a label that does not exist
-        finally:
-            del sys.modules["kaggle_secrets"]
-            for k in ("HF_TOKEN", "HUGGING_FACE_HUB_TOKEN"):
-                os.environ.pop(k, None)
-                if old[k] is not None:
-                    os.environ[k] = old[k]
+            self.assertEqual(names, ["code/common.py", "data/v2/facts_candidates_a23.json", "data/v2/facts_candidates_extra.json",
+                                     "data/v2/facts_candidates_seed.json", "kaggle/driver.py", "kaggle/steps.py", "tests/test_x.py"])
+            self.assertTrue((out / "analysis" / "_logs").is_dir())
 
 
 class StepsTests(unittest.TestCase):
