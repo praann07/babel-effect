@@ -267,6 +267,19 @@ def claims() -> list[dict]:
                 c += [(i + "_I", CB, k + ["I"]), (i + "_n", CB, k + ["n_pairs"]), (i + "_robust", CB, k + ["labels_robust"])]
                 for cl in "STCW":
                     c += [(f"{i}_{cl}_lo", CB, k + [cl, "ci95", 0]), (f"{i}_{cl}_hi", CB, k + [cl, "ci95", 1]), (f"{i}_{cl}_label", CB, k + [cl, "label"])]
+    for an, dirs in (("e2b", ("en2es", "es2en")), ("e2hb", ("en2hi", "hi2en"))):  # A19: Llama-3.2-3B base replication
+        for lk in ("", "_leakfree"):
+            art = f"analysis/run_20261029_{an}_analysis_A19{lk}/results.json"
+            for d in dirs:
+                b = ["llama_base", d, "site_A"]; i = f"a19_{an}{lk}_{d}"
+                c += [(i + "_I", art, b + ["confirmatory", "I"]), (i + "_ci95_lo", art, b + ["confirmatory", "ci95", 0]), (i + "_ci95_hi", art, b + ["confirmatory", "ci95", 1]),
+                      (i + "_n", art, b + ["confirmatory", "n_pairs"]), (i + "_n_src", art, b + ["confirmatory", "n_source_entities"]),
+                      (i + "_gate", art, b + ["gate", "gate_P1"]), (i + "_flip", art, b + ["gate", "flip_same_at_lstar"]), (i + "_verdict", art, b + ["verdict"])]
+    CA = "analysis/run_20261029_cluster_A19b/results.json"
+    for nm in ("A19_en2es", "A19_es2en", "A19_en2hi", "A19_hi2en"):
+        for lk in ("plain", "leakfree"):
+            k = [f"llama_base|{nm}|{lk}"]; i = f"a19b_{nm}_{lk}"
+            c += [(i + "_robust", CA, k + ["labels_robust"])] + [(f"{i}_{cl}_lo", CA, k + [cl, "ci95", 0]) for cl in "STCW"]
     for tag, art in PK.items():  # A14: overlap rerun with 10,000 permutations
         for pr in ("en-es", "en-hi", "es-hi"):
             for st in ("z", "p_one_sided", "observed_median"):

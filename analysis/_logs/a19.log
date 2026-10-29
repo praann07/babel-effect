@@ -1,0 +1,173 @@
+[2026-10-29 01:29] START filter_es
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   4%|▍         | 11/254 [00:00<00:03, 67.24it/s]Loading weights:   7%|▋         | 18/254 [00:00<00:08, 26.26it/s]Loading weights:   9%|▊         | 22/254 [00:00<00:09, 25.58it/s]Loading weights:  10%|█         | 26/254 [00:00<00:09, 23.58it/s]Loading weights:  11%|█▏        | 29/254 [00:01<00:09, 22.95it/s]Loading weights:  14%|█▍        | 36/254 [00:01<00:09, 22.00it/s]Loading weights:  16%|█▌        | 40/254 [00:01<00:09, 22.29it/s]Loading weights:  17%|█▋        | 43/254 [00:01<00:10, 20.50it/s]Loading weights:  19%|█▉        | 49/254 [00:02<00:10, 19.33it/s]Loading weights:  22%|██▏       | 57/254 [00:02<00:09, 20.93it/s]Loading weights:  25%|██▍       | 63/254 [00:02<00:10, 19.01it/s]Loading weights:  26%|██▌       | 65/254 [00:03<00:12, 14.70it/s]Loading weights:  27%|██▋       | 69/254 [00:03<00:13, 13.52it/s]Loading weights:  31%|███       | 78/254 [00:03<00:10, 17.00it/s]Loading weights:  32%|███▏      | 81/254 [00:04<00:09, 17.71it/s]Loading weights:  33%|███▎      | 85/254 [00:04<00:09, 18.69it/s]Loading weights:  37%|███▋      | 94/254 [00:04<00:07, 20.84it/s]Loading weights:  39%|███▉      | 99/254 [00:04<00:07, 20.59it/s]Loading weights:  43%|████▎     | 108/254 [00:05<00:05, 28.39it/s]Loading weights:  44%|████▍     | 112/254 [00:05<00:05, 24.92it/s]Loading weights:  46%|████▌     | 116/254 [00:05<00:05, 26.17it/s]Loading weights:  47%|████▋     | 119/254 [00:05<00:07, 18.73it/s]Loading weights:  48%|████▊     | 122/254 [00:06<00:09, 14.55it/s]Loading weights:  50%|█████     | 127/254 [00:06<00:08, 15.75it/s]Loading weights:  51%|█████     | 130/254 [00:06<00:08, 14.36it/s]Loading weights:  52%|█████▏    | 132/254 [00:06<00:08, 13.78it/s]Loading weights:  53%|█████▎    | 134/254 [00:07<00:09, 13.20it/s]Loading weights:  54%|█████▍    | 138/254 [00:07<00:06, 17.22it/s]Loading weights:  56%|█████▌    | 141/254 [00:07<00:08, 13.59it/s]Loading weights:  57%|█████▋    | 144/254 [00:07<00:07, 14.70it/s]Loading weights:  57%|█████▋    | 146/254 [00:07<00:07, 13.57it/s]Loading weights:  60%|█████▉    | 152/254 [00:08<00:07, 13.59it/s]Loading weights: 100%|██████████| 254/254 [00:08<00:00, 30.78it/s]
+{
+ "capital_country": {
+  "tune_n": 30,
+  "tune_en": 27,
+  "tune_es": 5,
+  "eval_n": 95,
+  "eval_both": 8,
+  "template_ok": false
+ },
+ "capital_of": {
+  "tune_n": 30,
+  "tune_en": 28,
+  "tune_es": 26,
+  "eval_n": 95,
+  "eval_both": 60,
+  "template_ok": true
+ },
+ "city_country": {
+  "tune_n": 30,
+  "tune_en": 24,
+  "tune_es": 19,
+  "eval_n": 45,
+  "eval_both": 21,
+  "template_ok": true
+ },
+ "landmark_city": {
+  "tune_n": 30,
+  "tune_en": 20,
+  "tune_es": 13,
+  "eval_n": 51,
+  "eval_both": 7,
+  "template_ok": false
+ },
+ "landmark_country": {
+  "tune_n": 30,
+  "tune_en": 12,
+  "tune_es": 7,
+  "eval_n": 51,
+  "eval_both": 4,
+  "template_ok": false
+ }
+}
+kept 81
+[2026-10-29 01:31] OK filter_es
+[2026-10-29 01:31] START filter_hi
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   3%|▎         | 7/254 [00:00<00:05, 45.95it/s]Loading weights:   5%|▍         | 12/254 [00:00<00:08, 29.36it/s]Loading weights:   6%|▋         | 16/254 [00:00<00:08, 28.17it/s]Loading weights:   7%|▋         | 19/254 [00:00<00:12, 18.44it/s]Loading weights:   9%|▊         | 22/254 [00:01<00:15, 14.99it/s]Loading weights:  10%|█         | 26/254 [00:01<00:15, 14.87it/s]Loading weights:  11%|█         | 28/254 [00:01<00:18, 12.34it/s]Loading weights:  12%|█▏        | 31/254 [00:01<00:15, 14.46it/s]Loading weights:  13%|█▎        | 34/254 [00:02<00:15, 14.66it/s]Loading weights:  14%|█▍        | 36/254 [00:02<00:17, 12.68it/s]Loading weights:  15%|█▍        | 38/254 [00:02<00:15, 13.87it/s]Loading weights:  18%|█▊        | 46/254 [00:02<00:11, 17.58it/s]Loading weights:  21%|██        | 53/254 [00:03<00:11, 18.00it/s]Loading weights:  24%|██▍       | 61/254 [00:03<00:07, 26.05it/s]Loading weights:  26%|██▌       | 65/254 [00:03<00:09, 19.85it/s]Loading weights:  27%|██▋       | 68/254 [00:03<00:12, 14.99it/s]Loading weights:  28%|██▊       | 71/254 [00:04<00:13, 13.21it/s]Loading weights:  30%|███       | 77/254 [00:04<00:11, 15.31it/s]Loading weights:  31%|███       | 79/254 [00:04<00:11, 15.62it/s]Loading weights:  33%|███▎      | 84/254 [00:05<00:12, 13.56it/s]Loading weights:  35%|███▍      | 88/254 [00:05<00:12, 13.36it/s]Loading weights:  37%|███▋      | 94/254 [00:05<00:09, 17.28it/s]Loading weights:  39%|███▊      | 98/254 [00:05<00:08, 18.64it/s]Loading weights:  41%|████▏     | 105/254 [00:06<00:07, 18.90it/s]Loading weights:  44%|████▎     | 111/254 [00:06<00:07, 18.05it/s]Loading weights:  45%|████▍     | 114/254 [00:06<00:09, 15.31it/s]Loading weights:  46%|████▋     | 118/254 [00:07<00:09, 14.24it/s]Loading weights:  49%|████▉     | 125/254 [00:07<00:08, 16.09it/s]Loading weights:  54%|█████▎    | 136/254 [00:07<00:05, 21.26it/s]Loading weights:  97%|█████████▋| 246/254 [00:07<00:00, 145.77it/s]Loading weights: 100%|██████████| 254/254 [00:07<00:00, 31.88it/s] 
+capital_of {'यह सर्वविदित है कि {s} की राजधानी है': 0.6333333333333333, '{s} देश की राजधानी का नाम है': 0.03333333333333333, 'प्रश्न: {s} की राजधानी क्या है?\nउत्तर:': 0.3, 'प्रश्न: {s} देश की राजधानी का नाम क्या है?\nउत्तर:': 0.1} -> यह सर्वविदित है कि {s} की राजधानी है
+capital_country {'वह देश जिसकी राजधानी {s} है, उसका नाम है': 0.5666666666666667, 'जिस देश की राजधानी {s} है, वह देश है': 0.8, 'प्रश्न: वह कौन सा देश है जिसकी राजधानी {s} है?\nउत्तर:': 0.9, 'प्रश्न: {s} किस देश की राजधानी है?\nउत्तर:': 0.2} -> प्रश्न: वह कौन सा देश है जिसकी राजधानी {s} है?
+उत्तर:
+landmark_city {'वह शहर जहाँ {s} स्थित है, उसका नाम है': 0.26666666666666666, '{s} जिस शहर में स्थित है, वह शहर है': 0.0, 'प्रश्न: {s} किस शहर में स्थित है?\nउत्तर:': 0.16666666666666666, 'प्रश्न: वह कौन सा शहर है जहाँ {s} स्थित है?\nउत्तर:': 0.3} -> प्रश्न: वह कौन सा शहर है जहाँ {s} स्थित है?
+उत्तर:
+landmark_country {'वह देश जहाँ {s} स्थित है, उसका नाम है': 0.2, '{s} जिस देश में स्थित है, वह देश है': 0.0, 'प्रश्न: {s} किस देश में स्थित है?\nउत्तर:': 0.13333333333333333, 'प्रश्न: वह कौन सा देश है जहाँ {s} स्थित है?\nउत्तर:': 0.13333333333333333} -> वह देश जहाँ {s} स्थित है, उसका नाम है
+city_country {'वह देश जहाँ {s} स्थित है, उसका नाम है': 0.5333333333333333, '{s} जिस देश में स्थित है, वह देश है': 0.06666666666666667, 'प्रश्न: {s} किस देश में स्थित है?\nउत्तर:': 0.1, 'प्रश्न: वह कौन सा देश है जहाँ {s} स्थित है?\nउत्तर:': 0.23333333333333334} -> वह देश जहाँ {s} स्थित है, उसका नाम है
+{
+ "capital_country": {
+  "tune_n": 30,
+  "tune_en": 27,
+  "tune_hi": 27,
+  "eval_n": 95,
+  "eval_both": 14,
+  "template_ok": true
+ },
+ "capital_of": {
+  "tune_n": 30,
+  "tune_en": 28,
+  "tune_hi": 19,
+  "eval_n": 95,
+  "eval_both": 40,
+  "template_ok": true
+ },
+ "city_country": {
+  "tune_n": 30,
+  "tune_en": 24,
+  "tune_hi": 16,
+  "eval_n": 45,
+  "eval_both": 22,
+  "template_ok": true
+ },
+ "landmark_city": {
+  "tune_n": 30,
+  "tune_en": 20,
+  "tune_hi": 9,
+  "eval_n": 51,
+  "eval_both": 3,
+  "template_ok": false
+ },
+ "landmark_country": {
+  "tune_n": 30,
+  "tune_en": 12,
+  "tune_hi": 6,
+  "eval_n": 51,
+  "eval_both": 5,
+  "template_ok": false
+ }
+}
+kept 76
+[2026-10-29 01:33] OK filter_hi
+[2026-10-29 01:33] START es_run
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   1%|          | 2/254 [00:00<00:19, 12.79it/s]Loading weights:   3%|▎         | 8/254 [00:00<00:15, 15.97it/s]Loading weights:   4%|▍         | 10/254 [00:00<00:22, 11.04it/s]Loading weights:   5%|▍         | 12/254 [00:01<00:23, 10.37it/s]Loading weights:   6%|▌         | 14/254 [00:01<00:20, 11.78it/s]Loading weights:   6%|▋         | 16/254 [00:01<00:23, 10.16it/s]Loading weights:   8%|▊         | 20/254 [00:01<00:17, 13.34it/s]Loading weights:   9%|▊         | 22/254 [00:01<00:18, 12.33it/s]Loading weights:   9%|▉         | 24/254 [00:01<00:17, 13.36it/s]Loading weights:  13%|█▎        | 32/254 [00:02<00:08, 24.95it/s]Loading weights:  14%|█▍        | 35/254 [00:02<00:09, 23.54it/s]Loading weights:  18%|█▊        | 46/254 [00:02<00:05, 39.90it/s]Loading weights:  20%|██        | 51/254 [00:02<00:06, 32.76it/s]Loading weights:  22%|██▏       | 55/254 [00:02<00:07, 24.96it/s]Loading weights:  24%|██▍       | 62/254 [00:03<00:07, 24.70it/s]Loading weights:  26%|██▌       | 65/254 [00:03<00:07, 25.03it/s]Loading weights:  27%|██▋       | 68/254 [00:03<00:10, 17.06it/s]Loading weights:  28%|██▊       | 71/254 [00:03<00:10, 16.76it/s]Loading weights:  29%|██▉       | 74/254 [00:04<00:11, 15.23it/s]Loading weights:  30%|██▉       | 76/254 [00:04<00:16, 10.78it/s]Loading weights:  31%|███       | 78/254 [00:04<00:19,  9.26it/s]Loading weights:  31%|███▏      | 80/254 [00:05<00:20,  8.29it/s]Loading weights:  34%|███▍      | 86/254 [00:05<00:15, 10.83it/s]Loading weights:  35%|███▍      | 88/254 [00:05<00:14, 11.85it/s]Loading weights:  35%|███▌      | 90/254 [00:05<00:15, 10.40it/s]Loading weights:  38%|███▊      | 96/254 [00:06<00:09, 15.93it/s]Loading weights:  39%|███▊      | 98/254 [00:06<00:10, 14.89it/s]Loading weights:  40%|████      | 102/254 [00:06<00:08, 17.12it/s]Loading weights:  41%|████      | 104/254 [00:06<00:09, 15.25it/s]Loading weights:  42%|████▏     | 107/254 [00:06<00:10, 14.57it/s]Loading weights:  46%|████▋     | 118/254 [00:06<00:04, 28.52it/s]Loading weights:  48%|████▊     | 122/254 [00:07<00:05, 23.62it/s]Loading weights:  52%|█████▏    | 131/254 [00:07<00:03, 31.51it/s]Loading weights:  56%|█████▋    | 143/254 [00:07<00:02, 40.24it/s]Loading weights:  58%|█████▊    | 148/254 [00:07<00:03, 28.70it/s]Loading weights:  64%|██████▍   | 162/254 [00:08<00:02, 31.47it/s]Loading weights: 100%|██████████| 254/254 [00:08<00:00, 30.15it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B into HookedTransformer
+10 / 162
+20 / 162
+30 / 162
+40 / 162
+50 / 162
+60 / 162
+70 / 162
+80 / 162
+90 / 162
+100 / 162
+110 / 162
+120 / 162
+130 / 162
+140 / 162
+150 / 162
+160 / 162
+done 324 peak VRAM GiB 7.62
+[2026-10-29 02:29] OK es_run
+[2026-10-29 02:29] START hi_run
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   1%|          | 2/254 [00:00<00:36,  6.99it/s]Loading weights:   1%|          | 3/254 [00:00<00:32,  7.69it/s]Loading weights:   2%|▏         | 4/254 [00:00<01:00,  4.14it/s]Loading weights:   2%|▏         | 5/254 [00:00<00:50,  4.95it/s]Loading weights:   2%|▏         | 6/254 [00:01<01:16,  3.24it/s]Loading weights:   4%|▎         | 9/254 [00:01<00:45,  5.39it/s]Loading weights:   4%|▍         | 10/254 [00:01<00:44,  5.51it/s]Loading weights:   5%|▌         | 13/254 [00:02<00:31,  7.57it/s]Loading weights:   6%|▌         | 14/254 [00:02<00:37,  6.45it/s]Loading weights:   7%|▋         | 17/254 [00:02<00:24,  9.52it/s]Loading weights:   7%|▋         | 19/254 [00:03<00:33,  6.91it/s]Loading weights:   8%|▊         | 21/254 [00:03<00:27,  8.47it/s]Loading weights:   9%|▉         | 23/254 [00:03<00:29,  7.96it/s]Loading weights:  10%|▉         | 25/254 [00:03<00:26,  8.76it/s]Loading weights:  11%|█         | 27/254 [00:04<00:36,  6.18it/s]Loading weights:  11%|█▏        | 29/254 [00:04<00:29,  7.61it/s]Loading weights:  12%|█▏        | 31/254 [00:04<00:35,  6.30it/s]Loading weights:  13%|█▎        | 34/254 [00:04<00:24,  8.99it/s]Loading weights:  15%|█▌        | 39/254 [00:04<00:15, 13.70it/s]Loading weights:  16%|█▌        | 41/254 [00:05<00:34,  6.22it/s]Loading weights:  19%|█▉        | 48/254 [00:06<00:18, 10.94it/s]Loading weights:  20%|██        | 51/254 [00:06<00:16, 12.17it/s]Loading weights:  21%|██▏       | 54/254 [00:06<00:20,  9.72it/s]Loading weights:  22%|██▏       | 56/254 [00:07<00:29,  6.65it/s]Loading weights:  23%|██▎       | 58/254 [00:07<00:33,  5.89it/s]Loading weights:  23%|██▎       | 59/254 [00:08<00:32,  6.02it/s]Loading weights:  24%|██▎       | 60/254 [00:08<00:37,  5.21it/s]Loading weights:  24%|██▍       | 61/254 [00:08<00:38,  5.02it/s]Loading weights:  26%|██▌       | 66/254 [00:09<00:27,  6.88it/s]Loading weights:  26%|██▋       | 67/254 [00:09<00:35,  5.27it/s]Loading weights:  28%|██▊       | 70/254 [00:09<00:25,  7.19it/s]Loading weights:  28%|██▊       | 71/254 [00:09<00:25,  7.09it/s]Loading weights:  28%|██▊       | 72/254 [00:10<00:39,  4.64it/s]Loading weights:  29%|██▊       | 73/254 [00:11<00:49,  3.65it/s]Loading weights:  29%|██▉       | 74/254 [00:11<00:48,  3.72it/s]Loading weights:  30%|██▉       | 75/254 [00:12<01:23,  2.14it/s]Loading weights:  30%|██▉       | 76/254 [00:13<01:31,  1.94it/s]Loading weights:  33%|███▎      | 84/254 [00:13<00:25,  6.61it/s]Loading weights:  34%|███▍      | 86/254 [00:13<00:25,  6.60it/s]Loading weights:  35%|███▍      | 88/254 [00:13<00:21,  7.76it/s]Loading weights:  35%|███▌      | 90/254 [00:13<00:22,  7.29it/s]Loading weights:  37%|███▋      | 95/254 [00:14<00:13, 11.49it/s]Loading weights:  38%|███▊      | 97/254 [00:14<00:13, 11.93it/s]Loading weights: 100%|██████████| 254/254 [00:14<00:00, 17.76it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B into HookedTransformer
+10 / 200
+20 / 200
+30 / 200
+40 / 200
+50 / 200
+60 / 200
+70 / 200
+80 / 200
+90 / 200
+100 / 200
+110 / 200
+120 / 200
+130 / 200
+140 / 200
+150 / 200
+160 / 200
+170 / 200
+180 / 200
+190 / 200
+200 / 200
+done 400 peak VRAM GiB 7.65
+[2026-10-29 03:13] OK hi_run
+[2026-10-29 03:13] START an_es
+llama_base {'en2es': (79, 'P2 SHARED', True), 'es2en': (79, 'P2 SHARED', True)}
+wrote analysis\run_20261029_e2b_analysis_A19
+[2026-10-29 03:14] OK an_es
+[2026-10-29 03:14] START an_es_lf
+llama_base {'en2es': (79, 'P2 SHARED', True), 'es2en': (79, 'P2 SHARED', True)}
+wrote analysis\run_20261029_e2b_analysis_A19_leakfree
+[2026-10-29 03:15] OK an_es_lf
+[2026-10-29 03:15] START an_hi
+llama_base {'en2hi': (190, 'P4 PARTIAL', True), 'hi2en': (190, 'P2 SHARED', True)}
+wrote analysis\run_20261029_e2hb_analysis_A19
+[2026-10-29 03:16] OK an_hi
+[2026-10-29 03:16] START an_hi_lf
+llama_base {'en2hi': (186, 'P4 PARTIAL', True), 'hi2en': (186, 'P2 SHARED', True)}
+wrote analysis\run_20261029_e2hb_analysis_A19_leakfree
+[2026-10-29 03:17] OK an_hi_lf
+[2026-10-29 03:17] START cluster
+llama_base A19_en2es plain n=79 I=1.206 {'S': (1.108, 1.367, 'SHA'), 'T': (1.133, 1.303, 'SHA'), 'C': (1.123, 1.216, 'SHA'), 'W': (1.086, 1.438, 'SHA')} ROBUST
+llama_base A19_en2es leakfree n=79 I=1.206 {'S': (1.108, 1.367, 'SHA'), 'T': (1.133, 1.303, 'SHA'), 'C': (1.123, 1.216, 'SHA'), 'W': (1.086, 1.438, 'SHA')} ROBUST
+llama_base A19_es2en plain n=79 I=0.870 {'S': (0.807, 0.919, 'SHA'), 'T': (0.837, 0.9, 'SHA'), 'C': (0.867, 0.898, 'SHA'), 'W': (0.789, 0.931, 'SHA')} ROBUST
+llama_base A19_es2en leakfree n=79 I=0.870 {'S': (0.807, 0.919, 'SHA'), 'T': (0.837, 0.9, 'SHA'), 'C': (0.867, 0.898, 'SHA'), 'W': (0.789, 0.931, 'SHA')} ROBUST
+llama_base A19_en2hi plain n=190 I=0.721 {'S': (0.674, 0.768, 'PAR'), 'T': (0.671, 0.77, 'PAR'), 'C': (0.69, 0.832, 'PAR'), 'W': (0.64, 0.799, 'PAR')} ROBUST
+llama_base A19_en2hi leakfree n=186 I=0.716 {'S': (0.668, 0.765, 'PAR'), 'T': (0.667, 0.768, 'PAR'), 'C': (0.69, 0.802, 'PAR'), 'W': (0.637, 0.792, 'PAR')} ROBUST
+llama_base A19_hi2en plain n=190 I=0.859 {'S': (0.821, 0.896, 'SHA'), 'T': (0.824, 0.897, 'SHA'), 'C': (0.837, 0.913, 'SHA'), 'W': (0.8, 0.92, 'SHA')} ROBUST
+llama_base A19_hi2en leakfree n=186 I=0.856 {'S': (0.82, 0.89, 'SHA'), 'T': (0.822, 0.893, 'SHA'), 'C': (0.837, 0.913, 'SHA'), 'W': (0.8, 0.916, 'SHA')} ROBUST
+wrote analysis\run_20261029_cluster_A19b
+[2026-10-29 03:19] OK cluster
+[2026-10-29 03:19] a19 finished

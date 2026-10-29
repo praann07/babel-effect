@@ -1,0 +1,1771 @@
+{
+ "model": "meta-llama/Llama-3.2-3B",
+ "templates": {
+  "capital_of": [
+   "The capital of {s} is",
+   "La capital de {s} es la ciudad de"
+  ],
+  "capital_country": [
+   "The country whose capital is {s} is",
+   "El país cuya capital es {s} es"
+  ],
+  "landmark_city": [
+   "The city where {s} is located is",
+   "La ciudad donde está {s} es"
+  ],
+  "landmark_country": [
+   "The country where {s} is located is",
+   "El país donde está {s} es"
+  ],
+  "city_country": [
+   "The country where {s} is located is",
+   "El país donde está {s} es"
+  ]
+ },
+ "summary": {
+  "capital_country": {
+   "tune_n": 30,
+   "tune_en": 27,
+   "tune_es": 5,
+   "eval_n": 95,
+   "eval_both": 8,
+   "template_ok": false
+  },
+  "capital_of": {
+   "tune_n": 30,
+   "tune_en": 28,
+   "tune_es": 26,
+   "eval_n": 95,
+   "eval_both": 60,
+   "template_ok": true
+  },
+  "city_country": {
+   "tune_n": 30,
+   "tune_en": 24,
+   "tune_es": 19,
+   "eval_n": 45,
+   "eval_both": 21,
+   "template_ok": true
+  },
+  "landmark_city": {
+   "tune_n": 30,
+   "tune_en": 20,
+   "tune_es": 13,
+   "eval_n": 51,
+   "eval_both": 7,
+   "template_ok": false
+  },
+  "landmark_country": {
+   "tune_n": 30,
+   "tune_en": 12,
+   "tune_es": 7,
+   "eval_n": 51,
+   "eval_both": 4,
+   "template_ok": false
+  }
+ },
+ "n_kept": 81,
+ "facts": [
+  {
+   "id": "capital_of_031",
+   "relation": "capital_of",
+   "seed": 1316889520,
+   "lang": {
+    "en": {
+     "subject": "Indonesia",
+     "object": "Jakarta",
+     "object_alts": [],
+     "prompt": "The capital of Indonesia is",
+     "target": "Jakarta"
+    },
+    "es": {
+     "subject": "Indonesia",
+     "object": "Yakarta",
+     "object_alts": [],
+     "prompt": "La capital de Indonesia es la ciudad de",
+     "target": "Yakarta"
+    }
+   }
+  },
+  {
+   "id": "capital_of_032",
+   "relation": "capital_of",
+   "seed": 504611287,
+   "lang": {
+    "en": {
+     "subject": "Pakistan",
+     "object": "Islamabad",
+     "object_alts": [],
+     "prompt": "The capital of Pakistan is",
+     "target": "Islamabad"
+    },
+    "es": {
+     "subject": "Pakistán",
+     "object": "Islamabad",
+     "object_alts": [],
+     "prompt": "La capital de Pakistán es la ciudad de",
+     "target": "Islamabad"
+    }
+   }
+  },
+  {
+   "id": "capital_of_034",
+   "relation": "capital_of",
+   "seed": 479044277,
+   "lang": {
+    "en": {
+     "subject": "Nepal",
+     "object": "Kathmandu",
+     "object_alts": [],
+     "prompt": "The capital of Nepal is",
+     "target": "Kathmandu"
+    },
+    "es": {
+     "subject": "Nepal",
+     "object": "Katmandú",
+     "object_alts": [],
+     "prompt": "La capital de Nepal es la ciudad de",
+     "target": "Katmandú"
+    }
+   }
+  },
+  {
+   "id": "capital_of_035",
+   "relation": "capital_of",
+   "seed": 91056139,
+   "lang": {
+    "en": {
+     "subject": "Sri Lanka",
+     "object": "Colombo",
+     "object_alts": [],
+     "prompt": "The capital of Sri Lanka is",
+     "target": "Colombo"
+    },
+    "es": {
+     "subject": "Sri Lanka",
+     "object": "Colombo",
+     "object_alts": [],
+     "prompt": "La capital de Sri Lanka es la ciudad de",
+     "target": "Colombo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_036",
+   "relation": "capital_of",
+   "seed": 338323185,
+   "lang": {
+    "en": {
+     "subject": "Iran",
+     "object": "Tehran",
+     "object_alts": [],
+     "prompt": "The capital of Iran is",
+     "target": "Tehran"
+    },
+    "es": {
+     "subject": "Irán",
+     "object": "Teherán",
+     "object_alts": [],
+     "prompt": "La capital de Irán es la ciudad de",
+     "target": "Teherán"
+    }
+   }
+  },
+  {
+   "id": "capital_of_037",
+   "relation": "capital_of",
+   "seed": 860272675,
+   "lang": {
+    "en": {
+     "subject": "Iraq",
+     "object": "Baghdad",
+     "object_alts": [],
+     "prompt": "The capital of Iraq is",
+     "target": "Baghdad"
+    },
+    "es": {
+     "subject": "Irak",
+     "object": "Bagdad",
+     "object_alts": [],
+     "prompt": "La capital de Irak es la ciudad de",
+     "target": "Bagdad"
+    }
+   }
+  },
+  {
+   "id": "capital_of_038",
+   "relation": "capital_of",
+   "seed": 1115304880,
+   "lang": {
+    "en": {
+     "subject": "Saudi Arabia",
+     "object": "Riyadh",
+     "object_alts": [],
+     "prompt": "The capital of Saudi Arabia is",
+     "target": "Riyadh"
+    },
+    "es": {
+     "subject": "Arabia Saudita",
+     "object": "Riad",
+     "object_alts": [],
+     "prompt": "La capital de Arabia Saudita es la ciudad de",
+     "target": "Riad"
+    }
+   }
+  },
+  {
+   "id": "capital_of_039",
+   "relation": "capital_of",
+   "seed": 2107477237,
+   "lang": {
+    "en": {
+     "subject": "Kenya",
+     "object": "Nairobi",
+     "object_alts": [],
+     "prompt": "The capital of Kenya is",
+     "target": "Nairobi"
+    },
+    "es": {
+     "subject": "Kenia",
+     "object": "Nairobi",
+     "object_alts": [],
+     "prompt": "La capital de Kenia es la ciudad de",
+     "target": "Nairobi"
+    }
+   }
+  },
+  {
+   "id": "capital_of_042",
+   "relation": "capital_of",
+   "seed": 428967276,
+   "lang": {
+    "en": {
+     "subject": "Morocco",
+     "object": "Rabat",
+     "object_alts": [],
+     "prompt": "The capital of Morocco is",
+     "target": "Rabat"
+    },
+    "es": {
+     "subject": "Marruecos",
+     "object": "Rabat",
+     "object_alts": [],
+     "prompt": "La capital de Marruecos es la ciudad de",
+     "target": "Rabat"
+    }
+   }
+  },
+  {
+   "id": "capital_of_046",
+   "relation": "capital_of",
+   "seed": 184532903,
+   "lang": {
+    "en": {
+     "subject": "Hungary",
+     "object": "Budapest",
+     "object_alts": [],
+     "prompt": "The capital of Hungary is",
+     "target": "Budapest"
+    },
+    "es": {
+     "subject": "Hungría",
+     "object": "Budapest",
+     "object_alts": [],
+     "prompt": "La capital de Hungría es la ciudad de",
+     "target": "Budapest"
+    }
+   }
+  },
+  {
+   "id": "capital_of_047",
+   "relation": "capital_of",
+   "seed": 1359031918,
+   "lang": {
+    "en": {
+     "subject": "Romania",
+     "object": "Bucharest",
+     "object_alts": [],
+     "prompt": "The capital of Romania is",
+     "target": "Bucharest"
+    },
+    "es": {
+     "subject": "Rumania",
+     "object": "Bucarest",
+     "object_alts": [],
+     "prompt": "La capital de Rumania es la ciudad de",
+     "target": "Bucarest"
+    }
+   }
+  },
+  {
+   "id": "capital_of_049",
+   "relation": "capital_of",
+   "seed": 905248288,
+   "lang": {
+    "en": {
+     "subject": "Bulgaria",
+     "object": "Sofia",
+     "object_alts": [],
+     "prompt": "The capital of Bulgaria is",
+     "target": "Sofia"
+    },
+    "es": {
+     "subject": "Bulgaria",
+     "object": "Sofía",
+     "object_alts": [],
+     "prompt": "La capital de Bulgaria es la ciudad de",
+     "target": "Sofía"
+    }
+   }
+  },
+  {
+   "id": "capital_of_050",
+   "relation": "capital_of",
+   "seed": 474588998,
+   "lang": {
+    "en": {
+     "subject": "Serbia",
+     "object": "Belgrade",
+     "object_alts": [],
+     "prompt": "The capital of Serbia is",
+     "target": "Belgrade"
+    },
+    "es": {
+     "subject": "Serbia",
+     "object": "Belgrado",
+     "object_alts": [],
+     "prompt": "La capital de Serbia es la ciudad de",
+     "target": "Belgrado"
+    }
+   }
+  },
+  {
+   "id": "capital_of_051",
+   "relation": "capital_of",
+   "seed": 922838153,
+   "lang": {
+    "en": {
+     "subject": "Croatia",
+     "object": "Zagreb",
+     "object_alts": [],
+     "prompt": "The capital of Croatia is",
+     "target": "Zagreb"
+    },
+    "es": {
+     "subject": "Croacia",
+     "object": "Zagreb",
+     "object_alts": [],
+     "prompt": "La capital de Croacia es la ciudad de",
+     "target": "Zagreb"
+    }
+   }
+  },
+  {
+   "id": "capital_of_054",
+   "relation": "capital_of",
+   "seed": 1123400112,
+   "lang": {
+    "en": {
+     "subject": "Afghanistan",
+     "object": "Kabul",
+     "object_alts": [],
+     "prompt": "The capital of Afghanistan is",
+     "target": "Kabul"
+    },
+    "es": {
+     "subject": "Afganistán",
+     "object": "Kabul",
+     "object_alts": [],
+     "prompt": "La capital de Afganistán es la ciudad de",
+     "target": "Kabul"
+    }
+   }
+  },
+  {
+   "id": "capital_of_056",
+   "relation": "capital_of",
+   "seed": 1893950898,
+   "lang": {
+    "en": {
+     "subject": "South Korea",
+     "object": "Seoul",
+     "object_alts": [],
+     "prompt": "The capital of South Korea is",
+     "target": "Seoul"
+    },
+    "es": {
+     "subject": "Corea del Sur",
+     "object": "Seúl",
+     "object_alts": [],
+     "prompt": "La capital de Corea del Sur es la ciudad de",
+     "target": "Seúl"
+    }
+   }
+  },
+  {
+   "id": "capital_of_057",
+   "relation": "capital_of",
+   "seed": 1996972697,
+   "lang": {
+    "en": {
+     "subject": "Jordan",
+     "object": "Amman",
+     "object_alts": [],
+     "prompt": "The capital of Jordan is",
+     "target": "Amman"
+    },
+    "es": {
+     "subject": "Jordania",
+     "object": "Amán",
+     "object_alts": [],
+     "prompt": "La capital de Jordania es la ciudad de",
+     "target": "Amán"
+    }
+   }
+  },
+  {
+   "id": "capital_of_058",
+   "relation": "capital_of",
+   "seed": 823452684,
+   "lang": {
+    "en": {
+     "subject": "Lebanon",
+     "object": "Beirut",
+     "object_alts": [],
+     "prompt": "The capital of Lebanon is",
+     "target": "Beirut"
+    },
+    "es": {
+     "subject": "Líbano",
+     "object": "Beirut",
+     "object_alts": [],
+     "prompt": "La capital de Líbano es la ciudad de",
+     "target": "Beirut"
+    }
+   }
+  },
+  {
+   "id": "capital_of_059",
+   "relation": "capital_of",
+   "seed": 19398460,
+   "lang": {
+    "en": {
+     "subject": "Syria",
+     "object": "Damascus",
+     "object_alts": [],
+     "prompt": "The capital of Syria is",
+     "target": "Damascus"
+    },
+    "es": {
+     "subject": "Siria",
+     "object": "Damasco",
+     "object_alts": [],
+     "prompt": "La capital de Siria es la ciudad de",
+     "target": "Damasco"
+    }
+   }
+  },
+  {
+   "id": "capital_of_060",
+   "relation": "capital_of",
+   "seed": 1961075725,
+   "lang": {
+    "en": {
+     "subject": "Libya",
+     "object": "Tripoli",
+     "object_alts": [],
+     "prompt": "The capital of Libya is",
+     "target": "Tripoli"
+    },
+    "es": {
+     "subject": "Libia",
+     "object": "Trípoli",
+     "object_alts": [],
+     "prompt": "La capital de Libia es la ciudad de",
+     "target": "Trípoli"
+    }
+   }
+  },
+  {
+   "id": "capital_of_061",
+   "relation": "capital_of",
+   "seed": 128978415,
+   "lang": {
+    "en": {
+     "subject": "Uruguay",
+     "object": "Montevideo",
+     "object_alts": [],
+     "prompt": "The capital of Uruguay is",
+     "target": "Montevideo"
+    },
+    "es": {
+     "subject": "Uruguay",
+     "object": "Montevideo",
+     "object_alts": [],
+     "prompt": "La capital de Uruguay es la ciudad de",
+     "target": "Montevideo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_062",
+   "relation": "capital_of",
+   "seed": 1903015886,
+   "lang": {
+    "en": {
+     "subject": "Ecuador",
+     "object": "Quito",
+     "object_alts": [],
+     "prompt": "The capital of Ecuador is",
+     "target": "Quito"
+    },
+    "es": {
+     "subject": "Ecuador",
+     "object": "Quito",
+     "object_alts": [],
+     "prompt": "La capital de Ecuador es la ciudad de",
+     "target": "Quito"
+    }
+   }
+  },
+  {
+   "id": "capital_of_063",
+   "relation": "capital_of",
+   "seed": 479130591,
+   "lang": {
+    "en": {
+     "subject": "Paraguay",
+     "object": "Asunción",
+     "object_alts": [],
+     "prompt": "The capital of Paraguay is",
+     "target": "Asunción"
+    },
+    "es": {
+     "subject": "Paraguay",
+     "object": "Asunción",
+     "object_alts": [],
+     "prompt": "La capital de Paraguay es la ciudad de",
+     "target": "Asunción"
+    }
+   }
+  },
+  {
+   "id": "capital_of_064",
+   "relation": "capital_of",
+   "seed": 1858175152,
+   "lang": {
+    "en": {
+     "subject": "Jamaica",
+     "object": "Kingston",
+     "object_alts": [],
+     "prompt": "The capital of Jamaica is",
+     "target": "Kingston"
+    },
+    "es": {
+     "subject": "Jamaica",
+     "object": "Kingston",
+     "object_alts": [],
+     "prompt": "La capital de Jamaica es la ciudad de",
+     "target": "Kingston"
+    }
+   }
+  },
+  {
+   "id": "capital_of_066",
+   "relation": "capital_of",
+   "seed": 1071583359,
+   "lang": {
+    "en": {
+     "subject": "Cuba",
+     "object": "Havana",
+     "object_alts": [],
+     "prompt": "The capital of Cuba is",
+     "target": "Havana"
+    },
+    "es": {
+     "subject": "Cuba",
+     "object": "La Habana",
+     "object_alts": [],
+     "prompt": "La capital de Cuba es la ciudad de",
+     "target": "La Habana"
+    }
+   }
+  },
+  {
+   "id": "capital_of_070",
+   "relation": "capital_of",
+   "seed": 1406032904,
+   "lang": {
+    "en": {
+     "subject": "Egypt",
+     "object": "Cairo",
+     "object_alts": [],
+     "prompt": "The capital of Egypt is",
+     "target": "Cairo"
+    },
+    "es": {
+     "subject": "Egipto",
+     "object": "El Cairo",
+     "object_alts": [],
+     "prompt": "La capital de Egipto es la ciudad de",
+     "target": "El Cairo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_073",
+   "relation": "capital_of",
+   "seed": 888643595,
+   "lang": {
+    "en": {
+     "subject": "Slovakia",
+     "object": "Bratislava",
+     "object_alts": [],
+     "prompt": "The capital of Slovakia is",
+     "target": "Bratislava"
+    },
+    "es": {
+     "subject": "Eslovaquia",
+     "object": "Bratislava",
+     "object_alts": [],
+     "prompt": "La capital de Eslovaquia es la ciudad de",
+     "target": "Bratislava"
+    }
+   }
+  },
+  {
+   "id": "capital_of_075",
+   "relation": "capital_of",
+   "seed": 419164074,
+   "lang": {
+    "en": {
+     "subject": "Estonia",
+     "object": "Tallinn",
+     "object_alts": [],
+     "prompt": "The capital of Estonia is",
+     "target": "Tallinn"
+    },
+    "es": {
+     "subject": "Estonia",
+     "object": "Tallin",
+     "object_alts": [],
+     "prompt": "La capital de Estonia es la ciudad de",
+     "target": "Tallin"
+    }
+   }
+  },
+  {
+   "id": "capital_of_076",
+   "relation": "capital_of",
+   "seed": 214145102,
+   "lang": {
+    "en": {
+     "subject": "Latvia",
+     "object": "Riga",
+     "object_alts": [],
+     "prompt": "The capital of Latvia is",
+     "target": "Riga"
+    },
+    "es": {
+     "subject": "Letonia",
+     "object": "Riga",
+     "object_alts": [],
+     "prompt": "La capital de Letonia es la ciudad de",
+     "target": "Riga"
+    }
+   }
+  },
+  {
+   "id": "capital_of_078",
+   "relation": "capital_of",
+   "seed": 77739844,
+   "lang": {
+    "en": {
+     "subject": "Belarus",
+     "object": "Minsk",
+     "object_alts": [],
+     "prompt": "The capital of Belarus is",
+     "target": "Minsk"
+    },
+    "es": {
+     "subject": "Bielorrusia",
+     "object": "Minsk",
+     "object_alts": [],
+     "prompt": "La capital de Bielorrusia es la ciudad de",
+     "target": "Minsk"
+    }
+   }
+  },
+  {
+   "id": "capital_of_080",
+   "relation": "capital_of",
+   "seed": 818705703,
+   "lang": {
+    "en": {
+     "subject": "Armenia",
+     "object": "Yerevan",
+     "object_alts": [],
+     "prompt": "The capital of Armenia is",
+     "target": "Yerevan"
+    },
+    "es": {
+     "subject": "Armenia",
+     "object": "Ereván",
+     "object_alts": [],
+     "prompt": "La capital de Armenia es la ciudad de",
+     "target": "Ereván"
+    }
+   }
+  },
+  {
+   "id": "capital_of_081",
+   "relation": "capital_of",
+   "seed": 289834539,
+   "lang": {
+    "en": {
+     "subject": "Azerbaijan",
+     "object": "Baku",
+     "object_alts": [],
+     "prompt": "The capital of Azerbaijan is",
+     "target": "Baku"
+    },
+    "es": {
+     "subject": "Azerbaiyán",
+     "object": "Bakú",
+     "object_alts": [],
+     "prompt": "La capital de Azerbaiyán es la ciudad de",
+     "target": "Bakú"
+    }
+   }
+  },
+  {
+   "id": "capital_of_082",
+   "relation": "capital_of",
+   "seed": 1217732641,
+   "lang": {
+    "en": {
+     "subject": "Kazakhstan",
+     "object": "Astana",
+     "object_alts": [],
+     "prompt": "The capital of Kazakhstan is",
+     "target": "Astana"
+    },
+    "es": {
+     "subject": "Kazajistán",
+     "object": "Astaná",
+     "object_alts": [],
+     "prompt": "La capital de Kazajistán es la ciudad de",
+     "target": "Astaná"
+    }
+   }
+  },
+  {
+   "id": "capital_of_085",
+   "relation": "capital_of",
+   "seed": 221055698,
+   "lang": {
+    "en": {
+     "subject": "Malaysia",
+     "object": "Kuala Lumpur",
+     "object_alts": [],
+     "prompt": "The capital of Malaysia is",
+     "target": "Kuala Lumpur"
+    },
+    "es": {
+     "subject": "Malasia",
+     "object": "Kuala Lumpur",
+     "object_alts": [],
+     "prompt": "La capital de Malasia es la ciudad de",
+     "target": "Kuala Lumpur"
+    }
+   }
+  },
+  {
+   "id": "capital_of_086",
+   "relation": "capital_of",
+   "seed": 1400682310,
+   "lang": {
+    "en": {
+     "subject": "the Philippines",
+     "object": "Manila",
+     "object_alts": [],
+     "prompt": "The capital of the Philippines is",
+     "target": "Manila"
+    },
+    "es": {
+     "subject": "Filipinas",
+     "object": "Manila",
+     "object_alts": [],
+     "prompt": "La capital de Filipinas es la ciudad de",
+     "target": "Manila"
+    }
+   }
+  },
+  {
+   "id": "capital_of_091",
+   "relation": "capital_of",
+   "seed": 1727417973,
+   "lang": {
+    "en": {
+     "subject": "Uganda",
+     "object": "Kampala",
+     "object_alts": [],
+     "prompt": "The capital of Uganda is",
+     "target": "Kampala"
+    },
+    "es": {
+     "subject": "Uganda",
+     "object": "Kampala",
+     "object_alts": [],
+     "prompt": "La capital de Uganda es la ciudad de",
+     "target": "Kampala"
+    }
+   }
+  },
+  {
+   "id": "capital_of_092",
+   "relation": "capital_of",
+   "seed": 784912305,
+   "lang": {
+    "en": {
+     "subject": "Zimbabwe",
+     "object": "Harare",
+     "object_alts": [],
+     "prompt": "The capital of Zimbabwe is",
+     "target": "Harare"
+    },
+    "es": {
+     "subject": "Zimbabue",
+     "object": "Harare",
+     "object_alts": [],
+     "prompt": "La capital de Zimbabue es la ciudad de",
+     "target": "Harare"
+    }
+   }
+  },
+  {
+   "id": "capital_of_093",
+   "relation": "capital_of",
+   "seed": 1225116724,
+   "lang": {
+    "en": {
+     "subject": "Zambia",
+     "object": "Lusaka",
+     "object_alts": [],
+     "prompt": "The capital of Zambia is",
+     "target": "Lusaka"
+    },
+    "es": {
+     "subject": "Zambia",
+     "object": "Lusaka",
+     "object_alts": [],
+     "prompt": "La capital de Zambia es la ciudad de",
+     "target": "Lusaka"
+    }
+   }
+  },
+  {
+   "id": "capital_of_094",
+   "relation": "capital_of",
+   "seed": 1752363437,
+   "lang": {
+    "en": {
+     "subject": "Angola",
+     "object": "Luanda",
+     "object_alts": [],
+     "prompt": "The capital of Angola is",
+     "target": "Luanda"
+    },
+    "es": {
+     "subject": "Angola",
+     "object": "Luanda",
+     "object_alts": [],
+     "prompt": "La capital de Angola es la ciudad de",
+     "target": "Luanda"
+    }
+   }
+  },
+  {
+   "id": "capital_of_095",
+   "relation": "capital_of",
+   "seed": 196594806,
+   "lang": {
+    "en": {
+     "subject": "Senegal",
+     "object": "Dakar",
+     "object_alts": [],
+     "prompt": "The capital of Senegal is",
+     "target": "Dakar"
+    },
+    "es": {
+     "subject": "Senegal",
+     "object": "Dakar",
+     "object_alts": [],
+     "prompt": "La capital de Senegal es la ciudad de",
+     "target": "Dakar"
+    }
+   }
+  },
+  {
+   "id": "capital_of_097",
+   "relation": "capital_of",
+   "seed": 1555007804,
+   "lang": {
+    "en": {
+     "subject": "Madagascar",
+     "object": "Antananarivo",
+     "object_alts": [],
+     "prompt": "The capital of Madagascar is",
+     "target": "Antananarivo"
+    },
+    "es": {
+     "subject": "Madagascar",
+     "object": "Antananarivo",
+     "object_alts": [],
+     "prompt": "La capital de Madagascar es la ciudad de",
+     "target": "Antananarivo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_098",
+   "relation": "capital_of",
+   "seed": 1625364395,
+   "lang": {
+    "en": {
+     "subject": "Mozambique",
+     "object": "Maputo",
+     "object_alts": [],
+     "prompt": "The capital of Mozambique is",
+     "target": "Maputo"
+    },
+    "es": {
+     "subject": "Mozambique",
+     "object": "Maputo",
+     "object_alts": [],
+     "prompt": "La capital de Mozambique es la ciudad de",
+     "target": "Maputo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_100",
+   "relation": "capital_of",
+   "seed": 596875519,
+   "lang": {
+    "en": {
+     "subject": "Oman",
+     "object": "Muscat",
+     "object_alts": [],
+     "prompt": "The capital of Oman is",
+     "target": "Muscat"
+    },
+    "es": {
+     "subject": "Omán",
+     "object": "Mascate",
+     "object_alts": [],
+     "prompt": "La capital de Omán es la ciudad de",
+     "target": "Mascate"
+    }
+   }
+  },
+  {
+   "id": "capital_of_101",
+   "relation": "capital_of",
+   "seed": 1837764820,
+   "lang": {
+    "en": {
+     "subject": "Qatar",
+     "object": "Doha",
+     "object_alts": [],
+     "prompt": "The capital of Qatar is",
+     "target": "Doha"
+    },
+    "es": {
+     "subject": "Catar",
+     "object": "Doha",
+     "object_alts": [],
+     "prompt": "La capital de Catar es la ciudad de",
+     "target": "Doha"
+    }
+   }
+  },
+  {
+   "id": "capital_of_102",
+   "relation": "capital_of",
+   "seed": 507702553,
+   "lang": {
+    "en": {
+     "subject": "the Netherlands",
+     "object": "Amsterdam",
+     "object_alts": [],
+     "prompt": "The capital of the Netherlands is",
+     "target": "Amsterdam"
+    },
+    "es": {
+     "subject": "los Países Bajos",
+     "object": "Ámsterdam",
+     "object_alts": [],
+     "prompt": "La capital de los Países Bajos es la ciudad de",
+     "target": "Ámsterdam"
+    }
+   }
+  },
+  {
+   "id": "capital_of_103",
+   "relation": "capital_of",
+   "seed": 491204345,
+   "lang": {
+    "en": {
+     "subject": "the United Kingdom",
+     "object": "London",
+     "object_alts": [],
+     "prompt": "The capital of the United Kingdom is",
+     "target": "London"
+    },
+    "es": {
+     "subject": "el Reino Unido",
+     "object": "Londres",
+     "object_alts": [],
+     "prompt": "La capital de el Reino Unido es la ciudad de",
+     "target": "Londres"
+    }
+   }
+  },
+  {
+   "id": "capital_of_104",
+   "relation": "capital_of",
+   "seed": 713316774,
+   "lang": {
+    "en": {
+     "subject": "Albania",
+     "object": "Tirana",
+     "object_alts": [],
+     "prompt": "The capital of Albania is",
+     "target": "Tirana"
+    },
+    "es": {
+     "subject": "Albania",
+     "object": "Tirana",
+     "object_alts": [],
+     "prompt": "La capital de Albania es la ciudad de",
+     "target": "Tirana"
+    }
+   }
+  },
+  {
+   "id": "capital_of_106",
+   "relation": "capital_of",
+   "seed": 1968831155,
+   "lang": {
+    "en": {
+     "subject": "Cyprus",
+     "object": "Nicosia",
+     "object_alts": [],
+     "prompt": "The capital of Cyprus is",
+     "target": "Nicosia"
+    },
+    "es": {
+     "subject": "Chipre",
+     "object": "Nicosia",
+     "object_alts": [],
+     "prompt": "La capital de Chipre es la ciudad de",
+     "target": "Nicosia"
+    }
+   }
+  },
+  {
+   "id": "capital_of_108",
+   "relation": "capital_of",
+   "seed": 929623914,
+   "lang": {
+    "en": {
+     "subject": "Honduras",
+     "object": "Tegucigalpa",
+     "object_alts": [],
+     "prompt": "The capital of Honduras is",
+     "target": "Tegucigalpa"
+    },
+    "es": {
+     "subject": "Honduras",
+     "object": "Tegucigalpa",
+     "object_alts": [],
+     "prompt": "La capital de Honduras es la ciudad de",
+     "target": "Tegucigalpa"
+    }
+   }
+  },
+  {
+   "id": "capital_of_109",
+   "relation": "capital_of",
+   "seed": 162556257,
+   "lang": {
+    "en": {
+     "subject": "Nicaragua",
+     "object": "Managua",
+     "object_alts": [],
+     "prompt": "The capital of Nicaragua is",
+     "target": "Managua"
+    },
+    "es": {
+     "subject": "Nicaragua",
+     "object": "Managua",
+     "object_alts": [],
+     "prompt": "La capital de Nicaragua es la ciudad de",
+     "target": "Managua"
+    }
+   }
+  },
+  {
+   "id": "capital_of_110",
+   "relation": "capital_of",
+   "seed": 768022020,
+   "lang": {
+    "en": {
+     "subject": "the Dominican Republic",
+     "object": "Santo Domingo",
+     "object_alts": [],
+     "prompt": "The capital of the Dominican Republic is",
+     "target": "Santo Domingo"
+    },
+    "es": {
+     "subject": "la República Dominicana",
+     "object": "Santo Domingo",
+     "object_alts": [],
+     "prompt": "La capital de la República Dominicana es la ciudad de",
+     "target": "Santo Domingo"
+    }
+   }
+  },
+  {
+   "id": "capital_of_112",
+   "relation": "capital_of",
+   "seed": 1155247318,
+   "lang": {
+    "en": {
+     "subject": "Rwanda",
+     "object": "Kigali",
+     "object_alts": [],
+     "prompt": "The capital of Rwanda is",
+     "target": "Kigali"
+    },
+    "es": {
+     "subject": "Ruanda",
+     "object": "Kigali",
+     "object_alts": [],
+     "prompt": "La capital de Ruanda es la ciudad de",
+     "target": "Kigali"
+    }
+   }
+  },
+  {
+   "id": "capital_of_113",
+   "relation": "capital_of",
+   "seed": 1955745670,
+   "lang": {
+    "en": {
+     "subject": "Somalia",
+     "object": "Mogadishu",
+     "object_alts": [],
+     "prompt": "The capital of Somalia is",
+     "target": "Mogadishu"
+    },
+    "es": {
+     "subject": "Somalia",
+     "object": "Mogadiscio",
+     "object_alts": [],
+     "prompt": "La capital de Somalia es la ciudad de",
+     "target": "Mogadiscio"
+    }
+   }
+  },
+  {
+   "id": "capital_of_114",
+   "relation": "capital_of",
+   "seed": 1427495941,
+   "lang": {
+    "en": {
+     "subject": "Botswana",
+     "object": "Gaborone",
+     "object_alts": [],
+     "prompt": "The capital of Botswana is",
+     "target": "Gaborone"
+    },
+    "es": {
+     "subject": "Botsuana",
+     "object": "Gaborone",
+     "object_alts": [],
+     "prompt": "La capital de Botsuana es la ciudad de",
+     "target": "Gaborone"
+    }
+   }
+  },
+  {
+   "id": "capital_of_115",
+   "relation": "capital_of",
+   "seed": 1009208647,
+   "lang": {
+    "en": {
+     "subject": "Namibia",
+     "object": "Windhoek",
+     "object_alts": [],
+     "prompt": "The capital of Namibia is",
+     "target": "Windhoek"
+    },
+    "es": {
+     "subject": "Namibia",
+     "object": "Windhoek",
+     "object_alts": [],
+     "prompt": "La capital de Namibia es la ciudad de",
+     "target": "Windhoek"
+    }
+   }
+  },
+  {
+   "id": "capital_of_117",
+   "relation": "capital_of",
+   "seed": 217154609,
+   "lang": {
+    "en": {
+     "subject": "Bahrain",
+     "object": "Manama",
+     "object_alts": [],
+     "prompt": "The capital of Bahrain is",
+     "target": "Manama"
+    },
+    "es": {
+     "subject": "Baréin",
+     "object": "Manama",
+     "object_alts": [],
+     "prompt": "La capital de Baréin es la ciudad de",
+     "target": "Manama"
+    }
+   }
+  },
+  {
+   "id": "capital_of_118",
+   "relation": "capital_of",
+   "seed": 246311498,
+   "lang": {
+    "en": {
+     "subject": "the Maldives",
+     "object": "Malé",
+     "object_alts": [],
+     "prompt": "The capital of the Maldives is",
+     "target": "Malé"
+    },
+    "es": {
+     "subject": "las Maldivas",
+     "object": "Malé",
+     "object_alts": [],
+     "prompt": "La capital de las Maldivas es la ciudad de",
+     "target": "Malé"
+    }
+   }
+  },
+  {
+   "id": "capital_of_119",
+   "relation": "capital_of",
+   "seed": 2009475688,
+   "lang": {
+    "en": {
+     "subject": "Fiji",
+     "object": "Suva",
+     "object_alts": [],
+     "prompt": "The capital of Fiji is",
+     "target": "Suva"
+    },
+    "es": {
+     "subject": "Fiyi",
+     "object": "Suva",
+     "object_alts": [],
+     "prompt": "La capital de Fiyi es la ciudad de",
+     "target": "Suva"
+    }
+   }
+  },
+  {
+   "id": "capital_of_120",
+   "relation": "capital_of",
+   "seed": 630253008,
+   "lang": {
+    "en": {
+     "subject": "Tajikistan",
+     "object": "Dushanbe",
+     "object_alts": [],
+     "prompt": "The capital of Tajikistan is",
+     "target": "Dushanbe"
+    },
+    "es": {
+     "subject": "Tayikistán",
+     "object": "Dusambé",
+     "object_alts": [],
+     "prompt": "La capital de Tayikistán es la ciudad de",
+     "target": "Dusambé"
+    }
+   }
+  },
+  {
+   "id": "capital_of_121",
+   "relation": "capital_of",
+   "seed": 773973288,
+   "lang": {
+    "en": {
+     "subject": "Kyrgyzstan",
+     "object": "Bishkek",
+     "object_alts": [],
+     "prompt": "The capital of Kyrgyzstan is",
+     "target": "Bishkek"
+    },
+    "es": {
+     "subject": "Kirguistán",
+     "object": "Biskek",
+     "object_alts": [],
+     "prompt": "La capital de Kirguistán es la ciudad de",
+     "target": "Biskek"
+    }
+   }
+  },
+  {
+   "id": "city_country_030",
+   "relation": "city_country",
+   "seed": 2028254763,
+   "lang": {
+    "en": {
+     "subject": "Brisbane",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "The country where Brisbane is located is",
+     "target": "Australia"
+    },
+    "es": {
+     "subject": "Brisbane",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "El país donde está Brisbane es",
+     "target": "Australia"
+    }
+   }
+  },
+  {
+   "id": "city_country_031",
+   "relation": "city_country",
+   "seed": 2117191724,
+   "lang": {
+    "en": {
+     "subject": "Perth",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "The country where Perth is located is",
+     "target": "Australia"
+    },
+    "es": {
+     "subject": "Perth",
+     "object": "Australia",
+     "object_alts": [],
+     "prompt": "El país donde está Perth es",
+     "target": "Australia"
+    }
+   }
+  },
+  {
+   "id": "city_country_032",
+   "relation": "city_country",
+   "seed": 488515214,
+   "lang": {
+    "en": {
+     "subject": "Toronto",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "The country where Toronto is located is",
+     "target": "Canada"
+    },
+    "es": {
+     "subject": "Toronto",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompt": "El país donde está Toronto es",
+     "target": "Canadá"
+    }
+   }
+  },
+  {
+   "id": "city_country_033",
+   "relation": "city_country",
+   "seed": 1066016499,
+   "lang": {
+    "en": {
+     "subject": "Vancouver",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "The country where Vancouver is located is",
+     "target": "Canada"
+    },
+    "es": {
+     "subject": "Vancouver",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompt": "El país donde está Vancouver es",
+     "target": "Canadá"
+    }
+   }
+  },
+  {
+   "id": "city_country_034",
+   "relation": "city_country",
+   "seed": 33814939,
+   "lang": {
+    "en": {
+     "subject": "Montreal",
+     "object": "Canada",
+     "object_alts": [],
+     "prompt": "The country where Montreal is located is",
+     "target": "Canada"
+    },
+    "es": {
+     "subject": "Montreal",
+     "object": "Canadá",
+     "object_alts": [],
+     "prompt": "El país donde está Montreal es",
+     "target": "Canadá"
+    }
+   }
+  },
+  {
+   "id": "city_country_044",
+   "relation": "city_country",
+   "seed": 1982949192,
+   "lang": {
+    "en": {
+     "subject": "São Paulo",
+     "object": "Brazil",
+     "object_alts": [],
+     "prompt": "The country where São Paulo is located is",
+     "target": "Brazil"
+    },
+    "es": {
+     "subject": "São Paulo",
+     "object": "Brasil",
+     "object_alts": [],
+     "prompt": "El país donde está São Paulo es",
+     "target": "Brasil"
+    }
+   }
+  },
+  {
+   "id": "city_country_045",
+   "relation": "city_country",
+   "seed": 734995139,
+   "lang": {
+    "en": {
+     "subject": "Shanghai",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "The country where Shanghai is located is",
+     "target": "China"
+    },
+    "es": {
+     "subject": "Shanghái",
+     "object": "China",
+     "object_alts": [],
+     "prompt": "El país donde está Shanghái es",
+     "target": "China"
+    }
+   }
+  },
+  {
+   "id": "city_country_050",
+   "relation": "city_country",
+   "seed": 1972641372,
+   "lang": {
+    "en": {
+     "subject": "Kyoto",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "The country where Kyoto is located is",
+     "target": "Japan"
+    },
+    "es": {
+     "subject": "Kioto",
+     "object": "Japón",
+     "object_alts": [],
+     "prompt": "El país donde está Kioto es",
+     "target": "Japón"
+    }
+   }
+  },
+  {
+   "id": "city_country_051",
+   "relation": "city_country",
+   "seed": 1234914066,
+   "lang": {
+    "en": {
+     "subject": "Yokohama",
+     "object": "Japan",
+     "object_alts": [],
+     "prompt": "The country where Yokohama is located is",
+     "target": "Japan"
+    },
+    "es": {
+     "subject": "Yokohama",
+     "object": "Japón",
+     "object_alts": [],
+     "prompt": "El país donde está Yokohama es",
+     "target": "Japón"
+    }
+   }
+  },
+  {
+   "id": "city_country_053",
+   "relation": "city_country",
+   "seed": 955652159,
+   "lang": {
+    "en": {
+     "subject": "Karachi",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "The country where Karachi is located is",
+     "target": "Pakistan"
+    },
+    "es": {
+     "subject": "Karachi",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompt": "El país donde está Karachi es",
+     "target": "Pakistán"
+    }
+   }
+  },
+  {
+   "id": "city_country_054",
+   "relation": "city_country",
+   "seed": 1480100747,
+   "lang": {
+    "en": {
+     "subject": "Lahore",
+     "object": "Pakistan",
+     "object_alts": [],
+     "prompt": "The country where Lahore is located is",
+     "target": "Pakistan"
+    },
+    "es": {
+     "subject": "Lahore",
+     "object": "Pakistán",
+     "object_alts": [],
+     "prompt": "El país donde está Lahore es",
+     "target": "Pakistán"
+    }
+   }
+  },
+  {
+   "id": "city_country_056",
+   "relation": "city_country",
+   "seed": 1822357181,
+   "lang": {
+    "en": {
+     "subject": "Casablanca",
+     "object": "Morocco",
+     "object_alts": [],
+     "prompt": "The country where Casablanca is located is",
+     "target": "Morocco"
+    },
+    "es": {
+     "subject": "Casablanca",
+     "object": "Marruecos",
+     "object_alts": [],
+     "prompt": "El país donde está Casablanca es",
+     "target": "Marruecos"
+    }
+   }
+  },
+  {
+   "id": "city_country_060",
+   "relation": "city_country",
+   "seed": 983796059,
+   "lang": {
+    "en": {
+     "subject": "Saint Petersburg",
+     "object": "Russia",
+     "object_alts": [],
+     "prompt": "The country where Saint Petersburg is located is",
+     "target": "Russia"
+    },
+    "es": {
+     "subject": "San Petersburgo",
+     "object": "Rusia",
+     "object_alts": [],
+     "prompt": "El país donde está San Petersburgo es",
+     "target": "Rusia"
+    }
+   }
+  },
+  {
+   "id": "city_country_061",
+   "relation": "city_country",
+   "seed": 2016871018,
+   "lang": {
+    "en": {
+     "subject": "Kraków",
+     "object": "Poland",
+     "object_alts": [],
+     "prompt": "The country where Kraków is located is",
+     "target": "Poland"
+    },
+    "es": {
+     "subject": "Cracovia",
+     "object": "Polonia",
+     "object_alts": [],
+     "prompt": "El país donde está Cracovia es",
+     "target": "Polonia"
+    }
+   }
+  },
+  {
+   "id": "city_country_062",
+   "relation": "city_country",
+   "seed": 1426215726,
+   "lang": {
+    "en": {
+     "subject": "Porto",
+     "object": "Portugal",
+     "object_alts": [],
+     "prompt": "The country where Porto is located is",
+     "target": "Portugal"
+    },
+    "es": {
+     "subject": "Oporto",
+     "object": "Portugal",
+     "object_alts": [],
+     "prompt": "El país donde está Oporto es",
+     "target": "Portugal"
+    }
+   }
+  },
+  {
+   "id": "city_country_063",
+   "relation": "city_country",
+   "seed": 117606394,
+   "lang": {
+    "en": {
+     "subject": "Zurich",
+     "object": "Switzerland",
+     "object_alts": [],
+     "prompt": "The country where Zurich is located is",
+     "target": "Switzerland"
+    },
+    "es": {
+     "subject": "Zúrich",
+     "object": "Suiza",
+     "object_alts": [],
+     "prompt": "El país donde está Zúrich es",
+     "target": "Suiza"
+    }
+   }
+  },
+  {
+   "id": "city_country_065",
+   "relation": "city_country",
+   "seed": 586742209,
+   "lang": {
+    "en": {
+     "subject": "Gothenburg",
+     "object": "Sweden",
+     "object_alts": [],
+     "prompt": "The country where Gothenburg is located is",
+     "target": "Sweden"
+    },
+    "es": {
+     "subject": "Gotemburgo",
+     "object": "Suecia",
+     "object_alts": [],
+     "prompt": "El país donde está Gotemburgo es",
+     "target": "Suecia"
+    }
+   }
+  },
+  {
+   "id": "city_country_066",
+   "relation": "city_country",
+   "seed": 1277977584,
+   "lang": {
+    "en": {
+     "subject": "Bergen",
+     "object": "Norway",
+     "object_alts": [],
+     "prompt": "The country where Bergen is located is",
+     "target": "Norway"
+    },
+    "es": {
+     "subject": "Bergen",
+     "object": "Noruega",
+     "object_alts": [],
+     "prompt": "El país donde está Bergen es",
+     "target": "Noruega"
+    }
+   }
+  },
+  {
+   "id": "city_country_068",
+   "relation": "city_country",
+   "seed": 515752186,
+   "lang": {
+    "en": {
+     "subject": "Antwerp",
+     "object": "Belgium",
+     "object_alts": [],
+     "prompt": "The country where Antwerp is located is",
+     "target": "Belgium"
+    },
+    "es": {
+     "subject": "Amberes",
+     "object": "Bélgica",
+     "object_alts": [],
+     "prompt": "El país donde está Amberes es",
+     "target": "Bélgica"
+    }
+   }
+  },
+  {
+   "id": "city_country_071",
+   "relation": "city_country",
+   "seed": 189431841,
+   "lang": {
+    "en": {
+     "subject": "Medellín",
+     "object": "Colombia",
+     "object_alts": [],
+     "prompt": "The country where Medellín is located is",
+     "target": "Colombia"
+    },
+    "es": {
+     "subject": "Medellín",
+     "object": "Colombia",
+     "object_alts": [],
+     "prompt": "El país donde está Medellín es",
+     "target": "Colombia"
+    }
+   }
+  },
+  {
+   "id": "city_country_074",
+   "relation": "city_country",
+   "seed": 1140618436,
+   "lang": {
+    "en": {
+     "subject": "Kyiv",
+     "object": "Ukraine",
+     "object_alts": [],
+     "prompt": "The country where Kyiv is located is",
+     "target": "Ukraine"
+    },
+    "es": {
+     "subject": "Kiev",
+     "object": "Ucrania",
+     "object_alts": [],
+     "prompt": "El país donde está Kiev es",
+     "target": "Ucrania"
+    }
+   }
+  }
+ ]
+}
