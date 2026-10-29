@@ -280,6 +280,12 @@ def claims() -> list[dict]:
         for lk in ("plain", "leakfree"):
             k = [f"llama_base|{nm}|{lk}"]; i = f"a19b_{nm}_{lk}"
             c += [(i + "_robust", CA, k + ["labels_robust"])] + [(f"{i}_{cl}_lo", CA, k + [cl, "ci95", 0]) for cl in "STCW"]
+    EP = "analysis/run_20261029_editpool_A20/results.json"
+    c.append(("a20_n_facts", EP, ["n_facts"]))
+    for cd in ("traced", "mid", "L21"):  # A20: pooled F7 + A20 Llama edits
+        c += [(f"a20_{cd}_n", EP, [cd, "n"]), (f"a20_{cd}_en_success", EP, [cd, "en_success"]), (f"a20_{cd}_ppl", EP, [cd, "ppl_ratio", "median"])]
+        for k in ("es_transfer", "hi_transfer", "specificity"):
+            c += [(f"a20_{cd}_{k}", EP, [cd, k, "median"]), (f"a20_{cd}_{k}_lo", EP, [cd, k, "ci95", 0]), (f"a20_{cd}_{k}_hi", EP, [cd, k, "ci95", 1])]
     for tag, art in PK.items():  # A14: overlap rerun with 10,000 permutations
         for pr in ("en-es", "en-hi", "es-hi"):
             for st in ("z", "p_one_sided", "observed_median"):
