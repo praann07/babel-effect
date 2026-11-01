@@ -1547,141 +1547,142 @@ run_20261031_para_analysis_A28                                     1        2
 
 ## 9.9 Git history (generated)
 
-132 commits at the time of building. Newest first.
+133 commits at the time of building. Newest first.
 
 ```text
-9b6c1d0  2026-11-01  docs: paper Section 4.8 (Kaggle results), pre-registrations through the Gemma failure fix, goal file, manifest (2126 claims verified)
-2a0aa0a  2026-11-01  data: Kaggle and laptop run outputs (Llama A28 run, first pass, Gemma dry runs, console notebooks, figures)
-d55147e  2026-11-01  chore: self-contained Kaggle notebooks (Llama bundle-4c26396318b4, Gemma bundle-e186cf5d5e1b), model config packs, non-geography fact files
-56a4fc8  2026-11-01  feat: Kaggle pipeline for Llama and Gemma-2, key-similarity and layer-map analyses; joint edit survives identical keys
-a14edcf  2026-10-29  Kaggle runner: always replace code/tests/kaggle with the fetched commit (a second run in one session kept the first run's old files); test added
-051480b  2026-10-29  Tests: layout test builds its own checkout so the suite also passes in the inputs-only Kaggle layout (30 pass there)
-9d3b1f0  2026-10-29  Kaggle: script that writes git-ignored notebooks with the token pre-filled; private folder excluded from every bundle
-2b2332c  2026-10-29  Kaggle notebooks: optional pasted Hugging Face token (HF_TOKEN_HERE), used before the secret
-694eabd  2026-10-29  Kaggle runner: try other spellings of the token secret label, no retry on a label that is not attached; tests 31
-e2f3be8  2026-10-29  Docs: Kaggle per-model layout, contribution (mechanism + fix), next steps
-07cfe76  2026-10-29  Kaggle: one self-contained notebook per model (Llama-Instruct, Gemma-2); no output chaining
-8a0f7df  2026-10-29  Kaggle: notebooks fetch the code from GitHub at start (no dataset to upload); WikiText fetched from Hugging Face; inputs-only layout shared with the optional zip; tests 30
-c238e3d  2026-10-29  Kaggle runner: fix package check (transformer_lens has no __version__), read HF_TOKEN first and export it to every job, stagger GPU starts; tests 29
-0bbe850  2026-10-29  Kaggle notebook: find the runner at any depth (or the unpacked zip), print what is attached if missing
-dd51c00  2026-10-29  Kaggle from-scratch rerun: step-based runner, per-model bf16/fp16 check, inputs-only dataset, step-1 notebook (fact preparation); A25 amended; tests 26/26
-554ab75  2026-10-29  Kaggle runner: one driver, both GPUs (sharded jobs), bf16/fp16 check, retries/resume, merge+analyses+packaging; A25 pre-registered; tests 21/21
-2994a7a  2026-10-29  Kaggle notebook: install first, leave numpy/scipy/torch alone
-62a6c3c  2026-10-29  Kaggle setup: notebook, run scripts, bundle builder, setup guide (bundle zip not committed)
-8ee7220  2026-10-29  CPU pass: A22 reconciliation, paper repairs, A23/A24 pre-registration and code, audit sheet, GOAL.md (1941 claims verified)
-17aea2e  2026-10-29  A21 pre-registration + code: English-paraphrase control for edit transfer (--para, para_analysis.py, scripts_a21.sh)
-df27129  2026-10-29  A20 pooled edit stats into manifest (1826 claims); paper: A19 base replication, A20 edits
-d2efb4f  2026-10-29  A19 base-model replication and A20 edit results, manifest
-5b3de74  2026-10-29  Remove track.bat
-c225e0a  2026-10-29  track.bat: live hardware + progress tracker
-1f658b1  2026-10-29  A20 pre-registration + driver: 20 more Llama edit facts, queued behind A19
-2c4ef68  2026-10-29  A19 driver: remove rest between GPU steps
-3141a5b  2026-10-29  A19 driver: 10-min rest between GPU steps, 06:30 cutoff
-37cc52e  2026-10-29  docs: add status, one-paragraph result and figure to README
-e982a23  2026-10-28  Paper: fix leak-free change magnitude
-979c722  2026-10-28  Paper: add A18 span-wise Hindi interchange, abstract interchange sentences, scope
-9272aba  2026-10-28  A18b clustering sensitivity (all SHARED); A19 pre-registration, llama_base model key, scripts_a19.sh
-b7e2228  2026-10-27  A18: EN<->HI span-wise interchange results, manifest 1565, checkpoint retry fix
-e12adfa  2026-10-26  A18 script: skip finished steps on resume
-ed1548f  2026-10-26  A18: pre-register EN->HI span-wise interchange; span flag + script
-55573fa  2026-10-26  Add Q1 roadmap
-ec3f00e  2026-10-26  A17b: clustering sensitivity results; EN-ES robust, Hindi labels not; manifest 1469
-1602b87  2026-10-26  A17b: pre-register clustering sensitivity of interchange verdicts
-39bac7f  2026-10-26  A17: leakage-excluded re-analysis results (no verdict changes), manifest 1289
-ca693f3  2026-10-26  A17: pre-register answer-in-subject leakage re-analysis; add leakage.py and --exclude-leak flags
-f988860  2026-10-26  A16 Hindi->English interchange: Llama PARTIAL 0.74, Gemma SHARED 0.76 (floor met); manifest 1209 verified; paper 4.7 + PDF
-a3235e3  2026-10-26  Register A16 (EN-HI interchange, HI->EN, larger fact set) before any A16 data; code/script ready; A15 analysis regression: max diff 0
-5c53424  2026-10-26  A15 Hindi interchange: underpowered (23/12 source entities < 25 floor; EN->HI gate failed); manifest 1153 verified; paper 4.7 + PDF
-6436d3d  2026-10-25  Paper v2: rebuild LaTeX/PDF with Gemma F7 and interchange tables; log
-4492a3b  2026-10-25  Register A15 (EN-HI interchange) before any Hindi E2 data; generalise interchange/e2_analysis to a language pair (A13 regression: max diff 0); e2h filter + script
-3682364  2026-10-25  Pilot data files (Llama-1B, BLOOM-1b7); Software Heritage snapshot id
-7506528  2026-10-25  Gemma F7 edits (n=19-20), Llama-1B/BLOOM pilots below 50 facts; manifest 1077 claims; F7 random-layer clarification
-f116b1f  2026-10-25  README v2 headline, reproducibility log, Software Heritage save request
-fb277c6  2026-10-25  reproduce.sh: quote PY (paths with spaces)
-1ef9d89  2026-10-25  reproduce.sh cpu mode + compare_results.py; CPU reproduction of A12a/A13a/A13b/E2/A14 matches saved results exactly
-857fae2  2026-10-25  Related work: verify 23 arXiv refs, add Dumas/Zhang-Nanda/Heimersheim-Nanda, fix Llama3 first author; GPU night2 script
-ca97649  2026-10-25  A14: overlap rerun with 10,000 permutations (CPU), manifest 1059 claims, paper section 6 note
-ee22e70  2026-10-25  Diagnose Llama in-context English 0/10 (model corrects counterfactual); update paper 4.5 and log
-5d200c5  2026-10-25  Paper: add section 4.7 (noise re-trace, covariates, interchange), notation and citations; update NEXT
-a4bba04  2026-10-25  E2 interchange results (A13): P2 SHARED in Llama and Gemma; manifest 1011 claims
-deb9196  2026-10-24  E2 analysis script
-b597b5b  2026-10-24  Tracker for E2
-9951a94  2026-10-24  E2 runner; Llama unit tests and pilot; Gemma selected templates
-6cdca21  2026-10-24  A13c: per-model template selection for Gemma E2; interchange code
-070e5e5  2026-10-24  E2 filter script (EN+ES correctness with prefix templates)
-55620d7  2026-10-24  A13b results; register A13 (cross-language subject interchange)
-e29198c  2026-10-24  Register A13b (covariate model on independent-noise profiles)
-6dfc64a  2026-10-24  A13a results: alignment survives independent noise in both models; manifest
-043ac18  2026-10-24  Live tracker for the A13a night run
-6379716  2026-10-24  A13a analysis script and night runner
-40b6c91  2026-10-24  A12/A12a results (CPU), manifest 719 claims, A13a pre-registration, independent-noise tracer
-6ee92ca  2026-10-24  Register A12a (confound-adjusted overlap; NC profiles, prefix classes, fixed SESOI) before any A12/A12a number is computed
-47ffadc  2026-10-24  Add external review (2026-10-23) and A12a draft amendment
-b981139  2026-10-21  Pre-register A12 (confound-adjusted overlap on cached traces); add improvement prompt
-f171640  2026-10-21  Fix leftover overclaiming sentence in LaTeX build
-054a125  2026-10-21  A11 controls on cached traces, section 4.6, softened claims, manifest 589 claims
-a24ea26  2026-10-21  A11: controls for the EN-ES overlap (pre-registered before computing)
-17b69c5  2026-10-21  Future-work file and reviewer prompt
-affa4db  2026-10-21  LaTeX version of the paper (main.tex + PDF), build script, figure 2 legend fix
-9e7fb76  2026-10-20  Results for rewording (H8), non-copyable relations, in-context baseline, Llama follow-up edits
-81aa745  2026-10-19  Section 4.4 (layer sweep), H7 verdict, queue2 restartable runner
-4b327a0  2026-10-19  Full overlap tables; manifest covers Gemma stratified (390 claims)
-62a2519  2026-10-19  paper v2 draft: related work and references merged
-4c59110  2026-10-19  select_templates: separate run dir when --relations is used
-0061b6c  2026-10-19  Queue BLOOM-1b7 chain; update NEXT and LOG
-2e14bd1  2026-10-19  Pre-register A10 (BLOOM-1b7) and register the model
-0b207d6  2026-10-19  Manifest: add Hindi-diagnostic and layer-distribution claims (387)
-b1a3d8a  2026-10-19  Critical-layer distribution analysis and Figure 4
-34185a1  2026-10-19  Add F7 layer rule, edit-script options, post-run chain
-5f2abe7  2026-10-19  Add paper figures, unit tests, reproduce.sh check, sweep watchdog; log outages
-09ed9a8  2026-10-15  Llama-3.2-1B weights verified
-8adecf5  2026-10-15  select_templates: skip relations absent from the candidate file
-201f801  2026-10-15  F6 pilot chain queued (runs only if >= 50 facts)
-8fbe92a  2026-10-15  paper_v2_draft (overlap, tracing, Hindi diagnostic) and h8_analysis
-b7408b7  2026-10-15  F3 code and queue; llama1b registered for the third-model pilot
-4111dea  2026-10-15  F4 data and pipeline (non-copyable relations), queued after the sweep with F5 phrasing traces
-e05b8c5  2026-10-15  F1 (A9) and F2 (Hindi tokenizer diagnostic) done
-5eced37  2026-10-15  A9: stratified null as primary, non-copyable set, in-context baseline, H8 subset, third-model rule; NEXT.md to-do list
-1d612af  2026-10-15  Manifest extended to v2 results (356 claims)
-be806b4  2026-10-15  Cross-model comparison on shared facts (n=33)
-6409827  2026-10-15  Layer-sweep runner; sweep debug runs (Llama, Gemma)
-2d02823  2026-10-15  Gemma-2-2B v2 results (n=58): EN-ES overlap replicates, Hindi weak; logged
-b40115c  2026-10-15  A8: extend Gemma candidate pool with 39 events
-9f3b421  2026-10-15  LOG: correct Gemma fast-path gap (max 0.079)
-05ed098  2026-10-15  Gemma-2-2B first v2 results (n=26, exploratory); per-model template selection support
-faab658  2026-10-15  P3v2: Llama full-answer tracing and overlap (n=92), stratified-null sensitivity, results logged
-57c5056  2026-10-15  eval_sweep: layer-sweep tables, conditions, H7 test
-9d4ea03  2026-10-15  Related work with verified citations; knowledge_edit_v2 (layer sweep, full-answer scoring); overlap analysis generalised
-9ca93e6  2026-10-15  Gemma-2-2B weights verified; causal_trace_v2 (untested) added
-33e039c  2026-10-14  P1v2 gate: template selection, normalised matching, 93 facts kept on Llama; span check
-5965551  2026-10-14  A7: template selection and matching normalisation for v2 filter
-5875eb3  2026-10-14  Study v2 candidates: 408 facts, 5 relations, 3 phrasings per language; A6 matching rule
-2bf7f6e  2026-10-14  A5: pre-register Study v2 (second model, new relations, 3 phrasings, full-answer scoring, layer sweep)
-1a948bd  2026-10-14  Model-agnostic code (--model llama|gemma2), Gemma soft-cap and post-norm handling, model research report
-baebd28  2026-10-13  Stop full reproduction run; record status; keep partial run dirs
-3e03db1  2026-10-13  P6: paper draft, README run order and headline results
-da9141a  2026-10-13  P6 tooling: manifest (240 claims), reproduce.sh, comparison script
-4f0759d  2026-10-13  LOG: correct clamp-hit count (10 of 30)
-18e66fa  2026-10-13  P4/P5 gates: edit at traced layer succeeds 9/10; transfer, specificity, damage tables
-7824772  2026-10-13  P4 edit code: rank-1 ROME edit with weight re-layout to fit 8 GB
-6b734b6  2026-10-12  A4: fix P4 edit design before running edits
-11f99c5  2026-10-12  P3 gate: overlap vs permutation null on 66 facts; EN-ES above null, Hindi pairs not
-06f7df9  2026-10-12  verify weights are byte-identical to Meta's repo
-017a1a1  2026-10-12  P2 gate: tracing on 10 facts, H3 range not met; A3 defines P3 statistics before computation
-1f5dc24  2026-10-12  P1 v2: stricter first-token rule, 289 candidates, 67 facts kept; trace obj_ok flag
-d0c2951  2026-10-12  causal_trace: P2 trace code, superseded v1 run; amendment A2 competitor from corrupted run
-d92da34  2026-10-12  HYPOTHESIS amendment A1: clarify critical site, noise scale, collapse rule before tracing
-5fc8c8c  2026-10-12  pre-register hypotheses before tracing and overlap
-253e2f8  2026-10-12  NEXT: mark P1 done
-b20c089  2026-10-12  P1 gate met: 52 facts correct in EN, ES and HI on Llama-3.2-3B-Instruct
-fb2eda3  2026-10-12  P0 gate met on Llama-3.2-3B-Instruct: local loading, no_processing, logs
-0b3779f  2026-10-12  download tooling, log model source and provenance caveat
-4949f01  2026-10-12  log: HF access status, Gemma download started
-533b68f  2026-10-12  P0 gate: GPT-2 smoke test passes; re-freeze requirements
-8f300c8  2026-10-12  P1: candidate facts EN/ES/HI (154), unfiltered
-4f851cb  2026-10-12  P0: README, NEXT, LOG, smoke test script
-ba51372  2026-10-12  env: venv deps pinned, dir skeleton
-054fd84  2026-10-12  init: babel-effect skeleton
+fb7f10f  2026-11-01  docs: master record (goal, story, problems faced, user's words, paths, paper, pre-registrations, logs) as one PDF, with its build script
+3c065c4  2026-11-01  docs: paper Section 4.8 (Kaggle results), pre-registrations through the Gemma failure fix, goal file, manifest (2126 claims verified)
+3a86f6a  2026-11-01  data: Kaggle and laptop run outputs (Llama A28 run, first pass, Gemma dry runs, console notebooks, figures)
+1800532  2026-11-01  chore: self-contained Kaggle notebooks (Llama bundle-4c26396318b4, Gemma bundle-e186cf5d5e1b), model config packs, non-geography fact files
+53d0f55  2026-11-01  feat: Kaggle pipeline for Llama and Gemma-2, key-similarity and layer-map analyses; joint edit survives identical keys
+09ee9ad  2026-10-29  Kaggle runner: always replace code/tests/kaggle with the fetched commit (a second run in one session kept the first run's old files); test added
+b8d3fc9  2026-10-29  Tests: layout test builds its own checkout so the suite also passes in the inputs-only Kaggle layout (30 pass there)
+d8b1982  2026-10-29  Kaggle: script that writes git-ignored notebooks with the token pre-filled; private folder excluded from every bundle
+36fd0aa  2026-10-29  Kaggle notebooks: optional pasted Hugging Face token (HF_TOKEN_HERE), used before the secret
+c57e2c5  2026-10-29  Kaggle runner: try other spellings of the token secret label, no retry on a label that is not attached; tests 31
+d001b22  2026-10-29  Docs: Kaggle per-model layout, contribution (mechanism + fix), next steps
+c50276d  2026-10-29  Kaggle: one self-contained notebook per model (Llama-Instruct, Gemma-2); no output chaining
+3a83e80  2026-10-29  Kaggle: notebooks fetch the code from GitHub at start (no dataset to upload); WikiText fetched from Hugging Face; inputs-only layout shared with the optional zip; tests 30
+9c8f799  2026-10-29  Kaggle runner: fix package check (transformer_lens has no __version__), read HF_TOKEN first and export it to every job, stagger GPU starts; tests 29
+7e305fe  2026-10-29  Kaggle notebook: find the runner at any depth (or the unpacked zip), print what is attached if missing
+d7f3e75  2026-10-29  Kaggle from-scratch rerun: step-based runner, per-model bf16/fp16 check, inputs-only dataset, step-1 notebook (fact preparation); A25 amended; tests 26/26
+e0f725c  2026-10-29  Kaggle runner: one driver, both GPUs (sharded jobs), bf16/fp16 check, retries/resume, merge+analyses+packaging; A25 pre-registered; tests 21/21
+afc6f3a  2026-10-29  Kaggle notebook: install first, leave numpy/scipy/torch alone
+37c5f30  2026-10-29  Kaggle setup: notebook, run scripts, bundle builder, setup guide (bundle zip not committed)
+0a29dba  2026-10-29  CPU pass: A22 reconciliation, paper repairs, A23/A24 pre-registration and code, audit sheet, GOAL.md (1941 claims verified)
+f36b869  2026-10-29  A21 pre-registration + code: English-paraphrase control for edit transfer (--para, para_analysis.py, scripts_a21.sh)
+2d22cfb  2026-10-29  A20 pooled edit stats into manifest (1826 claims); paper: A19 base replication, A20 edits
+5ce4c7d  2026-10-29  A19 base-model replication and A20 edit results, manifest
+17ab48d  2026-10-29  Remove track.bat
+f2febc6  2026-10-29  track.bat: live hardware + progress tracker
+5e46641  2026-10-29  A20 pre-registration + driver: 20 more Llama edit facts, queued behind A19
+a944bf0  2026-10-29  A19 driver: remove rest between GPU steps
+83020de  2026-10-29  A19 driver: 10-min rest between GPU steps, 06:30 cutoff
+1edb013  2026-10-29  docs: add status, one-paragraph result and figure to README
+8d3b477  2026-10-28  Paper: fix leak-free change magnitude
+7a3155a  2026-10-28  Paper: add A18 span-wise Hindi interchange, abstract interchange sentences, scope
+781d4a2  2026-10-28  A18b clustering sensitivity (all SHARED); A19 pre-registration, llama_base model key, scripts_a19.sh
+9888d2e  2026-10-27  A18: EN<->HI span-wise interchange results, manifest 1565, checkpoint retry fix
+03e79bc  2026-10-26  A18 script: skip finished steps on resume
+704818a  2026-10-26  A18: pre-register EN->HI span-wise interchange; span flag + script
+ec7abfb  2026-10-26  Add Q1 roadmap
+e489914  2026-10-26  A17b: clustering sensitivity results; EN-ES robust, Hindi labels not; manifest 1469
+8731a6b  2026-10-26  A17b: pre-register clustering sensitivity of interchange verdicts
+948f81c  2026-10-26  A17: leakage-excluded re-analysis results (no verdict changes), manifest 1289
+95ac71b  2026-10-26  A17: pre-register answer-in-subject leakage re-analysis; add leakage.py and --exclude-leak flags
+cee698c  2026-10-26  A16 Hindi->English interchange: Llama PARTIAL 0.74, Gemma SHARED 0.76 (floor met); manifest 1209 verified; paper 4.7 + PDF
+70e3908  2026-10-26  Register A16 (EN-HI interchange, HI->EN, larger fact set) before any A16 data; code/script ready; A15 analysis regression: max diff 0
+2066586  2026-10-26  A15 Hindi interchange: underpowered (23/12 source entities < 25 floor; EN->HI gate failed); manifest 1153 verified; paper 4.7 + PDF
+4082b9a  2026-10-25  Paper v2: rebuild LaTeX/PDF with Gemma F7 and interchange tables; log
+3684885  2026-10-25  Register A15 (EN-HI interchange) before any Hindi E2 data; generalise interchange/e2_analysis to a language pair (A13 regression: max diff 0); e2h filter + script
+7d9f7f2  2026-10-25  Pilot data files (Llama-1B, BLOOM-1b7); Software Heritage snapshot id
+01642bc  2026-10-25  Gemma F7 edits (n=19-20), Llama-1B/BLOOM pilots below 50 facts; manifest 1077 claims; F7 random-layer clarification
+03c20d9  2026-10-25  README v2 headline, reproducibility log, Software Heritage save request
+250b13c  2026-10-25  reproduce.sh: quote PY (paths with spaces)
+a669a94  2026-10-25  reproduce.sh cpu mode + compare_results.py; CPU reproduction of A12a/A13a/A13b/E2/A14 matches saved results exactly
+d50aba2  2026-10-25  Related work: verify 23 arXiv refs, add Dumas/Zhang-Nanda/Heimersheim-Nanda, fix Llama3 first author; GPU night2 script
+0f49e61  2026-10-25  A14: overlap rerun with 10,000 permutations (CPU), manifest 1059 claims, paper section 6 note
+a0b9a43  2026-10-25  Diagnose Llama in-context English 0/10 (model corrects counterfactual); update paper 4.5 and log
+9b30704  2026-10-25  Paper: add section 4.7 (noise re-trace, covariates, interchange), notation and citations; update NEXT
+2c11131  2026-10-25  E2 interchange results (A13): P2 SHARED in Llama and Gemma; manifest 1011 claims
+b5376ef  2026-10-24  E2 analysis script
+8fcafdb  2026-10-24  Tracker for E2
+e808253  2026-10-24  E2 runner; Llama unit tests and pilot; Gemma selected templates
+37d434c  2026-10-24  A13c: per-model template selection for Gemma E2; interchange code
+5f9023d  2026-10-24  E2 filter script (EN+ES correctness with prefix templates)
+2d85d76  2026-10-24  A13b results; register A13 (cross-language subject interchange)
+5306ea6  2026-10-24  Register A13b (covariate model on independent-noise profiles)
+1a2c32c  2026-10-24  A13a results: alignment survives independent noise in both models; manifest
+4c18e7b  2026-10-24  Live tracker for the A13a night run
+9ae823a  2026-10-24  A13a analysis script and night runner
+0b01fdc  2026-10-24  A12/A12a results (CPU), manifest 719 claims, A13a pre-registration, independent-noise tracer
+d4d717f  2026-10-24  Register A12a (confound-adjusted overlap; NC profiles, prefix classes, fixed SESOI) before any A12/A12a number is computed
+9da82fd  2026-10-24  Add external review (2026-10-23) and A12a draft amendment
+f446fdd  2026-10-21  Pre-register A12 (confound-adjusted overlap on cached traces); add improvement prompt
+eae98dd  2026-10-21  Fix leftover overclaiming sentence in LaTeX build
+aa7bd96  2026-10-21  A11 controls on cached traces, section 4.6, softened claims, manifest 589 claims
+23f675b  2026-10-21  A11: controls for the EN-ES overlap (pre-registered before computing)
+317d12c  2026-10-21  Future-work file and reviewer prompt
+e74feb9  2026-10-21  LaTeX version of the paper (main.tex + PDF), build script, figure 2 legend fix
+7e70164  2026-10-20  Results for rewording (H8), non-copyable relations, in-context baseline, Llama follow-up edits
+5f8e662  2026-10-19  Section 4.4 (layer sweep), H7 verdict, queue2 restartable runner
+835c277  2026-10-19  Full overlap tables; manifest covers Gemma stratified (390 claims)
+0f6aed4  2026-10-19  paper v2 draft: related work and references merged
+840dd04  2026-10-19  select_templates: separate run dir when --relations is used
+caf3286  2026-10-19  Queue BLOOM-1b7 chain; update NEXT and LOG
+72c97db  2026-10-19  Pre-register A10 (BLOOM-1b7) and register the model
+bb66a18  2026-10-19  Manifest: add Hindi-diagnostic and layer-distribution claims (387)
+907e6dd  2026-10-19  Critical-layer distribution analysis and Figure 4
+2730724  2026-10-19  Add F7 layer rule, edit-script options, post-run chain
+1d8d404  2026-10-19  Add paper figures, unit tests, reproduce.sh check, sweep watchdog; log outages
+7f5ff5c  2026-10-15  Llama-3.2-1B weights verified
+ab11b81  2026-10-15  select_templates: skip relations absent from the candidate file
+6d1f44e  2026-10-15  F6 pilot chain queued (runs only if >= 50 facts)
+a62cda9  2026-10-15  paper_v2_draft (overlap, tracing, Hindi diagnostic) and h8_analysis
+01db420  2026-10-15  F3 code and queue; llama1b registered for the third-model pilot
+c9b8030  2026-10-15  F4 data and pipeline (non-copyable relations), queued after the sweep with F5 phrasing traces
+bdf4324  2026-10-15  F1 (A9) and F2 (Hindi tokenizer diagnostic) done
+184d1ef  2026-10-15  A9: stratified null as primary, non-copyable set, in-context baseline, H8 subset, third-model rule; NEXT.md to-do list
+6c44b11  2026-10-15  Manifest extended to v2 results (356 claims)
+d9f1935  2026-10-15  Cross-model comparison on shared facts (n=33)
+b35f0fb  2026-10-15  Layer-sweep runner; sweep debug runs (Llama, Gemma)
+4675f4c  2026-10-15  Gemma-2-2B v2 results (n=58): EN-ES overlap replicates, Hindi weak; logged
+6f4371f  2026-10-15  A8: extend Gemma candidate pool with 39 events
+085c396  2026-10-15  LOG: correct Gemma fast-path gap (max 0.079)
+5bb75ab  2026-10-15  Gemma-2-2B first v2 results (n=26, exploratory); per-model template selection support
+74c0fa5  2026-10-15  P3v2: Llama full-answer tracing and overlap (n=92), stratified-null sensitivity, results logged
+b729266  2026-10-15  eval_sweep: layer-sweep tables, conditions, H7 test
+d154dbd  2026-10-15  Related work with verified citations; knowledge_edit_v2 (layer sweep, full-answer scoring); overlap analysis generalised
+874239a  2026-10-15  Gemma-2-2B weights verified; causal_trace_v2 (untested) added
+a3a2b7e  2026-10-14  P1v2 gate: template selection, normalised matching, 93 facts kept on Llama; span check
+905d58b  2026-10-14  A7: template selection and matching normalisation for v2 filter
+0a360af  2026-10-14  Study v2 candidates: 408 facts, 5 relations, 3 phrasings per language; A6 matching rule
+ca95298  2026-10-14  A5: pre-register Study v2 (second model, new relations, 3 phrasings, full-answer scoring, layer sweep)
+11a7db2  2026-10-14  Model-agnostic code (--model llama|gemma2), Gemma soft-cap and post-norm handling, model research report
+8ff8b2c  2026-10-13  Stop full reproduction run; record status; keep partial run dirs
+ca475ae  2026-10-13  P6: paper draft, README run order and headline results
+a8e2c0c  2026-10-13  P6 tooling: manifest (240 claims), reproduce.sh, comparison script
+07716fa  2026-10-13  LOG: correct clamp-hit count (10 of 30)
+3476e97  2026-10-13  P4/P5 gates: edit at traced layer succeeds 9/10; transfer, specificity, damage tables
+cb75129  2026-10-13  P4 edit code: rank-1 ROME edit with weight re-layout to fit 8 GB
+3ffc9b8  2026-10-12  A4: fix P4 edit design before running edits
+823ce5a  2026-10-12  P3 gate: overlap vs permutation null on 66 facts; EN-ES above null, Hindi pairs not
+2a9f60f  2026-10-12  verify weights are byte-identical to Meta's repo
+1b5c4ed  2026-10-12  P2 gate: tracing on 10 facts, H3 range not met; A3 defines P3 statistics before computation
+21c3b5a  2026-10-12  P1 v2: stricter first-token rule, 289 candidates, 67 facts kept; trace obj_ok flag
+c13ed56  2026-10-12  causal_trace: P2 trace code, superseded v1 run; amendment A2 competitor from corrupted run
+045a17c  2026-10-12  HYPOTHESIS amendment A1: clarify critical site, noise scale, collapse rule before tracing
+451d8f8  2026-10-12  pre-register hypotheses before tracing and overlap
+95a3bc9  2026-10-12  NEXT: mark P1 done
+6540a84  2026-10-12  P1 gate met: 52 facts correct in EN, ES and HI on Llama-3.2-3B-Instruct
+739baf2  2026-10-12  P0 gate met on Llama-3.2-3B-Instruct: local loading, no_processing, logs
+9d33283  2026-10-12  download tooling, log model source and provenance caveat
+3b847af  2026-10-12  log: HF access status, Gemma download started
+518765c  2026-10-12  P0 gate: GPT-2 smoke test passes; re-freeze requirements
+52f1769  2026-10-12  P1: candidate facts EN/ES/HI (154), unfiltered
+1696e34  2026-10-12  P0: README, NEXT, LOG, smoke test script
+745c544  2026-10-12  env: venv deps pinned, dir skeleton
+38b3cc9  2026-10-12  init: babel-effect skeleton
 ```
 
 
@@ -1999,6 +2000,9 @@ ef in older references is fixed).
 #### 2026-11-01: commit and push; master record added
 - Pushed to GitHub (praann07/babel-effect, main) at the user's word, in four commits: code and tests, notebooks and data, run outputs, docs and paper (manifest 2126 claims verified before the commit; 69 tests pass, 1 skipped).
 - New go-to document: `paper/master_record.md` and `paper/The_Babel_Effect_MASTER_RECORD.pdf`, built by `paper/build_master.py` from hand-written chapters in `paper/master/` (goal and rules, story, problems faced, the user's words and the assistant's mistakes, results at a glance, open items, paths) plus the paper, `docs/*.md` and `GOAL.md` copied word for word, plus generated lists (repository layout, run folders, git history). Rebuild after any source change. Nothing in the Gemma Kaggle run (bundle-e186cf5d5e1b) has been read yet.
+
+#### 2026-11-01: git author fixed so GitHub credits the commits
+- All 133 commits were authored as `babel <babel@local>` (132) or the real GitHub identity (1), so the GitHub contribution graph showed nothing. At the user's word ("do the best") the author and committer of all 133 commits were rewritten to `Mamidala Som Praneeth Babu <187202597+praann07@users.noreply.github.com>` (GitHub no-reply address, real email not published) and `main` was force-pushed (`baa7a06` became `fb7f10f`; every hash changed, file contents and dates unchanged, tree hash identical). The old history is kept in the local branch `backup-before-author-fix`. GitHub now returns `praann07` as the author of the commits. The repo-local git identity is set to the same name and address, so new commits count.
 
 
 ## 10.3 Experiment log
