@@ -12,6 +12,8 @@ import datetime as dt
 import json
 import math
 import random
+import traceback
+from collections import Counter
 from pathlib import Path
 
 import torch
@@ -127,14 +129,26 @@ def optimise_delta_seq(model: HookedTransformer, ctxs: list, essence: tuple[torc
     return delta.detach(), first, last
 
 
+def distinct_columns(K: torch.Tensor, tol: float = 1e-4) -> list[int]:
+    """Indices of the columns of K that are not (up to a relative difference tol) a copy of an earlier kept column."""
+    keep: list[int] = []
+    for j in range(K.shape[1]):
+        if all(float((K[:, j] - K[:, i]).norm()) > tol * float(K[:, i].norm()) for i in keep):
+            keep.append(j)
+    return keep
+
+
 def joint_update(K: torch.Tensor, delta: torch.Tensor, C: torch.Tensor) -> torch.Tensor:
     """A24: weight change dW [d_mlp, d_model] with dW^T k_j = delta for every column k_j of K [d_mlp, m]: dW = U G^-1 D, U = C^-1 K, G = K^T U, D = delta repeated.
 
-    With one key this is the ROME update of ke.apply_edit. Pure tensor maths (any device)."""
+    With one key this is the ROME update of ke.apply_edit. Pure tensor maths (any device).
+    A30: columns that are copies of each other state the same constraint and make G singular (Gemma facts whose subject text and left context are the
+    same in two languages give identical keys), so only one of each copy is kept; the small solve is done in float64."""
+    K = K[:, distinct_columns(K)]
     Cr = C + 1e-3 * C.diagonal().mean() * torch.eye(C.shape[0], device=C.device, dtype=C.dtype)
     U = torch.linalg.solve(Cr, K)
-    G = K.T @ U
-    return U @ torch.linalg.solve(G, delta[None, :].expand(K.shape[1], -1))
+    G = (K.T @ U).double()
+    return U @ torch.linalg.solve(G, delta[None, :].expand(K.shape[1], -1).double()).to(U.dtype)
 
 
 def apply_edit_joint(model: HookedTransformer, layer: int, keys: list[torch.Tensor], delta: torch.Tensor, C: torch.Tensor) -> torch.Tensor:
@@ -156,6 +170,27 @@ def key_for_mode(mode: str, kk: dict[str, torch.Tensor]) -> tuple[str, list[torc
     return kind, [kk[l] for l in ls]
 
 
+def note_failure(failures: list[dict], fact: str, layer: int, mode: str) -> None:
+    """Keep the traceback of the exception being handled and print it (in full for the first failure of a key mode, one line for the rest)."""
+    failures.append({"fact": fact, "layer": layer, "mode": mode, "error": traceback.format_exc()})
+    first = sum(x["mode"] == mode for x in failures) == 1
+    print(f"MODE FAILED {fact} L{layer} {mode}: " + (failures[-1]["error"] if first else failures[-1]["error"].strip().splitlines()[-1]), flush=True)
+
+
+def apply_key_mode(model: HookedTransformer, layer: int, mode: str, kk: dict[str, torch.Tensor], delta: torch.Tensor, C: torch.Tensor,
+                   fact: str, failures: list[dict], required: bool = True) -> torch.Tensor | None:
+    """Write the edit for one key mode and return the original weight. A mode that is not required may fail: its traceback goes to `failures`, the
+    weight stays untouched and None is returned, so it cannot stop the other key modes of the run (A30). A required mode raises."""
+    try:
+        kind, keys = key_for_mode(mode, kk)
+        return apply_edit_joint(model, layer, keys, delta, C) if kind == "joint" else ke.apply_edit(model, layer, sum(keys) / len(keys), delta, C)
+    except Exception:
+        if required:
+            raise
+        note_failure(failures, fact, layer, mode)
+        return None
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default="llama", choices=list(MODELS))
@@ -168,7 +203,7 @@ def main() -> None:
     ap.add_argument("--para", action="store_true", help="A21: also score the new answer under the other phrasings (prompts[1:]) of the same fact in every language")
     ap.add_argument("--key-modes", default="en", help="A24: comma list of en, mean_enes, mean_all, joint_enes, joint_all; the key(s) the rank-1/rank-m update is written at (default en = the earlier runs)")
     ap.add_argument("--resume", default=None, help="existing run dir to continue (crash recovery only)")
-    ap.add_argument("--shard", default="0/1", help="i/n: edit only every n-th fact starting at i (Kaggle: one shard per GPU; kaggle/merge_shards.py joins them). 0/1 = all facts")
+    ap.add_argument("--shard", default="0/1", help="i/n: edit only every n-th fact starting at i (Kaggle: one shard per GPU; code/layer_map.py reads the shards together). 0/1 = all facts")
     a = ap.parse_args()
     ke.MODEL_KEY = a.model
     spec = MODELS[a.model]
@@ -202,6 +237,8 @@ def main() -> None:
                                                                  "n_valid": len(valid), "dtype": str(DTYPE), "steps": STEPS, "lr": LR, "kl": KL_FACTOR,
                                                                  "wd": WD, "clamp": CLAMP, "prefixes": PREFIXES}, indent=1))
     rng_all = {f["id"]: random.Random(f["seed"]) for f in edit_facts}
+    modes = a.key_modes.split(",")
+    failures: list[dict] = []
     for f in edit_facts:
         rng = rng_all[f["id"]]
         pool = [g for g in valid if g["relation"] == f["relation"] and g["lang"]["en"]["target"].lower() != f["lang"]["en"]["target"].lower()]
@@ -215,7 +252,6 @@ def main() -> None:
         before_p = {(lg, j): seq_logprob(model, f["lang"][lg]["prompts"][j], new["lang"][lg]["target"])
                     for lg in LANGS for j in range(1, len(f["lang"][lg]["prompts"]))} if a.para else {}
         f_layers = sorted(set(layers) | ({recs[(f["id"], "en")]["crit_mlp_layer"], n_layers // 2} if a.add_traced else set()))
-        modes = a.key_modes.split(",")
         lang_ctxs = {lg: contexts(model, f["lang"][lg]["prompts"][0], f["lang"][lg]["subject"], new["lang"][lg]["target"]) for lg in LANGS} if modes != ["en"] else {}
         for layer in f_layers:
             if all((f["id"], layer, m) in done for m in modes):
@@ -227,8 +263,11 @@ def main() -> None:
             for mode in modes:
                 if (f["id"], layer, mode) in done:
                     continue
-                kind, keys = key_for_mode(mode, kk)
-                orig = apply_edit_joint(model, layer, keys, delta, C) if kind == "joint" else ke.apply_edit(model, layer, sum(keys) / len(keys), delta, C)
+                required = mode == modes[0]  # the first listed key mode must work; the others may fail without stopping the run (A30)
+                orig = apply_key_mode(model, layer, mode, kk, delta, C, f["id"], failures, required)
+                if orig is None:
+                    continue
+                failed = False
                 try:
                     row = {"fact": f["id"], "relation": f["relation"], "new_fact": new["id"], "layer": layer,
                            "is_traced": layer == recs[(f["id"], "en")]["crit_mlp_layer"], "delta_norm_ratio": float(delta.norm() / v0.norm()),
@@ -252,14 +291,25 @@ def main() -> None:
                               for g in controls]
                     row["specificity_max_abs_dP"] = max(spec_d)
                     row["ppl_ratio"] = ke.perplexity(model, sents) / ppl0
+                except Exception:
+                    if required:
+                        raise
+                    note_failure(failures, f["id"], layer, mode)
+                    failed = True
                 finally:
                     model.blocks[layer].mlp.W_out.data = orig
+                if failed:
+                    continue
                 with open(out / "records.jsonl", "a", encoding="utf8") as fh:
                     fh.write(json.dumps(row, ensure_ascii=False) + "\n")
                 print(f"{f['id']} L{layer} {mode}: EN dP={row['en']['dP']:.3f} ok={row['en']['success']} ES dP={row['es']['dP']:.3f} "
                       f"HI dP={row['hi']['dP']:.3f} spec={row['specificity_max_abs_dP']:.3f} ppl x{row['ppl_ratio']:.3f}", flush=True)
                 torch.cuda.empty_cache()
     print("peak VRAM GiB", round(torch.cuda.max_memory_allocated() / 2**30, 2))
+    if failures:  # only key modes after the first can be here; the driver prints this line next to DONE
+        (out / "mode_failures.json").write_text(json.dumps(failures, indent=1), encoding="utf8")
+        n_by = Counter(x["mode"] for x in failures)
+        print("WARNING: key modes that failed: " + ", ".join(f"{m} x{n}" for m, n in n_by.items()) + "; first error: " + failures[0]["error"].strip().splitlines()[-1], flush=True)
 
 
 if __name__ == "__main__":

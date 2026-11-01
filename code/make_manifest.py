@@ -303,6 +303,52 @@ def claims() -> list[dict]:
             if tag.endswith("_all"):
                 for st in ("z", "p_one_sided"):
                     c.append((f"pk_{tag}_strat_{pr}_{st}", art, ["sets", "primary_valid_stratified_by_relation", "pairs", pr, "mlp_cosine", st]))
+    KS, PA = "analysis/run_20261031_key_similarity_A28/results.json", "analysis/run_20261031_para_analysis_A28/results.json"
+    KM, LM = "analysis/run_20261031_keymode_analysis_A28/results.json", "analysis/run_20261031_layer_map_A28/results.json"
+    for cell in ("es_traced", "es_mid", "hi_traced", "hi_mid"):  # A28: key similarity vs held-out transfer (Kaggle, Llama)
+        i = f"a28_ks_{cell}"
+        c += [(i + "_n", KS, ["cells", cell, "n"]), (i + "_key_cos", KS, ["cells", cell, "key_cos_median"]), (i + "_rho", KS, ["cells", cell, "rho"]),
+              (i + "_lo", KS, ["cells", cell, "rho_ci95", 0]), (i + "_hi", KS, ["cells", cell, "rho_ci95", 1]), (i + "_p_holm", KS, ["cells", cell, "p_holm"]),
+              (i + "_supported", KS, ["cells", cell, "supported"]), (i + "_partial", KS, ["cells", cell, "partial_rho"]),
+              (i + "_partial_lo", KS, ["cells", cell, "partial_ci95", 0]), (i + "_partial_hi", KS, ["cells", cell, "partial_ci95", 1])]
+        if cell.endswith("traced"):
+            c += [(i + "_layer_partial", KS, ["cells", cell, "extra_partial_rho_with_layer"]), (i + "_layer_partial_lo", KS, ["cells", cell, "extra_partial_with_layer_ci95", 0]),
+                  (i + "_layer_partial_hi", KS, ["cells", cell, "extra_partial_with_layer_ci95", 1])]
+    c += [(f"a28_ks_traced_layer_count_{ly}", KS, ["cells", "es_traced", "extra_layers", ly]) for ly in ("0", "1", "2", "3", "4", "5", "6", "16")]  # traced layers of the usable facts
+    K1 = "analysis/run_20261030_key_similarity_A26_firstpass/results.json"  # first pass on the earlier Kaggle run (28 facts), superseded by A28
+    for cell in ("es_traced", "hi_traced"):
+        c += [(f"a26_ks_{cell}_n", K1, ["cells", cell, "n"]), (f"a26_ks_{cell}_rho", K1, ["cells", cell, "rho"])]
+    c.append(("a28_para_n_facts", PA, ["n_facts"]))
+    for cd in ("traced", "mid"):  # A28: English-rewording control (A21 rule)
+        c.append((f"a28_para_{cd}_n", PA, [cd, "n"]))
+        for k in ("en_para", "es_main", "hi_main", "es_para", "hi_para"):
+            c.append((f"a28_para_{cd}_{k}", PA, [cd, k, "median"]))
+        for k in ("en_para_minus_es_main", "en_para_minus_hi_main"):
+            c += [(f"a28_para_{cd}_{k}", PA, [cd, k, "median"]), (f"a28_para_{cd}_{k}_lo", PA, [cd, k, "ci95", 0]), (f"a28_para_{cd}_{k}_hi", PA, [cd, k, "ci95", 1])]
+    c += [("a28_km_key_cos_es", KM, ["joint_all", "key_cos_es_median"]), ("a28_km_key_cos_hi", KM, ["joint_all", "key_cos_hi_median"])]
+    for mode in ("joint_all", "mean_all"):  # A28: shared-key edit, paired held-out gain over the English-key edit (A24 rule)
+        for cd in ("traced", "mid"):
+            b = [mode, cd]; i = f"a28_km_{mode}_{cd}"
+            c += [(i + "_n", KM, b + ["n_used"]), (i + "_en_success", KM, b + ["en_success"]), (i + "_base_en_success", KM, b + ["base_en_success"]),
+                  (i + "_spec", KM, b + ["spec_median"]), (i + "_spec_base", KM, b + ["spec_base_median"]), (i + "_ppl", KM, b + ["ppl_median"])]
+            for lg in ("es", "hi"):
+                c += [(f"{i}_{lg}_held_diff", KM, b + [f"{lg}_held_diff", "median"]), (f"{i}_{lg}_held_diff_lo", KM, b + [f"{lg}_held_diff", "ci95", 0]),
+                      (f"{i}_{lg}_held_diff_hi", KM, b + [f"{lg}_held_diff", "ci95", 1]), (f"{i}_{lg}_main_diff", KM, b + [f"{lg}_main_diff", "median"])]
+    c.append(("a28_lm_n_facts", LM, ["n_facts"]))
+    for ly in (2, 6, 10, 18, 22):  # A28: layer map
+        for lg in ("es", "hi"):
+            c += [(f"a28_lm_{ly}_{lg}_transfer", LM, ["layers", str(ly), lg, "transfer", "median"]), (f"a28_lm_{ly}_{lg}_rho", LM, ["layers", str(ly), lg, "rho"])]
+        c.append((f"a28_lm_{ly}_n", LM, ["layers", str(ly), "n"]))
+    for lg in ("es", "hi"):
+        c += [(f"a28_lm_pooled_{lg}", LM, ["pooled", lg, "mean_within_layer_rho"]), (f"a28_lm_pooled_{lg}_lo", LM, ["pooled", lg, "ci95", 0]),
+              (f"a28_lm_pooled_{lg}_hi", LM, ["pooled", lg, "ci95", 1]), (f"a28_lm_pooled_{lg}_p_holm", LM, ["pooled", lg, "p_holm"]),
+              (f"a28_lm_pooled_{lg}_supported", LM, ["pooled", lg, "supported"])]
+    R0 = "analysis/run_20261030_para_analysis_A21_firstpass/results.json"  # earlier Kaggle run: edits re-fitted vs the stored laptop edits (A21 sanity check)
+    c += [("a21k_repro_n", R0, ["reproduction", "n"]), ("a21k_repro_en_dP", R0, ["reproduction", "median_abs_diff_en_dP"]), ("a21k_repro_es_dP", R0, ["reproduction", "median_abs_diff_es_dP"])]
+    c.append(("a28_run_minutes", "analysis/kaggle_output_20261031/RUN_SUMMARY.json", ["minutes"]))
+    TK = "analysis/kaggle_output_20261031/tokenizer_compare.json"
+    c += [("a27_tok_strings", TK, ["strings"]), ("a27_tok_files", TK, ["files"]), ("a27_tok_differ_plain", TK, ["differ_without_special_tokens"]),
+          ("a27_tok_differ_special", TK, ["differ_with_special_tokens"])]
     return [{"id": i, "artifact": a, "key_path": k} for i, a, k in c]
 
 

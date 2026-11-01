@@ -112,12 +112,132 @@ class JointEditTests(unittest.TestCase):
         for j in range(3):
             self.assertTrue(self.torch.allclose(dW.T @ self.K[:, j], self.delta, atol=1e-8))
 
+    def test_a_copy_of_a_key_is_the_same_constraint_and_does_not_make_the_solve_fail(self):
+        """A30: Gemma facts whose subject text and left context match in two languages give identical keys."""
+        K = self.torch.cat([self.K[:, :1], self.K[:, :1].clone(), self.K[:, 1:]], 1)  # k0, k0, k1, k2
+        dW = self.joint_update(K, self.delta, self.C)
+        self.assertTrue(self.torch.allclose(dW, self.joint_update(self.K, self.delta, self.C), atol=1e-8))
+        for j in range(3):
+            self.assertTrue(self.torch.allclose(dW.T @ self.K[:, j], self.delta, atol=1e-8))
+
+    def test_a_nearly_identical_key_gives_a_finite_update_that_still_satisfies_both_constraints(self):
+        g = self.torch.Generator().manual_seed(1)
+        K = self.torch.cat([self.K, self.K[:, :1] * (1 + 1e-3) + 1e-3 * self.torch.randn(40, 1, generator=g, dtype=self.torch.float64)], 1)
+        dW = self.joint_update(K, self.delta, self.C)
+        self.assertTrue(self.torch.isfinite(dW).all())
+        for j in range(4):
+            self.assertTrue(self.torch.allclose(dW.T @ K[:, j], self.delta, atol=1e-5))
+
+    def test_float32_keys_with_an_exact_copy_give_a_float32_update(self):
+        K = self.torch.cat([self.K[:, :1], self.K[:, :1].clone(), self.K[:, 1:]], 1).float()
+        dW = self.joint_update(K, self.delta.float(), self.C.float())
+        self.assertEqual(dW.dtype, self.torch.float32)
+        self.assertTrue(self.torch.isfinite(dW).all())
+
     def test_one_key_equals_rome(self):
         k = self.K[:, :1]
         Cr = self.C + 1e-3 * self.C.diagonal().mean() * self.torch.eye(40, dtype=self.torch.float64)
         u = self.torch.linalg.solve(Cr, k[:, 0])
         rome = self.torch.outer(u, self.delta) / (u @ k[:, 0])
         self.assertTrue(self.torch.allclose(self.joint_update(k, self.delta, self.C), rome, atol=1e-10))
+
+
+class KeyModeFailureTests(unittest.TestCase):
+    """A30: a key mode after the first may fail without stopping the run; the first (required) mode raises."""
+
+    def setUp(self):
+        import torch
+        import knowledge_edit_v2 as kv
+        self.torch, self.kv = torch, kv
+        self.kk = {lg: torch.randn(8) for lg in ("en", "es", "hi")}
+        self.delta, self.C = torch.randn(4), torch.eye(8)
+        self._orig = kv.apply_edit_joint
+        kv.apply_edit_joint = lambda *a, **k: (_ for _ in ()).throw(RuntimeError("singular matrix"))
+
+    def tearDown(self):
+        self.kv.apply_edit_joint = self._orig
+
+    def test_optional_mode_failure_is_recorded_and_returns_none(self):
+        failures: list = []
+        out = self.kv.apply_key_mode(None, 13, "joint_all", self.kk, self.delta, self.C, "capital_of_001", failures, required=False)
+        self.assertIsNone(out)
+        self.assertEqual([(x["fact"], x["layer"], x["mode"]) for x in failures], [("capital_of_001", 13, "joint_all")])
+        self.assertIn("RuntimeError: singular matrix", failures[0]["error"])
+
+    def test_required_mode_failure_raises(self):
+        with self.assertRaises(RuntimeError):
+            self.kv.apply_key_mode(None, 13, "joint_all", self.kk, self.delta, self.C, "capital_of_001", [], required=True)
+
+
+class KeySimilarityTests(unittest.TestCase):
+    """A26 Test 1 statistics: rank correlation, the partial version, and the Holm adjustment."""
+
+    def setUp(self):
+        from key_similarity import holm, partial_spearman, perm_p_greater, spearman
+        self.holm, self.partial, self.perm, self.spearman = holm, partial_spearman, perm_p_greater, spearman
+        self.rng = np.random.default_rng(0)
+
+    def test_monotone_relation_is_rho_one_and_noise_is_not(self):
+        x = self.rng.normal(size=80)
+        self.assertAlmostEqual(self.spearman(x, np.exp(x)), 1.0)
+        self.assertLess(abs(self.spearman(x, self.rng.normal(size=80))), 0.4)
+
+    def test_partial_removes_a_shared_cause(self):
+        z = self.rng.normal(size=300)
+        x, y = z + 0.3 * self.rng.normal(size=300), z + 0.3 * self.rng.normal(size=300)
+        self.assertGreater(self.spearman(x, y), 0.8)
+        self.assertLess(abs(self.partial(x, y, [z])), 0.2)
+
+    def test_partial_keeps_a_direct_effect(self):
+        z = self.rng.normal(size=300)
+        x = self.rng.normal(size=300)
+        y = x + z + 0.3 * self.rng.normal(size=300)
+        self.assertGreater(self.partial(x, y, [z]), 0.7)
+
+    def test_permutation_p_is_one_sided(self):
+        x = self.rng.normal(size=60)
+        self.assertLess(self.perm(x, x + 0.5 * self.rng.normal(size=60), self.rng), 0.01)
+        self.assertGreater(self.perm(x, -x, self.rng), 0.99)
+
+    def test_holm_orders_and_caps(self):
+        np.testing.assert_allclose(self.holm([0.01, 0.04, 0.03, 0.5]), [0.04, 0.09, 0.09, 0.5])
+        np.testing.assert_allclose(self.holm([0.6, 0.9]), [1.0, 1.0])
+
+
+class LayerMapTests(unittest.TestCase):
+    """A28 layer map: records of the English key and the mean_all key are paired by (fact, layer); pooled rho follows the planted relation."""
+
+    def rows(self, planted: bool) -> list[dict]:
+        rng, out = np.random.default_rng(1), []
+        for layer in (2, 6):
+            for i in range(30):
+                x = float(rng.uniform(0.1, 0.9))
+                y = x if planted else float(rng.uniform(0, 1))
+                for mode, add in (("en", 0.0), ("mean_all", 0.1)):
+                    para = {f"{lg}{j}": {"dP": 0.9 * (y + add)} for lg in ("es", "hi") for j in (1, 2)}
+                    out.append({"fact": f"f{i}", "layer": layer, "key_mode": mode, "key_cos": {"es": x, "hi": x}, "en": {"dP": 0.9}, "para": para})
+        return out
+
+    def test_usable_pairs_modes_and_reports_gain(self):
+        from layer_map import usable
+        u = usable(self.rows(True))
+        self.assertEqual(sorted(u), [2, 6])
+        self.assertEqual(len(u[2]), 30)
+        self.assertAlmostEqual(u[2]["f0"]["gain"]["es"], 0.1)
+
+    def test_pooled_rho_is_high_for_a_planted_relation_and_not_for_noise(self):
+        from layer_map import pooled, usable
+        for planted, ok in ((True, lambda v: v > 0.95), (False, lambda v: abs(v) < 0.3)):
+            u = usable(self.rows(planted))
+            self.assertTrue(ok(pooled(u, "es", [f"f{i}" for i in range(30)])))
+
+    def test_low_energy_facts_are_dropped(self):
+        from layer_map import usable
+        rows = self.rows(True)
+        for r in rows:
+            if r["fact"] == "f0":
+                r["en"]["dP"] = 0.05
+        self.assertNotIn("f0", usable(rows)[2])
 
 
 if __name__ == "__main__":

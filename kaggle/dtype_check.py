@@ -29,6 +29,22 @@ PROMPTS = [
 ]
 
 
+def corrupted_finite(model, toks: torch.Tensor, device: str, mult: float = 3.0) -> bool:
+    """Are the logits finite when the first tokens after BOS get the tracing noise (3 x the embedding std, as in code/causal_trace_v2.py)?
+    A format that overflows only under corruption (Gemma-2 in fp16 may) would otherwise make the tracing job drop facts without a message."""
+    span = list(range(1, min(toks.shape[1], 4)))
+    gen = torch.Generator().manual_seed(0)
+    noise = (torch.randn(len(span), model.cfg.d_model, generator=gen) * mult * float(model.W_E.float().std())).to(device, model.cfg.dtype)
+
+    def corrupt(x, hook):
+        x = x.clone()
+        x[:, span] += noise
+        return x
+
+    with torch.no_grad():
+        return bool(torch.isfinite(model.run_with_hooks(toks, fwd_hooks=[("hook_embed", corrupt)])).all())
+
+
 def check(model, token_lists: list[torch.Tensor], device: str, passes: int = 3) -> dict:
     layer = model.cfg.n_layers // 2
     rows, grads = [], []
@@ -47,8 +63,9 @@ def check(model, token_lists: list[torch.Tensor], device: str, passes: int = 3) 
             (-lp[top]).backward()
             if rep == 0:
                 g = delta.grad.detach().double().cpu()
-                rows.append({"top1": top, "logp": float(lp[top].detach()),
-                             "finite": bool(torch.isfinite(logits).all()) and bool(torch.isfinite(g).all())})
+                clean = bool(torch.isfinite(logits).all()) and bool(torch.isfinite(g).all())
+                noisy = corrupted_finite(model, toks, device)
+                rows.append({"top1": top, "logp": float(lp[top].detach()), "finite_corrupted": noisy, "finite": clean and noisy})
                 grads.append([round(float(v), 9) for v in g])
     sync()
     return {"layer": layer, "seconds_3_passes": round((time.time() - t0) * 3 / passes, 3), "rows": rows, "grads": grads}
