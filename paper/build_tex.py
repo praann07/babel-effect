@@ -26,13 +26,17 @@ FIGS = {  # section heading prefix -> [(file, width, caption)]
     "4.3": [("fig3_hindi.pdf", 0.95, "Canonical-phrasing accuracy by answer length in tokens, per language and model.")],
     "4.4": [("fig5_sweep_llama.png", 1.0, "Llama-3.2-3B edit sweep (10 facts, every layer): English success, transfer ratio, specificity and perplexity ratio by layer."),
             ("fig6_sweep_gemma2.png", 1.0, "Gemma-2-2B edit sweep, same layout as Figure~\\ref{fig:sw1}.")],
+    "4.8": [("fig7_key_similarity.png", 0.8, "Spearman rho between key cosine (English key against the Spanish or Hindi key) and held-out transfer of the English edit, at the fact's traced layer and at layer 14 (Llama-3.2-3B-Instruct, Kaggle run; points with 95\\% bootstrap CI over facts; squares: partial rho with the edit layer among the controls; dashed line: registered 0.30)."),
+            ("fig8_layer_map.png", 1.0, "Layer map (40 facts, five fixed edit layers): median held-out transfer (top, with 95\\% CI) and within-layer rho between key cosine and transfer (bottom), Spanish (left) and Hindi (right).")],
 }
 SIM = [(">=", "≥"), ("<=", "≤"), ("+/-", "±"), ("->", "→"), (" x pooled", " × pooled"),
        ("English-Spanish overlap is the only pair that survives the relation-stratified null and correction in both models.", "Table~\\ref{tab:main} gives the pre-registered overlap results and Figures~\\ref{fig:fig1} and~\\ref{fig:fig2} show the profiles and the overlap. English-Spanish overlap is the only pair that survives the relation-stratified null and correction in both models."),
        ("Figure 4, exploratory", "Figure~\\ref{fig:fig4}, exploratory"), ("(Figures 5 and 6)", "(Figures~\\ref{fig:sw1} and~\\ref{fig:sw2})"),
        ("for answers of 7 or more tokens (Llama", "for answers of 7 or more tokens (Figure~\\ref{fig:fig3}; Llama"),
        ("*Conditions (A5).* At the fact's", "*Conditions (A5).* Table~\\ref{tab:edit} lists the three conditions. At the fact's"),
-       ("On the 104 non-copyable facts the", "On the 104 non-copyable facts (Table~\\ref{tab:ext}) the")]
+       ("On the 104 non-copyable facts the", "On the 104 non-copyable facts (Table~\\ref{tab:ext}) the"),
+       ("(Table 5)", "(Table~\\ref{tab:wording})"), ("(Table 6, Figure 7)", "(Table~\\ref{tab:key}, Figure~\\ref{fig:fig7})"),
+       ("Table 7, Figure 8)", "Table~\\ref{tab:layers}, Figure~\\ref{fig:fig8})"), ("(Table 8)", "(Table~\\ref{tab:shared})")]
 
 
 def pandoc(text: str) -> str:
@@ -40,7 +44,7 @@ def pandoc(text: str) -> str:
         text = text.replace(a, b)
     text = re.sub(r"(?<=[\s(\[/])-(?=\d)", "−", text)  # minus sign before numbers
     r = subprocess.run(["pandoc", "-f", "markdown-smart+pipe_tables", "-t", "latex", "--wrap=none"], input=text, capture_output=True, text=True, encoding="utf8", check=True)
-    return r.stdout.replace("\\pandocbounded", "")
+    return r.stdout.replace("\\pandocbounded", "").replace("\\textasciitilde{}\\ref", "~\\ref")  # pandoc escapes the tie before \ref
 
 
 def esc(s: str) -> str:
@@ -95,6 +99,86 @@ def table_e2() -> str:
     return head + "\n".join(rows[:-1]) + cap
 
 
+A28 = {"para": "analysis/run_20261031_para_analysis_A28/results.json", "ks": "analysis/run_20261031_key_similarity_A28/results.json",
+       "lm": "analysis/run_20261031_layer_map_A28/results.json", "km": "analysis/run_20261031_keymode_analysis_A28/results.json"}
+
+
+def fm(x: float) -> str:
+    d = 2 if abs(x) >= 0.1 else (3 if abs(x) >= 0.001 else 4)
+    return f"{x:.{d}f}".replace("-", "$-$")
+
+
+def fr(x: float) -> str:  # rho, two decimals
+    return f"{x:.2f}".replace("-", "$-$")
+
+
+def fp(x: float) -> str:  # p value
+    return f"{x:.4f}" if x < 0.01 else f"{x:.2f}"
+
+
+def ci(m: float, c: list, d: int = 2) -> str:
+    f = lambda v: f"{v:.{d}f}".replace("-", "$-$")  # noqa: E731
+    return f"{f(m)} [{f(c[0])}, {f(c[1])}]"
+
+
+def tex_table(head: str, cols: str, rows: list[str], cap: str, lab: str) -> str:
+    return ("\\begin{table}[t]\\centering\\small\\begin{tabular}{" + cols + "}\\toprule\n" + head + " \\\\\\midrule\n" + "\n".join(rows) +
+            "\n\\bottomrule\\end{tabular}\\caption{" + cap + "}\\label{" + lab + "}\\end{table}\n")
+
+
+def table_wording() -> str:
+    j = rd(A28["para"])
+    rows = []
+    for lg, lab in (("es", "Spanish"), ("hi", "Hindi")):
+        for cd, cl in (("traced", "traced"), ("mid", "14")):
+            d = j[cd]
+            k = f"en_para_minus_{lg}_main"
+            rows.append(f"{lab} & {cl} & {d['n']} & {fm(d['en_para']['median'])} & {fm(d[lg + '_main']['median'])} & {ci(d[k]['median'], d[k]['ci95'])} \\\\")
+    return tex_table("language & edit layer & $n$ & English reworded & language, main prompt & $D$ [95\\% CI]", "llrccc", rows,
+                     "English-rewording control (Llama-3.2-3B-Instruct, Kaggle run). Medians of transfer ($\\Delta P$ in the language divided by $\\Delta P$ in English); "
+                     "$D$ = transfer to unseen English wording minus transfer to the language; $D$ above 0.15 (CI) is a loss beyond wording.", "tab:wording")
+
+
+def table_key() -> str:
+    j = rd(A28["ks"])["cells"]
+    rows = []
+    for lg, lab in (("es", "Spanish"), ("hi", "Hindi")):
+        for cd, cl in (("traced", "traced"), ("mid", "14")):
+            c = j[f"{lg}_{cd}"]
+            part = ci(c["extra_partial_rho_with_layer"], c["extra_partial_with_layer_ci95"]) if "extra_partial_rho_with_layer" in c else "--"
+            rows.append(f"{lab} & {cl} & {c['n']} & {fm(c['key_cos_median'])} & {ci(c['rho'], c['rho_ci95'])} & {fp(c['p_holm'])} & {part} \\\\")
+    return tex_table("language & edit layer & $n$ & median key cosine & $\\rho$ [95\\% CI] & Holm $p$ & partial $\\rho$, edit layer controlled", "llrcccc", rows,
+                     "Key similarity against held-out transfer of the English edit (Spearman $\\rho$ over facts; registered rule: $\\rho \\geq 0.30$ with a CI above 0; the partial value also controls for English edit strength, "
+                     "subject token count and subject-piece overlap).", "tab:key")
+
+
+def table_layers() -> str:
+    j = rd(A28["lm"])
+    rows = []
+    for ly in ("2", "6", "10", "18", "22"):
+        L = j["layers"][ly]
+        rows.append(f"{ly} & {L['n']} & {fm(L['es']['transfer']['median'])} & {fr(L['es']['rho'])} & {fm(L['hi']['transfer']['median'])} & {fr(L['hi']['rho'])} \\\\")
+    P = j["pooled"]
+    rows.append(f"\\addlinespace pooled & {j['n_facts']} facts & & {ci(P['es']['mean_within_layer_rho'], P['es']['ci95'])} & & {ci(P['hi']['mean_within_layer_rho'], P['hi']['ci95'])} \\\\")
+    return tex_table("edit layer & $n$ & Spanish: median transfer & Spanish: $\\rho$ & Hindi: median transfer & Hindi: $\\rho$", "lrcccc", rows,
+                     "Layer map: median held-out transfer and within-layer Spearman $\\rho$ between key cosine and transfer at five fixed edit layers (first 40 valid facts); "
+                     "the pooled row is the mean of the five per-layer $\\rho$ with a bootstrap CI.", "tab:layers")
+
+
+def table_shared() -> str:
+    j = rd(A28["km"])
+    rows = []
+    for mode, ml in (("mean_all", "mean key (rank 1)"), ("joint_all", "joint keys (rank 3)")):
+        for cd, cl in (("traced", "traced"), ("mid", "14")):
+            d = j[mode][cd]
+            for lg, lab in (("es", "Spanish"), ("hi", "Hindi")):
+                rows.append(f"{ml} & {cl} & {lab} & {d['n_used']} & {fm(d[lg + '_held_base']['median'])} & {ci(d[lg + '_held_diff']['median'], d[lg + '_held_diff']['ci95'], 3)} \\\\")
+        rows.append("\\addlinespace")
+    return tex_table("mode & edit layer & language & $n$ & English-key median & paired gain [95\\% CI]", "lllrcc", rows[:-1],
+                     "Shared-key edit against the English-key edit: median held-out transfer of the English-key edit and the paired median gain of the shared-key edit "
+                     "(registered improvement: gain $\\geq 0.15$ with a CI above 0; met in none of the eight cells).", "tab:shared")
+
+
 def figs(prefix: str) -> str:
     out = []
     for k, (f, w, cap) in enumerate(FIGS.get(prefix, [])):
@@ -144,6 +228,8 @@ def main() -> None:
             tex.append(figs("4.4") + table_edit())
         elif num == "4.7":
             tex.append(table_e2())
+        elif num == "4.8":
+            tex.append(table_wording() + table_key() + table_layers() + table_shared() + figs("4.8"))
         elif num in FIGS:
             tex.append(figs(num))
     doc = r"""\documentclass[11pt]{article}

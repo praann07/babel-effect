@@ -9,5 +9,11 @@
  ],
  "fig3_hindi": [
   "analysis/run_20261015_hindi_diag/results.json"
+ ],
+ "fig7_key_similarity": [
+  "analysis/run_20261031_key_similarity_A28/results.json"
+ ],
+ "fig8_layer_map": [
+  "analysis/run_20261031_layer_map_A28/results.json"
  ]
 }

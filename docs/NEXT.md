@@ -1,4 +1,36 @@
-# NEXT (to-do list, updated 2026-10-29)
+# NEXT (to-do list, updated 2026-10-30)
+
+## 2026-10-31 (latest): A28 run read, next steps
+- [x] Llama-3.2-3B-Instruct notebook run finished and read (verdicts in docs/HYPOTHESIS.md, A28). Key similarity predicts which facts carry over: Spanish in both tests, Hindi only in the layer-controlled test (narrow). Shared-key fix: no gain. Wording loss in all cells.
+- [ ] User rule 2026-10-31: use the models published papers used (order: Gemma-2-2B, Llama-3.2-3B base, BLOOM-560M (XME, has Hindi), mGPT-1.3B (MEMLA), BLOOM-1b7, Qwen2.5-3B, then 7-8B after a T4 test) plus baselines and a benchmark slice on the same facts; Kaggle weekly GPU quota (about 30 h, unconfirmed) limits this to about 4 notebooks a week.
+- [ ] **Run next:** `kaggle/babel_gemma2.ipynb` (Gemma-2-2B, registered as A29 in docs/HYPOTHESIS.md, built and CPU-checked 2026-10-31; see the last block of docs/LOG.md). Only input: Kaggle Model Gemma 2, Transformers, gemma-2-2b (base). NOT the dataset leimeng46/gemma-2-2b (it is the 18-layer first Gemma, refused by the notebook). Expected 3 to 5 h on 2x T4 if fp16 is accepted. Untested on a T4. After the Output: read the A29 verdicts, then Llama-3.2-3B base (same pattern, needs its own entry in kaggle/steps.py MODEL, common.py, a config pack and a fingerprint).
+- [ ] Replicate on a second model: Gemma-2-2B first (built), then Llama-3.2-3B base. The key-similarity claim needs at least one more model before it is a headline.
+- [ ] Rebuild the notebook for new models from the current source (layout fix included); run every job command in a clean unpacked payload first.
+- [x] Manifest (2126 claims) and paper Section 4.8 for the A28 numbers, figures 7-8 added (2026-10-31). Still open: full read of the five closest papers before the novelty wording is firmed up; the same section for Gemma-2-2B after the A29 Output.
+- [ ] Still open: Hindi and Spanish checker for the audit sheet; OSF/Zenodo timestamp; revoke the Hugging Face token and delete old Kaggle notebooks; more non-geography relations (register first); baselines and benchmark slice (A26 Tests 2 and 3).
+- Commit and push only when the user says so.
+
+## 2026-10-30 (latest): run path and models (master file: GOAL.md)
+- [ ] **Run now:** `kaggle/babel_llama.ipynb`, code id bundle-f8371a452538 (Llama-3.2-3B-Instruct; the run in progress is bundle-21a9baef1028). Only input: Kaggle Model Meta Llama 3.2, Transformers, 3b-instruct; no dataset; do not attach the old Output. About 6 h on 2x T4. Send back the Output.
+- [ ] After the Output arrives: run the Spanish non-geography analysis twice (plain and leak-free) on the Output's e2a23_A run with the current code; the two Kaggle jobs failed because the laptop tracing run was not packed (fixed in kaggle/layout.py, notebook not rebuilt; rebuild before the Gemma and Llama-base notebooks).
+- [ ] Read the A28 verdicts from the Output (key similarity beyond the edit layer, layer map, shared-key and wording rules at about 3x the facts).
+- [ ] Next notebooks, in order: Gemma-2-2B, Llama-3.2-3B base (both need their Kaggle Model paths), Qwen2.5-3B, BLOOM-1b7 (needs a larger fact pool), then one 7-8B model after a T4 test. Register each model in docs/HYPOTHESIS.md before its run.
+- [ ] Still open: Hindi and Spanish checker for `data/audit/native_speaker_audit.csv`; OSF/Zenodo timestamp; revoke the Hugging Face token and delete the old Kaggle notebooks; more non-geography relations (register first); benchmark slice and baselines (A26 Tests 2 and 3).
+- Commit and push only when the user says so.
+
+## 2026-10-30 (later): Kaggle only, make the new results the best
+- [x] Key-similarity test run on the Kaggle data: traced layer rho 0.55 (Spanish) and 0.52 (Hindi), layer 14 none; weakens when the edit layer is controlled (Hindi 0.06). Registered A28 to settle it. New notebook `kaggle/babel_llama.ipynb` (code id bundle-6d5af7908026): traces on Kaggle, about 85 facts, layer map, key similarity, all in one run (about 6 h on 2x T4).
+- [ ] User runs the notebook and sends back the Output; then read the A28 verdicts (key similarity beyond the edit layer, layer map, shared-key and wording rules on the larger runs).
+- [ ] If the within-layer relation holds: write the contribution as "key similarity predicts which facts transfer, at early layers"; if not: the diagnostic paper reports the layer map and the null shared-key result.
+- [ ] Then the next model notebooks (Gemma-2-2B, Llama base; need their Kaggle Model paths) with the same step; baselines (MEMIT-style, in-context on held-out wordings) and the benchmark slice stay registered in A26 Test 2 and 3.
+- Commit and push only when the user says so.
+
+## 2026-10-30: first Kaggle results (Llama-3.2-3B-Instruct, verdicts in docs/HYPOTHESIS.md)
+- [x] Paraphrase control, shared-key edit, non-geography facts, tokenizer comparison run on Kaggle (73.9 min, 2x T4, fp16). Shared-key edit: no improvement (Plan B stands). Non-geography facts: untestable (53 EN/ES and 13 EN/HI facts, two relations). Paraphrase control: cross-language loss beyond wording for Hindi and for Spanish at the traced layer; single-edit numbers do not reproduce the laptop's (median-level numbers do).
+- [ ] Decide with the user: next model notebook (Gemma-2-2B, then Llama base; same pattern, needs the Kaggle Model path), and what to do about the single-edit non-reproduction (rerun the laptop edits in fp16? report as a limitation?).
+- [ ] A23 needs more relations that Llama answers (currency and profession failed the English template filter); register before any new facts are run.
+- [ ] Key-similarity per-fact test (register first): the A24 records already hold key cosines per fact.
+- [ ] Hindi + Spanish checker, OSF/Zenodo timestamp (still open). Commit and push only when the user says so.
 
 ## 2026-10-29 (late): Kaggle rerun and the contribution
 Chosen contribution: mechanism + fix. Claim: the read-out is shared, but a rank-1 edit is keyed on a language-specific form of the subject; key similarity across languages predicts per-fact edit transfer; a key built from several languages closes the gap without training. Compare with ROME, MEMIT, in-context and one published multilingual editor (language-agnostic factual neurons 2406.16416 or MEMAT 2502.02173) on our controlled facts and a Bi-ZsRE/MzsRE slice. Plan B: diagnostic paper (likely Q2-Q3).
@@ -60,3 +92,8 @@ Legend: [x] done, [~] running, [ ] to do. GPU items wait for the layer sweep (sc
 
 ## Waiting on the user
 - Venue choice; optional Hindi-speaker spot check; keep the laptop plugged in while the GPU queue runs.
+
+## 2026-10-29 (night): laptop only; comparison with published work done
+- Kaggle dropped. Registered in docs/HYPOTHESIS.md as A26: key-similarity test, baselines (MEMIT-style, in-context, published editor), Bi-ZsRE English-Chinese slice on Qwen2.5-3B.
+- Next, in order: (1) go from the user, then the paraphrase control, shared-key edit and non-geography runs; (2) CPU: key-similarity analysis script; (3) write MEMIT-style editor, Bi-ZsRE loader and scorer, Qwen entry in code/common.py, with CPU tests; (4) read MEMAT (2502.02173) and the Fierro, Dumas, Ifergan papers in full; (5) native-speaker audit and OSF/Zenodo timestamp.
+- Finding from the reading: Bi-ZsRE has English and Chinese only, so Spanish and Hindi stay on our controlled facts. LU-LAFNs needs 30 paraphrases per question (the authors used a 72B API), which is a deviation under the $0 rule.
