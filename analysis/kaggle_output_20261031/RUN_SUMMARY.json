@@ -1,0 +1,39 @@
+{
+ "step": "babel_llama",
+ "minutes": 348.3,
+ "jobs": {
+  "babel_llama:smoke": "done",
+  "babel_llama:tokenizers": "done",
+  "babel_llama:trace": "done",
+  "babel_llama:edit_shared": "done",
+  "babel_llama:edit_base": "done",
+  "babel_llama:edit_layers0": "done",
+  "babel_llama:edit_layers1": "done",
+  "babel_llama:para_analysis": "done",
+  "babel_llama:keymode_analysis": "done",
+  "babel_llama:key_similarity": "done",
+  "babel_llama:layer_map": "done",
+  "babel_llama:graphs": "done",
+  "babel_llama:a23_filter_es": "done",
+  "babel_llama:a23_filter_hi": "done",
+  "babel_llama:a23_es_run": "done",
+  "babel_llama:a23_hi_run": "done",
+  "babel_llama:a23_an_es": "done",
+  "babel_llama:a23_an_es_lf": "done",
+  "babel_llama:a23_an_hi": "done",
+  "babel_llama:a23_an_hi_lf": "done"
+ },
+ "number_format": {
+  "llama": {
+   "dtype": "float16",
+   "reason": "fp16 1.80x faster, top-1 agreement 1.00, gradient cosine 1.000",
+   "stats": {
+    "top1_agreement": 1.0,
+    "median_grad_cosine": 0.9997,
+    "speedup_fp16": 1.8
+   }
+  }
+ },
+ "notes": [],
+ "code_version": "bundle-f8371a452538"
+}

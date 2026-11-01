@@ -1,0 +1,259 @@
+[18:36:11 +  0.0m] step babel_llama; time budget 10.5 h
+[18:36:11 +  0.0m] code: 748 files, code id bundle-f8371a452538
+[18:36:11 +  0.0m] Llama-3.2-3B-Instruct on Kaggle: tracing, edit transfer with wording control, shared-key edit, key similarity and layer map, non-geography facts
+[18:36:47 +  0.6m] pip install attempt 1: exit 0 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+gradio 6.26.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+[18:37:01 +  0.8m] packages: numpy 2.1.3 | scipy 1.16.3 | torch 2.11.0+cu128 | transformers 5.19.0 | transformer_lens 3.9.0
+[18:37:01 +  0.8m] GPUs: 0=Tesla T4 15GiB, 1=Tesla T4 15GiB
+[18:37:55 +  1.7m] model ready and verified: llama-3.2-3b-instruct (2 shards from /kaggle/input/models/metaresearch/llama-3.2/transformers/3b-instruct/1; every tensor and config/tokenizer file matches the laptop copy)
+[18:38:23 +  2.2m] unit tests: Ran 50 tests in 26.218s |  | OK
+[18:38:23 +  2.2m] number-format check for llama (bf16 and fp16 at once on two GPUs)
+[18:40:07 +  3.9m] number format for llama: float16 (fp16 1.80x faster, top-1 agreement 1.00, gradient cosine 1.000)
+[18:40:07 +  3.9m] START babel_llama:tokenizers on CPU
+[18:40:07 +  3.9m] START babel_llama:smoke on GPU 0
+[18:40:07 +  3.9m] PROGRESS jobs [--------------------] 0/20 | smoke=running, tokenizers=running | waiting: 18 | gpu0:0%/0.0GiB gpu1:0%/0.0GiB
+[18:40:07 +  3.9m]     tokenizers on CPU: 0min so far
+[18:40:07 +  3.9m]     smoke on GPU 0: 0min so far
+[18:40:27 +  4.3m] DONE babel_llama:tokenizers on CPU in 0.3 min
+[18:40:27 +  4.3m] progress saved (1 jobs finished)
+[18:40:52 +  4.7m] DONE babel_llama:smoke on GPU 0 in 0.8 min
+[18:40:52 +  4.7m] progress saved (2 jobs finished)
+[18:40:52 +  4.7m] START babel_llama:trace on GPU 0
+[18:41:37 +  5.4m] START babel_llama:a23_filter_es on GPU 1
+[18:42:07 +  5.9m] DONE babel_llama:a23_filter_es on GPU 1 in 0.5 min
+[18:42:07 +  5.9m] progress saved (3 jobs finished)
+[18:42:22 +  6.2m] START babel_llama:a23_filter_hi on GPU 1
+[18:43:07 +  6.9m] DONE babel_llama:a23_filter_hi on GPU 1 in 0.8 min
+[18:43:07 +  6.9m] progress saved (4 jobs finished)
+[18:43:07 +  6.9m] START babel_llama:a23_es_run on GPU 1
+[18:45:07 +  8.9m] PROGRESS jobs [####----------------] 4/20 | trace=running, a23_es_run=running | waiting: 14 | gpu0:100%/7.7GiB gpu1:100%/7.8GiB
+[18:45:07 +  8.9m]     trace on GPU 0: 4min so far
+[18:45:07 +  8.9m]     a23_es_run on GPU 1: 2min so far
+[18:50:08 + 13.9m] PROGRESS jobs [####----------------] 4/20 | trace=running, a23_es_run=running | waiting: 14 | gpu0:100%/7.7GiB gpu1:100%/7.8GiB
+[18:50:08 + 13.9m]     trace on GPU 0: 9min so far
+[18:50:08 + 13.9m]     a23_es_run on GPU 1: pairs [######--------------] 20/67, 7min so far, about 16min left
+[18:55:08 + 18.9m] PROGRESS jobs [####----------------] 4/20 | trace=running, a23_es_run=running | waiting: 14 | gpu0:100%/7.7GiB gpu1:99%/7.8GiB
+[18:55:08 + 18.9m]     trace on GPU 0: 14min so far
+[18:55:08 + 18.9m]     a23_es_run on GPU 1: pairs [############--------] 40/67, 12min so far, about 8min left
+[19:00:08 + 23.9m] PROGRESS jobs [####----------------] 4/20 | trace=running, a23_es_run=running | waiting: 14 | gpu0:100%/7.7GiB gpu1:100%/7.8GiB
+[19:00:08 + 23.9m]     trace on GPU 0: 19min so far
+[19:00:08 + 23.9m]     a23_es_run on GPU 1: pairs [###############-----] 50/67, 17min so far, about 6min left
+[19:02:23 + 26.2m] DONE babel_llama:a23_es_run on GPU 1 in 19.3 min
+[19:02:23 + 26.2m] progress saved (5 jobs finished)
+[19:02:23 + 26.2m] START babel_llama:a23_an_es on CPU
+[19:02:23 + 26.2m] START babel_llama:a23_an_es_lf on CPU
+[19:02:23 + 26.2m] START babel_llama:a23_hi_run on GPU 1
+[19:02:53 + 26.7m] DONE babel_llama:a23_an_es on CPU in 0.5 min
+[19:02:53 + 26.7m] progress saved (6 jobs finished)
+[19:02:53 + 26.7m] DONE babel_llama:a23_an_es_lf on CPU in 0.5 min
+[19:02:54 + 26.7m] progress saved (7 jobs finished)
+[19:05:09 + 29.0m] PROGRESS jobs [#######-------------] 7/20 | trace=running, a23_hi_run=running | waiting: 11 | gpu0:99%/7.7GiB gpu1:99%/7.7GiB
+[19:05:09 + 29.0m]     trace on GPU 0: 24min so far
+[19:05:09 + 29.0m]     a23_hi_run on GPU 1: pairs [####----------------] 10/52, 3min so far
+[19:10:09 + 34.0m] PROGRESS jobs [#######-------------] 7/20 | trace=running, a23_hi_run=running | waiting: 11 | gpu0:100%/7.7GiB gpu1:100%/7.7GiB
+[19:10:09 + 34.0m]     trace on GPU 0: 29min so far
+[19:10:09 + 34.0m]     a23_hi_run on GPU 1: pairs [###############-----] 40/52, 8min so far, about 2min left
+[19:12:14 + 36.0m] DONE babel_llama:a23_hi_run on GPU 1 in 9.8 min
+[19:12:14 + 36.1m] progress saved (8 jobs finished)
+[19:12:14 + 36.1m] START babel_llama:a23_an_hi on CPU
+[19:12:14 + 36.1m] START babel_llama:a23_an_hi_lf on CPU
+[19:12:34 + 36.4m] DONE babel_llama:a23_an_hi on CPU in 0.3 min
+[19:12:34 + 36.4m] progress saved (9 jobs finished)
+[19:12:34 + 36.4m] DONE babel_llama:a23_an_hi_lf on CPU in 0.3 min
+[19:12:34 + 36.4m] progress saved (10 jobs finished)
+[19:15:09 + 39.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:100%/7.7GiB gpu1:0%/0.0GiB
+[19:15:09 + 39.0m]     trace on GPU 0: 34min so far
+[19:20:09 + 44.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:100%/7.7GiB gpu1:0%/0.0GiB
+[19:20:09 + 44.0m]     trace on GPU 0: 39min so far
+[19:25:09 + 49.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:100%/7.7GiB gpu1:0%/0.0GiB
+[19:25:09 + 49.0m]     trace on GPU 0: 44min so far
+[19:30:10 + 54.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:99%/7.7GiB gpu1:0%/0.0GiB
+[19:30:10 + 54.0m]     trace on GPU 0: 49min so far
+[19:35:10 + 59.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:99%/7.7GiB gpu1:0%/0.0GiB
+[19:35:10 + 59.0m]     trace on GPU 0: 54min so far
+[19:40:10 + 64.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:100%/7.7GiB gpu1:0%/0.0GiB
+[19:40:10 + 64.0m]     trace on GPU 0: 59min so far
+[19:45:10 + 69.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:100%/7.7GiB gpu1:0%/0.0GiB
+[19:45:10 + 69.0m]     trace on GPU 0: 1h04 so far
+[19:50:10 + 74.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:100%/7.7GiB gpu1:0%/0.0GiB
+[19:50:10 + 74.0m]     trace on GPU 0: 1h09 so far
+[19:55:10 + 79.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:100%/7.7GiB gpu1:0%/0.0GiB
+[19:55:10 + 79.0m]     trace on GPU 0: 1h14 so far
+[20:00:11 + 84.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:99%/7.7GiB gpu1:0%/0.0GiB
+[20:00:11 + 84.0m]     trace on GPU 0: 1h19 so far
+[20:05:11 + 89.0m] PROGRESS jobs [##########----------] 10/20 | trace=running | waiting: 9 | gpu0:99%/7.7GiB gpu1:0%/0.0GiB
+[20:05:11 + 89.0m]     trace on GPU 0: 1h24 so far
+[20:09:51 + 93.7m] DONE babel_llama:trace on GPU 0 in 89.0 min
+[20:09:51 + 93.7m] progress saved (11 jobs finished)
+[20:09:51 + 93.7m] START babel_llama:edit_shared on GPU 0
+[20:10:11 + 94.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running | waiting: 8 | gpu0:0%/1.2GiB gpu1:0%/0.0GiB
+[20:10:11 + 94.0m]     edit_shared on GPU 0: facts [--------------------] 0/200, 0 edits written, 0min so far
+[20:10:36 + 94.4m] START babel_llama:edit_base on GPU 1
+[20:15:11 + 99.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:43%/7.0GiB gpu1:45%/7.6GiB
+[20:15:11 + 99.0m]     edit_shared on GPU 0: facts [--------------------] 2/200, 8 edits written, 5min so far
+[20:15:11 + 99.0m]     edit_base on GPU 1: facts [--------------------] 3/200, 5 edits written, 5min so far, about 5h01 left
+[20:20:11 +104.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:42%/7.0GiB gpu1:41%/7.5GiB
+[20:20:11 +104.0m]     edit_shared on GPU 0: facts [--------------------] 5/200, 18 edits written, 10min so far, about 6h43 left
+[20:20:11 +104.0m]     edit_base on GPU 1: facts [#-------------------] 6/200, 12 edits written, 10min so far, about 5h09 left
+[20:25:12 +109.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:0%/7.1GiB gpu1:43%/8.2GiB
+[20:25:12 +109.0m]     edit_shared on GPU 0: facts [#-------------------] 7/200, 28 edits written, 15min so far, about 7h03 left
+[20:25:12 +109.0m]     edit_base on GPU 1: facts [#-------------------] 10/200, 19 edits written, 15min so far, about 4h37 left
+[20:30:12 +114.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:0%/7.0GiB gpu1:65%/8.1GiB
+[20:30:12 +114.0m]     edit_shared on GPU 0: facts [#-------------------] 10/200, 39 edits written, 20min so far, about 6h26 left
+[20:30:12 +114.0m]     edit_base on GPU 1: facts [#-------------------] 13/200, 26 edits written, 20min so far, about 4h41 left
+[20:35:12 +119.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:64%/8.0GiB gpu1:43%/7.4GiB
+[20:35:12 +119.0m]     edit_shared on GPU 0: facts [#-------------------] 13/200, 49 edits written, 25min so far, about 6h04 left
+[20:35:12 +119.0m]     edit_base on GPU 1: facts [##------------------] 17/200, 34 edits written, 25min so far, about 4h24 left
+[20:40:12 +124.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:47%/7.0GiB gpu1:61%/7.3GiB
+[20:40:12 +124.0m]     edit_shared on GPU 0: facts [##------------------] 15/200, 60 edits written, 30min so far, about 6h14 left
+[20:40:12 +124.0m]     edit_base on GPU 1: facts [##------------------] 21/200, 42 edits written, 30min so far, about 4h12 left
+[20:45:12 +129.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:0%/7.0GiB gpu1:43%/7.4GiB
+[20:45:12 +129.0m]     edit_shared on GPU 0: facts [##------------------] 18/200, 71 edits written, 35min so far, about 5h57 left
+[20:45:12 +129.0m]     edit_base on GPU 1: facts [##------------------] 25/200, 49 edits written, 35min so far, about 4h02 left
+[20:50:12 +134.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:65%/8.0GiB gpu1:60%/8.1GiB
+[20:50:12 +134.0m]     edit_shared on GPU 0: facts [##------------------] 21/200, 81 edits written, 40min so far, about 5h43 left
+[20:50:12 +134.0m]     edit_base on GPU 1: facts [###-----------------] 28/200, 56 edits written, 40min so far, about 4h03 left
+[20:55:13 +139.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:46%/7.0GiB gpu1:44%/7.4GiB
+[20:55:13 +139.0m]     edit_shared on GPU 0: facts [##------------------] 23/200, 92 edits written, 45min so far, about 5h49 left
+[20:55:13 +139.0m]     edit_base on GPU 1: facts [###-----------------] 32/200, 64 edits written, 45min so far, about 3h54 left
+[21:00:13 +144.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:61%/8.1GiB gpu1:66%/8.1GiB
+[21:00:13 +144.0m]     edit_shared on GPU 0: facts [###-----------------] 26/200, 102 edits written, 50min so far, about 5h37 left
+[21:00:13 +144.0m]     edit_base on GPU 1: facts [####----------------] 36/200, 71 edits written, 50min so far, about 3h46 left
+[21:05:13 +149.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:61%/8.0GiB gpu1:43%/7.4GiB
+[21:05:13 +149.0m]     edit_shared on GPU 0: facts [###-----------------] 29/200, 113 edits written, 55min so far, about 5h26 left
+[21:05:13 +149.0m]     edit_base on GPU 1: facts [####----------------] 40/200, 79 edits written, 55min so far, about 3h38 left
+[21:10:13 +154.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:43%/7.0GiB gpu1:21%/7.4GiB
+[21:10:13 +154.0m]     edit_shared on GPU 0: facts [###-----------------] 31/200, 124 edits written, 1h00 so far, about 5h29 left
+[21:10:13 +154.0m]     edit_base on GPU 1: facts [####----------------] 43/200, 86 edits written, 60min so far, about 3h37 left
+[21:15:13 +159.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:47%/8.1GiB gpu1:46%/7.4GiB
+[21:15:13 +159.0m]     edit_shared on GPU 0: facts [###-----------------] 34/200, 134 edits written, 1h05 so far, about 5h19 left
+[21:15:13 +159.0m]     edit_base on GPU 1: facts [#####---------------] 47/200, 94 edits written, 1h04 so far, about 3h30 left
+[21:20:13 +164.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:55%/8.0GiB gpu1:68%/8.1GiB
+[21:20:13 +164.0m]     edit_shared on GPU 0: facts [####----------------] 37/200, 145 edits written, 1h10 so far, about 5h10 left
+[21:20:13 +164.0m]     edit_base on GPU 1: facts [#####---------------] 51/200, 101 edits written, 1h09 so far, about 3h23 left
+[21:25:14 +169.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:45%/7.0GiB gpu1:46%/7.4GiB
+[21:25:14 +169.0m]     edit_shared on GPU 0: facts [####----------------] 39/200, 156 edits written, 1h15 so far, about 5h11 left
+[21:25:14 +169.0m]     edit_base on GPU 1: facts [######--------------] 55/200, 109 edits written, 1h14 so far, about 3h16 left
+[21:30:14 +174.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:65%/8.1GiB gpu1:72%/8.1GiB
+[21:30:14 +174.0m]     edit_shared on GPU 0: facts [####----------------] 42/200, 166 edits written, 1h20 so far, about 5h02 left
+[21:30:14 +174.0m]     edit_base on GPU 1: facts [######--------------] 58/200, 116 edits written, 1h19 so far, about 3h14 left
+[21:35:14 +179.0m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:42%/8.0GiB gpu1:41%/7.4GiB
+[21:35:14 +179.0m]     edit_shared on GPU 0: facts [####----------------] 45/200, 177 edits written, 1h25 so far, about 4h54 left
+[21:35:14 +179.0m]     edit_base on GPU 1: facts [######--------------] 62/200, 124 edits written, 1h24 so far, about 3h08 left
+[21:40:14 +184.1m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:47%/7.0GiB gpu1:45%/7.4GiB
+[21:40:14 +184.1m]     edit_shared on GPU 0: facts [#####---------------] 47/200, 188 edits written, 1h30 so far, about 4h54 left
+[21:40:14 +184.1m]     edit_base on GPU 1: facts [#######-------------] 66/200, 132 edits written, 1h29 so far, about 3h01 left
+[21:45:14 +189.1m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:48%/7.0GiB gpu1:45%/8.1GiB
+[21:45:15 +189.1m]     edit_shared on GPU 0: facts [#####---------------] 50/200, 198 edits written, 1h35 so far, about 4h46 left
+[21:45:15 +189.1m]     edit_base on GPU 1: facts [#######-------------] 70/200, 139 edits written, 1h34 so far, about 2h55 left
+[21:50:15 +194.1m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:67%/8.1GiB gpu1:46%/7.3GiB
+[21:50:15 +194.1m]     edit_shared on GPU 0: facts [#####---------------] 52/200, 208 edits written, 1h40 so far, about 4h45 left
+[21:50:15 +194.1m]     edit_base on GPU 1: facts [#######-------------] 74/200, 147 edits written, 1h39 so far, about 2h49 left
+[21:55:15 +199.1m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:71%/8.0GiB gpu1:71%/8.1GiB
+[21:55:15 +199.1m]     edit_shared on GPU 0: facts [######--------------] 55/200, 219 edits written, 1h45 so far, about 4h37 left
+[21:55:15 +199.1m]     edit_base on GPU 1: facts [########------------] 77/200, 154 edits written, 1h44 so far, about 2h47 left
+[22:00:15 +204.1m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:48%/7.0GiB gpu1:42%/7.3GiB
+[22:00:15 +204.1m]     edit_shared on GPU 0: facts [######--------------] 58/200, 230 edits written, 1h50 so far, about 4h30 left
+[22:00:15 +204.1m]     edit_base on GPU 1: facts [########------------] 81/200, 162 edits written, 1h49 so far, about 2h41 left
+[22:05:15 +209.1m] PROGRESS jobs [###########---------] 11/20 | edit_shared=running, edit_base=running | waiting: 7 | gpu0:64%/8.1GiB gpu1:40%/7.3GiB
+[22:05:15 +209.1m]     edit_shared on GPU 0: facts [######--------------] 60/200, 240 edits written, 1h55 so far, about 4h29 left
+[22:05:15 +209.1m]     edit_base on GPU 1: facts [########------------] 85/200, 170 edits written, 1h54 so far, about 2h35 left
+[22:06:35 +210.4m] DONE babel_llama:edit_base on GPU 1 in 116.0 min
+[22:06:35 +210.4m] progress saved (12 jobs finished)
+[22:06:35 +210.4m] START babel_llama:para_analysis on CPU
+[22:06:35 +210.4m] START babel_llama:edit_layers0 on GPU 1
+[22:06:45 +210.6m] DONE babel_llama:para_analysis on CPU in 0.2 min
+[22:06:46 +210.6m] progress saved (13 jobs finished)
+[22:10:16 +214.1m] PROGRESS jobs [#############-------] 13/20 | edit_shared=running, edit_layers0=running | waiting: 5 | gpu0:34%/8.0GiB gpu1:0%/7.6GiB
+[22:10:16 +214.1m]     edit_shared on GPU 0: facts [######--------------] 63/200, 251 edits written, 2h00 so far, about 4h21 left
+[22:10:16 +214.1m]     edit_layers0 on GPU 1: facts [--------------------] 1/40, 4 edits written, 4min so far
+[22:15:16 +219.1m] PROGRESS jobs [#############-------] 13/20 | edit_shared=running, edit_layers0=running | waiting: 5 | gpu0:67%/8.0GiB gpu1:45%/7.5GiB
+[22:15:16 +219.1m]     edit_shared on GPU 0: facts [#######-------------] 66/200, 261 edits written, 2h05 so far, about 4h14 left
+[22:15:16 +219.1m]     edit_layers0 on GPU 1: facts [#-------------------] 2/40, 14 edits written, 9min so far
+[22:20:16 +224.1m] PROGRESS jobs [#############-------] 13/20 | edit_shared=running, edit_layers0=running | waiting: 5 | gpu0:44%/7.0GiB gpu1:73%/8.2GiB
+[22:20:16 +224.1m]     edit_shared on GPU 0: facts [#######-------------] 68/200, 272 edits written, 2h10 so far, about 4h13 left
+[22:20:16 +224.1m]     edit_layers0 on GPU 1: facts [##------------------] 3/40, 24 edits written, 14min so far, about 2h48 left
+[22:25:17 +229.1m] PROGRESS jobs [#############-------] 13/20 | edit_shared=running, edit_layers0=running | waiting: 5 | gpu0:66%/8.1GiB gpu1:61%/8.2GiB
+[22:25:17 +229.1m]     edit_shared on GPU 0: facts [#######-------------] 71/200, 282 edits written, 2h15 so far, about 4h06 left
+[22:25:17 +229.1m]     edit_layers0 on GPU 1: facts [##------------------] 4/40, 35 edits written, 19min so far, about 2h48 left
+[22:30:17 +234.1m] PROGRESS jobs [#############-------] 13/20 | edit_shared=running, edit_layers0=running | waiting: 5 | gpu0:66%/8.0GiB gpu1:53%/7.5GiB
+[22:30:17 +234.1m]     edit_shared on GPU 0: facts [#######-------------] 74/200, 293 edits written, 2h20 so far, about 3h59 left
+[22:30:17 +234.1m]     edit_layers0 on GPU 1: facts [##------------------] 5/40, 46 edits written, 24min so far, about 2h45 left
+[22:35:17 +239.1m] PROGRESS jobs [#############-------] 13/20 | edit_shared=running, edit_layers0=running | waiting: 5 | gpu0:22%/7.0GiB gpu1:0%/7.5GiB
+[22:35:17 +239.1m]     edit_shared on GPU 0: facts [########------------] 76/200, 304 edits written, 2h25 so far, about 3h57 left
+[22:35:17 +239.1m]     edit_layers0 on GPU 1: facts [###-----------------] 6/40, 56 edits written, 29min so far, about 2h42 left
+[22:40:17 +244.1m] PROGRESS jobs [#############-------] 13/20 | edit_shared=running, edit_layers0=running | waiting: 5 | gpu0:46%/7.0GiB gpu1:66%/8.2GiB
+[22:40:17 +244.1m]     edit_shared on GPU 0: facts [########------------] 79/200, 314 edits written, 2h30 so far, about 3h50 left
+[22:40:17 +244.1m]     edit_layers0 on GPU 1: facts [####----------------] 7/40, 67 edits written, 34min so far, about 2h38 left
+[22:45:17 +249.1m] PROGRESS jobs [#############-------] 13/20 | edit_shared=running, edit_layers0=running | waiting: 5 | gpu0:58%/8.1GiB gpu1:50%/7.5GiB
+[22:45:17 +249.1m]     edit_shared on GPU 0: facts [########------------] 81/200, 324 edits written, 2h35 so far, about 3h48 left
+[22:45:17 +249.1m]     edit_layers0 on GPU 1: facts [####----------------] 8/40, 78 edits written, 39min so far, about 2h34 left
+[22:50:17 +254.1m] PROGRESS jobs [#############-------] 13/20 | edit_shared=running, edit_layers0=running | waiting: 5 | gpu0:50%/8.0GiB gpu1:57%/7.5GiB
+[22:50:17 +254.1m]     edit_shared on GPU 0: facts [########------------] 84/200, 335 edits written, 2h40 so far, about 3h41 left
+[22:50:17 +254.1m]     edit_layers0 on GPU 1: facts [####----------------] 9/40, 89 edits written, 44min so far, about 2h30 left
+[22:54:18 +258.1m] DONE babel_llama:edit_shared on GPU 0 in 164.4 min
+[22:54:18 +258.1m] progress saved (14 jobs finished)
+[22:54:18 +258.1m] START babel_llama:keymode_analysis on CPU
+[22:54:18 +258.1m] START babel_llama:key_similarity on CPU
+[22:54:18 +258.1m] START babel_llama:edit_layers1 on GPU 0
+[22:54:43 +258.5m] DONE babel_llama:keymode_analysis on CPU in 0.4 min
+[22:54:44 +258.6m] progress saved (15 jobs finished)
+[22:55:19 +259.1m] PROGRESS jobs [###############-----] 15/20 | edit_layers0=running, edit_layers1=running, key_similarity=running | waiting: 2 | gpu0:29%/3.1GiB gpu1:38%/8.2GiB
+[22:55:19 +259.1m]     edit_layers0 on GPU 1: facts [#####---------------] 10/40, 99 edits written, 49min so far, about 2h26 left
+[22:55:19 +259.1m]     key_similarity on CPU: 1min so far
+[22:55:19 +259.1m]     edit_layers1 on GPU 0: facts [--------------------] 0/40, 0 edits written, 1min so far
+[22:55:54 +259.7m] DONE babel_llama:key_similarity on CPU in 1.6 min
+[22:55:55 +259.7m] progress saved (16 jobs finished)
+[23:00:20 +264.1m] PROGRESS jobs [################----] 16/20 | edit_layers0=running, edit_layers1=running | waiting: 2 | gpu0:65%/8.2GiB gpu1:72%/8.2GiB
+[23:00:20 +264.1m]     edit_layers0 on GPU 1: facts [######--------------] 11/40, 109 edits written, 54min so far, about 2h21 left
+[23:00:20 +264.1m]     edit_layers1 on GPU 0: facts [--------------------] 1/40, 9 edits written, 6min so far
+[23:05:20 +269.1m] PROGRESS jobs [################----] 16/20 | edit_layers0=running, edit_layers1=running | waiting: 2 | gpu0:47%/7.5GiB gpu1:43%/7.5GiB
+[23:05:20 +269.1m]     edit_layers0 on GPU 1: facts [######--------------] 12/40, 120 edits written, 59min so far, about 2h17 left
+[23:05:20 +269.1m]     edit_layers1 on GPU 0: facts [#-------------------] 2/40, 20 edits written, 11min so far
+[23:10:20 +274.1m] PROGRESS jobs [################----] 16/20 | edit_layers0=running, edit_layers1=running | waiting: 2 | gpu0:0%/7.5GiB gpu1:44%/7.5GiB
+[23:10:20 +274.1m]     edit_layers0 on GPU 1: facts [######--------------] 13/40, 130 edits written, 1h03 so far, about 2h12 left
+[23:10:20 +274.1m]     edit_layers1 on GPU 0: facts [##------------------] 4/40, 31 edits written, 16min so far, about 2h24 left
+[23:15:20 +279.2m] PROGRESS jobs [################----] 16/20 | edit_layers0=running, edit_layers1=running | waiting: 2 | gpu0:47%/7.5GiB gpu1:69%/8.2GiB
+[23:15:20 +279.2m]     edit_layers0 on GPU 1: facts [#######-------------] 14/40, 140 edits written, 1h08 so far, about 2h07 left
+[23:15:20 +279.2m]     edit_layers1 on GPU 0: facts [##------------------] 5/40, 42 edits written, 21min so far, about 2h27 left
+[23:20:20 +284.2m] PROGRESS jobs [################----] 16/20 | edit_layers0=running, edit_layers1=running | waiting: 2 | gpu0:0%/7.5GiB gpu1:30%/8.2GiB
+[23:20:20 +284.2m]     edit_layers0 on GPU 1: facts [########------------] 16/40, 151 edits written, 1h13 so far, about 1h50 left
+[23:20:20 +284.2m]     edit_layers1 on GPU 0: facts [###-----------------] 6/40, 52 edits written, 26min so far, about 2h27 left
+[23:25:20 +289.2m] PROGRESS jobs [################----] 16/20 | edit_layers0=running, edit_layers1=running | waiting: 2 | gpu0:67%/8.2GiB gpu1:44%/7.5GiB
+[23:25:20 +289.2m]     edit_layers0 on GPU 1: facts [########------------] 17/40, 162 edits written, 1h18 so far, about 1h46 left
+[23:25:20 +289.2m]     edit_layers1 on GPU 0: facts [####----------------] 7/40, 63 edits written, 31min so far, about 2h26 left
+[23:30:21 +294.2m] PROGRESS jobs [################----] 16/20 | edit_layers0=running, edit_layers1=running | waiting: 2 | gpu0:40%/7.5GiB gpu1:43%/8.2GiB
+[23:30:21 +294.2m]     edit_layers0 on GPU 1: facts [#########-----------] 18/40, 172 edits written, 1h23 so far, about 1h42 left
+[23:30:21 +294.2m]     edit_layers1 on GPU 0: facts [####----------------] 8/40, 74 edits written, 36min so far, about 2h24 left
+[23:35:21 +299.2m] PROGRESS jobs [################----] 16/20 | edit_layers0=running, edit_layers1=running | waiting: 2 | gpu0:68%/8.2GiB gpu1:69%/8.2GiB
+[23:35:21 +299.2m]     edit_layers0 on GPU 1: facts [##########----------] 19/40, 183 edits written, 1h28 so far, about 1h38 left
+[23:35:21 +299.2m]     edit_layers1 on GPU 0: facts [####----------------] 9/40, 84 edits written, 41min so far, about 2h21 left
+[23:40:21 +304.2m] PROGRESS jobs [################----] 16/20 | edit_layers0=running, edit_layers1=running | waiting: 2 | gpu0:0%/7.5GiB gpu1:25%/7.5GiB
+[23:40:21 +304.2m]     edit_layers0 on GPU 1: facts [##########----------] 20/40, 194 edits written, 1h33 so far, about 1h33 left
+[23:40:21 +304.2m]     edit_layers1 on GPU 0: facts [#####---------------] 10/40, 95 edits written, 46min so far, about 2h18 left
+[23:42:51 +306.7m] DONE babel_llama:edit_layers0 on GPU 1 in 96.3 min
+[23:42:52 +306.7m] progress saved (17 jobs finished)
+[23:45:22 +309.2m] PROGRESS jobs [#################---] 17/20 | edit_layers1=running | waiting: 2 | gpu0:0%/7.5GiB gpu1:0%/0.0GiB
+[23:45:22 +309.2m]     edit_layers1 on GPU 0: facts [######--------------] 11/40, 106 edits written, 51min so far, about 2h14 left
+[23:50:22 +314.2m] PROGRESS jobs [#################---] 17/20 | edit_layers1=running | waiting: 2 | gpu0:48%/8.2GiB gpu1:0%/0.0GiB
+[23:50:22 +314.2m]     edit_layers1 on GPU 0: facts [######--------------] 12/40, 118 edits written, 56min so far, about 2h10 left
+[23:55:22 +319.2m] PROGRESS jobs [#################---] 17/20 | edit_layers1=running | waiting: 2 | gpu0:45%/7.5GiB gpu1:0%/0.0GiB
+[23:55:22 +319.2m]     edit_layers1 on GPU 0: facts [######--------------] 13/40, 130 edits written, 1h01 so far, about 2h06 left
+[00:00:22 +324.2m] PROGRESS jobs [#################---] 17/20 | edit_layers1=running | waiting: 2 | gpu0:49%/7.5GiB gpu1:0%/0.0GiB
+[00:00:22 +324.2m]     edit_layers1 on GPU 0: facts [########------------] 15/40, 142 edits written, 1h06 so far, about 1h50 left
+[00:05:22 +329.2m] PROGRESS jobs [#################---] 17/20 | edit_layers1=running | waiting: 2 | gpu0:45%/7.5GiB gpu1:0%/0.0GiB
+[00:05:22 +329.2m]     edit_layers1 on GPU 0: facts [########------------] 16/40, 154 edits written, 1h11 so far, about 1h46 left
+[00:10:23 +334.2m] PROGRESS jobs [#################---] 17/20 | edit_layers1=running | waiting: 2 | gpu0:0%/7.5GiB gpu1:0%/0.0GiB
+[00:10:23 +334.2m]     edit_layers1 on GPU 0: facts [########------------] 17/40, 166 edits written, 1h16 so far, about 1h42 left
+[00:15:23 +339.2m] PROGRESS jobs [#################---] 17/20 | edit_layers1=running | waiting: 2 | gpu0:66%/8.2GiB gpu1:0%/0.0GiB
+[00:15:23 +339.2m]     edit_layers1 on GPU 0: facts [#########-----------] 18/40, 178 edits written, 1h21 so far, about 1h39 left
+[00:20:23 +344.2m] PROGRESS jobs [#################---] 17/20 | edit_layers1=running | waiting: 2 | gpu0:74%/8.2GiB gpu1:0%/0.0GiB
+[00:20:23 +344.2m]     edit_layers1 on GPU 0: facts [##########----------] 19/40, 190 edits written, 1h26 so far, about 1h35 left
+[00:24:03 +347.9m] DONE babel_llama:edit_layers1 on GPU 0 in 89.8 min
+[00:24:03 +347.9m] progress saved (18 jobs finished)
+[00:24:03 +347.9m] START babel_llama:layer_map on CPU
+[00:24:23 +348.2m] DONE babel_llama:layer_map on CPU in 0.3 min
+[00:24:24 +348.2m] progress saved (19 jobs finished)
+[00:24:24 +348.2m] START babel_llama:graphs on CPU
+[00:24:29 +348.3m] DONE babel_llama:graphs on CPU in 0.1 min
+[00:24:29 +348.3m] progress saved (20 jobs finished)

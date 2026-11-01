@@ -1,0 +1,34 @@
+{
+ "step": "babel_llama",
+ "minutes": 73.9,
+ "jobs": {
+  "babel_llama:smoke": "done",
+  "babel_llama:tokenizers": "done",
+  "babel_llama:a21_edit": "done",
+  "babel_llama:a21_analysis": "done",
+  "babel_llama:a24_edit": "done",
+  "babel_llama:a24_analysis": "done",
+  "babel_llama:graphs": "done",
+  "babel_llama:a23_filter_es": "done",
+  "babel_llama:a23_filter_hi": "done",
+  "babel_llama:a23_es_run": "done",
+  "babel_llama:a23_hi_run": "done",
+  "babel_llama:a23_an_es": "done",
+  "babel_llama:a23_an_es_lf": "done",
+  "babel_llama:a23_an_hi": "done",
+  "babel_llama:a23_an_hi_lf": "done"
+ },
+ "number_format": {
+  "llama": {
+   "dtype": "float16",
+   "reason": "fp16 1.85x faster, top-1 agreement 1.00, gradient cosine 1.000",
+   "stats": {
+    "top1_agreement": 1.0,
+    "median_grad_cosine": 0.9997,
+    "speedup_fp16": 1.85
+   }
+  }
+ },
+ "notes": [],
+ "code_version": "bundle-f122bd5c1df0"
+}

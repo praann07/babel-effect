@@ -1,0 +1,14 @@
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+llama torch.float16 seconds 17.723 all finite True
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights:   0%|          | 1/254 [00:01<05:34,  1.32s/it]
+Loading weights:  37%|███▋      | 93/254 [00:01<00:01, 87.89it/s]
+Loading weights:  53%|█████▎    | 135/254 [00:01<00:01, 88.56it/s]
+Loading weights:  64%|██████▍   | 162/254 [00:02<00:01, 90.14it/s]
+Loading weights:  72%|███████▏  | 183/254 [00:02<00:00, 83.70it/s]
+Loading weights:  78%|███████▊  | 199/254 [00:02<00:00, 90.22it/s]
+Loading weights:  84%|████████▍ | 214/254 [00:02<00:00, 83.36it/s]
+Loading weights:  90%|████████▉ | 228/254 [00:03<00:00, 84.96it/s]
+Loading weights:  94%|█████████▍| 240/254 [00:03<00:00, 86.07it/s]
+Loading weights: 100%|██████████| 254/254 [00:03<00:00, 78.22it/s]

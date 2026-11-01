@@ -1,0 +1,7 @@
+
+=== attempt 1: /usr/bin/python3 code/keymode_analysis.py analysis/run_20261030_p4a24r023334a1_llama --base analysis/run_20261030_p4a21r023249a1_llama
+joint_all traced {'n_pairs': 30, 'n_used': 27, 'en_success': 0.933, 'base_en_success': 0.9, 'es_main': 0.74, 'es_main_diff': 0.08, 'hi_main': 0.03, 'hi_main_diff': 0.02, 'es_held': 0.53, 'es_held_diff': 0.06, 'hi_held': 0.03, 'hi_held_diff': 0.01, 'spec_median': 0.068, 'spec_base_median': 0.048, 'ppl_median': 1.002}
+joint_all mid {'n_pairs': 30, 'n_used': 29, 'en_success': 0.967, 'base_en_success': 0.967, 'es_main': 0.78, 'es_main_diff': 0.01, 'hi_main': 0.25, 'hi_main_diff': 0.02, 'es_held': 0.67, 'es_held_diff': 0.0, 'hi_held': 0.15, 'hi_held_diff': 0.01, 'spec_median': 0.534, 'spec_base_median': 0.27, 'ppl_median': 1.001}
+mean_all traced {'n_pairs': 30, 'n_used': 25, 'en_success': 0.867, 'base_en_success': 0.9, 'es_main': 0.77, 'es_main_diff': 0.09, 'hi_main': 0.06, 'hi_main_diff': 0.0, 'es_held': 0.69, 'es_held_diff': 0.08, 'hi_held': 0.06, 'hi_held_diff': 0.03, 'spec_median': 0.048, 'spec_base_median': 0.048, 'ppl_median': 1.001}
+mean_all mid {'n_pairs': 30, 'n_used': 27, 'en_success': 0.867, 'base_en_success': 0.967, 'es_main': 0.75, 'es_main_diff': -0.0, 'hi_main': 0.24, 'hi_main_diff': -0.0, 'es_held': 0.63, 'es_held_diff': -0.03, 'hi_held': 0.16, 'hi_held_diff': 0.0, 'spec_median': 0.2, 'spec_base_median': 0.27, 'ppl_median': 1.001}
+-> analysis/run_20261030_keymode_analysis_A24

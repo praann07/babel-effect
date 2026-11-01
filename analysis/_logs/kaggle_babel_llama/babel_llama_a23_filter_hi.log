@@ -1,0 +1,44 @@
+
+=== attempt 1: /usr/bin/python3 code/e2_filter_hi.py --model llama --set a23 --tag e2ha23filterr031436a1
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:01<05:26,  1.29s/it]Loading weights:  37%|███▋      | 93/254 [00:01<00:01, 87.04it/s]Loading weights:  50%|█████     | 127/254 [00:01<00:01, 90.27it/s]Loading weights:  59%|█████▉    | 150/254 [00:02<00:01, 81.59it/s]Loading weights:  66%|██████▌   | 167/254 [00:02<00:01, 79.36it/s]Loading weights:  71%|███████   | 180/254 [00:02<00:00, 82.12it/s]Loading weights:  76%|███████▌  | 192/254 [00:02<00:00, 74.63it/s]Loading weights:  80%|███████▉  | 202/254 [00:02<00:00, 74.57it/s]Loading weights:  83%|████████▎ | 212/254 [00:03<00:00, 75.47it/s]Loading weights:  87%|████████▋ | 221/254 [00:03<00:00, 76.27it/s]Loading weights:  91%|█████████ | 230/254 [00:03<00:00, 73.65it/s]Loading weights:  94%|█████████▍| 239/254 [00:03<00:00, 75.36it/s]Loading weights:  97%|█████████▋| 247/254 [00:03<00:00, 73.69it/s]Loading weights: 100%|██████████| 254/254 [00:03<00:00, 72.59it/s]
+official_language {'प्रश्न: {s} की आधिकारिक भाषा क्या है?\nउत्तर:': 0.5, 'प्रश्न: {s} में मुख्य रूप से कौन सी भाषा बोली जाती है?\nउत्तर:': 0.0, '{s} की आधिकारिक भाषा है': 0.375} -> प्रश्न: {s} की आधिकारिक भाषा क्या है?
+उत्तर:
+currency {'प्रश्न: {s} की मुद्रा क्या है?\nउत्तर:': 0.0, 'प्रश्न: {s} की आधिकारिक मुद्रा का नाम क्या है?\nउत्तर:': 0.0, '{s} की मुद्रा है': 0.25} -> {s} की मुद्रा है
+profession {'प्रश्न: {s} किस पेशे के लिए प्रसिद्ध हैं?\nउत्तर:': 0.0, 'प्रश्न: {s} का पेशा क्या था?\nउत्तर:': 0.0, '{s} एक प्रसिद्ध': 0.125} -> {s} एक प्रसिद्ध
+book_author {'प्रश्न: {s} के लेखक कौन हैं?\nउत्तर:': 0.25, 'प्रश्न: {s} किसने लिखी?\nउत्तर:': 0.125, '{s} के लेखक हैं': 0.0} -> प्रश्न: {s} के लेखक कौन हैं?
+उत्तर:
+{
+ "book_author": {
+  "tune_n": 8,
+  "tune_en": 8,
+  "tune_hi": 2,
+  "eval_n": 21,
+  "eval_both": 1,
+  "template_ok": false
+ },
+ "currency": {
+  "tune_n": 8,
+  "tune_en": 0,
+  "tune_hi": 2,
+  "eval_n": 23,
+  "eval_both": 5,
+  "template_ok": false
+ },
+ "official_language": {
+  "tune_n": 8,
+  "tune_en": 7,
+  "tune_hi": 4,
+  "eval_n": 44,
+  "eval_both": 13,
+  "template_ok": true
+ },
+ "profession": {
+  "tune_n": 8,
+  "tune_en": 2,
+  "tune_hi": 1,
+  "eval_n": 30,
+  "eval_both": 1,
+  "template_ok": false
+ }
+}
+kept 13

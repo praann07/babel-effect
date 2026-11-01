@@ -1,0 +1,3 @@
+
+=== attempt 1: /usr/bin/python3 kaggle/tokenizer_compare.py --mirror models/llama-3.2-3b-instruct --official /kaggle/input/models/metaresearch/llama-3.2/transformers/3b-instruct/1
+12689 strings from 35 files: ids differ for 12689 (with BOS) and 0 (without special tokens); bos [128000, 128000], pad [128004, None]

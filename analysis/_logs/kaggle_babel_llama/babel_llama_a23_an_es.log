@@ -1,0 +1,4 @@
+
+=== attempt 1: /usr/bin/python3 code/e2_analysis.py --models llama --langs en,es --llama-run analysis/run_20261030_e2a23_Ar031521a1_llama --tag e2a23_analysisr033342a1
+llama {'en2es': (41, 'P2 SHARED', False), 'es2en': (41, 'P2 SHARED', True)}
+wrote analysis/run_20261030_e2a23_analysisr033342a1

@@ -1,0 +1,11 @@
+
+=== attempt 1: /usr/bin/python3 code/interchange.py --model llama --langs en,es --facts data/v2/e2a23_facts_llama.json --k-src 2 --shuffle-pairs --max-pairs 200 --tag e2a23_Ar031521a1
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:01<05:21,  1.27s/it]Loading weights:  33%|███▎      | 84/254 [00:01<00:02, 84.12it/s]Loading weights:  52%|█████▏    | 131/254 [00:01<00:01, 84.90it/s]Loading weights:  63%|██████▎   | 161/254 [00:02<00:01, 88.83it/s]Loading weights:  72%|███████▏  | 183/254 [00:02<00:00, 86.17it/s]Loading weights:  79%|███████▊  | 200/254 [00:02<00:00, 91.94it/s]Loading weights:  85%|████████▌ | 216/254 [00:02<00:00, 87.81it/s]Loading weights:  90%|█████████ | 229/254 [00:03<00:00, 83.17it/s]Loading weights:  94%|█████████▍| 240/254 [00:03<00:00, 85.51it/s]Loading weights:  99%|█████████▉| 251/254 [00:03<00:00, 89.15it/s]Loading weights: 100%|██████████| 254/254 [00:03<00:00, 77.90it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+10 / 67
+20 / 67
+30 / 67
+40 / 67
+50 / 67
+60 / 67
+done 134 peak VRAM GiB 7.59

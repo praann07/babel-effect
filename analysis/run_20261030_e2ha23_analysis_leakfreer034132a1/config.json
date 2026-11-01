@@ -1,0 +1,13 @@
+{
+ "llama_run": "analysis/run_20261030_e2ha23_Ar033206a1_llama",
+ "gemma_run": "",
+ "llama_seeds": "analysis/run_20261024_p3seeds_10240109_llama",
+ "gemma_seeds": "analysis/run_20261024_p3seeds_10240109_gemma2",
+ "tag": "e2ha23_analysis_leakfreer034132a1",
+ "langs": "en,hi",
+ "models": "llama",
+ "llama_label": "llama",
+ "sites": "A",
+ "exclude_leak": true,
+ "amendment": "A13"
+}

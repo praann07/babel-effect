@@ -1,0 +1,155 @@
+{
+ "key_cos_max_diff_between_modes": 0.0,
+ "cells": {
+  "es_traced": {
+   "n": 28,
+   "key_cos_median": 0.5015150308609009,
+   "key_cos_iqr": [
+    0.277862012386322,
+    0.6385417133569717
+   ],
+   "rho": 0.5500821018062397,
+   "rho_ci95": [
+    0.1996525915241065,
+    0.7623795034808594
+   ],
+   "p_one_sided": 0.0014998500149985001,
+   "partial_rho": 0.5201670164202697,
+   "partial_ci95": [
+    0.0894978116328826,
+    0.786070081345812
+   ],
+   "controls_spread": {
+    "span_tokens_distinct": 8,
+    "jaccard_distinct": 7
+   },
+   "extra_partial_rho_with_layer": 0.44950149173763426,
+   "extra_partial_with_layer_ci95": [
+    -0.012955633957551595,
+    0.7517285280934654
+   ],
+   "extra_layers": {
+    "0": 8,
+    "1": 1,
+    "2": 7,
+    "4": 7,
+    "5": 3,
+    "6": 2
+   },
+   "extra_leave_one_out_rho_range": [
+    0.503052503052503,
+    0.6178266178266179
+   ],
+   "p_holm": 0.0059994000599940004,
+   "supported": true,
+   "beyond_confounds": true
+  },
+  "es_mid": {
+   "n": 29,
+   "key_cos_median": 0.6172342896461487,
+   "key_cos_iqr": [
+    0.5413500070571899,
+    0.802011251449585
+   ],
+   "rho": -0.06059113300492611,
+   "rho_ci95": [
+    -0.4356575197579105,
+    0.3230929404900278
+   ],
+   "p_one_sided": 0.6247375262473752,
+   "partial_rho": -0.054732249755375,
+   "partial_ci95": [
+    -0.49703817130417044,
+    0.46053531008843396
+   ],
+   "controls_spread": {
+    "span_tokens_distinct": 8,
+    "jaccard_distinct": 8
+   },
+   "extra_leave_one_out_rho_range": [
+    -0.16748768472906403,
+    0.016967706622879036
+   ],
+   "p_holm": 0.9323067693230677,
+   "supported": false,
+   "beyond_confounds": false
+  },
+  "hi_traced": {
+   "n": 28,
+   "key_cos_median": 0.16310879588127136,
+   "key_cos_iqr": [
+    0.07455723732709885,
+    0.3910892456769943
+   ],
+   "rho": 0.5205254515599343,
+   "rho_ci95": [
+    0.12737774935492785,
+    0.8151218744664388
+   ],
+   "p_one_sided": 0.0033996600339966003,
+   "partial_rho": 0.5306231398009003,
+   "partial_ci95": [
+    0.18483193548332988,
+    0.816331053407053
+   ],
+   "controls_spread": {
+    "span_tokens_distinct": 11,
+    "jaccard_distinct": 1
+   },
+   "extra_partial_rho_with_layer": 0.06082902063343275,
+   "extra_partial_with_layer_ci95": [
+    -0.323012148646875,
+    0.5740906099942786
+   ],
+   "extra_layers": {
+    "0": 8,
+    "1": 1,
+    "2": 7,
+    "4": 7,
+    "5": 3,
+    "6": 2
+   },
+   "extra_leave_one_out_rho_range": [
+    0.4652014652014652,
+    0.6221001221001221
+   ],
+   "p_holm": 0.010198980101989802,
+   "supported": true,
+   "beyond_confounds": true
+  },
+  "hi_mid": {
+   "n": 29,
+   "key_cos_median": 0.4616011381149292,
+   "key_cos_iqr": [
+    0.36282509565353394,
+    0.517139196395874
+   ],
+   "rho": 0.02019704433497537,
+   "rho_ci95": [
+    -0.3926548483326847,
+    0.4475623683855345
+   ],
+   "p_one_sided": 0.46615338466153383,
+   "partial_rho": -0.014868160168066111,
+   "partial_ci95": [
+    -0.395990996261815,
+    0.40858017936696817
+   ],
+   "controls_spread": {
+    "span_tokens_distinct": 11,
+    "jaccard_distinct": 1
+   },
+   "extra_leave_one_out_rho_range": [
+    -0.05637657361795293,
+    0.12151067323481117
+   ],
+   "p_holm": 0.9323067693230677,
+   "supported": false,
+   "beyond_confounds": false
+  }
+ },
+ "predictions": {
+  "rho_positive_in_all_four": false,
+  "hindi_weaker_than_spanish_in_both_conditions": false
+ }
+}

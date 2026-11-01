@@ -1,0 +1,98 @@
+[02:27:57 +  0.0m] step babel_llama; time budget 10.5 h
+[02:27:57 +  0.0m] code: 750 files, code id bundle-f122bd5c1df0
+[02:27:57 +  0.0m] Llama-3.2-3B-Instruct on Kaggle: paraphrase control for edit transfer, shared-key edit, non-geography facts, tokenizer comparison
+[02:28:43 +  0.8m] pip install attempt 1: exit 0 ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+gradio 6.26.0 requires pillow<13.0,>=8.0, but you have pillow 13.0.0 which is incompatible.
+[02:28:58 +  1.0m] packages: numpy 2.1.3 | scipy 1.16.3 | torch 2.11.0+cu128 | transformers 5.19.0 | transformer_lens 3.9.0
+[02:28:58 +  1.0m] GPUs: 0=Tesla T4 15GiB, 1=Tesla T4 15GiB
+[02:29:52 +  1.9m] model ready and verified: llama-3.2-3b-instruct (2 shards from /kaggle/input/models/metaresearch/llama-3.2/transformers/3b-instruct/1; every tensor and config/tokenizer file matches the laptop copy)
+[02:30:20 +  2.4m] unit tests: Ran 40 tests in 25.729s |  | OK
+[02:30:20 +  2.4m] number-format check for llama (bf16 and fp16 at once on two GPUs)
+[02:32:04 +  4.1m] number format for llama: float16 (fp16 1.85x faster, top-1 agreement 1.00, gradient cosine 1.000)
+[02:32:04 +  4.1m] START babel_llama:tokenizers on CPU
+[02:32:04 +  4.1m] START babel_llama:smoke on GPU 0
+[02:32:04 +  4.1m] PROGRESS jobs [--------------------] 0/15 | smoke=running, tokenizers=running | waiting: 13 | gpu0:0%/0.0GiB gpu1:0%/0.0GiB
+[02:32:04 +  4.1m]     tokenizers on CPU: 0min so far
+[02:32:04 +  4.1m]     smoke on GPU 0: 0min so far
+[02:32:24 +  4.5m] DONE babel_llama:tokenizers on CPU in 0.3 min
+[02:32:24 +  4.5m] progress saved (1 jobs finished)
+[02:32:49 +  4.9m] DONE babel_llama:smoke on GPU 0 in 0.8 min
+[02:32:49 +  4.9m] progress saved (2 jobs finished)
+[02:32:49 +  4.9m] START babel_llama:a21_edit on GPU 0
+[02:33:34 +  5.6m] START babel_llama:a24_edit on GPU 1
+[02:37:04 +  9.1m] PROGRESS jobs [###-----------------] 2/15 | a21_edit=running, a24_edit=running | waiting: 11 | gpu0:99%/7.6GiB gpu1:33%/8.4GiB
+[02:37:04 +  9.1m]     a21_edit on GPU 0: facts [#-------------------] 2/30, 4 edits written, 4min so far
+[02:37:04 +  9.1m]     a24_edit on GPU 1: facts [#-------------------] 1/30, 4 edits written, 4min so far
+[02:42:04 + 14.1m] PROGRESS jobs [###-----------------] 2/15 | a21_edit=running, a24_edit=running | waiting: 11 | gpu0:57%/8.1GiB gpu1:56%/8.2GiB
+[02:42:04 + 14.1m]     a21_edit on GPU 0: facts [####----------------] 6/30, 11 edits written, 9min so far, about 37min left
+[02:42:04 + 14.1m]     a24_edit on GPU 1: facts [###-----------------] 4/30, 15 edits written, 9min so far, about 55min left
+[02:47:04 + 19.1m] PROGRESS jobs [###-----------------] 2/15 | a21_edit=running, a24_edit=running | waiting: 11 | gpu0:35%/7.0GiB gpu1:33%/7.4GiB
+[02:47:04 + 19.1m]     a21_edit on GPU 0: facts [#######-------------] 10/30, 19 edits written, 14min so far, about 29min left
+[02:47:04 + 19.1m]     a24_edit on GPU 1: facts [#####---------------] 7/30, 26 edits written, 14min so far, about 44min left
+[02:52:05 + 24.1m] PROGRESS jobs [###-----------------] 2/15 | a21_edit=running, a24_edit=running | waiting: 11 | gpu0:65%/8.1GiB gpu1:44%/7.4GiB
+[02:52:05 + 24.1m]     a21_edit on GPU 0: facts [#########-----------] 13/30, 26 edits written, 19min so far, about 25min left
+[02:52:05 + 24.1m]     a24_edit on GPU 1: facts [######--------------] 9/30, 36 edits written, 19min so far, about 43min left
+[02:57:05 + 29.1m] PROGRESS jobs [###-----------------] 2/15 | a21_edit=running, a24_edit=running | waiting: 11 | gpu0:0%/7.1GiB gpu1:0%/7.4GiB
+[02:57:05 + 29.1m]     a21_edit on GPU 0: facts [###########---------] 17/30, 34 edits written, 24min so far, about 19min left
+[02:57:05 + 29.1m]     a24_edit on GPU 1: facts [########------------] 12/30, 46 edits written, 24min so far, about 35min left
+[03:02:05 + 34.1m] PROGRESS jobs [###-----------------] 2/15 | a21_edit=running, a24_edit=running | waiting: 11 | gpu0:43%/7.0GiB gpu1:45%/8.1GiB
+[03:02:05 + 34.1m]     a21_edit on GPU 0: facts [##############------] 21/30, 42 edits written, 29min so far, about 13min left
+[03:02:05 + 34.1m]     a24_edit on GPU 1: facts [#########-----------] 14/30, 56 edits written, 29min so far, about 33min left
+[03:07:05 + 39.1m] PROGRESS jobs [###-----------------] 2/15 | a21_edit=running, a24_edit=running | waiting: 11 | gpu0:73%/8.1GiB gpu1:0%/7.4GiB
+[03:07:05 + 39.1m]     a21_edit on GPU 0: facts [#################---] 25/30, 49 edits written, 34min so far, about 7min left
+[03:07:05 + 39.1m]     a24_edit on GPU 1: facts [###########---------] 17/30, 67 edits written, 34min so far, about 26min left
+[03:12:05 + 44.1m] PROGRESS jobs [###-----------------] 2/15 | a21_edit=running, a24_edit=running | waiting: 11 | gpu0:47%/7.0GiB gpu1:72%/8.1GiB
+[03:12:05 + 44.1m]     a21_edit on GPU 0: facts [###################-] 29/30, 57 edits written, 39min so far, about 1min left
+[03:12:05 + 44.1m]     a24_edit on GPU 1: facts [#############-------] 20/30, 77 edits written, 39min so far, about 19min left
+[03:13:50 + 45.9m] DONE babel_llama:a21_edit on GPU 0 in 41.0 min
+[03:13:50 + 45.9m] progress saved (3 jobs finished)
+[03:13:50 + 45.9m] START babel_llama:a21_analysis on CPU
+[03:13:50 + 45.9m] START babel_llama:a23_filter_es on GPU 0
+[03:14:00 + 46.1m] DONE babel_llama:a21_analysis on CPU in 0.2 min
+[03:14:00 + 46.1m] progress saved (4 jobs finished)
+[03:14:25 + 46.5m] DONE babel_llama:a23_filter_es on GPU 0 in 0.6 min
+[03:14:26 + 46.5m] progress saved (5 jobs finished)
+[03:14:36 + 46.6m] START babel_llama:a23_filter_hi on GPU 0
+[03:15:21 + 47.4m] DONE babel_llama:a23_filter_hi on GPU 0 in 0.8 min
+[03:15:21 + 47.4m] progress saved (6 jobs finished)
+[03:15:21 + 47.4m] START babel_llama:a23_es_run on GPU 0
+[03:17:06 + 49.2m] PROGRESS jobs [########------------] 6/15 | a24_edit=running, a23_es_run=running | waiting: 7 | gpu0:99%/7.8GiB gpu1:67%/8.1GiB
+[03:17:06 + 49.2m]     a24_edit on GPU 1: facts [###############-----] 22/30, 87 edits written, 44min so far, about 16min left
+[03:17:06 + 49.2m]     a23_es_run on GPU 0: 2min so far
+[03:22:06 + 54.2m] PROGRESS jobs [########------------] 6/15 | a24_edit=running, a23_es_run=running | waiting: 7 | gpu0:99%/7.8GiB gpu1:46%/7.4GiB
+[03:22:06 + 54.2m]     a24_edit on GPU 1: facts [#################---] 25/30, 98 edits written, 49min so far, about 10min left
+[03:22:06 + 54.2m]     a23_es_run on GPU 0: pairs [######--------------] 20/67, 7min so far, about 16min left
+[03:27:06 + 59.2m] PROGRESS jobs [########------------] 6/15 | a24_edit=running, a23_es_run=running | waiting: 7 | gpu0:99%/7.8GiB gpu1:65%/8.1GiB
+[03:27:06 + 59.2m]     a24_edit on GPU 1: facts [##################--] 27/30, 108 edits written, 54min so far, about 6min left
+[03:27:06 + 59.2m]     a23_es_run on GPU 0: pairs [############--------] 40/67, 12min so far, about 8min left
+[03:32:06 + 64.2m] DONE babel_llama:a24_edit on GPU 1 in 58.5 min
+[03:32:06 + 64.2m] progress saved (7 jobs finished)
+[03:32:06 + 64.2m] START babel_llama:a24_analysis on CPU
+[03:32:06 + 64.2m] START babel_llama:a23_hi_run on GPU 1
+[03:32:06 + 64.2m] PROGRESS jobs [#########-----------] 7/15 | a24_analysis=running, a23_es_run=running, a23_hi_run=running | waiting: 5 | gpu0:99%/7.8GiB gpu1:0%/0.0GiB
+[03:32:06 + 64.2m]     a23_es_run on GPU 0: pairs [##################--] 60/67, 17min so far, about 2min left
+[03:32:06 + 64.2m]     a24_analysis on CPU: 0min so far
+[03:32:06 + 64.2m]     a23_hi_run on GPU 1: 0min so far
+[03:32:26 + 64.5m] DONE babel_llama:a24_analysis on CPU in 0.3 min
+[03:32:26 + 64.5m] progress saved (8 jobs finished)
+[03:32:26 + 64.5m] START babel_llama:graphs on CPU
+[03:32:31 + 64.6m] DONE babel_llama:graphs on CPU in 0.1 min
+[03:32:32 + 64.6m] progress saved (9 jobs finished)
+[03:33:42 + 65.8m] DONE babel_llama:a23_es_run on GPU 0 in 18.3 min
+[03:33:42 + 65.8m] progress saved (10 jobs finished)
+[03:33:42 + 65.8m] START babel_llama:a23_an_es on CPU
+[03:33:42 + 65.8m] START babel_llama:a23_an_es_lf on CPU
+[03:34:07 + 66.2m] DONE babel_llama:a23_an_es on CPU in 0.4 min
+[03:34:07 + 66.2m] progress saved (11 jobs finished)
+[03:34:07 + 66.2m] DONE babel_llama:a23_an_es_lf on CPU in 0.4 min
+[03:34:07 + 66.2m] progress saved (12 jobs finished)
+[03:37:07 + 69.2m] PROGRESS jobs [################----] 12/15 | a23_hi_run=running | waiting: 2 | gpu0:0%/0.0GiB gpu1:98%/7.7GiB
+[03:37:07 + 69.2m]     a23_hi_run on GPU 1: pairs [########------------] 20/52, 5min so far, about 8min left
+[03:41:32 + 73.6m] DONE babel_llama:a23_hi_run on GPU 1 in 9.4 min
+[03:41:32 + 73.6m] progress saved (13 jobs finished)
+[03:41:32 + 73.6m] START babel_llama:a23_an_hi on CPU
+[03:41:32 + 73.6m] START babel_llama:a23_an_hi_lf on CPU
+[03:41:47 + 73.8m] DONE babel_llama:a23_an_hi on CPU in 0.3 min
+[03:41:47 + 73.8m] progress saved (14 jobs finished)
+[03:41:47 + 73.8m] DONE babel_llama:a23_an_hi_lf on CPU in 0.3 min
+[03:41:48 + 73.9m] progress saved (15 jobs finished)

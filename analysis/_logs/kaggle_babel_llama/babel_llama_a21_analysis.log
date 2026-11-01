@@ -1,0 +1,5 @@
+
+=== attempt 1: /usr/bin/python3 code/para_analysis.py analysis/run_20261030_p4a21r023249a1_llama --ref analysis/run_20261020_p4f7_llama --ref analysis/run_20261029_p4a20_llama
+traced {'n': 28, 'en_para': 0.89, 'es_main': 0.5, 'hi_main': 0.0, 'es_para': 0.33, 'hi_para': 0.0, 'en_para_minus_es_main': 0.37, 'en_para_minus_hi_main': 0.83, 'frac_facts_es_below_en_para': 0.75}
+mid {'n': 29, 'en_para': 0.98, 'es_main': 0.85, 'hi_main': 0.19, 'es_para': 0.68, 'hi_para': 0.09, 'en_para_minus_es_main': 0.13, 'en_para_minus_hi_main': 0.66, 'frac_facts_es_below_en_para': 0.6896551724137931}
+{'n': 60, 'median_abs_diff_en_dP': 0.10083738238584755, 'median_abs_diff_es_dP': 0.11373690681285681} -> analysis/run_20261030_para_analysis_A21

@@ -1,0 +1,65 @@
+
+=== attempt 1: /usr/bin/python3 code/knowledge_edit_v2.py --model llama --trace-run analysis/run_20261015_p3trace_v2_llama --n-edit 40 --skip-first 10 --layers 14 --add-traced --para --tag p4a21r023249a1
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:01<04:37,  1.10s/it]Loading weights:  33%|███▎      | 85/254 [00:01<00:01, 96.02it/s]Loading weights:  50%|█████     | 128/254 [00:01<00:01, 103.58it/s]Loading weights:  62%|██████▏   | 157/254 [00:01<00:01, 94.80it/s] Loading weights:  70%|███████   | 178/254 [00:02<00:00, 99.82it/s]Loading weights:  77%|███████▋  | 196/254 [00:02<00:00, 99.15it/s]Loading weights:  83%|████████▎ | 211/254 [00:02<00:00, 95.26it/s]Loading weights:  88%|████████▊ | 224/254 [00:02<00:00, 100.24it/s]Loading weights:  93%|█████████▎| 237/254 [00:02<00:00, 93.59it/s] Loading weights:  98%|█████████▊| 249/254 [00:02<00:00, 98.21it/s]Loading weights: 100%|██████████| 254/254 [00:02<00:00, 88.60it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+capital_of_005 L1 en: EN dP=0.894 ok=True ES dP=0.948 HI dP=0.000 spec=0.016 ppl x1.002
+capital_of_005 L14 en: EN dP=0.854 ok=True ES dP=0.951 HI dP=0.015 spec=0.851 ppl x1.001
+event_year_007 L0 en: EN dP=0.811 ok=True ES dP=0.543 HI dP=0.000 spec=0.008 ppl x1.004
+event_year_007 L14 en: EN dP=0.519 ok=True ES dP=0.069 HI dP=0.001 spec=0.050 ppl x1.001
+capital_country_004 L5 en: EN dP=0.941 ok=True ES dP=0.293 HI dP=0.374 spec=0.038 ppl x1.000
+capital_country_004 L14 en: EN dP=0.959 ok=True ES dP=0.735 HI dP=0.705 spec=0.943 ppl x1.000
+capital_of_007 L4 en: EN dP=0.925 ok=True ES dP=0.976 HI dP=0.000 spec=0.074 ppl x1.000
+capital_of_007 L14 en: EN dP=0.970 ok=True ES dP=0.985 HI dP=0.000 spec=0.653 ppl x1.000
+event_year_009 L5 en: EN dP=0.130 ok=False ES dP=0.047 HI dP=0.089 spec=0.046 ppl x1.001
+event_year_009 L14 en: EN dP=0.013 ok=False ES dP=0.004 HI dP=0.008 spec=0.039 ppl x1.001
+capital_country_005 L6 en: EN dP=0.940 ok=True ES dP=0.254 HI dP=0.027 spec=0.274 ppl x1.001
+capital_country_005 L14 en: EN dP=0.982 ok=True ES dP=0.002 HI dP=0.000 spec=0.055 ppl x1.001
+capital_of_008 L0 en: EN dP=0.839 ok=True ES dP=0.730 HI dP=0.003 spec=0.120 ppl x0.998
+capital_of_008 L14 en: EN dP=0.952 ok=True ES dP=0.926 HI dP=0.778 spec=0.143 ppl x0.999
+event_year_010 L4 en: EN dP=0.863 ok=True ES dP=0.855 HI dP=0.041 spec=0.022 ppl x1.007
+event_year_010 L14 en: EN dP=0.919 ok=True ES dP=0.027 HI dP=0.000 spec=0.041 ppl x1.002
+capital_country_006 L2 en: EN dP=0.743 ok=True ES dP=0.018 HI dP=0.069 spec=0.881 ppl x1.003
+capital_country_006 L14 en: EN dP=0.951 ok=True ES dP=0.393 HI dP=0.929 spec=0.902 ppl x1.007
+capital_of_010 L0 en: EN dP=0.947 ok=True ES dP=0.992 HI dP=-0.000 spec=0.796 ppl x1.001
+capital_of_010 L14 en: EN dP=0.867 ok=True ES dP=0.026 HI dP=0.000 spec=0.135 ppl x1.001
+event_year_015 L2 en: EN dP=0.483 ok=True ES dP=0.000 HI dP=0.000 spec=0.297 ppl x0.999
+event_year_015 L14 en: EN dP=0.746 ok=True ES dP=0.044 HI dP=0.157 spec=0.119 ppl x1.002
+capital_country_008 L0 en: EN dP=0.869 ok=True ES dP=0.361 HI dP=0.010 spec=0.083 ppl x1.000
+capital_country_008 L14 en: EN dP=0.916 ok=True ES dP=0.944 HI dP=0.913 spec=0.908 ppl x1.006
+capital_of_016 L0 en: EN dP=0.914 ok=True ES dP=-0.000 HI dP=0.000 spec=0.024 ppl x1.001
+capital_of_016 L14 en: EN dP=0.968 ok=True ES dP=0.977 HI dP=0.209 spec=0.886 ppl x1.000
+event_year_018 L2 en: EN dP=0.706 ok=True ES dP=0.002 HI dP=0.445 spec=0.005 ppl x1.001
+event_year_018 L14 en: EN dP=0.577 ok=True ES dP=0.554 HI dP=0.109 spec=0.061 ppl x1.001
+capital_country_009 L2 en: EN dP=0.896 ok=True ES dP=0.148 HI dP=0.000 spec=0.044 ppl x1.001
+capital_country_009 L14 en: EN dP=0.977 ok=True ES dP=0.409 HI dP=0.015 spec=0.040 ppl x1.000
+capital_of_020 L4 en: EN dP=0.615 ok=True ES dP=0.576 HI dP=0.005 spec=0.764 ppl x1.000
+capital_of_020 L14 en: EN dP=0.985 ok=True ES dP=0.436 HI dP=0.000 spec=0.105 ppl x1.001
+event_year_020 L4 en: EN dP=0.098 ok=False ES dP=0.014 HI dP=0.000 spec=0.009 ppl x1.000
+event_year_020 L14 en: EN dP=0.843 ok=True ES dP=0.801 HI dP=0.774 spec=0.039 ppl x1.002
+capital_country_010 L4 en: EN dP=0.980 ok=True ES dP=0.815 HI dP=0.271 spec=0.064 ppl x1.002
+capital_country_010 L14 en: EN dP=0.995 ok=True ES dP=0.926 HI dP=0.295 spec=0.962 ppl x1.008
+capital_of_027 L0 en: EN dP=0.946 ok=True ES dP=0.807 HI dP=0.000 spec=0.917 ppl x1.007
+capital_of_027 L14 en: EN dP=0.977 ok=True ES dP=0.562 HI dP=0.003 spec=0.179 ppl x1.001
+event_year_021 L4 en: EN dP=0.014 ok=False ES dP=0.004 HI dP=0.000 spec=0.063 ppl x1.001
+event_year_021 L14 en: EN dP=0.812 ok=True ES dP=0.978 HI dP=0.945 spec=0.443 ppl x1.000
+capital_country_011 L4 en: EN dP=0.980 ok=True ES dP=0.000 HI dP=0.001 spec=0.082 ppl x1.000
+capital_country_011 L14 en: EN dP=0.957 ok=True ES dP=0.670 HI dP=0.365 spec=0.679 ppl x1.003
+capital_of_028 L0 en: EN dP=0.962 ok=True ES dP=0.976 HI dP=-0.000 spec=0.014 ppl x1.004
+capital_of_028 L14 en: EN dP=0.981 ok=True ES dP=0.992 HI dP=0.023 spec=0.962 ppl x1.000
+event_year_022 L4 en: EN dP=0.899 ok=True ES dP=0.006 HI dP=0.001 spec=0.012 ppl x0.999
+event_year_022 L14 en: EN dP=0.901 ok=True ES dP=0.334 HI dP=0.372 spec=0.025 ppl x1.000
+capital_country_013 L2 en: EN dP=0.965 ok=True ES dP=0.651 HI dP=0.000 spec=0.028 ppl x0.998
+capital_country_013 L14 en: EN dP=0.907 ok=True ES dP=0.786 HI dP=0.672 spec=0.967 ppl x1.001
+capital_of_029 L5 en: EN dP=0.926 ok=True ES dP=0.796 HI dP=0.002 spec=0.157 ppl x0.999
+capital_of_029 L14 en: EN dP=0.931 ok=True ES dP=0.787 HI dP=0.169 spec=0.629 ppl x1.000
+event_year_023 L4 en: EN dP=0.763 ok=True ES dP=0.124 HI dP=0.001 spec=0.014 ppl x0.999
+event_year_023 L14 en: EN dP=0.751 ok=True ES dP=0.471 HI dP=0.029 spec=0.034 ppl x1.001
+capital_country_014 L2 en: EN dP=0.986 ok=True ES dP=0.583 HI dP=0.453 spec=0.051 ppl x1.002
+capital_country_014 L14 en: EN dP=0.951 ok=True ES dP=0.808 HI dP=0.479 spec=0.361 ppl x1.002
+capital_of_032 L0 en: EN dP=0.991 ok=True ES dP=-0.000 HI dP=-0.000 spec=0.014 ppl x1.001
+capital_of_032 L14 en: EN dP=0.978 ok=True ES dP=0.921 HI dP=0.190 spec=0.730 ppl x1.002
+event_year_026 L2 en: EN dP=0.596 ok=True ES dP=0.000 HI dP=0.000 spec=0.008 ppl x1.001
+event_year_026 L14 en: EN dP=0.566 ok=True ES dP=0.957 HI dP=0.000 spec=0.038 ppl x1.000
+capital_country_016 L6 en: EN dP=0.942 ok=True ES dP=0.648 HI dP=0.383 spec=0.908 ppl x1.001
+capital_country_016 L14 en: EN dP=0.975 ok=True ES dP=0.850 HI dP=0.350 spec=0.932 ppl x1.001
+peak VRAM GiB 7.58

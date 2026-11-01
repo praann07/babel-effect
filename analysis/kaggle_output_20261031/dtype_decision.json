@@ -1,0 +1,11 @@
+{
+ "llama": {
+  "dtype": "float16",
+  "reason": "fp16 1.80x faster, top-1 agreement 1.00, gradient cosine 1.000",
+  "stats": {
+   "top1_agreement": 1.0,
+   "median_grad_cosine": 0.9997,
+   "speedup_fp16": 1.8
+  }
+ }
+}

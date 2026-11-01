@@ -1,0 +1,1202 @@
+{
+ "book_author_000|en": {
+  "prompt": "Hamlet was written by",
+  "gen": " William Shakespeare, and it is one of his most famous plays. The story revolves around Prince Hamlet, who seeks to"
+ },
+ "book_author_000|es": {
+  "prompt": "Hamlet fue escrito por",
+  "gen": " William Shakespeare en el siglo XVI. El drama se centra en el príncipe Hamlet, que se"
+ },
+ "book_author_001|en": {
+  "prompt": "Romeo and Juliet was written by",
+  "gen": " William Shakespeare around 1595-1596. It is a tragic love story about two young lovers from feuding families"
+ },
+ "book_author_001|es": {
+  "prompt": "Romeo y Julieta fue escrito por",
+  "gen": " William Shakespeare en 1595. La obra es una de las más famosas de la literatura inglesa y"
+ },
+ "book_author_002|en": {
+  "prompt": "Macbeth was written by",
+  "gen": " William Shakespeare around 1606. The play is a tragedy that tells the story of Macbeth, a Scottish nobleman"
+ },
+ "book_author_002|es": {
+  "prompt": "Macbeth fue escrito por",
+  "gen": " William Shakespeare en el siglo XVI. El drama se centra en la historia de Macbeth, un noble escoc"
+ },
+ "book_author_003|en": {
+  "prompt": "Othello was written by",
+  "gen": " William Shakespeare around 1603. It is a tragedy that tells the story of Othello, a Moorish general"
+ },
+ "book_author_003|es": {
+  "prompt": "Otelo fue escrito por",
+  "gen": " William Shakespeare en 1604. El drama se desarrolla en Venecia y en el palacio de Oth"
+ },
+ "book_author_004|en": {
+  "prompt": "Pride and Prejudice was written by",
+  "gen": " Jane Austen and published in 1813. It is a classic romance novel that follows the lives of the Bennett sisters"
+ },
+ "book_author_004|es": {
+  "prompt": "Orgullo y prejuicio fue escrito por",
+  "gen": " Jane Austen y publicado en 1813. La novela sigue a Elizabeth Bennet, una joven de "
+ },
+ "book_author_005|en": {
+  "prompt": "Oliver Twist was written by",
+  "gen": " Charles Dickens in 1838. The novel is a classic tale of a young orphan boy who is born in a work"
+ },
+ "book_author_005|es": {
+  "prompt": "Oliver Twist fue escrito por",
+  "gen": " Charles Dickens en 1838. La novela sigue la historia de Oliver Twist, un niño pobre que es"
+ },
+ "book_author_006|en": {
+  "prompt": "Great Expectations was written by",
+  "gen": " Charles Dickens in 1861. The novel is a classic tale of love, redemption, and the complexities of the human"
+ },
+ "book_author_006|es": {
+  "prompt": "Grandes esperanzas fue escrito por",
+  "gen": " Charles Dickens en 1859. La novela sigue la historia de Pip, un joven pobre que se convierte"
+ },
+ "book_author_007|en": {
+  "prompt": "War and Peace was written by",
+  "gen": " Leo Tolstoy, a Russian novelist, in the early 19th century. The novel is considered one of the"
+ },
+ "book_author_007|es": {
+  "prompt": "Guerra y paz fue escrito por",
+  "gen": " Leo Tolstói en 1865-1869. La novela es una de las más famosas de la"
+ },
+ "book_author_008|en": {
+  "prompt": "Anna Karenina was written by",
+  "gen": " Leo Tolstoy in 1877. It is a novel that explores the tragic love affair between Anna Karenina and"
+ },
+ "book_author_008|es": {
+  "prompt": "Ana Karénina fue escrito por",
+  "gen": " Lev Tolstói en 1877. La novela es una de las obras más famosas de la literatura"
+ },
+ "book_author_009|en": {
+  "prompt": "Crime and Punishment was written by",
+  "gen": " Fyodor Dostoevsky in 1866. The novel is a psychological study of a young man named R"
+ },
+ "book_author_009|es": {
+  "prompt": "Crimen y castigo fue escrito por",
+  "gen": " Fiodor Dostoievski en 1866. El libro es una novela psicológica que sigue"
+ },
+ "book_author_010|en": {
+  "prompt": "Les Misérables was written by",
+  "gen": " Victor Hugo in 1862. The novel is set in France during the June Rebellion of 1832. The story"
+ },
+ "book_author_010|es": {
+  "prompt": "Los miserables fue escrito por",
+  "gen": " Victor Hugo en 1862. El libro fue publicado en dos partes: la primera parte, \"Los miserables"
+ },
+ "book_author_011|en": {
+  "prompt": "The Odyssey was written by",
+  "gen": " Homer, an ancient Greek poet, around 800 BC. The epic poem tells the story of Odysseus,"
+ },
+ "book_author_011|es": {
+  "prompt": "La Odisea fue escrito por",
+  "gen": " Homero, un poeta griego que vivió en el siglo VIII a.C. y es considerado uno"
+ },
+ "book_author_012|en": {
+  "prompt": "The Iliad was written by",
+  "gen": " Homer, an ancient Greek poet, around 800 BC. The epic poem tells the story of the Trojan War, a"
+ },
+ "book_author_012|es": {
+  "prompt": "La Ilíada fue escrito por",
+  "gen": " Homero, un poeta griego antiguo. La Ilíada es una de las obras más famosas de"
+ },
+ "book_author_013|en": {
+  "prompt": "The Divine Comedy was written by",
+  "gen": " Dante Alighieri in the 14th century. It is an epic poem that tells the story of Dante's journey"
+ },
+ "book_author_013|es": {
+  "prompt": "La divina comedia fue escrito por",
+  "gen": " Dante Alighieri en el siglo XIII. La obra es una de las más famosas y emblemáticas de la"
+ },
+ "book_author_014|en": {
+  "prompt": "Faust was written by",
+  "gen": " Johann Wolfgang von Goethe in 1808. It is a tragedy that tells the story of a scholar who sells his"
+ },
+ "book_author_014|es": {
+  "prompt": "Fausto fue escrito por",
+  "gen": " el escritor italiano Giovanni Battista Vico (1668-1744) en el siglo XVII. El"
+ },
+ "book_author_015|en": {
+  "prompt": "Frankenstein was written by",
+  "gen": " Mary Shelley in 1818. The novel is a classic tale of horror and science, exploring the themes of creation,"
+ },
+ "book_author_015|es": {
+  "prompt": "Frankenstein fue escrito por",
+  "gen": " Mary Shelley en 1816. La novela es una de las obras más famosas de la literatura gót"
+ },
+ "book_author_016|en": {
+  "prompt": "Dracula was written by",
+  "gen": " Bram Stoker in 1897. The novel is a classic tale of horror and suspense, and it has been widely"
+ },
+ "book_author_016|es": {
+  "prompt": "Drácula fue escrito por",
+  "gen": " Bram Stoker en 1897. El libro es una novela gótica que sigue la historia de la familia"
+ },
+ "book_author_017|en": {
+  "prompt": "Animal Farm was written by",
+  "gen": " George Orwell in 1945. The story is an allegory of the Russian Revolution and the rise of Stalinism."
+ },
+ "book_author_017|es": {
+  "prompt": "Rebelión en la granja fue escrito por",
+  "gen": " el autor estadounidense Richard Adams, conocido por su novela \"El rey león\" (The"
+ },
+ "book_author_018|en": {
+  "prompt": "Moby-Dick was written by",
+  "gen": " Herman Melville in 1851. The novel is an epic tale of obsession, revenge, and the human condition,"
+ },
+ "book_author_018|es": {
+  "prompt": "Moby Dick fue escrito por",
+  "gen": " Herman Melville en 1851. El libro es una de las obras más famosas de la literatura estadoun"
+ },
+ "book_author_019|en": {
+  "prompt": "The Great Gatsby was written by",
+  "gen": " F. Scott Fitzgerald, published in 1925. The novel is set in the 1920s in New York"
+ },
+ "book_author_019|es": {
+  "prompt": "El gran Gatsby fue escrito por",
+  "gen": " F. Scott Fitzgerald en 1925. El libro es una novela que explora la decadencia de la sociedad"
+ },
+ "book_author_020|en": {
+  "prompt": "The Old Man and the Sea was written by",
+  "gen": " Ernest Hemingway in 1952. The novel is a classic tale of perseverance, courage, and the human struggle"
+ },
+ "book_author_020|es": {
+  "prompt": "El viejo y el mar fue escrito por",
+  "gen": " el escritor español José María Sánchez-Silva en 1929. El libro es una novela que nar"
+ },
+ "book_author_021|en": {
+  "prompt": "Alice's Adventures in Wonderland was written by",
+  "gen": " Lewis Carroll, a pen name of Charles Lutwidge Dodgson. The story was first published in 186"
+ },
+ "book_author_021|es": {
+  "prompt": "Alicia en el país de las maravillas fue escrito por",
+  "gen": " Lewis Carroll en 1865. Alicia se encuentra en un mundo de fantasía donde las cosas son muy diferentes a las"
+ },
+ "book_author_022|en": {
+  "prompt": "Gulliver's Travels was written by",
+  "gen": " Jonathan Swift, an Anglo-Irish satirist, in 1726. The novel is a satirical journey of"
+ },
+ "book_author_022|es": {
+  "prompt": "Los viajes de Gulliver fue escrito por",
+  "gen": " Jonathan Swift, un escritor y satirista inglés. El libro fue publicado en 1726 y es"
+ },
+ "book_author_023|en": {
+  "prompt": "Robinson Crusoe was written by",
+  "gen": " Daniel Defoe in 1719. It is considered one of the first English novels and a classic of English literature."
+ },
+ "book_author_023|es": {
+  "prompt": "Robinson Crusoe fue escrito por",
+  "gen": " Daniel Defoe en 1719. Fue el primer libro de ficción que describía la supervivencia"
+ },
+ "book_author_024|en": {
+  "prompt": "Gitanjali was written by",
+  "gen": " Rabindranath Tagore in 1910. It is a collection of 103 poems that explore the themes of"
+ },
+ "book_author_024|es": {
+  "prompt": "Gitanjali fue escrito por",
+  "gen": " Rabindranath Tagore, un poeta y escritor indio. El libro fue publicado en 191"
+ },
+ "book_author_025|en": {
+  "prompt": "Godan was written by",
+  "gen": " Ravi Shankar Prasad and directed by Shyam Benegal. The film was released in 1981."
+ },
+ "book_author_025|es": {
+  "prompt": "Godán fue escrito por",
+  "gen": " el escritor y poeta español José María de Heredia y Pacheco (1803-1835). El"
+ },
+ "book_author_026|en": {
+  "prompt": "The Ramayana was written by",
+  "gen": " the ancient Indian sage Valmiki, who is considered one of the greatest poets in Hinduism. The epic poem is"
+ },
+ "book_author_026|es": {
+  "prompt": "El Ramayana fue escrito por",
+  "gen": " el poeta y escritor hindú, Sugriva, en el siglo XIII. El texto original se per"
+ },
+ "book_author_027|en": {
+  "prompt": "The Mahabharata was written by",
+  "gen": " the sage Vyasa, who is said to have written the epic in seven days. The epic is a collection of stories"
+ },
+ "book_author_027|es": {
+  "prompt": "El Mahabharata fue escrito por",
+  "gen": " un grupo de autores que trabajaron juntos durante varios años. El texto fue escrito en varios idiomas,"
+ },
+ "book_author_028|en": {
+  "prompt": "Don Quixote was written by",
+  "gen": " Miguel de Cervantes, a Spanish novelist, and is considered one of the greatest works of literature in the Western canon"
+ },
+ "book_author_028|es": {
+  "prompt": "Don Quijote de la Mancha fue escrito por",
+  "gen": " Miguel de Cervantes Saavedra, un escritor español. El libro fue publicado en dos partes, en"
+ },
+ "currency_000|en": {
+  "prompt": "The currency of Japan is",
+  "gen": " the Japanese Yen (JPY). It is the third most widely traded currency in the world and is used by over "
+ },
+ "currency_000|es": {
+  "prompt": "La moneda de Japón es",
+  "gen": " el yen (JPY). El yen es la moneda oficial de Japón y se utiliza para todos los pagos"
+ },
+ "currency_001|en": {
+  "prompt": "The currency of China is",
+  "gen": " the Renminbi (RMB), also commonly known as the Chinese Yuan (CNY). The Renminbi is"
+ },
+ "currency_001|es": {
+  "prompt": "La moneda de China es",
+  "gen": " el yuan renminbi (RMB), también conocido como renminbi chino o yuan chino. El"
+ },
+ "currency_002|en": {
+  "prompt": "The currency of India is",
+  "gen": " the Indian Rupee (₹). The symbol for the Indian Rupee is ₹. The currency code for the Indian"
+ },
+ "currency_002|es": {
+  "prompt": "La moneda de India es",
+  "gen": " el rupia india (₹). La moneda de Sri Lanka es el rupia sri-lank"
+ },
+ "currency_003|en": {
+  "prompt": "The currency of Russia is",
+  "gen": " the Russian ruble (RUB). It is subdivided into 100 kopeks. The Russian ruble is"
+ },
+ "currency_003|es": {
+  "prompt": "La moneda de Rusia es",
+  "gen": " el rublo ruso (RUB). El rublo ruso es una moneda oficial de Rusia y se"
+ },
+ "currency_004|en": {
+  "prompt": "The currency of Mexico is",
+  "gen": " the Mexican peso (MXN). It is subdivided into 100 centavos. The Mexican peso is the official"
+ },
+ "currency_004|es": {
+  "prompt": "La moneda de México es",
+  "gen": " el peso mexicano (MXN). El peso mexicano se divide en 100 centavos. El"
+ },
+ "currency_005|en": {
+  "prompt": "The currency of Argentina is",
+  "gen": " the Argentine Peso (ARS). The exchange rate is subject to fluctuations and can change frequently. It's always a good"
+ },
+ "currency_005|es": {
+  "prompt": "La moneda de Argentina es",
+  "gen": " el peso argentino (ARS). El peso argentino se divide en 100 centavos. El tipo de cambio"
+ },
+ "currency_006|en": {
+  "prompt": "The currency of Chile is",
+  "gen": " the Chilean peso (CLP). The Chilean peso is subdivided into 100 centavos. The currency"
+ },
+ "currency_006|es": {
+  "prompt": "La moneda de Chile es",
+  "gen": " el peso chileno (CLP). El peso chileno se divide en 100 centésimos. El"
+ },
+ "currency_007|en": {
+  "prompt": "The currency of Colombia is",
+  "gen": " the Colombian peso (COP). The Colombian peso is divided into 100 centavos. The exchange rate for Colombian"
+ },
+ "currency_007|es": {
+  "prompt": "La moneda de Colombia es",
+  "gen": " el peso colombiano (COP). El peso colombiano se divide en 100 centavos. El peso colomb"
+ },
+ "currency_008|en": {
+  "prompt": "The currency of Canada is",
+  "gen": " the Canadian dollar (CAD). It is divided into 100 cents. The Canadian dollar is subdivided into five denominations"
+ },
+ "currency_008|es": {
+  "prompt": "La moneda de Canadá es",
+  "gen": " el dólar canadiense (CAD). El dólar canadiense se divide en 100 centavos."
+ },
+ "currency_009|en": {
+  "prompt": "The currency of Australia is",
+  "gen": " the Australian dollar (AUD). It is divided into 100 cents. The symbol for the Australian dollar is $.\nThe"
+ },
+ "currency_009|es": {
+  "prompt": "La moneda de Australia es",
+  "gen": " el dólar australiano (AUD). El dólar australiano es una moneda de curso legal en Australia"
+ },
+ "currency_010|en": {
+  "prompt": "The currency of New Zealand is",
+  "gen": " the New Zealand dollar (NZD). It is subdivided into 100 cents. The New Zealand dollar is available in"
+ },
+ "currency_010|es": {
+  "prompt": "La moneda de Nueva Zelanda es",
+  "gen": " el dólar neozelandés (NZD). El dólar neozelandés se divide en 100 cent"
+ },
+ "currency_011|en": {
+  "prompt": "The currency of the United States is",
+  "gen": " the United States dollar (USD). It is divided into 100 cents. The US dollar is the most widely traded and"
+ },
+ "currency_011|es": {
+  "prompt": "La moneda de Estados Unidos es",
+  "gen": " el dólar estadounidense (USD). El dólar estadounidense es una moneda fuerte y"
+ },
+ "currency_012|en": {
+  "prompt": "The currency of the United Kingdom is",
+  "gen": " the Pound Sterling, commonly abbreviated as GBP. The Pound is divided into 100 pence.\nThe Pound Sterling is the"
+ },
+ "currency_012|es": {
+  "prompt": "La moneda del Reino Unido es",
+  "gen": " el Libra (GBP). La moneda está dividida en 100 pence.\nLa moneda está representada"
+ },
+ "currency_013|en": {
+  "prompt": "The currency of Switzerland is",
+  "gen": " the Swiss franc (CHF). The Swiss franc is the most widely traded currency in the world and is considered to be"
+ },
+ "currency_013|es": {
+  "prompt": "La moneda de Suiza es",
+  "gen": " el franc suizo (CHF). El franc suizo es una moneda oficial de Suiza y se utiliza en"
+ },
+ "currency_014|en": {
+  "prompt": "The currency of Turkey is",
+  "gen": " the Turkish Lira (TRY). The Turkish Lira is subdivided into 100 new lira (TL). The"
+ },
+ "currency_014|es": {
+  "prompt": "La moneda de Turquía es",
+  "gen": " el lira turca (TRY). El tipo de cambio actual es 1 USD = 7.93 TRY."
+ },
+ "currency_015|en": {
+  "prompt": "The currency of South Korea is",
+  "gen": " the South Korean Won (KRW). It is subdivided into 100 chon.\nThe South Korean Won is the"
+ },
+ "currency_015|es": {
+  "prompt": "La moneda de Corea del Sur es",
+  "gen": " el won (KRW). El won de Corea del Sur es una moneda oficialmente establecida y es"
+ },
+ "currency_016|en": {
+  "prompt": "The currency of Vietnam is",
+  "gen": " the Vietnamese Dong (VND). It is subdivided into 100 xu. The Vietnamese Dong is the official currency of"
+ },
+ "currency_016|es": {
+  "prompt": "La moneda de Vietnam es",
+  "gen": " el dong (VND). El dong es una moneda oficial de Vietnam, y se utiliza para realizar transacciones financier"
+ },
+ "currency_017|en": {
+  "prompt": "The currency of Bangladesh is",
+  "gen": " the Bangladeshi Taka (BDT). The currency code for Bangladesh is BDT. The symbol for the"
+ },
+ "currency_017|es": {
+  "prompt": "La moneda de Bangladés es",
+  "gen": " el taka (BDT). El taka es una moneda oficial de Bangladés y es utilizado para realizar"
+ },
+ "currency_018|en": {
+  "prompt": "The currency of Saudi Arabia is",
+  "gen": " the Saudi riyal (SAR). It is subdivided into 100 halalas. The Saudi riy"
+ },
+ "currency_018|es": {
+  "prompt": "La moneda de Arabia Saudita es",
+  "gen": " el riyal saudita (SAR). El riyal saudita se divide en 100 dir"
+ },
+ "currency_019|en": {
+  "prompt": "The currency of South Africa is",
+  "gen": " the South African rand (ZAR). The rand is subdivided into 100 cents. The exchange rate can fluctuate"
+ },
+ "currency_019|es": {
+  "prompt": "La moneda de Sudáfrica es",
+  "gen": " el rand (ZAR). El rand es una moneda oficial de Sudáfrica y se utiliza para realizar transacciones"
+ },
+ "currency_020|en": {
+  "prompt": "The currency of Nigeria is",
+  "gen": " the Naira (NGN). The Naira is divided into 100 Kobo.\nThe Naira is the official"
+ },
+ "currency_020|es": {
+  "prompt": "La moneda de Nigeria es",
+  "gen": " el naira (₦). El naira se divide en 100 kobo.\n\nLa moneda de Nigeria es"
+ },
+ "currency_021|en": {
+  "prompt": "The currency of Kenya is",
+  "gen": " the Kenyan shilling (KES). The Kenyan shilling is subdivided into 100 cents. The symbol"
+ },
+ "currency_021|es": {
+  "prompt": "La moneda de Kenia es",
+  "gen": " el shilling keniano (KES). El shilling keniano se divide en 100 centésimos. El"
+ },
+ "currency_022|en": {
+  "prompt": "The currency of Germany is",
+  "gen": " the Euro (€). Germany is a member of the European Union and uses the Euro as its official currency. The Euro"
+ },
+ "currency_022|es": {
+  "prompt": "La moneda de Alemania es",
+  "gen": " el euro (€). Sin embargo, Alemania también emite monedas de curso legal en su propio país,"
+ },
+ "currency_023|en": {
+  "prompt": "The currency of France is",
+  "gen": " the Euro (€). The official exchange rate is 1 EUR = 1 USD. However, the exchange rate may"
+ },
+ "currency_023|es": {
+  "prompt": "La moneda de Francia es",
+  "gen": " el Euro (€). La moneda de Francia es el Euro (€). La moneda de Francia es"
+ },
+ "currency_024|en": {
+  "prompt": "The currency of Italy is",
+  "gen": " the Euro (€). Italy is a member of the European Union and uses the Euro as its official currency. The Euro"
+ },
+ "currency_024|es": {
+  "prompt": "La moneda de Italia es",
+  "gen": " el euro (€). Italia es un país con una rica historia y cultura, conocido por sus paisajes natur"
+ },
+ "currency_025|en": {
+  "prompt": "The currency of Spain is",
+  "gen": " the Euro (€). Spain is a member of the European Union and uses the Euro as its official currency. The country"
+ },
+ "currency_025|es": {
+  "prompt": "La moneda de España es",
+  "gen": " el euro (€). El euro es la moneda oficial de la Unión Europea y es utilizado por 19"
+ },
+ "currency_026|en": {
+  "prompt": "The currency of Greece is",
+  "gen": " the Euro (€). Greece adopted the Euro as its official currency in 2001, replacing the Greek Drachma"
+ },
+ "currency_026|es": {
+  "prompt": "La moneda de Grecia es",
+  "gen": " el euro (€). Grecia adoptó el euro como moneda oficial el 1 de enero de "
+ },
+ "currency_027|en": {
+  "prompt": "The currency of Ireland is",
+  "gen": " the Euro (€). The official currency of Ireland is the Euro, which is divided into 100 cents. The Euro"
+ },
+ "currency_027|es": {
+  "prompt": "La moneda de Irlanda es",
+  "gen": " el euro (€). Irlanda adoptó el euro como moneda oficial el 1 de enero de 199"
+ },
+ "currency_028|en": {
+  "prompt": "The currency of Morocco is",
+  "gen": " the Moroccan Dirham (MAD). It is divided into 100 centimes. The dirham is pegged to"
+ },
+ "currency_028|es": {
+  "prompt": "La moneda de Marruecos es",
+  "gen": " el dirham marroquí (MAD). El dirham marroquí está dividido en 100"
+ },
+ "currency_029|en": {
+  "prompt": "The currency of the United Arab Emirates is",
+  "gen": " the United Arab Emirates Dirham (AED). The UAE Dirham is subdivided into 100 fils. The exchange"
+ },
+ "currency_029|es": {
+  "prompt": "La moneda de los Emiratos Árabes Unidos es",
+  "gen": " el dirham (AED). El dirham es una moneda oficial de los Emiratos Árabes Unidos"
+ },
+ "currency_030|en": {
+  "prompt": "The currency of Jordan is",
+  "gen": " the Jordanian Dinar (JOD). The exchange rate is fixed at 1 JOD = 0.7"
+ },
+ "currency_030|es": {
+  "prompt": "La moneda de Jordania es",
+  "gen": " el dinar jordano (JOD). El dinar jordano es una moneda oficialmente establec"
+ },
+ "official_language_000|en": {
+  "prompt": "The official language of Japan is",
+  "gen": " Japanese, and it is the most widely spoken language in the country. Japanese is a language isolate, meaning that it is"
+ },
+ "official_language_000|es": {
+  "prompt": "La lengua oficial de Japón es",
+  "gen": " el japonés. El idioma japonés es una lengua aglutinante, lo que significa que las palabras"
+ },
+ "official_language_001|en": {
+  "prompt": "The official language of China is",
+  "gen": " Mandarin Chinese, but there are many other languages spoken in the country. According to the Chinese government, there are over "
+ },
+ "official_language_001|es": {
+  "prompt": "La lengua oficial de China es",
+  "gen": " el mandarín. El mandarín es una lengua china que se habla en China y en otros países"
+ },
+ "official_language_002|en": {
+  "prompt": "The official language of Russia is",
+  "gen": " Russian, and it is the most widely spoken language in the country. Russian is a Slavic language and is closely related"
+ },
+ "official_language_002|es": {
+  "prompt": "La lengua oficial de Rusia es",
+  "gen": " el ruso. El idioma ruso es una lengua eslavónica y se habla en Rusia,"
+ },
+ "official_language_003|en": {
+  "prompt": "The official language of Brazil is",
+  "gen": " Portuguese, and it is the most widely spoken language in the country. However, there are many other languages spoken in Brazil"
+ },
+ "official_language_003|es": {
+  "prompt": "La lengua oficial de Brasil es",
+  "gen": " el portugués. El país tiene una gran diversidad lingüística, con más de 180 lenguas"
+ },
+ "official_language_004|en": {
+  "prompt": "The official language of Portugal is",
+  "gen": " Portuguese, and it is the most widely spoken language in the country. However, many Portuguese people also speak English, especially"
+ },
+ "official_language_004|es": {
+  "prompt": "La lengua oficial de Portugal es",
+  "gen": " el portugués. El portugués es una lengua romance, que se habla en Portugal y en varios"
+ },
+ "official_language_005|en": {
+  "prompt": "The official language of Argentina is",
+  "gen": " Spanish, and the country has a rich cultural heritage that reflects its European and indigenous influences. The capital city, Buenos Aires"
+ },
+ "official_language_005|es": {
+  "prompt": "La lengua oficial de Argentina es",
+  "gen": " el español. En el ámbito académico, se utiliza el español estándar, sin acentos"
+ },
+ "official_language_006|en": {
+  "prompt": "The official language of Mexico is",
+  "gen": " Spanish, but there are also many indigenous languages spoken throughout the country. Some of the most widely spoken indigenous languages in Mexico"
+ },
+ "official_language_006|es": {
+  "prompt": "La lengua oficial de México es",
+  "gen": " el español. El español es una lengua románica, y se habla en muchos países de América Latina y"
+ },
+ "official_language_007|en": {
+  "prompt": "The official language of Spain is",
+  "gen": " Spanish, also known as Castilian. However, there are many regional languages and dialects spoken throughout the country, including"
+ },
+ "official_language_007|es": {
+  "prompt": "La lengua oficial de España es",
+  "gen": " el español. El español es una lengua románica, que se habla en varios países de América Latina,"
+ },
+ "official_language_008|en": {
+  "prompt": "The official language of Chile is",
+  "gen": " Spanish, and it is the most widely spoken language in the country. However, there are also several indigenous languages spoken in"
+ },
+ "official_language_008|es": {
+  "prompt": "La lengua oficial de Chile es",
+  "gen": " el español. Chile es un país con una gran diversidad lingüística, con más de 90 lenguas"
+ },
+ "official_language_009|en": {
+  "prompt": "The official language of Colombia is",
+  "gen": " Spanish, but there are also many indigenous languages spoken in the country. The most widely spoken indigenous language is Wayúu"
+ },
+ "official_language_009|es": {
+  "prompt": "La lengua oficial de Colombia es",
+  "gen": " el español. Colombia es un país con una gran diversidad lingüística, con más de 60 lenguas"
+ },
+ "official_language_010|en": {
+  "prompt": "The official language of Cuba is",
+  "gen": " Spanish, but many Cubans also speak English, particularly in tourist areas. However, it's always a good idea to"
+ },
+ "official_language_010|es": {
+  "prompt": "La lengua oficial de Cuba es",
+  "gen": " el español. La lengua más utilizada en la vida cotidiana es el cubano, que es una vari"
+ },
+ "official_language_011|en": {
+  "prompt": "The official language of Venezuela is",
+  "gen": " Spanish, but there are also many indigenous languages spoken in the country. The most widely spoken indigenous language is Pemon,"
+ },
+ "official_language_011|es": {
+  "prompt": "La lengua oficial de Venezuela es",
+  "gen": " el español. Venezuela es un país con una gran diversidad lingüística, con más de 30 idiomas y"
+ },
+ "official_language_012|en": {
+  "prompt": "The official language of Uruguay is",
+  "gen": " Spanish, but the country has a unique cultural identity shaped by its history, geography, and European influences. Here are some"
+ },
+ "official_language_012|es": {
+  "prompt": "La lengua oficial de Uruguay es",
+  "gen": " el español. Uruguay es un país con una rica historia y cultura, y su idioma es una parte importante de"
+ },
+ "official_language_013|en": {
+  "prompt": "The official language of Germany is",
+  "gen": " German, but there are also several regional languages and dialects spoken throughout the country. Some of the most widely spoken regional"
+ },
+ "official_language_013|es": {
+  "prompt": "La lengua oficial de Alemania es",
+  "gen": " el alemán. El alemán es una lengua germánica y se habla en Alemania,"
+ },
+ "official_language_014|en": {
+  "prompt": "The official language of Austria is",
+  "gen": " German, but many Austrians also speak English, especially among the younger population and those in the tourism industry. You can"
+ },
+ "official_language_014|es": {
+  "prompt": "La lengua oficial de Austria es",
+  "gen": " el alemán. El alemán es una lengua germánica y se habla en Austria, Ale"
+ },
+ "official_language_015|en": {
+  "prompt": "The official language of Italy is",
+  "gen": " Italian, but there are also several regional languages and dialects spoken throughout the country. Some of the most widely spoken regional"
+ },
+ "official_language_015|es": {
+  "prompt": "La lengua oficial de Italia es",
+  "gen": " el italiano. El italiano es una lengua románica, y se habla en Italia, Suiza, San"
+ },
+ "official_language_016|en": {
+  "prompt": "The official language of France is",
+  "gen": " French, and it is the most widely spoken language in the country. French is an official language of several international organizations,"
+ },
+ "official_language_016|es": {
+  "prompt": "La lengua oficial de Francia es",
+  "gen": " el francés. El francés es una lengua románica, y se habla en Francia, Can"
+ },
+ "official_language_017|en": {
+  "prompt": "The official language of Greece is",
+  "gen": " Greek, and it is the most widely spoken language in the country. However, many Greeks also speak English, especially among"
+ },
+ "official_language_017|es": {
+  "prompt": "La lengua oficial de Grecia es",
+  "gen": " el griego. El idioma griego es una lengua aglutinante, lo que significa que las palabras"
+ },
+ "official_language_018|en": {
+  "prompt": "The official language of Turkey is",
+  "gen": " Turkish, and it is the most widely spoken language in the country. Turkish is a member of the Oghuz branch"
+ },
+ "official_language_018|es": {
+  "prompt": "La lengua oficial de Turquía es",
+  "gen": " el turco. El turco es una lengua aglutinante, lo que significa que las palabras se form"
+ },
+ "official_language_019|en": {
+  "prompt": "The official language of Sweden is",
+  "gen": " Swedish, but many Swedes also speak English fluently. You can easily get by with just English, especially in tourist"
+ },
+ "official_language_019|es": {
+  "prompt": "La lengua oficial de Suecia es",
+  "gen": " el sueco. Suecia tiene una población de aproximadamente 10 millones de personas. Suecia es un país"
+ },
+ "official_language_020|en": {
+  "prompt": "The official language of Norway is",
+  "gen": " Norwegian, which is divided into two main dialects: Bokmål and Nynorsk. Bokmål"
+ },
+ "official_language_020|es": {
+  "prompt": "La lengua oficial de Noruega es",
+  "gen": " el noruego bokmål. El noruego bokmål es una variante del noruego estánd"
+ },
+ "official_language_021|en": {
+  "prompt": "The official language of Denmark is",
+  "gen": " Danish, but many Danes also speak English fluently. You can easily get by with just English, especially in tourist"
+ },
+ "official_language_021|es": {
+  "prompt": "La lengua oficial de Dinamarca es",
+  "gen": " el danés. El danés es una lengua germánica, y se habla en Dinamarca,"
+ },
+ "official_language_022|en": {
+  "prompt": "The official language of Poland is",
+  "gen": " Polish, but many Poles also speak English, especially among the younger population and those in the service industry. You can"
+ },
+ "official_language_022|es": {
+  "prompt": "La lengua oficial de Polonia es",
+  "gen": " el polaco. El idioma más comúnmente hablado en Polonia es el polaco, y el"
+ },
+ "official_language_023|en": {
+  "prompt": "The official language of the Netherlands is",
+  "gen": " Dutch, but many people in the Netherlands also speak English. In fact, English is widely spoken in the Netherlands, particularly"
+ },
+ "official_language_023|es": {
+  "prompt": "La lengua oficial de los Países Bajos es",
+  "gen": " el neerlandés (también conocido como holandés). El neerlandés es una lengua germ"
+ },
+ "official_language_024|en": {
+  "prompt": "The official language of Hungary is",
+  "gen": " Hungarian, but many people also speak English, especially among the younger population and those in the tourism industry. You can get"
+ },
+ "official_language_024|es": {
+  "prompt": "La lengua oficial de Hungría es",
+  "gen": " el húngaro. El húngaro es una lengua aglutinante, es decir, las palabras se"
+ },
+ "official_language_025|en": {
+  "prompt": "The official language of Romania is",
+  "gen": " Romanian, and it is the most widely spoken language in the country. However, there are also several minority languages spoken in"
+ },
+ "official_language_025|es": {
+  "prompt": "La lengua oficial de Rumania es",
+  "gen": " el rumano. El rumano es una lengua románica, y se habla en Ruman"
+ },
+ "official_language_026|en": {
+  "prompt": "The official language of Ukraine is",
+  "gen": " Ukrainian, but many people also speak Russian, and some English. The country has a diverse population with a mix of ethnic"
+ },
+ "official_language_026|es": {
+  "prompt": "La lengua oficial de Ucrania es",
+  "gen": " el ucraniano. El ucraniano es una lengua eslavica oriental, que se habla en"
+ },
+ "official_language_027|en": {
+  "prompt": "The official language of Bulgaria is",
+  "gen": " Bulgarian, which is a South Slavic language. It is the most widely spoken language in the country and is used as"
+ },
+ "official_language_027|es": {
+  "prompt": "La lengua oficial de Bulgaria es",
+  "gen": " el búlgaro. El búlgaro es una lengua indo-europea, que se habla"
+ },
+ "official_language_028|en": {
+  "prompt": "The official language of Croatia is",
+  "gen": " Croatian, but many people in the country also speak English, especially among the younger population and those in the tourism industry."
+ },
+ "official_language_028|es": {
+  "prompt": "La lengua oficial de Croacia es",
+  "gen": " el croata. Croacia tiene 4 idiomas oficiales: croata, húngaro, esloven"
+ },
+ "official_language_029|en": {
+  "prompt": "The official language of Serbia is",
+  "gen": " Serbian, but the most widely spoken language is actually Serbian Cyrillic, which is used in formal and official contexts. However"
+ },
+ "official_language_029|es": {
+  "prompt": "La lengua oficial de Serbia es",
+  "gen": " el serbio, aunque el idioma más hablado es el eslavón. El serbio es una leng"
+ },
+ "official_language_030|en": {
+  "prompt": "The official language of Iceland is",
+  "gen": " Icelandic, which is a North Germanic language closely related to Old Norse. Icelandic is the most widely spoken language in Iceland"
+ },
+ "official_language_030|es": {
+  "prompt": "La lengua oficial de Islandia es",
+  "gen": " islandés (íslenska). Esta página se ha escrito en español, pero es posible que haya errores o"
+ },
+ "official_language_031|en": {
+  "prompt": "The official language of Mongolia is",
+  "gen": " Mongolian, but many Mongolians also speak Russian and English. The country has a rich cultural heritage, with a"
+ },
+ "official_language_031|es": {
+  "prompt": "La lengua oficial de Mongolia es",
+  "gen": " el mongol. El mongol es una lengua tibetano-birmana, y se habla"
+ },
+ "official_language_032|en": {
+  "prompt": "The official language of South Korea is",
+  "gen": " Korean, and it is the most widely spoken language in the country. Korean is a unique language with its own writing system"
+ },
+ "official_language_032|es": {
+  "prompt": "La lengua oficial de Corea del Sur es",
+  "gen": " el coreano. El idioma coreano es una lengua aglutinante, con una gran cantidad de palabras"
+ },
+ "official_language_033|en": {
+  "prompt": "The official language of Thailand is",
+  "gen": " Thai, and it is the most widely spoken language in the country. Thai is a member of the Tai-Kadai"
+ },
+ "official_language_033|es": {
+  "prompt": "La lengua oficial de Tailandia es",
+  "gen": " el tailandés. El tailandés es una lengua aglutinante, lo que significa que las palabras"
+ },
+ "official_language_034|en": {
+  "prompt": "The official language of Vietnam is",
+  "gen": " Vietnamese, but English is widely spoken, especially among the younger population and those in the tourism industry. Many Vietnamese people also"
+ },
+ "official_language_034|es": {
+  "prompt": "La lengua oficial de Vietnam es",
+  "gen": " el vietnamita. El idioma vietnamita es una lengua aislada, lo que significa que no"
+ },
+ "official_language_035|en": {
+  "prompt": "The official language of Iran is",
+  "gen": " Persian (also known as Farsi). It is a member of the Indo-European language family and is closely related to other"
+ },
+ "official_language_035|es": {
+  "prompt": "La lengua oficial de Irán es",
+  "gen": " el farsi (también conocido como persa) y el árabe. El farsi es la"
+ },
+ "official_language_036|en": {
+  "prompt": "The official language of Saudi Arabia is",
+  "gen": " Arabic, and it is the language used in most official contexts, including government, education, and media. However, English"
+ },
+ "official_language_036|es": {
+  "prompt": "La lengua oficial de Arabia Saudita es",
+  "gen": " el árabe estándar. El árabe estándar es una variedad del árabe hab"
+ },
+ "official_language_037|en": {
+  "prompt": "The official language of Egypt is",
+  "gen": " Arabic, and the country has a rich cultural heritage that is reflected in its architecture, art, literature, and music."
+ },
+ "official_language_037|es": {
+  "prompt": "La lengua oficial de Egipto es",
+  "gen": " el árabe egipcio, también conocido como el árabe egipcio estándar o á"
+ },
+ "official_language_038|en": {
+  "prompt": "The official language of Libya is",
+  "gen": " Arabic, and the country has a rich cultural heritage that reflects its Mediterranean and African influences. The country's history is marked"
+ },
+ "official_language_038|es": {
+  "prompt": "La lengua oficial de Libia es",
+  "gen": " el árabe libio. El árabe libio es una variedad del árabe nortea"
+ },
+ "official_language_039|en": {
+  "prompt": "The official language of Israel is",
+  "gen": " Hebrew, but many people in Israel also speak English, especially in tourist areas and among the younger population. However, it"
+ },
+ "official_language_039|es": {
+  "prompt": "La lengua oficial de Israel es",
+  "gen": " el hebreo. El hebreo es una lengua semítica que se habla en Israel y en algunas"
+ },
+ "official_language_040|en": {
+  "prompt": "The official language of the Czech Republic is",
+  "gen": " Czech, which is a West Slavic language. It is closely related to Slovak and Polish, and is also influenced by"
+ },
+ "official_language_040|es": {
+  "prompt": "La lengua oficial de la República Checa es",
+  "gen": " el checo, y el checo es una lengua eslavica. La lengua checa tiene una gran"
+ },
+ "official_language_041|en": {
+  "prompt": "The official language of Slovakia is",
+  "gen": " Slovak, but many people also speak English, especially in tourist areas. You can get by with just English, but learning"
+ },
+ "official_language_041|es": {
+  "prompt": "La lengua oficial de Eslovaquia es",
+  "gen": " el eslovaco. El eslovaco es una lengua indo-europea, que pertenece a la"
+ },
+ "official_language_042|en": {
+  "prompt": "The official language of Slovenia is",
+  "gen": " Slovene, but many Slovenians also speak English, German, Italian, and Hungarian. The country has a diverse population"
+ },
+ "official_language_042|es": {
+  "prompt": "La lengua oficial de Eslovenia es",
+  "gen": " el esloveno. El esloveno es una lengua indo-europea, que se habla en Es"
+ },
+ "official_language_043|en": {
+  "prompt": "The official language of Estonia is",
+  "gen": " Estonian, a Finno-Ugric language closely related to Finnish and Hungarian. The language is spoken by approximately "
+ },
+ "official_language_043|es": {
+  "prompt": "La lengua oficial de Estonia es",
+  "gen": " el estonio, aunque el ruso también es ampliamente utilizado y es la segunda lengua más hablada"
+ },
+ "official_language_044|en": {
+  "prompt": "The official language of Latvia is",
+  "gen": " Latvian, but many people in the country also speak English, Russian, and other languages. The capital city of"
+ },
+ "official_language_044|es": {
+  "prompt": "La lengua oficial de Letonia es",
+  "gen": " el latín, pero en la actualidad se habla el idioma báltico de Letonia, que se"
+ },
+ "official_language_045|en": {
+  "prompt": "The official language of Lithuania is",
+  "gen": " Lithuanian, but many people also speak English, Russian, and Polish. The capital city is Vilnius,"
+ },
+ "official_language_045|es": {
+  "prompt": "La lengua oficial de Lituania es",
+  "gen": " el lituano. El lituano es una lengua báltica, que se habla en Litu"
+ },
+ "official_language_046|en": {
+  "prompt": "The official language of Nepal is",
+  "gen": " Nepali, but English is widely spoken and used as a second language. Many Nepalis also speak other languages such as"
+ },
+ "official_language_046|es": {
+  "prompt": "La lengua oficial de Nepal es",
+  "gen": " el nepalí. El nepalí es una lengua indoaria, y se habla en Nepal y en"
+ },
+ "official_language_047|en": {
+  "prompt": "The official language of Bangladesh is",
+  "gen": " Bengali, and it is the most widely spoken language in the country. However, English is also widely spoken, particularly"
+ },
+ "official_language_047|es": {
+  "prompt": "La lengua oficial de Bangladés es",
+  "gen": " el bengalí. El bengalí es una lengua indígena de la familia de las"
+ },
+ "official_language_048|en": {
+  "prompt": "The official language of Indonesia is",
+  "gen": " Indonesian, also known as Bahasa Indonesia. It is the national language and is used as the primary language in government,"
+ },
+ "official_language_048|es": {
+  "prompt": "La lengua oficial de Indonesia es",
+  "gen": " el indonesio, también conocido como bahasa Indonesia. Es el idioma más hablado en el país"
+ },
+ "official_language_049|en": {
+  "prompt": "The official language of Albania is",
+  "gen": " Albanian, but many people also speak Italian, Greek, and Turkish. The country has a rich cultural heritage, with"
+ },
+ "official_language_049|es": {
+  "prompt": "La lengua oficial de Albania es",
+  "gen": " el albanés. El albanés es una lengua indoeuropea, y se habla en Albania"
+ },
+ "official_language_050|en": {
+  "prompt": "The official language of Georgia is",
+  "gen": " English, but the most widely spoken language is Georgian, which is the country's national language. The country has a diverse"
+ },
+ "official_language_050|es": {
+  "prompt": "La lengua oficial de Georgia es",
+  "gen": " el georgiano. El georgiano es una lengua aislada, lo que significa que no se relacion"
+ },
+ "official_language_051|en": {
+  "prompt": "The official language of Armenia is",
+  "gen": " Armenian, and it is a member of the Indo-European language family. Armenian is a unique language with its own alphabet,"
+ },
+ "official_language_051|es": {
+  "prompt": "La lengua oficial de Armenia es",
+  "gen": " el armenio. El idioma armenio es una lengua aglutinante, con una gran cantidad"
+ },
+ "profession_000|en": {
+  "prompt": "Albert Einstein was a famous",
+  "gen": " physicist who is widely regarded as one of the most influential scientists of the 20th century. He is best known for"
+ },
+ "profession_000|es": {
+  "prompt": "Albert Einstein fue un famoso",
+  "gen": " físico teórico alemán. Nació el 14 de marzo de 1879 en Ulm"
+ },
+ "profession_001|en": {
+  "prompt": "Stephen Hawking was a famous",
+  "gen": " British theoretical physicist and cosmologist who made groundbreaking contributions to our understanding of the universe. He was born on January 8"
+ },
+ "profession_001|es": {
+  "prompt": "Stephen Hawking fue un famoso",
+  "gen": " físico y cosmólogo británico que hizo contribuciones significativas a nuestra comprensión del universo."
+ },
+ "profession_002|en": {
+  "prompt": "Pablo Picasso was a famous",
+  "gen": " Spanish artist who is widely regarded as one of the greatest painters of the 20th century. He is best known for"
+ },
+ "profession_002|es": {
+  "prompt": "Pablo Picasso fue un famoso",
+  "gen": " pintor español, nacido en Málaga, España en 1881. Fue uno de los artist"
+ },
+ "profession_003|en": {
+  "prompt": "Vincent van Gogh was a famous",
+  "gen": " Dutch post-impressionist painter. He is known for his bold and expressive paintings of landscapes, still lifes, and portraits"
+ },
+ "profession_003|es": {
+  "prompt": "Vincent van Gogh fue un famoso",
+  "gen": " pintor postimpresionista holandés. Nació el 30 de marzo de 1853 en"
+ },
+ "profession_004|en": {
+  "prompt": "Claude Monet was a famous",
+  "gen": " French painter and one of the leaders of the Impressionist movement. He is best known for his paintings of landscapes,"
+ },
+ "profession_004|es": {
+  "prompt": "Claude Monet fue un famoso",
+  "gen": " pintor francés que vivió en el siglo XIX. Fue conocido por sus paisajes impresion"
+ },
+ "profession_005|en": {
+  "prompt": "Salvador Dalí was a famous",
+  "gen": " Spanish surrealist artist known for his striking and bizarre paintings. He was born on May 11, 1904,"
+ },
+ "profession_005|es": {
+  "prompt": "Salvador Dalí fue un famoso",
+  "gen": " pintor español, conocido por sus obras surrealistas. A continuación, te presento algunos datos interesantes sobre"
+ },
+ "profession_006|en": {
+  "prompt": "Mozart was a famous",
+  "gen": " composer, and his music is still widely performed and admired today. He was born in Salzburg, Austria in 175"
+ },
+ "profession_006|es": {
+  "prompt": "Mozart fue un famoso",
+  "gen": " compositor alemán. Mozart fue un compositor de música clásica. Mozart fue un compositor de música"
+ },
+ "profession_007|en": {
+  "prompt": "Beethoven was a famous",
+  "gen": " German composer and pianist. He is widely regarded as one of the most significant figures in the history of classical music."
+ },
+ "profession_007|es": {
+  "prompt": "Beethoven fue un famoso",
+  "gen": " compositor alemán del siglo XVIII. Fue conocido por sus sinfonías, conciertos"
+ },
+ "profession_008|en": {
+  "prompt": "Bach was a famous",
+  "gen": " German composer and organist of the Baroque period. He was born in Eisenach, Germany in 1685 and"
+ },
+ "profession_008|es": {
+  "prompt": "Bach fue un famoso",
+  "gen": " compositor barroco alemán. Fue conocido por sus obras maestras como \"Cantatas"
+ },
+ "profession_009|en": {
+  "prompt": "William Shakespeare was a famous",
+  "gen": " English playwright and poet who lived from 1564 to 1616. He is widely regarded as one of the greatest"
+ },
+ "profession_009|es": {
+  "prompt": "William Shakespeare fue un famoso",
+  "gen": " escritor y dramaturgo inglés, conocido por sus obras maestras como \"Romeo y Juli"
+ },
+ "profession_010|en": {
+  "prompt": "Charles Dickens was a famous",
+  "gen": " English novelist, journalist, and social commentator. He is best known for his novels such as \"Oliver Twist\", \""
+ },
+ "profession_010|es": {
+  "prompt": "Charles Dickens fue un famoso",
+  "gen": " escritor inglés del siglo XIX. Nació en 1812 en Portsmouth, Inglaterra,"
+ },
+ "profession_011|en": {
+  "prompt": "Leo Tolstoy was a famous",
+  "gen": " Russian novelist, philosopher, and social reformer. He is best known for his novels \"War and Peace\" and \""
+ },
+ "profession_011|es": {
+  "prompt": "León Tolstói fue un famoso",
+  "gen": " escritor ruso, conocido por sus obras maestras como \"Guerra y Paz\" y \"Anna Karen"
+ },
+ "profession_012|en": {
+  "prompt": "Jane Austen was a famous",
+  "gen": " English novelist known for her works of romantic fiction, particularly \"Pride and Prejudice\" and \"Sense and Sens"
+ },
+ "profession_012|es": {
+  "prompt": "Jane Austen fue un famoso",
+  "gen": " escritor inglés que vivió en el siglo XVIII. Es conocida por sus novelas románticas"
+ },
+ "profession_013|en": {
+  "prompt": "Rabindranath Tagore was a famous",
+  "gen": " Indian poet, philosopher, and playwright. He was born on May 7, 1861, in Calcutta"
+ },
+ "profession_013|es": {
+  "prompt": "Rabindranath Tagore fue un famoso",
+  "gen": " poeta y escritor indio. Nació el 7 de mayo de 1861 en Calcuta"
+ },
+ "profession_014|en": {
+  "prompt": "Pablo Neruda was a famous",
+  "gen": " Chilean poet, politician, and diplomat. He is widely regarded as one of the greatest poets of the 20th"
+ },
+ "profession_014|es": {
+  "prompt": "Pablo Neruda fue un famoso",
+  "gen": " poeta chileno. Fue el poeta nacional de Chile y uno de los más importantes de la literatura"
+ },
+ "profession_015|en": {
+  "prompt": "Lionel Messi was a famous",
+  "gen": " footballer who played for Barcelona and the Argentina national team. He is widely regarded as one of the greatest footballers of"
+ },
+ "profession_015|es": {
+  "prompt": "Lionel Messi fue un famoso",
+  "gen": " futbolista argentino que jugó para el club de fútbol FC Barcelona y la selección nacional de Argentina"
+ },
+ "profession_016|en": {
+  "prompt": "Cristiano Ronaldo was a famous",
+  "gen": " Portuguese footballer who played for several top-tier clubs, including Manchester United, Real Madrid, and Juventus. He is widely"
+ },
+ "profession_016|es": {
+  "prompt": "Cristiano Ronaldo fue un famoso",
+  "gen": " futbolista portugués que jugó para el Manchester United, Real Madrid, y Juventus. Fue conocido por"
+ },
+ "profession_017|en": {
+  "prompt": "Pelé was a famous",
+  "gen": " Brazilian footballer who played for the Brazilian national team and is widely regarded as one of the greatest footballers of all time"
+ },
+ "profession_017|es": {
+  "prompt": "Pelé fue un famoso",
+  "gen": " fútbolista brasileño que jugó para el Santos FC y el New York Cosmos. Fue conocido"
+ },
+ "profession_018|en": {
+  "prompt": "Diego Maradona was a famous",
+  "gen": " Argentine footballer who played for several clubs, including Barcelona, Napoli, and Sevilla. He is widely regarded as one of"
+ },
+ "profession_018|es": {
+  "prompt": "Diego Maradona fue un famoso",
+  "gen": " futbolista argentino que jugó en el fútbol profesional durante más de 20 años. Fue conoc"
+ },
+ "profession_019|en": {
+  "prompt": "Sachin Tendulkar was a famous",
+  "gen": " Indian cricketer who played for the Indian national cricket team from 1989 to 2013. He is widely"
+ },
+ "profession_019|es": {
+  "prompt": "Sachin Tendulkar fue un famoso",
+  "gen": " jugador de cricket de India. Nació el 24 de abril de 1973 en Mumbai, India. Es"
+ },
+ "profession_020|en": {
+  "prompt": "Virat Kohli was a famous",
+  "gen": " Indian cricketer who played for the Indian national cricket team. He was born on November 5, 1988"
+ },
+ "profession_020|es": {
+  "prompt": "Virat Kohli fue un famoso",
+  "gen": " jugador de cricket de India. Nació el 5 de noviembre de 1988 en Delhi, India."
+ },
+ "profession_021|en": {
+  "prompt": "Galileo Galilei was a famous",
+  "gen": " Italian astronomer, physicist, and mathematician who lived from 1564 to 1642. He is widely recognized"
+ },
+ "profession_021|es": {
+  "prompt": "Galileo Galilei fue un famoso",
+  "gen": " astrónomo y físico italiano del siglo XVI y XVII. Fue un pionero en la ci"
+ },
+ "profession_022|en": {
+  "prompt": "Nicolaus Copernicus was a famous",
+  "gen": " astronomer who lived in the 16th century. He is best known for his theory of the heliocentric model"
+ },
+ "profession_022|es": {
+  "prompt": "Nicolás Copérnico fue un famoso",
+  "gen": " astrónomo polaco que vivió en el siglo XVI. Fue un pionero en la teoría"
+ },
+ "profession_023|en": {
+  "prompt": "Pythagoras was a famous",
+  "gen": " Greek philosopher and mathematician who lived in the 6th century BC. He is best known for his theorem, which"
+ },
+ "profession_023|es": {
+  "prompt": "Pitágoras fue un famoso",
+  "gen": " matemático griego que vivió en el siglo V a.C. Es conocido por su teoría de"
+ },
+ "profession_024|en": {
+  "prompt": "Euclid was a famous",
+  "gen": " ancient Greek mathematician who lived in Alexandria, Egypt. He is best known for his book \"Elements,\" which is one"
+ },
+ "profession_024|es": {
+  "prompt": "Euclides fue un famoso",
+  "gen": " matemático griego que vivió en el siglo V a.C. Es conocido por su obra \"Element"
+ },
+ "profession_025|en": {
+  "prompt": "Aristotle was a famous",
+  "gen": " ancient Greek philosopher who made significant contributions to various fields, including philosophy, science, and ethics. He was born in "
+ },
+ "profession_025|es": {
+  "prompt": "Aristóteles fue un famoso",
+  "gen": " filósofo griego que vivió en el siglo IV a.C. Es conocido por sus contribuciones"
+ },
+ "profession_026|en": {
+  "prompt": "Plato was a famous",
+  "gen": " Greek philosopher who lived in the 5th and 4th centuries BCE. He was born in Athens, Greece,"
+ },
+ "profession_026|es": {
+  "prompt": "Platón fue un famoso",
+  "gen": " filósofo griego que vivió en el siglo V a.C. Es conocido por sus obras fil"
+ },
+ "profession_027|en": {
+  "prompt": "Socrates was a famous",
+  "gen": " ancient Greek philosopher who lived from 469/470 BCE to 399 BCE. He is widely regarded as one of the"
+ },
+ "profession_027|es": {
+  "prompt": "Sócrates fue un famoso",
+  "gen": " filósofo griego que vivió en el siglo V a.C. Es conocido por su método de"
+ },
+ "profession_028|en": {
+  "prompt": "Confucius was a famous",
+  "gen": " Chinese philosopher and politician who lived from 551 to 479 BCE. He is considered one of the most influential thinkers in"
+ },
+ "profession_028|es": {
+  "prompt": "Confucio fue un famoso",
+  "gen": " filósofo chino que vivió en el siglo VI a.C. y fue conocido por sus ense"
+ },
+ "profession_029|en": {
+  "prompt": "Immanuel Kant was a famous",
+  "gen": " German philosopher who lived from 1724 to 1804. He is widely regarded as one of the most influential thinkers"
+ },
+ "profession_029|es": {
+  "prompt": "Immanuel Kant fue un famoso",
+  "gen": " filósofo alemán del siglo XVIII. Fue un destacado representante del idealismo a"
+ },
+ "profession_030|en": {
+  "prompt": "Adam Smith was a famous",
+  "gen": " Scottish philosopher and economist who is widely regarded as the father of modern capitalism. He is best known for his book \"The"
+ },
+ "profession_030|es": {
+  "prompt": "Adam Smith fue un famoso",
+  "gen": " economista escocés que vivió en el siglo XVIII. Es conocido por su libro \"La r"
+ },
+ "profession_031|en": {
+  "prompt": "Thomas Edison was a famous",
+  "gen": " American inventor and businessman who developed many important technologies, including the phonograph, the motion picture camera, and the first practical"
+ },
+ "profession_031|es": {
+  "prompt": "Thomas Edison fue un famoso",
+  "gen": " inventor y empresario estadounidense. Es conocido por desarrollar y patentar muchas tecnologías innovadoras"
+ },
+ "profession_032|en": {
+  "prompt": "Alexander Graham Bell was a famous",
+  "gen": " inventor and scientist who is credited with inventing the first practical telephone. He was born on March 3, 184"
+ },
+ "profession_032|es": {
+  "prompt": "Alexander Graham Bell fue un famoso",
+  "gen": " inventor y científico escocés-canadiense. Es conocido por inventar el teléfono, pero también"
+ },
+ "profession_033|en": {
+  "prompt": "Neil Armstrong was a famous",
+  "gen": " American astronaut who became the first person to walk on the moon in 1969. He was a naval aviator in"
+ },
+ "profession_033|es": {
+  "prompt": "Neil Armstrong fue un famoso",
+  "gen": " piloto de aviones y astronauta estadounidense que se convirtió en el primer hombre en caminar"
+ },
+ "profession_034|en": {
+  "prompt": "Elvis Presley was a famous",
+  "gen": " American singer, musician, and actor. He is often referred to as the \"King of Rock and Roll.\" Elvis was"
+ },
+ "profession_034|es": {
+  "prompt": "Elvis Presley fue un famoso",
+  "gen": " cantante, compositor y actor estadounidense. Nació el 8 de enero de 193"
+ },
+ "profession_035|en": {
+  "prompt": "Michael Jackson was a famous",
+  "gen": " singer, songwriter, and dancer. He was known as the \"King of Pop\" and is widely regarded as one of"
+ },
+ "profession_035|es": {
+  "prompt": "Michael Jackson fue un famoso",
+  "gen": " cantante, compositor y bailarín estadouniense. Nació el 29 de agosto de "
+ },
+ "profession_036|en": {
+  "prompt": "Freddie Mercury was a famous",
+  "gen": " British singer, songwriter, and record producer. He was the lead vocalist and a co-founder of the rock band Queen."
+ },
+ "profession_036|es": {
+  "prompt": "Freddie Mercury fue un famoso",
+  "gen": " cantante y compositor británico, conocido por su voz poderosa y habilidades vocales excepcionales"
+ },
+ "profession_037|en": {
+  "prompt": "Lata Mangeshkar was a famous",
+  "gen": " Indian playback singer who was born on September 28, 1929, in Varanasi, India. She was"
+ },
+ "profession_037|es": {
+  "prompt": "Lata Mangeshkar fue un famoso",
+  "gen": " cantante de canto clásico y playback de Bollywood. Nació el 28 de septiembre de "
+ }
+}

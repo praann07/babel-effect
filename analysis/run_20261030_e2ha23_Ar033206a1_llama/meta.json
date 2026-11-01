@@ -1,0 +1,761 @@
+{
+ "pairs": [
+  {
+   "target": "official_language_013",
+   "source": "official_language_047",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_013",
+   "source": "official_language_047",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_036",
+   "source": "official_language_018",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_036",
+   "source": "official_language_018",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_040",
+   "source": "official_language_047",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_040",
+   "source": "official_language_047",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_010",
+   "source": "official_language_013",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_010",
+   "source": "official_language_013",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_047",
+   "source": "official_language_036",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_047",
+   "source": "official_language_036",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_038",
+   "source": "official_language_012",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_038",
+   "source": "official_language_012",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_040",
+   "source": "official_language_013",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_040",
+   "source": "official_language_013",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_008",
+   "source": "official_language_033",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_008",
+   "source": "official_language_033",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_040",
+   "source": "official_language_010",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_040",
+   "source": "official_language_010",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_008",
+   "source": "official_language_036",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_008",
+   "source": "official_language_036",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_012",
+   "source": "official_language_033",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_012",
+   "source": "official_language_033",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_047",
+   "source": "official_language_009",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_047",
+   "source": "official_language_009",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_041",
+   "source": "official_language_036",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_041",
+   "source": "official_language_036",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_018",
+   "source": "official_language_009",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_018",
+   "source": "official_language_009",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_047",
+   "source": "official_language_038",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_047",
+   "source": "official_language_038",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_013",
+   "source": "official_language_010",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_013",
+   "source": "official_language_010",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_011",
+   "source": "official_language_033",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_011",
+   "source": "official_language_033",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_036",
+   "source": "official_language_041",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_036",
+   "source": "official_language_041",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_036",
+   "source": "official_language_040",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_036",
+   "source": "official_language_040",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_011",
+   "source": "official_language_040",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_011",
+   "source": "official_language_040",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_018",
+   "source": "official_language_012",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_018",
+   "source": "official_language_012",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_033",
+   "source": "official_language_012",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_033",
+   "source": "official_language_012",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_036",
+   "source": "official_language_047",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_036",
+   "source": "official_language_047",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_041",
+   "source": "official_language_033",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_041",
+   "source": "official_language_033",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_010",
+   "source": "official_language_040",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_010",
+   "source": "official_language_040",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_013",
+   "source": "official_language_040",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_013",
+   "source": "official_language_040",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_018",
+   "source": "official_language_040",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_018",
+   "source": "official_language_040",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_012",
+   "source": "official_language_013",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_012",
+   "source": "official_language_013",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_009",
+   "source": "official_language_038",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_009",
+   "source": "official_language_038",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_013",
+   "source": "official_language_036",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_013",
+   "source": "official_language_036",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_038",
+   "source": "official_language_047",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_038",
+   "source": "official_language_047",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_011",
+   "source": "official_language_047",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_011",
+   "source": "official_language_047",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_040",
+   "source": "official_language_008",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_040",
+   "source": "official_language_008",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_038",
+   "source": "official_language_008",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_038",
+   "source": "official_language_008",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_041",
+   "source": "official_language_038",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_041",
+   "source": "official_language_038",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_010",
+   "source": "official_language_033",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_010",
+   "source": "official_language_033",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_047",
+   "source": "official_language_040",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_047",
+   "source": "official_language_040",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_018",
+   "source": "official_language_011",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_018",
+   "source": "official_language_011",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_038",
+   "source": "official_language_040",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_038",
+   "source": "official_language_040",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_008",
+   "source": "official_language_018",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_008",
+   "source": "official_language_018",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_011",
+   "source": "official_language_013",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_011",
+   "source": "official_language_013",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_008",
+   "source": "official_language_013",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_008",
+   "source": "official_language_013",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_009",
+   "source": "official_language_018",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_009",
+   "source": "official_language_018",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_009",
+   "source": "official_language_036",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_009",
+   "source": "official_language_036",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_033",
+   "source": "official_language_018",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_033",
+   "source": "official_language_018",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_010",
+   "source": "official_language_018",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_010",
+   "source": "official_language_018",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_009",
+   "source": "official_language_047",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_009",
+   "source": "official_language_047",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_041",
+   "source": "official_language_018",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_041",
+   "source": "official_language_018",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_033",
+   "source": "official_language_036",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_033",
+   "source": "official_language_036",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_012",
+   "source": "official_language_036",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_012",
+   "source": "official_language_036",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_012",
+   "source": "official_language_040",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_012",
+   "source": "official_language_040",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_033",
+   "source": "official_language_013",
+   "direction": "en2hi",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  },
+  {
+   "target": "official_language_033",
+   "source": "official_language_013",
+   "direction": "hi2en",
+   "relation": "official_language",
+   "jaccard_source": 0.0
+  }
+ ],
+ "conds": [
+  "same",
+  "cross",
+  "self",
+  "ctrl"
+ ],
+ "sites": [
+  "A",
+  "B"
+ ],
+ "n_layers": 28,
+ "seed": 20261024,
+ "n_facts": 13,
+ "pilot": 0,
+ "langs": [
+  "en",
+  "hi"
+ ],
+ "facts_file": "data/v2/e2ha23_facts_llama.json",
+ "max_pairs": 200,
+ "directions": [
+  "en2hi",
+  "hi2en"
+ ],
+ "shuffle_pairs": true,
+ "k_src": 4,
+ "span_mode": "end",
+ "dtype": "torch.float16",
+ "shard": "0/1"
+}

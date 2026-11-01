@@ -1,0 +1,38 @@
+
+=== attempt 1: /usr/bin/python3 code/e2_filter.py --model llama --set a23 --tag e2a23filterr031350a1
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:01<05:27,  1.29s/it]Loading weights:  37%|███▋      | 93/254 [00:01<00:01, 89.57it/s]Loading weights:  54%|█████▎    | 136/254 [00:01<00:01, 93.44it/s]Loading weights:  65%|██████▍   | 164/254 [00:02<00:00, 90.82it/s]Loading weights:  72%|███████▏  | 184/254 [00:02<00:00, 79.66it/s]Loading weights:  79%|███████▉  | 201/254 [00:02<00:00, 88.45it/s]Loading weights:  85%|████████▌ | 216/254 [00:02<00:00, 89.34it/s]Loading weights:  91%|█████████ | 230/254 [00:03<00:00, 84.11it/s]Loading weights:  95%|█████████▌| 242/254 [00:03<00:00, 89.16it/s]Loading weights: 100%|██████████| 254/254 [00:03<00:00, 79.08it/s]
+{
+ "book_author": {
+  "tune_n": 8,
+  "tune_en": 8,
+  "tune_es": 7,
+  "eval_n": 21,
+  "eval_both": 13,
+  "template_ok": true
+ },
+ "currency": {
+  "tune_n": 8,
+  "tune_en": 0,
+  "tune_es": 8,
+  "eval_n": 23,
+  "eval_both": 8,
+  "template_ok": false
+ },
+ "official_language": {
+  "tune_n": 8,
+  "tune_en": 7,
+  "tune_es": 7,
+  "eval_n": 44,
+  "eval_both": 40,
+  "template_ok": true
+ },
+ "profession": {
+  "tune_n": 8,
+  "tune_en": 2,
+  "tune_es": 8,
+  "eval_n": 30,
+  "eval_both": 4,
+  "template_ok": false
+ }
+}
+kept 53

@@ -1,0 +1,4 @@
+
+=== attempt 1: /usr/bin/python3 code/e2_analysis.py --models llama --langs en,hi --sites A --exclude-leak --llama-run analysis/run_20261030_e2ha23_Ar190223a1_llama --tag e2ha23_analysis_leakfreer191214a1
+llama {'en2hi': (4, None, True), 'hi2en': (4, None, True)}
+wrote analysis/run_20261030_e2ha23_analysis_leakfreer191214a1

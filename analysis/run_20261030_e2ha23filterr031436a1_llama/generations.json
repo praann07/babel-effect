@@ -1,0 +1,1202 @@
+{
+ "book_author_000|en": {
+  "prompt": "Hamlet was written by",
+  "gen": " William Shakespeare around 1599-1602. It is a tragedy that tells the story of Prince Hamlet's quest"
+ },
+ "book_author_000|hi": {
+  "prompt": "प्रश्न: हैमलेट के लेखक कौन हैं?\nउत्तर:",
+  "gen": " विलियम शेक्सपियर हैमलेट के लेखक हैं। \nशब्द:"
+ },
+ "book_author_001|en": {
+  "prompt": "Romeo and Juliet was written by",
+  "gen": " William Shakespeare around 1595-1596. It is a tragic love story about two young lovers from feuding families"
+ },
+ "book_author_001|hi": {
+  "prompt": "प्रश्न: रोमियो और जूलियट के लेखक कौन हैं?\nउत्तर:",
+  "gen": " विलियम शेक्सपियर ने रोमियो और जूलियट की रचना"
+ },
+ "book_author_002|en": {
+  "prompt": "Macbeth was written by",
+  "gen": " William Shakespeare around 1606. The play is a tragedy that tells the story of Macbeth, a Scottish nobleman"
+ },
+ "book_author_002|hi": {
+  "prompt": "प्रश्न: मैकबेथ के लेखक कौन हैं?\nउत्तर:",
+  "gen": " मैकबेथ के लेखक मिल्टन शुलर हैं।\nमैकबेथ"
+ },
+ "book_author_003|en": {
+  "prompt": "Othello was written by",
+  "gen": " William Shakespeare around 1603. It is a tragedy that tells the story of Othello, a Moorish general"
+ },
+ "book_author_003|hi": {
+  "prompt": "प्रश्न: ओथेलो के लेखक कौन हैं?\nउत्तर:",
+  "gen": " ओथेलो के लेखक विलियम शेक्सपियर हैं।\n\n\nशेक्सप"
+ },
+ "book_author_004|en": {
+  "prompt": "Pride and Prejudice was written by",
+  "gen": " Jane Austen and published in 1813. It is a classic romance novel that follows the lives of the Bennett sisters"
+ },
+ "book_author_004|hi": {
+  "prompt": "प्रश्न: प्राइड एंड प्रेजुडिस के लेखक कौन हैं?\nउत्तर:",
+  "gen": " प्राइड एंड प्रेजुडिस के लेखक जॉर्ज ऑरवेल हैं।\n"
+ },
+ "book_author_005|en": {
+  "prompt": "Oliver Twist was written by",
+  "gen": " Charles Dickens in 1838. The novel is a classic tale of a young orphan boy who is born in a work"
+ },
+ "book_author_005|hi": {
+  "prompt": "प्रश्न: ओलिवर ट्विस्ट के लेखक कौन हैं?\nउत्तर:",
+  "gen": " ओलिवर ट्विस्ट के लेखक चार्ल्स डिकेंस हैं।\n\n\nच"
+ },
+ "book_author_006|en": {
+  "prompt": "Great Expectations was written by",
+  "gen": " Charles Dickens in 1861. The novel is a classic tale of love, redemption, and the complexities of the human"
+ },
+ "book_author_006|hi": {
+  "prompt": "प्रश्न: ग्रेट एक्सपेक्टेशंस के लेखक कौन हैं?\nउत्तर:",
+  "gen": " जॉर्ज ऑरवेल हैं।\nप्रश्न: ग्रेट एक्सपेक्टेशंस क"
+ },
+ "book_author_007|en": {
+  "prompt": "War and Peace was written by",
+  "gen": " Leo Tolstoy, a Russian novelist, in the early 19th century. The novel is considered one of the"
+ },
+ "book_author_007|hi": {
+  "prompt": "प्रश्न: युद्ध और शांति के लेखक कौन हैं?\nउत्तर:",
+  "gen": " युद्ध और शांति के लेखक जॉन हैरिसन हैं।\nप्रश्न"
+ },
+ "book_author_008|en": {
+  "prompt": "Anna Karenina was written by",
+  "gen": " Leo Tolstoy in 1877. It is a novel that explores the tragic love affair between Anna Karenina and"
+ },
+ "book_author_008|hi": {
+  "prompt": "प्रश्न: अन्ना कारेनिना के लेखक कौन हैं?\nउत्तर:",
+  "gen": " अन्ना कारेनिना के लेखक जॉर्ज एली हैरिस हैं।\nप"
+ },
+ "book_author_009|en": {
+  "prompt": "Crime and Punishment was written by",
+  "gen": " Fyodor Dostoevsky in 1866. The novel is a psychological study of a young man named R"
+ },
+ "book_author_009|hi": {
+  "prompt": "प्रश्न: अपराध और दंड के लेखक कौन हैं?\nउत्तर:",
+  "gen": " अपराध और दंड के लेखक जेफरी सी. जैक्सन हैं।\nप"
+ },
+ "book_author_010|en": {
+  "prompt": "Les Misérables was written by",
+  "gen": " Victor Hugo in 1862. The novel is set in France during the June Rebellion of 1832. The story"
+ },
+ "book_author_010|hi": {
+  "prompt": "प्रश्न: ले मिजरेबल्स के लेखक कौन हैं?\nउत्तर:",
+  "gen": " ले मिजरेबल्स के लेखक जॉर्ज सैमुअल लोक्ल"
+ },
+ "book_author_011|en": {
+  "prompt": "The Odyssey was written by",
+  "gen": " Homer, an ancient Greek poet, around 800 BC. The epic poem tells the story of Odysseus,"
+ },
+ "book_author_011|hi": {
+  "prompt": "प्रश्न: ओडिसी के लेखक कौन हैं?\nउत्तर:",
+  "gen": " ओडिसी के लेखक ओडिसी के प्रसिद्ध लेखकों म"
+ },
+ "book_author_012|en": {
+  "prompt": "The Iliad was written by",
+  "gen": " Homer, an ancient Greek poet, around 800 BC. The epic poem tells the story of the Trojan War, a"
+ },
+ "book_author_012|hi": {
+  "prompt": "प्रश्न: इलियड के लेखक कौन हैं?\nउत्तर:",
+  "gen": " इलियड के लेखक होमर हैं।\nप्रश्न: इलियड का क्य"
+ },
+ "book_author_013|en": {
+  "prompt": "The Divine Comedy was written by",
+  "gen": " Dante Alighieri in the 14th century. It is an epic poem that tells the story of Dante's journey"
+ },
+ "book_author_013|hi": {
+  "prompt": "प्रश्न: द डिवाइन कॉमेडी के लेखक कौन हैं?\nउत्तर:",
+  "gen": " द डिवाइन कॉमेडी के लेखक माइकल मैकडोनाल्ड हैं।\n"
+ },
+ "book_author_014|en": {
+  "prompt": "Faust was written by",
+  "gen": " Johann Wolfgang von Goethe in 1808. It is a tragedy that tells the story of a scholar who sells his"
+ },
+ "book_author_014|hi": {
+  "prompt": "प्रश्न: फ़ॉस्ट के लेखक कौन हैं?\nउत्तर:",
+  "gen": " फ़ॉस्ट के लेखक जॉन ग्रीनले हैं।\nप्रश्न: फ"
+ },
+ "book_author_015|en": {
+  "prompt": "Frankenstein was written by",
+  "gen": " Mary Shelley in 1818. The novel is a classic tale of horror and science, exploring the themes of creation,"
+ },
+ "book_author_015|hi": {
+  "prompt": "प्रश्न: फ्रैंकेनस्टाइन के लेखक कौन हैं?\nउत्तर:",
+  "gen": " मैरी शेली हैं फ्रैंकेनस्टाइन के लेखक। \nफ"
+ },
+ "book_author_016|en": {
+  "prompt": "Dracula was written by",
+  "gen": " Bram Stoker in 1897. The novel is a classic tale of horror and suspense, and it has been widely"
+ },
+ "book_author_016|hi": {
+  "prompt": "प्रश्न: ड्रैकुला के लेखक कौन हैं?\nउत्तर:",
+  "gen": " ड्रैकुला के लेखक ब्रिटिश लेखक ब्रेनन हिल क"
+ },
+ "book_author_017|en": {
+  "prompt": "Animal Farm was written by",
+  "gen": " George Orwell in 1945. The story is an allegory of the Russian Revolution and the rise of Stalinism."
+ },
+ "book_author_017|hi": {
+  "prompt": "प्रश्न: एनिमल फार्म के लेखक कौन हैं?\nउत्तर:",
+  "gen": " एनिमल फार्म के लेखक जॉन हैरिसन हैं।\nप्रश्न: एन"
+ },
+ "book_author_018|en": {
+  "prompt": "Moby-Dick was written by",
+  "gen": " Herman Melville in 1851. The novel is an epic tale of obsession, revenge, and the human condition,"
+ },
+ "book_author_018|hi": {
+  "prompt": "प्रश्न: मोबी डिक के लेखक कौन हैं?\nउत्तर:",
+  "gen": " मोबी डिक के लेखक जॉर्ज सेल्विग हैं।\nप्रश्न: म"
+ },
+ "book_author_019|en": {
+  "prompt": "The Great Gatsby was written by",
+  "gen": " F. Scott Fitzgerald, published in 1925. The novel is set in the 1920s in New York"
+ },
+ "book_author_019|hi": {
+  "prompt": "प्रश्न: द ग्रेट गैट्सबी के लेखक कौन हैं?\nउत्तर:",
+  "gen": " फ. स्कॉट फिट्जगेराल्ड हैं द ग्रेट गैट्सबी क"
+ },
+ "book_author_020|en": {
+  "prompt": "The Old Man and the Sea was written by",
+  "gen": " Ernest Hemingway in 1952. The novel is a classic tale of perseverance, courage, and the human struggle"
+ },
+ "book_author_020|hi": {
+  "prompt": "प्रश्न: द ओल्ड मैन एंड द सी के लेखक कौन हैं?\nउत्तर:",
+  "gen": " रॉबर्ट लुईस स्टीवंसन हैं\nप्रश्न: द ओल्ड म"
+ },
+ "book_author_021|en": {
+  "prompt": "Alice's Adventures in Wonderland was written by",
+  "gen": " Lewis Carroll, a pen name of Charles Lutwidge Dodgson. The story was first published in 186"
+ },
+ "book_author_021|hi": {
+  "prompt": "प्रश्न: एलिस इन वंडरलैंड के लेखक कौन हैं?\nउत्तर:",
+  "gen": " एलिस इन वंडरलैंड के लेखक लुईस कैरोल हैं।\nप्रश्न"
+ },
+ "book_author_022|en": {
+  "prompt": "Gulliver's Travels was written by",
+  "gen": " Jonathan Swift, an Anglo-Irish satirist, in 1726. The novel is a satirical journey of"
+ },
+ "book_author_022|hi": {
+  "prompt": "प्रश्न: गुलिवर्स ट्रैवल्स के लेखक कौन हैं?\nउत्तर:",
+  "gen": " गुलिवर्स ट्रैवल्स के लेखक अलेक्जेंडर सोल्ज़े"
+ },
+ "book_author_023|en": {
+  "prompt": "Robinson Crusoe was written by",
+  "gen": " Daniel Defoe in 1719. It is considered one of the first English novels and a classic of English literature."
+ },
+ "book_author_023|hi": {
+  "prompt": "प्रश्न: रॉबिन्सन क्रूसो के लेखक कौन हैं?\nउत्तर:",
+  "gen": " डैनियल डेफो\nप्रश्न: रॉबिन्सन क्रूसो का"
+ },
+ "book_author_024|en": {
+  "prompt": "Gitanjali was written by",
+  "gen": " Rabindranath Tagore in 1910. It is a collection of 103 poems that explore the themes of"
+ },
+ "book_author_024|hi": {
+  "prompt": "प्रश्न: गीतांजलि के लेखक कौन हैं?\nउत्तर:",
+  "gen": " गीतांजलि के लेखक तुलसीदास हैं।\nप्रश्न: गीत"
+ },
+ "book_author_025|en": {
+  "prompt": "Godan was written by",
+  "gen": " Ravi Shankar Prasad and directed by Shyam Benegal. The film was released in 1981."
+ },
+ "book_author_025|hi": {
+  "prompt": "प्रश्न: गोदान के लेखक कौन हैं?\nउत्तर:",
+  "gen": " गोदान के लेखक महाकवि विश्वनाथ प्रताप सिंह प"
+ },
+ "book_author_026|en": {
+  "prompt": "The Ramayana was written by",
+  "gen": " the ancient Indian sage Valmiki, who is considered one of the greatest poets in Hinduism. The epic poem is"
+ },
+ "book_author_026|hi": {
+  "prompt": "प्रश्न: रामायण के लेखक कौन हैं?\nउत्तर:",
+  "gen": " रामायण के लेखक वाल्मीकि हैं। वाल्मीकि एक महान"
+ },
+ "book_author_027|en": {
+  "prompt": "The Mahabharata was written by",
+  "gen": " the sage Vyasa, who is said to have written the epic in seven days. The epic is a collection of stories"
+ },
+ "book_author_027|hi": {
+  "prompt": "प्रश्न: महाभारत के लेखक कौन हैं?\nउत्तर:",
+  "gen": " महाभारत के लेखक वेद व्यास हैं। \n\nप्रश्न: महाभारत क"
+ },
+ "book_author_028|en": {
+  "prompt": "Don Quixote was written by",
+  "gen": " Miguel de Cervantes, a Spanish novelist, and is considered one of the greatest works of literature in the Western canon"
+ },
+ "book_author_028|hi": {
+  "prompt": "प्रश्न: डॉन क्विक्सोट के लेखक कौन हैं?\nउत्तर:",
+  "gen": " डॉन क्विक्सोट के लेखक मिगेल डी सेंब्रानो ह"
+ },
+ "currency_000|en": {
+  "prompt": "The currency of Japan is",
+  "gen": " the Japanese Yen (JPY). It is the third most widely traded currency in the world and is used by over "
+ },
+ "currency_000|hi": {
+  "prompt": "जापान की मुद्रा है",
+  "gen": " जापानी येन (JPY)। जापानी येन की स्थापना "
+ },
+ "currency_001|en": {
+  "prompt": "The currency of China is",
+  "gen": " the Renminbi (RMB), also commonly known as the Chinese Yuan (CNY). The Renminbi is"
+ },
+ "currency_001|hi": {
+  "prompt": "चीन की मुद्रा है",
+  "gen": " या क्या?\nचीन की मुद्रा है या क्या?\nचीन"
+ },
+ "currency_002|en": {
+  "prompt": "The currency of India is",
+  "gen": " the Indian Rupee (₹). The symbol for the Indian Rupee is ₹. The currency code for the Indian"
+ },
+ "currency_002|hi": {
+  "prompt": "भारत की मुद्रा है",
+  "gen": " रुपया (₹)। भारत में मुद्रा की मांग को न"
+ },
+ "currency_003|en": {
+  "prompt": "The currency of Russia is",
+  "gen": " the Russian ruble (RUB). It is subdivided into 100 kopeks. The Russian ruble is"
+ },
+ "currency_003|hi": {
+  "prompt": "रूस की मुद्रा है",
+  "gen": " रूसी रूबल (RUB)\nरूस की मुद्रा है रूसी र"
+ },
+ "currency_004|en": {
+  "prompt": "The currency of Mexico is",
+  "gen": " the Mexican peso (MXN). It is subdivided into 100 centavos. The Mexican peso is the official"
+ },
+ "currency_004|hi": {
+  "prompt": "मेक्सिको की मुद्रा है",
+  "gen": " पेसो (MXN)। मेक्सिको की अर्थव्यवस्था के ब"
+ },
+ "currency_005|en": {
+  "prompt": "The currency of Argentina is",
+  "gen": " the Argentine Peso (ARS). The exchange rate is subject to fluctuations and can change frequently. It's always a good"
+ },
+ "currency_005|hi": {
+  "prompt": "अर्जेंटीना की मुद्रा है",
+  "gen": " अर्जेंटीनी पेसो (ARS)\nअर्जेंटीना की राजध"
+ },
+ "currency_006|en": {
+  "prompt": "The currency of Chile is",
+  "gen": " the Chilean peso (CLP). The Chilean peso is subdivided into 100 centavos. The currency"
+ },
+ "currency_006|hi": {
+  "prompt": "चिली की मुद्रा है",
+  "gen": " पैसो (Peso)। पैसो की संक्षिप्त रूपरेखा इस"
+ },
+ "currency_007|en": {
+  "prompt": "The currency of Colombia is",
+  "gen": " the Colombian peso (COP). The exchange rate is subject to fluctuations and can change frequently. It's always a good"
+ },
+ "currency_007|hi": {
+  "prompt": "कोलंबिया की मुद्रा है",
+  "gen": " कोलंबिया पेसो (COP)\nकोलंबिया की राजधानी"
+ },
+ "currency_008|en": {
+  "prompt": "The currency of Canada is",
+  "gen": " the Canadian dollar (CAD). It is divided into 100 cents. The Canadian dollar is subdivided into five denominations"
+ },
+ "currency_008|hi": {
+  "prompt": "कनाडा की मुद्रा है",
+  "gen": " डॉलर (CAD)। यहाँ कुछ महत्वपूर्ण तथ्य हैं जो आपको कन"
+ },
+ "currency_009|en": {
+  "prompt": "The currency of Australia is",
+  "gen": " the Australian dollar (AUD). It is divided into 100 cents. The symbol for the Australian dollar is $.\nThe"
+ },
+ "currency_009|hi": {
+  "prompt": "ऑस्ट्रेलिया की मुद्रा है",
+  "gen": " ऑस्ट्रेलियन डॉलर (AUD). ऑस्ट्रेलियाई डॉलर की"
+ },
+ "currency_010|en": {
+  "prompt": "The currency of New Zealand is",
+  "gen": " the New Zealand dollar (NZD). It is subdivided into 100 cents. The New Zealand dollar is available in"
+ },
+ "currency_010|hi": {
+  "prompt": "न्यूज़ीलैंड की मुद्रा है",
+  "gen": " न्यूज़ीलैंड डॉलर (NZD)। यहाँ की मुद्रा क"
+ },
+ "currency_011|en": {
+  "prompt": "The currency of the United States is",
+  "gen": " the United States dollar (USD). It is divided into 100 cents. The US dollar is the most widely traded currency"
+ },
+ "currency_011|hi": {
+  "prompt": "संयुक्त राज्य अमेरिका की मुद्रा है",
+  "gen": " और दुनिया की सबसे अधिक मूल्यवान मुद्रा है। यह संय"
+ },
+ "currency_012|en": {
+  "prompt": "The currency of the United Kingdom is",
+  "gen": " the Pound Sterling, commonly abbreviated as GBP. The Pound is divided into 100 pence.\nThe Pound Sterling is the"
+ },
+ "currency_012|hi": {
+  "prompt": "यूनाइटेड किंगडम की मुद्रा है",
+  "gen": " और यह 8 सितंबर 1949 से स्वदेशी भारतीय रुपया क"
+ },
+ "currency_013|en": {
+  "prompt": "The currency of Switzerland is",
+  "gen": " the Swiss franc (CHF). The Swiss franc is the most widely traded currency in the world and is considered a safe"
+ },
+ "currency_013|hi": {
+  "prompt": "स्विट्ज़रलैंड की मुद्रा है",
+  "gen": " स्विस फ्रांक (CHF)। स्विट्ज़रलैंड में मुद"
+ },
+ "currency_014|en": {
+  "prompt": "The currency of Turkey is",
+  "gen": " the Turkish Lira (TRY). The Turkish Lira is subdivided into 100 new lira (TL). The"
+ },
+ "currency_014|hi": {
+  "prompt": "तुर्की की मुद्रा है",
+  "gen": " लीरा (TRY)\nतुर्की की मुद्रा है लीरा (TRY)\n"
+ },
+ "currency_015|en": {
+  "prompt": "The currency of South Korea is",
+  "gen": " the South Korean Won (KRW). It is subdivided into 100 chon.\nThe South Korean Won is the"
+ },
+ "currency_015|hi": {
+  "prompt": "दक्षिण कोरिया की मुद्रा है",
+  "gen": " रियाल। दक्षिण कोरिया की मुद्रा का नाम रियाल"
+ },
+ "currency_016|en": {
+  "prompt": "The currency of Vietnam is",
+  "gen": " the Vietnamese Dong (VND). It is subdivided into 100 xu. The Vietnamese Dong is the official currency of"
+ },
+ "currency_016|hi": {
+  "prompt": "वियतनाम की मुद्रा है",
+  "gen": " वियतनाम डोंग (VND). यह वियतनाम की अर्थव्यवस्था"
+ },
+ "currency_017|en": {
+  "prompt": "The currency of Bangladesh is",
+  "gen": " the Bangladeshi Taka (BDT). The currency code for Bangladesh is BDT. The symbol for the"
+ },
+ "currency_017|hi": {
+  "prompt": "बांग्लादेश की मुद्रा है",
+  "gen": " ताकत\nबांग्लादेश की मुद्रा है ताकत\nबां"
+ },
+ "currency_018|en": {
+  "prompt": "The currency of Saudi Arabia is",
+  "gen": " the Saudi riyal (SAR). It is subdivided into 100 halalas. The Saudi riy"
+ },
+ "currency_018|hi": {
+  "prompt": "सऊदी अरब की मुद्रा है",
+  "gen": " और यह सऊदी अरब के रियाल के साथ जुड़ा हुआ है।"
+ },
+ "currency_019|en": {
+  "prompt": "The currency of South Africa is",
+  "gen": " the South African rand (ZAR). The rand is subdivided into 100 cents. The exchange rate can fluctuate"
+ },
+ "currency_019|hi": {
+  "prompt": "दक्षिण अफ़्रीका की मुद्रा है",
+  "gen": " रैंड\nदक्षिण अफ़्रीका की मुद्रा रैंड है,"
+ },
+ "currency_020|en": {
+  "prompt": "The currency of Nigeria is",
+  "gen": " the Naira (NGN). The Naira is divided into 100 Kobo.\nThe Naira is the official"
+ },
+ "currency_020|hi": {
+  "prompt": "नाइजीरिया की मुद्रा है",
+  "gen": " नाइजीरियाई नaira (₦)। नाइजीरिया के प्रमुख"
+ },
+ "currency_021|en": {
+  "prompt": "The currency of Kenya is",
+  "gen": " the Kenyan shilling (KES). The Kenyan shilling is subdivided into 100 cents. The symbol"
+ },
+ "currency_021|hi": {
+  "prompt": "केन्या की मुद्रा है",
+  "gen": " केन्या शिलिंग (KES)\nकेन्या की मुद्रा केन"
+ },
+ "currency_022|en": {
+  "prompt": "The currency of Germany is",
+  "gen": " the Euro (€). Germany is a member of the European Union and uses the Euro as its official currency. The Euro"
+ },
+ "currency_022|hi": {
+  "prompt": "जर्मनी की मुद्रा है",
+  "gen": " यूरो (€)। जर्मनी का मुद्रास्फीति दर (inflation rate"
+ },
+ "currency_023|en": {
+  "prompt": "The currency of France is",
+  "gen": " the Euro (€). The official exchange rate is 1 EUR = 1.31 USD. However, exchange rates"
+ },
+ "currency_023|hi": {
+  "prompt": "फ्रांस की मुद्रा है",
+  "gen": " और यह दुनिया की सबसे पुरानी और सबसे प्रसिद्ध मुद्र"
+ },
+ "currency_024|en": {
+  "prompt": "The currency of Italy is",
+  "gen": " the Euro (€). Italy is a member of the European Union and uses the Euro as its official currency. The Euro"
+ },
+ "currency_024|hi": {
+  "prompt": "इटली की मुद्रा है",
+  "gen": " यूरो (€)। इटली में बैंकों के बीच व्याप"
+ },
+ "currency_025|en": {
+  "prompt": "The currency of Spain is",
+  "gen": " the Euro (€). Spain is a member of the European Union and uses the Euro as its official currency. The country"
+ },
+ "currency_025|hi": {
+  "prompt": "स्पेन की मुद्रा है",
+  "gen": " यूरो (€)। स्पेन में बैंकों में स्विच करने क"
+ },
+ "currency_026|en": {
+  "prompt": "The currency of Greece is",
+  "gen": " the Euro (€). Greece adopted the Euro as its official currency in 2001, replacing the Greek Drachma"
+ },
+ "currency_026|hi": {
+  "prompt": "ग्रीस की मुद्रा है",
+  "gen": " यूरो (€)। ग्रीस की मुद्रा की स्थापना 186"
+ },
+ "currency_027|en": {
+  "prompt": "The currency of Ireland is",
+  "gen": " the Euro (€). The official currency of Ireland is the Euro, which is divided into 100 cents. The Euro"
+ },
+ "currency_027|hi": {
+  "prompt": "आयरलैंड की मुद्रा है",
+  "gen": " यूरो (€)। आयरलैंड की मुद्रा का संक्षिप"
+ },
+ "currency_028|en": {
+  "prompt": "The currency of Morocco is",
+  "gen": " the Moroccan Dirham (MAD). It is divided into 100 centimes. The dirham is pegged to"
+ },
+ "currency_028|hi": {
+  "prompt": "मोरक्को की मुद्रा है",
+  "gen": " मोरक्कन डिनार (MAD). मोरक्कन डिनार की एक्स"
+ },
+ "currency_029|en": {
+  "prompt": "The currency of the United Arab Emirates is",
+  "gen": " the United Arab Emirates Dirham (AED). The UAE Dirham is subdivided into 100 fils. The exchange"
+ },
+ "currency_029|hi": {
+  "prompt": "संयुक्त अरब अमीरात की मुद्रा है",
+  "gen": " और संयुक्त अरब अमीरात के सात संघीय राज्यों में सबस"
+ },
+ "currency_030|en": {
+  "prompt": "The currency of Jordan is",
+  "gen": " the Jordanian Dinar (JOD). The exchange rate is fixed at 1 JOD = 0.7"
+ },
+ "currency_030|hi": {
+  "prompt": "जॉर्डन की मुद्रा है",
+  "gen": " जॉर्डन डिनार (JOD)\nजॉर्डन की मुद्रा का स"
+ },
+ "official_language_000|en": {
+  "prompt": "The official language of Japan is",
+  "gen": " Japanese, and it is the most widely spoken language in the country. Japanese is a language isolate, meaning that it is"
+ },
+ "official_language_000|hi": {
+  "prompt": "प्रश्न: जापान की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " जापानी ही जापान की आधिकारिक भाषा है। यह एक जट"
+ },
+ "official_language_001|en": {
+  "prompt": "The official language of China is",
+  "gen": " Mandarin Chinese, but there are many other languages spoken in the country. According to the Chinese government, there are over "
+ },
+ "official_language_001|hi": {
+  "prompt": "प्रश्न: चीन की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " मंदारिन ही चीन की आधिकारिक भाषा है। हालांकि,"
+ },
+ "official_language_002|en": {
+  "prompt": "The official language of Russia is",
+  "gen": " Russian, and it is the most widely spoken language in the country. Russian is a Slavic language and is closely related"
+ },
+ "official_language_002|hi": {
+  "prompt": "प्रश्न: रूस की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " रूस की आधिकारिक भाषा रूसी है। यह स्लाविक भाषा"
+ },
+ "official_language_003|en": {
+  "prompt": "The official language of Brazil is",
+  "gen": " Portuguese, and it is the most widely spoken language in the country. However, there are many other languages spoken in Brazil"
+ },
+ "official_language_003|hi": {
+  "prompt": "प्रश्न: ब्राज़ील की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " पुर्तगाली और पोर्टुगीज़ दोनों ही ब्राज़ील क"
+ },
+ "official_language_004|en": {
+  "prompt": "The official language of Portugal is",
+  "gen": " Portuguese, and it is the most widely spoken language in the country. However, many Portuguese people also speak English, especially"
+ },
+ "official_language_004|hi": {
+  "prompt": "प्रश्न: पुर्तगाल की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " पुर्तगाली भाषा पुर्तगाल की आधिकारिक भाषा ह"
+ },
+ "official_language_005|en": {
+  "prompt": "The official language of Argentina is",
+  "gen": " Spanish, and the country has a rich cultural heritage that reflects its European and indigenous influences. The capital city, Buenos Aires"
+ },
+ "official_language_005|hi": {
+  "prompt": "प्रश्न: अर्जेंटीना की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " अर्जेंटीना की आधिकारिक भाषा स्पेनिश है। हालां"
+ },
+ "official_language_006|en": {
+  "prompt": "The official language of Mexico is",
+  "gen": " Spanish, but there are also many indigenous languages spoken throughout the country. Some of the most widely spoken indigenous languages in Mexico"
+ },
+ "official_language_006|hi": {
+  "prompt": "प्रश्न: मेक्सिको की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " स्पेनिश है। मेक्सिको में अधिकांश लोग स्पेनिश भ"
+ },
+ "official_language_007|en": {
+  "prompt": "The official language of Spain is",
+  "gen": " Spanish, also known as Castilian. However, there are many regional languages and dialects spoken throughout the country, including"
+ },
+ "official_language_007|hi": {
+  "prompt": "प्रश्न: स्पेन की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " स्पेन की आधिकारिक भाषा स्पेनिश है। हालांकि, क"
+ },
+ "official_language_008|en": {
+  "prompt": "The official language of Chile is",
+  "gen": " Spanish, and it is the most widely spoken language in the country. However, there are also several indigenous languages spoken in"
+ },
+ "official_language_008|hi": {
+  "prompt": "प्रश्न: चिली की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " स्पेनिश है। हालांकि, चिली में कई अन्य भाषाएं भ"
+ },
+ "official_language_009|en": {
+  "prompt": "The official language of Colombia is",
+  "gen": " Spanish, but there are also many indigenous languages spoken in the country. The most widely spoken indigenous language is Wayúu"
+ },
+ "official_language_009|hi": {
+  "prompt": "प्रश्न: कोलंबिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " स्पेनिश है। कोलंबिया एक स्पेनिश भाषी देश है, और"
+ },
+ "official_language_010|en": {
+  "prompt": "The official language of Cuba is",
+  "gen": " Spanish, but many Cubans also speak English, particularly in tourist areas. However, it's always a good idea to"
+ },
+ "official_language_010|hi": {
+  "prompt": "प्रश्न: क्यूबा की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " स्पेनिश है। हालांकि, आधिकारिक रूप से क्यूबा म"
+ },
+ "official_language_011|en": {
+  "prompt": "The official language of Venezuela is",
+  "gen": " Spanish, but there are also many indigenous languages spoken in the country. The most widely spoken indigenous language is Pemon,"
+ },
+ "official_language_011|hi": {
+  "prompt": "प्रश्न: वेनेज़ुएला की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " स्पेनिश है। वेनेज़ुएला एक स्पेनिश भाषी देश"
+ },
+ "official_language_012|en": {
+  "prompt": "The official language of Uruguay is",
+  "gen": " Spanish, but the country has a unique cultural identity shaped by its history, geography, and European influences. Here are some"
+ },
+ "official_language_012|hi": {
+  "prompt": "प्रश्न: उरुग्वे की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " स्पेनिश है। \nउरुग्वे की आधिकारिक भाषा स्पेन"
+ },
+ "official_language_013|en": {
+  "prompt": "The official language of Germany is",
+  "gen": " German, but there are also several regional languages and dialects spoken throughout the country. Some of the most widely spoken regional"
+ },
+ "official_language_013|hi": {
+  "prompt": "प्रश्न: जर्मनी की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " जर्मनी की आधिकारिक भाषा जर्मन है। हालांकि, कई अन्य"
+ },
+ "official_language_014|en": {
+  "prompt": "The official language of Austria is",
+  "gen": " German, but many Austrians also speak English, especially among the younger population and those in the tourism industry. You can"
+ },
+ "official_language_014|hi": {
+  "prompt": "प्रश्न: ऑस्ट्रिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " ऑस्ट्रिया की आधिकारिक भाषा जर्मन है। हालांकि,"
+ },
+ "official_language_015|en": {
+  "prompt": "The official language of Italy is",
+  "gen": " Italian, but there are also several regional languages and dialects spoken throughout the country. Some of the most widely spoken regional"
+ },
+ "official_language_015|hi": {
+  "prompt": "प्रश्न: इटली की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " इटली की आधिकारिक भाषा इटालवी है। हालांक"
+ },
+ "official_language_016|en": {
+  "prompt": "The official language of France is",
+  "gen": " French, and it is the most widely spoken language in the country. French is an official language of several international organizations,"
+ },
+ "official_language_016|hi": {
+  "prompt": "प्रश्न: फ्रांस की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " फ्रांस की आधिकारिक भाषा फ्रेंच है। \nफ्रांस"
+ },
+ "official_language_017|en": {
+  "prompt": "The official language of Greece is",
+  "gen": " Greek, and it is the most widely spoken language in the country. However, many Greeks also speak English, especially among"
+ },
+ "official_language_017|hi": {
+  "prompt": "प्रश्न: ग्रीस की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " ग्रीस की आधिकारिक भाषा ग्रीक है। हालांकि, आधुन"
+ },
+ "official_language_018|en": {
+  "prompt": "The official language of Turkey is",
+  "gen": " Turkish, and it is the most widely spoken language in the country. Turkish is a member of the Oghuz branch"
+ },
+ "official_language_018|hi": {
+  "prompt": "प्रश्न: तुर्की की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " तुर्की की आधिकारिक भाषा तुर्की है। यह एक अल्पस"
+ },
+ "official_language_019|en": {
+  "prompt": "The official language of Sweden is",
+  "gen": " Swedish, but many Swedes also speak English fluently. You can get by with just English, especially in tourist areas"
+ },
+ "official_language_019|hi": {
+  "prompt": "प्रश्न: स्वीडन की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " स्वीडन की आधिकारिक भाषा स्वीडिश है। स्वीडिश भ"
+ },
+ "official_language_020|en": {
+  "prompt": "The official language of Norway is",
+  "gen": " Norwegian, which is divided into two main dialects: Bokmål and Nynorsk. Bokmål"
+ },
+ "official_language_020|hi": {
+  "prompt": "प्रश्न: नॉर्वे की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " नॉर्वे की आधिकारिक भाषा नॉर्वेजियन है, जिसे न"
+ },
+ "official_language_021|en": {
+  "prompt": "The official language of Denmark is",
+  "gen": " Danish, but many Danes also speak English fluently. You can easily get by with just English, especially in tourist"
+ },
+ "official_language_021|hi": {
+  "prompt": "प्रश्न: डेनमार्क की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " डेनमार्क की आधिकारिक भाषा डेनिश है। हालांकि,"
+ },
+ "official_language_022|en": {
+  "prompt": "The official language of Poland is",
+  "gen": " Polish, but many Poles also speak English, especially among the younger population and those in the service industry. You can"
+ },
+ "official_language_022|hi": {
+  "prompt": "प्रश्न: पोलैंड की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " पोलैंड की आधिकारिक भाषा पोलिश है। पोलिश भाषा"
+ },
+ "official_language_023|en": {
+  "prompt": "The official language of the Netherlands is",
+  "gen": " Dutch, but many people in the Netherlands also speak English. In fact, English is widely spoken in the Netherlands, particularly"
+ },
+ "official_language_023|hi": {
+  "prompt": "प्रश्न: नीदरलैंड की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " नीदरलैंड की आधिकारिक भाषा डच है। हालांकि, कई"
+ },
+ "official_language_024|en": {
+  "prompt": "The official language of Hungary is",
+  "gen": " Hungarian, but many people also speak English, especially among the younger population and those in the tourism industry. You can get"
+ },
+ "official_language_024|hi": {
+  "prompt": "प्रश्न: हंगरी की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " हंगरी की आधिकारिक भाषा हंगरी है। हंगरी एक"
+ },
+ "official_language_025|en": {
+  "prompt": "The official language of Romania is",
+  "gen": " Romanian, and it is the most widely spoken language in the country. However, there are also several minority languages spoken in"
+ },
+ "official_language_025|hi": {
+  "prompt": "प्रश्न: रोमानिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " रोमानिया की आधिकारिक भाषा रोमानियाई है, जिसे"
+ },
+ "official_language_026|en": {
+  "prompt": "The official language of Ukraine is",
+  "gen": " Ukrainian, but many people also speak Russian, and some English. The country has a diverse population with a mix of ethnic"
+ },
+ "official_language_026|hi": {
+  "prompt": "प्रश्न: यूक्रेन की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " यूक्रेन की आधिकारिक भाषा यूक्रेनी है। हालांक"
+ },
+ "official_language_027|en": {
+  "prompt": "The official language of Bulgaria is",
+  "gen": " Bulgarian, which is a South Slavic language. It is the most widely spoken language in the country and is used as"
+ },
+ "official_language_027|hi": {
+  "prompt": "प्रश्न: बुल्गारिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " बुल्गारिया की आधिकारिक भाषा बुल्गारी है। यह स"
+ },
+ "official_language_028|en": {
+  "prompt": "The official language of Croatia is",
+  "gen": " Croatian, but many people in the country also speak English, especially among the younger population and those in the tourism industry."
+ },
+ "official_language_028|hi": {
+  "prompt": "प्रश्न: क्रोएशिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " क्रोएशिया की आधिकारिक भाषा क्रोएशियन है।"
+ },
+ "official_language_029|en": {
+  "prompt": "The official language of Serbia is",
+  "gen": " Serbian, but the most widely spoken language is actually Serbian Cyrillic, which is used in formal and official contexts. However"
+ },
+ "official_language_029|hi": {
+  "prompt": "प्रश्न: सर्बिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " सर्बिया की आधिकारिक भाषा सर्बो-क्रोएशियन ह"
+ },
+ "official_language_030|en": {
+  "prompt": "The official language of Iceland is",
+  "gen": " Icelandic, which is a North Germanic language closely related to Old Norse. Icelandic is the most widely spoken language in Iceland"
+ },
+ "official_language_030|hi": {
+  "prompt": "प्रश्न: आइसलैंड की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " आइसलैंड की आधिकारिक भाषा आइसलैंडिक (आइसल"
+ },
+ "official_language_031|en": {
+  "prompt": "The official language of Mongolia is",
+  "gen": " Mongolian, but many Mongolians also speak Russian and English. The country has a rich cultural heritage, with a"
+ },
+ "official_language_031|hi": {
+  "prompt": "प्रश्न: मंगोलिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " मंगोलिया की आधिकारिक भाषा मोंगोल है। यह एक टिब"
+ },
+ "official_language_032|en": {
+  "prompt": "The official language of South Korea is",
+  "gen": " Korean, and it is the most widely spoken language in the country. Korean is a unique language with its own writing system"
+ },
+ "official_language_032|hi": {
+  "prompt": "प्रश्न: दक्षिण कोरिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " दक्षिण कोरिया की आधिकारिक भाषा कोरियाई है। यह द"
+ },
+ "official_language_033|en": {
+  "prompt": "The official language of Thailand is",
+  "gen": " Thai, and it is the most widely spoken language in the country. Thai is a member of the Tai-Kadai"
+ },
+ "official_language_033|hi": {
+  "prompt": "प्रश्न: थाईलैंड की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " थाईलैंड की आधिकारिक भाषा थाई है। यह एक सिंही"
+ },
+ "official_language_034|en": {
+  "prompt": "The official language of Vietnam is",
+  "gen": " Vietnamese, but English is widely spoken, especially among the younger population and those in the tourism industry. Many Vietnamese people also"
+ },
+ "official_language_034|hi": {
+  "prompt": "प्रश्न: वियतनाम की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " वियतनाम की आधिकारिक भाषा वियतनामी है, जो वियत"
+ },
+ "official_language_035|en": {
+  "prompt": "The official language of Iran is",
+  "gen": " Persian (also known as Farsi). It is a member of the Indo-European language family and is closely related to other"
+ },
+ "official_language_035|hi": {
+  "prompt": "प्रश्न: ईरान की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " ईरान की आधिकारिक भाषा फारसी है, जिसे फारस"
+ },
+ "official_language_036|en": {
+  "prompt": "The official language of Saudi Arabia is",
+  "gen": " Arabic, and it is the language used in most official contexts, including government, education, and media. However, English"
+ },
+ "official_language_036|hi": {
+  "prompt": "प्रश्न: सऊदी अरब की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " अरबी है। सऊदी अरब में अरबी भाषा का उपयोग आध"
+ },
+ "official_language_037|en": {
+  "prompt": "The official language of Egypt is",
+  "gen": " Arabic, and the country has a rich cultural heritage that is reflected in its architecture, art, literature, and music."
+ },
+ "official_language_037|hi": {
+  "prompt": "प्रश्न: मिस्र की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " मिस्र की आधिकारिक भाषा अरबी है। हालांकि, अंग"
+ },
+ "official_language_038|en": {
+  "prompt": "The official language of Libya is",
+  "gen": " Arabic, and the country has a rich cultural heritage that reflects its Mediterranean and African influences. The country's history is marked"
+ },
+ "official_language_038|hi": {
+  "prompt": "प्रश्न: लीबिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " अरबी है। लीबिया में अरबी भाषा का अधिकार है,"
+ },
+ "official_language_039|en": {
+  "prompt": "The official language of Israel is",
+  "gen": " Hebrew, but many people in Israel also speak English, especially in tourist areas and among the younger population. However, it"
+ },
+ "official_language_039|hi": {
+  "prompt": "प्रश्न: इज़राइल की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " इज़राइल की आधिकारिक भाषा हिब्रू है, लेकिन यह एक"
+ },
+ "official_language_040|en": {
+  "prompt": "The official language of the Czech Republic is",
+  "gen": " Czech, which is a West Slavic language. It is closely related to Slovak, Polish, and Sorbian languages."
+ },
+ "official_language_040|hi": {
+  "prompt": "प्रश्न: चेक गणराज्य की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " चेक गणराज्य की आधिकारिक भाषा चेकी है। \n\nयहाँ"
+ },
+ "official_language_041|en": {
+  "prompt": "The official language of Slovakia is",
+  "gen": " Slovak, but many people also speak English, especially in tourist areas. You can get by with just English, but learning"
+ },
+ "official_language_041|hi": {
+  "prompt": "प्रश्न: स्लोवाकिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " स्लोवाकिया की आधिकारिक भाषा स्लोवाक है। यह स्ल"
+ },
+ "official_language_042|en": {
+  "prompt": "The official language of Slovenia is",
+  "gen": " Slovene, but many Slovenians also speak English, German, Italian, and Hungarian. The country has a diverse population"
+ },
+ "official_language_042|hi": {
+  "prompt": "प्रश्न: स्लोवेनिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " स्लोवेनिया की आधिकारिक भाषा स्लोवेनियाई है। यह"
+ },
+ "official_language_043|en": {
+  "prompt": "The official language of Estonia is",
+  "gen": " Estonian, a Finno-Ugric language closely related to Finnish and Hungarian. The language is spoken by approximately "
+ },
+ "official_language_043|hi": {
+  "prompt": "प्रश्न: एस्टोनिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " एस्टोनिया की आधिकारिक भाषा एस्टोनियन है। यह एक अल्प"
+ },
+ "official_language_044|en": {
+  "prompt": "The official language of Latvia is",
+  "gen": " Latvian, but many people in the country also speak English, Russian, and other languages. The capital city of"
+ },
+ "official_language_044|hi": {
+  "prompt": "प्रश्न: लातविया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " लातविया की आधिकारिक भाषा लातवियन है। यह एक अल्प"
+ },
+ "official_language_045|en": {
+  "prompt": "The official language of Lithuania is",
+  "gen": " Lithuanian, but many people also speak English, Russian, and Polish. The capital city is Vilnius,"
+ },
+ "official_language_045|hi": {
+  "prompt": "प्रश्न: लिथुआनिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " लिथुआनिया की आधिकारिक भाषा लिथुआनियन है, जिस"
+ },
+ "official_language_046|en": {
+  "prompt": "The official language of Nepal is",
+  "gen": " Nepali, but English is widely spoken and used as a second language. Many Nepalis also speak other languages such as"
+ },
+ "official_language_046|hi": {
+  "prompt": "प्रश्न: नेपाल की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " नेपाल की आधिकारिक भाषा नेपाली है। हालांकि, द"
+ },
+ "official_language_047|en": {
+  "prompt": "The official language of Bangladesh is",
+  "gen": " Bengali, and it is the most widely spoken language in the country. However, English is also widely spoken, particularly"
+ },
+ "official_language_047|hi": {
+  "prompt": "प्रश्न: बांग्लादेश की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " बांग्लादेश की आधिकारिक भाषा बांग्ला है। हाल"
+ },
+ "official_language_048|en": {
+  "prompt": "The official language of Indonesia is",
+  "gen": " Indonesian, also known as Bahasa Indonesia. It is the national language and is used as the primary language in government,"
+ },
+ "official_language_048|hi": {
+  "prompt": "प्रश्न: इंडोनेशिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " इंडोनेशिया की आधिकारिक भाषा इंडोनेशियाई है, ज"
+ },
+ "official_language_049|en": {
+  "prompt": "The official language of Albania is",
+  "gen": " Albanian, but many people also speak Italian, Greek, and Turkish. The country has a rich cultural heritage, with"
+ },
+ "official_language_049|hi": {
+  "prompt": "प्रश्न: अल्बानिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " अल्बानिया की आधिकारिक भाषा अल्बानियाई है। यह एक ट"
+ },
+ "official_language_050|en": {
+  "prompt": "The official language of Georgia is",
+  "gen": " English, but the most widely spoken language is Georgian, which is the country's national language. The country has a diverse"
+ },
+ "official_language_050|hi": {
+  "prompt": "प्रश्न: जॉर्जिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " अंग्रेजी है। हालांकि, ग्रामीण क्षेत्रों में ज"
+ },
+ "official_language_051|en": {
+  "prompt": "The official language of Armenia is",
+  "gen": " Armenian, and it is a member of the Indo-European language family. Armenian is a unique language with its own alphabet,"
+ },
+ "official_language_051|hi": {
+  "prompt": "प्रश्न: आर्मेनिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+  "gen": " आर्मेनिया की आधिकारिक भाषा आर्मेनियाई है। यह एक अल"
+ },
+ "profession_000|en": {
+  "prompt": "Albert Einstein was a famous",
+  "gen": " physicist who is widely regarded as one of the most influential scientists of the 20th century. He is best known for"
+ },
+ "profession_000|hi": {
+  "prompt": "अल्बर्ट आइंस्टीन एक प्रसिद्ध",
+  "gen": " भौतिक विज्ञानी थे, जिन्होंने स्पेस-टाइम के"
+ },
+ "profession_001|en": {
+  "prompt": "Stephen Hawking was a famous",
+  "gen": " British theoretical physicist and cosmologist who made groundbreaking contributions to our understanding of the universe. He was born on January 8"
+ },
+ "profession_001|hi": {
+  "prompt": "स्टीफन हॉकिंग एक प्रसिद्ध",
+  "gen": " ब्रिटिश भौतिक विज्ञानी थे, जिन्हें उनके काम के"
+ },
+ "profession_002|en": {
+  "prompt": "Pablo Picasso was a famous",
+  "gen": " Spanish artist who is widely regarded as one of the greatest painters of the 20th century. He is best known for"
+ },
+ "profession_002|hi": {
+  "prompt": "पाब्लो पिकासो एक प्रसिद्ध",
+  "gen": " स्पेनिश चित्रकार थे, जिन्होंने अपने जीवनकाल में"
+ },
+ "profession_003|en": {
+  "prompt": "Vincent van Gogh was a famous",
+  "gen": " Dutch post-impressionist painter. He is known for his bold and expressive paintings of landscapes, still lifes, and portraits"
+ },
+ "profession_003|hi": {
+  "prompt": "विंसेंट वैन गॉग एक प्रसिद्ध",
+  "gen": " नीदरलैंडी चित्रकार थे जिन्होंने 19वीं शताब"
+ },
+ "profession_004|en": {
+  "prompt": "Claude Monet was a famous",
+  "gen": " French painter and one of the leaders of the Impressionist movement. He is best known for his paintings of landscapes,"
+ },
+ "profession_004|hi": {
+  "prompt": "क्लॉड मोने एक प्रसिद्ध",
+  "gen": " फ्रांसीसी फोटोग्राफर थे जिन्होंने अपने जीवन"
+ },
+ "profession_005|en": {
+  "prompt": "Salvador Dalí was a famous",
+  "gen": " Spanish surrealist artist known for his striking and bizarre paintings. He was born on May 11, 1904,"
+ },
+ "profession_005|hi": {
+  "prompt": "साल्वाडोर डाली एक प्रसिद्ध",
+  "gen": " स्विस फुटबॉलर हैं, जिन्होंने अपने करियर में कई प"
+ },
+ "profession_006|en": {
+  "prompt": "Mozart was a famous",
+  "gen": " composer, and his music is still widely performed and admired today. He was born in Salzburg, Austria in 175"
+ },
+ "profession_006|hi": {
+  "prompt": "मोज़ार्ट एक प्रसिद्ध",
+  "gen": " गणितज्ञ थे जिन्होंने गणित के क्षेत्र में"
+ },
+ "profession_007|en": {
+  "prompt": "Beethoven was a famous",
+  "gen": " German composer and pianist. He is widely regarded as one of the most significant figures in the history of classical music."
+ },
+ "profession_007|hi": {
+  "prompt": "बीथोवन एक प्रसिद्ध",
+  "gen": " जर्मन संगीतकार थे, जिन्होंने अपने जीवनकाल में कई"
+ },
+ "profession_008|en": {
+  "prompt": "Bach was a famous",
+  "gen": " German composer and organist of the Baroque period. He was born in Eisenach, Germany in 1685 and"
+ },
+ "profession_008|hi": {
+  "prompt": "बाख एक प्रसिद्ध",
+  "gen": " पाकिस्तानी टेलीविजन श्रृंखला है, जो 2017"
+ },
+ "profession_009|en": {
+  "prompt": "William Shakespeare was a famous",
+  "gen": " English playwright and poet who lived from 1564 to 1616. He is widely regarded as one of the greatest"
+ },
+ "profession_009|hi": {
+  "prompt": "विलियम शेक्सपियर एक प्रसिद्ध",
+  "gen": " अंग्रेजी कवि और नाटककार थे। उनकी कुछ प्रसिद्ध र"
+ },
+ "profession_010|en": {
+  "prompt": "Charles Dickens was a famous",
+  "gen": " English novelist, journalist, and social commentator. He is best known for his novels such as \"Oliver Twist\", \""
+ },
+ "profession_010|hi": {
+  "prompt": "चार्ल्स डिकेंस एक प्रसिद्ध",
+  "gen": " अंग्रेजी लेखक थे, जिन्होंने अपने जीवनकाल में"
+ },
+ "profession_011|en": {
+  "prompt": "Leo Tolstoy was a famous",
+  "gen": " Russian novelist, philosopher, and social reformer. He is best known for his novels \"War and Peace\" and \""
+ },
+ "profession_011|hi": {
+  "prompt": "लियो टॉल्स्टॉय एक प्रसिद्ध",
+  "gen": " रूसी लेखक थे, जिन्होंने अपने जीवनकाल में कई प"
+ },
+ "profession_012|en": {
+  "prompt": "Jane Austen was a famous",
+  "gen": " English novelist known for her works of romantic fiction, particularly \"Pride and Prejudice\" and \"Sense and Sens"
+ },
+ "profession_012|hi": {
+  "prompt": "जेन ऑस्टिन एक प्रसिद्ध",
+  "gen": " अमेरिकी उपन्यासकार हैं, जिन्होंने अपने उपन्यास"
+ },
+ "profession_013|en": {
+  "prompt": "Rabindranath Tagore was a famous",
+  "gen": " Indian poet, philosopher, and playwright. He was born on May 7, 1861, in Calcutta"
+ },
+ "profession_013|hi": {
+  "prompt": "रवींद्रनाथ टैगोर एक प्रसिद्ध",
+  "gen": " बंगाली कवि थे। उनका जन्म 7 मई 1861 को कोलकात"
+ },
+ "profession_014|en": {
+  "prompt": "Pablo Neruda was a famous",
+  "gen": " Chilean poet, politician, and diplomat. He is widely regarded as one of the greatest poets of the 20th"
+ },
+ "profession_014|hi": {
+  "prompt": "पाब्लो नेरूदा एक प्रसिद्ध",
+  "gen": " स्पेनिश लेखक, कवि और साहित्यिक विद्वान थे। उनका"
+ },
+ "profession_015|en": {
+  "prompt": "Lionel Messi was a famous",
+  "gen": " footballer who played for Barcelona and the Argentina national team. He is widely regarded as one of the greatest footballers of"
+ },
+ "profession_015|hi": {
+  "prompt": "लियोनेल मेसी एक प्रसिद्ध",
+  "gen": " फुटबॉल खिलाड़ी हैं जो स्पेन के बार्सेलोना म"
+ },
+ "profession_016|en": {
+  "prompt": "Cristiano Ronaldo was a famous",
+  "gen": " Portuguese footballer who played for several top-tier clubs, including Manchester United, Real Madrid, and Juventus. He is widely"
+ },
+ "profession_016|hi": {
+  "prompt": "क्रिस्टियानो रोनाल्डो एक प्रसिद्ध",
+  "gen": " पुर्तगाली पेशेवर फुटबॉलर हैं, जिन्हें उनकी अद"
+ },
+ "profession_017|en": {
+  "prompt": "Pelé was a famous",
+  "gen": " Brazilian footballer who played for the Brazilian national team and is widely regarded as one of the greatest footballers of all time"
+ },
+ "profession_017|hi": {
+  "prompt": "पेले एक प्रसिद्ध",
+  "gen": " दक्षिण अफ़्रीकी क्रिकेटर थे जिन्होंने 1950 और"
+ },
+ "profession_018|en": {
+  "prompt": "Diego Maradona was a famous",
+  "gen": " Argentine footballer who played for several clubs, including Barcelona, Napoli, and Sevilla. He is widely regarded as one of"
+ },
+ "profession_018|hi": {
+  "prompt": "डिएगो माराडोना एक प्रसिद्ध",
+  "gen": " अर्जेंटीनी फुटबॉलर थे, जिन्होंने अपने करियर म"
+ },
+ "profession_019|en": {
+  "prompt": "Sachin Tendulkar was a famous",
+  "gen": " Indian cricketer who played for the Indian national cricket team from 1989 to 2013. He is widely"
+ },
+ "profession_019|hi": {
+  "prompt": "सचिन तेंदुलकर एक प्रसिद्ध",
+  "gen": " भारतीय क्रिकेटर हैं जिन्होंने अपने करियर में कई रिक"
+ },
+ "profession_020|en": {
+  "prompt": "Virat Kohli was a famous",
+  "gen": " Indian cricketer who played for the Indian national cricket team. He was born on November 5, 1988"
+ },
+ "profession_020|hi": {
+  "prompt": "विराट कोहली एक प्रसिद्ध",
+  "gen": " भारतीय क्रिकेटर हैं जिन्होंने अपने करियर में कई रिक"
+ },
+ "profession_021|en": {
+  "prompt": "Galileo Galilei was a famous",
+  "gen": " Italian astronomer, physicist, and mathematician who lived from 1564 to 1642. He is widely recognized"
+ },
+ "profession_021|hi": {
+  "prompt": "गैलीलियो गैलिली एक प्रसिद्ध",
+  "gen": " इतालवी वैज्ञानिक थे, जिन्होंने 16वीं शताब्द"
+ },
+ "profession_022|en": {
+  "prompt": "Nicolaus Copernicus was a famous",
+  "gen": " astronomer who lived in the 16th century. He is best known for his theory of the heliocentric model"
+ },
+ "profession_022|hi": {
+  "prompt": "निकोलस कॉपरनिकस एक प्रसिद्ध",
+  "gen": " पोलिश खगोलशास्त्री थे, जिन्होंने 16वीं शत"
+ },
+ "profession_023|en": {
+  "prompt": "Pythagoras was a famous",
+  "gen": " Greek philosopher and mathematician who lived in the 6th century BC. He is best known for his theorem, which"
+ },
+ "profession_023|hi": {
+  "prompt": "पाइथागोरस एक प्रसिद्ध",
+  "gen": " गणितज्ञ थे जिन्होंने पाइथागोरियन सिद्धांत"
+ },
+ "profession_024|en": {
+  "prompt": "Euclid was a famous",
+  "gen": " ancient Greek mathematician who lived in Alexandria, Egypt. He is best known for his book \"Elements,\" which is one"
+ },
+ "profession_024|hi": {
+  "prompt": "यूक्लिड एक प्रसिद्ध",
+  "gen": " गणितज्ञ थे जिन्होंने ग्रीक संस्कृति में ग"
+ },
+ "profession_025|en": {
+  "prompt": "Aristotle was a famous",
+  "gen": " ancient Greek philosopher who made significant contributions to various fields, including philosophy, science, and ethics. He was born in "
+ },
+ "profession_025|hi": {
+  "prompt": "अरस्तू एक प्रसिद्ध",
+  "gen": " भारतीय गायक और संगीतकार हैं, जिन्होंने अपने गानों"
+ },
+ "profession_026|en": {
+  "prompt": "Plato was a famous",
+  "gen": " Greek philosopher who lived in the 5th and 4th centuries BCE. He was born in Athens, Greece,"
+ },
+ "profession_026|hi": {
+  "prompt": "प्लेटो एक प्रसिद्ध",
+  "gen": " ग्रीक विद्वान थे जिन्होंने ग्रीक संस्कृति क"
+ },
+ "profession_027|en": {
+  "prompt": "Socrates was a famous",
+  "gen": " ancient Greek philosopher who lived from 469/470 BCE to 399 BCE. He is widely regarded as one of the"
+ },
+ "profession_027|hi": {
+  "prompt": "सुकरात एक प्रसिद्ध",
+  "gen": " ग्रीक विद्वान थे जिन्होंने अपने जीवनकाल में कई"
+ },
+ "profession_028|en": {
+  "prompt": "Confucius was a famous",
+  "gen": " Chinese philosopher and politician who lived from 551 to 479 BCE. He is considered one of the most influential thinkers in"
+ },
+ "profession_028|hi": {
+  "prompt": "कन्फ्यूशियस एक प्रसिद्ध",
+  "gen": " चीनी दर्शन है, जो अपने सिद्धांतों और विचारों के"
+ },
+ "profession_029|en": {
+  "prompt": "Immanuel Kant was a famous",
+  "gen": " German philosopher who lived from 1724 to 1804. He is widely regarded as one of the most influential thinkers"
+ },
+ "profession_029|hi": {
+  "prompt": "इमैनुएल कांट एक प्रसिद्ध",
+  "gen": " जर्मन विद्वान थे, जिन्हें आधुनिक विचारधाराओं के"
+ },
+ "profession_030|en": {
+  "prompt": "Adam Smith was a famous",
+  "gen": " Scottish philosopher and economist who is widely regarded as the father of modern capitalism. He is best known for his book \"The"
+ },
+ "profession_030|hi": {
+  "prompt": "एडम स्मिथ एक प्रसिद्ध",
+  "gen": " अमेरिकी टेनिस खिलाड़ी थे, जिन्होंने अपने करियर म"
+ },
+ "profession_031|en": {
+  "prompt": "Thomas Edison was a famous",
+  "gen": " American inventor and businessman who developed many important technologies, including the phonograph, the motion picture camera, and the first practical"
+ },
+ "profession_031|hi": {
+  "prompt": "थॉमस एडिसन एक प्रसिद्ध",
+  "gen": " वैज्ञानिक थे जिन्होंने आविष्कारों के क्षेत्र"
+ },
+ "profession_032|en": {
+  "prompt": "Alexander Graham Bell was a famous",
+  "gen": " inventor and scientist who is credited with inventing the first practical telephone. He was born on March 3, 184"
+ },
+ "profession_032|hi": {
+  "prompt": "अलेक्जेंडर ग्राहम बेल एक प्रसिद्ध",
+  "gen": " संयुक्त राज्य अमेरिकी वैज्ञानिक थे, जिन्होंने"
+ },
+ "profession_033|en": {
+  "prompt": "Neil Armstrong was a famous",
+  "gen": " American astronaut who became the first person to walk on the moon in 1969. He was a naval aviator in"
+ },
+ "profession_033|hi": {
+  "prompt": "नील आर्मस्ट्रांग एक प्रसिद्ध",
+  "gen": " अमेरिकी खगोलशास्त्री थे, जिन्होंने 1969 म"
+ },
+ "profession_034|en": {
+  "prompt": "Elvis Presley was a famous",
+  "gen": " American singer, musician, and actor. He is often referred to as the \"King of Rock and Roll.\" Elvis was"
+ },
+ "profession_034|hi": {
+  "prompt": "एल्विस प्रेस्ली एक प्रसिद्ध",
+  "gen": " संगीतकार, गायक, और गीतकार थे। वह एक प्रतिष्ठित स"
+ },
+ "profession_035|en": {
+  "prompt": "Michael Jackson was a famous",
+  "gen": " singer, songwriter, and dancer. He was known as the \"King of Pop\" and is widely regarded as one of"
+ },
+ "profession_035|hi": {
+  "prompt": "माइकल जैक्सन एक प्रसिद्ध",
+  "gen": " संगीतकार, गायक, और नृत्य गुरु हैं। उनकी प्रशंसा"
+ },
+ "profession_036|en": {
+  "prompt": "Freddie Mercury was a famous",
+  "gen": " British singer, songwriter, and record producer. He was the lead vocalist and a co-founder of the rock band Queen."
+ },
+ "profession_036|hi": {
+  "prompt": "फ्रेडी मर्करी एक प्रसिद्ध",
+  "gen": " अमेरिकी गायक, गिटारवादक, और संगीतकार हैं। वह अपन"
+ },
+ "profession_037|en": {
+  "prompt": "Lata Mangeshkar was a famous",
+  "gen": " Indian playback singer who was born on September 28, 1929, in Varanasi, India. She was"
+ },
+ "profession_037|hi": {
+  "prompt": "लता मंगेशकर एक प्रसिद्ध",
+  "gen": " भारतीय गायका हैं, जिन्होंने अपने करियर में कई हिट ग"
+ }
+}

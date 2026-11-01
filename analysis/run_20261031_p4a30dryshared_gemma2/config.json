@@ -1,0 +1,37 @@
+{
+ "model": "gemma2",
+ "trace_run": "analysis/run_20261015_p3trace_v2_gemma2",
+ "n_edit": 3,
+ "layers": [
+  13
+ ],
+ "tag": "p4a30dryshared",
+ "skip_first": 0,
+ "add_traced": true,
+ "para": true,
+ "key_modes": "mean_all,joint_all",
+ "resume": null,
+ "shard": "0/1",
+ "model_name": "google/gemma-2-2b",
+ "n_layers": 26,
+ "edit_ids": [
+  "event_year_002",
+  "event_year_007",
+  "event_year_009"
+ ],
+ "ppl_before": 71.87173008404608,
+ "n_valid": 26,
+ "dtype": "torch.float16",
+ "steps": 25,
+ "lr": 0.5,
+ "kl": 0.0625,
+ "wd": 0.5,
+ "clamp": 4.0,
+ "prefixes": [
+  "",
+  "Fact: ",
+  "Note: ",
+  "Q: ",
+  "Did you know? "
+ ]
+}

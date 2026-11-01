@@ -1,0 +1,5 @@
+
+=== attempt 1: /usr/bin/python3 kaggle/smoke.py --model llama
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:01<05:24,  1.28s/it]Loading weights:  37%|███▋      | 93/254 [00:01<00:01, 89.26it/s]Loading weights:  52%|█████▏    | 132/254 [00:01<00:01, 88.14it/s]Loading weights:  62%|██████▏   | 157/254 [00:02<00:01, 86.35it/s]Loading weights:  69%|██████▉   | 176/254 [00:02<00:00, 86.09it/s]Loading weights:  75%|███████▌  | 191/254 [00:02<00:00, 93.46it/s]Loading weights:  81%|████████  | 206/254 [00:02<00:00, 86.01it/s]Loading weights:  86%|████████▌ | 219/254 [00:02<00:00, 80.84it/s]Loading weights:  91%|█████████ | 230/254 [00:03<00:00, 79.72it/s]Loading weights:  96%|█████████▌| 243/254 [00:03<00:00, 88.13it/s]Loading weights: 100%|██████████| 254/254 [00:03<00:00, 77.98it/s]
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+meta-llama/Llama-3.2-3B-Instruct: loaded in 30s, dtype torch.float16, vram 6.76 GiB, 'The capital of France is' -> ' Paris'

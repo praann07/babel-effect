@@ -1,0 +1,34 @@
+{
+ "book_author": {
+  "tune_n": 8,
+  "tune_en": 8,
+  "tune_es": 7,
+  "eval_n": 21,
+  "eval_both": 13,
+  "template_ok": true
+ },
+ "currency": {
+  "tune_n": 8,
+  "tune_en": 0,
+  "tune_es": 8,
+  "eval_n": 23,
+  "eval_both": 8,
+  "template_ok": false
+ },
+ "official_language": {
+  "tune_n": 8,
+  "tune_en": 7,
+  "tune_es": 7,
+  "eval_n": 44,
+  "eval_both": 40,
+  "template_ok": true
+ },
+ "profession": {
+  "tune_n": 8,
+  "tune_en": 2,
+  "tune_es": 8,
+  "eval_n": 30,
+  "eval_both": 4,
+  "template_ok": false
+ }
+}

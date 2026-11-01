@@ -1,0 +1,5 @@
+Loaded pretrained model meta-llama/Llama-3.2-3B-Instruct into HookedTransformer
+llama torch.bfloat16 seconds 32.239 all finite True
+
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 254/254 [00:00<00:00, 2638.98it/s]
