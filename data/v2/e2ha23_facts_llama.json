@@ -1,0 +1,349 @@
+{
+ "model": "meta-llama/Llama-3.2-3B-Instruct",
+ "templates": {
+  "en": {
+   "official_language": "The official language of {s} is",
+   "currency": "The currency of {s} is",
+   "profession": "{S} was a famous",
+   "book_author": "{S} was written by"
+  },
+  "hi": {
+   "official_language": "प्रश्न: {s} की आधिकारिक भाषा क्या है?\nउत्तर:",
+   "currency": "{s} की मुद्रा है",
+   "profession": "{s} एक प्रसिद्ध",
+   "book_author": "प्रश्न: {s} के लेखक कौन हैं?\nउत्तर:"
+  }
+ },
+ "hi_candidate_accuracy": {
+  "official_language": {
+   "प्रश्न: {s} की आधिकारिक भाषा क्या है?\nउत्तर:": 0.5,
+   "प्रश्न: {s} में मुख्य रूप से कौन सी भाषा बोली जाती है?\nउत्तर:": 0.0,
+   "{s} की आधिकारिक भाषा है": 0.375
+  },
+  "currency": {
+   "प्रश्न: {s} की मुद्रा क्या है?\nउत्तर:": 0.0,
+   "प्रश्न: {s} की आधिकारिक मुद्रा का नाम क्या है?\nउत्तर:": 0.0,
+   "{s} की मुद्रा है": 0.25
+  },
+  "profession": {
+   "प्रश्न: {s} किस पेशे के लिए प्रसिद्ध हैं?\nउत्तर:": 0.0,
+   "प्रश्न: {s} का पेशा क्या था?\nउत्तर:": 0.0,
+   "{s} एक प्रसिद्ध": 0.125
+  },
+  "book_author": {
+   "प्रश्न: {s} के लेखक कौन हैं?\nउत्तर:": 0.25,
+   "प्रश्न: {s} किसने लिखी?\nउत्तर:": 0.125,
+   "{s} के लेखक हैं": 0.0
+  }
+ },
+ "summary": {
+  "book_author": {
+   "tune_n": 8,
+   "tune_en": 8,
+   "tune_hi": 2,
+   "eval_n": 21,
+   "eval_both": 1,
+   "template_ok": false
+  },
+  "currency": {
+   "tune_n": 8,
+   "tune_en": 0,
+   "tune_hi": 2,
+   "eval_n": 23,
+   "eval_both": 5,
+   "template_ok": false
+  },
+  "official_language": {
+   "tune_n": 8,
+   "tune_en": 7,
+   "tune_hi": 4,
+   "eval_n": 44,
+   "eval_both": 13,
+   "template_ok": true
+  },
+  "profession": {
+   "tune_n": 8,
+   "tune_en": 2,
+   "tune_hi": 1,
+   "eval_n": 30,
+   "eval_both": 1,
+   "template_ok": false
+  }
+ },
+ "n_kept": 13,
+ "facts": [
+  {
+   "id": "official_language_008",
+   "relation": "official_language",
+   "seed": 1847880700,
+   "lang": {
+    "en": {
+     "subject": "Chile",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompt": "The official language of Chile is",
+     "target": "Spanish"
+    },
+    "hi": {
+     "subject": "चिली",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompt": "प्रश्न: चिली की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "स्पेनिश"
+    }
+   }
+  },
+  {
+   "id": "official_language_009",
+   "relation": "official_language",
+   "seed": 1665946233,
+   "lang": {
+    "en": {
+     "subject": "Colombia",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompt": "The official language of Colombia is",
+     "target": "Spanish"
+    },
+    "hi": {
+     "subject": "कोलंबिया",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompt": "प्रश्न: कोलंबिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "स्पेनिश"
+    }
+   }
+  },
+  {
+   "id": "official_language_010",
+   "relation": "official_language",
+   "seed": 1745606310,
+   "lang": {
+    "en": {
+     "subject": "Cuba",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompt": "The official language of Cuba is",
+     "target": "Spanish"
+    },
+    "hi": {
+     "subject": "क्यूबा",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompt": "प्रश्न: क्यूबा की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "स्पेनिश"
+    }
+   }
+  },
+  {
+   "id": "official_language_011",
+   "relation": "official_language",
+   "seed": 841215198,
+   "lang": {
+    "en": {
+     "subject": "Venezuela",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompt": "The official language of Venezuela is",
+     "target": "Spanish"
+    },
+    "hi": {
+     "subject": "वेनेज़ुएला",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompt": "प्रश्न: वेनेज़ुएला की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "स्पेनिश"
+    }
+   }
+  },
+  {
+   "id": "official_language_012",
+   "relation": "official_language",
+   "seed": 1079488814,
+   "lang": {
+    "en": {
+     "subject": "Uruguay",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompt": "The official language of Uruguay is",
+     "target": "Spanish"
+    },
+    "hi": {
+     "subject": "उरुग्वे",
+     "object": "स्पेनिश",
+     "object_alts": [],
+     "prompt": "प्रश्न: उरुग्वे की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "स्पेनिश"
+    }
+   }
+  },
+  {
+   "id": "official_language_013",
+   "relation": "official_language",
+   "seed": 469802337,
+   "lang": {
+    "en": {
+     "subject": "Germany",
+     "object": "German",
+     "object_alts": [],
+     "prompt": "The official language of Germany is",
+     "target": "German"
+    },
+    "hi": {
+     "subject": "जर्मनी",
+     "object": "जर्मन",
+     "object_alts": [],
+     "prompt": "प्रश्न: जर्मनी की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "जर्मन"
+    }
+   }
+  },
+  {
+   "id": "official_language_018",
+   "relation": "official_language",
+   "seed": 57565559,
+   "lang": {
+    "en": {
+     "subject": "Turkey",
+     "object": "Turkish",
+     "object_alts": [],
+     "prompt": "The official language of Turkey is",
+     "target": "Turkish"
+    },
+    "hi": {
+     "subject": "तुर्की",
+     "object": "तुर्की",
+     "object_alts": [],
+     "prompt": "प्रश्न: तुर्की की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "तुर्की"
+    }
+   }
+  },
+  {
+   "id": "official_language_033",
+   "relation": "official_language",
+   "seed": 1497389224,
+   "lang": {
+    "en": {
+     "subject": "Thailand",
+     "object": "Thai",
+     "object_alts": [],
+     "prompt": "The official language of Thailand is",
+     "target": "Thai"
+    },
+    "hi": {
+     "subject": "थाईलैंड",
+     "object": "थाई",
+     "object_alts": [],
+     "prompt": "प्रश्न: थाईलैंड की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "थाई"
+    }
+   }
+  },
+  {
+   "id": "official_language_036",
+   "relation": "official_language",
+   "seed": 1632970490,
+   "lang": {
+    "en": {
+     "subject": "Saudi Arabia",
+     "object": "Arabic",
+     "object_alts": [],
+     "prompt": "The official language of Saudi Arabia is",
+     "target": "Arabic"
+    },
+    "hi": {
+     "subject": "सऊदी अरब",
+     "object": "अरबी",
+     "object_alts": [],
+     "prompt": "प्रश्न: सऊदी अरब की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "अरबी"
+    }
+   }
+  },
+  {
+   "id": "official_language_038",
+   "relation": "official_language",
+   "seed": 2116925340,
+   "lang": {
+    "en": {
+     "subject": "Libya",
+     "object": "Arabic",
+     "object_alts": [],
+     "prompt": "The official language of Libya is",
+     "target": "Arabic"
+    },
+    "hi": {
+     "subject": "लीबिया",
+     "object": "अरबी",
+     "object_alts": [],
+     "prompt": "प्रश्न: लीबिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "अरबी"
+    }
+   }
+  },
+  {
+   "id": "official_language_040",
+   "relation": "official_language",
+   "seed": 1861214709,
+   "lang": {
+    "en": {
+     "subject": "the Czech Republic",
+     "object": "Czech",
+     "object_alts": [],
+     "prompt": "The official language of the Czech Republic is",
+     "target": "Czech"
+    },
+    "hi": {
+     "subject": "चेक गणराज्य",
+     "object": "चेक",
+     "object_alts": [],
+     "prompt": "प्रश्न: चेक गणराज्य की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "चेक"
+    }
+   }
+  },
+  {
+   "id": "official_language_041",
+   "relation": "official_language",
+   "seed": 565697381,
+   "lang": {
+    "en": {
+     "subject": "Slovakia",
+     "object": "Slovak",
+     "object_alts": [],
+     "prompt": "The official language of Slovakia is",
+     "target": "Slovak"
+    },
+    "hi": {
+     "subject": "स्लोवाकिया",
+     "object": "स्लोवाक",
+     "object_alts": [],
+     "prompt": "प्रश्न: स्लोवाकिया की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "स्लोवाक"
+    }
+   }
+  },
+  {
+   "id": "official_language_047",
+   "relation": "official_language",
+   "seed": 1906657826,
+   "lang": {
+    "en": {
+     "subject": "Bangladesh",
+     "object": "Bengali",
+     "object_alts": [],
+     "prompt": "The official language of Bangladesh is",
+     "target": "Bengali"
+    },
+    "hi": {
+     "subject": "बांग्लादेश",
+     "object": "बांग्ला",
+     "object_alts": [],
+     "prompt": "प्रश्न: बांग्लादेश की आधिकारिक भाषा क्या है?\nउत्तर:",
+     "target": "बांग्ला"
+    }
+   }
+  }
+ ]
+}

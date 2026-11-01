@@ -1,0 +1,1287 @@
+{
+ "model": "meta-llama/Llama-3.2-3B-Instruct",
+ "templates": {
+  "official_language": [
+   "The official language of {s} is",
+   "La lengua oficial de {s} es"
+  ],
+  "currency": [
+   "The currency of {s} is",
+   "La moneda de {s} es"
+  ],
+  "profession": [
+   "{S} was a famous",
+   "{S} fue un famoso"
+  ],
+  "book_author": [
+   "{S} was written by",
+   "{S} fue escrito por"
+  ]
+ },
+ "summary": {
+  "book_author": {
+   "tune_n": 8,
+   "tune_en": 8,
+   "tune_es": 7,
+   "eval_n": 21,
+   "eval_both": 13,
+   "template_ok": true
+  },
+  "currency": {
+   "tune_n": 8,
+   "tune_en": 0,
+   "tune_es": 8,
+   "eval_n": 23,
+   "eval_both": 8,
+   "template_ok": false
+  },
+  "official_language": {
+   "tune_n": 8,
+   "tune_en": 7,
+   "tune_es": 7,
+   "eval_n": 44,
+   "eval_both": 40,
+   "template_ok": true
+  },
+  "profession": {
+   "tune_n": 8,
+   "tune_en": 2,
+   "tune_es": 8,
+   "eval_n": 30,
+   "eval_both": 4,
+   "template_ok": false
+  }
+ },
+ "n_kept": 53,
+ "facts": [
+  {
+   "id": "book_author_010",
+   "relation": "book_author",
+   "seed": 185937700,
+   "lang": {
+    "en": {
+     "subject": "Les Misérables",
+     "object": "Victor Hugo",
+     "object_alts": [
+      "Hugo"
+     ],
+     "prompt": "Les Misérables was written by",
+     "target": "Victor Hugo"
+    },
+    "es": {
+     "subject": "Los miserables",
+     "object": "Victor Hugo",
+     "object_alts": [
+      "Hugo"
+     ],
+     "prompt": "Los miserables fue escrito por",
+     "target": "Victor Hugo"
+    }
+   }
+  },
+  {
+   "id": "book_author_011",
+   "relation": "book_author",
+   "seed": 1994065953,
+   "lang": {
+    "en": {
+     "subject": "The Odyssey",
+     "object": "Homer",
+     "object_alts": [],
+     "prompt": "The Odyssey was written by",
+     "target": "Homer"
+    },
+    "es": {
+     "subject": "la Odisea",
+     "object": "Homero",
+     "object_alts": [],
+     "prompt": "La Odisea fue escrito por",
+     "target": "Homero"
+    }
+   }
+  },
+  {
+   "id": "book_author_012",
+   "relation": "book_author",
+   "seed": 1599631146,
+   "lang": {
+    "en": {
+     "subject": "The Iliad",
+     "object": "Homer",
+     "object_alts": [],
+     "prompt": "The Iliad was written by",
+     "target": "Homer"
+    },
+    "es": {
+     "subject": "la Ilíada",
+     "object": "Homero",
+     "object_alts": [],
+     "prompt": "La Ilíada fue escrito por",
+     "target": "Homero"
+    }
+   }
+  },
+  {
+   "id": "book_author_013",
+   "relation": "book_author",
+   "seed": 186249684,
+   "lang": {
+    "en": {
+     "subject": "The Divine Comedy",
+     "object": "Dante Alighieri",
+     "object_alts": [
+      "Dante"
+     ],
+     "prompt": "The Divine Comedy was written by",
+     "target": "Dante Alighieri"
+    },
+    "es": {
+     "subject": "La divina comedia",
+     "object": "Dante Alighieri",
+     "object_alts": [
+      "Dante"
+     ],
+     "prompt": "La divina comedia fue escrito por",
+     "target": "Dante Alighieri"
+    }
+   }
+  },
+  {
+   "id": "book_author_015",
+   "relation": "book_author",
+   "seed": 203116978,
+   "lang": {
+    "en": {
+     "subject": "Frankenstein",
+     "object": "Mary Shelley",
+     "object_alts": [],
+     "prompt": "Frankenstein was written by",
+     "target": "Mary Shelley"
+    },
+    "es": {
+     "subject": "Frankenstein",
+     "object": "Mary Shelley",
+     "object_alts": [],
+     "prompt": "Frankenstein fue escrito por",
+     "target": "Mary Shelley"
+    }
+   }
+  },
+  {
+   "id": "book_author_016",
+   "relation": "book_author",
+   "seed": 703915277,
+   "lang": {
+    "en": {
+     "subject": "Dracula",
+     "object": "Bram Stoker",
+     "object_alts": [],
+     "prompt": "Dracula was written by",
+     "target": "Bram Stoker"
+    },
+    "es": {
+     "subject": "Drácula",
+     "object": "Bram Stoker",
+     "object_alts": [],
+     "prompt": "Drácula fue escrito por",
+     "target": "Bram Stoker"
+    }
+   }
+  },
+  {
+   "id": "book_author_018",
+   "relation": "book_author",
+   "seed": 1324330278,
+   "lang": {
+    "en": {
+     "subject": "Moby-Dick",
+     "object": "Herman Melville",
+     "object_alts": [
+      "Melville"
+     ],
+     "prompt": "Moby-Dick was written by",
+     "target": "Herman Melville"
+    },
+    "es": {
+     "subject": "Moby Dick",
+     "object": "Herman Melville",
+     "object_alts": [
+      "Melville"
+     ],
+     "prompt": "Moby Dick fue escrito por",
+     "target": "Herman Melville"
+    }
+   }
+  },
+  {
+   "id": "book_author_019",
+   "relation": "book_author",
+   "seed": 1249188428,
+   "lang": {
+    "en": {
+     "subject": "The Great Gatsby",
+     "object": "F. Scott Fitzgerald",
+     "object_alts": [
+      "Fitzgerald"
+     ],
+     "prompt": "The Great Gatsby was written by",
+     "target": "F. Scott Fitzgerald"
+    },
+    "es": {
+     "subject": "El gran Gatsby",
+     "object": "F. Scott Fitzgerald",
+     "object_alts": [
+      "Fitzgerald"
+     ],
+     "prompt": "El gran Gatsby fue escrito por",
+     "target": "F. Scott Fitzgerald"
+    }
+   }
+  },
+  {
+   "id": "book_author_021",
+   "relation": "book_author",
+   "seed": 754537352,
+   "lang": {
+    "en": {
+     "subject": "Alice's Adventures in Wonderland",
+     "object": "Lewis Carroll",
+     "object_alts": [
+      "Carroll"
+     ],
+     "prompt": "Alice's Adventures in Wonderland was written by",
+     "target": "Lewis Carroll"
+    },
+    "es": {
+     "subject": "Alicia en el país de las maravillas",
+     "object": "Lewis Carroll",
+     "object_alts": [
+      "Carroll"
+     ],
+     "prompt": "Alicia en el país de las maravillas fue escrito por",
+     "target": "Lewis Carroll"
+    }
+   }
+  },
+  {
+   "id": "book_author_022",
+   "relation": "book_author",
+   "seed": 588178808,
+   "lang": {
+    "en": {
+     "subject": "Gulliver's Travels",
+     "object": "Jonathan Swift",
+     "object_alts": [
+      "Swift"
+     ],
+     "prompt": "Gulliver's Travels was written by",
+     "target": "Jonathan Swift"
+    },
+    "es": {
+     "subject": "Los viajes de Gulliver",
+     "object": "Jonathan Swift",
+     "object_alts": [
+      "Swift"
+     ],
+     "prompt": "Los viajes de Gulliver fue escrito por",
+     "target": "Jonathan Swift"
+    }
+   }
+  },
+  {
+   "id": "book_author_023",
+   "relation": "book_author",
+   "seed": 259496996,
+   "lang": {
+    "en": {
+     "subject": "Robinson Crusoe",
+     "object": "Daniel Defoe",
+     "object_alts": [
+      "Defoe"
+     ],
+     "prompt": "Robinson Crusoe was written by",
+     "target": "Daniel Defoe"
+    },
+    "es": {
+     "subject": "Robinson Crusoe",
+     "object": "Daniel Defoe",
+     "object_alts": [
+      "Defoe"
+     ],
+     "prompt": "Robinson Crusoe fue escrito por",
+     "target": "Daniel Defoe"
+    }
+   }
+  },
+  {
+   "id": "book_author_024",
+   "relation": "book_author",
+   "seed": 246432269,
+   "lang": {
+    "en": {
+     "subject": "Gitanjali",
+     "object": "Rabindranath Tagore",
+     "object_alts": [
+      "Tagore"
+     ],
+     "prompt": "Gitanjali was written by",
+     "target": "Rabindranath Tagore"
+    },
+    "es": {
+     "subject": "Gitanjali",
+     "object": "Rabindranath Tagore",
+     "object_alts": [
+      "Tagore"
+     ],
+     "prompt": "Gitanjali fue escrito por",
+     "target": "Rabindranath Tagore"
+    }
+   }
+  },
+  {
+   "id": "book_author_028",
+   "relation": "book_author",
+   "seed": 300633400,
+   "lang": {
+    "en": {
+     "subject": "Don Quixote",
+     "object": "Miguel de Cervantes",
+     "object_alts": [
+      "Cervantes"
+     ],
+     "prompt": "Don Quixote was written by",
+     "target": "Miguel de Cervantes"
+    },
+    "es": {
+     "subject": "Don Quijote de la Mancha",
+     "object": "Miguel de Cervantes",
+     "object_alts": [
+      "Cervantes"
+     ],
+     "prompt": "Don Quijote de la Mancha fue escrito por",
+     "target": "Miguel de Cervantes"
+    }
+   }
+  },
+  {
+   "id": "official_language_008",
+   "relation": "official_language",
+   "seed": 1847880700,
+   "lang": {
+    "en": {
+     "subject": "Chile",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompt": "The official language of Chile is",
+     "target": "Spanish"
+    },
+    "es": {
+     "subject": "Chile",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompt": "La lengua oficial de Chile es",
+     "target": "el español"
+    }
+   }
+  },
+  {
+   "id": "official_language_009",
+   "relation": "official_language",
+   "seed": 1665946233,
+   "lang": {
+    "en": {
+     "subject": "Colombia",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompt": "The official language of Colombia is",
+     "target": "Spanish"
+    },
+    "es": {
+     "subject": "Colombia",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompt": "La lengua oficial de Colombia es",
+     "target": "el español"
+    }
+   }
+  },
+  {
+   "id": "official_language_010",
+   "relation": "official_language",
+   "seed": 1745606310,
+   "lang": {
+    "en": {
+     "subject": "Cuba",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompt": "The official language of Cuba is",
+     "target": "Spanish"
+    },
+    "es": {
+     "subject": "Cuba",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompt": "La lengua oficial de Cuba es",
+     "target": "el español"
+    }
+   }
+  },
+  {
+   "id": "official_language_011",
+   "relation": "official_language",
+   "seed": 841215198,
+   "lang": {
+    "en": {
+     "subject": "Venezuela",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompt": "The official language of Venezuela is",
+     "target": "Spanish"
+    },
+    "es": {
+     "subject": "Venezuela",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompt": "La lengua oficial de Venezuela es",
+     "target": "el español"
+    }
+   }
+  },
+  {
+   "id": "official_language_012",
+   "relation": "official_language",
+   "seed": 1079488814,
+   "lang": {
+    "en": {
+     "subject": "Uruguay",
+     "object": "Spanish",
+     "object_alts": [],
+     "prompt": "The official language of Uruguay is",
+     "target": "Spanish"
+    },
+    "es": {
+     "subject": "Uruguay",
+     "object": "español",
+     "object_alts": [
+      "el español"
+     ],
+     "prompt": "La lengua oficial de Uruguay es",
+     "target": "el español"
+    }
+   }
+  },
+  {
+   "id": "official_language_013",
+   "relation": "official_language",
+   "seed": 469802337,
+   "lang": {
+    "en": {
+     "subject": "Germany",
+     "object": "German",
+     "object_alts": [],
+     "prompt": "The official language of Germany is",
+     "target": "German"
+    },
+    "es": {
+     "subject": "Alemania",
+     "object": "alemán",
+     "object_alts": [
+      "el alemán"
+     ],
+     "prompt": "La lengua oficial de Alemania es",
+     "target": "el alemán"
+    }
+   }
+  },
+  {
+   "id": "official_language_014",
+   "relation": "official_language",
+   "seed": 449176735,
+   "lang": {
+    "en": {
+     "subject": "Austria",
+     "object": "German",
+     "object_alts": [],
+     "prompt": "The official language of Austria is",
+     "target": "German"
+    },
+    "es": {
+     "subject": "Austria",
+     "object": "alemán",
+     "object_alts": [
+      "el alemán"
+     ],
+     "prompt": "La lengua oficial de Austria es",
+     "target": "el alemán"
+    }
+   }
+  },
+  {
+   "id": "official_language_015",
+   "relation": "official_language",
+   "seed": 2091376223,
+   "lang": {
+    "en": {
+     "subject": "Italy",
+     "object": "Italian",
+     "object_alts": [],
+     "prompt": "The official language of Italy is",
+     "target": "Italian"
+    },
+    "es": {
+     "subject": "Italia",
+     "object": "italiano",
+     "object_alts": [
+      "el italiano"
+     ],
+     "prompt": "La lengua oficial de Italia es",
+     "target": "el italiano"
+    }
+   }
+  },
+  {
+   "id": "official_language_016",
+   "relation": "official_language",
+   "seed": 1172427566,
+   "lang": {
+    "en": {
+     "subject": "France",
+     "object": "French",
+     "object_alts": [],
+     "prompt": "The official language of France is",
+     "target": "French"
+    },
+    "es": {
+     "subject": "Francia",
+     "object": "francés",
+     "object_alts": [
+      "el francés"
+     ],
+     "prompt": "La lengua oficial de Francia es",
+     "target": "el francés"
+    }
+   }
+  },
+  {
+   "id": "official_language_017",
+   "relation": "official_language",
+   "seed": 458001995,
+   "lang": {
+    "en": {
+     "subject": "Greece",
+     "object": "Greek",
+     "object_alts": [],
+     "prompt": "The official language of Greece is",
+     "target": "Greek"
+    },
+    "es": {
+     "subject": "Grecia",
+     "object": "griego",
+     "object_alts": [
+      "el griego"
+     ],
+     "prompt": "La lengua oficial de Grecia es",
+     "target": "el griego"
+    }
+   }
+  },
+  {
+   "id": "official_language_018",
+   "relation": "official_language",
+   "seed": 57565559,
+   "lang": {
+    "en": {
+     "subject": "Turkey",
+     "object": "Turkish",
+     "object_alts": [],
+     "prompt": "The official language of Turkey is",
+     "target": "Turkish"
+    },
+    "es": {
+     "subject": "Turquía",
+     "object": "turco",
+     "object_alts": [
+      "el turco"
+     ],
+     "prompt": "La lengua oficial de Turquía es",
+     "target": "el turco"
+    }
+   }
+  },
+  {
+   "id": "official_language_019",
+   "relation": "official_language",
+   "seed": 1874609501,
+   "lang": {
+    "en": {
+     "subject": "Sweden",
+     "object": "Swedish",
+     "object_alts": [],
+     "prompt": "The official language of Sweden is",
+     "target": "Swedish"
+    },
+    "es": {
+     "subject": "Suecia",
+     "object": "sueco",
+     "object_alts": [
+      "el sueco"
+     ],
+     "prompt": "La lengua oficial de Suecia es",
+     "target": "el sueco"
+    }
+   }
+  },
+  {
+   "id": "official_language_020",
+   "relation": "official_language",
+   "seed": 1717609296,
+   "lang": {
+    "en": {
+     "subject": "Norway",
+     "object": "Norwegian",
+     "object_alts": [],
+     "prompt": "The official language of Norway is",
+     "target": "Norwegian"
+    },
+    "es": {
+     "subject": "Noruega",
+     "object": "noruego",
+     "object_alts": [
+      "el noruego"
+     ],
+     "prompt": "La lengua oficial de Noruega es",
+     "target": "el noruego"
+    }
+   }
+  },
+  {
+   "id": "official_language_021",
+   "relation": "official_language",
+   "seed": 883610080,
+   "lang": {
+    "en": {
+     "subject": "Denmark",
+     "object": "Danish",
+     "object_alts": [],
+     "prompt": "The official language of Denmark is",
+     "target": "Danish"
+    },
+    "es": {
+     "subject": "Dinamarca",
+     "object": "danés",
+     "object_alts": [
+      "el danés"
+     ],
+     "prompt": "La lengua oficial de Dinamarca es",
+     "target": "el danés"
+    }
+   }
+  },
+  {
+   "id": "official_language_022",
+   "relation": "official_language",
+   "seed": 1060569089,
+   "lang": {
+    "en": {
+     "subject": "Poland",
+     "object": "Polish",
+     "object_alts": [],
+     "prompt": "The official language of Poland is",
+     "target": "Polish"
+    },
+    "es": {
+     "subject": "Polonia",
+     "object": "polaco",
+     "object_alts": [
+      "el polaco"
+     ],
+     "prompt": "La lengua oficial de Polonia es",
+     "target": "el polaco"
+    }
+   }
+  },
+  {
+   "id": "official_language_023",
+   "relation": "official_language",
+   "seed": 1838943538,
+   "lang": {
+    "en": {
+     "subject": "the Netherlands",
+     "object": "Dutch",
+     "object_alts": [],
+     "prompt": "The official language of the Netherlands is",
+     "target": "Dutch"
+    },
+    "es": {
+     "subject": "los Países Bajos",
+     "object": "neerlandés",
+     "object_alts": [
+      "el neerlandés"
+     ],
+     "prompt": "La lengua oficial de los Países Bajos es",
+     "target": "el neerlandés"
+    }
+   }
+  },
+  {
+   "id": "official_language_024",
+   "relation": "official_language",
+   "seed": 581117476,
+   "lang": {
+    "en": {
+     "subject": "Hungary",
+     "object": "Hungarian",
+     "object_alts": [],
+     "prompt": "The official language of Hungary is",
+     "target": "Hungarian"
+    },
+    "es": {
+     "subject": "Hungría",
+     "object": "húngaro",
+     "object_alts": [
+      "el húngaro"
+     ],
+     "prompt": "La lengua oficial de Hungría es",
+     "target": "el húngaro"
+    }
+   }
+  },
+  {
+   "id": "official_language_025",
+   "relation": "official_language",
+   "seed": 1848067076,
+   "lang": {
+    "en": {
+     "subject": "Romania",
+     "object": "Romanian",
+     "object_alts": [],
+     "prompt": "The official language of Romania is",
+     "target": "Romanian"
+    },
+    "es": {
+     "subject": "Rumania",
+     "object": "rumano",
+     "object_alts": [
+      "el rumano"
+     ],
+     "prompt": "La lengua oficial de Rumania es",
+     "target": "el rumano"
+    }
+   }
+  },
+  {
+   "id": "official_language_026",
+   "relation": "official_language",
+   "seed": 1260178514,
+   "lang": {
+    "en": {
+     "subject": "Ukraine",
+     "object": "Ukrainian",
+     "object_alts": [],
+     "prompt": "The official language of Ukraine is",
+     "target": "Ukrainian"
+    },
+    "es": {
+     "subject": "Ucrania",
+     "object": "ucraniano",
+     "object_alts": [
+      "el ucraniano"
+     ],
+     "prompt": "La lengua oficial de Ucrania es",
+     "target": "el ucraniano"
+    }
+   }
+  },
+  {
+   "id": "official_language_027",
+   "relation": "official_language",
+   "seed": 1404846479,
+   "lang": {
+    "en": {
+     "subject": "Bulgaria",
+     "object": "Bulgarian",
+     "object_alts": [],
+     "prompt": "The official language of Bulgaria is",
+     "target": "Bulgarian"
+    },
+    "es": {
+     "subject": "Bulgaria",
+     "object": "búlgaro",
+     "object_alts": [
+      "el búlgaro"
+     ],
+     "prompt": "La lengua oficial de Bulgaria es",
+     "target": "el búlgaro"
+    }
+   }
+  },
+  {
+   "id": "official_language_028",
+   "relation": "official_language",
+   "seed": 1063308356,
+   "lang": {
+    "en": {
+     "subject": "Croatia",
+     "object": "Croatian",
+     "object_alts": [],
+     "prompt": "The official language of Croatia is",
+     "target": "Croatian"
+    },
+    "es": {
+     "subject": "Croacia",
+     "object": "croata",
+     "object_alts": [
+      "el croata"
+     ],
+     "prompt": "La lengua oficial de Croacia es",
+     "target": "el croata"
+    }
+   }
+  },
+  {
+   "id": "official_language_029",
+   "relation": "official_language",
+   "seed": 469970616,
+   "lang": {
+    "en": {
+     "subject": "Serbia",
+     "object": "Serbian",
+     "object_alts": [],
+     "prompt": "The official language of Serbia is",
+     "target": "Serbian"
+    },
+    "es": {
+     "subject": "Serbia",
+     "object": "serbio",
+     "object_alts": [
+      "el serbio"
+     ],
+     "prompt": "La lengua oficial de Serbia es",
+     "target": "el serbio"
+    }
+   }
+  },
+  {
+   "id": "official_language_030",
+   "relation": "official_language",
+   "seed": 209496274,
+   "lang": {
+    "en": {
+     "subject": "Iceland",
+     "object": "Icelandic",
+     "object_alts": [],
+     "prompt": "The official language of Iceland is",
+     "target": "Icelandic"
+    },
+    "es": {
+     "subject": "Islandia",
+     "object": "islandés",
+     "object_alts": [
+      "el islandés"
+     ],
+     "prompt": "La lengua oficial de Islandia es",
+     "target": "islandés"
+    }
+   }
+  },
+  {
+   "id": "official_language_031",
+   "relation": "official_language",
+   "seed": 1276226141,
+   "lang": {
+    "en": {
+     "subject": "Mongolia",
+     "object": "Mongolian",
+     "object_alts": [],
+     "prompt": "The official language of Mongolia is",
+     "target": "Mongolian"
+    },
+    "es": {
+     "subject": "Mongolia",
+     "object": "mongol",
+     "object_alts": [
+      "el mongol"
+     ],
+     "prompt": "La lengua oficial de Mongolia es",
+     "target": "el mongol"
+    }
+   }
+  },
+  {
+   "id": "official_language_032",
+   "relation": "official_language",
+   "seed": 834144159,
+   "lang": {
+    "en": {
+     "subject": "South Korea",
+     "object": "Korean",
+     "object_alts": [],
+     "prompt": "The official language of South Korea is",
+     "target": "Korean"
+    },
+    "es": {
+     "subject": "Corea del Sur",
+     "object": "coreano",
+     "object_alts": [
+      "el coreano"
+     ],
+     "prompt": "La lengua oficial de Corea del Sur es",
+     "target": "el coreano"
+    }
+   }
+  },
+  {
+   "id": "official_language_033",
+   "relation": "official_language",
+   "seed": 1497389224,
+   "lang": {
+    "en": {
+     "subject": "Thailand",
+     "object": "Thai",
+     "object_alts": [],
+     "prompt": "The official language of Thailand is",
+     "target": "Thai"
+    },
+    "es": {
+     "subject": "Tailandia",
+     "object": "tailandés",
+     "object_alts": [
+      "el tailandés"
+     ],
+     "prompt": "La lengua oficial de Tailandia es",
+     "target": "el tailandés"
+    }
+   }
+  },
+  {
+   "id": "official_language_034",
+   "relation": "official_language",
+   "seed": 2048746959,
+   "lang": {
+    "en": {
+     "subject": "Vietnam",
+     "object": "Vietnamese",
+     "object_alts": [],
+     "prompt": "The official language of Vietnam is",
+     "target": "Vietnamese"
+    },
+    "es": {
+     "subject": "Vietnam",
+     "object": "vietnamita",
+     "object_alts": [
+      "el vietnamita"
+     ],
+     "prompt": "La lengua oficial de Vietnam es",
+     "target": "el vietnamita"
+    }
+   }
+  },
+  {
+   "id": "official_language_036",
+   "relation": "official_language",
+   "seed": 1632970490,
+   "lang": {
+    "en": {
+     "subject": "Saudi Arabia",
+     "object": "Arabic",
+     "object_alts": [],
+     "prompt": "The official language of Saudi Arabia is",
+     "target": "Arabic"
+    },
+    "es": {
+     "subject": "Arabia Saudita",
+     "object": "árabe",
+     "object_alts": [
+      "el árabe"
+     ],
+     "prompt": "La lengua oficial de Arabia Saudita es",
+     "target": "el árabe"
+    }
+   }
+  },
+  {
+   "id": "official_language_037",
+   "relation": "official_language",
+   "seed": 1794712925,
+   "lang": {
+    "en": {
+     "subject": "Egypt",
+     "object": "Arabic",
+     "object_alts": [],
+     "prompt": "The official language of Egypt is",
+     "target": "Arabic"
+    },
+    "es": {
+     "subject": "Egipto",
+     "object": "árabe",
+     "object_alts": [
+      "el árabe"
+     ],
+     "prompt": "La lengua oficial de Egipto es",
+     "target": "el árabe"
+    }
+   }
+  },
+  {
+   "id": "official_language_038",
+   "relation": "official_language",
+   "seed": 2116925340,
+   "lang": {
+    "en": {
+     "subject": "Libya",
+     "object": "Arabic",
+     "object_alts": [],
+     "prompt": "The official language of Libya is",
+     "target": "Arabic"
+    },
+    "es": {
+     "subject": "Libia",
+     "object": "árabe",
+     "object_alts": [
+      "el árabe"
+     ],
+     "prompt": "La lengua oficial de Libia es",
+     "target": "el árabe"
+    }
+   }
+  },
+  {
+   "id": "official_language_039",
+   "relation": "official_language",
+   "seed": 224852703,
+   "lang": {
+    "en": {
+     "subject": "Israel",
+     "object": "Hebrew",
+     "object_alts": [],
+     "prompt": "The official language of Israel is",
+     "target": "Hebrew"
+    },
+    "es": {
+     "subject": "Israel",
+     "object": "hebreo",
+     "object_alts": [
+      "el hebreo"
+     ],
+     "prompt": "La lengua oficial de Israel es",
+     "target": "el hebreo"
+    }
+   }
+  },
+  {
+   "id": "official_language_040",
+   "relation": "official_language",
+   "seed": 1861214709,
+   "lang": {
+    "en": {
+     "subject": "the Czech Republic",
+     "object": "Czech",
+     "object_alts": [],
+     "prompt": "The official language of the Czech Republic is",
+     "target": "Czech"
+    },
+    "es": {
+     "subject": "la República Checa",
+     "object": "checo",
+     "object_alts": [
+      "el checo"
+     ],
+     "prompt": "La lengua oficial de la República Checa es",
+     "target": "el checo"
+    }
+   }
+  },
+  {
+   "id": "official_language_041",
+   "relation": "official_language",
+   "seed": 565697381,
+   "lang": {
+    "en": {
+     "subject": "Slovakia",
+     "object": "Slovak",
+     "object_alts": [],
+     "prompt": "The official language of Slovakia is",
+     "target": "Slovak"
+    },
+    "es": {
+     "subject": "Eslovaquia",
+     "object": "eslovaco",
+     "object_alts": [
+      "el eslovaco"
+     ],
+     "prompt": "La lengua oficial de Eslovaquia es",
+     "target": "el eslovaco"
+    }
+   }
+  },
+  {
+   "id": "official_language_043",
+   "relation": "official_language",
+   "seed": 829555227,
+   "lang": {
+    "en": {
+     "subject": "Estonia",
+     "object": "Estonian",
+     "object_alts": [],
+     "prompt": "The official language of Estonia is",
+     "target": "Estonian"
+    },
+    "es": {
+     "subject": "Estonia",
+     "object": "estonio",
+     "object_alts": [
+      "el estonio"
+     ],
+     "prompt": "La lengua oficial de Estonia es",
+     "target": "el estonio"
+    }
+   }
+  },
+  {
+   "id": "official_language_045",
+   "relation": "official_language",
+   "seed": 241008756,
+   "lang": {
+    "en": {
+     "subject": "Lithuania",
+     "object": "Lithuanian",
+     "object_alts": [],
+     "prompt": "The official language of Lithuania is",
+     "target": "Lithuanian"
+    },
+    "es": {
+     "subject": "Lituania",
+     "object": "lituano",
+     "object_alts": [
+      "el lituano"
+     ],
+     "prompt": "La lengua oficial de Lituania es",
+     "target": "el lituano"
+    }
+   }
+  },
+  {
+   "id": "official_language_046",
+   "relation": "official_language",
+   "seed": 2004632511,
+   "lang": {
+    "en": {
+     "subject": "Nepal",
+     "object": "Nepali",
+     "object_alts": [],
+     "prompt": "The official language of Nepal is",
+     "target": "Nepali"
+    },
+    "es": {
+     "subject": "Nepal",
+     "object": "nepalí",
+     "object_alts": [
+      "el nepalí"
+     ],
+     "prompt": "La lengua oficial de Nepal es",
+     "target": "el nepalí"
+    }
+   }
+  },
+  {
+   "id": "official_language_047",
+   "relation": "official_language",
+   "seed": 1906657826,
+   "lang": {
+    "en": {
+     "subject": "Bangladesh",
+     "object": "Bengali",
+     "object_alts": [],
+     "prompt": "The official language of Bangladesh is",
+     "target": "Bengali"
+    },
+    "es": {
+     "subject": "Bangladés",
+     "object": "bengalí",
+     "object_alts": [
+      "el bengalí"
+     ],
+     "prompt": "La lengua oficial de Bangladés es",
+     "target": "el bengalí"
+    }
+   }
+  },
+  {
+   "id": "official_language_048",
+   "relation": "official_language",
+   "seed": 507630515,
+   "lang": {
+    "en": {
+     "subject": "Indonesia",
+     "object": "Indonesian",
+     "object_alts": [],
+     "prompt": "The official language of Indonesia is",
+     "target": "Indonesian"
+    },
+    "es": {
+     "subject": "Indonesia",
+     "object": "indonesio",
+     "object_alts": [
+      "el indonesio"
+     ],
+     "prompt": "La lengua oficial de Indonesia es",
+     "target": "el indonesio"
+    }
+   }
+  },
+  {
+   "id": "official_language_049",
+   "relation": "official_language",
+   "seed": 1999779231,
+   "lang": {
+    "en": {
+     "subject": "Albania",
+     "object": "Albanian",
+     "object_alts": [],
+     "prompt": "The official language of Albania is",
+     "target": "Albanian"
+    },
+    "es": {
+     "subject": "Albania",
+     "object": "albanés",
+     "object_alts": [
+      "el albanés"
+     ],
+     "prompt": "La lengua oficial de Albania es",
+     "target": "el albanés"
+    }
+   }
+  },
+  {
+   "id": "official_language_051",
+   "relation": "official_language",
+   "seed": 1329285823,
+   "lang": {
+    "en": {
+     "subject": "Armenia",
+     "object": "Armenian",
+     "object_alts": [],
+     "prompt": "The official language of Armenia is",
+     "target": "Armenian"
+    },
+    "es": {
+     "subject": "Armenia",
+     "object": "armenio",
+     "object_alts": [
+      "el armenio"
+     ],
+     "prompt": "La lengua oficial de Armenia es",
+     "target": "el armenio"
+    }
+   }
+  }
+ ]
+}
